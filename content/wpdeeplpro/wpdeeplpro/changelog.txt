@@ -1,0 +1,20 @@
+2.2.3
+full compatibilty with Polylang and batch translate
+2.2 17/10/2023
+Bulk translation allows creation (or replacement) of the selected posts. Compatibility with Metabox
+2.1.9 04/09/2023
+blocks ACF featured
+2.1.8 13/03/2023 11:15:40
+bugfix
+2.1.7 03/03/2023 15:55:59
+fixing not set notice
+2.1.6 28/02/2023 20:34:20
+bugfix
+2.1.5
+extended post types
+2.1.2 10/02/2023 10:52:41
+fix bulk translation post types selection
+2.1 03/02/2023 12:31:20
+commentaires
+2.0 22/12/2022 09:15:33
+compatibilité nouvelle version. ajout des custom fields
