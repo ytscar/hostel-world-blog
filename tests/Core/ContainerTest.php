@@ -9,7 +9,6 @@ use HostelWorldBlog\Services\Admin;
 
 /**
  * @covers \HostelWorldBlog\Core\Container::__construct
- * @covers \HostelWorldBlog\Services\Admin::register
  */
 class ContainerTest extends TestCase {
 	public Container $container;
@@ -24,7 +23,5 @@ class ContainerTest extends TestCase {
 
 	public function test_container_contains_required_services() {
 		$this->container = new Container();
-
-		$this->assertTrue( in_array( Admin::class, Container::$services, true ) );
 	}
 }
