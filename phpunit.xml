@@ -26,5 +26,8 @@
 		<include>
 			<directory suffix=".php">inc</directory>
 		</include>
+		<exclude>
+			<directory suffix=".php">content</directory>
+		</exclude>
 	</coverage>
 </phpunit>
