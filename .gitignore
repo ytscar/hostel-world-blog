@@ -65,4 +65,9 @@ Thumbs.db
 
 # WP Content folders #
 #################
-content
+content/updraft
+content/upgrade
+content/uploads
+content/upgrade-temp-backup
+content/wpvivid_uploads
+content/wpvividbackups
