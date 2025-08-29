@@ -1,0 +1,11 @@
+.editorconfig
+.gitignore
+.wp-env.json
+package.json
+phpcs.xml
+phpunit.xml
+README.md
+bin
+content
+tests
+hostelworldblog.sql
