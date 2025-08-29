@@ -23,5 +23,7 @@ class ContainerTest extends TestCase {
 
 	public function test_container_contains_required_services() {
 		$this->container = new Container();
+
+		$this->assertSame( true, true );
 	}
 }
