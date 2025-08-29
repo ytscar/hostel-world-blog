@@ -8,6 +8,7 @@
 		"WP_HOME": "http://hostel-world-blog.localhost"
 	},
   "mappings": {
-    "wp-content": "./content"
+    "wp-content": "./content",
+    "hostelworldblog.sql": "./hostelworldblog.sql"
   }
 }
