@@ -1,0 +1,1343 @@
+# Translation of Plugins - Ultimate FAQ Accordion Plugin - Stable (latest release) in Dutch (Belgium)
+# This file is distributed under the same license as the Plugins - Ultimate FAQ Accordion Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-01-25 19:30:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl_BE\n"
+"Project-Id-Version: Plugins - Ultimate FAQ Accordion Plugin - Stable (latest release)\n"
+
+#. Author of the plugin
+#: ultimate-faqs.php
+msgid "Etoile Web Design"
+msgstr "Etoile Web Design"
+
+#: includes/AboutUs.class.php:28 includes/AboutUs.class.php:29
+msgid "About Us"
+msgstr "Over ons"
+
+#: includes/AboutUs.class.php:51
+msgid "Who We Are"
+msgstr "Wie we zijn"
+
+#: includes/AboutUs.class.php:98
+msgid "Feature"
+msgstr "Functie"
+
+#: ultimate-faqs.php:423
+msgid "Try Premium"
+msgstr "Probeer Premium"
+
+#: includes/AboutUs.class.php:198
+msgid "Import FAQs"
+msgstr "Importeer FAQs"
+
+#: includes/AboutUs.class.php:99
+msgid "Lite Version"
+msgstr "Lite versie"
+
+#: includes/AboutUs.class.php:100
+msgid "Premium Version"
+msgstr "Premium versie"
+
+#: includes/AboutUs.class.php:108
+msgid "FAQ Gutenberg blocks"
+msgstr "FAQ Gutenberg blokken"
+
+#: includes/AboutUs.class.php:138
+msgid "FAQ statistics"
+msgstr "FAQ statistieken"
+
+#: includes/AboutUs.class.php:55
+msgid "Lite vs. Premium"
+msgstr "Lite vs. Premium"
+
+#: includes/AboutUs.class.php:128
+msgid "Translation ready"
+msgstr "Klaar voor vertaling"
+
+#: includes/AboutUs.class.php:163
+msgid "FAQ submit form"
+msgstr "FAQ indiening formulier"
+
+#: includes/AboutUs.class.php:213
+msgid "Labelling options"
+msgstr "Label opties"
+
+#: includes/AboutUs.class.php:242
+msgid "Please describe your feature idea..."
+msgstr "Beschrijf je functie idee..."
+
+#: includes/AboutUs.class.php:143
+msgid "Comments on FAQs"
+msgstr "Reacties op FAQs"
+
+#: includes/AboutUs.class.php:113
+msgid "Accordion layout"
+msgstr "Accordeon lay-out"
+
+#: includes/AboutUs.class.php:123
+msgid "Sorting and ordering options"
+msgstr "Sortering en rangschakking opties"
+
+#: includes/AboutUs.class.php:59
+msgid "Getting Started"
+msgstr "Ga aan de slag"
+
+#: includes/AboutUs.class.php:63
+msgid "Suggest a Feature"
+msgstr "Een functie voorstellen"
+
+#: includes/AboutUs.class.php:94
+msgid "The following table provides a comparison of the lite and premium versions."
+msgstr "De volgende tabel geeft een vergelijking van de lite en premium versies."
+
+#: includes/AboutUs.class.php:188 includes/AboutUs.class.php:208
+msgid "Advanced styling options"
+msgstr "Geavanceerde styling opties"
+
+#: includes/AboutUs.class.php:203
+msgid "Share FAQs on social media"
+msgstr "Delen van FAQs op social media"
+
+#: includes/AboutUs.class.php:219
+msgid "<a href=\"%s\" target=\"_blank\" class=\"ewd-ufaq-about-us-tab-button ewd-ufaq-about-us-tab-button-purchase\">Buy Premium Version</a>"
+msgstr "<a href=\"%s\" target=\"_blank\" class=\"ewd-ufaq-about-us-tab-button ewd-ufaq-about-us-tab-button-purchase\">Koop Premium versie</a>"
+
+#: includes/AboutUs.class.php:225
+msgid "The walk-though that ran when you first activated the plugin offers a quick way to get started with setting it up. If you would like to run through it again, just click the button below"
+msgstr "De doorloop die liep toen je de plugin voor het eerst activeerde, biedt een snelle manier om aan de slag te gaan met het instellen ervan. Als jee er nogmaals doorheen wil lopen, klik je gewoon op de onderstaande knop"
+
+#: includes/AboutUs.class.php:227
+msgid "<a href=\"%s\" class=\"ewd-ufaq-about-us-tab-button ewd-ufaq-about-us-tab-button-walkthrough\">Re-Run Walk-Through</a>"
+msgstr "<a href=\"%s\" class=\"ewd-ufaq-about-us-tab-button ewd-ufaq-about-us-tab-button-walkthrough\">Walkthrough opnieuw uitvoeren</a>"
+
+#: includes/AboutUs.class.php:229
+msgid "We also have a series of video tutorials that cover the available settings as well as key features of the plugin."
+msgstr "We hebben ook een reeks videozelfstudies die de beschikbare instellingen en de belangrijkste functies van de plugin behandelen."
+
+#: includes/AboutUs.class.php:231
+msgid "<a href=\"%s\" target=\"_blank\" class=\"ewd-ufaq-about-us-tab-button ewd-ufaq-about-us-tab-button-youtube\">YouTube Playlist</a>"
+msgstr "<a href=\"%s\" target=\"_blank\" class=\"ewd-ufaq-about-us-tab-button ewd-ufaq-about-us-tab-button-youtube\">YouTube afspeellijst</a>"
+
+#: includes/AboutUs.class.php:240
+msgid "You can use the form below to let us know about a feature suggestion you might have."
+msgstr "Je kan het onderstaande formulier gebruiken om ons op de hoogte te stellen van een functie suggestie die je mogelijk hebt."
+
+#: includes/AboutUs.class.php:178
+msgid "Icon and animation options"
+msgstr "Icoon en animatie opties"
+
+#: includes/AboutUs.class.php:193
+msgid "Export FAQs to PDF or spreadsheet"
+msgstr "Exporteer FAQs naar PDF of spreadsheet"
+
+#: includes/AboutUs.class.php:173
+msgid "Add custom fields to your FAQs"
+msgstr "Aangepaste velden toevoegen aan je FAQ's"
+
+#: includes/AboutUs.class.php:183
+msgid "Pretty permalinks for FAQs and categories"
+msgstr "Mooie permalinks voor FAQ's en categorieën"
+
+#: includes/Settings.class.php:182
+msgid "Select a page on your site to automatically display all of the FAQs you have created. Alternatively, you can also use the blocks and shortcodes to display your FAQs on pages other than the one selected above."
+msgstr "Selecteer een pagina op je website om automatisch alle door je gemaakte FAQ's te tonen. Je kan ook de blokken en shortcodes gebruiken om je FAQ's op andere dan de hierboven geselecteerde pagina's te tonen."
+
+#: includes/AboutUs.class.php:118
+msgid "FAQ structured data"
+msgstr "FAQ gestructureerde gegevens"
+
+#: includes/AboutUs.class.php:133
+msgid "Style with custom CSS"
+msgstr "Stijl met aangepaste CSS"
+
+#: includes/AboutUs.class.php:148
+msgid "Advanced FAQ layouts"
+msgstr "Geavanceerde FAQ lay-outs"
+
+#: includes/AboutUs.class.php:168
+msgid "Drag and drop FAQ ordering"
+msgstr "Slepen en neerzetten van FAQ volgorde"
+
+#: includes/AboutUs.class.php:88
+msgid "The premium version of the Ultimate FAQ plugin includes a large number of features to extend the functionality of the plugin and offer your visitors the best possible FAQ experience. This includes advanced layout, styling and labelling options, drag and drop re-ordering, export and import functionality and an FAQ submission form, to let your visitors suggest their own FAQs for your site."
+msgstr "De premiumversie van de Ultimate FAQ plugin bevat een groot aantal functies om de functionaliteit van de plugin uit te breiden en je bezoekers de best mogelijke FAQ ervaring te bieden. Dit omvat geavanceerde lay-out, styling en labelopties, herordenen via slepen en neerzetten, export- en importfunctionaliteit en een formulier voor het indienen van veelgestelde vragen, zodat je bezoekers hun eigen veelgestelde vragen voor je website kunnen voorstellen."
+
+#: includes/AboutUs.class.php:90
+msgid "In order to make it as easy as possible for your visitors to find the information they are looking for, the premium plugin comes with a built-in <strong>FAQ search form</strong>, which uses asynchronous requests to <strong>search your whole database of FAQs in real time</strong>, without having to reload the page, and includes options to auto-complete the search, highlight search results and display all FAQs on initial page load."
+msgstr "Om het je bezoekers zo gemakkelijk mogelijk te maken om de informatie te vinden waarnaar ze op zoek zijn, wordt de premium plugin geleverd met een ingebouwd <strong>FAQ-zoekformulier</strong>, dat asynchrone verzoeken gebruikt om te <strong>zoeken je hele database met veelgestelde vragen in realtime</strong>, zonder dat je de pagina opnieuw hoeft te laden, en bevat opties om de zoekopdracht automatisch aan te vullen, zoekresultaten te markeren en alle veelgestelde vragen weer te geven wanneer de pagina voor het eerst wordt geladen."
+
+#: includes/AboutUs.class.php:92
+msgid "The premium version also comes with <strong>WooCommerce integration</strong>, so you can easily <strong>add FAQs tab to your product page</strong>, with options to either automatically add FAQs, by creating an FAQ category that matches the name of a WooCommerce product or category, or to <strong>manage FAQs directly from the product edit screen</strong>."
+msgstr "De premium-versie wordt ook geleverd met <strong>WooCommerce-integratie</strong>, zodat je eenvoudig <strong>het tabblad Veelgestelde vragen aan je productpagina kan toevoegen</strong>, met opties om ofwel automatisch veelgestelde vragen toe te voegen, door een categorie met veelgestelde vragen te maken die overeenkomt de naam van een WooCommerce product of categorie, of om <strong>veelgestelde vragen rechtstreeks vanuit het productbewerkingsscherm te beheren</strong>."
+
+#: includes/patterns/featured-faqs.php:6
+msgid "Featured FAQs"
+msgstr "Uitgelichte FAQs"
+
+#: includes/patterns/submit.php:6
+msgid "Submit Question"
+msgstr "Vraag indienen"
+
+#: includes/patterns/faqs.php:7
+msgctxt "Block pattern description"
+msgid "Adds your FAQs."
+msgstr "Je eigen FAQ's toevoegen."
+
+#: includes/Settings.class.php:77
+msgid "Please fill out the image number field."
+msgstr "Vul het veld met het afbeeldingnummer in."
+
+#: includes/patterns/submit.php:7
+msgctxt "Block pattern description"
+msgid "Adds the submit question form."
+msgstr "Voegt het formulier voor het indienen van vragen toe."
+
+#: includes/patterns/featured-faqs.php:7
+msgctxt "Block pattern description"
+msgid "Adds a list of featured FAQs. Use the available block attributes to specify which FAQs you would like to show."
+msgstr "Voegt een lijst met veelgestelde vragen toe. Gebruik de beschikbare blokattributen om aan te geven welke FAQ's je wilt tonen."
+
+#: includes/patterns/search.php:7
+msgctxt "Block pattern description"
+msgid "Adds the FAQ search form."
+msgstr "Voegt het FAQ-zoekformulier toe."
+
+#: includes/Settings.class.php:181
+msgid "FAQs Page"
+msgstr "FAQs pagina"
+
+#: includes/CustomPostTypes.class.php:314
+msgid "Current File:"
+msgstr "Huidig bestand:"
+
+#: ewd-ufaq-templates/faqs-category-header.php:5
+msgid "Click here to open %s"
+msgstr "Klik hier om %s te openen"
+
+#: ultimate-faqs.php:625
+msgid "Please re-activate the helper plugin, or <a target='_blank' href='%s'>download and install it</a> if the plugin is no longer installed to ensure continued access to the premium features of the plugin."
+msgstr "Activeer de helper plugin opnieuw, of <a target='_blank' href='%s'>download en installeer het</a> als de plugin niet langer is geïnstalleerd om ervoor te zorgen dat je toegang blijft houden tot de premium functies van de plugin."
+
+#: ultimate-faqs.php:623
+msgid "You're using the Ultimate FAQs premium version, but the premium helper plugin is not active."
+msgstr "Je maakt gebruik van Ultimate FAQs premium versie, maar de premium helper plugin is niet actief."
+
+#: views/View.class.php:131
+msgid "Enter your question..."
+msgstr "Voer je vraag in..."
+
+#: views/View.class.php:118
+msgid "on"
+msgstr "op"
+
+#: views/View.class.php:117
+msgid "by"
+msgstr "door"
+
+#: views/View.FAQ.class.php:562
+msgid "Tags:"
+msgstr "Tags:"
+
+#: views/View.FAQ.class.php:562
+msgid "Tag:"
+msgstr "Tag:"
+
+#: includes/Widgets.class.php:211
+msgid "Insert a number of popular FAQs."
+msgstr "Voeg een aantal van de meest populaire FAQs in."
+
+#: includes/OrderingTable.class.php:69
+msgid "Use the table below to set the order for your FAQs, either overall or within their categories depending on your selected settings."
+msgstr "Gebruik de onderstaande tabel om de volgorde van je FAQ's in te stellen, als geheel of binnen hun categorie, afhankelijk van de door je gekozen instellingen."
+
+#: includes/OrderingTable.class.php:28 includes/OrderingTable.class.php:29
+msgid "Ordering Table"
+msgstr "Volgorde tabel"
+
+#: views/View.class.php:139
+msgid "What answer should be displayed for this question?"
+msgstr "Welke antwoord moet getoond worden voor deze vraag?"
+
+#: includes/Settings.class.php:606 includes/Settings.class.php:724
+msgid "Labelling"
+msgstr "Labeling"
+
+#: includes/Settings.class.php:586 includes/Settings.class.php:709
+msgid "Fields"
+msgstr "Velden"
+
+#: includes/Settings.class.php:549
+msgid "Should FAQ be ascending or descending order, based on the ordering criteria above?"
+msgstr "Moet FAQ oplopend of aflopend zijn, gebaseerd op de bovenstaande criteria?"
+
+#: includes/Settings.class.php:548
+msgid "Sort FAQs Ordering"
+msgstr "Sorteer FAQ's volgorde"
+
+#: includes/InstallationWalkthrough.class.php:421
+#: includes/Settings.class.php:536
+msgid "Modified Date"
+msgstr "Datum van wijziging"
+
+#: includes/InstallationWalkthrough.class.php:419
+#: includes/Settings.class.php:534
+msgid "Created Date"
+msgstr "Aanmaakdatum"
+
+#: includes/InstallationWalkthrough.class.php:423
+#: includes/Settings.class.php:532
+msgid "How should individual FAQs be ordered?"
+msgstr "In welke volgorde moeten de individuele FAQ's staan?"
+
+#: includes/Settings.class.php:517 includes/Settings.class.php:552
+msgid "Descending"
+msgstr "Aflopend"
+
+#: includes/Settings.class.php:516 includes/Settings.class.php:551
+msgid "Ascending"
+msgstr "Oplopend"
+
+#: includes/Settings.class.php:513
+msgid "Sort Categories Ordering"
+msgstr "Sorteer categorieën volgorde"
+
+#: includes/Settings.class.php:500
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/Settings.class.php:499
+msgid "FAQ Count"
+msgstr "FAQ telling"
+
+#: includes/Settings.class.php:495 includes/Settings.class.php:514
+msgid "How should FAQ categories be ordered? (Only used if \"Group FAQs by Category\" above is enabled.)"
+msgstr "Hoe moeten de FAQ categorieën gerangschikt worden? (Alleen gebruikt als \"Groepeer FAQ's per categorie\" hierboven is ingeschakeld.)"
+
+#: includes/Settings.class.php:494
+msgid "Sort Categories"
+msgstr "Sorteer categorieën"
+
+#: includes/Settings.class.php:482
+msgid "If FAQs are grouped by category, should the number of FAQs in a category be displayed beside the category name?"
+msgstr "Als FAQ's per categorie zijn gegroepeerd, moet het aantal FAQ's in een categorie dan naast de categorienaam worden weergegeven?"
+
+#: includes/Settings.class.php:481
+msgid "Display FAQ Category Count"
+msgstr "Toon FAQ categorie telling"
+
+#: includes/InstallationWalkthrough.class.php:410
+#: includes/Settings.class.php:471
+msgid "Should FAQs be grouped by category, or should all categories be mixed together?"
+msgstr "Moeten FAQ's per categorie worden gegroepeerd, of moeten alle categorieën door elkaar worden gebruikt?"
+
+#: includes/Settings.class.php:449
+msgid "Ordering"
+msgstr "Volgorde"
+
+#: includes/AboutUs.class.php:158 includes/Settings.class.php:675
+msgid "WooCommerce FAQs"
+msgstr "WooCommerce FAQs"
+
+#: includes/Settings.class.php:566 includes/Settings.class.php:693
+#: includes/Settings.class.php:709 includes/Settings.class.php:724
+#: includes/Settings.class.php:740
+msgid "Premium"
+msgstr "Premium"
+
+#: includes/Settings.class.php:441
+msgid "Should a link to return to the top of the page be added to each FAQ post?"
+msgstr "Moet aan elk FAQ-bericht een link worden toegevoegd om terug te keren naar boven de pagina?"
+
+#: includes/Settings.class.php:440
+msgid "Display 'Back to Top'"
+msgstr "Toon 'Terug naar boven'"
+
+#: includes/Settings.class.php:430
+msgid "Should the date the post was created be displayed beneath the FAQ title?"
+msgstr "Moet de datum waarop het bericht werd aangemaakt onder de titel van de FAQ worden weergegeven?"
+
+#: includes/Settings.class.php:429
+msgid "Display Post Date"
+msgstr "Berichtdatum tonen"
+
+#: includes/Settings.class.php:419
+msgid "Should the display name of the post's author be displayed beneath the FAQ title?"
+msgstr "Moet de naam van de auteur van het bericht onder de titel van de FAQ worden weergegeven?"
+
+#: includes/Settings.class.php:418
+msgid "Display Post Author"
+msgstr "Berichtauteur weergeven"
+
+#: includes/Settings.class.php:408
+msgid "Should all answers be displayed when the page loads? (Careful if FAQ Accordion is on)"
+msgstr "Moeten alle antwoorden worden weergegeven als de pagina wordt geladen? (Voorzichtig als FAQ accordion aan staat)"
+
+#: includes/Settings.class.php:407
+msgid "Display All Answers"
+msgstr "Alle antwoorden weergeven"
+
+#: includes/Settings.class.php:397
+msgid "Should the tags for each FAQ be hidden?"
+msgstr "Moeten de tags voor elke FAQ verborgen worden?"
+
+#: includes/Settings.class.php:396
+msgid "Hide Tags"
+msgstr "Tags verbergen"
+
+#: includes/Settings.class.php:386
+msgid "Should the categories for each FAQ be hidden?"
+msgstr "Moeten de categorieën voor elke FAQ verborgen worden?"
+
+#: includes/Settings.class.php:385
+msgid "Hide Categories"
+msgstr "Verberg categorieën"
+
+#: includes/Settings.class.php:364
+msgid "Should there be a control to open and close all FAQs simultaneously?"
+msgstr "Moet er een bediening zijn om alle FAQ's tegelijk te openen en te sluiten?"
+
+#: includes/Settings.class.php:363
+msgid "FAQ Expand/Collapse All"
+msgstr "FAQ alles uitvouwen/invouwen"
+
+#: includes/Settings.class.php:351
+msgid "Should it only be possible to open one FAQ category at a time, if FAQ categories are being toggled (\"FAQ Category Toggle\" must be enabled above)?"
+msgstr "Moet het mogelijk zijn om slechts één FAQ-categorie tegelijk te openen, als FAQ-categorieën worden omgeschakeld (\"FAQ categorie toggle\" moet hierboven zijn ingeschakeld)?"
+
+#: includes/Settings.class.php:350
+msgid "FAQ Category Accordion"
+msgstr "FAQ categorie accordion"
+
+#: includes/Settings.class.php:340
+msgid "Should the FAQ categories hide/open when they are clicked, if FAQs are being grouped by category (\"Group FAQs by Category\" in the \"Ordering\" area)?"
+msgstr "Moeten de FAQ-categorieën worden verborgen/geopend wanneer erop wordt geklikt, als de FAQ's per categorie worden gegroepeerd (\"FAQ's groeperen per categorie\" in het \"Volgorde\" gebied)?"
+
+#: includes/Settings.class.php:339
+msgid "FAQ Category Toggle"
+msgstr "FAQ categorie aan-/uitzetten"
+
+#: includes/InstallationWalkthrough.class.php:380
+#: includes/Settings.class.php:327
+msgid "Should the FAQs accordion? (Only one FAQ is open at a time, requires FAQ Toggle)"
+msgstr "Moet de FAQ's accordeon? (Slechts één FAQ is tegelijk open, vereist FAQ toggle)"
+
+#: includes/InstallationWalkthrough.class.php:395
+#: includes/Settings.class.php:316
+msgid "Should the FAQs open on a separate page when clicked, instead of opening and closing?"
+msgstr "Moeten de FAQ's op een aparte pagina worden geopend wanneer erop wordt geklikt, in plaats van te openen en te sluiten?"
+
+#: includes/Settings.class.php:315
+msgid "Disable FAQ Toggle"
+msgstr "FAQ toggle blokkeren"
+
+#: includes/Settings.class.php:295
+msgid "Contributor"
+msgstr "Bijdrager"
+
+#: includes/Settings.class.php:294
+msgid "Author"
+msgstr "Auteur"
+
+#: includes/Settings.class.php:293
+msgid "Editor"
+msgstr "Redacteur"
+
+#: includes/Settings.class.php:292
+msgid "Administrator"
+msgstr "Beheerder"
+
+#: includes/Settings.class.php:265
+msgid "Individual FAQ Page"
+msgstr "Individuele FAQ pagina"
+
+#: includes/Settings.class.php:264
+msgid "Main FAQ Page"
+msgstr "Hoofd FAQ pagina"
+
+#: includes/Settings.class.php:262
+msgid "Should the permalink link to the main FAQ page or the individual FAQ page?"
+msgstr "Moet de permalink verwijzen naar de hoofdpagina van de FAQ of naar de individuele FAQ-pagina?"
+
+#: includes/Settings.class.php:261
+msgid "Permalink Destination"
+msgstr "Permalink bestemming"
+
+#: includes/Settings.class.php:249
+msgid "Both"
+msgstr "Beide"
+
+#: includes/Settings.class.php:247
+msgid "Text"
+msgstr "Tekst"
+
+#: includes/Settings.class.php:244
+msgid "Display permalink to each question? If so, text, icon or both?"
+msgstr "Permalink bij elke vraag weergeven? Zo ja, tekst, pictogram of beide?"
+
+#: includes/Settings.class.php:243
+msgid "Include Permalink"
+msgstr "Inclusief permalink"
+
+#: includes/Settings.class.php:233
+msgid "By default, the plugin adds FAQ page scheme when the shortcode is used. Select this option to disable this behaviour."
+msgstr "Standaard voegt de plugin FAQ pagina schema toe wanneer de shortcode wordt gebruikt. Selecteer deze optie om dit gedrag uit te schakelen."
+
+#: includes/Settings.class.php:232
+msgid "Disable Microdata"
+msgstr "Microdata uitschakelen"
+
+#: includes/Settings.class.php:222
+msgid "Should comment support be turned on, so that if the \"Allow Comments\" checkbox is selected for a given FAQ, comments are shown in the FAQ list?"
+msgstr "Moet reacties ondersteuning worden ingeschakeld, zodat als het selectievakje \"Reacties toestaan\" is ingeschakeld voor een bepaalde FAQ, reacties wordt getoond in de FAQ-lijst?"
+
+#: includes/Settings.class.php:221
+msgid "Turn On Comment Support"
+msgstr "Reactie ondersteuning inschakelen"
+
+#: includes/Settings.class.php:211
+msgid "Should the browser scroll to the top of the FAQ when it's opened?"
+msgstr "Moet de browser naar de bovenkant van de FAQ scrollen als hij wordt geopend?"
+
+#: includes/Settings.class.php:210
+msgid "Scroll To Top"
+msgstr "Scroll naar boven"
+
+#: includes/Settings.class.php:201
+msgid "You can add custom CSS styles to your FAQs in the box above."
+msgstr "Je kan aangepaste CSS stijlen aan je FAQ's toevoegen in het vak hierboven."
+
+#: includes/Settings.class.php:200
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+#: includes/Settings.class.php:160
+msgid "Basic"
+msgstr "Basis"
+
+#: includes/Settings.class.php:78
+msgid "The number you entered for the image was incorrect."
+msgstr "Het nummer dat je hebt ingeven voor de afbeelding was foutief."
+
+#: includes/CustomPostTypes.class.php:61
+msgid "All FAQs"
+msgstr "Alle FAQs"
+
+#: includes/CustomPostTypes.class.php:60
+msgid "No FAQs found in trash"
+msgstr "Geen FAQs gevonden in de prullenmand"
+
+#: includes/CustomPostTypes.class.php:59
+msgid "No FAQs found"
+msgstr "Geen FAQs gevonden"
+
+#: includes/Notifications.class.php:45
+msgid "See the FAQ"
+msgstr "Bekijk de FAQ"
+
+#: includes/WPForms.class.php:128
+msgid "Possible FAQs related to your message:"
+msgstr "Mogelijk gerelateerde FAQs aan je bericht:"
+
+#: includes/WPForms.class.php:77
+msgid "-- Select Field --"
+msgstr "-- Selecteer veld --"
+
+#: includes/Dashboard.class.php:123
+msgid "FAQ Summary"
+msgstr "FAQ samenvatting"
+
+#: includes/Dashboard.class.php:109
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: includes/Dashboard.class.php:103
+msgid "Plugin FAQs"
+msgstr "Plugin FAQs"
+
+#: includes/Dashboard.class.php:97
+msgid "YouTube Tutorials"
+msgstr "YouTube-tutorials"
+
+#: includes/Dashboard.class.php:91 includes/Dashboard.class.php:115
+msgid "Get Support"
+msgstr "Krijg ondersteuning"
+
+#: ultimate-faqs.php:664
+msgid "FAQ Order"
+msgstr "FAQ volgorde"
+
+#: ultimate-faqs.php:426
+msgid "Head to the settings page for Ultimate FAQs"
+msgstr "Ga naar de instellingen pagina voor Ultimate FAQs"
+
+#: lib/simple-admin-pages/classes/AdminPageSetting.FileUpload.class.php:48
+msgid "Current image:"
+msgstr "Huidige afbeelding:"
+
+#: views/View.class.php:144
+msgid "Image Number"
+msgstr "Afbeelding nummer"
+
+#: includes/WPForms.class.php:71
+msgid "If FAQs are set to a specific field, which field should FAQs be displayed for?"
+msgstr "Als FAQs ingesteld zijn op een specifiek veld, voor welk veld moet FAQs getoond worden?"
+
+#: includes/WPForms.class.php:56
+msgid "Disable FAQ display for this form, or enable it only on specific fields."
+msgstr "Deactiveer FAQ voor dit formulier, of activeer het alleen op specifieke velden."
+
+#. Author URI of the plugin
+#: ultimate-faqs.php
+msgid "https://www.etoilewebdesign.com/"
+msgstr "https://www.etoilewebdesign.com/"
+
+#. Plugin URI of the plugin
+#: ultimate-faqs.php
+msgid "https://www.etoilewebdesign.com/plugins/ultimate-faq/"
+msgstr "https://www.etoilewebdesign.com/plugins/ultimate-faq/"
+
+#: includes/CustomPostTypes.class.php:581
+msgid "Reset View Count"
+msgstr "Reset aantal vertoningen"
+
+#: includes/InstallationWalkthrough.class.php:439
+msgid "Skip Setup"
+msgstr "Installatie overslaan"
+
+#: includes/InstallationWalkthrough.class.php:432
+msgid "Finish"
+msgstr "Voltooien"
+
+#: includes/InstallationWalkthrough.class.php:429
+msgid "Save Options"
+msgstr "Opties opslaan"
+
+#: includes/InstallationWalkthrough.class.php:415
+#: includes/Settings.class.php:531
+msgid "FAQ Ordering"
+msgstr "FAQ volgorde"
+
+#: includes/InstallationWalkthrough.class.php:400
+#: includes/Settings.class.php:470
+msgid "Group FAQs by Category"
+msgstr "FAQs groeperen op categorie"
+
+#: includes/InstallationWalkthrough.class.php:385
+msgid "FAQ Toggle"
+msgstr "FAQ toggle"
+
+#: includes/InstallationWalkthrough.class.php:370
+#: includes/Settings.class.php:326
+msgid "FAQ Accordion"
+msgstr "FAQ accordion"
+
+#: includes/InstallationWalkthrough.class.php:367
+msgid "Options can always be changed later, but here are a few tha a lot of users want to set for themselves."
+msgstr "Opties kunnen later nog gewijzigd worden, maar hier zijn er een aantal die veel gebruikers graag zelf willen instellen."
+
+#: includes/InstallationWalkthrough.class.php:365
+msgid "4. Set Key Options"
+msgstr "4. Belangrijke opties instellen"
+
+#: includes/InstallationWalkthrough.class.php:352
+msgid "Create Page"
+msgstr "Pagina aanmaken"
+
+#: includes/InstallationWalkthrough.class.php:344
+msgid "Page Title"
+msgstr "Paginatitel"
+
+#: includes/InstallationWalkthrough.class.php:341
+msgid "You can create a dedicated FAQ page below, or skip this step and add your FAQs to a page you've already created manually."
+msgstr "Je kunt hieronder een speciale FAQ pagina maken, of deze stap overslaan en FAQs toevoegen aan een handmatig gemaakte pagina."
+
+#: includes/InstallationWalkthrough.class.php:339
+msgid "3. Add an FAQ Page"
+msgstr "3. Een FAQ-pagina toevoegen"
+
+#: includes/InstallationWalkthrough.class.php:324
+msgid "Category"
+msgstr "Categorie"
+
+#: includes/InstallationWalkthrough.class.php:297
+#: includes/InstallationWalkthrough.class.php:323
+msgid "Answer"
+msgstr "Antwoord"
+
+#: includes/InstallationWalkthrough.class.php:319
+msgid "Created FAQs"
+msgstr "Aangemaakte FAQs"
+
+#: includes/InstallationWalkthrough.class.php:313
+msgid "Add FAQ"
+msgstr "FAQ toevoegen"
+
+#: includes/InstallationWalkthrough.class.php:291
+msgid "Questions"
+msgstr "Vragen"
+
+#: includes/InstallationWalkthrough.class.php:288
+msgid "Create your first set of questions and answers. Don't worry, you can always add more later."
+msgstr "Creëer je eerste bundel van vragen en antwoorden. Geen zorgen, je kunt er altijd op een later moment meer toevoegen."
+
+#: includes/InstallationWalkthrough.class.php:286
+msgid "2. Questions & Answers"
+msgstr "2. Vragen & antwoorden"
+
+#: includes/InstallationWalkthrough.class.php:273
+msgid "Description"
+msgstr "Beschrijving"
+
+#: includes/InstallationWalkthrough.class.php:272
+#: includes/Settings.class.php:498
+msgid "Name"
+msgstr "Naam"
+
+#: includes/InstallationWalkthrough.class.php:269
+msgid "Created Categories"
+msgstr "Gemaakte categorieën"
+
+#: includes/InstallationWalkthrough.class.php:263
+msgid "Add Category"
+msgstr "Categorie toevoegen"
+
+#: includes/InstallationWalkthrough.class.php:255
+msgid "Category Description"
+msgstr "Beschrijving categorie"
+
+#: includes/InstallationWalkthrough.class.php:249
+msgid "Category Name"
+msgstr "Categorienaam"
+
+#: includes/InstallationWalkthrough.class.php:246
+msgid "Categories let you organize your FAQs in a way that's easy for you - and your customers - to find."
+msgstr "Met categorieën kunt je jouw FAQ's ordenen op een manier die voor je - en je klanten - gemakkelijk te vinden is."
+
+#: includes/InstallationWalkthrough.class.php:244
+msgid "1. Create Categories"
+msgstr "1. Categorieën maken"
+
+#: includes/InstallationWalkthrough.class.php:240
+msgid "Thanks for choosing Ultimate FAQs! The following will help you get started with the setup by creating your first FAQ and category, as well as adding your FAQs to a page and configuring a few key options."
+msgstr "Bedankt voor het kiezen voor Ultimate FAQs! Het volgende helpt je om te beginnen met het instellen door het creëren van je eerste FAQ en categorie, als ook het toevoegen van je FAQ aan een pagina en het instellen van een aantal belangrijke opties."
+
+#: includes/InstallationWalkthrough.class.php:239
+msgid "Welcome to Ultimate FAQs"
+msgstr "Welkom bij Ultimate FAQs"
+
+#: includes/InstallationWalkthrough.class.php:53
+#: includes/InstallationWalkthrough.class.php:54
+msgid "Ultimate FAQs - Welcome!"
+msgstr "Ultimate FAQs - Welkom!"
+
+#: includes/DeactivationSurvey.class.php:44
+msgid "Please share what wasn't working"
+msgstr "Vertel wat er niet werkte"
+
+#: includes/AboutUs.class.php:246 includes/ReviewAsk.class.php:57
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: includes/Blocks.class.php:163 includes/Patterns.class.php:54
+#: includes/WPForms.class.php:46
+msgid "Ultimate FAQs"
+msgstr "Ultimate FAQs"
+
+#: includes/Settings.class.php:248
+msgid "Icon"
+msgstr "Icoon"
+
+#: includes/Settings.class.php:626 includes/Settings.class.php:740
+msgid "Styling"
+msgstr "Stijling"
+
+#: views/View.class.php:127
+msgid "Load More"
+msgstr "Laad meer"
+
+#: includes/InstallationWalkthrough.class.php:333
+#: includes/InstallationWalkthrough.class.php:359
+#: includes/InstallationWalkthrough.class.php:431 views/View.class.php:125
+msgid "Previous"
+msgstr "Vorige"
+
+#: views/View.class.php:129
+msgid "Share"
+msgstr "Delen"
+
+#: includes/CustomPostTypes.class.php:174
+msgid "Need Help?"
+msgstr "Hulp nodig?"
+
+#: includes/DeactivationSurvey.class.php:59
+msgid "If you have a moment, please share why you are deactivating Ultimate FAQs:"
+msgstr "Als je een moment hebt, vertel waarom je Ultimate FAQs deactiveert:"
+
+#: includes/DeactivationSurvey.class.php:58
+msgid "Quick Feedback"
+msgstr "Snelle feedback"
+
+#: includes/DeactivationSurvey.class.php:50
+msgid "Other"
+msgstr "Andere"
+
+#: includes/DeactivationSurvey.class.php:47
+msgid "It's a temporary deactivation"
+msgstr "Het is een tijdelijke deactivering"
+
+#: includes/DeactivationSurvey.class.php:43
+msgid "I couldn't get the plugin to work"
+msgstr "Ik kreeg de plugin niet werkend"
+
+#: includes/DeactivationSurvey.class.php:40
+msgid "Please share which plugin"
+msgstr "Vertel ons welke plugin"
+
+#: includes/DeactivationSurvey.class.php:39
+msgid "I'm switching to a different plugin"
+msgstr "Ik ga een andere plugin gebruiken"
+
+#: ultimate-faqs.php:581
+msgid "MENU"
+msgstr "MENU"
+
+#: includes/Settings.class.php:289
+msgid "Which level of user should have access to FAQs, Settings, etc.?."
+msgstr "Welke soort gebruikers moet toegang krijgen tot FAQs, instellingen, enz.?"
+
+#: includes/Settings.class.php:288
+msgid "Set Access Role"
+msgstr "Bepaal toegangsrol"
+
+#: includes/Settings.class.php:246
+msgid "None"
+msgstr "Geen"
+
+#: views/View.class.php:143
+msgid "This is only used to verify the authenticity of the FAQ. It is not displayed anywhere."
+msgstr "Dit wordt alleen gebruikt om de FAQ the autoriseren. Dit wordt nergens getoond."
+
+#: views/View.FAQ.class.php:538
+msgid "Category:"
+msgstr "Categorie:"
+
+#: views/View.FAQ.class.php:538
+msgid "Categories:"
+msgstr "Categorieën:"
+
+#: views/View.class.php:145
+msgid "No result FAQs contained the term '%s'"
+msgstr "Geen resultaten voor FAQ's met de term '%s'"
+
+#: views/View.class.php:116
+msgid "Posted"
+msgstr "Geplaatst"
+
+#: includes/InstallationWalkthrough.class.php:322
+#: includes/OrderingTable.class.php:75
+msgid "Question"
+msgstr "Vraag"
+
+#: includes/Settings.class.php:374
+msgid "Display"
+msgstr "Weergeven"
+
+#: includes/Settings.class.php:304
+msgid "Functionality"
+msgstr "Functionaliteit"
+
+#: includes/Settings.class.php:170
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/Dashboard.class.php:135
+msgid "No faqs to display yet. Create an faq and then view it for it to be displayed here."
+msgstr "Nog geen FAQs om weer te geven. Maak een FAQ en bekijk hem om deze hier weer te geven."
+
+#: includes/Dashboard.class.php:129 includes/OrderingTable.class.php:76
+msgid "Views"
+msgstr "Weergaven"
+
+#: includes/Dashboard.class.php:128
+#: includes/InstallationWalkthrough.class.php:420
+#: includes/Settings.class.php:535
+msgid "Title"
+msgstr "Titel"
+
+#: views/View.class.php:141
+msgid "What name should be displayed with your FAQ?"
+msgstr "Welke naam moet er getoond worden bij je FAQ?"
+
+#: views/View.class.php:140
+msgid "FAQ Author"
+msgstr "FAQ auteur"
+
+#: views/View.class.php:138
+msgid "Proposed Answer"
+msgstr "Voorgesteld antwoord"
+
+#: views/View.class.php:137
+msgid "What question is being answered?"
+msgstr "Welke vraag wordt er beantwoord?"
+
+#: views/View.class.php:136
+msgid "Question Title"
+msgstr "Vraagtitel"
+
+#: views/View.class.php:135
+msgid "Send Question"
+msgstr "Verzend vraag"
+
+#: views/View.class.php:134
+msgid "Please fill out the form below to submit a question."
+msgstr "Gelieve het onderstaand formulier in te vullen voor een vraag te kunnen verzenden."
+
+#: views/View.class.php:133
+msgid "Submit a Question"
+msgstr "Verzend een vraag"
+
+#: includes/Settings.class.php:80 views/View.class.php:132
+msgid "Thank you for submitting an FAQ."
+msgstr "Bedankt voor het indienen van een FAQ."
+
+#: views/View.class.php:120
+msgid "Search"
+msgstr "Zoeken"
+
+#: views/View.class.php:119
+msgid "Enter your question"
+msgstr "Voer je vraag in"
+
+#: views/View.class.php:130
+msgid "Did you find this FAQ helpful?"
+msgstr "Vond je deze FAQ nuttig?"
+
+#: views/View.class.php:124
+msgid "Collapse All"
+msgstr "Alles invouwen"
+
+#: views/View.class.php:123
+msgid "Expand All"
+msgstr "Alles uitvouwen"
+
+#: includes/Settings.class.php:75
+msgid "No result FAQ's contained the term '%s'"
+msgstr "Geen FAQ's gevonden met de term '%s'"
+
+#: views/View.class.php:121
+msgid "Permalink"
+msgstr "Permalink"
+
+#: views/View.class.php:122
+msgid "Back to Top"
+msgstr "Terug naar boven"
+
+#: includes/InstallationWalkthrough.class.php:280
+#: includes/InstallationWalkthrough.class.php:332
+#: includes/InstallationWalkthrough.class.php:358 views/View.class.php:126
+msgid "Next"
+msgstr "Volgende"
+
+#: includes/Settings.class.php:74
+msgid "Retrieving Results"
+msgstr "Resultaten ophalen"
+
+#: includes/Settings.class.php:147 includes/Settings.class.php:148
+#: includes/Settings.class.php:459 ultimate-faqs.php:426 ultimate-faqs.php:567
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/CustomPostTypes.class.php:427 includes/OrderingTable.class.php:78
+#: ultimate-faqs.php:561
+msgid "Tags"
+msgstr "Tags"
+
+#: ultimate-faqs.php:537
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: includes/CustomPostTypes.class.php:130
+msgid "New FAQ Tag Name"
+msgstr "Nieuwe FAQ tagnaam"
+
+#: includes/CustomPostTypes.class.php:129
+msgid "Add New FAQ Tag"
+msgstr "Nieuwe FAQ tag toevoegen"
+
+#: includes/CustomPostTypes.class.php:128
+msgid "Update FAQ Tag"
+msgstr "FAQ tag bijwerken"
+
+#: includes/CustomPostTypes.class.php:127
+msgid "Edit FAQ Tag"
+msgstr "Bewerken FAQ tag"
+
+#: includes/CustomPostTypes.class.php:126
+msgid "Parent FAQ Tag:"
+msgstr "Hoofd FAQ tag:"
+
+#: includes/CustomPostTypes.class.php:125
+msgid "Parent FAQ Tag"
+msgstr "Hoofd FAQ tag"
+
+#: includes/CustomPostTypes.class.php:124
+msgid "All FAQ Tags"
+msgstr "Alle FAQ tags"
+
+#: includes/CustomPostTypes.class.php:123
+msgid "Search FAQ Tags"
+msgstr "Zoek FAQ tags"
+
+#: includes/CustomPostTypes.class.php:122
+msgid "FAQ Tag"
+msgstr "FAQ tag"
+
+#: includes/CustomPostTypes.class.php:121
+#: includes/CustomPostTypes.class.php:131
+msgid "FAQ Tags"
+msgstr "FAQ tags"
+
+#: includes/CustomPostTypes.class.php:104
+msgid "New FAQ Category Name"
+msgstr "Nieuwe FAQ categorie naam"
+
+#: includes/CustomPostTypes.class.php:103
+msgid "Add New FAQ Category"
+msgstr "Nieuwe FAQ categorie toevoegen"
+
+#: includes/CustomPostTypes.class.php:102
+msgid "Update FAQ Category"
+msgstr "FAQ categorie bijwerken"
+
+#: includes/CustomPostTypes.class.php:101
+msgid "Edit FAQ Category"
+msgstr "Bewerk FAQ categorie"
+
+#: includes/CustomPostTypes.class.php:100
+msgid "Parent FAQ Category:"
+msgstr "Hoofd FAQ categorie:"
+
+#: includes/CustomPostTypes.class.php:99
+msgid "Parent FAQ Category"
+msgstr "Hoofd FAQ categorie"
+
+#: includes/CustomPostTypes.class.php:98
+msgid "All FAQ Categories"
+msgstr "Alle FAQ categorieën"
+
+#: includes/CustomPostTypes.class.php:97
+msgid "Search FAQ Categories"
+msgstr "Zoek FAQ categorieën"
+
+#: includes/CustomPostTypes.class.php:96
+#: includes/InstallationWalkthrough.class.php:303
+msgid "FAQ Category"
+msgstr "FAQ categorie"
+
+#: includes/CustomPostTypes.class.php:95 includes/CustomPostTypes.class.php:105
+msgid "FAQ Categories"
+msgstr "FAQ categorieën"
+
+#: includes/CustomPostTypes.class.php:58 includes/patterns/search.php:6
+msgid "Search FAQs"
+msgstr "Zoek FAQs"
+
+#: includes/CustomPostTypes.class.php:57
+msgid "View FAQ"
+msgstr "Bekijk FAQ"
+
+#: includes/CustomPostTypes.class.php:56
+msgid "New FAQ"
+msgstr "Nieuwe FAQ"
+
+#: includes/CustomPostTypes.class.php:55
+msgid "Edit FAQ"
+msgstr "Bewerk FAQ"
+
+#: includes/CustomPostTypes.class.php:54
+msgid "Add New FAQ"
+msgstr "Nieuwe FAQ toevoegen"
+
+#: includes/CustomPostTypes.class.php:53 ultimate-faqs.php:549
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: includes/WooCommerce.class.php:215
+msgid "Delete FAQs"
+msgstr "Verwijder FAQs"
+
+#: includes/WooCommerce.class.php:199
+msgid "Delete?"
+msgstr "Verwijderen?"
+
+#: includes/WooCommerce.class.php:187
+msgid "Add FAQs"
+msgstr "FAQs toevoegen"
+
+#: includes/CustomPostTypes.class.php:50 includes/WooCommerce.class.php:173
+#: includes/WooCommerce.class.php:200 includes/WooCommerce.class.php:322
+msgid "FAQ"
+msgstr "FAQ"
+
+#: includes/WooCommerce.class.php:172 includes/WooCommerce.class.php:321
+msgid "Add?"
+msgstr "Toevoegen?"
+
+#: includes/WooCommerce.class.php:165
+msgid "All Categories"
+msgstr "Alle categorieën"
+
+#: includes/WooCommerce.class.php:155
+msgid "You can use the form below to select which FAQs to display for this product, or leave it blank to use the default category naming system."
+msgstr "Je kan het onderstaande formulier gebruiken om de selecteren welke FAQs er weergegeven moeten worden bij dit product, of laat het leeg om het standaard categorie benamingssysteem te gebruiken."
+
+#: includes/CustomPostTypes.class.php:49 includes/CustomPostTypes.class.php:51
+#: includes/CustomPostTypes.class.php:52 includes/patterns/faqs.php:6
+#: includes/Settings.class.php:76 includes/WooCommerce.class.php:129
+#: includes/WPForms.class.php:31 ultimate-faqs.php:543 views/View.class.php:128
+msgid "FAQs"
+msgstr "FAQs"
+
+#: includes/Widgets.class.php:412
+msgid "FAQ Category List:"
+msgstr "FAQ categorielijst:"
+
+#: includes/Widgets.class.php:406
+msgid "FAQ Category List"
+msgstr "FAQ categorielijst"
+
+#: includes/Widgets.class.php:372
+msgid "Insert FAQ posts using a comma-separated list of categories"
+msgstr "Voeg FAQ berichten toe door middel van een komma gescheiden lijst van categorieën"
+
+#: includes/Widgets.class.php:371
+msgid "UFAQ FAQ Category List"
+msgstr "UFAQ FAQ categorielijst"
+
+#: includes/Widgets.class.php:292
+msgid "Display a random FAQ"
+msgstr "Toon een willekeurge FAQ"
+
+#: includes/Widgets.class.php:291
+msgid "Random FAQ"
+msgstr "Willekeurige FAQ"
+
+#: includes/Widgets.class.php:210
+msgid "Popular FAQs"
+msgstr "Populaire FAQs"
+
+#: includes/Widgets.class.php:174 includes/Widgets.class.php:255
+msgid "Number of FAQs:"
+msgstr "Aantal FAQs:"
+
+#: includes/AIAssist.class.php:93 includes/Widgets.class.php:168
+#: includes/Widgets.class.php:249
+msgid "Number of FAQs"
+msgstr "Aantal FAQs"
+
+#: includes/Widgets.class.php:130
+msgid "Insert a number of the most recent FAQs"
+msgstr "Voeg een aantal van de meest recente FAQs in"
+
+#: includes/Widgets.class.php:129
+msgid "Recent FAQs"
+msgstr "Recente FAQs"
+
+#: includes/Widgets.class.php:97 includes/Widgets.class.php:178
+#: includes/Widgets.class.php:259 includes/Widgets.class.php:340
+#: includes/Widgets.class.php:416
+msgid "Widget Title:"
+msgstr "Widgettitel:"
+
+#: includes/Widgets.class.php:92
+msgid "FAQ ID List:"
+msgstr "FAQ ID lijst:"
+
+#: includes/Widgets.class.php:85
+msgid "FAQ ID List"
+msgstr "FAQ ID lijst"
+
+#: includes/Widgets.class.php:51
+msgid "Insert FAQ posts using a comma-separated list of post IDs"
+msgstr "Voeg FAQ berichten toe door middel van een komma gescheiden lijst van bericht IDs"
+
+#: includes/Widgets.class.php:50
+msgid "UFAQ FAQ ID List"
+msgstr "UFAQ FAQ ID lijst"
+
+#: includes/Notifications.class.php:47
+msgid "Ultimate FAQs Team"
+msgstr "Ultimate FAQs team"
+
+#: includes/Notifications.class.php:46
+msgid "Have a great day,"
+msgstr "Fijne dag,"
+
+#: includes/Notifications.class.php:44
+msgid "You can view the question in the admin area by going to the following link:<br>"
+msgstr "Je kan de vraag bekijken in het beheerdergebied door naar de volgende link te gaan:<br>"
+
+#: includes/Notifications.class.php:40
+msgid "The answer reads:<br>"
+msgstr "Het antwoord is:<br>"
+
+#: includes/Notifications.class.php:36
+msgid "You've received a new question titled "
+msgstr "Je hebt een nieuwe vraag ontvangen met de titel "
+
+#: includes/Notifications.class.php:35
+msgid "Hello Admin,"
+msgstr "Hallo beheerder,"
+
+#: includes/Notifications.class.php:33
+msgid "New Question Received"
+msgstr "Nieuwe vraag ontvangen"
+
+#: includes/CustomPostTypes.class.php:233
+msgid "Down Votes:"
+msgstr "Omlaag stemmingen:"
+
+#: includes/CustomPostTypes.class.php:229
+msgid "Up Votes:"
+msgstr "Omhoog stemmingen:"
+
+#: includes/CustomPostTypes.class.php:220
+msgid "Author Display Name:"
+msgstr "Weergavenaam van auteur:"
+
+#: includes/CustomPostTypes.class.php:164
+msgid "FAQ Details"
+msgstr "FAQ details"
+
+#: includes/CustomPostTypes.class.php:428
+msgid "Post ID"
+msgstr "Bericht ID"
+
+#: includes/CustomPostTypes.class.php:426 includes/Dashboard.class.php:130
+#: includes/OrderingTable.class.php:77 ultimate-faqs.php:555
+msgid "Categories"
+msgstr "Categorieën"
+
+#: includes/CustomPostTypes.class.php:425
+msgid "# of Views"
+msgstr "# weergaven"
+
+#: views/View.FAQ.class.php:631 views/View.FAQ.class.php:643
+#: views/View.FAQ.class.php:655 views/View.FAQ.class.php:667
+msgid "Check out this helpful FAQ"
+msgstr "Bekijk deze handige FAQ"
+
+#: includes/Settings.class.php:677
+msgid "Import/Export FAQs"
+msgstr "Import/Export FAQs"
+
+#: includes/Settings.class.php:674
+msgid "Custom Fields"
+msgstr "Aangepaste velden"
+
+#: includes/AboutUs.class.php:153 includes/Settings.class.php:673
+msgid "FAQ Search"
+msgstr "FAQ zoeken"
+
+#: includes/AboutUs.class.php:103 includes/Settings.class.php:672
+msgid "Unlimited FAQs"
+msgstr "Ongelimiteerd aantal FAQs"
+
+#: includes/Settings.class.php:683
+msgid "UPGRADE NOW"
+msgstr "UPGRADE NU"
+
+#: includes/Settings.class.php:680
+msgid "Email Support"
+msgstr "E-mailondersteuning"
+
+#: includes/Settings.class.php:679
+msgid "Social Sharing"
+msgstr "Sociaal delen"
+
+#: includes/Settings.class.php:676
+msgid "15 Different Icon Sets"
+msgstr "15 verschillende icon sets"
+
+#: includes/Settings.class.php:678
+msgid "Advanced Styling Options"
+msgstr "Geavanceerde styling opties"
+
+#: includes/Settings.class.php:670
+msgid "The premium version also gives you access to the following features:"
+msgstr "De premium versie geeft je ook toegang tot de volgende functies:"
+
+#: includes/Settings.class.php:725
+msgid "The labelling options let you change the wording of the different labels that appear on the front end of the plugin. You can use this to translate them, customize the wording for your purpose, etc."
+msgstr "De label opties laten je de tekst veranderen van de verschillende labels die verschijnen op de voorkant van de plugin. Je kan dit gebruiken om ze te vertalen, de bewoording aan te passen voor jouw doel, enz."
+
+#: lib/simple-admin-pages/classes/AdminPage.class.php:189
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Je hebt onvoldoende rechten voor deze pagina."
+
+#: includes/DeactivationSurvey.class.php:74
+msgid "Submit and Deactivate"
+msgstr "Verzenden en deactiveren"
+
+#: includes/Settings.class.php:741
+msgid "The styling options let you change the toggle symbol and FAQ heading types, as well as modify the color, font size, font family, border, margin and padding of the various elements found in your FAQs."
+msgstr "Met de styling opties kan je het toggle symbool en FAQ kopteksten veranderen, en ook de kleur, lettergrootte, lettertype familie, rand, margin en padding van de verschillende elementen in je FAQs aanpassen."
+
+#: includes/Helper.class.php:45
+msgid "You have been logged out. Please %slogin again%s."
+msgstr "Je bent uitgelogd. Gelieve %sopnieuw in te loggen%s."
+
+#: includes/Helper.class.php:59
+msgid "The request has been rejected because it does not appear to have come from this site."
+msgstr "Het verzoek is afgewezen omdat het niet van deze website afkomstig lijkt te zijn."
+
+#: includes/Settings.class.php:710
+msgid "You can add custom fields to your FAQs, which let you display extra content, such as product manuals, location info, links and more. "
+msgstr "Je kan aangepaste velden toevoegen aan je FAQ's, waarmee je extra inhoud kan weergeven, zoals producthandleidingen, locatie-info, links en meer. "
+
+#: includes/Settings.class.php:694
+msgid "The premium options let you change the FAQ layout, configure WooCommerce and WPForms integration, add reveal effects, paginate your FAQs, add an FAQ rating/voting system, add social sharing, change the the slug base of the post type and much more."
+msgstr "Met de premium opties kan je de FAQ lay-out wijzigen, WooCommerce en WPForms integratie configureren, onthullingseffecten toevoegen, je FAQ's pagineren, een FAQ beoordelings-/stemsysteem toevoegen, sociaal delen toevoegen, de slug basis van het berichttype wijzigen en nog veel meer."
+
+#: views/View.class.php:142
+msgid "Author Email"
+msgstr "Auteur e-mail"
+
+#: includes/Settings.class.php:79
+msgid "Please make sure that there is a question that you are submitting as an FAQ."
+msgstr "Zorg ervoor dat er een vraag is die je indient als een FAQ."
+
+#: includes/Widgets.class.php:169 includes/Widgets.class.php:250
+#: includes/Widgets.class.php:335 includes/Widgets.class.php:407
+msgid "Widget Title"
+msgstr "Widget titel"
+
+#: includes/Dashboard.class.php:217
+msgid "<a href=\"%s\" target=\"_blank\">Visit our website</a> to learn how to get a free 7-day trial of the premium plugin."
+msgstr "<a href=\"%s\" target=\"_blank\">Bezoek onze website</a> om te leren hoe je een 7-daagse gratis proef versie kan krijgen van de premium plugin."
+
+#: includes/Dashboard.class.php:78
+msgid "<a href=\"%s\" target=\"_blank\">Visit our website</a> to learn how to upgrade to premium."
+msgstr "<a href=\"%s\" target=\"_blank\">Bezoek onze website</a> voor meer informatie over hoe je kan upgraden naar premium."
+
+#: lib/simple-admin-pages/classes/AdminPageSetting.FileUpload.class.php:61
+msgid "Upload Image"
+msgstr "Afbeelding uploaden"
+
+#: includes/DeactivationSurvey.class.php:75
+msgid "Skip and Deactivate"
+msgstr "Overslaan en deactiveren"
+
+#: includes/DeactivationSurvey.class.php:36
+msgid "I no longer need the plugin"
+msgstr "Ik heb de plugin niet langer nodig"
+
+#: includes/DeactivationSurvey.class.php:51
+msgid "Please share the reason"
+msgstr "Vertel ons de reden"

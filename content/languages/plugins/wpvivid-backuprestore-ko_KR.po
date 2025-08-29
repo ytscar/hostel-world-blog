@@ -1,0 +1,3011 @@
+# Translation of Plugins - Migration, Backup, Staging – WPvivid Backup &amp; Migration - Stable (latest release) in Korean
+# This file is distributed under the same license as the Plugins - Migration, Backup, Staging – WPvivid Backup &amp; Migration - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-14 07:49:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - Migration, Backup, Staging – WPvivid Backup &amp; Migration - Stable (latest release)\n"
+
+#: admin/partials/wpvivid-settings-page-display.php:734
+msgid "This mode allows fine-tuning of backup parameters. Incorrect configuration can lead to backup failures. It is recommended to use only with specific guidance from our support team."
+msgstr "이 모드는 백업 파라미터의 세부 조정을 허용합니다. 잘못된 구성은 백업 실패로 이어질 수 있습니다. 저희 지원 팀의 구체적인 지침과 함께 사용하는 것을 권장합니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:728
+msgid "This mode uses more server resources to reduce backup time, but is only recommended for dedicated servers. If backups time out or get stuck, consider Mid or Low mode. Backups are split into 4GB chunks."
+msgstr "이 모드는 백업 시간을 줄이기 위해 더 많은 서버 리소스를 사용하지만, 전용 서버에만 권장됩니다. 백업이 시간 초과되거나 멈추는 경우, 중간 또는 낮은 모드를 고려하세요. 백업은 4GB 청크로 분할됩니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:722
+msgid "This mode offers a good balance between backup speed and resource usage. It's suitable for most web hosting environments."
+msgstr "이 모드는 백업 속도와 자원 사용 간의 좋은 균형을 제공합니다. 대부분의 웹 호스팅 환경에 적합합니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:716
+msgid "Use this default setting for minimal server resource usage, but expect longer backup times. Best for shared hosting or limited resources. Backups are split into 200MB chunks."
+msgstr "최소한의 서버 리소스 사용을 위해 이 기본 설정을 사용하세요. 하지만 백업 시간이 길어질 수 있습니다. 공유 호스팅이나 제한된 리소스에 가장 적합합니다. 백업은 200MB 조각으로 나뉩니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:711
+msgid "Backup performance mode."
+msgstr "백업 성능 모드."
+
+#: admin/partials/wpvivid-settings-page-display.php:150
+msgid "Back up symlink folders. Including symlink folders may cause backup/migration failure. Uncheck this option unless you know how symlink folders work."
+msgstr "심볼릭 링크 폴더를 백업합니다. 심볼릭 링크 폴더를 포함하면 백업/마이그레이션 실패가 발생할 수 있습니다. 심볼릭 링크 폴더의 작동 방식을 모른다면 이 옵션을 선택 해제하세요."
+
+#. Author of the plugin
+#: wpvivid-backuprestore.php
+msgid "WPvivid Backup & Migration"
+msgstr "WPvivid Backup & Migration"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2404
+msgid "Try our AVIF and WebP conversion tool, it's free"
+msgstr "저희 AVIF 및 WebP 변환 도구를 사용해보세요, 무료입니다"
+
+#: admin/partials/wpvivid-settings-page-display.php:693
+msgid "Backup compression method."
+msgstr "백업 압축 방법."
+
+#: admin/class-wpvivid-admin.php:219
+msgid " for higher task success rate."
+msgstr " 더높은 작업 성공률을 위해."
+
+#: admin/class-wpvivid-admin.php:218
+msgid "Adjust Advanced Settings"
+msgstr "고급 설정 조정"
+
+#: admin/class-wpvivid-admin.php:217
+msgid "Adjust"
+msgstr "조정"
+
+#: admin/class-wpvivid-admin.php:212
+msgid " for faster solutions."
+msgstr " 더욱 빠른 솔루션을 위해."
+
+#: admin/class-wpvivid-admin.php:211
+msgid "Troubleshooting page"
+msgstr "문제 해결 페이지"
+
+#: admin/class-wpvivid-admin.php:210
+msgid "Read"
+msgstr "읽기"
+
+#: admin/class-wpvivid-admin.php:199
+msgid "review will motivate us a lot."
+msgstr "리뷰는 저희에게 많은 동기부여가 됩니다."
+
+#: admin/class-wpvivid-admin.php:196
+msgid "Like the plugin? A"
+msgstr "플러그인이 마음에 드시나요? A"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:850
+msgid "Exclude images by folder path"
+msgstr "폴더 경로에 따른 이미지 제외"
+
+#: includes/class-wpvivid.php:5824
+msgid "The value of 'Maximum size of sql file to be imported per request for restoration' can't be empty."
+msgstr "복원 요청당 가져올 수 있는 SQL 파일의 최대 크기' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5817
+msgid "The value of 'Maximum rows of data to be processed per request for restoration' can't be empty."
+msgstr "'복원 요청당 처리할 수 있는 최대 데이터 행 수' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5810
+msgid "The value of 'Split a sql file every this size' can't be empty."
+msgstr "'이 크기마다 SQL 파일 분할' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5803
+msgid "The value of 'The number of files compressed to the backup zip each time' can't be empty."
+msgstr "'백업 ZIP 파일로 압축되는 파일 수' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid-interface-mainwp.php:189
+#: includes/new_backup/class-wpvivid-backup2.php:351
+#: includes/new_backup/class-wpvivid-backup2.php:383
+#: includes/new_backup/class-wpvivid-backup2.php:467
+#: includes/new_backup/class-wpvivid-backup2.php:1722
+msgid "We detected that there is already a running backup task. Please wait until it completes then try again."
+msgstr "이미 실행 중인 백업 작업이 있음을 감지했습니다. 완료될 때까지 기다린 후 다시 시도해주세요."
+
+#: includes/class-wpvivid-function-realize.php:49
+msgid "The backup is not responding for a while, do you want to force cancel it?"
+msgstr "백업이 잠시 응답하지 않습니다. 강제로 취소하시겠습니까?"
+
+#: admin/partials/wpvivid-settings-page-display.php:798
+msgid "Specify the number of files to be extracted per request. The lower the number is, the slower the restoration, but the lower the chance of a timeout error or restore failure."
+msgstr "요청당 추출할 파일 수를 지정합니다. 숫자가 낮을수록 복원이 느리지만 시간 초과 오류나 복원 실패 가능성이 낮아집니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:796
+msgid "Extract files by index for restoration"
+msgstr "복원을 위해 인덱스별로 파일 추출"
+
+#: admin/partials/wpvivid-settings-page-display.php:821
+msgid "Maximum rows of data to be processed per request."
+msgstr "요청당 처리할 수 있는 최대 데이터 행 개수."
+
+#: admin/partials/wpvivid-settings-page-display.php:818
+msgid "Maximum size of sql file to be imported per request for restoration"
+msgstr "복원 요청당 가져올 수 있는 sql 파일의 최대 크기"
+
+#: admin/partials/wpvivid-settings-page-display.php:816
+msgid "The smaller it is, the slower the restoration will be, but the lower the chance of a timeout error."
+msgstr "크기가 작을수록 복구 속도는 느리지만, 시간 초과 오류가 발생할 가능성은 낮아집니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:813
+msgid "Maximum rows of data to be processed per request for restoration"
+msgstr "복원 요청당 처리할 수 있는 최대 데이터 행 개수"
+
+#: admin/partials/wpvivid-settings-page-display.php:766
+msgid "Some web hosting providers limit large zip files (e.g. 200MB), and therefore splitting your backup into many parts is an ideal way to avoid hitting the limitation if you are running a big website. Please try to adjust the value if you are encountering backup errors. If you use a value of 0 MB, any backup files won't be split."
+msgstr "일부 웹 호스팅 제공자는 큰 zip 파일(예: 200MB)을 제한하므로 백업을 여러 부분으로 나누는 것은 큰 웹사이트를 운영하는 경우 제한에 걸리는 것을 피하는 이상적인 방법입니다. 백업 오류가 발생하는 경우 값을 조정해 보세요. 0MB 값을 사용하면 백업 파일이 분할되지 않습니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:765
+msgid "MB"
+msgstr "MB"
+
+#: admin/partials/wpvivid-settings-page-display.php:763
+msgid "Split a sql file every this size"
+msgstr "SQL 파일을 이 크기마다 분할"
+
+#: admin/partials/wpvivid-settings-page-display.php:761
+msgid "When taking a backup, the plugin will compress this number of files to the backup zip each time. The default value is 500. The lower the value, the longer time the backup will take, but the higher the backup success rate. If you encounter a backup timeout issue, try to decrease this value."
+msgstr "백업을 할 때 플러그인은 매번 이 개수의 파일을 백업 zip으로 압축합니다. 기본값은 500입니다. 값이 낮을수록 백업에 걸리는 시간은 길어지지만 백업 성공률은 높아집니다. 백업 시간 초과 문제가 발생하면 이 값을 줄여보세요."
+
+#: admin/partials/wpvivid-settings-page-display.php:760
+msgid "Files"
+msgstr "파일"
+
+#: admin/partials/wpvivid-settings-page-display.php:758
+msgid "The number of files compressed to the backup zip each time"
+msgstr "매번 백업 zip에 압축되는 파일의 개수"
+
+#: admin/partials/wpvivid-settings-page-display.php:704
+msgid "PclZip is a much slower but more stable zip method that is included in every WordPress install. WPvivid will automatically switch to PclZip if the ZIP extension is not installed within your PHP."
+msgstr "PclZip은 모든 워드프레스 설치에 포함된 훨씬 느리지만 더 안정적인 zip 방식입니다. PHP에 ZIP 확장 프로그램이 설치되지 않은 경우 WPvivid는 자동으로 PclZip으로 전환합니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:698
+msgid "ZipArchive has a better flexibility which provides a higher backup success rate and speed. WPvivid Backup Plugin uses ZipArchive method by default. Using this method requires the ZIP extension to be installed within your PHP."
+msgstr "ZipArchive는 더 나은 유연성을 제공하여 더 높은 백업 성공률과 속도를 제공합니다. WPvivid 백업 플러그인은 기본적으로 ZipArchive 방법을 사용합니다. 이 방법을 사용하려면 PHP에 ZIP 확장 기능을 설치해야 합니다."
+
+#: admin/class-wpvivid-admin.php:1716
+msgid "Unlimited domains"
+msgstr "무제한 도메인"
+
+#: includes/snapshot/class-wpvivid-snapshots-list.php:41
+msgid "Comment"
+msgstr "코멘트"
+
+#: includes/snapshot/class-wpvivid-snapshots-list.php:40
+msgid "Prefix"
+msgstr "접두사"
+
+#: includes/snapshot/class-wpvivid-snapshots-list.php:39
+msgid "Type"
+msgstr "유형"
+
+#: includes/snapshot/class-wpvivid-snapshots-list.php:38
+msgid "Time"
+msgstr "시간"
+
+#: includes/snapshot/class-wpvivid-snapshots-list.php:37
+msgid "cb"
+msgstr "cb"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1606
+msgid "If you need any help with our plugin, start a thread on the plugin support forum and we will respond shortly."
+msgstr "플러그인과 관련하여 도움이 필요하실 경우, 플러그인 지원 포럼에 스레드를 시작하시면 곧 답변해 드리겠습니다."
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1562
+#: includes/snapshot/class-wpvivid-snapshot.php:1604
+msgid "Get Support on Forum"
+msgstr "포럼에서 지원 받기"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1551
+#: includes/snapshot/class-wpvivid-snapshot.php:1592
+msgid "Restore Database Snapshots"
+msgstr "데이터베이스 스냅샷 복원"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1548
+#: includes/snapshot/class-wpvivid-snapshot.php:1587
+msgid "Create Database Snapshots"
+msgstr "데이터베이스 스냅샷 생성"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1580
+msgid "Documentation"
+msgstr "문서"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1050
+msgid "Are you sure to delete the selected snapshots? These snapshots will be deleted permanently."
+msgstr "정말로 선택한 스냅샷을 삭제하시겠습니까? 이 스냅샷은 영구적으로 삭제됩니다."
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1000
+msgid "Are you sure you want to delete this snapshot?"
+msgstr "정말로 이 스냅샷을 삭제하시겠습니까?"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:905
+msgid "Are you sure you want to restore this snapshot?"
+msgstr "정말로 이 스냅샷을 복원하시겠습니까?"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:80
+msgid "Database Snapshots"
+msgstr "데이터베이스 스냅샷"
+
+#: admin/class-wpvivid-admin.php:1727
+msgid "See Plans"
+msgstr "플랜 보기"
+
+#: includes/customclass/class-wpvivid-dropbox.php:685
+msgid "To add Dropbox, please get Dropbox authentication first. Once authenticated, you will be redirected to this page, then you can add storage information and save it."
+msgstr "Dropbox를 추가하려면 먼저 Dropbox 인증을 받아주세요. 인증되면 이 페이지로 리디렉션되고, 그런 다음 저장소 정보를 추가하고 저장할 수 있습니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:353
+msgid "Junk Size:"
+msgstr "정크 크기:"
+
+#: admin/partials/wpvivid-settings-page-display.php:346
+msgid "Backup Cache Size:"
+msgstr "백업 캐시 크기:"
+
+#: admin/partials/wpvivid-settings-page-display.php:339
+msgid "Logs Size:"
+msgstr "로그 크기:"
+
+#: admin/partials/wpvivid-settings-page-display.php:332
+msgid "Backup Size:"
+msgstr "백업 크기:"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1754
+msgid "lsolated Folder Path: "
+msgstr "분리된 폴더 경로: "
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1751
+msgid "This tab displays the isolated images and their locations. You can choose to restore or delete specific isolated images."
+msgstr "이 탭은 분리된 이미지와 그 위치를 표시합니다. 특정 분리된 이미지를 복원하거나 삭제할 수 있습니다."
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1118
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1761
+msgid "All Folders"
+msgstr "모든 폴더"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1116
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1130
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1759
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1770
+msgid "Search"
+msgstr "검색"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1080
+msgid "Clicking the 'Scan' button to find unused images in your media folder. Currently it only scans JPG and PNG images."
+msgstr "'스캔' 버튼을 클릭하여 미디어 폴더에서 사용하지 않는 이미지를 찾으세요. 현재는 JPG 및 PNG 이미지만 스캔합니다."
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1074
+msgid "Media path: "
+msgstr "미디어 경로: "
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1070
+msgid "In the tab, you can scan your media folder (uploads) to find unused images and isolate specific or all unused images."
+msgstr "탭에서 미디어 폴더(uploads)를 스캔하여 사용하지 않는 이미지를 찾고 특정 이미지나 모든 이미지를 분리할 수 있습니다."
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1027
+msgid "Isolated Media"
+msgstr "분리된 미디어"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1026
+msgid "Scan Media"
+msgstr "미디어 스캔"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:766
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:804
+msgid "Restoring images..."
+msgstr "이미지 복원 중..."
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:760
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:798
+msgid "Delete all images"
+msgstr "모든 이미지 삭제"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:759
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:797
+msgid "Delete selected images"
+msgstr "선택한 이미지 삭제"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:758
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:796
+msgid "Restore all images"
+msgstr "모든 이미지 복원"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:757
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:795
+msgid "Restore selected images"
+msgstr "선택한 이미지 복원"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:351
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:378
+msgid "Isolating images..."
+msgstr "이미지 분리 중..."
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:347
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:374
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:762
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:800
+msgid "Apply"
+msgstr "적용"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:345
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:372
+msgid "Isolate all images"
+msgstr "모든 이미지 분리"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:344
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:371
+msgid "Isolate selected images"
+msgstr "선택한 이미지 분리"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:343
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:370
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:756
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:794
+msgid "Bulk Actions"
+msgstr "일괄 동작"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:341
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:368
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:754
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:792
+msgid "Select bulk action"
+msgstr "일괄 동작 선택"
+
+#: includes/staging/class-wpvivid-staging-setting.php:204
+#: includes/staging/class-wpvivid-staging-setting.php:383
+msgid "With this option checked, all staging sites you have created will be retained when the plugin is deleted, just in case you still need them later. The sites will show up again after the plugin is reinstalled."
+msgstr "이 옵션을 선택하면 플러그인이 삭제되어도 생성한 모든 스테이징 사이트가 유지되므로 나중에 필요할 경우를 대비합니다. 플러그인을 다시 설치하면 사이트가 다시 표시됩니다."
+
+#: includes/staging/class-wpvivid-staging-setting.php:193
+#: includes/staging/class-wpvivid-staging-setting.php:372
+msgid "When checked, this option allows you to keep the current permalink structure when you create a staging site or push a staging site to live."
+msgstr "이 옵션을 선택하면 스테이징 사이트를 만들거나 스테이징 사이트를 푸시할 때 현재의 고유주소 구조를 유지할 수 있습니다."
+
+#: includes/staging/class-wpvivid-staging-setting.php:182
+#: includes/staging/class-wpvivid-staging-setting.php:361
+msgid "When the option is checked, anyone will be able to visit the staging site without the need to login. Uncheck it to request a login to visit the staging site."
+msgstr "이 옵션을 선택하면 누구나 로그인 없이 스테이징 사이트를 방문할 수 있습니다. 스테이징 사이트를 방문하기 위해 로그인을 요청하려면 선택을 해제하세요."
+
+#: includes/staging/class-wpvivid-staging-list-ui-display.php:1147
+msgid "Are you sure to restart this staging site?"
+msgstr "정말로 이 스테이징 사이트를 다시 시작하시겠습니까?"
+
+#: includes/staging/class-wpvivid-staging-list-ui-display.php:1120
+msgid "Are you sure to delete this staging site?"
+msgstr "정말로 이 스테이징 사이트를 삭제하시겠습니까?"
+
+#: includes/staging/class-wpvivid-staging-create-ui-display.php:382
+#: includes/staging/class-wpvivid-staging-create-ui-display.php:391
+#: includes/staging/class-wpvivid-staging-create-ui-display.php:400
+msgid "Click OK to start creating the staging site."
+msgstr "확인을 클릭하여 스테이징 사이트 생성을 시작하세요."
+
+#: includes/staging/class-wpvivid-fresh-install-create-ui-display.php:568
+msgid "Click OK to start creating fresh WordPress install."
+msgstr "확인을 클릭하여 새로운 워드프레스 설치를 시작하세요."
+
+#: includes/customclass/class-wpvivid-ftpclass.php:390
+msgid "Warning: Root directory is forbidden to set to '/'."
+msgstr "경고: 루트 디렉토리는 '/'로 설정하는 것이 금지되어 있습니다."
+
+#: includes/customclass/class-wpvivid-dropbox.php:506
+#: includes/customclass/class-wpvivid-one-drive.php:217
+msgid "Authentication is done, please continue to enter the storage information, then click 'Add Now' button to save it."
+msgstr "인증이 완료되었습니다. 계속해서 저장 정보를 입력한 다음, '지금 추가' 버튼을 클릭하여 저장하세요."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2473
+#: admin/partials/wpvivid-schedule-page-display.php:201
+#: includes/class-wpvivid.php:7091
+msgid "Add a storage"
+msgstr "저장소 추가"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:72
+#: includes/class-wpvivid.php:7030
+msgid "Remove the remote storage"
+msgstr "원격 저장소 제거"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:70
+#: includes/class-wpvivid.php:7028
+msgid "Edit the remote storage"
+msgstr "원격 저장소 편집"
+
+#: includes/class-wpvivid.php:6851 includes/class-wpvivid.php:6987
+msgid "Delete the backup"
+msgstr "백업 삭제"
+
+#: includes/class-wpvivid.php:6808
+msgid "Click the button to complete website restore or migration"
+msgstr "버튼을 클릭하여 웹사이트 복원이나 마이그레이션을 완료하세요"
+
+#: includes/class-wpvivid.php:6733 includes/class-wpvivid.php:6874
+msgid "Uploaded Backup: "
+msgstr "업로드된 백업: "
+
+#: includes/class-wpvivid.php:5404
+msgid "You have successfully changed your default remote storage."
+msgstr "기본 원격 저장소를 성공적으로 변경했습니다."
+
+#: includes/class-wpvivid-public-interface.php:32
+msgid "Manual"
+msgstr "수동"
+
+#: includes/class-wpvivid-migrate.php:1339
+msgid "Clone then Transfer"
+msgstr "복제 후 전송"
+
+#: includes/class-wpvivid-migrate.php:1043
+#: includes/class-wpvivid-migrate.php:1181
+msgid "Save"
+msgstr "저장"
+
+#: includes/class-wpvivid-migrate.php:721
+#: includes/new_backup/class-wpvivid-backup2.php:1599
+msgid "The key has expired."
+msgstr "키가 만료되었습니다."
+
+#: includes/class-wpvivid-migrate.php:714
+#: includes/new_backup/class-wpvivid-backup2.php:1591
+msgid "The key is invalid."
+msgstr "키가 잘못되었습니다."
+
+#: includes/class-wpvivid-migrate.php:702
+#: includes/new_backup/class-wpvivid-backup2.php:1577
+msgid "A key is required."
+msgstr "키가 필요합니다."
+
+#: includes/class-wpvivid-migrate.php:469
+msgid "24 hours"
+msgstr "24시간"
+
+#: includes/class-wpvivid-migrate.php:468
+msgid "8 hours"
+msgstr "8시간"
+
+#: includes/class-wpvivid-migrate.php:467
+msgid "2 hours"
+msgstr "2시간"
+
+#: includes/class-wpvivid-exporter.php:584
+msgid "Reset Filters"
+msgstr "필터 초기화"
+
+#: includes/class-wpvivid-export-import.php:1982
+msgid "Please select an existing author to start importing."
+msgstr "가져오기를 시작하려면 기존 작성자를 선택해주세요."
+
+#: includes/class-wpvivid-export-import.php:1937
+msgid "Import failed."
+msgstr "가져오기에 실패했습니다."
+
+#: includes/class-wpvivid-export-import.php:1931
+msgid "Import completed successfully."
+msgstr "가져오기를 성공적으로 완료했습니다."
+
+#: includes/class-wpvivid-export-import.php:1830
+msgid "Are you sure you want to delete all the exported files in the /ImportandExport folder? All the export files in the folder will be permanently deleted."
+msgstr "정말로 /ImportandExport 폴더의 모든 내보낸 파일을 삭제하시겠습니까? 폴더의 모든 내보낸 파일이 영구적으로 삭제됩니다."
+
+#: includes/class-wpvivid-export-import.php:624
+msgid "Show Pages"
+msgstr "페이지 표시"
+
+#: includes/class-wpvivid-export-import.php:624
+msgid "Show Posts"
+msgstr "글 표시"
+
+#: includes/class-wpvivid-export-import.php:321
+msgid "You can not use word 'wpvivid' to comment the post."
+msgstr "해당 글에 코멘트 할 때 'wpvivid'라는 단어를 사용할 수 없습니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:750
+#: admin/partials/wpvivid-settings-page-display.php:805
+msgid "Seconds"
+msgstr "초"
+
+#: admin/partials/wpvivid-settings-page-display.php:410
+msgid "The selected item(s) will be permanently deleted. Are you sure you want to continue?"
+msgstr "선택한 항목이 영구적으로 삭제됩니다. 정말로 계속하시겠습니까?"
+
+#: admin/partials/wpvivid-settings-page-display.php:208
+msgid "Out of date backups have been removed."
+msgstr "오래된 백업은 제거되었습니다."
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:225
+msgid "Deleting a remote storage will make it unavailable until it is added again. Are you sure to continue?"
+msgstr "원격 저장소를 삭제하면 다시 추가될 때까지 사용할 수 없게 됩니다. 정말로 계속하시겠습니까?"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1541
+#: admin/partials/wpvivid-backup-restore-page-display.php:1704
+msgid "Restore failed."
+msgstr "복원에 실패함."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1464
+msgid "Are you sure to continue?"
+msgstr "정말로 계속하시겠습니까?"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:761
+#: includes/class-wpvivid.php:6836 includes/class-wpvivid.php:6972
+msgid "Prepare to download the backup"
+msgstr "백업 다운로드 준비"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:58
+msgid "Downloaded Size: "
+msgstr "다운로드 크기: "
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:58
+msgid "Retriving (remote storage to web server)"
+msgstr "가져오는 중 (원격 저장소에서 웹 서버로)"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:53
+#: admin/partials/wpvivid-backup-restore-page-display.php:70
+#: admin/partials/wpvivid-backup-restore-page-display.php:79
+#: includes/class-wpvivid.php:2816 includes/class-wpvivid.php:2830
+msgid "Prepare to Download"
+msgstr "다운로드 준비"
+
+#: admin/class-wpvivid-admin.php:1466
+msgid "Send succeeded."
+msgstr "보내기에 성공함."
+
+#: admin/class-wpvivid-admin.php:1351
+msgid "VPS hosting"
+msgstr "VPS 호스팅"
+
+#: admin/class-wpvivid-admin.php:1350
+msgid "share hosting"
+msgstr "공유 호스팅"
+
+#: admin/class-wpvivid-admin.php:697 admin/class-wpvivid-admin.php:715
+msgid "Already Done"
+msgstr "이미 완료됨"
+
+#: admin/class-wpvivid-admin.php:698 admin/class-wpvivid-admin.php:716
+msgid "Never"
+msgstr "절대"
+
+#: admin/class-wpvivid-admin.php:696 admin/class-wpvivid-admin.php:714
+msgid "Maybe Later"
+msgstr "나중에"
+
+#: admin/class-wpvivid-admin.php:695 admin/class-wpvivid-admin.php:713
+msgid "Rate Us"
+msgstr "평가하기"
+
+#: includes/staging/class-wpvivid-staging-setting.php:159
+#: includes/staging/class-wpvivid-staging-setting.php:338
+msgid "Retrying"
+msgstr "재시도 중"
+
+#: admin/partials/wpvivid-schedule-page-display.php:163
+#: includes/class-wpvivid.php:7120
+msgid "Send backups to remote storage (You can choose whether to keep the backup in localhost after it is uploaded to cloud storage in Settings.)"
+msgstr "원격 저장소로 백업을 보냅니다. (설정에서 클라우드 저장소에 업로드한 후 백업을 로컬호스트에 보관할지 여부를 선택할 수 있습니다.)"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1083
+msgid "Are you sure to remove the selected backups? These backups will be deleted permanently."
+msgstr "정말로 선택한 백업을 제거하시겠습니까? 이러한 백업은 영구적으로 삭제됩니다."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1031
+msgid "Are you sure to remove this backup? This backup will be deleted permanently."
+msgstr "정말로 이 백업을 제거하시겠습니까? 이 백업은 영구적으로 삭제됩니다."
+
+#: includes/customclass/class-wpvivid-one-drive.php:411
+msgid "Click to get Microsoft authentication."
+msgstr "클릭하여 Microsoft 인증을 받으세요"
+
+#: includes/customclass/class-wpvivid-one-drive.php:399
+msgid "To add OneDrive, please get Microsoft authentication first. Once authenticated, you will be redirected to this page, then you can add storage information and save it"
+msgstr "OneDrive를 추가하려면 먼저 Microsoft 인증을 받아주세요. 인증되면 이 페이지로 리디렉션되며, 그런 다음 저장소 정보를 추가하고 저장할 수 있습니다"
+
+#: includes/customclass/class-wpvivid-google-drive.php:427
+msgid "Click to get Google authentication."
+msgstr "클릭하여 Google 인증을 받으세요."
+
+#: includes/customclass/class-wpvivid-google-drive.php:415
+msgid "To add Google Drive, please get Google authentication first. Once authenticated, you will be redirected to this page, then you can add storage information and save it"
+msgstr "Google Drive를 추가하려면 먼저 Google 인증을 받아주세요. 인증되면 이 페이지로 리디렉션되며, 그런 다음 저장소 정보를 추가하고 저장할 수 있습니다"
+
+#: includes/customclass/class-wpvivid-dropbox.php:722
+msgid "To add Dropbox, please get Dropbox authentication first. Once authenticated, you will be redirected to this page, then you can add storage information and save it"
+msgstr "Dropbox를 추가하려면 먼저 Dropbox 인증을 받아주세요. 인증이 완료되면 이 페이지로 리디렉션되며, 그런 다음 저장소 정보를 추가하고 저장할 수 있습니다"
+
+#: includes/customclass/class-wpvivid-dropbox.php:697
+msgid "Click to get Dropbox authentication."
+msgstr "클릭하여 Dropbox 인증을 받으세요."
+
+#: includes/customclass/class-wpvivid-dropbox.php:571
+#: includes/customclass/class-wpvivid-google-drive.php:298
+#: includes/customclass/class-wpvivid-one-drive.php:282
+msgid "Click the button to add the storage."
+msgstr "버튼을 클릭하여 저장소를 추가하세요."
+
+#: includes/customclass/class-wpvivid-dropbox.php:566
+#: includes/customclass/class-wpvivid-google-drive.php:293
+#: includes/customclass/class-wpvivid-one-drive.php:277
+msgid "Add Now"
+msgstr "지금 추가"
+
+#: includes/class-wpvivid.php:5920 includes/class-wpvivid.php:5925
+msgid "The value of 'Delay Between Requests' can't be empty."
+msgstr "'요청 간 지연' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5909 includes/class-wpvivid.php:5914
+msgid "The value of 'PHP Scripts Execution Timeout' can't be empty."
+msgstr "'PHP 스크립트 실행 시간 초과' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5898 includes/class-wpvivid.php:5903
+msgid "The value of 'Staging Memory Limit' can't be empty."
+msgstr "'스테이징 메모리 제한' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5887 includes/class-wpvivid.php:5892
+msgid "The value of 'Max File Size' can't be empty."
+msgstr "'최대 파일 크기' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5876 includes/class-wpvivid.php:5881
+msgid "The value of 'File Copy Count' can't be empty."
+msgstr "'파일 복사 횟수' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5865 includes/class-wpvivid.php:5870
+msgid "The value of 'DB Replace Count' can't be empty."
+msgstr "'DB 교체 횟수' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5854 includes/class-wpvivid.php:5859
+msgid "The value of 'DB Copy Count' can't be empty."
+msgstr "'DB 복사 횟수' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5841 includes/class-wpvivid.php:5846
+msgid "The value of 'Media Files Quantity Processed Per Request' can't be empty."
+msgstr "'요청당 처리된 미디어 파일 수량' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5830 includes/class-wpvivid.php:5835
+msgid "The value of 'Posts Quantity Processed Per Request' can't be empty."
+msgstr "'요청당 처리된 글 수량' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5791 includes/class-wpvivid.php:5796
+msgid "The value of 'Chunk Size' can't be empty."
+msgstr "'청크 크기' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5780 includes/class-wpvivid.php:5785
+msgid "The value of 'PHP memory limit for restoration' can't be empty."
+msgstr "'복원을 위한 PHP 메모리 제한' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5769 includes/class-wpvivid.php:5774
+msgid "The value of 'PHP memory limit for backup' can't be empty."
+msgstr "'백업을 위한 PHP 메모리 제한' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5758 includes/class-wpvivid.php:5763
+msgid "The value of 'PHP scripts execution timeout for restore' can't be empty."
+msgstr "'복원을 위한 PHP 스크립트 실행 시간 초과' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5744 includes/class-wpvivid.php:5751
+msgid "The value of 'PHP scripts execution timeout for backup' can't be empty."
+msgstr "'백업을 위한 PHP 스크립트 실행 시간 초과' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5731 includes/class-wpvivid.php:5738
+msgid "The value of 'Exclude files which are larger than' can't be empty."
+msgstr "'다음보다 큰 파일 제외' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid.php:5717 includes/class-wpvivid.php:5725
+msgid "The value of 'Compress file every' can't be empty."
+msgstr "'파일 압축 간격' 값은 비워둘 수 없습니다."
+
+#: includes/class-wpvivid-export-import.php:1622
+msgid "Back"
+msgstr "뒤로"
+
+#: admin/class-wpvivid-admin.php:825
+msgid "Because Dropbox has upgraded their API on September 30, 2021, the new API is no longer compatible with the previous app's settings. Please re-add your Dropbox storage to ensure that it works properly."
+msgstr "Dropbox가 2021년 9월 30일에 API를 업그레이드했기 때문에 새로운 API는 더 이상 이전 앱의 설정과 호환되지 않습니다. 제대로 작동하는지 확인하려면 Dropbox 저장소를 다시 추가해주세요."
+
+#: admin/class-wpvivid-admin.php:896
+msgid "In order to execute the scheduled backups properly, please set the DISABLE_WP_CRON constant to false. If you are using an external cron system, simply click 'X' to dismiss this message."
+msgstr "예약된 백업을 제대로 실행하려면 DISABLE_WP_CRON 상수를 false로 설정하세요. 외부 cron 시스템을 사용하는 경우 'X'를 클릭하여 이 메시지를 해제하세요."
+
+#: includes/class-wpvivid-migrate.php:1428
+msgid "<strong>Tips: </strong>Some web hosts may restrict the connection between the two sites, so you may get a 403 error or unstable connection issue when performing auto migration. In that case, it is recommended to manually transfer the site."
+msgstr "<strong>팁:</strong>일부 웹 호스트는 두 사이트 간의 연결을 제한할 수 있으므로 자동 마이그레이션을 수행할 때 403 오류나 불안정한 연결 문제가 발생할 수 있습니다. 그런 경우 사이트를 수동으로 전송하는 것이 좋습니다."
+
+#: includes/staging/class-wpvivid-staging.php:252
+#: includes/staging/class-wpvivid-staging.php:265
+msgid "Staging"
+msgstr "스테이징"
+
+#: includes/staging/class-wpvivid-staging.php:100
+msgid "Create A Fresh WordPress Install"
+msgstr "새로운 워드프레스 설치 생성"
+
+#: includes/staging/class-wpvivid-staging.php:99
+msgid "Create A Staging Site"
+msgstr "스테이징 사이트 생성"
+
+#: includes/staging/class-wpvivid-staging-ui-display.php:1302
+msgid "WPvivid Plugins - Staging"
+msgstr "WPvivid 플러그인 - 스테이징"
+
+#: includes/staging/class-wpvivid-staging-sites-list.php:352
+#: includes/staging/class-wpvivid-staging-sites-list.php:723
+msgid "Subsite Description"
+msgstr "하위 사이트 설명"
+
+#: includes/staging/class-wpvivid-staging-sites-list.php:351
+#: includes/staging/class-wpvivid-staging-sites-list.php:722
+msgid "Subsite Title"
+msgstr "하위 사이트 제목"
+
+#: includes/staging/class-wpvivid-staging-sites-list.php:350
+msgid "Subsite Tables/Folders"
+msgstr "하위 사이트 테이블/폴더"
+
+#: includes/staging/class-wpvivid-staging-sites-list.php:349
+#: includes/staging/class-wpvivid-staging-sites-list.php:720
+msgid "Subsite URL"
+msgstr "하위 사이트 URL"
+
+#: includes/staging/class-wpvivid-staging-setting.php:199
+#: includes/staging/class-wpvivid-staging-setting.php:378
+msgid "Keep staging sites when deleting the plugin"
+msgstr "플러그인을 삭제할 때 스테이징 사이트 유지"
+
+#: includes/staging/class-wpvivid-staging-setting.php:188
+#: includes/staging/class-wpvivid-staging-setting.php:367
+msgid "Keep permalink when transferring website"
+msgstr "웹사이트 이전 시 고유주소 유지"
+
+#: includes/staging/class-wpvivid-staging-setting.php:177
+#: includes/staging/class-wpvivid-staging-setting.php:356
+msgid "Anyone can visit the staging site"
+msgstr "누구나 스테이징 사이트를 방문할 수 있습니다"
+
+#: includes/staging/class-wpvivid-staging-setting.php:171
+#: includes/staging/class-wpvivid-staging-setting.php:350
+msgid " times when encountering a time-out error"
+msgstr " 시간 초과 오류가 발생한 경우"
+
+#: includes/staging/class-wpvivid-staging-setting.php:155
+#: includes/staging/class-wpvivid-staging-setting.php:334
+msgid "A lower value will help speed up the process of creating a staging site. However, if your server has a limit on the number of requests, a higher value is recommended."
+msgstr "값이 낮을수록 준비 사이트를 만드는 프로세스 속도가 빨라집니다. 그러나 서버에 요청 수에 제한이 있는 경우 더 높은 값을 권장합니다."
+
+#: includes/staging/class-wpvivid-staging-setting.php:149
+#: includes/staging/class-wpvivid-staging-setting.php:328
+msgid "Delay Between Requests"
+msgstr "요청 간 지연"
+
+#: includes/staging/class-wpvivid-staging-setting.php:144
+#: includes/staging/class-wpvivid-staging-setting.php:323
+msgid ""
+"The time-out is not your server PHP time-out. With the execution time exhausted, our plugin will shut down the progress of \n"
+"                creating a staging site. If the progress  encounters a time-out, that means you have a medium or large sized website. Please try to \n"
+"                scale the value bigger."
+msgstr "타임아웃은 서버 PHP 타임아웃이 아닙니다. 실행 시간이 소진되면, 저희 플러그인은 스테이징 사이트 생성 진행을 중단합니다. 진행 중에 타임아웃이 발생하면, 이는 중간 크기 또는 대형 웹사이트를 가지고 있다는 것을 의미합니다. 값을 더 크게 조정해 보세요."
+
+#: includes/staging/class-wpvivid-staging-setting.php:138
+#: includes/staging/class-wpvivid-staging-setting.php:317
+msgid "PHP Script Execution Timeout"
+msgstr "PHP 스크립트 실행 시간 초과"
+
+#: includes/staging/class-wpvivid-staging-setting.php:133
+#: includes/staging/class-wpvivid-staging-setting.php:312
+msgid ""
+"Adjust this value to apply for a temporary PHP memory limit for the plugin to create a staging site. \n"
+"                We set this value to 256M by default. Increase the value if you encounter a memory exhausted error. Note: some \n"
+"                web hosting providers may not support this."
+msgstr ""
+"플러그인이 스테이징 사이트를 만들 수 있도록 임시 PHP 메모리 제한을 적용하려면 이 값을 조정하세요.\n"
+"                기본적으로 이 값을 256M으로 설정합니다. 메모리 고갈 오류가 발생하면 값을 늘리세요. 참고: 일부\n"
+"                웹 호스팅 제공자는 이를 지원하지 않을 수 있습니다."
+
+#: includes/staging/class-wpvivid-staging-setting.php:127
+#: includes/staging/class-wpvivid-staging-setting.php:306
+msgid "Staging Memory Limit"
+msgstr "스테이징 메모리 제한"
+
+#: includes/staging/class-wpvivid-staging-setting.php:124
+#: includes/staging/class-wpvivid-staging-setting.php:303
+msgid "Maximum size of the files copied to a staging site. All files larger than this value will be ignored. If you set the value of 0 MB, all files will be copied to a staging site."
+msgstr "준비 사이트에 복사된 파일의 최대 크기입니다. 이 값보다 큰 파일은 모두 무시됩니다. 값을 0MB로 설정하면 모든 파일이 준비 사이트로 복사됩니다."
+
+#: includes/staging/class-wpvivid-staging-setting.php:118
+#: includes/staging/class-wpvivid-staging-setting.php:297
+msgid "Max File Size"
+msgstr "최대 파일 크기"
+
+#: includes/staging/class-wpvivid-staging-setting.php:114
+#: includes/staging/class-wpvivid-staging-setting.php:293
+msgid ""
+"Number of files to copy that will be copied within one ajax request. The higher value makes the file copy process faster. \n"
+"                Please try a high value to find out the highest possible value. If you encounter timeout errors, try lower values until no more errors occur."
+msgstr ""
+"한 번의 ajax 요청 내에서 복사될 복사할 파일 수입니다. 값이 높을수록 파일 복사 프로세스가 더 빨라집니다.\n"
+"                가능한 가장 높은 값을 찾으려면 높은 값을 시도해주세요. 시간 초과 오류가 발생하면 더 이상 오류가 발생하지 않을 때까지 낮은 값을 시도하세요."
+
+#: includes/staging/class-wpvivid-staging-setting.php:108
+#: includes/staging/class-wpvivid-staging-setting.php:287
+msgid "File Copy Count"
+msgstr "파일 복사 수"
+
+#: includes/staging/class-wpvivid-staging-setting.php:104
+#: includes/staging/class-wpvivid-staging-setting.php:283
+msgid ""
+"Number of DB rows, that are processed within one ajax query. The higher value makes the DB replacement process faster. \n"
+"                If timeout erros occur, decrease the value because this process consumes a lot of memory."
+msgstr ""
+"하나의 Ajax 쿼리 내에서 처리되는 DB 행 수입니다. 값이 높을수록 DB 교체 과정이 빨라집니다.\n"
+"                타임아웃 오류가 발생하면 이 프로세스에서 메모리를 많이 소모하므로 값을 줄이세요."
+
+#: includes/staging/class-wpvivid-staging-setting.php:98
+#: includes/staging/class-wpvivid-staging-setting.php:277
+msgid "DB Replace Count"
+msgstr "DB 교체 횟수"
+
+#: includes/staging/class-wpvivid-staging-setting.php:93
+#: includes/staging/class-wpvivid-staging-setting.php:272
+msgid ""
+"Number of DB rows, that are copied within one ajax query. The higher value makes the database copy process faster. \n"
+"                Please try a high value to find out the highest possible value. If you encounter timeout errors, try lower values until no \n"
+"                more errors occur."
+msgstr ""
+"하나의 Ajax 쿼리 내에서 복사되는 DB 행 수입니다. 값이 높을수록 데이터베이스 복사 프로세스가 더 빨라집니다.\n"
+"                가능한 가장 높은 값을 찾으려면 높은 값을 시도해보십시오. 시간 초과 오류가 발생하면 오류가 발생하지 않을 때까지\n"
+"                 값을 낮추십시오."
+
+#: includes/staging/class-wpvivid-staging-setting.php:87
+#: includes/staging/class-wpvivid-staging-setting.php:266
+msgid "DB Copy Count"
+msgstr "DB 복사 횟수"
+
+#: includes/staging/class-wpvivid-staging-setting.php:29
+msgid "Staging Settings"
+msgstr "스테이징 설정"
+
+#: includes/staging/class-wpvivid-staging-log-page.php:313
+msgid "Staging Logs"
+msgstr "스테이징 로그"
+
+#: includes/staging/class-wpvivid-staging-log-page.php:28
+msgid "Action\t"
+msgstr "동작 "
+
+#: includes/staging/class-wpvivid-staging-log-page.php:27
+msgid "Log File Name\t"
+msgstr "로그 파일 이름 "
+
+#: admin/class-wpvivid-admin.php:1102
+msgid "Backup Logs"
+msgstr "백업 로그"
+
+#: admin/class-wpvivid-admin.php:1708
+msgid "Up to 50 domains"
+msgstr "최대 50개 도메인"
+
+#: admin/class-wpvivid-admin.php:1700
+msgid "Up to 10 domains"
+msgstr "최대 10개 도메인"
+
+#: admin/class-wpvivid-admin.php:1692
+msgid "2 domains"
+msgstr "2개 도메인"
+
+#: admin/class-wpvivid-admin.php:1689
+msgid "Roles & Capabilities"
+msgstr "역할 & 역량"
+
+#: admin/class-wpvivid-admin.php:1688
+msgid "White Label"
+msgstr "화이트 라벨"
+
+#: admin/class-wpvivid-admin.php:1687
+msgid "Staging Pro"
+msgstr "스테이징 Pro"
+
+#: admin/class-wpvivid-admin.php:1686
+msgid "Mulitsite Support"
+msgstr "다중 사이트 지원"
+
+#: admin/class-wpvivid-admin.php:1685
+msgid "Backup & Migration Pro"
+msgstr "Backup & Migration Pro"
+
+#: admin/class-wpvivid-admin.php:1684
+msgid "Domains"
+msgstr "도메인"
+
+#: admin/class-wpvivid-admin.php:1677
+msgid "Small Business"
+msgstr "소기업"
+
+#: admin/class-wpvivid-admin.php:1675
+msgid "Blogger"
+msgstr "블로거"
+
+#: admin/class-wpvivid-admin.php:1674
+msgid "Features"
+msgstr "기능"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:49
+msgid "File not found"
+msgstr "파일을 발견하지 못함"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:45
+#: admin/partials/wpvivid-backup-restore-page-display.php:53
+#: admin/partials/wpvivid-backup-restore-page-display.php:58
+#: admin/partials/wpvivid-backup-restore-page-display.php:70
+#: admin/partials/wpvivid-backup-restore-page-display.php:79
+#: includes/class-wpvivid.php:2816 includes/class-wpvivid.php:2821
+#: includes/class-wpvivid.php:2830
+msgid "File Size: "
+msgstr "파일 크기: "
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:32
+msgid "File"
+msgstr "파일"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2651
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2743
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2799
+msgid "Total Folders:"
+msgstr "전체 폴더 개수:"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2394
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2563
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2655
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2747
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2803
+msgid "Scanned:"
+msgstr "스캔됨:"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2390
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2559
+msgid "Total Posts:"
+msgstr "전체 글 개수:"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1101
+msgid "Please don't refresh the page while running a scan."
+msgstr "스캔이 실행 중에는 페이지를 새로 고치지 말아주세요."
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1076
+msgid "Scan"
+msgstr "스캔"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1013
+msgid "WPvivid Image Cleaner"
+msgstr "WPvivid Image Cleaner"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:935
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:948
+msgid "Image Cleaner"
+msgstr "이미지 클리너"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:55
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:463
+msgid "Size"
+msgstr "크기"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:53
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:461
+msgid "Path"
+msgstr "경로"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:52
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:460
+msgid "Thumbnail"
+msgstr "썸네일"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:847
+msgid "Set how many media files to process per request. The value should be set depending on your server performance and the recommended value is 100."
+msgstr "요청당 처리할 미디어 파일 개수를 설정합니다. 값은 서버 성능에 따라 설정해야 하며 권장 값은 100입니다."
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:842
+msgid "Media Files Quantity Processed Per Request"
+msgstr "요청당 처리된 미디어 파일 수량"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:840
+msgid "Set how many posts to process per request. The value should be set depending on your server performance and the recommended value is 20."
+msgstr "요청당 처리할 글 개수를 설정합니다. 값은 서버 성능에 따라 설정해야 하며 권장 값은 20입니다."
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:835
+msgid "Posts Quantity Processed Per Request"
+msgstr "요청당 처리된 글 수량"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:830
+msgid "With this option checked, when the image is deleted, the corresponding image url in the database that is not used anywhere on your website will also be deleted."
+msgstr "이 옵션을 선택하면 이미지가 삭제될 때 웹사이트의 어느 곳에서도 사용되지 않는 데이터베이스의 해당 이미지 URL도 삭제됩니다."
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:826
+msgid "Delete Image URL"
+msgstr "이미지 URL 삭제"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:821
+msgid "Checking this option will speed up your scans but may produce lower accuracy."
+msgstr "이 옵션을 선택하면 스캔 속도는 빨라지지만 정확도는 떨어질 수 있습니다."
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:817
+msgid "Enable Quick Scan"
+msgstr "빠른 스캔 활성화"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:743
+msgid "Media Cleaner Settings"
+msgstr "미디어 클리너 설정"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:382
+msgid "Post Type"
+msgstr "글 유형"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:50
+msgid "File Regex"
+msgstr "파일 정규식"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2871
+msgid "Tip:"
+msgstr "팁:"
+
+#: includes/class-wpvivid.php:7319
+msgid "Please enter a valid email address."
+msgstr "유효한 이메일 주소를 입력하세요."
+
+#: includes/class-wpvivid.php:7314
+msgid "User's email address is required."
+msgstr "사용자의 이메일 주소가 필요합니다."
+
+#: admin/partials/wpvivid-schedule-page-display.php:159
+#: includes/class-wpvivid.php:7116
+msgid "Save backups on localhost (web server)"
+msgstr "백업을 로컬호스트(웹 서버)에 저장"
+
+#: includes/class-wpvivid.php:6825
+msgid "Type:"
+msgstr "유형:"
+
+#: includes/class-wpvivid.php:6125
+msgid "Invalid email address"
+msgstr "잘못된 이메일 주소"
+
+#: includes/class-wpvivid.php:6097
+msgid "The selected file is not the setting file for WPvivid. Please upload the right file."
+msgstr "선택한 파일은 WPvivid용 설정 파일이 아닙니다. 올바른 파일을 업로드하세요."
+
+#: includes/class-wpvivid.php:5960 includes/class-wpvivid.php:5964
+msgid "The pdo_mysql extension is not detected. Please install the extension first or choose wpdb option for Database connection method."
+msgstr "pdo_mysql 확장이 감지되지 않았습니다. 먼저 확장을 설치하거나 데이터베이스 연결 방법으로 wpdb 옵션을 선택하세요."
+
+#: includes/class-wpvivid.php:5951
+msgid "An email address is required."
+msgstr "이메일 주소가 필요합니다."
+
+#: includes/class-wpvivid.php:5934 includes/class-wpvivid.php:5941
+msgid "The local storage path is required."
+msgstr "로컬 저장소 경로가 필요합니다."
+
+#: includes/class-wpvivid.php:5375
+msgid "Choose one storage from the list to be the default storage."
+msgstr "목록에서 하나의 저장소를 기본 저장소로 선택하세요."
+
+#: includes/class-wpvivid.php:5181
+msgid "The selected junk files have been deleted."
+msgstr "선택한 정크 파일이 삭제되었습니다."
+
+#: includes/class-wpvivid.php:5107
+msgid "Choose at least one type of junk files for deleting."
+msgstr "삭제할 정크 파일 유형을 하나 이상 선택하세요."
+
+#: includes/class-wpvivid.php:4692
+msgid "Getting backup directory failed. Please try again later."
+msgstr "백업 디렉터리를 가져오지 못했습니다. 나중에 다시 시도해주세요."
+
+#: includes/class-wpvivid.php:4444 includes/class-wpvivid.php:4453
+#: includes/class-wpvivid.php:4476 includes/class-wpvivid.php:4487
+msgid "Last Backup: "
+msgstr "마지막 백업: "
+
+#: includes/class-wpvivid.php:4431 includes/class-wpvivid.php:4441
+#: includes/class-wpvivid.php:4453 includes/class-wpvivid.php:4487
+msgid "The last backup message not found."
+msgstr "마지막 백업 메시지를 찾을 수 없습니다."
+
+#: includes/class-wpvivid.php:4305
+msgid "The restore file not found. Please verify the file exists."
+msgstr "복원 파일을 찾을 수 없습니다. 파일이 존재하는지 확인해주세요."
+
+#: includes/class-wpvivid.php:4251
+msgid "restore failed error unknown"
+msgstr "복원 실패 오류 알 수 없음"
+
+#: includes/class-wpvivid.php:3345
+msgid "Failed to get the remote storage information. Please try again later."
+msgstr "원격 저장소 정보를 가져오지 못했습니다. 나중에 다시 시도해주세요."
+
+#: includes/class-wpvivid.php:3311
+msgid "Failed to delete the remote storage, can not retrieve the storage infomation. Please try again."
+msgstr "원격 저장소 삭제에 실패했습니다. 저장소 정보를 검색할 수 없습니다. 다시 시도해주세요."
+
+#: includes/class-wpvivid.php:3253
+#: includes/customclass/class-wpvivid-dropbox.php:883
+#: includes/customclass/class-wpvivid-google-drive.php:1305
+#: includes/customclass/class-wpvivid-one-drive.php:1622
+msgid "You have successfully added a remote storage."
+msgstr "원격 저장소를 성공적으로 추가했습니다."
+
+#: includes/class-wpvivid.php:3137
+msgid "Unable to delete the locked backup. Please unlock it first and try again."
+msgstr "잠긴 백업을 삭제할 수 없습니다. 먼저 잠금을 해제하고 다시 시도해주세요."
+
+#: includes/class-wpvivid.php:3127
+msgid "Retrieving the backup(s) information failed while deleting the selected backup(s). Please try again later."
+msgstr "선택한 백업을 삭제하는 동안 백업 정보를 검색하지 못했습니다. 나중에 다시 시도해주세요."
+
+#: includes/class-wpvivid.php:1922 includes/class-wpvivid.php:2048
+#: includes/new_backup/class-wpvivid-backup2.php:919
+#: includes/new_backup/class-wpvivid-backup2.php:1325
+msgid "Task timed out."
+msgstr "작업 시간이 초과되었습니다."
+
+#: includes/class-wpvivid.php:1741 includes/class-wpvivid.php:1763
+#: includes/class-wpvivid.php:1789 includes/class-wpvivid.php:1914
+#: includes/class-wpvivid.php:2040
+#: includes/new_backup/class-wpvivid-backup2.php:910
+#: includes/new_backup/class-wpvivid-backup2.php:1317
+msgid "Too many resumption attempts."
+msgstr "재개 시도가 너무 많습니다."
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:267
+#: admin/partials/wpvivid-schedule-page-display.php:293
+#: includes/class-wpvivid-interface-mainwp.php:143
+#: includes/class-wpvivid.php:643 includes/class-wpvivid.php:5986
+#: includes/new_backup/class-wpvivid-backup2.php:114
+msgid "There is no default remote storage configured. Please set it up first."
+msgstr "구성된 기본 원격 저장소가 없습니다. 먼저 설정해주세요."
+
+#: includes/class-wpvivid-interface-mainwp.php:126
+#: includes/class-wpvivid-interface-mainwp.php:133
+#: includes/class-wpvivid.php:623 includes/class-wpvivid.php:632
+#: includes/new_backup/class-wpvivid-backup2.php:95
+#: includes/new_backup/class-wpvivid-backup2.php:103
+msgid "Choose at least one storage location for backups."
+msgstr "백업용 저장 위치를 하나 이상 선택하세요."
+
+#: includes/class-wpvivid-interface-mainwp.php:119
+#: includes/class-wpvivid.php:609 includes/class-wpvivid.php:617
+#: includes/new_backup/class-wpvivid-backup2.php:87
+msgid "A backup type is required."
+msgstr "백업 유형이 필요합니다."
+
+#: includes/class-wpvivid-schedule.php:282
+#: includes/class-wpvivid-schedule.php:296
+msgid "Creating scheduled tasks failed. Please try again later."
+msgstr "예약된 작업 생성에 실패했습니다. 나중에 다시 시도해주세요."
+
+#: admin/partials/wpvivid-schedule-page-display.php:65
+#: includes/class-wpvivid-schedule.php:91
+msgid "12Hours"
+msgstr "12 시간"
+
+#: admin/partials/wpvivid-schedule-page-display.php:77
+#: includes/class-wpvivid-schedule.php:58
+#: includes/class-wpvivid-schedule.php:103
+msgid "Monthly"
+msgstr "매월"
+
+#: admin/partials/wpvivid-schedule-page-display.php:74
+#: includes/class-wpvivid-schedule.php:52
+#: includes/class-wpvivid-schedule.php:100
+msgid "Fortnightly"
+msgstr "격주"
+
+#: admin/partials/wpvivid-schedule-page-display.php:71
+#: includes/class-wpvivid-schedule.php:46
+#: includes/class-wpvivid-schedule.php:97
+msgid "Weekly"
+msgstr "매주"
+
+#: admin/partials/wpvivid-schedule-page-display.php:68
+#: includes/class-wpvivid-schedule.php:40
+#: includes/class-wpvivid-schedule.php:94
+msgid "Daily"
+msgstr "매일"
+
+#: includes/class-wpvivid-schedule.php:34
+msgid "12 Hours"
+msgstr "12 시간"
+
+#: includes/class-wpvivid-export-import.php:1619
+msgid "With this option checked, Pages/posts already existing will be overwritten with the updated ones in an import."
+msgstr "이 옵션을 선택하면 가져오기에서 업데이트된 페이지/글이 이미 존재하는 페이지/글을 덮어씁니다."
+
+#: includes/class-wpvivid-export-import.php:1615
+msgid "Overwrite existing pages"
+msgstr "기존 페이지 덮어쓰기"
+
+#: includes/class-wpvivid-export-import.php:1611
+msgid "Import Setting"
+msgstr "가져오기 설정"
+
+#: includes/class-wpvivid-export-import.php:1609
+msgid "- Select -"
+msgstr "- 선택 -"
+
+#: includes/class-wpvivid-export-import.php:1608
+msgid "Select an existing author:"
+msgstr "기존 작성자 선택:"
+
+#: includes/class-wpvivid-export-import.php:1606
+msgid "Assign author"
+msgstr "작성자 지정"
+
+#: includes/class-wpvivid-export-import.php:1603
+msgid "The importing file info"
+msgstr "가져오기 파일 정보"
+
+#: includes/class-wpvivid-export-import.php:1599
+msgid "Scan Uploaded Exports"
+msgstr "업로드된 내보내기 스캔"
+
+#: includes/class-wpvivid-export-import.php:1595
+msgid "Upload and Import"
+msgstr "업로드 및 가져오기"
+
+#: includes/class-wpvivid-export-import.php:1594
+msgid "Choose an export from your computer to import: "
+msgstr "가져올 파일을 컴퓨터에서 선택하세요: "
+
+#: includes/class-wpvivid-export-import.php:1589
+#: includes/class-wpvivid-export-import.php:1842
+#: includes/class-wpvivid-export-import.php:2140
+msgid "Delete Exported Files In Folder"
+msgstr "폴더에서 내보낸 파일 삭제"
+
+#: includes/class-wpvivid-export-import.php:1579
+msgid "To properly display the imported content, please make sure that the importing and exporting sites have the same environment, for example, same theme or pages built with the same page builder."
+msgstr "가져온 콘텐츠를 제대로 표시하려면 가져오기 및 내보내기 사이트가 동일한 환경(예: 동일한 페이지 빌더로 작성된 동일한 테마 또는 페이지)을 가지고 있는지 확인하세요."
+
+#: includes/class-wpvivid-export-import.php:1573
+msgid "Import posts or pages with images in bulk."
+msgstr "이미지가 있는 글 또는 페이지를 대량으로 가져옵니다."
+
+#: includes/class-wpvivid-export-import.php:1547
+msgid "File not found. Please retry again."
+msgstr "파일을 발견하지 못했습니다. 다시 시도해주세요."
+
+#: includes/class-wpvivid-export-import.php:1539
+msgid "File size not match. please retry again."
+msgstr "파일 크기가 일치하지 않습니다. 다시 시도해주세요."
+
+#: includes/class-wpvivid-export-import.php:1419
+msgid "Task time out."
+msgstr "작업 시간이 초과되었습니다."
+
+#: includes/class-wpvivid-export-import.php:1385
+msgid "Export error:"
+msgstr "내보내기 오류:"
+
+#: includes/class-wpvivid-export-import.php:1360
+msgid "The export task is not responding."
+msgstr "내보내기 작업이 응답하지 않습니다."
+
+#: includes/class-wpvivid-export-import.php:1348
+msgid "Ready to export. Progress: 0%, running time: 0second."
+msgstr "내보낼 준비가 되었습니다. 진행률: 0%, 실행 시간: 0초."
+
+#: includes/class-wpvivid-export-import.php:1188
+msgid "Error occurred while parsing the request data. Please try to run export task again."
+msgstr "요청 데이터를 구문 분석하는 동안 오류가 발생했습니다. 내보내기 작업을 다시 실행해주세요."
+
+#: includes/class-wpvivid-export-import.php:1150
+msgid "Empty post id"
+msgstr "글 ID가 비어 있음"
+
+#: includes/class-wpvivid-export-import.php:817
+msgid "Export and Download"
+msgstr "내보내기 및 다운로드"
+
+#: includes/class-wpvivid-export-import.php:808
+msgid "Sample:"
+msgstr "견본:"
+
+#: includes/class-wpvivid-export-import.php:804
+msgid "Only letters (except for wpvivid) and numbers are allowed."
+msgstr "문자(wpvivid 제외)와 숫자만 허용됩니다."
+
+#: includes/class-wpvivid-export-import.php:800
+msgid "Comment the export: "
+msgstr "내보내기에 대해 코멘트를 남기세요: "
+
+#: includes/class-wpvivid-export-import.php:795
+msgid "Comment the export (optional)"
+msgstr "내보내기에 주석 달기(선택 사항)"
+
+#: includes/class-wpvivid-export-import.php:709
+#: includes/class-wpvivid-export-import.php:730
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; 선택 &mdash;"
+
+#: includes/class-wpvivid-export-import.php:686
+msgid "All Authors"
+msgstr "모든 작성자"
+
+#: includes/class-wpvivid-export-import.php:656
+msgid "All Categories"
+msgstr "모든 카테고리"
+
+#: includes/class-wpvivid-export-import.php:637
+msgid "Filter Posts/Pages"
+msgstr "글/페이지 필터링"
+
+#: includes/class-wpvivid-export-import.php:629
+msgid "Choose what to export"
+msgstr "내보낼 항목 선택"
+
+#: includes/class-wpvivid-export-import.php:158
+#: includes/class-wpvivid-export-import.php:181
+msgid "Next Step"
+msgstr "다음 단계"
+
+#: includes/class-wpvivid-export-import.php:153
+msgid "More post types coming soon..."
+msgstr "더 많은 글 유형이 곧 제공될 예정입니다..."
+
+#: includes/class-wpvivid-export-import.php:150
+msgid "Page"
+msgstr "페이지"
+
+#: includes/class-wpvivid-export-import.php:147
+msgid "Post"
+msgstr "글"
+
+#: includes/class-wpvivid-export-import.php:141
+msgid "Choose post type"
+msgstr "글 유형 선택"
+
+#: includes/class-wpvivid-export-import.php:125
+msgid "Try to select fewer items when you are facing a shortage of server resources (typically presented as a timeout error)."
+msgstr "서버 리소스가 부족한 경우(일반적으로 시간 초과 오류로 표시됨) 더 적은 수의 항목을 선택하세요."
+
+#: includes/class-wpvivid-export-import.php:125
+#: includes/class-wpvivid-export-import.php:1578
+msgid "Note:"
+msgstr "메모:"
+
+#: includes/class-wpvivid-export-import.php:124
+msgid "This will contain all of your posts, pages, comments, terms and images (original images, featured images and thumbnails)."
+msgstr "여기에는 모든 글, 페이지, 댓글, 용어 및 이미지(원본 이미지, 추천 이미지 및 축소판)가 포함됩니다."
+
+#: includes/class-wpvivid-export-import.php:121
+#: includes/class-wpvivid-export-import.php:1575
+msgid "Learn more"
+msgstr "더 알아보기"
+
+#: includes/class-wpvivid-export-import.php:119
+msgid "Export posts or pages with images in bulk."
+msgstr "이미지가 포함된 게시물 또는 페이지를 대량으로 내보냅니다."
+
+#: includes/class-wpvivid-export-import.php:65
+#: includes/class-wpvivid-export-import.php:78
+msgid "Export & Import"
+msgstr "내보내기 & 가져오기"
+
+#: includes/class-wpvivid-exporter.php:248
+msgid "Last Modified"
+msgstr "마지막 수정"
+
+#: includes/class-wpvivid-exporter.php:245
+msgid "Scheduled"
+msgstr "예정"
+
+#: includes/class-wpvivid-exporter.php:243
+msgid "Missed schedule"
+msgstr "놓친 일정"
+
+#: includes/class-wpvivid-exporter.php:240
+msgid "Published"
+msgstr "게시됨"
+
+#: includes/class-wpvivid-exporter.php:223
+msgid "Unpublished"
+msgstr "미공개"
+
+#: includes/class-wpvivid-exporter.php:108
+msgid "Comments"
+msgstr "댓글"
+
+#: includes/class-wpvivid-exporter.php:76
+msgid "Author"
+msgstr "작가"
+
+#: includes/class-wpvivid-exporter.php:73
+msgctxt "column name"
+msgid "Title"
+msgstr "제목"
+
+#: includes/class-wpvivid-migrate.php:1619
+msgid "Note: The files you want to upload must be a backup created by WPvivid backup plugin. Make sure that uploading every part of a backup to the directory if the backup is split into many parts"
+msgstr "참고: 업로드하려는 파일은 WPvivid 백업 플러그인으로 생성된 백업이어야 합니다. 백업이 여러 부분으로 나뉘어 있는 경우, 백업의 모든 부분을 디렉터리에 업로드해야 합니다"
+
+#: includes/class-wpvivid-migrate.php:1606
+msgid "Upload"
+msgstr "업로드"
+
+#: includes/class-wpvivid-migrate.php:1546
+msgid "Transfer succeeded. Please scan the backup list on the destination site to display the backup, then restore the backup."
+msgstr "이전에 성공했습니다. 대상 사이트의 백업 목록을 스캔하여 백업을 표시한 다음 백업을 복원하세요."
+
+#: includes/class-wpvivid-migrate.php:1455
+#: includes/class-wpvivid-migrate.php:1479
+msgid "Choose what to migrate"
+msgstr "마이그레이션할 항목 선택"
+
+#: includes/class-wpvivid-migrate.php:446
+#: includes/class-wpvivid-migrate.php:1434
+msgid "3. Once done, the backup appears in backups list. Then, restore the backup."
+msgstr "3. 완료되면 백업 목록에 백업이 나타납니다. 그런 다음 백업을 복원하세요."
+
+#: includes/class-wpvivid-migrate.php:444
+#: includes/class-wpvivid-migrate.php:1432
+msgid "2.1 Upload the backup to the upload section of WPvivid backup plugin in destination site."
+msgstr "2.1 대상 사이트에서 WPvivid 백업 플러그인의 업로드 섹션에 백업을 업로드합니다."
+
+#: includes/class-wpvivid-migrate.php:443
+#: includes/class-wpvivid-migrate.php:1431
+msgid "2. Upload the backup to destination site. There are two ways available to use:"
+msgstr "2. 대상 사이트에 백업을 업로드합니다. 사용할 수 있는 두 가지 방법이 있습니다:"
+
+#: includes/class-wpvivid-migrate.php:442
+#: includes/class-wpvivid-migrate.php:1430
+msgid "1. Download a backup in backups list to your computer."
+msgstr "1. 백업 목록의 백업을 컴퓨터에 다운로드합니다."
+
+#: includes/class-wpvivid-migrate.php:441
+#: includes/class-wpvivid-migrate.php:1429
+msgid "How to migrate Wordpress site manually to a new domain(site) with WPvivid backup plugin?"
+msgstr "WPvivid 백업 플러그인을 사용하여 워드프레스 사이트를 새 도메인(사이트)으로 수동 마이그레이션하는 방법은 무엇입니까?"
+
+#: includes/class-wpvivid-migrate.php:1422
+msgid "2. Please migrate website with the manual way when using <strong>Local by Flywheel</strong> environment."
+msgstr "2. <strong>Local by Flywheel</strong> 환경을 사용하는 경우 수동 방식으로 웹 사이트를 마이그레이션하세요."
+
+#: includes/class-wpvivid-migrate.php:1421
+msgid "1. In order to successfully complete the migration, you'd better deactivate <a href=\"https://wpvivid.com/best-redirect-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">301 redirect plugin</a>, <a href=\"https://wpvivid.com/8-best-wordpress-firewall-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">firewall and security plugin</a>, and <a href=\"https://wpvivid.com/best-free-wordpress-caching-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">caching plugin</a> (if they exist) before transferring website."
+msgstr "1. 이전을 성공적으로 완료하려면 웹사이트를 이전하기 전에 <a href=\"https://wpvivid.com/best-redirect-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">301 리디렉션 플러그인</a>, <a href=\"https://wpvivid.com/8-best-wordpress-firewall-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">방화벽 및 보안 플러그인</a>, <a href=\"https://wpvivid.com/best-free-wordpress-caching-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">캐싱 플러그인</a>(있는 경우)을 비활성화하는 것이 좋습니다."
+
+#: includes/class-wpvivid-migrate.php:429
+#: includes/class-wpvivid-migrate.php:1420
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:772
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:810
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1100
+msgid "Note: "
+msgstr "참고: "
+
+#: includes/class-wpvivid-migrate.php:416
+#: includes/class-wpvivid-migrate.php:1323
+msgid "Choose the content you want to transfer"
+msgstr "전송할 콘텐츠를 선택하세요"
+
+#: includes/class-wpvivid-migrate.php:392
+#: includes/class-wpvivid-migrate.php:1313
+msgid "The feature can help you transfer a Wordpress site to a new domain(site). It would be a convenient way to migrate your WP site from dev environment to live server or from old server to the new."
+msgstr "이 기능은 워드프레스 사이트를 새 도메인(사이트)으로 이전하는 데 도움이 될 수 있습니다. WP 사이트를 개발 환경에서 라이브 서버로 또는 이전 서버에서 새 서버로 마이그레이션하는 편리한 방법입니다."
+
+#: admin/class-wpvivid-admin.php:282
+msgid "3. Go back to this page and paste the key in key box below. Lastly, click Save button."
+msgstr "3. 이 페이지로 돌아가서 아래 키 상자에 키를 붙여넣으세요. 마지막으로 저장 버튼을 클릭하세요."
+
+#: admin/class-wpvivid-admin.php:281
+msgid "2. Generate a key by clicking Generate button and copy it."
+msgstr "2. 생성 버튼을 클릭하여 키를 생성하고 복사하세요."
+
+#: admin/class-wpvivid-admin.php:280
+msgid "1. Visit Key tab page of WPvivid backup plugin of destination site."
+msgstr "1. 대상 사이트의 WPvivid 백업 플러그인의 키 탭 페이지를 방문하세요."
+
+#: includes/class-wpvivid-migrate.php:1040
+#: includes/class-wpvivid-migrate.php:1178
+msgid "How to get a site key?"
+msgstr "사이트 키를 얻는 방법?"
+
+#: includes/class-wpvivid-migrate.php:1040
+#: includes/class-wpvivid-migrate.php:1178
+msgid "Please paste the key below."
+msgstr "아래에 키를 붙여넣으세요."
+
+#: includes/class-wpvivid-export-import.php:1157
+#: includes/class-wpvivid-export-import.php:1198
+#: includes/class-wpvivid-interface-mainwp.php:157
+#: includes/class-wpvivid-migrate.php:773 includes/class-wpvivid.php:707
+#: includes/class-wpvivid.php:1050 includes/class-wpvivid.php:1355
+#: includes/new_backup/class-wpvivid-backup2.php:129
+#: includes/new_backup/class-wpvivid-backup2.php:1656
+msgid "A task is already running. Please wait until the running task is complete, and try again."
+msgstr "작업이 이미 실행 중입니다. 실행 중인 작업이 완료될 때까지 기다린 후 다시 시도해주세요."
+
+#: includes/class-wpvivid-migrate.php:474
+msgid "Generate"
+msgstr "생성"
+
+#: includes/class-wpvivid-migrate.php:472
+msgid "Tips: For security reason, please choose an appropriate expiration time for the key."
+msgstr "팁: 보안상의 이유로 키의 적절한 만료 시간을 선택해주세요."
+
+#: includes/class-wpvivid-migrate.php:465
+msgid "The key will expire in "
+msgstr "키가 만료됩니다: "
+
+#: includes/class-wpvivid-migrate.php:463
+msgid "In order to allow another site to send a backup to this site, please generate a key below. Once the key is generated, this site is ready to receive a backup from another site. Then, please copy and paste the key in sending site and save it."
+msgstr "다른 사이트에서 이 사이트로 백업을 보낼 수 있도록 하려면 아래에서 키를 생성해주세요. 키가 생성되면 이 사이트는 다른 사이트에서 백업을 받을 준비가 된 것입니다. 그런 다음 발신 사이트에 키를 복사하여 붙여넣고 저장하세요."
+
+#: includes/class-wpvivid-migrate.php:59
+msgid "Key"
+msgstr "키"
+
+#: includes/class-wpvivid-migrate.php:52
+msgid "Auto-Migration"
+msgstr "자동 마이그레이션"
+
+#: includes/class-wpvivid-mail-report.php:1110 includes/class-wpvivid.php:6133
+msgid "Unable to send email. Please check the configuration of email server."
+msgstr "이메일을 보낼 수 없습니다. 이메일 서버 구성을 확인해주세요."
+
+#. translators: %s: directory path
+#: includes/staging/class-wpvivid-staging.php:2494
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "%s 디렉토리를 만들 수 없습니다. 서버에서 부모 디렉토리를 쓸 수 있나요?"
+
+#: includes/class-wpvivid-function-realize.php:161
+#: includes/class-wpvivid-function-realize.php:173
+#: includes/class-wpvivid-function-realize.php:190
+#: includes/class-wpvivid.php:758 includes/class-wpvivid.php:824
+#: includes/class-wpvivid.php:885 includes/class-wpvivid.php:6526
+#: includes/staging/class-wpvivid-staging-log-page.php:857
+#: includes/staging/class-wpvivid-staging-log-page.php:867
+#: includes/staging/class-wpvivid-staging-log-page.php:1068
+#: includes/staging/class-wpvivid-staging-log-page.php:1082
+msgid "The log not found."
+msgstr "로그를 찾을 수 없습니다."
+
+#: includes/class-wpvivid-function-realize.php:156
+#: includes/class-wpvivid-function-realize.php:184
+#: includes/class-wpvivid.php:750 includes/class-wpvivid.php:876
+msgid "Retrieving the backup information failed while showing log. Please try again later."
+msgstr "로그를 표시하는 동안 백업 정보 검색에 실패했습니다. 나중에 다시 시도해주세요."
+
+#: includes/class-wpvivid-interface-mainwp.php:333
+#: includes/class-wpvivid-public-interface.php:195
+#: includes/class-wpvivid.php:785 includes/class-wpvivid.php:815
+#: includes/class-wpvivid.php:910 includes/class-wpvivid.php:6551
+#: includes/staging/class-wpvivid-staging-log-page.php:892
+#: includes/staging/class-wpvivid-staging-log-page.php:1145
+msgid "Reading the log failed. Please try again."
+msgstr "로그를 읽지 못했습니다. 다시 시도해주세요."
+
+#: includes/class-wpvivid-interface-mainwp.php:271
+#: includes/class-wpvivid-interface-mainwp.php:342
+#: includes/class-wpvivid-interface-mainwp.php:395
+#: includes/class-wpvivid-public-interface.php:174
+#: includes/class-wpvivid-public-interface.php:204
+#: includes/class-wpvivid-public-interface.php:233
+#: includes/class-wpvivid.php:768 includes/class-wpvivid.php:833
+#: includes/class-wpvivid.php:894 includes/class-wpvivid.php:6535
+#: includes/staging/class-wpvivid-staging-log-page.php:876
+msgid "Unable to open the log file."
+msgstr "로그 파일을 열 수 없습니다."
+
+#: includes/class-wpvivid-interface-mainwp.php:182
+#: includes/class-wpvivid-migrate.php:824 includes/class-wpvivid.php:698
+msgid "Error occurred while parsing the request data. Please try to run backup again."
+msgstr "요청 데이터를 구문 분석하는 동안 오류가 발생했습니다. 백업을 다시 실행해주세요."
+
+#: includes/customclass/class-wpvivid-sftpclass.php:148
+msgid "Click the button to connect to SFTP server and add it to the storage list below."
+msgstr "버튼을 클릭하여 SFTP 서버에 연결하고 아래 저장소 목록에 추가합니다."
+
+#: includes/customclass/class-wpvivid-sftpclass.php:121
+#: includes/customclass/class-wpvivid-sftpclass.php:236
+msgid "Enter an absolute path and a custom subdirectory (optional) for holding the backups of current website. For example, /var/customfolder/"
+msgstr "현재 웹 사이트의 백업을 보관하기 위한 절대 경로와 사용자 지정 하위 디렉터리(선택 사항)를 입력합니다. 예: /var/customfolder/"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:116
+#: includes/customclass/class-wpvivid-sftpclass.php:231
+msgid "Absolute path must exist(e.g. /var)"
+msgstr "절대 경로가 있어야 합니다(예: /var)."
+
+#: includes/customclass/class-wpvivid-sftpclass.php:109
+#: includes/customclass/class-wpvivid-sftpclass.php:224
+msgid "Enter the server port."
+msgstr "서버 포트를 입력하세요."
+
+#: includes/customclass/class-wpvivid-sftpclass.php:104
+#: includes/customclass/class-wpvivid-sftpclass.php:219
+msgid "Port"
+msgstr "포트"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:97
+#: includes/customclass/class-wpvivid-sftpclass.php:212
+msgid "Enter the user password."
+msgstr "사용자 비밀번호를 입력하세요."
+
+#: includes/customclass/class-wpvivid-sftpclass.php:92
+#: includes/customclass/class-wpvivid-sftpclass.php:207
+msgid "User Password"
+msgstr "사용자 암호"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:85
+#: includes/customclass/class-wpvivid-sftpclass.php:200
+msgid "Enter the user name."
+msgstr "사용자 이름을 입력하세요."
+
+#: includes/customclass/class-wpvivid-sftpclass.php:80
+#: includes/customclass/class-wpvivid-sftpclass.php:195
+msgid "User Name"
+msgstr "사용자 이름"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:73
+#: includes/customclass/class-wpvivid-sftpclass.php:188
+msgid "Enter the server address."
+msgstr "서버 주소를 입력하세요."
+
+#: includes/customclass/class-wpvivid-sftpclass.php:68
+#: includes/customclass/class-wpvivid-sftpclass.php:183
+msgid "Server Address"
+msgstr "서버 주소"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:56
+#: includes/customclass/class-wpvivid-sftpclass.php:171
+msgid "Enter a unique alias: e.g. SFTP-001"
+msgstr "고유한 별칭을 입력하세요. 예: SFTP-001"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:48
+#: includes/customclass/class-wpvivid-sftpclass.php:163
+msgid "Enter Your SFTP Account"
+msgstr "SFTP 계정 입력"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:38
+msgid "SFTP"
+msgstr "SFTP"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:187
+msgid "The simplexml extension is not detected. Please install the extension first."
+msgstr "simplexml 확장이 감지되지 않았습니다. 먼저 해당 확장을 설치해 주세요."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:178
+msgid "Click the button to connect to Amazon S3 storage and add it to the storage list below."
+msgstr "버튼을 클릭하여 Amazon S3 저장소에 연결하고 아래 저장소 목록에 추가하세요."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:165
+#: includes/customclass/class-wpvivid-amazons3-plus.php:289
+msgid "Check the option to use Amazon S3 server-side encryption to protect data."
+msgstr "Amazon S3 서버 측 암호화를 사용하여 데이터를 보호하는 옵션을 선택하세요."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:159
+#: includes/customclass/class-wpvivid-amazons3-plus.php:283
+msgid "Server-side encryption."
+msgstr "서버 측 암호화."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:151
+#: includes/customclass/class-wpvivid-amazons3-plus.php:275
+msgid "Check the option to use Amazon S3 Standard-Infrequent Access (S3 Standard-IA) storage class for data transfer."
+msgstr "데이터 전송에 Amazon S3 Standard-Infrequent Access(S3 Standard-IA) 저장소 클래스를 사용하는 옵션을 선택하세요."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:145
+#: includes/customclass/class-wpvivid-amazons3-plus.php:269
+msgid "Storage class: Standard (infrequent access)."
+msgstr "저장소 등급: 표준 (빈번한 액세스)."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:123
+#: includes/customclass/class-wpvivid-amazons3-plus.php:261
+msgid "Customize the directory where you want to store backups within the Bucket."
+msgstr "버킷 내에서 백업을 저장할 디렉터리를 사용자 정의하세요."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:111
+#: includes/customclass/class-wpvivid-amazons3-plus.php:249
+msgid "Enter an existed Bucket to create a custom backup storage directory."
+msgstr "사용자 지정 백업 저장소 디렉터리를 생성하려면 기존 버킷을 입력하세요."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:106
+#: includes/customclass/class-wpvivid-amazons3-plus.php:244
+msgid "Amazon S3 Bucket Name(e.g. test)"
+msgstr "Amazon S3 버킷 이름(예: test)"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:99
+#: includes/customclass/class-wpvivid-amazons3-plus.php:237
+msgid "How to get an Amazon S3 secret key."
+msgstr "Amazon S3 비밀 키를 얻는 방법."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:99
+#: includes/customclass/class-wpvivid-amazons3-plus.php:237
+msgid "Enter your Amazon S3 secret key."
+msgstr "Amazon S3 비밀 키를 입력하세요."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:94
+#: includes/customclass/class-wpvivid-amazons3-plus.php:232
+msgid "Amazon S3 secret key"
+msgstr "Amazon S3 비밀 키"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:87
+#: includes/customclass/class-wpvivid-amazons3-plus.php:225
+msgid "How to get an AmazonS3 access key."
+msgstr "AmazonS3 액세스 키를 얻는 방법."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:87
+#: includes/customclass/class-wpvivid-amazons3-plus.php:225
+msgid "Enter your Amazon S3 access key."
+msgstr "Amazon S3 액세스 키를 입력하세요."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:82
+#: includes/customclass/class-wpvivid-amazons3-plus.php:220
+msgid "Amazon S3 access key"
+msgstr "Amazon S3 액세스 키"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:70
+#: includes/customclass/class-wpvivid-amazons3-plus.php:208
+msgid "Enter a unique alias: e.g. Amazon S3-001"
+msgstr "고유한 별칭을 입력하세요: 예: Amazon S3-001"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:62
+#: includes/customclass/class-wpvivid-amazons3-plus.php:200
+msgid "Enter Your Amazon S3 Account"
+msgstr "Amazon S3 계정 입력"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:44
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: includes/customclass/class-wpvivid-one-drive.php:406
+msgid "Authenticate with Microsoft OneDrive"
+msgstr "Microsoft OneDrive로 인증"
+
+#: includes/customclass/class-wpvivid-one-drive.php:227
+#: includes/customclass/class-wpvivid-one-drive.php:443
+msgid "Enter a unique alias: e.g. OneDrive-001"
+msgstr "고유한 별칭을 입력하세요: 예: OneDrive-001"
+
+#: includes/customclass/class-wpvivid-one-drive.php:220
+#: includes/customclass/class-wpvivid-one-drive.php:436
+msgid "Enter Your Microsoft OneDrive Information"
+msgstr "Microsoft OneDrive 정보 입력"
+
+#: includes/customclass/class-wpvivid-one-drive.php:200
+msgid "Microsoft OneDrive"
+msgstr "Microsoft OneDrive"
+
+#: includes/customclass/class-wpvivid-one-drive.php:136
+#: includes/customclass/class-wpvivid-one-drive.php:187
+msgid "You have authenticated the Microsoft OneDrive account as your remote storage."
+msgstr "Microsoft OneDrive 계정을 원격 저장소로 인증했습니다."
+
+#: includes/customclass/class-wpvivid-google-drive.php:422
+msgid "Authenticate with Google Drive"
+msgstr "Google Drive로 인증"
+
+#: includes/customclass/class-wpvivid-google-drive.php:243
+#: includes/customclass/class-wpvivid-google-drive.php:460
+msgid "Enter a unique alias: e.g. Google Drive-001"
+msgstr "고유한 별칭을 입력하세요: 예: Google Drive-001"
+
+#: includes/customclass/class-wpvivid-google-drive.php:236
+#: includes/customclass/class-wpvivid-google-drive.php:453
+msgid "Enter Your Google Drive Information"
+msgstr "Google Drive 정보 입력"
+
+#: includes/customclass/class-wpvivid-google-drive.php:216
+msgid "Google Drive"
+msgstr "Google Drive"
+
+#: includes/customclass/class-wpvivid-google-drive.php:148
+#: includes/customclass/class-wpvivid-google-drive.php:203
+msgid "You have authenticated the Google Drive account as your remote storage."
+msgstr "Google Drive 계정을 원격 저장소로 인증했습니다."
+
+#: includes/customclass/class-wpvivid-google-drive.php:113
+msgid "Authentication failed, the format of the client_secrets.json file is incorrect. Please delete and re-install the plugin to recreate the file."
+msgstr "인증에 실패했습니다. client_secrets.json 파일의 형식이 잘못되었습니다. 파일을 다시 생성하려면 플러그인을 삭제하고 다시 설치하세요."
+
+#: includes/customclass/class-wpvivid-google-drive.php:109
+msgid "Authentication failed, the client_secrets.json file is missing. Please make sure the client_secrets.json file is in wpvivid-backuprestore\\includes\\customclass directory."
+msgstr "인증에 실패했습니다. client_secrets.json 파일이 없습니다. client_secrets.json 파일이 wpvivid-backuprestore\\includes\\customclass 디렉토리에 있는지 확인하세요."
+
+#: includes/customclass/class-wpvivid-s3compat.php:522
+msgid "Click the button to connect to DigitalOcean Spaces storage and add it to the storage list below."
+msgstr "버튼을 클릭하여 DigitalOcean Spaces 저장소에 연결하고 아래 저장소 목록에 추가하세요."
+
+#: includes/customclass/class-wpvivid-s3compat.php:495
+#: includes/customclass/class-wpvivid-s3compat.php:610
+msgid "Enter the DigitalOcean Endpoint for the storage"
+msgstr "저장소에 대한 DigitalOcean Endpoint를 입력하세요"
+
+#: includes/customclass/class-wpvivid-s3compat.php:490
+#: includes/customclass/class-wpvivid-s3compat.php:605
+msgid "region.digitaloceanspaces.com"
+msgstr "region.digitaloceanspaces.com"
+
+#: includes/customclass/class-wpvivid-s3compat.php:483
+#: includes/customclass/class-wpvivid-s3compat.php:598
+msgid "Customize the directory where you want to store backups within the Space."
+msgstr "공간 내에서 백업을 저장할 디렉터리를 사용자 정의하세요."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:118
+#: includes/customclass/class-wpvivid-amazons3-plus.php:256
+#: includes/customclass/class-wpvivid-s3compat.php:478
+#: includes/customclass/class-wpvivid-s3compat.php:593
+msgid "Custom Path"
+msgstr "사용자 지정 경로"
+
+#: includes/customclass/class-wpvivid-s3compat.php:471
+#: includes/customclass/class-wpvivid-s3compat.php:586
+msgid "Enter an existed Space to create a custom backup storage directory."
+msgstr "기존 공간을 입력하여 사용자 지정 백업 저장소 디렉터리를 만드세요."
+
+#: includes/customclass/class-wpvivid-s3compat.php:466
+#: includes/customclass/class-wpvivid-s3compat.php:581
+msgid "Space Name(e.g. test)"
+msgstr "스페이스 이름(예: test)"
+
+#: includes/customclass/class-wpvivid-s3compat.php:459
+#: includes/customclass/class-wpvivid-s3compat.php:574
+msgid "Enter your DigitalOcean Spaces secret key"
+msgstr "DigitalOcean Spaces 비밀 키 입력"
+
+#: includes/customclass/class-wpvivid-s3compat.php:454
+#: includes/customclass/class-wpvivid-s3compat.php:569
+msgid "DigitalOcean Spaces secret key"
+msgstr "DigitalOcean Spaces 비밀 키"
+
+#: includes/customclass/class-wpvivid-s3compat.php:447
+#: includes/customclass/class-wpvivid-s3compat.php:562
+msgid "Enter your DigitalOcean Spaces access key"
+msgstr "DigitalOcean Spaces 액세스 키 입력"
+
+#: includes/customclass/class-wpvivid-s3compat.php:442
+#: includes/customclass/class-wpvivid-s3compat.php:557
+msgid "DigitalOcean Spaces access key"
+msgstr "DigitalOcean Spaces 액세스 키"
+
+#: includes/customclass/class-wpvivid-s3compat.php:430
+#: includes/customclass/class-wpvivid-s3compat.php:545
+msgid "Enter a unique alias: e.g. DOS-001"
+msgstr "고유한 별칭을 입력하세요. 예: DOS-001"
+
+#: includes/customclass/class-wpvivid-s3compat.php:422
+#: includes/customclass/class-wpvivid-s3compat.php:537
+msgid "Enter Your DigitalOcean Spaces Account"
+msgstr "DigitalOcean Spaces 계정 입력"
+
+#: includes/customclass/class-wpvivid-s3compat.php:413
+msgid "DigitalOcean Spaces"
+msgstr "DigitalOcean Spaces"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:158
+msgid "Click the button to connect to FTP server and add it to the storage list below."
+msgstr "버튼을 클릭하여 FTP 서버에 접속하고 아래 저장소 목록에 추가하세요."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:173
+#: includes/customclass/class-wpvivid-ftpclass.php:153
+#: includes/customclass/class-wpvivid-s3compat.php:517
+#: includes/customclass/class-wpvivid-sftpclass.php:143
+msgid "Test and Add"
+msgstr "테스트 및 추가"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:145
+#: includes/customclass/class-wpvivid-ftpclass.php:246
+msgid "Uncheck the option to use FTP active mode when transferring files. Make sure the FTP server you are configuring supports the active FTP mode."
+msgstr "파일을 전송할 때 FTP 활성 모드를 사용하려면 옵션을 선택 취소하세요. 구성 중인 FTP 서버가 활성 FTP 모드를 지원하는지 확인하세요."
+
+#: includes/customclass/class-wpvivid-ftpclass.php:139
+#: includes/customclass/class-wpvivid-ftpclass.php:240
+msgid "Uncheck this to enable FTP active mode."
+msgstr "FTP 활성 모드를 활성화하려면 선택을 취소하세요."
+
+#: includes/customclass/class-wpvivid-ftpclass.php:117
+#: includes/customclass/class-wpvivid-ftpclass.php:232
+msgid "Enter an absolute path and a custom subdirectory (optional) for holding the backups of current website. For example, /home/username/customfolder"
+msgstr "현재 웹 사이트의 백업을 보관하기 위한 절대 경로와 사용자 지정 하위 디렉터리(선택 사항)를 입력하세요. 예: /home/username/customfolder"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:112
+#: includes/customclass/class-wpvivid-ftpclass.php:227
+msgid "Absolute path must exist(e.g. /home/username)"
+msgstr "절대 경로가 있어야 합니다(예: /home/username)."
+
+#: includes/customclass/class-wpvivid-ftpclass.php:105
+#: includes/customclass/class-wpvivid-ftpclass.php:220
+msgid "Enter the FTP server password."
+msgstr "FTP 서버 비밀번호를 입력하세요."
+
+#: includes/customclass/class-wpvivid-ftpclass.php:100
+#: includes/customclass/class-wpvivid-ftpclass.php:215
+msgid "FTP password"
+msgstr "FTP 비밀번호"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:93
+#: includes/customclass/class-wpvivid-ftpclass.php:208
+msgid "Enter your FTP server user name."
+msgstr "FTP 서버 사용자 이름을 입력하세요."
+
+#: includes/customclass/class-wpvivid-ftpclass.php:88
+#: includes/customclass/class-wpvivid-ftpclass.php:203
+msgid "FTP login"
+msgstr "FTP 로그인"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:81
+msgid "Pro feature: Change the FTP default port number"
+msgstr "Pro 기능: FTP 기본 포트 번호 변경"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:69
+#: includes/customclass/class-wpvivid-ftpclass.php:196
+msgid "Enter the FTP server."
+msgstr "FTP 서버를 입력하세요."
+
+#: includes/customclass/class-wpvivid-ftpclass.php:64
+#: includes/customclass/class-wpvivid-ftpclass.php:191
+msgid "FTP server (server's port 21)"
+msgstr "FTP 서버 (서버의 포트 21)"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:52
+#: includes/customclass/class-wpvivid-ftpclass.php:179
+msgid "Enter an unique alias: e.g. FTP-001"
+msgstr "고유한 별칭을 입력하세요: 예: FTP-001"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:45
+#: includes/customclass/class-wpvivid-ftpclass.php:172
+msgid "Enter Your FTP Account"
+msgstr "FTP 계정 입력"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:36
+msgid "FTP"
+msgstr "FTP"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:302
+#: includes/customclass/class-wpvivid-dropbox.php:746
+#: includes/customclass/class-wpvivid-ftpclass.php:259
+#: includes/customclass/class-wpvivid-google-drive.php:477
+#: includes/customclass/class-wpvivid-one-drive.php:460
+#: includes/customclass/class-wpvivid-s3compat.php:623
+#: includes/customclass/class-wpvivid-sftpclass.php:249
+msgid "Click the button to save the changes."
+msgstr "버튼을 클릭하여 변경 사항을 저장하세요."
+
+#: includes/customclass/class-wpvivid-dropbox.php:692
+msgid "Authenticate with Dropbox"
+msgstr "Dropbox로 인증"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:137
+#: includes/customclass/class-wpvivid-dropbox.php:559
+#: includes/customclass/class-wpvivid-ftpclass.php:131
+#: includes/customclass/class-wpvivid-google-drive.php:286
+#: includes/customclass/class-wpvivid-one-drive.php:270
+#: includes/customclass/class-wpvivid-s3compat.php:509
+#: includes/customclass/class-wpvivid-sftpclass.php:135
+msgid "Once checked, all this sites backups sent to a remote storage destination will be uploaded to this storage by default."
+msgstr "선택하면 원격 저장소 대상으로 전송된 이 모든 사이트 백업이 기본적으로 이 저장소에 업로드됩니다."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:131
+#: includes/customclass/class-wpvivid-dropbox.php:553
+#: includes/customclass/class-wpvivid-ftpclass.php:125
+#: includes/customclass/class-wpvivid-google-drive.php:280
+#: includes/customclass/class-wpvivid-one-drive.php:264
+#: includes/customclass/class-wpvivid-s3compat.php:503
+#: includes/customclass/class-wpvivid-sftpclass.php:129
+msgid "Set as the default remote storage."
+msgstr "기본 원격 저장소로 설정합니다."
+
+#: includes/customclass/class-wpvivid-dropbox.php:545
+#: includes/customclass/class-wpvivid-google-drive.php:272
+#: includes/customclass/class-wpvivid-one-drive.php:256
+msgid "Pro feature: Create a directory for storing the backups of the site"
+msgstr "Pro 기능: 사이트 백업을 저장하기 위한 디렉토리 생성"
+
+#: includes/customclass/class-wpvivid-dropbox.php:533
+#: includes/customclass/class-wpvivid-google-drive.php:260
+#: includes/customclass/class-wpvivid-one-drive.php:244
+msgid "All backups will be uploaded to this directory."
+msgstr "모든 백업이 이 디렉토리에 업로드됩니다."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:75
+#: includes/customclass/class-wpvivid-amazons3-plus.php:213
+#: includes/customclass/class-wpvivid-dropbox.php:521
+#: includes/customclass/class-wpvivid-dropbox.php:734
+#: includes/customclass/class-wpvivid-ftpclass.php:57
+#: includes/customclass/class-wpvivid-ftpclass.php:184
+#: includes/customclass/class-wpvivid-google-drive.php:248
+#: includes/customclass/class-wpvivid-google-drive.php:465
+#: includes/customclass/class-wpvivid-one-drive.php:232
+#: includes/customclass/class-wpvivid-one-drive.php:448
+#: includes/customclass/class-wpvivid-s3compat.php:435
+#: includes/customclass/class-wpvivid-s3compat.php:550
+#: includes/customclass/class-wpvivid-sftpclass.php:61
+#: includes/customclass/class-wpvivid-sftpclass.php:176
+msgid "A name to help you identify the storage if you have multiple remote storage connected."
+msgstr "여러 원격 저장소가 연결된 경우 저장소를 식별하는 데 도움이 되는 이름입니다."
+
+#: includes/customclass/class-wpvivid-dropbox.php:516
+#: includes/customclass/class-wpvivid-dropbox.php:729
+msgid "Enter a unique alias: e.g. Dropbox-001"
+msgstr "고유한 별칭을 입력하세요. 예: Dropbox-001"
+
+#: includes/customclass/class-wpvivid-dropbox.php:509
+msgid "Enter Your Dropbox Information"
+msgstr "Dropbox 정보 입력"
+
+#: includes/customclass/class-wpvivid-dropbox.php:489
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: includes/customclass/class-wpvivid-dropbox.php:429
+#: includes/customclass/class-wpvivid-dropbox.php:477
+msgid "You have authenticated the Dropbox account as your remote storage."
+msgstr "Dropbox 계정을 원격 저장소로 인증했습니다."
+
+#: includes/class-wpvivid-backup.php:1164
+#: includes/class-wpvivid-backup.php:1181
+#: includes/class-wpvivid-function-realize.php:56
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2790
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2810
+msgid "The backup will be canceled after backing up the current chunk ends."
+msgstr "현재 청크 백업이 끝나면 백업이 취소됩니다."
+
+#: includes/class-wpvivid-backup.php:1145
+#: includes/class-wpvivid-backup.php:1158
+#: includes/class-wpvivid-export-import.php:1352
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2771
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2784
+msgid "running time: "
+msgstr "실행 시간: "
+
+#: includes/class-wpvivid-backup.php:1145
+#: includes/class-wpvivid-backup.php:1158
+#: includes/class-wpvivid-export-import.php:1352
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2771
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2784
+msgid "Progress: "
+msgstr "진행 상태: "
+
+#: includes/class-wpvivid-backup.php:1110
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2735
+msgid "Ready to backup. Progress: 0%, running time: 0second."
+msgstr "백업할 준비가 되었습니다. 진행률: 0%, 실행 시간: 0초."
+
+#: includes/class-wpvivid-importer.php:1898
+#: includes/class-wpvivid-importer.php:1903
+#: includes/class-wpvivid-importer.php:2128
+#: includes/class-wpvivid-importer.php:2324
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "이것은 WXR 파일이 아닌 것 같습니다. WXR 버전 번호가 없거나 잘못되었습니다"
+
+#: includes/class-wpvivid-importer.php:1850
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr "자세한 내용은 위에 나와 있습니다. 임포터는 이제 다른 파서로 다시 시도합니다..."
+
+#: includes/class-wpvivid-importer.php:1849
+#: includes/class-wpvivid-importer.php:1886
+#: includes/class-wpvivid-importer.php:1894
+msgid "There was an error when reading this WXR file"
+msgstr "이 WXR 파일을 읽는 동안 오류가 발생했습니다"
+
+#: includes/class-wpvivid-importer.php:1709
+msgid "Invalid file type"
+msgstr "잘못된 파일 형식"
+
+#: includes/class-wpvivid-importer.php:1696
+msgid "Fetching attachments is not enabled"
+msgstr "첨부파일 가져오기가 활성화되지 않았습니다"
+
+#: includes/class-wpvivid-importer.php:1648
+#: includes/class-wpvivid-importer.php:1749
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "죄송합니다. 이 파일 형식은 보안상의 이유로 허용되지 않습니다."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:265
+#: includes/class-wpvivid-exporter.php:545
+#: includes/class-wpvivid-importer.php:315
+#: includes/snapshot/class-wpvivid-snapshots-list.php:261
+#: includes/staging/class-wpvivid-staging-log-page.php:248
+#: includes/staging/class-wpvivid-staging-sites-list.php:599
+#: includes/staging/class-wpvivid-staging-sites-list.php:970
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:240
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:572
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:304
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:714
+msgid "Last page"
+msgstr "마지막 페이지"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:255
+#: includes/class-wpvivid-exporter.php:535
+#: includes/class-wpvivid-importer.php:305
+#: includes/snapshot/class-wpvivid-snapshots-list.php:251
+#: includes/staging/class-wpvivid-staging-log-page.php:238
+#: includes/staging/class-wpvivid-staging-sites-list.php:589
+#: includes/staging/class-wpvivid-staging-sites-list.php:960
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:230
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:562
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:294
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:704
+msgid "Next page"
+msgstr "다음 페이지"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:247
+#: includes/class-wpvivid-exporter.php:527
+#: includes/class-wpvivid-importer.php:297
+#: includes/snapshot/class-wpvivid-snapshots-list.php:243
+#: includes/staging/class-wpvivid-staging-log-page.php:230
+#: includes/staging/class-wpvivid-staging-sites-list.php:581
+#: includes/staging/class-wpvivid-staging-sites-list.php:952
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:222
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:554
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:286
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:696
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%2$s 중 %1$s"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:237
+#: admin/partials/wpvivid-backup-restore-page-display.php:241
+#: includes/class-wpvivid-exporter.php:517
+#: includes/class-wpvivid-exporter.php:521
+#: includes/class-wpvivid-importer.php:287
+#: includes/class-wpvivid-importer.php:291
+#: includes/snapshot/class-wpvivid-snapshots-list.php:233
+#: includes/snapshot/class-wpvivid-snapshots-list.php:237
+#: includes/staging/class-wpvivid-staging-log-page.php:220
+#: includes/staging/class-wpvivid-staging-log-page.php:224
+#: includes/staging/class-wpvivid-staging-sites-list.php:571
+#: includes/staging/class-wpvivid-staging-sites-list.php:575
+#: includes/staging/class-wpvivid-staging-sites-list.php:942
+#: includes/staging/class-wpvivid-staging-sites-list.php:946
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:212
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:216
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:544
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:548
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:276
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:280
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:686
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:690
+msgid "Current Page"
+msgstr "현재 페이지"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:230
+#: includes/class-wpvivid-exporter.php:510
+#: includes/class-wpvivid-importer.php:280
+#: includes/snapshot/class-wpvivid-snapshots-list.php:226
+#: includes/staging/class-wpvivid-staging-log-page.php:213
+#: includes/staging/class-wpvivid-staging-sites-list.php:564
+#: includes/staging/class-wpvivid-staging-sites-list.php:935
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:205
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:537
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:269
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:679
+msgid "Previous page"
+msgstr "이전 페이지"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:219
+#: includes/class-wpvivid-exporter.php:499
+#: includes/class-wpvivid-importer.php:269
+#: includes/snapshot/class-wpvivid-snapshots-list.php:215
+#: includes/staging/class-wpvivid-staging-log-page.php:202
+#: includes/staging/class-wpvivid-staging-sites-list.php:553
+#: includes/staging/class-wpvivid-staging-sites-list.php:924
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:194
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:526
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:258
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:668
+msgid "First page"
+msgstr "첫 페이지"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:188
+#: includes/class-wpvivid-exporter.php:463
+#: includes/class-wpvivid-importer.php:233
+#: includes/snapshot/class-wpvivid-snapshots-list.php:184
+#: includes/staging/class-wpvivid-staging-log-page.php:171
+#: includes/staging/class-wpvivid-staging-sites-list.php:522
+#: includes/staging/class-wpvivid-staging-sites-list.php:893
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:163
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:495
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:227
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:637
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s개 아이템"
+
+#: includes/class-wpvivid-importer.php:130 includes/class-wpvivid.php:6931
+msgid "Type: "
+msgstr "유형: "
+
+#: includes/class-wpvivid-importer.php:51
+msgid "Media Files Size"
+msgstr "미디어 파일 크기"
+
+#: includes/class-wpvivid-importer.php:50
+msgid "Count"
+msgstr "개수"
+
+#: includes/class-wpvivid-importer.php:49
+msgid "Post Types"
+msgstr "글 유형"
+
+#: includes/class-wpvivid-importer.php:48
+msgid "File Name"
+msgstr "파일 이름"
+
+#: includes/class-wpvivid-backup-uploader.php:761
+msgid "Select Files"
+msgstr "파일 선택"
+
+#: includes/class-wpvivid-backup-uploader.php:760
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr "또는"
+
+#: includes/class-wpvivid-backup-uploader.php:759
+msgid "Drop files here"
+msgstr "여기에 파일을 놓기"
+
+#: includes/class-wpvivid-backup-uploader.php:701
+msgid "Scan uploaded backup or received backup"
+msgstr "업로드된 백업 또는 수신된 백업 스캔"
+
+#: includes/class-wpvivid-backup-uploader.php:698
+msgid "Tips: Click the button below to scan all uploaded or received backups in directory"
+msgstr "팁: 아래 버튼을 클릭하여 디렉토리에서 업로드되거나 수신된 모든 백업을 스캔하세요"
+
+#: admin/partials/wpvivid-admin-display.php:62
+msgid "Warning: There is no default remote storage available for the scheduled backups, please set up it first."
+msgstr "경고: 예약된 백업에 사용할 수 있는 기본 원격 저장소가 없습니다. 먼저 설정하세요."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2894
+msgid "Next Backup: "
+msgstr "다음 백업: "
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2892
+msgid "Server Time: "
+msgstr "서버 시간: "
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2890
+msgid "Schedule Status: "
+msgstr "일정 상태: "
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2888
+msgid "Backup Schedule"
+msgstr "백업 일정"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2871
+msgid "The settings are only for manual backup, which won't affect schedule settings."
+msgstr "설정은 수동 백업에만 해당되며 일정 설정에는 영향을 미치지 않습니다."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2490
+msgid "This backup can only be deleted manually"
+msgstr "이 백업은 수동으로만 삭제할 수 있습니다"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2485
+msgid "Backup Now"
+msgstr "지금 백업하기"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2441
+msgid "Send Backup to Remote Storage:"
+msgstr "원격 저장소에 백업 보내기:"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2437
+msgid "Save Backups to Local"
+msgstr "로컬에 백업 저장"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2409
+msgid "rename directory"
+msgstr "디렉토리 이름 바꾸기"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2407
+msgid "Local Storage Directory:"
+msgstr "로컬 저장소 디렉토리:"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2402
+msgid "Back Up Manually"
+msgstr "수동 백업"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2311
+#: includes/class-wpvivid-migrate.php:405
+#: includes/class-wpvivid-migrate.php:1538
+msgid "Cancel"
+msgstr "취소"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2305
+#: includes/class-wpvivid-migrate.php:1532 includes/class-wpvivid.php:4574
+#: includes/new_backup/class-wpvivid-backup2.php:1022
+#: includes/new_backup/class-wpvivid-backup2.php:1116
+msgid "Network Connection:"
+msgstr "네트워크 연결:"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2302
+#: includes/class-wpvivid-migrate.php:1529 includes/class-wpvivid.php:4571
+#: includes/new_backup/class-wpvivid-backup2.php:1019
+#: includes/new_backup/class-wpvivid-backup2.php:1113
+msgid "Speed:"
+msgstr "속도:"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2301
+#: includes/class-wpvivid-migrate.php:1528 includes/class-wpvivid.php:4570
+#: includes/new_backup/class-wpvivid-backup2.php:1018
+#: includes/new_backup/class-wpvivid-backup2.php:1112
+msgid "Uploaded:"
+msgstr "업로드:"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1190
+msgid "The backup is stored on the remote storage, click on the button to download it to localhost."
+msgstr "백업은 원격 저장소에 저장되며 버튼을 클릭하여 localhost로 다운로드하세요."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1189
+msgid "Retrieve the backup to localhost"
+msgstr "백업을 로컬호스트로 복원하세요."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1185
+msgid "Restore function will replace the current site's themes, plugins, uploads, database and/or other content directories with the existing equivalents in the selected backup."
+msgstr "복원 기능은 현재 사이트의 테마, 플러그인, 업로드, 데이터베이스 및/또는 기타 콘텐츠 디렉토리를 선택한 백업의 기존 항목으로 대체합니다."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1184
+msgid "Please do not close the page or switch to other pages when a restore task is running, as it could trigger some unexpected errors."
+msgstr "복원 작업이 실행 중일 때는 예기치 않은 오류가 발생할 수 있으므로 페이지를 닫거나 다른 페이지로 전환하지 마세요."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1183
+msgid "Restore backup from:"
+msgstr "다음에서 백업 복원:"
+
+#: admin/class-wpvivid-admin.php:279
+msgid "Step Three: Click 'Restore' button"
+msgstr "3단계: '복원' 버튼을 클릭하세요"
+
+#: admin/class-wpvivid-admin.php:278
+msgid "Step Two: Choose an option to complete restore, if any"
+msgstr "2단계: 복원을 완료하는 옵션을 선택하세요 (있는 경우)"
+
+#: admin/class-wpvivid-admin.php:277
+msgid "Step One: In the backup list, click the 'Restore' button on the backup you want to restore. This will bring up the restore tab"
+msgstr "1단계: 백업 목록에서 복원하려는 백업의 '복원' 버튼을 클릭하세요. 복원 탭이 나타납니다"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1080
+#: admin/partials/wpvivid-backup-restore-page-display.php:2694
+msgid "This request might delete the backup being downloaded, are you sure you want to continue?"
+msgstr "이 요청은 다운로드 중인 백업을 삭제할 수 있습니다. 계속하시겠습니까?"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1075
+#: includes/class-wpvivid-export-import.php:395
+#: includes/snapshot/class-wpvivid-snapshot.php:1046
+msgid "Please select at least one item."
+msgstr "항목을 하나 이상 선택해주세요."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1036
+msgid "This request will delete the backup being downloaded, are you sure you want to continue?"
+msgstr "이 요청은 다운로드 중인 백업을 삭제합니다. 정말로 계속하시겠습니까?"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1027
+msgid "This backup is locked, are you sure to remove it? This backup will be deleted permanently from your hosting (localhost) and remote storages."
+msgstr "이 백업은 잠겨 있습니다. 정말로 제거하시겠습니까? 이 백업은 호스팅(localhost) 및 원격 저장소에서 영구적으로 삭제됩니다."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:506
+msgid "Delete the selected backups"
+msgstr "선택한 백업 삭제"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:495
+#: includes/class-wpvivid-migrate.php:1064
+#: includes/class-wpvivid-migrate.php:1202
+msgid "Delete"
+msgstr "삭제"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:492
+msgid "Storage"
+msgstr "저장"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:491
+msgid "Backup"
+msgstr "백업"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:444
+#: admin/partials/wpvivid-backup-restore-page-display.php:494
+#: admin/partials/wpvivid-backup-restore-page-display.php:1187
+#: includes/class-wpvivid.php:6845 includes/class-wpvivid.php:6981
+msgid "Restore"
+msgstr "복원"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:426
+msgid "Backups"
+msgstr "백업"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:411
+#: admin/partials/wpvivid-backup-restore-page-display.php:479
+msgid "How to restore your website from a backup(scheduled, manual, uploaded and received backup)"
+msgstr "백업에서 웹 사이트를 복원하는 방법 (예약, 수동, 업로드 및 수신된 백업)"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:405
+#: admin/partials/wpvivid-backup-restore-page-display.php:473
+msgid "->If backups are stored in web server, the plugin will list all relevant files immediately."
+msgstr "->백업이 웹 서버에 저장되면 플러그인은 모든 관련 파일을 즉시 나열합니다."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:404
+#: admin/partials/wpvivid-backup-restore-page-display.php:472
+msgid "->If backups are stored in remote storage, our plugin will retrieve the backup to your web server first. This may take a little time depending on the size of backup files. Please be patient. Then you can download them to your PC."
+msgstr "->백업이 원격 저장소에 저장되어 있으면 플러그인이 먼저 웹 서버로 백업을 검색합니다. 백업 파일의 크기에 따라 다소 시간이 소요될 수 있습니다. 기다려주세요. 그런 다음 PC로 다운로드할 수 있습니다."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:402
+#: admin/partials/wpvivid-backup-restore-page-display.php:470
+msgid "About backup download"
+msgstr "백업 다운로드 정보"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:36
+#: admin/partials/wpvivid-remote-storage-page-display.php:369
+#: includes/snapshot/class-wpvivid-snapshots-list.php:42
+msgid "Actions"
+msgstr "동작"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:35
+#: admin/partials/wpvivid-remote-storage-page-display.php:368
+msgid "Remote Storage Alias"
+msgstr "원격 저장소 별칭"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:34
+#: admin/partials/wpvivid-remote-storage-page-display.php:367
+msgid "Storage Provider"
+msgstr "저장소 제공자"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:26
+#: admin/partials/wpvivid-remote-storage-page-display.php:359
+msgid "Please choose one storage to save your backups (remote storage)"
+msgstr "백업을 저장할 저장소(원격 저장소)를 하나 선택하세요."
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:14
+#: admin/partials/wpvivid-remote-storage-page-display.php:352
+msgid "Storage Edit"
+msgstr "저장소 편집"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:6
+#: admin/partials/wpvivid-remote-storage-page-display.php:350
+msgid "Storages"
+msgstr "저장소"
+
+#: admin/partials/wpvivid-settings-page-display.php:841
+msgid "Advanced Settings"
+msgstr "고급 설정"
+
+#: admin/partials/wpvivid-settings-page-display.php:835
+msgid "General Settings"
+msgstr "일반 설정"
+
+#: admin/partials/wpvivid-settings-page-display.php:771
+msgid "e.g. if you choose a chunk size of 2MB, a 8MB file will use 4 chunks. Decreasing this value will break the ISP's transmission limit, for example:512KB"
+msgstr "예시: 청크 크기를 2MB로 선택하면 8MB 파일은 4개의 청크를 사용합니다. 이 값을 줄이면 ISP의 전송 제한이 깨집니다 (예: 512KB)"
+
+#: admin/partials/wpvivid-settings-page-display.php:768
+msgid "Chunk Size"
+msgstr "청크 크기"
+
+#: admin/partials/wpvivid-settings-page-display.php:811
+msgid "Adjust this value to apply for a temporary PHP memory limit for WPvivid backup plugin in restore process. We set this value to 256M by default. Increase the value if you encounter a memory exhausted error. Note: some web hosting providers may not support this."
+msgstr "복원 프로세스에서 WPvivid 백업 플러그인에 대한 임시 PHP 메모리 제한을 적용하려면 이 값을 조정하세요. 이 값은 기본적으로 256M으로 설정합니다. 메모리 소진 오류가 발생하면 값을 늘리세요. 참고: 일부 웹 호스팅 제공업체는 이를 지원하지 않을 수 있습니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:808
+msgid "PHP Memory Limit for restoration"
+msgstr "복원을 위한 PHP 메모리 제한"
+
+#: admin/partials/wpvivid-settings-page-display.php:756
+msgid "Adjust this value to apply for a temporary PHP memory limit for WPvivid backup plugin to run a backup. We set this value to 256M by default. Increase the value if you encounter a memory exhausted error. Note: some web hosting providers may not support this."
+msgstr "WPvivid 백업 플러그인이 백업을 실행하기 위한 임시 PHP 메모리 제한을 적용하려면 이 값을 조정하세요. 이 값은 기본적으로 256M으로 설정합니다. 메모리 소진 오류가 발생하면 값을 늘리세요. 참고: 일부 웹 호스팅 제공업체는 이를 지원하지 않을 수 있습니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:753
+msgid "PHP Memory Limit for backup"
+msgstr "백업을 위한 PHP 메모리 제한"
+
+#: admin/partials/wpvivid-settings-page-display.php:806
+msgid "The time-out is not your server PHP time-out. With the execution time exhausted, our plugin will shut the process of restore down. If the progress of restore encounters a time-out, that means you have a medium or large sized website, please try to scale the value bigger."
+msgstr "시간 초과는 서버 PHP 시간 초과가 아닙니다. 실행 시간이 소진되면 플러그인이 복원 프로세스를 종료합니다. 복원 진행 중에 시간 초과가 발생하면 중형 또는 대형 웹 사이트가 있음을 의미하므로 값을 더 크게 조정해주세요."
+
+#: admin/partials/wpvivid-settings-page-display.php:803
+msgid "PHP script execution timeout for restore"
+msgstr "복원을 위한 PHP 스크립트 실행 시간 초과"
+
+#: admin/partials/wpvivid-settings-page-display.php:751
+msgid "The time-out is not your server PHP time-out. With the execution time exhausted, our plugin will shut the process of backup down. If the progress of backup encounters a time-out, that means you have a medium or large sized website, please try to scale the value bigger."
+msgstr "시간 초과는 서버 PHP 시간 초과가 아닙니다. 실행 시간이 소진되면 플러그인이 백업 프로세스를 종료합니다. 백업 진행 중에 시간 초과가 발생하면 중대형 웹사이트가 있음을 의미하므로 값을 더 크게 조정해주세요."
+
+#: admin/partials/wpvivid-settings-page-display.php:748
+msgid "PHP script execution timeout for backup"
+msgstr "백업을 위한 PHP 스크립트 실행 시간 초과"
+
+#: admin/partials/wpvivid-settings-page-display.php:746
+msgid "Using the option will ignore the file larger than the certain size in MB when backing up, '0' (zero) means unlimited."
+msgstr "이 옵션을 사용하면 백업 시 특정 크기(MB)보다 큰 파일은 무시되며 '0'(영)은 무제한을 의미합니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:743
+msgid "Exclude the files which are larger than"
+msgstr "다음보다 큰 파일 제외"
+
+#: admin/partials/wpvivid-settings-page-display.php:741
+msgid "Some web hosting providers limit large zip files (e.g. 200MB), and therefore splitting your backup into many parts is an ideal way to avoid hitting the limitation if you are running a big website.  Please try to adjust the value if you are encountering backup errors. When you set a value of 0MB, backups will be split every 4GB."
+msgstr "일부 웹 호스팅 제공자는 큰 zip 파일(예: 200MB)을 제한하므로, 큰 웹사이트를 운영하는 경우 백업을 여러 부분으로 나누는 것이 제한에 걸리는 것을 피하는 이상적인 방법입니다. 백업 오류가 발생하는 경우 값을 조정해보세요. 값을 0MB로 설정하면 백업이 4GB마다 분할됩니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:738
+msgid "Compress Files Every"
+msgstr "파일 압축 주기"
+
+#: admin/partials/wpvivid-settings-page-display.php:687
+msgid "It is recommended to choose PDO option if pdo_mysql extension is installed on your server, which lets you backup and restore your site faster."
+msgstr "서버에 pdo_mysql 확장 기능이 설치되어 있다면, PDO 옵션을 선택하는 것이 권장됩니다. 이를 통해 사이트를 더 빠르게 백업하고 복원할 수 있습니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:681
+msgid "WPDB option has a better compatibility, but the speed of backup and restore is slower."
+msgstr "WPDB 옵션은 호환성이 더 좋지만 백업 및 복원 속도가 느립니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:676
+msgid "Database access method."
+msgstr "데이터베이스 액세스 방법."
+
+#: admin/partials/wpvivid-settings-page-display.php:470
+msgid "Importing the json file can help you set WPvivid's configuration on another wordpress site quickly."
+msgstr "json 파일을 가져오면 다른 워드프레스 사이트에서 WPvivid의 구성을 빠르게 설정하는 데 도움이 됩니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:469
+#: includes/class-wpvivid-export-import.php:1621
+#: includes/class-wpvivid-importer.php:158
+msgid "Import"
+msgstr "가져오기"
+
+#: admin/partials/wpvivid-settings-page-display.php:465
+msgid "Click 'Export' button to save WPvivid settings on your local computer."
+msgstr "'내보내기' 버튼을 클릭하여 WPvivid 설정을 로컬 컴퓨터에 저장하세요."
+
+#: admin/partials/wpvivid-settings-page-display.php:464
+msgid "Export"
+msgstr "내보내기"
+
+#: admin/partials/wpvivid-settings-page-display.php:358
+msgid "Empty"
+msgstr "비어 있는"
+
+#: admin/partials/wpvivid-settings-page-display.php:334
+msgid "Calculate Sizes"
+msgstr "크기 계산"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2300
+#: admin/partials/wpvivid-settings-page-display.php:330
+#: includes/class-wpvivid-migrate.php:1527 includes/class-wpvivid.php:4569
+#: includes/new_backup/class-wpvivid-backup2.php:1017
+#: includes/new_backup/class-wpvivid-backup2.php:1111
+msgid "Total Size:"
+msgstr "총합 크기:"
+
+#: admin/partials/wpvivid-settings-page-display.php:326
+msgid "Web-server disk space in use by WPvivid"
+msgstr "WPvivid에서 사용 중인 웹 서버 디스크 공간"
+
+#: admin/partials/wpvivid-settings-page-display.php:279
+msgid "Pro feature: Add another email address to get report"
+msgstr "Pro 기능: 보고서를 받을 다른 이메일 주소 추가"
+
+#: admin/partials/wpvivid-settings-page-display.php:275
+msgid "Only send an email notification when a backup fails"
+msgstr "백업 실패 시에만 이메일 알림 보내기"
+
+#: admin/partials/wpvivid-settings-page-display.php:271
+msgid "Always send an email notification when a backup is complete"
+msgstr "백업이 완료되면 항상 이메일 알림 보내기"
+
+#: admin/partials/wpvivid-settings-page-display.php:266
+msgid "Test Email"
+msgstr "테스트 이메일"
+
+#: admin/partials/wpvivid-settings-page-display.php:252
+msgid "Enable email report"
+msgstr "이메일 보고서 활성화"
+
+#: admin/partials/wpvivid-settings-page-display.php:187
+msgid "The action is irreversible! It will remove all backups are out-of-date (including local web server and remote storage) if they exist."
+msgstr "동작은 돌이킬 수 없습니다! 오래된 백업(로컬 웹 서버 및 원격 저장소 포함)이 있는 경우 모든 백업을 제거합니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:186
+msgid "Remove"
+msgstr "제거"
+
+#: admin/partials/wpvivid-settings-page-display.php:174
+msgid "Remote Storage Directory:"
+msgstr "원격 저장소 디렉터리:"
+
+#: admin/partials/wpvivid-settings-page-display.php:173
+msgid "Web Server Directory:"
+msgstr "웹 서버 디렉토리:"
+
+#: admin/partials/wpvivid-settings-page-display.php:169
+msgid "Remove out-of-date backups"
+msgstr "오래된 백업 제거"
+
+#: admin/partials/wpvivid-settings-page-display.php:164
+msgid "Display domain(url) of current site in backup name. (e.g. domain_wpvivid-5ceb938b6dca9_2019-05-27-07-36_backup_all.zip)"
+msgstr "백업 이름에 현재 사이트의 도메인(url)을 표시합니다. (예: domain_wpvivid-5ceb938b6dca9_2019-05-27-07-36_backup_all.zip)"
+
+#: admin/partials/wpvivid-settings-page-display.php:159
+msgid "Local storage directory:"
+msgstr "로컬 저장소 디렉터리:"
+
+#: admin/partials/wpvivid-settings-page-display.php:157
+msgid "Name your folder, this folder must be writable for creating backup files."
+msgstr "폴더 이름을 지정하세요. 이 폴더는 백업 파일을 생성하기 위해 쓰기 가능해야 합니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:155
+msgid "Backup Folder"
+msgstr "백업 폴더"
+
+#: admin/partials/wpvivid-settings-page-display.php:138
+msgid "Keep storing the backups in localhost after uploading to remote storage"
+msgstr "원격 저장소에 업로드한 후 localhost에 백업을 계속 저장하세요"
+
+#: admin/partials/wpvivid-settings-page-display.php:132
+msgid "Merge all the backup files into single package when a backup completes. This will save great disk spaces, though takes longer time. We recommended you check the option especially on sites with insufficient server resources."
+msgstr "백업이 완료되면 모든 백업 파일을 단일 패키지로 병합합니다. 이렇게 하면 시간이 오래 걸리지만 큰 디스크 공간을 절약할 수 있습니다. 특히 서버 리소스가 부족한 사이트에서는 옵션을 확인하는 것이 좋습니다."
+
+#: admin/partials/wpvivid-settings-page-display.php:126
+msgid "Show WPvivid backup plugin on top admin bar"
+msgstr "상단 관리 표시줄에 WPvivid 백업 플러그인 표시"
+
+#: admin/partials/wpvivid-settings-page-display.php:120
+msgid "Calculate the size of files, folder and database before backing up"
+msgstr "백업하기 전에 파일, 폴더 및 데이터베이스의 크기를 계산하세요"
+
+#: admin/partials/wpvivid-settings-page-display.php:115
+msgid "Pro feature: Retain more backups"
+msgstr "Pro 기능: 더 많은 백업 유지"
+
+#: admin/partials/wpvivid-settings-page-display.php:115
+msgid "backups retained"
+msgstr "보존된 백업"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:362
+#: admin/partials/wpvivid-schedule-page-display.php:87
+#: admin/partials/wpvivid-schedule-page-display.php:124
+#: includes/class-wpvivid-schedule.php:113
+msgid "Custom"
+msgstr "사용자 지정"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:357
+#: admin/partials/wpvivid-schedule-page-display.php:118
+#: includes/class-wpvivid-migrate.php:1450
+#: includes/class-wpvivid-migrate.php:1474
+msgid "Only Database"
+msgstr "데이터베이스만"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:353
+#: admin/partials/wpvivid-schedule-page-display.php:113
+#: includes/class-wpvivid-migrate.php:1446
+#: includes/class-wpvivid-migrate.php:1470
+msgid "WordPress Files (Exclude Database)"
+msgstr "워드프레스 파일 (데이터베이스 제외)"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:349
+#: admin/partials/wpvivid-schedule-page-display.php:108
+#: includes/class-wpvivid-migrate.php:1442
+#: includes/class-wpvivid-migrate.php:1466
+msgid "Database + Files (WordPress Files)"
+msgstr "데이터베이스 + 파일 (워드프레스 파일)"
+
+#: admin/partials/wpvivid-schedule-page-display.php:48
+msgid "Being subjected to mechanisms of PHP, a scheduled backup task for your site will be triggered only when the site receives at least a visit at any page."
+msgstr "PHP 메커니즘의 영향을 받기 때문에 사이트에 대한 예약된 백업 작업은 사이트가 어떤 페이지에서든 최소한 방문을 받는 경우에만 트리거됩니다."
+
+#: admin/partials/wpvivid-schedule-page-display.php:208
+msgid "+ Add another schedule"
+msgstr "+ 다른 일정 추가"
+
+#: admin/partials/wpvivid-schedule-page-display.php:171
+msgid "Highlighted icon illuminates that you have choosed a remote storage to store backups"
+msgstr "강조 표시된 아이콘은 백업을 저장할 원격 저장소를 선택했음을 나타냅니다"
+
+#: admin/partials/wpvivid-schedule-page-display.php:32
+msgid "Advanced Schedule"
+msgstr "고급 일정"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:365
+#: admin/partials/wpvivid-schedule-page-display.php:24
+#: admin/partials/wpvivid-schedule-page-display.php:36
+#: admin/partials/wpvivid-schedule-page-display.php:91
+#: admin/partials/wpvivid-schedule-page-display.php:128
+#: admin/partials/wpvivid-schedule-page-display.php:211
+#: includes/class-wpvivid-migrate.php:1458
+#: includes/class-wpvivid-migrate.php:1482
+#: includes/class-wpvivid-schedule.php:117
+msgid "Pro feature: learn more"
+msgstr "Pro 기능: 자세히 알아보기"
+
+#: admin/partials/wpvivid-schedule-page-display.php:20
+msgid "Enable Incremental Backup"
+msgstr "증분 백업 활성화"
+
+#: admin/partials/wpvivid-schedule-page-display.php:15
+msgid "Enable backup schedule"
+msgstr "백업 일정 활성화"
+
+#: admin/partials/wpvivid-schedule-page-display.php:7
+msgid "Schedule Settings"
+msgstr "일정 설정"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1558
+#: includes/snapshot/class-wpvivid-snapshot.php:1598
+msgid "Support"
+msgstr "지원"
+
+#: admin/class-wpvivid-admin.php:1678
+msgid "Ultimate"
+msgstr "Ultimate"
+
+#: admin/class-wpvivid-admin.php:1676
+msgid "Freelancer"
+msgstr "프리랜서"
+
+#: admin/class-wpvivid-admin.php:1650
+msgid "5. Set up remote storage for child sites in bulk (for WPvivid Backup Pro only)"
+msgstr "5. 하위 사이트에 대한 원격 저장소를 대량으로 설정 (WPvivid Backup Pro만 해당)"
+
+#: admin/class-wpvivid-admin.php:1645
+msgid "4. Install, claim and update WPvivid Backup Pro for child sites in bulk"
+msgstr "4. 하위 사이트용 WPvivid Backup Pro를 대량으로 설치, 청구 및 업데이트"
+
+#: admin/class-wpvivid-admin.php:1640
+msgid "3. Set WPvivid Backup Free and Pro settings for all child sites"
+msgstr "3. 모든 하위 사이트에 대해 WPvivid Backup Free 및 Pro 설정 지정"
+
+#: admin/class-wpvivid-admin.php:1636
+msgid "2. Set backup schedules for all child sites"
+msgstr "2. 모든 하위 사이트에 대한 백업 일정 설정"
+
+#: admin/class-wpvivid-admin.php:1633
+msgid "1. Create and download backups for a specific child site"
+msgstr "1. 특정 하위 사이트에 대한 백업 생성 및 다운로드"
+
+#: admin/class-wpvivid-admin.php:1630
+msgid "Download WPvivid Backup for MainWP"
+msgstr "WPvivid Backup for MainWP 다운로드"
+
+#: admin/class-wpvivid-admin.php:1627
+msgid "If you are a MainWP user, you can set up and control WPvivid Backup Free and Pro for every child site directly from your MainWP dashboard, using our WPvivid Backup for MainWP extension."
+msgstr "MainWP 사용자인 경우 WPvivid Backup for MainWP 확장 프로그램을 사용하여 MainWP 대시보드에서 직접 모든 하위 사이트에 대한 WPvivid Backup Free 및 Pro를 설정하고 제어할 수 있습니다."
+
+#: admin/class-wpvivid-admin.php:1519
+#: includes/staging/class-wpvivid-staging-log-page.php:352
+msgid " Next page > "
+msgstr " 다음 페이지 > "
+
+#: admin/class-wpvivid-admin.php:1508
+#: includes/staging/class-wpvivid-staging-log-page.php:341
+msgid " < Pre page "
+msgstr " < 이전 페이지 "
+
+#: admin/class-wpvivid-admin.php:1498 includes/class-wpvivid-importer.php:52
+#: includes/staging/class-wpvivid-staging-log-page.php:331
+msgid "Action"
+msgstr "동작"
+
+#: admin/class-wpvivid-admin.php:1497
+#: includes/staging/class-wpvivid-staging-log-page.php:330
+msgid "Log File Name"
+msgstr "로그 파일 이름"
+
+#: admin/class-wpvivid-admin.php:1496
+#: includes/staging/class-wpvivid-staging-log-page.php:26
+#: includes/staging/class-wpvivid-staging-log-page.php:329
+msgid "Log Type"
+msgstr "로그 유형"
+
+#: admin/class-wpvivid-admin.php:1495 includes/class-wpvivid-exporter.php:110
+#: includes/staging/class-wpvivid-staging-log-page.php:25
+#: includes/staging/class-wpvivid-staging-log-page.php:328
+msgid "Date"
+msgstr "날짜"
+
+#: admin/class-wpvivid-admin.php:1382
+msgid "Website Info Value"
+msgstr "웹사이트 정보 값"
+
+#: admin/class-wpvivid-admin.php:1381
+msgid "Website Info Key"
+msgstr "웹사이트 정보 키"
+
+#: admin/class-wpvivid-admin.php:1377
+#: admin/partials/wpvivid-backup-restore-page-display.php:45
+#: admin/partials/wpvivid-backup-restore-page-display.php:455
+#: admin/partials/wpvivid-backup-restore-page-display.php:493
+#: includes/class-wpvivid.php:2821 includes/class-wpvivid.php:6837
+#: includes/class-wpvivid.php:6973
+#: includes/staging/class-wpvivid-staging-log-page.php:29
+msgid "Download"
+msgstr "다운로드"
+
+#: admin/class-wpvivid-admin.php:1374
+msgid "If you didn’t configure SMTP on your site, click the button below to download the relevant information (website info and error logs) to your PC when you are encountering some errors. Sending the files to us will help us diagnose what happened."
+msgstr "사이트에 SMTP를 구성하지 않은 경우, 오류가 발생할 때 아래 버튼을 클릭하여 관련 정보(웹사이트 정보 및 오류 로그)를 PC로 다운로드하세요. 파일을 보내주시면 문제를 진단하는 데 도움이 됩니다."
+
+#: admin/class-wpvivid-admin.php:1374
+msgid "Method 2."
+msgstr "방법 2."
+
+#: admin/class-wpvivid-admin.php:1370
+msgid "Send Debug Information to Us"
+msgstr "우리에게 디버그 정보 보내기"
+
+#: admin/class-wpvivid-admin.php:1367
+msgid "Please describe your problem here."
+msgstr "여기에 문제를 설명해주세요."
+
+#: admin/class-wpvivid-admin.php:1358
+msgid "My web hosting provider is:"
+msgstr "내 웹 호스팅 공급자:"
+
+#: admin/class-wpvivid-admin.php:1346
+msgid "I am using:"
+msgstr "다음을 사용 중:"
+
+#: admin/class-wpvivid-admin.php:1341
+msgid "Your email:"
+msgstr "귀하의 이메일:"
+
+#: admin/class-wpvivid-admin.php:1340
+msgid "WPvivid support email:"
+msgstr "WPvivid 지원 이메일:"
+
+#: admin/class-wpvivid-admin.php:1337
+msgid "If you have configured SMTP on your site, enter your email address and click the button below to send us the relevant information (website info and errors logs) when you are encountering errors. This will help us figure out what happened. Once the issue is resolved, we will inform you by your email address."
+msgstr "사이트에 SMTP를 구성한 경우 오류가 발생할 때 이메일 주소를 입력하고 아래 버튼을 클릭하여 관련 정보(웹사이트 정보 및 오류 로그)를 보내주세요. 이것은 무슨 일이 일어났는지 알아내는 데 도움이 될 것입니다. 문제가 해결되면 귀하의 이메일 주소로 알려드리겠습니다."
+
+#: admin/class-wpvivid-admin.php:1337
+msgid "Method 1."
+msgstr "방법 1."
+
+#: admin/class-wpvivid-admin.php:1335
+msgid "There are two ways available to send us the debug information. The first one is recommended."
+msgstr "디버그 정보를 보내는 데 사용할 수 있는 두 가지 방법이 있습니다. 첫 번째 것이 권장됩니다."
+
+#: admin/class-wpvivid-admin.php:1172 admin/class-wpvivid-admin.php:1259
+#: admin/partials/wpvivid-remote-storage-page-display.php:80
+#: admin/partials/wpvivid-remote-storage-page-display.php:377
+#: includes/customclass/class-wpvivid-amazons3-plus.php:297
+#: includes/customclass/class-wpvivid-dropbox.php:741
+#: includes/customclass/class-wpvivid-ftpclass.php:254
+#: includes/customclass/class-wpvivid-google-drive.php:472
+#: includes/customclass/class-wpvivid-one-drive.php:455
+#: includes/customclass/class-wpvivid-s3compat.php:618
+#: includes/customclass/class-wpvivid-sftpclass.php:244
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:763
+msgid "Save Changes"
+msgstr "변경 사항 저장"
+
+#: admin/class-wpvivid-admin.php:1130
+msgid "Premium"
+msgstr "Premium"
+
+#: admin/class-wpvivid-admin.php:1120
+msgid "MainWP"
+msgstr "MainWP"
+
+#: admin/class-wpvivid-admin.php:1109
+#: admin/partials/wpvivid-backup-restore-page-display.php:433
+#: admin/partials/wpvivid-backup-restore-page-display.php:2312
+#: includes/class-wpvivid.php:6826 includes/class-wpvivid.php:6932
+msgid "Log"
+msgstr "로그"
+
+#: admin/class-wpvivid-admin.php:1304
+msgid "Logs"
+msgstr "로그"
+
+#: admin/class-wpvivid-admin.php:1096
+msgid "Debug"
+msgstr "디버그"
+
+#: admin/class-wpvivid-admin.php:1084
+msgid "Remote Storage"
+msgstr "원격 저장소"
+
+#: admin/class-wpvivid-admin.php:1078
+msgid "Schedule"
+msgstr "일정"
+
+#: admin/class-wpvivid-admin.php:889
+msgid "Class PclZip is not detected. Please update or reinstall your WordPress."
+msgstr "클래스 PclZip이 감지되지 않습니다. 워드프레스를 업데이트하거나 다시 설치하세요."
+
+#: admin/class-wpvivid-admin.php:752
+msgid "As Amazon S3 and DigitalOcean Space have upgraded their connection methods, please delete the previous connections and re-add your Amazon S3/DigitalOcean Space accounts to make sure the connections work."
+msgstr "Amazon S3 및 DigitalOcean Space가 연결 방법을 업그레이드했으므로 이전 연결을 삭제하고 Amazon S3/DigitalOcean Space 계정을 다시 추가하여 연결이 작동하는지 확인하세요."
+
+#: admin/class-wpvivid-admin.php:608
+#: admin/partials/wpvivid-backup-restore-page-display.php:1642
+#: admin/partials/wpvivid-backup-restore-page-display.php:1655
+#: admin/partials/wpvivid-backup-restore-page-display.php:1666
+msgid "Restore completed successfully."
+msgstr "복원이 성공적으로 완료되었습니다."
+
+#: admin/class-wpvivid-admin.php:602
+msgid "Cheers! WPvivid Backup plugin has restored successfully your website. If you found WPvivid Backup plugin helpful, a 5-star rating would be highly appreciated, which motivates us to keep providing new features."
+msgstr "건배! WPvivid 백업 플러그인이 귀하의 웹사이트를 성공적으로 복원했습니다. WPvivid 백업 플러그인이 도움이 되셨다면 별 5개를 주시면 감사하겠습니다. 이는 새로운 기능을 계속 제공할 동기를 부여합니다."
+
+#: admin/class-wpvivid-admin.php:586
+msgid "Migration is complete and htaccess file is replaced. In order to successfully complete the migration, you'd better reinstall 301 redirect plugin, firewall and security plugin, and caching plugin if they exist."
+msgstr "마이그레이션이 완료되었고 htaccess 파일이 교체되었습니다. 마이그레이션을 성공적으로 완료하려면, 301 리다이렉트 플러그인, 방화벽 및 보안 플러그인, 캐싱 플러그인이 존재하는 경우 다시 설치하는 것이 좋습니다."
+
+#: admin/class-wpvivid-admin.php:276
+msgid "Calculating the size of files, folder and database timed out. If you continue to receive this error, please go to the plugin settings, uncheck 'Calculate the size of files, folder and database before backing up', save changes, then try again."
+msgstr "파일, 폴더 및 데이터베이스 크기 계산 시간이 초과되었습니다. 이 오류가 계속 발생하면 플러그인 설정으로 이동하여 '백업하기 전에 파일, 폴더 및 데이터베이스 크기 계산'을 선택 취소하고 변경 사항을 저장한 다음 다시 시도하세요."
+
+#: admin/class-wpvivid-admin.php:275
+msgid "Warning: The alias already exists in storage list."
+msgstr "경고: 저장소 목록에 별칭이 이미 있습니다."
+
+#: admin/class-wpvivid-admin.php:274
+#: includes/customclass/class-wpvivid-ftpclass.php:302
+#: includes/customclass/class-wpvivid-ftpclass.php:310
+msgid "Warning: An alias for remote storage is required."
+msgstr "경고: 원격 저장소에 대한 별칭이 필요합니다."
+
+#: admin/class-wpvivid-admin.php:273
+msgid "Error:"
+msgstr "오류:"
+
+#: admin/class-wpvivid-admin.php:272
+msgid "Warning:"
+msgstr "경고:"
+
+#: admin/class-wpvivid-admin.php:234
+msgid "Migrate WordPress"
+msgstr "워드프레스 마이그레이션"
+
+#: admin/class-wpvivid-admin.php:233
+msgid "Restore Your Site from a Backup"
+msgstr "백업에서 사이트 복원"
+
+#: admin/class-wpvivid-admin.php:232
+msgid "Create a Manual Backup"
+msgstr "수동 백업 만들기"
+
+#: admin/class-wpvivid-admin.php:231
+msgid "WPvivid Backup Settings"
+msgstr "WPvivid Backup 설정"
+
+#: admin/class-wpvivid-admin.php:227
+#: includes/staging/class-wpvivid-staging.php:95
+msgid "How-to"
+msgstr "방법"
+
+#: admin/class-wpvivid-admin.php:204
+#: includes/snapshot/class-wpvivid-snapshot.php:1543
+#: includes/staging/class-wpvivid-staging.php:83
+msgid "Troubleshooting"
+msgstr "문제 해결"
+
+#: admin/class-wpvivid-admin.php:189
+#: includes/snapshot/class-wpvivid-snapshot.php:1536
+#: includes/staging/class-wpvivid-staging.php:76
+msgid "ChangeLog"
+msgstr "변경 로그"
+
+#: admin/class-wpvivid-admin.php:186
+#: includes/snapshot/class-wpvivid-snapshot.php:1533
+#: includes/staging/class-wpvivid-staging.php:73
+msgid "Current Version: "
+msgstr "현재 버전: "
+
+#: admin/class-wpvivid-admin.php:169 admin/class-wpvivid-admin.php:518
+#: admin/class-wpvivid-admin.php:524 admin/class-wpvivid-admin.php:533
+#: admin/class-wpvivid-admin.php:539 admin/class-wpvivid-admin.php:1090
+msgid "Settings"
+msgstr "설정"
+
+#: admin/class-wpvivid-admin.php:146 admin/class-wpvivid-admin.php:160
+#: admin/class-wpvivid-admin.php:1072
+msgid "Backup & Restore"
+msgstr "백업 및 복원"
+
+#. Author URI of the plugin
+#: wpvivid-backuprestore.php
+msgid "https://wpvivid.com"
+msgstr "https://wpvivid.com"
+
+#. Description of the plugin
+#: wpvivid-backuprestore.php
+msgid "Clone or copy WP sites then move or migrate them to new host (new domain), schedule backups, transfer backups to leading remote storage. All in one."
+msgstr "WP 사이트를 복제하거나 복사한 다음 새 호스트(새 도메인)로 이동하거나 마이그레이션하고, 백업을 예약하고, 백업을 주요 원격 저장소로 전송하세요. 올인원."
+
+#. Plugin Name of the plugin
+#: wpvivid-backuprestore.php admin/partials/wpvivid-admin-display.php:47
+#: includes/class-wpvivid-export-import.php:94
+msgid "WPvivid Backup Plugin"
+msgstr "WPvivid Backup 플러그인"

@@ -1,0 +1,297 @@
+# Translation of Plugins - noindex SEO - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - noindex SEO - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-06 06:12:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - noindex SEO - Stable (latest release)\n"
+
+#: noindex-seo.php:528
+msgid "The robots.txt file should not appear in the search results, but there may be the odd case where it does. With this option you can force it not to, although the crawlers will still read it and process it, only they won't show up in the results."
+msgstr "El archivo robots.txt no debería aparecer en los resultados de la búsqueda, pero puede haber algún caso extraño en el que sí aparezca. Con esta opción puede forzarlo a no hacerlo, aunque los rastreadores seguirán leyéndolo y procesándolo, sólo que no aparecerá en los resultados."
+
+#: noindex-seo.php:524 noindex-seo.php:527
+msgid "robots.txt"
+msgstr "robots.txt"
+
+#: noindex-seo.php:518
+msgid "Feeds should not be indexed if they are properly configured, as they are not HTML pages but XML pages. Even so, in case they could somehow be in the results, it will not show them. This will not prevent them from being read by crawlers, only that it does not show them in the results."
+msgstr "Los feeds no deben ser indexados si están correctamente configurados, ya que no son páginas HTML sino páginas XML. Aún así, en caso de que pudieran estar de alguna manera en los resultados, no los mostrará. Esto no impedirá que sean leídos por los rastreadores, sólo que no los mostrará en los resultados."
+
+#: noindex-seo.php:517
+msgid "Feed"
+msgstr "Feed"
+
+#: noindex-seo.php:514
+msgid "Comment feeds should not be indexed if they are properly configured, as they are not HTML pages but XML pages. Even so, in case they could somehow be in the results, it will not show them. This will not prevent them from being read by crawlers, only that it does not show them in the results."
+msgstr "Los feeds de comentarios no deben ser indexados si están correctamente configurados, ya que no son páginas HTML sino páginas XML. Aún así, en caso de que pudieran estar de alguna manera en los resultados, no los mostrará. Esto no impedirá que sean leídos por los rastreadores, sólo que no los mostrará en los resultados."
+
+#: noindex-seo.php:513
+msgid "Comment feed"
+msgstr "Feed de los comentarios"
+
+#: noindex-seo.php:510
+msgid "Feeds (RSS, Atom)"
+msgstr "Feeds (RSS, Atom)"
+
+#: noindex-seo.php:505
+msgid "This will cause an error page to be blocked from being indexed. As it is an error page, it should not be indexed per se, but just in case."
+msgstr "Esto hará que una página de error se bloquee para no ser indexada. Como es una página de error, no debería ser indexada per se, pero por si acaso."
+
+#: noindex-seo.php:504
+msgid "Error 404"
+msgstr "Error 404"
+
+#: noindex-seo.php:501
+msgid "Error Page"
+msgstr "Página de error"
+
+#: noindex-seo.php:497
+msgid "This will block the indexing when a single post is being displayed in draft mode."
+msgstr "Esto bloqueará la indexación cuando se muestre un solo mensaje en modo borrador."
+
+#: noindex-seo.php:496
+msgid "Preview"
+msgstr "Previsualizar"
+
+#: noindex-seo.php:493
+msgid "This will block the indexing when a content is being displayed in customize mode."
+msgstr "Esto bloqueará la indexación cuando se muestre un contenido en el modo de personalización."
+
+#: noindex-seo.php:492
+msgid "Customize Preview"
+msgstr "Personalizar la vista previa"
+
+#: noindex-seo.php:489
+msgid "Previews"
+msgstr "Vistas previas"
+
+#: noindex-seo.php:485
+msgid "This will block the indexing of an attachment document to a post or page. An attachment is an image or other file uploaded through the post editor's upload utility. Attachments can be displayed on their own \"page\" or template. This will not cause the indexing of the image or file to be blocked."
+msgstr "Esto bloqueará la indexación de un documento adjunto a un mensaje o página. Un archivo adjunto es una imagen u otro archivo cargado a través de la utilidad de carga del editor del post. Los archivos adjuntos pueden mostrarse en su propia \"página\" o plantilla. Esto no causará el bloqueo de la indexación de la imagen o el archivo."
+
+#: noindex-seo.php:484
+msgid "Attachment"
+msgstr "Adjunto"
+
+#: noindex-seo.php:481
+msgid "Attachments"
+msgstr "Adjuntos"
+
+#: noindex-seo.php:477
+msgid "This will block the indexing of the internal search result pages."
+msgstr "Esto bloqueará la indexación de las páginas de resultados de búsqueda interna."
+
+#: noindex-seo.php:473 noindex-seo.php:476
+msgid "Search"
+msgstr "Buscar"
+
+#: noindex-seo.php:469
+msgid "This will block the indexing of the pagination, i.e. all pages other than the main page of an archive."
+msgstr "Esto bloqueará la indexación de la paginación, es decir, todas las páginas que no sean la página principal de un archivo."
+
+#: noindex-seo.php:465 noindex-seo.php:468
+msgid "Pagination"
+msgstr "Paginación"
+
+#: noindex-seo.php:461
+msgid "This will block the indexing of any post type page."
+msgstr "Esto bloqueará la indexación de cualquier página de tipo postal."
+
+#: noindex-seo.php:460
+msgid "Post Type Archive"
+msgstr "Archivo del tipo de contenido"
+
+#: noindex-seo.php:457
+msgid "This will block the indexing of the author's page, where the author's publications appear."
+msgstr "Esto bloqueará la indexación de la página del autor, donde aparecen las publicaciones del autor."
+
+#: noindex-seo.php:456
+msgid "Author"
+msgstr "Autor"
+
+#: noindex-seo.php:453
+msgid "This will block the indexing of any type of Archive page. Category, Tag, Author and Date based pages are all types of Archives. The lists where the posts appear."
+msgstr "Esto bloqueará la indexación de cualquier tipo de página de archivo. Las páginas de Categoría, Etiqueta, Autor y Fecha son todos tipos de Archivos. Las listas en las que aparecen las entradas."
+
+#: noindex-seo.php:452
+msgid "Archive"
+msgstr "Archivo"
+
+#: noindex-seo.php:449
+msgid "Archives"
+msgstr "Archivos"
+
+#: noindex-seo.php:445
+msgid "This will block the indexing when a yearly archive of the site. The lists where the posts appear."
+msgstr "Esto bloqueará la indexación cuando un archivo anual del sitio. Las listas donde aparecen las entradas."
+
+#: noindex-seo.php:444
+msgid "Year"
+msgstr "Año"
+
+#: noindex-seo.php:441
+msgid "This will block the indexing when an hourly, \"minutely\", or \"secondly\" archive of the site. The lists where the posts appear."
+msgstr "Esto bloqueará la indexación cuando un archivo de una hora, \"minuto\" o \" segundo\" del sitio. Las listas donde aparecen las entradas."
+
+#: noindex-seo.php:440
+msgid "Time"
+msgstr "Tiempo"
+
+#: noindex-seo.php:437
+msgid "This will block the indexing when a monthly archive of the site. The lists where the posts appear."
+msgstr "Esto bloqueará la indexación cuando un archivo mensual del sitio. Las listas donde aparecen los contenidos."
+
+#: noindex-seo.php:436
+msgid "Month"
+msgstr "Mes"
+
+#: noindex-seo.php:433
+msgid "This will block the indexing when a daily archive of the site. The lists where the posts appear."
+msgstr "Esto bloqueará la indexación cuando un archivo diario del sitio. Las listas donde aparecen los contenidos."
+
+#: noindex-seo.php:432
+msgid "Day"
+msgstr "Día"
+
+#: noindex-seo.php:429
+msgid "This will block the indexing when any date-based archive page (i.e. a monthly, yearly, daily or time-based archive) of the site. The lists where the posts appear."
+msgstr "Esto bloqueará la indexación cuando cualquier página de archivo basada en la fecha (es decir, un archivo mensual, anual, diario o basado en el tiempo) del sitio. Las listas en las que aparecen las publicaciones."
+
+#: noindex-seo.php:428
+msgid "Date"
+msgstr "Fecha"
+
+#: noindex-seo.php:425
+msgid "Dates"
+msgstr "﻿Fechas"
+
+#: noindex-seo.php:421
+msgid "This will block the indexing of the site's tags. The lists where the posts appear."
+msgstr "Esto bloqueará la indexación de las etiquetas del sitio. Las listas donde aparecen los mensajes."
+
+#: noindex-seo.php:420
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: noindex-seo.php:417
+msgid "This will block the indexing of the site categories. The lists where the posts appear."
+msgstr "Esto bloqueará la indexación de las categorías de los sitios. Las listas en las que aparecen las entradas."
+
+#: noindex-seo.php:416
+msgid "Category"
+msgstr "Categoría"
+
+#: noindex-seo.php:413
+msgid "Taxonomies"
+msgstr "Taxonomías"
+
+#: noindex-seo.php:409
+msgid "This will block the indexing of a post or a page of the site."
+msgstr "Esto bloqueará la indexación de una entrada o una página del sitio."
+
+#: noindex-seo.php:408
+msgid "Singular"
+msgstr "Singular"
+
+#: noindex-seo.php:405
+msgid "This will block the indexing of a post on the site."
+msgstr "Esto bloqueará la indexación de una entrada en el sitio."
+
+#: noindex-seo.php:404
+msgid "Single"
+msgstr "Individual"
+
+#: noindex-seo.php:401
+msgid "This will block the indexing of the site's privacy policy page."
+msgstr "Esto bloqueará la indexación de la página de política de privacidad del sitio."
+
+#: noindex-seo.php:400
+msgid "Privacy Policy"
+msgstr "Política de privacidad"
+
+#: noindex-seo.php:397
+msgid "This will block the indexing of the site's pages."
+msgstr "Esto bloqueará la indexación de las páginas del sitio."
+
+#: noindex-seo.php:396
+msgid "Page"
+msgstr "Página"
+
+#: noindex-seo.php:393
+msgid "Pages and Posts"
+msgstr "Páginas y entradas"
+
+#: noindex-seo.php:389
+msgid "This will block the indexing of the site's home page."
+msgstr "Esto bloqueará la indexación de la página de inicio del sitio."
+
+#: noindex-seo.php:388
+msgid "Home"
+msgstr "Inicio"
+
+#: noindex-seo.php:385 noindex-seo.php:389 noindex-seo.php:401
+msgid "View"
+msgstr "Ver"
+
+#: noindex-seo.php:385
+msgid "This will block the indexing of the site's front page."
+msgstr "Esto bloqueará la indexación de la página principal del sitio."
+
+#: noindex-seo.php:385 noindex-seo.php:389 noindex-seo.php:397
+#: noindex-seo.php:401 noindex-seo.php:405 noindex-seo.php:409
+#: noindex-seo.php:417 noindex-seo.php:421 noindex-seo.php:429
+#: noindex-seo.php:433 noindex-seo.php:437 noindex-seo.php:441
+#: noindex-seo.php:445 noindex-seo.php:453 noindex-seo.php:457
+#: noindex-seo.php:461 noindex-seo.php:469 noindex-seo.php:477
+#: noindex-seo.php:485 noindex-seo.php:493 noindex-seo.php:497
+#: noindex-seo.php:505 noindex-seo.php:514 noindex-seo.php:518
+#: noindex-seo.php:528
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: noindex-seo.php:384
+msgid "Front Page"
+msgstr "Página de inicio"
+
+#: noindex-seo.php:381
+msgid "Main pages"
+msgstr "Páginas principales"
+
+#: noindex-seo.php:303
+msgid "Important note: if you have any doubt about any of the following items it is best not to activate the option as you could lose results in the search engines."
+msgstr "Nota importante: Si tienes alguna duda sobre algunos de los siguientes artículos, es mejor no activar la opción, ya que podrías perder los resultados en los buscadores."
+
+#: noindex-seo.php:297
+msgid "noindex SEO Settings"
+msgstr "Ajustes de noindex SEO"
+
+#: noindex-seo.php:256
+msgid "Settings"
+msgstr "Ajustes"
+
+#. Author URI of the plugin
+msgid "https://www.javiercasares.com/"
+msgstr "https://www.javiercasares.com/"
+
+#. Author of the plugin
+msgid "Javier Casares"
+msgstr "Javier Casares"
+
+#. Description of the plugin
+msgid "Allows to add a meta-tag for robots noindex in some parts of your WordPress site."
+msgstr "Te permite añadir las etiquetas meta `noindex` para los robots en algunas partes de tu sitio WordPress."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/noindex-seo/"
+msgstr "https://es.wordpress.org/plugins/noindex-seo/"
+
+#. Plugin Name of the plugin
+#: noindex-seo.php:262
+msgid "noindex SEO"
+msgstr "noindex SEO"

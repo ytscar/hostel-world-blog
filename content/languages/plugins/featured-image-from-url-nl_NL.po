@@ -1,0 +1,2453 @@
+# Translation of Plugins - Featured Image from URL (FIFU) - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Featured Image from URL (FIFU) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-21 19:48:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Featured Image from URL (FIFU) - Stable (latest release)\n"
+
+#: admin/strings.php:1060
+msgid "The sizes listed here are automatically detected by FIFU as you navigate through your site's page types. If you need to reset the size values for any reason, simply browse your pages again or wait for your visitors to do so, and FIFU will detect and list them here once more."
+msgstr "De hier vermelde maten worden automatisch gedetecteerd door FIFU terwijl je door de paginatypes van je site bladert. Als je om welke reden dan ook de maatwaarden opnieuw moet instellen, blader dan gewoon opnieuw door je pagina's of wacht tot je bezoekers dat doen, en FIFU zal ze hier opnieuw detecteren en vermelden."
+
+#: admin/strings.php:1057
+msgid "Registered sizes are predefined dimensions that themes and plugins create to display images, and the FIFU CDN reads these values to deliver remote images in the exact requested size."
+msgstr "Geregistreerde maten zijn vooraf gedefinieerde afmetingen die thema's en plugins creëren om afbeeldingen weer te geven, en de FIFU CDN leest deze waarden om externe afbeeldingen in de exact gevraagde grootte te leveren."
+
+#: admin/strings.php:1033
+msgid "Registered sizes"
+msgstr "Geregistreerde maten"
+
+#: admin/strings.php:491
+msgid "By default, the CDN loads images in the sizes registered by the theme or other plugins. You can adjust them at 'Image → Optimized images → Sizes → Registered sizes'."
+msgstr "Standaard laadt de CDN afbeeldingen in de formaten die zijn geregistreerd door het thema of andere plugins. Je kunt ze aanpassen bij 'Afbeelding → Geoptimaliseerde afbeeldingen → Formaten → Geregistreerde formaten'."
+
+#: admin/strings.php:165
+msgid "Reset"
+msgstr "Reset"
+
+#: admin/strings.php:153
+msgid "Pages"
+msgstr "Pagina's"
+
+#: admin/strings.php:2407
+msgid "Search"
+msgstr "Zoeken"
+
+#: admin/strings.php:2198
+msgid "Filter results"
+msgstr "Filterresultaten"
+
+#: admin/strings.php:1039
+msgid "FIFU CDN"
+msgstr "FIFU CDN"
+
+#: admin/strings.php:821
+msgid "Size"
+msgstr "Grootte"
+
+#: admin/strings.php:1195
+msgid "Batch of categories"
+msgstr "Batch van categorieën"
+
+#: admin/strings.php:1192
+msgid "Batch of products"
+msgstr "Batch van producten"
+
+#: admin/strings.php:1174
+msgid "batch of categories"
+msgstr "batch van categorieën"
+
+#: admin/strings.php:1171
+msgid "batch of products"
+msgstr "batch van producten"
+
+#: admin/strings.php:1132
+msgid "To serve remote images with your site domain, simply create a DNS record for your domain with the following details:"
+msgstr "Om afbeeldingen op afstand te bedienen met het domein van je site, maak je gewoon een DNS-record aan voor je domein met de volgende gegevens:"
+
+#: admin/strings.php:1105
+msgid "Smartly crop images"
+msgstr "Slim afbeeldingen bijsnijden"
+
+#: admin/strings.php:1054
+msgid "use your site's domain"
+msgstr "gebruik het domein van je site"
+
+#: admin/strings.php:1129
+msgid "Due to the costs associated with processing and delivering millions of images daily, this feature is not currently available in the free version of FIFU or on staging sites using the PRO version. However, a small fee may soon be introduced to ensure its sustainability. For PRO users, the FIFU CDN will initially work only on the production site, unless the key has expired."
+msgstr "Vanwege de kosten die gepaard gaan met het verwerken en leveren van miljoenen afbeeldingen per dag, is deze functie momenteel niet beschikbaar in de gratis versie van FIFU of op staging sites die de PRO versie gebruiken. Er kan binnenkort echter een kleine vergoeding worden gevraagd om de duurzaamheid te waarborgen. Voor PRO gebruikers werkt de FIFU CDN in eerste instantie alleen op de productie site, tenzij de sleutel is verlopen."
+
+#: admin/strings.php:1123
+msgid "Provide dedicated technical support"
+msgstr "Speciale technische ondersteuning bieden"
+
+#: admin/strings.php:1120
+msgid "Enable cache purging"
+msgstr "Cache opschonen inschakelen"
+
+#: admin/strings.php:1117
+msgid "Improve regional availability"
+msgstr "Regionale beschikbaarheid verbeteren"
+
+#: admin/strings.php:1114
+msgid "Enhance content replication"
+msgstr "Inhoud repliceren verbeteren"
+
+#: admin/strings.php:1111
+msgid "Optimize image URLs for SEO"
+msgstr "Afbeelding URL's optimaliseren voor SEO"
+
+#: admin/strings.php:1108
+msgid "Expand image processing capabilities"
+msgstr "Afbeelding verwerkings rechten uitbreiden"
+
+#: admin/strings.php:1099
+msgid "Retrieve cached images in under 100ms"
+msgstr "Cache afbeeldingen ophalen in minder dan 100 ms"
+
+#: admin/strings.php:1096
+msgid "Render images in a modern and efficient web format (WebP)"
+msgstr "Afbeeldingen weergeven in een modern en efficiënt web format (WebP)"
+
+#: admin/strings.php:1093
+msgid "Support any image sources"
+msgstr "Ondersteuning van alle afbeelding bronnen"
+
+#: admin/strings.php:1090
+msgid "Serve remote images using your site's domain"
+msgstr "Op afstand afbeeldingen serveren met het domein van je site"
+
+#: admin/strings.php:1087
+msgid "For a long time, optimized images relied solely on a public third-party CDN. While this approach offered cost advantages, it also introduced several challenges. Now, FIFU provides its own CDN, designed to achieve the following goals:"
+msgstr "Lange tijd waren geoptimaliseerde afbeeldingen volledig afhankelijk van een openbare externe CDN. Hoewel deze aanpak kostenvoordelen bood, bracht het ook verschillende uitdagingen met zich mee. Nu biedt FIFU een eigen CDN, ontworpen om de volgende doelen te bereiken:"
+
+#: admin/strings.php:1051
+msgid "optimize images with FIFU CDN"
+msgstr "afbeeldingen optimaliseren met FIFU CDN"
+
+#: admin/strings.php:1027
+msgid "Optimize"
+msgstr "Optimaliseren"
+
+#: admin/strings.php:135
+msgid "Data"
+msgstr "Gegevens"
+
+#: admin/strings.php:132
+msgid "Type"
+msgstr "Type"
+
+#: admin/strings.php:39
+msgid "Please wait 1 minute..."
+msgstr "1 minuut wachten..."
+
+#: admin/strings.php:1889
+msgid "Page redirection (forwarding URL)"
+msgstr "Pagina omleiden (URL doorsturen)"
+
+#: admin/strings.php:1451
+msgid "Set one image for each category. The chosen image will be a random featured image from the products in that category."
+msgstr "Stel een afbeelding in voor elke categorie. De gekozen afbeelding is een willekeurige uitgelichte afbeelding uit de producten in die categorie."
+
+#: admin/strings.php:795
+msgid "Most users will simply add the custom field name, which is expected to contain an image or video URL. However, if all your URLs follow the same pattern, i.e., have the same prefix and suffix, you could add something like this into the field above: https://domain/{custom_field}.webp, where custom_field is some kind of ID instead of a URL."
+msgstr "De meeste gebruikers zullen simpelweg de naam van het aangepaste veld toevoegen, waarvan verwacht wordt dat het een afbeelding of video URL bevat. Maar als al je URL's hetzelfde patroon volgen, d.w.z. dezelfde prefix en suffix hebben, kun je zoiets als dit toevoegen in het veld hierboven: https://domain/{custom_field}.webp, waarbij custom_field een soort ID is in plaats van een URL."
+
+#: admin/strings.php:2296
+msgid "Automatically delete images from the cloud when they are no longer in use on the site, for example, due to a deleted post."
+msgstr "Afbeeldingen automatisch verwijderen uit de cloud als ze niet meer gebruikt worden op de site, bijvoorbeeld door een verwijderd bericht."
+
+#: admin/strings.php:2293
+msgid "Automatic delete"
+msgstr "Automatisch verwijderen"
+
+#: admin/strings.php:2412
+msgid "Update payment method"
+msgstr "Update betaalmethode"
+
+#: admin/strings.php:2306
+msgid "FIFU Cloud charges based on the average number of stored images within each 30-day period. The data below is updated hourly."
+msgstr "FIFU Cloud berekent kosten op basis van het gemiddelde aantal opgeslagen afbeeldingen binnen elke periode van 30 dagen. De gegevens hieronder zijn per uur geüpdatet."
+
+#: admin/strings.php:2253
+msgid "You don't pay for the multiple thumbnails generated for each image."
+msgstr "Je betaalt niet voor de meerdere thumbnails die voor elke afbeelding worden gegenereerd."
+
+#: admin/strings.php:2250
+msgid "€0.001 per image. Payment is based on the daily average of stored images in FIFU Cloud, billed every 30 days."
+msgstr "€ 0,001 per afbeelding. Betaling is gebaseerd op het dagelijks gemiddelde van opgeslagen afbeeldingen in FIFU Cloud, elke 30 dagen gefactureerd."
+
+#: admin/strings.php:1758 admin/strings.php:1816 admin/strings.php:1883
+msgid "ASIN"
+msgstr "ASIN"
+
+#: admin/strings.php:892
+msgid "Default featured image"
+msgstr "Standaard uitgelichte afbeelding"
+
+#: admin/strings.php:787
+msgid "Locale"
+msgstr "Locale"
+
+#: admin/strings.php:784
+msgid "Secret key"
+msgstr "Geheime sleutel"
+
+#: admin/strings.php:781
+msgid "Access key"
+msgstr "Toegang sleutel"
+
+#: admin/strings.php:778
+msgid "Partner tag"
+msgstr "Partner tag"
+
+#: admin/strings.php:775
+msgid "If you already have the ASIN saved in your database, specify its custom field name here. The plugin will access the field and import the value. For example, if the ASIN is saved in the SKU field, you can add \"_sku,\" which is the field where the SKU is stored."
+msgstr "Als je de ASIN al in je database hebt opgeslagen, geef hier dan de naam van het aangepaste veld op. De plugin haalt de waarde uit dat veld en importeert deze. Bijvoorbeeld, als de ASIN is opgeslagen in het SKU veld, kun je \"_sku\" toevoegen, dat is het veld waar de SKU staat."
+
+#: admin/strings.php:772
+msgid "Credentials"
+msgstr "Referenties"
+
+#: admin/strings.php:763
+msgid "Set product images automatically. The plugin checks every minute for post types without images and uses the ASIN and Amazon's Product Advertising API to retrieve the image URLs. For WooCommerce products, the URLs will be saved as the featured image and gallery, while for other post types, the URLs will be saved as a featured slider."
+msgstr "Stel automatisch afbeeldingen van producten in. De plugin controleert elke minuut op berichttypes zonder afbeeldingen en gebruikt de ASIN en Amazon's Product advertising API om de afbeelding URL's op te halen. Voor WooCommerce producten worden de URL's opgeslagen als de uitgelichte afbeelding en galerij, terwijl voor andere berichttypes de URL's worden opgeslagen als een uitgelichte slider."
+
+#: admin/strings.php:318
+msgid "Auto set product images from ASIN"
+msgstr "Automatisch productafbeeldingen van ASIN instellen"
+
+#: admin/strings.php:162
+msgid "Error"
+msgstr "Fout"
+
+#: admin/strings.php:159
+msgid "Saved"
+msgstr "Opgeslagen"
+
+#: admin/strings.php:156
+msgid "Saving"
+msgstr "Aan het opslaan"
+
+#: admin/strings.php:2645
+msgid "Your license key has expired. Please renew or upgrade it to continue receiving updates and support."
+msgstr "Je licentiesleutel is verlopen. Verleng of upgrade deze om ondersteuning en updates te blijven ontvangen."
+
+#: admin/strings.php:1148
+msgid "It also allows the development team to read a few entries in the database that are related to images."
+msgstr "Hiermee kan het ontwikkelteam ook een paar invoergegevens in de database lezen die gerelateerd zijn aan afbeeldingen."
+
+#: admin/strings.php:292
+msgid "Renew or upgrade"
+msgstr "Vernieuwen of upgraden"
+
+#: admin/strings.php:249
+msgid "Please check the key and try again, or contact support for assistance. A valid license key is required for the plugin to work correctly and without limitations."
+msgstr "Controleer de sleutel en probeer het opnieuw, of neem contact op met ondersteuning voor hulp. Een geldige licentiesleutel is vereist om de plugin correct en zonder beperkingen te laten werken."
+
+#: admin/strings.php:246
+msgid "Please renew or upgrade it to continue receiving updates and support."
+msgstr "Vernieuwen of upgraden om updates en ondersteuning te blijven ontvangen."
+
+#: admin/strings.php:243
+msgid "FIFU is now fully activated, and all features are unlocked."
+msgstr "FIFU is nu volledig geactiveerd en alle functies zijn ontgrendeld."
+
+#: admin/strings.php:240
+msgid "Your license key is invalid."
+msgstr "Je licentiesleutel is ongeldig."
+
+#: admin/strings.php:237
+msgid "Your license key has expired."
+msgstr "Je licentiesleutel is verlopen."
+
+#: admin/strings.php:234
+msgid "Your license key was successfully registered."
+msgstr "Je licentiesleutel is succesvol geregistreerd."
+
+#: admin/strings.php:231
+msgid "Test connection with the FIFU server failed. If you are using a firewall, please allow FIFU requests."
+msgstr "Verbinding met de FIFU server is mislukt. Als je een firewall gebruikt, sta dan FIFU aanvragen toe."
+
+#: admin/strings.php:228
+msgid "Test connection with the FIFU server completed successfully."
+msgstr "Verbinding met de FIFU server is succesvol afgerond."
+
+#: admin/strings.php:225
+msgid "Async requests from the FIFU server to your site may be used to split data processing into parts, avoiding execution timeouts on slower tasks and excessive memory usage on larger tasks. They also bypass the lack of a real cron system in WordPress, keeping some automatic features running even when the site is not receiving visitors."
+msgstr "Async aanvragen van de FIFU server naar je site kunnen worden gebruikt om gegevensverwerking in delen op te splitsen, waardoor timeouts bij langzamere taken en overmatig geheugengebruik bij grotere taken worden voorkomen. Ze omzeilen ook het gebrek aan een echt cron systeem in WordPress, waardoor sommige automatische functies blijven draaien, zelfs als de site geen bezoekers ontvangt."
+
+#: admin/strings.php:31
+msgid "License Key Expired"
+msgstr "Licentiesleutel verlopen"
+
+#: admin/strings.php:1906
+msgid "If empty, FIFU will automatically use the post title as alternative text."
+msgstr "Als deze leeg is, gebruikt FIFU automatisch de titel van het bericht als alternatieve tekst."
+
+#: admin/strings.php:1903
+msgid "If empty, FIFU will automatically use the product title as alternative text for every image."
+msgstr "Als deze leeg is, gebruikt FIFU automatisch de titel van het product als alternatieve tekst voor elke afbeelding."
+
+#: admin/strings.php:1741 admin/strings.php:2551 admin/strings.php:2682
+msgid "This field is used to provide alternative text for images, enhancing accessibility and SEO. If it is empty, then FIFU will use the post title automatically."
+msgstr "Dit veld wordt gebruikt om alternatieve tekst voor afbeeldingen op te geven, wat de toegankelijkheid en SEO verbetert. Als het leeg is, gebruikt FIFU automatisch de titel van het bericht."
+
+#: admin/strings.php:1664 admin/strings.php:1729 admin/strings.php:1784
+#: admin/strings.php:2536 admin/strings.php:2670
+msgid "Alternative text"
+msgstr "Alternatieve tekst"
+
+#: admin/strings.php:1230
+msgid "Display form"
+msgstr "Toon formulier"
+
+#: admin/strings.php:1048
+msgid "optimize secondary images"
+msgstr "secundaire afbeeldingen optimaliseren"
+
+#: admin/strings.php:1045
+msgid "optimize featured images"
+msgstr "uitgelichte afbeeldingen optimaliseren"
+
+#: admin/strings.php:941
+msgid "Apply the feature to specific post formats:  "
+msgstr "Pas de functie toe op een specifiek bericht formats:  "
+
+#: admin/strings.php:921
+msgid "remove duplicated media"
+msgstr "verwijderen dubbele media"
+
+#: admin/strings.php:918
+msgid "add missing media"
+msgstr "ontbrekende media toevoegen"
+
+#: admin/strings.php:482
+msgid "Contact us. If you are available to discuss the details, we should provide an integration. Or contact its developer and ask him to use the functions at 'Developers → FIFU API'."
+msgstr "Neem contact met ons op. Als je beschikbaar bent om de details te bespreken, kunnen we voor een integratie zorgen. Of neem contact op met de ontwikkelaar en vraag hem om de functies te gebruiken bij 'Ontwikkelaars → FIFU API'."
+
+#: admin/strings.php:375
+msgid "Optimized Images"
+msgstr "Geoptimaliseerde afbeeldingen"
+
+#: admin/strings.php:280
+msgid "Audio"
+msgstr "Audio"
+
+#: admin/strings.php:1459
+msgid "FIFU product gallery"
+msgstr "FIFU product galerij"
+
+#: admin/strings.php:990
+msgid "run it for each post, only once, and right now"
+msgstr "uitvoeren voor elk bericht, slechts één keer, en op dit moment"
+
+#: admin/strings.php:973
+msgid "Skip URLs containing these keywords:"
+msgstr "Sla URL's over die deze keywords bevatten:"
+
+#: admin/strings.php:967
+msgid "auto set featured media from post content"
+msgstr "automatisch uitgelichte media instellen vanuit de inhoud van het bericht"
+
+#: admin/strings.php:949
+msgid "Set featured media automatically. The plugin reads the HTML of your post content and uses the first image or video found as the featured media when the post is created or updated."
+msgstr "Stel automatisch uitgelichte media in. De plugin leest de HTML van de inhoud van je bericht en gebruikt de eerste afbeelding of video die wordt gevonden als de uitgelichte media wanneer het bericht wordt gemaakt of geüpdatet."
+
+#: admin/strings.php:924
+msgid "Apply the feature to specific post types:"
+msgstr "Pas de functie toe op specifieke berichttypen:"
+
+#: admin/strings.php:912
+msgid "Modify post content"
+msgstr "Inhoud bericht wijzigen"
+
+#: admin/strings.php:909
+msgid "Post content refers to the main body of text within a post. It comes after the post title and doesn't include the featured media (image or video). However, with this feature, you can add the featured media to the top of the content, which may be useful when the theme doesn't render the featured media on single posts. You can also remove media from the content, which is useful when the same media is defined as the featured media, causing unwanted duplication. These changes are dynamic, happening only on page load, so they won't change the database and can be easily undone."
+msgstr "Inhoud van een bericht verwijst naar het hoofdgedeelte van de tekst in een bericht. Het komt na de titel van het bericht en bevat geen uitgelichte media (afbeelding of video). Met deze functie kun je echter de uitgelichte media toevoegen aan de bovenkant van de inhoud, wat handig kan zijn als het thema de uitgelichte media niet weergeeft op afzonderlijke berichten. Je kunt ook media verwijderen uit de inhoud, wat handig is als dezelfde media is gedefinieerd als de uitgelichte media, waardoor ongewenste duplicatie ontstaat. Deze wijzigingen zijn dynamisch, gebeuren alleen bij het laden van de pagina, dus ze veranderen de database niet en kunnen gemakkelijk ongedaan worden gemaakt."
+
+#: admin/strings.php:829
+msgid "auto set featured media using web page address"
+msgstr "uitgelichte afbeelding automatisch instellen door gebruik van het webpagina adres"
+
+#: admin/strings.php:517
+msgid "It means I'm NOT in your media library."
+msgstr "Het betekent dat ik NIET in je mediabibliotheek ben."
+
+#: admin/strings.php:342
+msgid "Modify Post Content"
+msgstr "Inhoud bericht wijzigen"
+
+#: admin/strings.php:1732
+msgid "iframe URL"
+msgstr "iframe URL"
+
+#: admin/strings.php:1474
+msgid "The lightbox can display custom content instead of an image or video, such as a 360º product view, PDF, Google Map, web page, or any other content that can be rendered through an iframe tag. To set this up, go to the product editor, select a slot in the 'Image gallery,' and fill out both the 'Image URL' and 'iframe URL' fields."
+msgstr "De lightbox kan aangepaste inhoud weergeven in plaats van een afbeelding of video, zoals een 360º productweergave, PDF, Google Maps, webpagina of andere inhoud die kan worden weergegeven via een iframe tag. Om dit in te stellen, ga je naar de producteditor, selecteer je een sleuf in de 'Afbeelding galerij' en vul je zowel de velden 'Afbeelding URL' als 'iframe URL' in."
+
+#: admin/strings.php:1471
+msgid "Custom content"
+msgstr "Aangepaste inhoud"
+
+#: admin/strings.php:1137
+msgid "This feature enables the featured audio field, where you can set the URL of an audio file, such as MP3 or OGG. Player controls will then be added to the remote featured image, allowing visitors to play the audio. You can configure the behavior of the audio using the settings available in the 'Featured Video' tab."
+msgstr "Deze functie maakt het uitgelichte audioveld mogelijk, waar je de URL van een audiobestand kunt instellen, zoals MP3 of OGG. Er wordt dan een speler toegevoegd aan de externe uitgelichte afbeelding, zodat bezoekers de audio kunnen afspelen. Je kunt het gedrag van de audio configureren met behulp van de instellingen die beschikbaar zijn op de tab 'Uitgelichte video'."
+
+#: admin/strings.php:1343
+msgid "Enables the featured image field for taxonomies. It's automatically integrated with the 'Variation Swatches for WooCommerce' plugin. To display the image for taxonomies from different plugins or themes, use a shortcode like this:"
+msgstr "Schakelt het uitgelichte afbeeldingsveld in voor taxonomieën. Het is automatisch geïntegreerd met de 'Variation Swatches for WooCommerce' plugin. Om de afbeelding voor taxonomieën van verschillende plugins of thema's weer te geven, gebruik een shortcode zoals deze:"
+
+#: admin/strings.php:315
+msgid "Auto set featured image from ISBN"
+msgstr "Automatisch instellen van uitgelichte afbeelding van ISBN"
+
+#: admin/strings.php:1648 admin/strings.php:2029 admin/strings.php:2067
+#: admin/strings.php:2354
+msgid "Unlock all PRO features for €29.90"
+msgstr "Ontgrendel alle PRO-functies voor € 29,90"
+
+#: admin/strings.php:476
+msgid "Low-resolution or unduly cropped images"
+msgstr "Afbeeldingen met een lage resolutie of onnodig bijgesneden afbeeldingen"
+
+#: admin/strings.php:2463
+msgid "The developer will respond within 8 hours."
+msgstr "De ontwikkelaar zal binnen 8 uur reageren."
+
+#: admin/strings.php:1145
+msgid "When FIFU is in debug mode, JavaScript and CSS files are not cached."
+msgstr "Wanneer FIFU in debug modus staat, worden JavaScript en CSS bestanden niet in de cache geplaatst."
+
+#: admin/strings.php:812
+msgid "If you have the web page address saved in your database, please specify its custom field name here. The plugin will access the field, generate the screenshot URL, and set that as the featured image automatically."
+msgstr "Als je het webpagina adres in je database hebt opgeslagen, geef hier dan de naam van het aangepaste veld op. De plugin haalt het veld op, genereert de schermafbeelding URL en stelt die automatisch in als de uitgelichte afbeelding."
+
+#: admin/strings.php:372
+msgid "Debug Mode"
+msgstr "Debug modus"
+
+#: admin/strings.php:1404
+msgid "Video autoplay based on viewport. Requires \"Mute\"."
+msgstr "Video automatisch afspelen op basis van zichtbaarheid. Vereist \"Geluid uit\"."
+
+#: admin/strings.php:488
+msgid "Possibilities: a) CDN can't serve it; b) image deleted by owner; c) hotlink protection; d) incorrect URL. For (a), disable 'Image → Optimized images' temporarily and contact us. For (b) or (c), try FIFU Cloud."
+msgstr "Mogelijkheden: a) CDN kan het niet serveren; b) afbeelding verwijderd door eigenaar; c) hotlink bescherming; d) onjuiste URL. Voor (a), schakel 'Afbeelding → Geoptimaliseerde afbeeldingen' tijdelijk uit en neem contact met ons op. Voor (b) of (c), probeer FIFU Cloud."
+
+#: admin/strings.php:1254
+msgid "Displays the taxonomy image"
+msgstr "Toont de taxonomie afbeelding"
+
+#: admin/strings.php:390
+msgid "Taxonomy Image"
+msgstr "Taxonomie afbeelding"
+
+#: admin/strings.php:1894
+msgid "By default, FIFU uses | as the URL delimiter. You can define a different value in the 'List delimiter' field."
+msgstr "Standaard gebruikt FIFU | als de URL scheidingsteken. Je kunt een andere waarde definiëren in het veld 'Lijst scheidingsteken'."
+
+#: admin/strings.php:1468
+msgid "Variantions images in the main gallery"
+msgstr "Varianten afbeeldingen in de hoofd galerij"
+
+#: admin/strings.php:1399
+msgid "Play a video on \"mouseover\" and pause on \"mouseout\". Requires \"Video Controls\" (except for video files) and \"Mute\"."
+msgstr "Speel een video af bij \"mouseover\" en pauzeer bij \"mouseout\". Vereist \"Video besturing\" (behalve voor videobestanden) en \"Dempen\"."
+
+#: admin/strings.php:202 admin/strings.php:208 admin/strings.php:211
+msgid "YouTube, Vimeo, local videos, remote video files"
+msgstr "YouTube, Vimeo, lokale video's, externe videobestanden"
+
+#: admin/strings.php:205
+msgid "YouTube, Vimeo, Odysee, Rumble, local videos, remote video files"
+msgstr "YouTube, Vimeo, Odysee, Rumble, lokale video's, externe videobestanden"
+
+#: admin/strings.php:93
+msgid "size"
+msgstr "maat"
+
+#: admin/strings.php:2438
+msgid "During the 2 years that FIFU Cloud has been operating, we have learned a lot and received valuable feedback from our users, allowing us to now develop a much better product. The new FIFU Cloud will be much easier to use, will give you full access to the image server, provide friendly titles to image files, and, most importantly, will be capable of storing and delivering tens of thousands of optimized images at an extremely low price, as the infrastructure will be based on free internet services. If you are already a user, you can continue using the current version of FIFU Cloud normally until the migration, when we will get in touch. And if you are not yet a user but are interested in the service, please send an email to cloud@fifu.app with the subject 'WAITLIST.' The project is expected to be completed in a few months."
+msgstr "In de 2 jaar dat FIFU Cloud actief is, hebben we veel geleerd en waardevolle feedback gekregen van onze gebruikers, waardoor we nu een veel beter product kunnen ontwikkelen. De nieuwe FIFU Cloud zal veel gebruiksvriendelijker zijn, je volledige toegang geven tot de afbeelding server, vriendelijke titels geven aan afbeelding bestanden en, het allerbelangrijkste, mogelijkheden bieden om tienduizenden geoptimaliseerde afbeeldingen op te slaan en te leveren tegen een extreem lage prijs, omdat de infrastructuur gebaseerd zal zijn op gratis internet diensten. Als je al gebruiker bent, kun je de huidige versie van FIFU Cloud normaal blijven gebruiken tot de migratie, waarna we contact met je zullen opnemen. En als je nog geen gebruiker bent, maar wel geïnteresseerd in de dienst, stuur dan een e-mail naar cloud@fifu.app met als onderwerp 'WAITLIST'. Het project zal naar verwachting over een paar maanden zijn afgerond."
+
+#: admin/strings.php:2435
+msgid "Please wait, a much better FIFU Cloud is coming..."
+msgstr "Wacht even, er komt een veel betere FIFU Cloud aan..."
+
+#: admin/strings.php:2642
+msgid "Please submit your activation key to use the plugin without limitations."
+msgstr "Stuur je activeringssleutel in om de plugin zonder beperkingen te gebruiken."
+
+#: admin/strings.php:792
+msgid "Set featured media automatically. The plugin checks every minute for post types without featured images or videos and performs searches on the informed custom fields to retrieve the URLs. With that, you can integrate FIFU with any third-party plugin or theme that stores URLs in the database."
+msgstr "Stel uitgelichte media automatisch in. De plugin controleert elke minuut op berichttypen zonder uitgelichte afbeeldingen of video's en voert zoekopdrachten uit op de opgegeven aangepaste velden om de URL's op te halen. Daarmee kun je FIFU integreren met elke externe plugin of thema dat URL's in de database opslaat."
+
+#: admin/strings.php:321
+msgid "Auto set featured media from custom field"
+msgstr "Automatisch uitgelichte afbeelding instellen vanuit aangepast veld"
+
+#: admin/strings.php:686
+msgid "Don't restrict the search too much. Because depending on the post title and the filters applied, the search engine might return an image that's not very relevant, or even no image. A quick and easy way to test if the search engine has relevant images for the applied filters is by accessing the post editor or FIFU quick editor and performing a search with the 'Keywords' field empty. A list of the top images based on the post's title will be displayed."
+msgstr "Beperk de zoekopdracht niet te veel. Want afhankelijk van de berichttitel en de toegepaste filters kan het zijn dat de zoekmachine een afbeelding teruggeeft die niet erg relevant is, of zelfs helemaal geen afbeelding. Een snelle en makkelijke manier om te testen of de zoekmachine relevante afbeeldingen heeft voor de toegepaste filters, is door naar de berichteditor of FIFU quick editor te gaan en een zoekopdracht uit te voeren met het veld 'keywords' leeg. Er wordt dan een lijst met de beste afbeeldingen op basis van de titel van het bericht getoond."
+
+#: admin/strings.php:129 admin/strings.php:1988
+msgid "Name"
+msgstr "Naam"
+
+#: admin/strings.php:1985
+msgid "Variations"
+msgstr "Variaties"
+
+#: admin/strings.php:1422
+msgid "background video"
+msgstr "achtergrond video"
+
+#: admin/strings.php:1414
+msgid "Start videos without audio."
+msgstr "Start video's zonder geluid."
+
+#: admin/strings.php:1409
+msgid "Looping video playback."
+msgstr "Video's in loops afspelen."
+
+#: admin/strings.php:217
+msgid "YouTube"
+msgstr "YouTube"
+
+#: admin/strings.php:214
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: admin/strings.php:199
+msgid "Available for"
+msgstr "Beschikbaar voor"
+
+#: admin/strings.php:2076
+msgid "You should also set a featured image. It will be used as the video thumbnail."
+msgstr "Je moet ook een uitgelichte afbeelding instellen. Deze wordt gebruikt als thumbnail afbeelding van de video."
+
+#: admin/strings.php:2058
+msgid "Loads a list of images from Unsplash. Choose the image that is most suitable. The filters configured in 'FIFU Settings → Automatic → Auto set featured image from Unsplash using tags' works here."
+msgstr "Laadt een lijst met afbeeldingen van Unsplash. Kies de afbeelding die het meest geschikt is. De filters die zijn geconfigureerd in 'FIFU instellingen → automatisch → automatisch instellen uitgelichte afbeelding van Unsplash met tags' werken hier."
+
+#: admin/strings.php:1441
+msgid "move to left"
+msgstr "verplaats naar links"
+
+#: admin/strings.php:1438
+msgid "watch later and queue buttons"
+msgstr "later kijken en wachtrij knoppen"
+
+#: admin/strings.php:1363
+msgid "When using import plugins, add the URL of the thumbnail after the video URL, separated by a backslash. For example: 'video_url\\image_url'."
+msgstr "Als je import plugins gebruikt, voeg dan de URL van de thumbnail toe na de video URL, gescheiden door een backslash. Bijvoorbeeld: 'video_url\\image_url'."
+
+#: admin/strings.php:864
+msgid "Portrait"
+msgstr "Portret"
+
+#: admin/strings.php:861
+msgid "Landscape"
+msgstr "Landschap"
+
+#: admin/strings.php:740
+msgid "Wide"
+msgstr "Breed"
+
+#: admin/strings.php:737
+msgid "Tall"
+msgstr "Groot"
+
+#: admin/strings.php:734
+msgid "Square"
+msgstr "Vierkant"
+
+#: admin/strings.php:731 admin/strings.php:858 admin/strings.php:982
+msgid "All"
+msgstr "Alle"
+
+#: admin/strings.php:185
+msgid "elsewhere"
+msgstr "elders"
+
+#: admin/strings.php:2061
+msgid "Loads a list of images from a search engine based on the post's title. Choose the most suitable image. The filters configured in 'FIFU Settings → Automatic → Auto set featured image using post title and search engine' works here."
+msgstr "Laadt een lijst met afbeeldingen van een zoekmachine op basis van de titel van het bericht. Kies de geschiktste afbeelding. De filters die zijn ingesteld in 'FIFU instellingen → Automatisch → automatisch uitgelichte afbeelding instellen op basis van berichttitel en zoekmachine' werken hier."
+
+#: admin/strings.php:2055
+msgid "Loads the corresponding image. You should use an absolute URL, which means including the protocol (http/https) and the domain."
+msgstr "Laadt de bijbehorende afbeelding. Je moet een absolute URL gebruiken, dus inclusief het protocol (http/https) en het domein."
+
+#: admin/strings.php:2046
+msgid "Empty"
+msgstr "Leeg"
+
+#: admin/strings.php:1425
+msgid "on single post types only"
+msgstr "alleen op enkele berichten"
+
+#: admin/strings.php:2396
+msgid "Date"
+msgstr "Datum"
+
+#: admin/strings.php:2381
+msgid "Post ID"
+msgstr "Bericht ID"
+
+#: admin/strings.php:2364
+msgid "Please enter your email"
+msgstr "Voer je e-mailadres in"
+
+#: admin/strings.php:2349
+msgid "Enter your email"
+msgstr "Voer je e-mail in"
+
+#: admin/strings.php:2346
+msgid "Site"
+msgstr "Site"
+
+#: admin/strings.php:2338
+msgid "To select multiple non-adjacent images, click the first image, press the <b>CTRL</b> key, and click each desired image."
+msgstr "Om meerdere niet aangrenzende afbeeldingen te selecteren, klik je op de eerste afbeelding, druk je op de <b>CTRL</b> toets en klik je op elke gewenste afbeelding."
+
+#: admin/strings.php:2335
+msgid "To select multiple images adjacent to each other, click the first image, press <b>SHIFT</b> and click the last image."
+msgstr "Om meerdere afbeeldingen naast elkaar te selecteren, klik op de eerste afbeelding, houd <b>SHIFT</b> ingedrukt en klik op de laatste afbeelding."
+
+#: admin/strings.php:2301
+msgid "Before uploading local images to the cloud, you should copy their URLs to FIFU custom fields by clicking the \"link\" button. Have a database backup as post metadata will be replaced, making this plugin responsible for displaying images. Do not delete images from the media library until ensuring they were saved in the cloud."
+msgstr "Voordat je lokale afbeeldingen uploadt naar de cloud, moet je hun URL's kopiëren naar FIFU aangepaste velden door op de \"link\" knop te klikken. Maak een back-up van de database omdat de metadata van de berichten worden vervangen, waardoor deze plugin verantwoordelijk wordt voor het weergeven van afbeeldingen. Verwijder geen afbeeldingen uit de mediabibliotheek totdat je zeker weet dat ze zijn opgeslagen in de cloud."
+
+#: admin/strings.php:2285
+msgid "Automatically uploads remote images to the cloud."
+msgstr "Uploadt automatisch externe afbeeldingen naar de cloud."
+
+#: admin/strings.php:2279
+msgid "Costs start from the upload date."
+msgstr "De kosten beginnen vanaf de uploaddatum."
+
+#: admin/strings.php:2242
+msgid "Protecting your website's content, including text and image URLs, from unauthorized access and extraction by bots can be a challenging task. Once this data is obtained, it can be replicated elsewhere, diverting the rightful visitors to other platforms. Fortunately, FIFU Cloud offers a solution with hotlink protection. This feature restricts other websites (excluding social media platforms) from displaying your images. While it may not completely solve the problem, it significantly hinders the unauthorized usage of your content, as posts with blocked images are less appealing to those attempting to extract information."
+msgstr "Het beschermen van de inhoud van je site, inclusief tekst en afbeelding URL's, tegen ongeautoriseerde toegang en extractie door bots kan een uitdagende taak zijn. Als deze gegevens eenmaal zijn verkregen, kunnen ze elders worden gerepliceerd, waardoor de rechtmatige bezoekers worden omgeleid naar andere platforms. Gelukkig biedt FIFU Cloud een oplossing met hotlink beveiliging. Deze functie zorgt ervoor dat andere sites (met uitzondering van sociale mediaplatforms) je afbeeldingen niet kunnen weergeven. Hoewel dit het probleem misschien niet helemaal oplost, wordt het ongeautoriseerd gebruik van je inhoud aanzienlijk belemmerd, omdat berichten met geblokkeerde afbeeldingen minder aantrekkelijk zijn voor degenen die informatie proberen te ontfutselen."
+
+#: admin/strings.php:2239
+msgid "WordPress themes and social media platforms often crop the central area of images, which can be problematic as the main object is often not centered. For example, Facebook, Twitter, and LinkedIn display featured images at ~1200×630 pixels in landscape orientation. However, sharing a full-body portrait photo may result in the cropped person losing their head and feet. FIFU Cloud, on the other hand, utilizes face and object detection to intelligently crop images, showcasing what truly matters without compromising style or information."
+msgstr "WordPress thema's en sociale media platforms snijden vaak het centrale deel van afbeeldingen bij, wat lastig kan zijn omdat het hoofdobject vaak niet in het midden staat. Facebook, Twitter en LinkedIn tonen bijvoorbeeld uitgelichte afbeeldingen op ongeveer 1200×630 pixels in liggende oriëntatie. Maar als je een portretfoto van een volledig lichaam deelt, kan het zijn dat het hoofd en de voeten van de persoon worden afgesneden. FIFU Cloud gebruikt daarentegen gezichts- en objectherkenning om afbeeldingen slim bij te snijden, zodat het belangrijkste goed zichtbaar blijft zonder stijl of informatie te verliezen."
+
+#: admin/strings.php:2236
+msgid "Similar cloud services often charge based on the number of accesses to images or sell static plans where you pay for the allocated storage, even if it remains unused. However, FIFU Cloud takes a different approach. It only charges for the daily average of stored images over a 30-day period, excluding thumbnails from the billing. Let's consider an example: on the first day, you stored 1000 images; ten days later, you deleted all of them; and then, ten days after that, you added 1100 images, which were stored for ten days. Thus, the average usage over the 30-day period would be 700 images per day, and you will only be charged for that amount. If there are no changes in the next period, the average would be 1100, resulting in an increased cost. However, if you remove all the images in the subsequent period, there will be no charge incurred."
+msgstr "Vergelijkbare clouddiensten brengen vaak kosten in rekening op basis van het aantal afbeeldingen of verkopen statische abonnementen waarbij je betaalt voor de toegewezen opslagruimte, zelfs als deze ongebruikt blijft. FIFU Cloud hanteert echter een andere aanpak. Het berekent alleen kosten voor het dagelijkse gemiddelde van opgeslagen afbeeldingen over een periode van 30 dagen, waarbij thumbnails niet in rekening worden gebracht. Laten we een voorbeeld nemen: op de eerste dag sloeg je 1000 afbeeldingen op; tien dagen later verwijderde je ze allemaal; en tien dagen daarna voegde je 1100 afbeeldingen toe, die tien dagen werden opgeslagen. Het gemiddelde gebruik over de periode van 30 dagen is dus 700 afbeeldingen per dag en je wordt alleen voor dat bedrag afgerekend. Als er in de volgende periode geen veranderingen zijn, wordt het gemiddelde 1100, wat resulteert in hogere kosten. Als je echter alle afbeeldingen in de volgende periode verwijdert, worden er geen kosten in rekening gebracht."
+
+#: admin/strings.php:2233
+msgid "Your website was not designed for image processing. However, when you save an image in the media library, the WordPress core, along with your theme and plugins, initiate multiple tasks to process the image locally. These tasks include conversions, duplications, rotations, resizing, cropping, compression, and more. Depending on the number of images, this process can take weeks, and eventually, the website needs to repeat the entire process again. This consumes significant storage, memory, and processing power, which can result in slow website performance for users. In contrast, FIFU Cloud eliminates the need to use your own computing resources. We process your images entirely on Google Cloud servers. By leveraging the power of the cloud, we can efficiently process and store thousands of images simultaneously within seconds."
+msgstr "Je site is niet ontworpen voor het verwerken van afbeeldingen. Wanneer je echter een afbeelding opslaat in de mediabibliotheek, start de WordPress core, samen met je thema en plugins, meerdere taken om de afbeelding lokaal te verwerken. Deze taken omvatten conversies, duplicaties, rotaties, format wijzigen, bijsnijden, compressie en meer. Afhankelijk van het aantal afbeeldingen kan dit proces weken duren en uiteindelijk moet de site het hele proces opnieuw herhalen. Dit verbruikt veel opslag, geheugen en rekenkracht, wat kan resulteren in trage siteprestaties voor gebruikers. Met FIFU Cloud is het daarentegen niet meer nodig om je eigen gegevensbronnen te gebruiken. We verwerken je afbeeldingen volledig op Google Cloud servers. Door gebruik te maken van de kracht van de cloud kunnen we binnen enkele seconden duizenden afbeeldingen tegelijk efficiënt verwerken en opslaan."
+
+#: admin/strings.php:2230
+msgid "One major drawback of embedding remote images on your website is the lack of thumbnails. Without thumbnails, your website loads the same large image file regardless of whether it's viewed on desktop or mobile phone, on a post or homepage. Additionally, there are instances where the image may not be optimized or hosted on a slow server. FIFU Cloud addresses all these concerns by storing and serving optimized thumbnails through a fast content delivery network (CDN). This means that when visitors access your pages, they receive only the smallest image files required to display the images without any loss in quality. The smaller the file size, the faster the images are rendered, resulting in improved loading times for your website."
+msgstr "Een groot nadeel van het insluiten van externe afbeeldingen op je site is het ontbreken van thumbnails. Zonder thumbnails laad je site hetzelfde grote afbeeldingenbestand, ongeacht of het wordt bekeken op desktop, mobiele telefoon, in een bericht of op de homepage. Daarnaast kan het voorkomen dat de afbeelding niet geoptimaliseerd is of gehost wordt op een trage server. FIFU Cloud pakt al deze problemen aan door geoptimaliseerde thumbnails op te slaan en te serveren via een snel inhoud delivery network (CDN). Dit betekent dat wanneer bezoekers je pagina's bezoeken, ze alleen de kleinste afbeeldingenbestanden ontvangen die nodig zijn om de afbeeldingen weer te geven, zonder kwaliteitsverlies. Hoe kleiner de bestandsgrootte, hoe sneller de afbeeldingen worden gerenderd, wat resulteert in betere laadtijden voor je site."
+
+#: admin/strings.php:2227
+msgid "Image sources sometimes remove or change the URLs of their images, either due to internal restructuring or to prevent their embedding on other websites. This can cause significant problems for websites that had previously embedded these images, as they become lost and cannot be retrieved. However, FIFU Cloud offers a solution to this issue. It saves your embedded images in the cloud and provides stable URLs to access them. By replacing the existing URLs with FIFU Cloud URLs, you eliminate the problem. Additionally, if needed, you have the option to revert back to the original URLs."
+msgstr "Bronnen van afbeeldingen verwijderen of wijzigen soms de URL's van hun afbeeldingen, hetzij als gevolg van interne herstructurering of om te voorkomen dat ze op andere sites worden ingesloten. Dit kan grote problemen veroorzaken voor sites die deze afbeeldingen eerder hadden ingesloten, omdat ze verloren gaan en niet meer kunnen worden teruggehaald. FIFU cloud biedt echter een oplossing voor dit probleem. Het slaat je ingesloten afbeeldingen op in de cloud en biedt stabiele URL's om ze te openen. Door de bestaande URL's te vervangen door FIFU cloud URL's, elimineer je het probleem. Bovendien heb je, indien nodig, de optie om terug te keren naar de originele URL's."
+
+#: admin/strings.php:2221
+msgid "Smart cropping"
+msgstr "Slim bijsnijden"
+
+#: admin/strings.php:2206
+msgid "FIFU Cloud is a cloud-based service that securely stores your images within the robust infrastructure of Google Cloud. Not only does FIFU Cloud ensure image preservation, but it also optimizes and rapidly delivers them through Google's global Edge Network. Additionally, FIFU Cloud automatically generates thumbnails for each image and serves them in the efficient webp format, enhancing the overall performance of your website."
+msgstr "FIFU Cloud is een cloudgebaseerde dienst die je afbeeldingen veilig opslaat binnen de robuuste infrastructuur van Google Cloud. FIFU Cloud zorgt niet alleen voor het behoud van afbeeldingen, maar optimaliseert en levert ze ook snel via het wereldwijde Edge Network van Google. Bovendien genereert FIFU Cloud automatisch thumbnails voor elke afbeelding en serveert ze in het efficiënte webp format, waardoor de algehele prestaties van je site verbeteren."
+
+#: admin/strings.php:2195
+msgid "featured media"
+msgstr "uitgelichte media"
+
+#: admin/strings.php:2096
+msgid "Payment and billing information"
+msgstr "Betalings- en factureringsinformatie"
+
+#: admin/strings.php:2064
+msgid "FIFU can auto set images based on post title, tags, remote web page address, and more. Check FIFU Settings → Automatic."
+msgstr "FIFU kan automatisch afbeeldingen instellen op basis van onder andere het bericht titel, tags en het adres van een externe webpagina. Controleer FIFU Instellingen → Automatisch."
+
+#: admin/strings.php:1999
+msgid "Set featured video with URL"
+msgstr "Stel uitgelichte video in met URL"
+
+#: admin/strings.php:1996
+msgid "Set featured image with URL"
+msgstr "Stel uitgelichte afbeelding in met URL"
+
+#: admin/strings.php:1897
+msgid "Default is '|'"
+msgstr "Standaard is '|'"
+
+#: admin/strings.php:1836
+msgid "Powered by FIFU plugin"
+msgstr "Aangedreven door FIFU plugin"
+
+#: admin/strings.php:1775
+msgid "Please wait..."
+msgstr "Even wachten..."
+
+#: admin/strings.php:1679
+msgid "Set frame as thumbnail"
+msgstr "Stel frame in als thumbnail"
+
+#: admin/strings.php:1548
+msgid "Importing variable products"
+msgstr "Importeren van variabele producten"
+
+#: admin/strings.php:1489
+msgid "Use FIFU with the import tool from WooCommerce."
+msgstr "Gebruik FIFU met het import gereedschap van WooCommerce."
+
+#: admin/strings.php:1419
+msgid "Start videos in the background, meaning autoplay with no controls and no sound."
+msgstr "Start de video's op de achtergrond, wat betekent automatisch afspelen, geen bedieningselementen en geen geluid."
+
+#: admin/strings.php:1390
+msgid "Define a minimum width for a container to display a video. If the minimum width is not reached, the plugin automatically shows only the video thumbnail."
+msgstr "Stel een minimale breedte in voor een container om een video te tonen. Als de minimale breedte niet wordt bereikt, laat de plugin automatisch alleen de video thumbnail zien."
+
+#: admin/strings.php:1382
+msgid "Add a play button to the video thumbnail. When clicking on the button, the video will start (in inline or lightbox mode)."
+msgstr "Voeg een afspeelknop toe aan de video thumbnail. Als je op de knop klikt, start de video (in inline of lightbox modus)."
+
+#: admin/strings.php:1338
+msgid "Enable the addition of featured images to forums, topics, and replies."
+msgstr "De toevoeging van uitgelichte afbeeldingen aan forums, onderwerpen en reacties inschakelen."
+
+#: admin/strings.php:1304
+msgid "Previous button"
+msgstr "Vorige knop"
+
+#: admin/strings.php:1277
+msgid "Start autoplay automatically"
+msgstr "Automatisch starten van automatisch afspelen"
+
+#: admin/strings.php:1274
+msgid "Show previous/next buttons"
+msgstr "Toon vorige/volgende knoppen"
+
+#: admin/strings.php:1262
+msgid "This feature allows to have a slider of images and videos instead of a regular featured image. It is particularly useful for certain types of websites, such as real estate, and can handle a large number of high-resolution images with optimal performance."
+msgstr "Met deze functie kun je een slider met afbeeldingen en video's gebruiken in plaats van een gewone uitgelichte afbeelding. Dit is vooral handig voor bepaalde soorten sites, zoals vastgoed, en kan een groot aantal afbeeldingen met hoge resolutie aan met optimale prestaties."
+
+#: admin/strings.php:1177 admin/strings.php:1198
+msgid "WordPress post"
+msgstr "WordPress bericht"
+
+#: admin/strings.php:1042
+msgid "Your remote images will be automatically optimized and served from a public CDN. In addition, the plugin will load the thumbnails in the exact size your site requires, further enhancing performance."
+msgstr "Je externe afbeeldingen worden automatisch geoptimaliseerd en geserveerd vanaf een gratis CDN. Bovendien laadt de plugin de thumbnails in de exacte grootte die je site nodig heeft, wat de prestaties nog verder verbetert."
+
+#: admin/strings.php:1016
+msgid "by default, this plugin doesn't save images in the media library. Enabling this toggle will remove all featured images from post types that have remote featured images, and this action cannot be undone. This also applies to FIFU galleries, videos, audios, and sliders."
+msgstr "standaard slaat deze plugin geen afbeeldingen op in de mediabibliotheek. Als je deze toggle inschakelt, worden alle uitgelichte afbeeldingen verwijderd van berichttypen die externe uitgelichte afbeeldingen hebben, en deze actie kan niet ongedaan worden gemaakt. Dit geldt ook voor FIFU galerijen, video's, audio's en sliders."
+
+#: admin/strings.php:995
+msgid "Generate the necessary database records for WordPress components to work with remote images."
+msgstr "Genereer de benodigde database records voor WordPress componenten om met externe afbeeldingen te werken."
+
+#: admin/strings.php:938
+msgid "Filter by post format"
+msgstr "Filter op berichtformat"
+
+#: admin/strings.php:849
+msgid "Set images from Unsplash as featured images automatically. The plugin checks every minute for post types without featured images and performs searches on Unsplash based on the tags to retrieve the image URLs."
+msgstr "Stel afbeeldingen van Unsplash automatisch in als aanbevolen afbeeldingen. De plugin controleert elke minuut of er berichttypen zijn zonder aanbevolen afbeeldingen en voert Unsplash zoekopdrachten uit op basis van de tags om de afbeeldingen URL's te krijgen."
+
+#: admin/strings.php:826
+msgid "Automatically defines featured media using images found on remote web pages. The plugin checks every minute for post types without featured media and accesses the provided web page URLs to retrieve the main image. FIFU looks for the Open Graph tag image (used for sharing on social media). If og:image is not found, it retrieves the largest image available. It can also search for embedded videos and set the first one found as the featured video. Videos take priority over images."
+msgstr "Definieert automatisch uitgelichte media met behulp van afbeeldingen op externe webpagina's. De plugin controleert elke minuut op berichttypes zonder uitgelichte media en opent de URL's van de opgegeven webpagina's om de hoofdafbeelding op te halen. FIFU zoekt naar de Open Graph tag afbeelding (gebruikt voor delen op sociale media). Als og:image niet wordt gevonden, wordt de grootste beschikbare afbeelding opgehaald. Het kan ook zoeken naar ingesloten video's en de eerste gevonden video instellen als de hoofdvideo. Video's hebben voorrang op afbeeldingen."
+
+#: admin/strings.php:728
+msgid "Limit the search to one or more specific sites."
+msgstr "Beperk het zoeken tot één of meer specifieke sites."
+
+#: admin/strings.php:719
+msgid "List of prohibited strings in the image URL:"
+msgstr "Lijst met verboden strings in de URL van de afbeelding:"
+
+#: admin/strings.php:678
+msgid "Only save images from specific domains."
+msgstr "Alleen afbeeldingen opslaan van specifieke domeinen."
+
+#: admin/strings.php:666
+msgid "Proxies are utilized to bypass IP bans that can occur when your site downloads a large number of images from the same host. However, using proxies has certain disadvantages. A proxy can impose limitations on the number of requests, and its IP address may also get banned. In such cases, the plugin will attempt to find alternative proxies until it discovers a functional one. Consequently, the use of proxies can potentially slow down the process, unless you have access to a private proxy. By default, FIFU plugin incorporates a list of public proxies that are updated every 30 minutes. The plugin also caches the proxies that are working correctly with your image URLs."
+msgstr "Proxy's worden gebruikt om IP verboden te omzeilen die kunnen optreden wanneer je site een groot aantal afbeeldingen downloadt van dezelfde host. Het gebruik van proxy's heeft echter bepaalde nadelen. Een proxy kan beperkingen opleggen aan het aantal aanvragen, en zijn IP-adres kan ook verbannen worden. In zulke gevallen zal de plugin proberen om alternatieve proxy's te vinden totdat het een functionele proxy vindt. Bijgevolg kan het gebruik van proxy's het proces vertragen, tenzij je toegang hebt tot een privé proxy. Standaard bevat de FIFU plugin een lijst van publieke proxy's die elke 30 minuten worden geüpdatet. De plugin slaat ook de proxy's op die correct werken met je afbeelding URL's."
+
+#: admin/strings.php:654
+msgid "run a function that periodically searches for remote images and saves them in the media library."
+msgstr "een functie uitvoeren die periodiek zoekt naar externe afbeeldingen en deze opslaat in de mediabibliotheek."
+
+#: admin/strings.php:648
+msgid "It's possible to save remote images in the media library and automatically set them as featured images or gallery images. Make a backup before running the scheduled event, as making an image local cannot be reverted."
+msgstr "Het is mogelijk om externe afbeeldingen op te slaan in de mediabibliotheek en ze automatisch in te stellen als uitgelichte afbeelding of galerijafbeeldingen. Maak een back-up voordat je het geplande evenement uitvoert, want een afbeelding lokaal maken kan niet ongedaan worden gemaakt."
+
+#: admin/strings.php:640
+msgid "Reset FIFU settings to the default values."
+msgstr "Reset FIFU instellingen naar de standaardwaarden."
+
+#: admin/strings.php:564
+msgid "All you need is to provide the post ID and the image URL. FIFU plugin will handle the rest by setting the custom fields and creating the metadata."
+msgstr "Alles wat je hoeft te doen is de bericht ID en de afbeelding URL opgeven. De FIFU plugin regelt de rest door de aangepaste velden in te stellen en de metagegevens aan te maken."
+
+#: admin/strings.php:509
+msgid "If you're using a performance plugin, clearing the cache may help. This ensures that backend changes propagate effectively to the frontend."
+msgstr "Als je een prestatie plugin gebruikt, kan het helpen om de cache te wissen. Dit zorgt ervoor dat wijzigingen in de back-end effectief worden doorgegeven aan de frontend."
+
+#: admin/strings.php:506
+msgid "This plugin doesn't save images to the media library unless you're using the 'Image → Save in the media library' feature. So, another plugin or your theme may be causing this."
+msgstr "Deze plugin slaat geen afbeeldingen op in de mediabibliotheek tenzij je de functie 'Afbeelding → Opslaan in de mediabibliotheek' gebruikt. Dus, een andere plugin of je thema kan dit veroorzaken."
+
+#: admin/strings.php:479
+msgid "You may solve it by: 1) accessing Metadata tab; 2) running Clear Metadata; 3) activating Image Metadata; 4) clearing your cache (optional)."
+msgstr "Je kunt het oplossen door: 1) naar de Metagegevens tab te gaan; 2) Wissen metagegevens uit te voeren; 3) Afbeelding metagegevens te activeren; 4) je cache te legen (optioneel)."
+
+#: admin/strings.php:473
+msgid "Broken image icon"
+msgstr "Pictogram van een kapotte afbeelding"
+
+#: admin/strings.php:414
+msgid "Playback Loop"
+msgstr "Afspeel loop"
+
+#: admin/strings.php:408
+msgid "Autoplay on Mouseover"
+msgstr "Automatisch afspelen bij mouseover"
+
+#: admin/strings.php:300 admin/strings.php:2508
+msgid "Technical support"
+msgstr "Technische ondersteuning"
+
+#: admin/strings.php:194
+msgid "on mobile phone"
+msgstr "op mobiele telefoon"
+
+#: admin/strings.php:108
+msgid "PRO"
+msgstr "PRO"
+
+#: admin/strings.php:70
+msgid "Note"
+msgstr "Opmerking"
+
+#: admin/strings.php:1711
+msgid "Use screenshot"
+msgstr "Gebruik schermafbeelding"
+
+#: admin/strings.php:809
+msgid "If the GIF \"Generating Preview\" appears, ignore it. It means the screenshot was not found in the cache but is being generated on the server. You can save the post and exit the editor. The screenshot will be ready in a few seconds. Refresh the page."
+msgstr "Als de GIF \"Generating Preview\" verschijnt, negeer deze dan. Dit betekent dat de schermafbeelding niet in de cache is gevonden, maar wordt gegenereerd op de server. Je kunt het bericht opslaan en de editor afsluiten. De schermafbeelding is over een paar seconden klaar. Vernieuw de pagina."
+
+#: admin/strings.php:523
+msgid "1. Right-click on me now"
+msgstr "1. Klik met de rechtermuisknop nu op mij"
+
+#: admin/strings.php:2621
+msgid "Queue"
+msgstr "Wachtrij"
+
+#: admin/strings.php:2618
+msgid "Watch later"
+msgstr "Bekijk later"
+
+#: admin/strings.php:2595
+msgid "try again later"
+msgstr "probeer het later nog eens"
+
+#: admin/strings.php:2561
+msgid "Field Add-on"
+msgstr "Veld add-on"
+
+#: admin/strings.php:2548
+msgid "Requires FIFU PRO"
+msgstr "Vereist FIFU PRO"
+
+#: admin/strings.php:2527 admin/strings.php:2564
+msgid "Featured Image"
+msgstr "Uitgelichte afbeelding"
+
+#: admin/strings.php:2514
+msgid "Are you enjoying FIFU? Please give it a 5-star rating!"
+msgstr "Geniet je van FIFU? Geef het 5 sterren waardering!"
+
+#: admin/strings.php:2511
+msgid "Upgrade to <b>PRO</b> for €29.90"
+msgstr "Upgrade naar <b>PRO</b> voor €29.90"
+
+#: admin/strings.php:2431
+msgid "The selected images will be permanently removed from FIFU Cloud and cannot be recovered. Are you sure?"
+msgstr "De geselecteerde afbeeldingen worden permanent verwijderd uit FIFU Cloud en kunnen niet worden teruggezet. Weet je het zeker?"
+
+#: admin/strings.php:2428
+msgid "Remove selected image(s)"
+msgstr "Verwijderen van de geselecteerde afbeelding(en)"
+
+#: admin/strings.php:2423
+msgid "All the images you uploaded to FIFU Cloud will be deleted. Are you sure?"
+msgstr "Alle afbeeldingen die je hebt geüpload naar FIFU Cloud worden verwijderd. Weet je het zeker?"
+
+#: admin/strings.php:2417 admin/strings.php:2420
+msgid "Close account"
+msgstr "Account sluiten"
+
+#: admin/strings.php:2399
+msgid "Number of images"
+msgstr "Aantal afbeeldingen"
+
+#: admin/strings.php:2393
+msgid "Gallery images"
+msgstr "Galerij afbeeldingen"
+
+#: admin/strings.php:2387
+msgid "Upload date"
+msgstr "Uploaddatum"
+
+#: admin/strings.php:2384
+msgid "Image location"
+msgstr "Afbeeldingslocatie"
+
+#: admin/strings.php:2378
+msgid "Post date"
+msgstr "Berichtdatum"
+
+#: admin/strings.php:2375
+msgid "Post title"
+msgstr "Bericht titel"
+
+#: admin/strings.php:2359
+msgid "Reset credentials"
+msgstr "Logingegevens resetten"
+
+#: admin/strings.php:2192
+msgid "gallery"
+msgstr "galerij"
+
+#: admin/strings.php:2189
+msgid "slider"
+msgstr "slider"
+
+#: admin/strings.php:2186
+msgid "category"
+msgstr "categorie"
+
+#: admin/strings.php:2183
+msgid "No"
+msgstr "Nee"
+
+#: admin/strings.php:2180
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/strings.php:2177
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: admin/strings.php:2171
+msgid "link"
+msgstr "link"
+
+#: admin/strings.php:2168
+msgid "upload"
+msgstr "upload"
+
+#: admin/strings.php:2165
+msgid "delete"
+msgstr "verwijder"
+
+#: admin/strings.php:2162
+msgid "1,000 rows limit"
+msgstr "Limiet van 1.000 rijen"
+
+#: admin/strings.php:2159
+msgid "load more"
+msgstr "meer laden"
+
+#: admin/strings.php:2156
+msgid "select none"
+msgstr "niets selecteren"
+
+#: admin/strings.php:2153
+msgid "select all"
+msgstr "selecteer alles"
+
+#: admin/strings.php:2150
+msgid "No data available"
+msgstr "Geen gegevens beschikbaar"
+
+#: admin/strings.php:2147
+msgid "No posts available"
+msgstr "Geen berichten beschikbaar"
+
+#: admin/strings.php:2144
+msgid "No images available"
+msgstr "Geen afbeeldingen beschikbaar"
+
+#: admin/strings.php:2139
+msgid "Not connected"
+msgstr "Niet verbonden"
+
+#: admin/strings.php:2136
+msgid "Connected"
+msgstr "Verbonden"
+
+#: admin/strings.php:2133
+msgid "Web service is down"
+msgstr "Web dienst is uitgeschakeld"
+
+#: admin/strings.php:2073
+msgid "Loading..."
+msgstr "Aan het laden..."
+
+#: admin/strings.php:2070
+msgid "Loading more..."
+msgstr "Meer laden..."
+
+#: admin/strings.php:1928
+msgid "Product gallery settings"
+msgstr "Productgalerij instellingen"
+
+#: admin/strings.php:1923
+msgid "Columns"
+msgstr "Kolommen"
+
+#: admin/strings.php:1920
+msgid "Rows"
+msgstr "Rijen"
+
+#: admin/strings.php:1761
+msgid "Embed code"
+msgstr "Code insluiten"
+
+#: admin/strings.php:1752
+msgid "Web page URL"
+msgstr "URL webpagina"
+
+#: admin/strings.php:1749
+msgid "Audio URL"
+msgstr "Audio URL"
+
+#: admin/strings.php:1746
+msgid "Forwarding URL"
+msgstr "Doorsturen URL"
+
+#: admin/strings.php:117
+msgid "Local"
+msgstr "Lokaal"
+
+#: admin/strings.php:114
+msgid "no"
+msgstr "nee"
+
+#: admin/strings.php:111
+msgid "yes"
+msgstr "ja"
+
+#: admin/strings.php:47
+msgid "Copy to clipboard"
+msgstr "Kopieer naar klembord"
+
+#: admin/strings.php:25
+msgid "Upgrade to <b>PRO</b>"
+msgstr "Upgrade naar <b>PRO</b>"
+
+#: admin/strings.php:806
+msgid "To use a website screenshot as the featured image of a post, add \"https://screenshot.fifu.app/\" before the website address. Then use this new address as the image URL. For example, if you want the screenshot of the website \"https://openai.com/\" as the featured image of a post, your image URL should be: https://screenshot.fifu.app/https://openai.com/"
+msgstr "Om een ​​schermafbeelding van een site te gebruiken als de uitgelichte afbeelding van een bericht, voeg \"https://screenshot.fifu.app/\" toe vóór het site adres. Gebruik vervolgens dit nieuwe adres als de afbeelding URL. Als je bijvoorbeeld de schermafbeelding van de site \"https://openai.com/\" als de uitgelichte afbeelding van een bericht wilt gebruiken, moet je afbeelding URL zijn: https://screenshot.fifu.app/https://openai.com/"
+
+#: admin/strings.php:503
+msgid "Notify WP Automatic (or WPeMatico) support that image URLs are not sent to FIFU. Alternatively, use our PRO version to obtain images using page addresses or post titles."
+msgstr "Laat WP Automatic (of WPeMatico) ondersteuning weten dat URL's met afbeeldingen niet naar FIFU worden verzonden. Je kunt ook onze PRO versie gebruiken om afbeeldingen te verkrijgen met behulp van pagina adressen of berichttitels."
+
+#: admin/strings.php:500
+msgid "Changes have no effect"
+msgstr "Veranderingen hebben geen effect"
+
+#: admin/strings.php:497
+msgid "Images saved in the media library"
+msgstr "Afbeeldingen opgeslagen in de mediabibliotheek"
+
+#: admin/strings.php:1372
+msgid "You can add #t=N to the end of the local or remote video URL, where N represents the number of seconds at which the video should start. The format #t=N,M is used to specify a frame where the video should stop as well."
+msgstr "Je kunt #t=N toevoegen aan het einde van de lokale of externe video-URL, waarbij N staat voor het aantal seconden waarop de video moet beginnen. Het format #t=N,M wordt ook gebruikt om een frame te specificeren waar de video moet stoppen."
+
+#: admin/strings.php:1366
+msgid "Start at"
+msgstr "Begin om"
+
+#: admin/strings.php:387
+msgid "bbPress and BuddyBoss Platform"
+msgstr "bbPress en BuddyBoss Platform"
+
+#: admin/strings.php:2021
+msgid "Clear"
+msgstr "Wissen"
+
+#: admin/strings.php:168 admin/strings.php:2018
+msgid "Save"
+msgstr "Opslaan"
+
+#: admin/strings.php:1539
+msgid "Importing..."
+msgstr "Aan het importeren..."
+
+#: admin/strings.php:944
+msgid "Post formats found on your site:"
+msgstr "Bericht formats gevonden op je site:"
+
+#: admin/strings.php:932
+msgid "Hide"
+msgstr "Verberg"
+
+#: admin/strings.php:635
+msgid "Command example"
+msgstr "Voorbeeldopdracht"
+
+#: admin/strings.php:632
+msgid "Action"
+msgstr "Actie"
+
+#: admin/strings.php:611
+msgid "Other custom fields can be found under Settings → Developers → REST API → Custom fields."
+msgstr "Andere aangepaste velden zijn te vinden onder Instellingen → Ontwikkelaars → REST API → Aangepaste velden."
+
+#: admin/strings.php:608
+msgid "Create a post"
+msgstr "Maak een bericht"
+
+#: admin/strings.php:602 admin/strings.php:1156
+msgid "FIFU custom fields"
+msgstr "FIFU aangepaste velden"
+
+#: admin/strings.php:599
+msgid "FIFU commands"
+msgstr "FIFU commando's"
+
+#: admin/strings.php:579
+msgid "Product video"
+msgstr "Product video"
+
+#: admin/strings.php:1828
+msgid "Custom popup"
+msgstr "Aangepaste pop-up"
+
+#: admin/strings.php:874
+msgid "Adds a new field to the post editor where you can paste any embed code. Its content will be displayed in a popup when the visitor clicks on the featured image. Here's an example of a popup containing a TikTok embed code:"
+msgstr "Voegt een nieuw veld toe aan de bericht editor waar je elke insluitcode kunt plakken. De inhoud wordt getoond in een pop-up wanneer de bezoeker op de uitgelichte afbeelding klikt. Hier is een voorbeeld van een pop-up met een TikTok insluitcode:"
+
+#: admin/strings.php:348
+msgid "Custom Popup"
+msgstr "Aangepaste pop-up"
+
+#: admin/strings.php:1435
+msgid "Adds the Watch Later and Queue buttons."
+msgstr "Voegt de knoppen Watch Later en Queue toe."
+
+#: admin/strings.php:426
+msgid "Watch Later"
+msgstr "Bekijk later"
+
+#: admin/strings.php:1554
+msgid "Exporting local image URLs using the WP All Export plugin."
+msgstr "Lokale afbeelding URL's exporteren met de WP All Export plugin."
+
+#: admin/strings.php:1484
+msgid "Add product images to order emails."
+msgstr "Voeg productafbeeldingen toe aan bestelling e-mails."
+
+#: admin/strings.php:1348
+msgid "FIFU supports videos and audios from YouTube, Vimeo, Twitter, 9GAG, Cloudinary, Tumblr, Publitio, JW Player, VideoPress, Sprout, Odysee, Rumble, Dailymotion, Cloudflare Stream, Bunny Stream, Amazon, BitChute, Brighteon, Google Drive, Spotify and SoundCloud. It also supports remote and local video files."
+msgstr "FIFU ondersteunt video's en audio's van YouTube, Vimeo, Twitter, 9GAG, Cloudinary, Tumblr, Publitio, JW Player, VideoPress, Sprout, Odysee, Rumble, Dailymotion, Cloudflare Stream, Bunny Stream, Amazon, BitChute, Brighteon en Google Drive. Externe en lokale videobestanden worden ook ondersteund."
+
+#: admin/strings.php:435
+msgid "Add image to order email"
+msgstr "Afbeelding toevoegen aan bestelling e-mail"
+
+#: admin/strings.php:1315
+msgid "Quick buy"
+msgstr "Snel kopen"
+
+#: admin/strings.php:450
+msgid "Quick Buy"
+msgstr "Snel kopen"
+
+#: admin/strings.php:2282
+msgid "Automatic upload"
+msgstr "Automatische upload"
+
+#: admin/strings.php:1011
+msgid "If you are setting the image URLs in a non-standard way, the images may not be displayed to visitors because additional metadata is required. Here, you can schedule an event to run every minute and check for image URLs without metadata and generate it."
+msgstr "Als je de URL's voor afbeeldingen op een niet standaard manier instelt, worden de afbeeldingen mogelijk niet weergegeven aan bezoekers omdat er extra metagegevens nodig zijn. Hier kun je een gebeurtenis abonnementen die elke minuut wordt uitgevoerd en die controleert op afbeeldingen URL's zonder metagegevens en deze genereert."
+
+#: admin/strings.php:2481
+msgid "Others..."
+msgstr "Anderen..."
+
+#: admin/strings.php:2478
+msgid "I didn't understand how it works..."
+msgstr "Ik begreep niet hoe het werkt..."
+
+#: admin/strings.php:2475
+msgid "I wish it worked with my local images..."
+msgstr "Ik wou dat het werkte met mijn lokale afbeeldingen..."
+
+#: admin/strings.php:2472
+msgid "Concerned about SEO, performance, or copyright..."
+msgstr "Bezorgd over SEO, prestaties of auteursrecht..."
+
+#: admin/strings.php:2469
+msgid "Works well, but I would need a new or PRO feature..."
+msgstr "Werkt goed, maar ik zou een nieuwe of PRO functie nodig hebben..."
+
+#: admin/strings.php:2466
+msgid "Doesn't work with a specific theme, plugin, or URL..."
+msgstr "Werkt niet met een specifiek thema, plugin of URL..."
+
+#: admin/strings.php:2460
+msgid "Why are you deactivating FIFU?"
+msgstr "Waarom deactiveer je FIFU?"
+
+#: admin/strings.php:2457
+msgid "If it's a temporary deactivation"
+msgstr "Als het een tijdelijke deactivering is"
+
+#: admin/strings.php:2454
+msgid "If you don't intend to use FIFU again"
+msgstr "Als je niet van plan bent om FIFU opnieuw te gebruiken"
+
+#: admin/strings.php:2451
+msgid "Deactivate"
+msgstr "Deactiveer"
+
+#: admin/strings.php:2448
+msgid "Clear metadata and deactivate"
+msgstr "Metagegevens wissen en deactiveren"
+
+#: admin/strings.php:1602
+msgid "Enter a comma in the 'List delimiter' field"
+msgstr "Voer een komma in het veld 'lijstscheidingsteken' in"
+
+#: admin/strings.php:1599
+msgid "Do NOT add FIFU custom fields"
+msgstr "Voeg GEEN FIFU aangepaste velden toe"
+
+#: admin/strings.php:1596
+msgid "Do NOT add filenames or URLs. Keep the text fields EMPTY"
+msgstr "Voeg GEEN bestandsnamen of URL's toe. Houd de tekst velden LEEG"
+
+#: admin/strings.php:1593
+msgid "URLs in different columns"
+msgstr "URL's in verschillende kolommen"
+
+#: admin/strings.php:1590
+msgid "List of URLs delimited by comma"
+msgstr "Lijst van URL's gescheiden door komma's"
+
+#: admin/strings.php:1587
+msgid "Custom Fields"
+msgstr "Aangepaste velden"
+
+#: admin/strings.php:1584
+msgid "FIFU Add-On"
+msgstr "FIFU add-on"
+
+#: admin/strings.php:1581
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: admin/strings.php:1578
+msgid "How to configure the FIFU Add-On"
+msgstr "Hoe de FIFU add-on te configureren"
+
+#: admin/strings.php:1575
+msgid "How NOT to configure WP All Import"
+msgstr "Hoe je WP All Import NIET moet configureren"
+
+#: admin/strings.php:1563
+msgid "For"
+msgstr "Voor"
+
+#: admin/strings.php:1257
+msgid "Input field for featured image URL"
+msgstr "Invoerveld voor URL van uitgelichte afbeelding"
+
+#: admin/strings.php:1251
+msgid "Displays the product gallery"
+msgstr "Toont de productgalerij"
+
+#: admin/strings.php:1248
+msgid "Displays the featured slider"
+msgstr "Toont de uitgelichte slider"
+
+#: admin/strings.php:1245
+msgid "Displays the featured image/video"
+msgstr "Toont de uitgelichte afbeelding/video"
+
+#: admin/strings.php:1242
+msgid "Required parameters"
+msgstr "Vereiste parameters"
+
+#: admin/strings.php:1227
+msgid "Display media"
+msgstr "Toon media"
+
+#: admin/strings.php:1333
+msgid "Custom field name (optional)"
+msgstr "Klant veld naam (optioneel)"
+
+#: admin/strings.php:1354
+msgid "Video files"
+msgstr "Videobestanden"
+
+#: admin/strings.php:1330
+msgid "Disclaimer (optional)"
+msgstr "Disclaimer (optioneel)"
+
+#: admin/strings.php:1327
+msgid "Buy now (optional)"
+msgstr "Koop nu (optioneel)"
+
+#: admin/strings.php:1321
+msgid "Disclaimer"
+msgstr "Disclaimer"
+
+#: admin/strings.php:1318
+msgid "Text button"
+msgstr "Tekstknop"
+
+#: admin/strings.php:1430
+msgid "The Privacy Enhanced Mode of the YouTube embedded player prevents views of embedded YouTube content from affecting the viewer's browsing experience on YouTube."
+msgstr "De Privacy Enhanced Mode van de ingesloten YouTube speler voorkomt dat het bekijken van ingesloten YouTube inhoud de bladeren ervaring van de kijker op YouTube beïnvloedt."
+
+#: admin/strings.php:1292
+msgid "Load slider on singular post types only"
+msgstr "Laad slider alleen op enkelvoudige berichttypen"
+
+#: admin/strings.php:1140
+msgid "you must set a remote featured image."
+msgstr "je moet een externe uitgelichte afbeelding instellen."
+
+#: admin/strings.php:423
+msgid "Privacy Enhanced Mode"
+msgstr "Privacy verbeterde modus"
+
+#: admin/strings.php:369
+msgid "Featured Audio"
+msgstr "Uitgelichte audio"
+
+#: admin/strings.php:1822
+msgid "Featured audio"
+msgstr "Uitgelichte audio"
+
+#: admin/strings.php:2582
+msgid "The CSS Class names to be added to the field input."
+msgstr "De CSS klasse namen die toegevoegd moeten worden aan de veld invoer."
+
+#: admin/strings.php:2579 admin/strings.php:2585
+msgid "Input CSS Classes"
+msgstr "Invoer CSS klassen"
+
+#: admin/strings.php:1643
+msgid "FIFU Cloud prevents image loss by saving your local or remote images in the cloud."
+msgstr "FIFU Cloud voorkomt verlies van afbeeldingen door je lokale of externe afbeeldingen in de cloud op te slaan."
+
+#: admin/strings.php:1640
+msgid "FIFU Cloud can work as an alternative to the WordPress media library. Both store images, but FIFU Cloud processes them in the cloud, while the WordPress core consumes a lot of your website's resources. Additionally, FIFU Cloud is able to process and store thousands of images simultaneously in a few seconds, while the media library works with one image at a time."
+msgstr "FIFU Cloud kan dienen als alternatief voor de mediabibliotheek van WordPress. Beide slaan afbeeldingen op, maar FIFU Cloud verwerkt ze in de cloud, terwijl de core van WordPress veel bronnen van je site verbruikt. Bovendien is FIFU Cloud in staat om duizenden afbeeldingen tegelijk te verwerken en op te slaan in een paar seconden, terwijl de mediabibliotheek werkt met één afbeelding tegelijk."
+
+#: admin/strings.php:1637
+msgid "FIFU Cloud improves the security of your images by offering hotlink protection. With this feature, even if a bot or someone else obtains image URLs from the source code of your website, they won't be able to embed them on other websites. Instead, an error message is displayed instead of the images."
+msgstr "FIFU Cloud verbetert de beveiliging van je afbeeldingen door hotlink beveiliging te bieden. Met deze functie kan een bot of iemand anders geen URL's van afbeeldingen uit de gegevensbron code van je site halen en deze insluiten op andere sites. In plaats daarvan wordt er een fout bericht weergegeven in plaats van de afbeeldingen."
+
+#: admin/strings.php:1634
+msgid "FIFU Cloud can also serve optimized thumbnails from a global CDN, providing image storage (not just cache), support for any image source, technical support, smart cropping, hotlink protection, and more."
+msgstr "FIFU Cloud kan ook geoptimaliseerde thumbnails leveren vanaf een wereldwijd CDN, en biedt opslag van afbeeldingen (niet alleen cache), ondersteuning voor elke afbeeldingsbron, technische ondersteuning, slimme bijsnijding, hotlink bescherming en meer."
+
+#: admin/strings.php:1465
+msgid "Videos before images"
+msgstr "Video's voor afbeeldingen"
+
+#: admin/strings.php:191
+msgid "on desktop"
+msgstr "op desktop"
+
+#: admin/strings.php:1295
+msgid "Vertical mode"
+msgstr "Verticale modus"
+
+#: admin/strings.php:675
+msgid "192.168.0.1:80, 127.0.0.1:8080, username:password@172.16.0.0:443"
+msgstr "192.168.0.1:80, 127.0.0.1:8080, username:password@172.16.0.0:443"
+
+#: admin/strings.php:591
+msgid "Product category video"
+msgstr "Product categorie video"
+
+#: admin/strings.php:588
+msgid "Product category image"
+msgstr "Afbeelding productcategorie"
+
+#: admin/strings.php:188
+msgid "on single post types"
+msgstr "op enkele berichttypen"
+
+#: admin/strings.php:1993
+msgid "Quick edit"
+msgstr "Snel bewerken"
+
+#: admin/strings.php:1395
+msgid "You can disable video controls here."
+msgstr "Je kunt videocontroles hier uitschakelen."
+
+#: admin/strings.php:405
+msgid "Video Controls"
+msgstr "Video bedieningselementen"
+
+#: admin/strings.php:2093 admin/strings.php:2224
+msgid "Hotlink protection"
+msgstr "Hotlink bescherming"
+
+#: admin/strings.php:2090 admin/strings.php:2128
+msgid "Account"
+msgstr "Account"
+
+#: admin/strings.php:1825
+msgid "Page redirection"
+msgstr "Pagina omleiding"
+
+#: admin/strings.php:879
+msgid "Adds a new field in the post editor where you can specify a forwarding URL. When accessing a post and clicking on the featured image, the user will be redirected to the specified address."
+msgstr "Voegt een nieuw veld toe in de bericht editor waar je een doorstuur URL kunt opgeven. Wanneer je een bericht bekijkt en op de uitgelichte afbeelding klikt, wordt de gebruiker omgeleid naar het opgegeven adres."
+
+#: admin/strings.php:351
+msgid "Page Redirection"
+msgstr "Pagina omleiding"
+
+#: admin/strings.php:2332
+msgid "Non-adjacent"
+msgstr "Niet-aangrenzend"
+
+#: admin/strings.php:2329
+msgid "Adjacent"
+msgstr "Aangrenzend"
+
+#: admin/strings.php:2326
+msgid "Multiple image selection"
+msgstr "Meervoudige afbeelding selectie"
+
+#: admin/strings.php:2321
+msgid "Current cost"
+msgstr "Huidige kosten"
+
+#: admin/strings.php:2318
+msgid "Daily average of stored images"
+msgstr "Dagelijks gemiddelde van opgeslagen afbeeldingen"
+
+#: admin/strings.php:2315
+msgid "End date"
+msgstr "Einddatum"
+
+#: admin/strings.php:2312
+msgid "Start date"
+msgstr "Startdatum"
+
+#: admin/strings.php:2309
+msgid "Current 30-day period"
+msgstr "Huidige 30 daagse periode"
+
+#: admin/strings.php:2290
+msgid "When an image is deleted from the cloud, you are no longer charged from the next day."
+msgstr "Als een afbeelding uit de cloud wordt verwijderd, wordt deze vanaf de volgende dag niet meer in rekening gebracht."
+
+#: admin/strings.php:2125
+msgid "Trash"
+msgstr "Prullenbak"
+
+#: admin/strings.php:2122
+msgid "Local images"
+msgstr "Locale afbeeldingen"
+
+#: admin/strings.php:2116
+msgid "Upload"
+msgstr "Uploaden"
+
+#: admin/strings.php:2108
+msgid "Billing"
+msgstr "Facturatie"
+
+#: admin/strings.php:2105
+msgid "Link local image URLs to FIFU plugin"
+msgstr "Link locale afbeelding URL's aan FIFU plugin"
+
+#: admin/strings.php:2099
+msgid "Upload to Cloud"
+msgstr "Uploaden naar cloud"
+
+#: admin/strings.php:2274
+msgid "Total price"
+msgstr "Totaal prijs"
+
+#: admin/strings.php:2271
+msgid "Price per image"
+msgstr "Prijs per afbeelding"
+
+#: admin/strings.php:2268
+msgid "30-day average usage"
+msgstr "30 daags gemiddeld gebruik"
+
+#: admin/strings.php:2265
+msgid "Quantity of images in FIFU Cloud"
+msgstr "Aantal afbeeldingen in FIFU cloud"
+
+#: admin/strings.php:2262
+msgid "Number of days"
+msgstr "Aantal dagen"
+
+#: admin/strings.php:2259
+msgid "30-day period interval"
+msgstr "30 daagse periode interval"
+
+#: admin/strings.php:2256
+msgid "Price calculation example"
+msgstr "Voorbeeld prijsberekening"
+
+#: admin/strings.php:2247
+msgid "Quantity of images"
+msgstr "Aantal afbeeldingen"
+
+#: admin/strings.php:2218
+msgid "Pay per stored image"
+msgstr "Betaal per opgeslagen afbeelding"
+
+#: admin/strings.php:2215
+msgid "Images processed in the cloud"
+msgstr "Afbeeldingen verwerkt in de cloud"
+
+#: admin/strings.php:2212
+msgid "Images load much faster"
+msgstr "Afbeeldingen laden veel sneller"
+
+#: admin/strings.php:2209
+msgid "Never lose an image again"
+msgstr "Verlies nooit meer een afbeelding"
+
+#: admin/strings.php:2119 admin/strings.php:2174
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: admin/strings.php:2113
+msgid "Welcome"
+msgstr "Welkom"
+
+#: admin/strings.php:2102
+msgid "Delete from Cloud"
+msgstr "Verwijderen uit cloud"
+
+#: admin/strings.php:2367
+msgid "Sign up"
+msgstr "Aanmelden"
+
+#: admin/strings.php:2087
+msgid "Pricing"
+msgstr "Prijsstelling"
+
+#: admin/strings.php:222
+msgid "Chrome extension"
+msgstr "Chrome extensie"
+
+#: admin/strings.php:16 admin/strings.php:295
+msgid "Cloud"
+msgstr "Cloud"
+
+#: admin/strings.php:1462
+msgid "Adaptive height"
+msgstr "Aanpasbare hoogte"
+
+#: admin/strings.php:1357
+msgid "It's possible to use videos from your media library as featured videos. However it's required to create a video thumbnail, that will be stored in your media library. For that, in the Feature video field, forward the video to a frame you like and click on \"set this frame as thumbnail\" button. Save the post and that's it."
+msgstr "Het is mogelijk om video's uit je mediabibliotheek te gebruiken als uitgelichte video's. Het is echter vereist om een video thumbnail te maken, die wordt opgeslagen in je mediabibliotheek. Hiervoor spoel je in het veld Uitgelichte video de video door naar een frame dat je mooi vindt en klik je op de knop \"stel dit frame in als thumbnail\". Sla het bericht op en klaar."
+
+#: admin/strings.php:844
+msgid "If you already have the web page address saved in your database, specify its custom field name here. The plugin will access the field and import the value. For example, if the web page URL is saved in the Product URL field, you can add \"_product_url,\" which is the field where the remote URL to the product is stored. For posts created by WP Automatic plugin, add \"original_link\"."
+msgstr "Als je het webpagina adres al in je database hebt opgeslagen, geef hier dan de naam van het aangepaste veld op. De plugin haalt het veld op en importeert de waarde. Bijvoorbeeld, als de webpagina URL is opgeslagen in het Product URL veld, kun je \"_product_url\" toevoegen, dit is het veld waar de externe URL naar het product staat. Voor berichten die zijn aangemaakt door de WP Automatic plugin, voeg \"original_link\" toe."
+
+#: admin/strings.php:354
+msgid "Auto set featured media from post content"
+msgstr "Automatisch uitgelichte media instellen vanuit de inhoud van het bericht"
+
+#: admin/strings.php:672
+msgid "Private proxy"
+msgstr "Privé proxy"
+
+#: admin/strings.php:669
+msgid "use proxies to intermediate the traffic between your site and the image hosts"
+msgstr "gebruik proxy's om het verkeer tussen je site en de hosts van de afbeeldingen te laten verlopen"
+
+#: admin/strings.php:663
+msgid "Proxy"
+msgstr "Proxy"
+
+#: admin/strings.php:657
+msgid "Main"
+msgstr "Hoofd"
+
+#: admin/strings.php:758
+msgid "If you already have the ISBN saved in your database, specify its custom field name here. The plugin will access the field and import the value. For example, if the ISBN is saved in the SKU field, you can add \"_sku,\" which is the field where the SKU is stored."
+msgstr "Als je de ISBN al in je database hebt opgeslagen, geef hier dan de naam van het aangepaste veld op. De plugin haalt de waarde uit dat veld en importeert deze. Bijvoorbeeld, als de ISBN is opgeslagen in het SKU veld, kun je \"_sku\" toevoegen, dat is het veld waar de SKU wordt bewaard."
+
+#: admin/strings.php:755 admin/strings.php:769 admin/strings.php:801
+#: admin/strings.php:818 admin/strings.php:838 admin/strings.php:1324
+msgid "Custom field"
+msgstr "Aangepast veld"
+
+#: admin/strings.php:1900
+msgid "Works with \"Auto set featured media using web page address\""
+msgstr "Uitgelichte afbeelding automatisch instellen door gebruik van het webpagina adres"
+
+#: admin/strings.php:1886
+msgid "Media finder (webpage URL)"
+msgstr "Mediazoeker (webpagina URL)"
+
+#: admin/strings.php:901
+msgid "After adding or removing a post type, you need to restart the feature by disabling and enabling the toggle below."
+msgstr "Nadat je een berichttype hebt toegevoegd of verwijderd, moet je de functie opnieuw starten door de onderstaande toggle uit en weer in te schakelen."
+
+#: admin/strings.php:1819
+msgid "Media finder"
+msgstr "Mediazoeker"
+
+#: admin/strings.php:832
+msgid "look for embedded videos"
+msgstr "zoek naar ingesloten video's"
+
+#: admin/strings.php:869
+msgid "Disable right-click on all images."
+msgstr "Schakel rechts klikken op alle afbeeldingen uit."
+
+#: admin/strings.php:333
+msgid "Disable right-click"
+msgstr "Rechts klikken uitschakelen"
+
+#: admin/strings.php:2049
+msgid "More"
+msgstr "Meer"
+
+#: admin/strings.php:1572 admin/strings.php:2040
+msgid "Examples"
+msgstr "Voorbeelden"
+
+#: admin/strings.php:2013 admin/strings.php:2043
+msgid "Keywords"
+msgstr "Keywords"
+
+#: admin/strings.php:2002
+msgid "Search Unsplash images. Example: sun,sea"
+msgstr "Zoek Unsplash afbeeldingen. Voorbeeld: zon, zee"
+
+#: admin/strings.php:1973
+msgid "Image search"
+msgstr "Afbeelding zoeken"
+
+#: admin/strings.php:330
+msgid "Auto set featured image from Unsplash using tags"
+msgstr "Uitgelichte afbeelding automatisch instellen vanuit Unsplash met behulp van tags"
+
+#: admin/strings.php:1953
+msgid "Displays the product gallery."
+msgstr "Geeft de productgalerij weer."
+
+#: admin/strings.php:1939
+msgid "Product gallery"
+msgstr "Product galerij"
+
+#: admin/strings.php:1239
+msgid "Optional parameters"
+msgstr "Optionele parameters"
+
+#: admin/strings.php:141 admin/strings.php:1236 admin/strings.php:1566
+msgid "Description"
+msgstr "Beschrijving"
+
+#: admin/strings.php:1224
+msgid "Add FIFU elements anywhere with a shortcode."
+msgstr "Voeg overal FIFU elementen toe met een shortcode."
+
+#: admin/strings.php:725 admin/strings.php:898
+msgid "Post types found on your site:"
+msgstr "Berichttypen gevonden op je site: "
+
+#: admin/strings.php:722
+msgid "This feature is pre-configured to work only with the post type \"post.\" You can include more post types below (separated by commas)."
+msgstr "Deze functie is vooraf geconfigureerd om alleen te werken met het berichttype \"bericht\". Maar je kunt hieronder meer berichttypen opnemen (gescheiden door \",\")."
+
+#: admin/strings.php:704
+msgid "Post types"
+msgstr "Berichttypen"
+
+#: admin/strings.php:381
+msgid "FIFU Shortcode"
+msgstr "FIFU Shortcodes"
+
+#: admin/strings.php:1950
+msgid "Displays the images from the featured slider in a grid format."
+msgstr "Toont de afbeeldingen van de uitgelichte slider in een raster format."
+
+#: admin/strings.php:1947
+msgid "Displays the featured image, video, or slider from the current post, page, or custom post type."
+msgstr "Toont de uitgelichte afbeelding, video of slider van het huidige bericht, pagina of aangepast berichttype."
+
+#: admin/strings.php:1936
+msgid "Featured grid"
+msgstr "Uitgelicht raster"
+
+#: admin/strings.php:1933
+msgid "Featured media"
+msgstr "Uitgelichte media"
+
+#: admin/strings.php:749
+msgid "Set featured images automatically. The plugin checks every minute for post types without featured images and performs web searches based on ISBN to retrieve the book cover URLs."
+msgstr "Stel uitgelichte afbeeldingen automatisch in. De plugin controleert elke minuut of er berichttypen zijn zonder uitgelichte afbeeldingen en voert zoekopdrachten op internet uit op basis van ISBN om de omslagafbeeldings URL's te krijgen."
+
+#: admin/strings.php:683
+msgid "Set featured images automatically. The plugin checks every minute for post types without featured images and performs web searches based on post titles to retrieve the image URLs (1 per minute)."
+msgstr "Stel automatisch uitgelichte afbeeldingen in. De plugin controleert elke minuut op berichttypen zonder uitgelichte afbeeldingen en voert web zoekopdrachten uit op basis van berichttitels om de afbeelding-URL's op te halen (1 per minuut)."
+
+#: admin/strings.php:1569
+msgid "Import template"
+msgstr "importeer template"
+
+#: admin/strings.php:1557
+msgid "XML"
+msgstr "XML"
+
+#: admin/strings.php:1551
+msgid "Examples for 'Variations As Child XML Elements'"
+msgstr "Voorbeelden voor 'Variations As Child XML Elements'"
+
+#: admin/strings.php:1289
+msgid "Display images at the same height"
+msgstr "Toon afbeeldingen op dezelfde hoogte"
+
+#: admin/strings.php:150
+msgid "Crop"
+msgstr "Bijsnijden"
+
+#: admin/strings.php:327
+msgid "Auto set featured media using web page address"
+msgstr "Uitgelichte afbeelding automatisch instellen door gebruik van het webpagina adres"
+
+#: admin/strings.php:324
+msgid "Auto set screenshot as featured image"
+msgstr "Scherm automatisch instellen als uitgelichte afbeelding"
+
+#: admin/strings.php:147
+msgid "Height"
+msgstr "Hoogte"
+
+#: admin/strings.php:1628
+msgid "Even though with 1 license you can use FIFU on unlimited sites from the same domain, the technical support is still limited to 1 site."
+msgstr "Hoewel je met 1 licentie FIFU op een onbeperkt aantal sites van hetzelfde domein kunt gebruiken, is de technische ondersteuning nog steeds beperkt tot 1 site."
+
+#: admin/strings.php:1625
+msgid "FIFU activation is based on the domain. Submitting your license key from the site example.com, [subdomain].example.com, or example.com/[anything] will activate the domain example.com. After that, you can use the same license key on the sites example.com, [subdomain].example.com, and example.com/[anything]. You can also use the same license key to activate a second domain for your test/development/stage site. If your domain has changed, please contact support."
+msgstr "FIFU activering is gebaseerd op het domein. Dus als je je licentiesleutel op de site example.com, [subdomain].example.com of example.com/[anything] indient, wordt het domein example.com geactiveerd. Daarna zou je dezelfde licentiesleutel kunnen gebruiken op de sites example.com, [subdomain].example.com en example.com/[anything]. Je kunt dezelfde licentiesleutel ook gebruiken om een tweede domein voor je test-/ontwikkelings-/stagesite te activeren. Als je domein is gewijzigd, neem dan contact op met de ondersteuning."
+
+#: admin/strings.php:444 admin/strings.php:1619
+msgid "Activation"
+msgstr "Activering"
+
+#: admin/strings.php:1613
+msgid "You can renew your license key(s) or get more information about that <a href='https://ws.featuredimagefromurl.com/keys/' target='_blank'>here</a>."
+msgstr "Je kunt je licentiesleutel(s) vernieuwen of meer informatie hierover krijgen <a href='https://ws.featuredimagefromurl.com/keys/' target='_blank'>hier</a>."
+
+#: admin/strings.php:1607
+msgid "Please insert your license key below to receive updates and use this plugin without limitations."
+msgstr "Voer hieronder je licentiesleutel in om updates te ontvangen en deze plugin zonder beperkingen te gebruiken."
+
+#: admin/strings.php:1310
+msgid "Image URL (optional)"
+msgstr "Afbeelding URL (optioneel)"
+
+#: admin/strings.php:1307
+msgid "Next button"
+msgstr "Volgende knop"
+
+#: admin/strings.php:73 admin/strings.php:274
+msgid "Developers"
+msgstr "Ontwikkelaars"
+
+#: admin/strings.php:1456
+msgid "To work correctly, some galleries provided by some themes require that the dimensions of the images are saved in the database, which can be impractical due to the slowness of this process. So the plugin offers its own product gallery that does not depend on the dimensions of remote images to function properly. You can configure the behavior of this gallery in the \"Featured slider\" tab."
+msgstr "Om correct te werken, vereisen sommige galerijen die door sommige thema's worden geleverd dat de afmetingen van de afbeeldingen in de database worden opgeslagen, wat onpraktisch kan zijn vanwege de traagheid van dit proces. Dus de plugin biedt zijn eigen productgalerij die niet afhankelijk is van de afmetingen van externe afbeeldingen om goed te functioneren. Je kunt het gedrag van deze galerij configureren in de \"Uitgelichte slider\" tab."
+
+#: admin/strings.php:447
+msgid "FIFU Product Gallery"
+msgstr "FIFU product galerij"
+
+#: admin/strings.php:1726 admin/strings.php:1845 admin/strings.php:2024
+msgid "Upload to media library"
+msgstr "Uploaden naar mediabibliotheek"
+
+#: admin/strings.php:651
+msgid "show save button on post editor"
+msgstr "toon opslaan knop in bericht editor"
+
+#: admin/strings.php:309
+msgid "Save in the Media Library"
+msgstr "Opslaan in de mediabibliotheek"
+
+#: admin/strings.php:596
+msgid "Configure FIFU via command line."
+msgstr "Configureer FIFU via de command line."
+
+#: admin/strings.php:105
+msgid "Delimiter"
+msgstr "Scheidingsteken"
+
+#: admin/strings.php:102
+msgid "Fields"
+msgstr "Velden"
+
+#: admin/strings.php:99
+msgid "Function"
+msgstr "Functie"
+
+#: admin/strings.php:629
+msgid "e.g. (args)"
+msgstr "b.v. (args)"
+
+#: admin/strings.php:626
+msgid "Command"
+msgstr "Commando"
+
+#: admin/strings.php:138 admin/strings.php:623
+msgid "Option"
+msgstr "Optie"
+
+#: admin/strings.php:620
+msgid "Feature"
+msgstr "Functie"
+
+#: admin/strings.php:617 admin/strings.php:1560
+msgid "Section"
+msgstr "Sectie"
+
+#: admin/strings.php:614
+msgid "Tab"
+msgstr "Tab"
+
+#: admin/strings.php:605
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+#: admin/strings.php:1755 admin/strings.php:1813 admin/strings.php:1880
+msgid "ISBN"
+msgstr "ISBN"
+
+#: admin/strings.php:955
+msgid "Run it for all posts"
+msgstr "Draai voor alle berichten"
+
+#: admin/strings.php:312
+msgid "Auto set featured image using post title and search engine"
+msgstr "Uitgelichte afbeelding automatisch instellen met de titel van het bericht en de zoekmachine"
+
+#: admin/strings.php:268
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: admin/strings.php:1283
+msgid "Show thumbnail gallery"
+msgstr "Toon thumbnails galerij"
+
+#. Plugin Name of the plugin
+#: featured-image-from-url.php
+msgid "Featured Image from URL (FIFU)"
+msgstr "Featured Image from URL (FIFU)"
+
+#: admin/strings.php:716
+msgid "minimum height (px)"
+msgstr "minimum hoogte (px)"
+
+#: admin/strings.php:701
+msgid "Blocklist"
+msgstr "Bloklijst"
+
+#: admin/strings.php:689 admin/strings.php:752 admin/strings.php:766
+#: admin/strings.php:798 admin/strings.php:815 admin/strings.php:835
+#: admin/strings.php:852 admin/strings.php:952
+msgid "Auto set"
+msgstr "Auto ingesteld"
+
+#: admin/strings.php:1516
+msgid "Featured video URL"
+msgstr "URL van uitgelichte video"
+
+#: admin/strings.php:1510
+msgid "Featured image URL"
+msgstr "URL van uitgelichte afbeelding"
+
+#: admin/api.php:1271
+msgid "Private"
+msgstr "Prive"
+
+#: admin/strings.php:1877
+msgid "List delimiter"
+msgstr "Lijstscheidingsteken"
+
+#: admin/strings.php:1871
+msgid "Product video URL + gallery URLs"
+msgstr "Product video URL + galerij URL's"
+
+#: admin/strings.php:1868
+msgid "Product image title + gallery titles"
+msgstr "Product afbeelding titel + galerij titels"
+
+#: admin/strings.php:1865
+msgid "Product image URL + gallery URLs"
+msgstr "Product afbeelding URL + galerij URL's"
+
+#: admin/strings.php:585 admin/strings.php:1798 admin/strings.php:1979
+msgid "Video gallery"
+msgstr "Video galerij"
+
+#: admin/strings.php:582 admin/strings.php:1792 admin/strings.php:1976
+#: admin/strings.php:2494
+msgid "Image gallery"
+msgstr "Fotogalerij"
+
+#: admin/strings.php:1723
+msgid "Choose Sirv image"
+msgstr "Kies Sirv afbeelding"
+
+#: admin/strings.php:1720
+msgid "Add image from Sirv"
+msgstr "Voeg afbeelding toe van Sirv"
+
+#: admin/strings.php:1714
+msgid "Image URL or Keywords"
+msgstr "Afbeelding URL of keywords"
+
+#: admin/strings.php:1286
+msgid "Show counter"
+msgstr "Toon teller"
+
+#: admin/strings.php:570 admin/strings.php:1351 admin/strings.php:1692
+#: admin/strings.php:1795 admin/strings.php:1807 admin/strings.php:1967
+#: admin/strings.php:2542
+msgid "Featured video"
+msgstr "Uitgelichte video"
+
+#: admin/strings.php:1684
+msgid "Ratio"
+msgstr "Verhouding"
+
+#: admin/strings.php:1676 admin/strings.php:1703 admin/strings.php:1781
+#: admin/strings.php:2010 admin/strings.php:2545 admin/strings.php:2576
+msgid "Video URL"
+msgstr "Video URL"
+
+#: admin/strings.php:1673
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: admin/strings.php:1659
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: admin/strings.php:2343
+msgid "Email"
+msgstr "E-mail"
+
+#: admin/strings.php:1610
+msgid "If you intend to use FIFU on multiple distinct sites, you can purchase additional license keys <a href='https://fifu.app/#price' target='_blank'>here</a>."
+msgstr "Als je FIFU op meerdere verschillende sites wil gebruiken, kun je meer licentiesleutels kopen <a href='https://fifu.app/#price' target='_blank'>hier</a>."
+
+#: admin/strings.php:1542
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/strings.php:1536
+msgid "The plugin automatically adds its add-on to WP All Import."
+msgstr "De plugin voegt automatisch zijn add-on toe aan WP All Import."
+
+#: admin/strings.php:1498 admin/strings.php:1545
+msgid "CSV example"
+msgstr "CSV voorbeeld"
+
+#: admin/strings.php:1492
+msgid "Importing products..."
+msgstr "Importeren producten..."
+
+#: admin/strings.php:1385
+msgid "Hide from grid"
+msgstr "Verberg van raster"
+
+#: admin/strings.php:1377
+msgid "Show the video thumbnail instead of the video itself. Thumbnails are images, so they load much faster than embedded videos."
+msgstr "Toon de video thumbnail in plaats van de video. Thumbnails zijn afbeeldingen, dus ze worden veel sneller geladen dan ingesloten video's."
+
+#: admin/strings.php:1301
+msgid "Transition duration (in ms)"
+msgstr "Overgangsduur (in ms)"
+
+#: admin/strings.php:1298
+msgid "Time between each transition (in ms)"
+msgstr "Tijd tussen elke overgang (in ms)"
+
+#: admin/strings.php:1280
+msgid "Show gallery on click"
+msgstr "Toon galerij bij klikken"
+
+#: admin/strings.php:1271
+msgid "Pause autoplay on hover"
+msgstr "Pauzeer automatisch afspelen bij hoveren"
+
+#: admin/strings.php:713
+msgid "minimum width (px)"
+msgstr "minimale breedte (px)"
+
+#: admin/strings.php:1219
+msgid "WooCommerce REST API"
+msgstr "WooCommerce REST API"
+
+#: admin/strings.php:1216
+msgid "WordPress REST API"
+msgstr "WordPress REST API"
+
+#: admin/strings.php:1213 admin/strings.php:1507
+msgid "Key"
+msgstr "Sleutel"
+
+#: admin/strings.php:265 admin/strings.php:976 admin/strings.php:2372
+msgid "Image"
+msgstr "Afbeelding"
+
+#: admin/strings.php:1201
+msgid "Custom post type"
+msgstr "Aangepast berichttype"
+
+#: admin/strings.php:1189
+msgid "Product variation"
+msgstr "Productvariatie"
+
+#: admin/strings.php:1186
+msgid "Product category"
+msgstr "Product categorie"
+
+#: admin/strings.php:1183 admin/strings.php:1982
+msgid "Product"
+msgstr "Product"
+
+#: admin/strings.php:1180 admin/strings.php:1622
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: admin/strings.php:1168
+msgid "product variation"
+msgstr "productvariatie"
+
+#: admin/strings.php:1165
+msgid "variable product"
+msgstr "variabel product"
+
+#: admin/strings.php:1162
+msgid "product category"
+msgstr "product categorie"
+
+#: admin/strings.php:1159
+msgid "Creating your first product"
+msgstr "Je eerste product maken"
+
+#: admin/strings.php:1495
+msgid "Custom fields"
+msgstr "Aangepaste velden"
+
+#: admin/strings.php:1153
+msgid "Endpoints"
+msgstr "Eindpunten"
+
+#: admin/strings.php:1022
+msgid "Requirement: Go to Plugins → Plugin Editor → Select plugin to edit → FIFU → Select. Then change the value of FIFU_DELETE_ALL_URLS from false to true."
+msgstr "Vereiste: ga naar Plugins → Plugin editor → selecteer plugin om te bewerken → FIFU → selecteer. Verander daarna de waarde van FIFU_DELETE_ALL_URLS van false naar true."
+
+#: admin/strings.php:1019
+msgid "delete all your URLs now"
+msgstr "verwijder nu al je URL's"
+
+#: admin/strings.php:1006
+msgid "the toggle will be automatically disabled when finished"
+msgstr "de toggle wordt automatisch uitgeschakeld wanneer het klaar is"
+
+#: admin/strings.php:1003
+msgid "Clear the Image Metadata generated by FIFU, but not the URLs. Run this function if you intend to deactivate the plugin and use only local featured images again."
+msgstr "Reinig de afbeelding metagegevens die door FIFU zijn gegenereerd, maar niet de URL's. Draai het als je van plan bent de plugin te deactiveren en alleen lokale uitgelichte afbeeldingen weer te gebruiken."
+
+#: admin/strings.php:998
+msgid "generate the missing metadata now"
+msgstr "genereer nu de ontbrekende metadata"
+
+#: admin/strings.php:987
+msgid "Update all your posts applying the above configuration. To repeat the process, enable the toggle again."
+msgstr "Update al je berichten met de bovenstaande configuratie. Om het proces te herhalen, schakel je de toggle opnieuw in."
+
+#: admin/strings.php:970
+msgid "overwrite the existing featured media"
+msgstr "overschrijf de bestaande uitgelichte media"
+
+#: admin/strings.php:929
+msgid "Hide the featured media (image, video, or slider) on posts but keep its visibility on the homepage."
+msgstr "Verberg de uitgelichte media (afbeelding, video of slider) op berichten, maar blijft op home zichtbaar."
+
+#: admin/strings.php:889
+msgid "Define the URL of a default image to be displayed when you create or update a post without a featured image."
+msgstr "Definieer de URL van een standaardafbeelding die moet worden weergegeven wanneer je een berichttype maakt (of update) zonder uitgelichte afbeelding."
+
+#: admin/strings.php:884
+msgid "Define the URL of an image to be displayed in case of an image not found error."
+msgstr "Definieer de URL van een afbeelding die moet worden weergegeven in het geval van een fout met afbeelding niet gevonden."
+
+#: admin/strings.php:643
+msgid "reset settings"
+msgstr "reset instellingen"
+
+#: admin/strings.php:573 admin/strings.php:1268 admin/strings.php:1801
+#: admin/strings.php:1810 admin/strings.php:1942 admin/strings.php:1970
+msgid "Featured slider"
+msgstr "Uitgelichte slider"
+
+#: admin/strings.php:561
+msgid "Are you a WordPress developer? Now you can easily integrate your code with FIFU using the functions below."
+msgstr "Ben je een WordPress ontwikkelaar? Nu kun je je code eenvoudig integreren met FIFU met behulp van de onderstaande functies."
+
+#: admin/strings.php:553
+msgid "3. Paste my address into \"Image URL\" field."
+msgstr "3. Plak mijn adres in het veld \"Afbeeldings URL\"."
+
+#: admin/strings.php:544
+msgid "1. Add a new post"
+msgstr "1. Voeg een nieuw bericht toe"
+
+#: admin/strings.php:541
+msgid "You just need to create a post and use me as the featured image:"
+msgstr "Je hoeft alleen maar een bericht te maken en mij als de uitgelichte afbeelding te gebruiken:"
+
+#: admin/strings.php:538
+msgid "Now that you have my address (also known as URL), how about making me famous?"
+msgstr "Aangezien je nu mijn adres hebt (ook bekend als URL), kun je me dan beroemd maken?"
+
+#: admin/strings.php:535
+msgid "Right click me!"
+msgstr "Klik met de rechtermuisknop op mij!"
+
+#: admin/strings.php:532
+msgid "Or just drag me and drop me here"
+msgstr "Of gewoon sleep me en zet me hier neer"
+
+#: admin/strings.php:529
+msgid "3. Paste it here:"
+msgstr "3. Plak het hier:"
+
+#: admin/strings.php:526
+msgid "2. Select \"Copy image address\""
+msgstr "2. Selecteer \"Kopieer afbeelding adres\""
+
+#: admin/strings.php:520
+msgid "Don't you believe me? So why don't you check my Internet address (also known as URL)?"
+msgstr "Geloof je me niet? Dus waarom controleer je mijn internetadres (ook wel URL genoemd) niet?"
+
+#: admin/strings.php:485
+msgid "You probably have a plugin or theme that sets a default image as the Facebook image (og:image meta tag). Just find and disable the option."
+msgstr "Je hebt waarschijnlijk een plugin of thema dat een standaard afbeelding instelt als de Facebook afbeelding (og:image meta tag). Zoek gewoon de optie en schakel deze uit."
+
+#: admin/strings.php:470
+msgid "Facebook doesn't share images"
+msgstr "Facebook deelt mijn afbeeldingen niet"
+
+#: admin/strings.php:467
+msgid "A plugin isn't working with FIFU"
+msgstr "Een plugin werkt niet met FIFU"
+
+#: admin/strings.php:464
+msgid "All images disappeared"
+msgstr "Al mijn afbeeldingen zijn verdwenen"
+
+#: admin/strings.php:461
+msgid "status"
+msgstr "status"
+
+#: admin/strings.php:458
+msgid "with this"
+msgstr "hiermee"
+
+#: admin/strings.php:455
+msgid "If you need help, refer to the troubleshooting or send an email to"
+msgstr "Als je hulp nodig hebt, kan je de probleemoplossing raadplegen of een e-mail sturen naar"
+
+#: admin/strings.php:441
+msgid "Add-On"
+msgstr "Add-on"
+
+#: admin/strings.php:438
+msgid "Import"
+msgstr "Importeren"
+
+#: admin/strings.php:432
+msgid "Auto set category images"
+msgstr "Automatisch instellen van categorie afbeeldingen"
+
+#: admin/strings.php:429
+msgid "Lightbox and Zoom"
+msgstr "Lightbox en zoom"
+
+#: admin/strings.php:420
+msgid "Background Video"
+msgstr "Achtergrond video"
+
+#: admin/strings.php:417
+msgid "Mute"
+msgstr "Dempen"
+
+#: admin/strings.php:411
+msgid "Autoplay"
+msgstr "Automatisch afspelen"
+
+#: admin/strings.php:402
+msgid "Minimum Width"
+msgstr "Minimale breedte"
+
+#: admin/strings.php:399
+msgid "Play Button"
+msgstr "Afspeelknop"
+
+#: admin/strings.php:396
+msgid "Video Thumbnail"
+msgstr "Video thumbnail"
+
+#: admin/strings.php:393 admin/strings.php:2539 admin/strings.php:2570
+msgid "Featured Video"
+msgstr "Uitgelichte video"
+
+#: admin/strings.php:384 admin/strings.php:2567
+msgid "Featured Slider"
+msgstr "Uitgelichte slider"
+
+#: admin/strings.php:378
+msgid "WP / WooCommerce REST API"
+msgstr "WP / WooCommerce REST API"
+
+#: admin/strings.php:366
+msgid "Delete All URLs"
+msgstr "Verwijder alle URL's"
+
+#: admin/strings.php:363
+msgid "Schedule Metadata Generation"
+msgstr "Plan het genereren van metagegevens"
+
+#: admin/strings.php:360
+msgid "Clear Metadata"
+msgstr "Wis meta gegevens"
+
+#: admin/strings.php:357
+msgid "Image Metadata"
+msgstr "Metagegevens van afbeeldingen"
+
+#: admin/strings.php:1265
+msgid "Configuration"
+msgstr "Configuratie"
+
+#: admin/strings.php:345
+msgid "Hide Featured Media"
+msgstr "Verberg uitgelichte media"
+
+#: admin/strings.php:339
+msgid "Default Featured Image"
+msgstr "Standaard uitgelichte afbeelding"
+
+#: admin/strings.php:336
+msgid "Replace Not Found Image"
+msgstr "Vervang niet gevonden afbeelding"
+
+#: admin/strings.php:306
+msgid "Reset Settings"
+msgstr "Reset instellingen"
+
+#: admin/strings.php:303
+msgid "Getting started"
+msgstr "Beginnen"
+
+#: admin/strings.php:28 admin/strings.php:289 admin/strings.php:1616
+msgid "License key"
+msgstr "Licentiesleutel"
+
+#: admin/strings.php:19 admin/strings.php:126 admin/strings.php:286
+msgid "Troubleshooting"
+msgstr "Probleemoplossing"
+
+#: admin/strings.php:283 admin/strings.php:979
+msgid "Video"
+msgstr "Video"
+
+#: admin/strings.php:277
+msgid "Slider"
+msgstr "Slider"
+
+#: admin/strings.php:1233
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/strings.php:271
+msgid "Metadata"
+msgstr "Metadata"
+
+#: admin/strings.php:262
+msgid "Admin"
+msgstr "Beheerder"
+
+#: admin/strings.php:259
+msgid "Help"
+msgstr "Helpen"
+
+#: admin/strings.php:179
+msgid "on custom post types"
+msgstr "op aangepaste berichttypen"
+
+#: admin/strings.php:176
+msgid "on posts "
+msgstr "bij berichten "
+
+#: admin/strings.php:96
+msgid "zoom"
+msgstr "zoom"
+
+#: admin/strings.php:90
+msgid "z-index"
+msgstr "z-index"
+
+#: admin/strings.php:87
+msgid "lightbox"
+msgstr "lightbox"
+
+#: admin/strings.php:84
+msgid "inline"
+msgstr "inline"
+
+#: admin/strings.php:81
+msgid "mode"
+msgstr "modus"
+
+#: admin/strings.php:78
+msgid "color"
+msgstr "kleur"
+
+#: admin/strings.php:144
+msgid "Width"
+msgstr "Breedte"
+
+#: admin/strings.php:67
+msgid "Result"
+msgstr "Resultaat"
+
+#: admin/strings.php:64 admin/strings.php:1687
+msgid "e.g.:"
+msgstr "bijv.:"
+
+#: admin/strings.php:61
+msgid "Example"
+msgstr "Voorbeeld"
+
+#: admin/strings.php:58
+msgid "Tip"
+msgstr "Tip"
+
+#: admin/strings.php:55
+msgid "Requirement"
+msgstr "Vereiste"
+
+#: admin/strings.php:52
+msgid "Important"
+msgstr "Belangrijk"
+
+#: admin/strings.php:1670 admin/strings.php:1706 admin/strings.php:1738
+msgid "OK"
+msgstr "OK"
+
+#: admin/strings.php:44
+msgid "Submit"
+msgstr "Verzenden"
+
+#: admin/strings.php:550 admin/strings.php:567 admin/strings.php:1695
+#: admin/strings.php:1804 admin/strings.php:1964 admin/strings.php:2390
+#: admin/strings.php:2530 admin/strings.php:2605 admin/strings.php:2673
+msgid "Featured image"
+msgstr "Uitgelichte afbeelding"
+
+#: admin/strings.php:576 admin/strings.php:1789 admin/strings.php:2491
+msgid "Product image"
+msgstr "Productafbeelding"
+
+#: admin/strings.php:22 admin/strings.php:123
+msgid "Status"
+msgstr "Status"
+
+#: admin/strings.php:13 admin/strings.php:1917 admin/strings.php:2517
+#: admin/strings.php:2664
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/strings.php:1842
+msgid "Gallery Image (URL)"
+msgstr "Galerijafbeelding (URL)"
+
+#: admin/strings.php:904 admin/strings.php:1667 admin/strings.php:1735
+#: admin/strings.php:1778 admin/strings.php:1839 admin/strings.php:2007
+#: admin/strings.php:2052 admin/strings.php:2404 admin/strings.php:2498
+#: admin/strings.php:2533 admin/strings.php:2573 admin/strings.php:2608
+#: admin/strings.php:2667
+msgid "Image URL"
+msgstr "Afbeelding URL"
+
+#: admin/strings.php:36 admin/strings.php:254
+msgid "Please wait a few seconds..."
+msgstr "Wacht een paar seconden..."
+
+#: admin/strings.php:1874
+msgid "Featured slider (URLs)"
+msgstr "Uitgelichte slider (URL)"
+
+#: admin/strings.php:1862
+msgid "Featured video (URL)"
+msgstr "Uitgelichte video (URL)"
+
+#: admin/strings.php:1833
+msgid "Product Image (URL)"
+msgstr "Productafbeelding (URL)"
+
+#: admin/strings.php:1513 admin/strings.php:1859
+msgid "Featured image title"
+msgstr "Titel van uitgelichte afbeelding"
+
+#: admin/strings.php:1856
+msgid "Featured image (URL)"
+msgstr "Uitgelichte afbeelding (URL)"
+
+#. Author of the plugin
+#: featured-image-from-url.php
+msgid "fifu.app"
+msgstr "fifu.app"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: featured-image-from-url.php
+msgid "https://fifu.app/"
+msgstr "https://fifu.app/"

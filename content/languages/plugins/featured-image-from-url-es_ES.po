@@ -1,0 +1,1464 @@
+# Translation of Plugins - Featured Image from URL (FIFU) - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Featured Image from URL (FIFU) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-21 20:33:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Featured Image from URL (FIFU) - Stable (latest release)\n"
+
+#: admin/strings.php:1195
+msgid "Batch of categories"
+msgstr "Lote de categorías"
+
+#: admin/strings.php:1174
+msgid "batch of categories"
+msgstr "lote de categorías"
+
+#: admin/strings.php:1171
+msgid "batch of products"
+msgstr "lote de productos"
+
+#: admin/strings.php:1192
+msgid "Batch of products"
+msgstr "Lote de productos"
+
+#: admin/strings.php:1054
+msgid "use your site's domain"
+msgstr "utiliza el dominio de tu sitio"
+
+#: admin/strings.php:1105
+msgid "Smartly crop images"
+msgstr "Recorte inteligente de imágenes"
+
+#: admin/strings.php:1117
+msgid "Improve regional availability"
+msgstr "Mejorar la disponibilidad regional"
+
+#: admin/strings.php:1114
+msgid "Enhance content replication"
+msgstr "Mejorar la replicación de contenido"
+
+#: admin/strings.php:1111
+msgid "Optimize image URLs for SEO"
+msgstr "Optimizar las URL de las imágenes para SEO"
+
+#: admin/strings.php:1123
+msgid "Provide dedicated technical support"
+msgstr "Proporcionar soporte técnico dedicado"
+
+#: admin/strings.php:1120
+msgid "Enable cache purging"
+msgstr "Activar la purga de caché"
+
+#: admin/strings.php:1108
+msgid "Expand image processing capabilities"
+msgstr "Ampliar las capacidades de procesamiento de imágenes"
+
+#: admin/strings.php:1027
+msgid "Optimize"
+msgstr "Optimizar"
+
+#: admin/strings.php:135
+msgid "Data"
+msgstr "Datos"
+
+#: admin/strings.php:132
+msgid "Type"
+msgstr "Tipo"
+
+#: admin/strings.php:39
+msgid "Please wait 1 minute..."
+msgstr "Espera 1 minuto..."
+
+#: admin/strings.php:1093
+msgid "Support any image sources"
+msgstr "Compatible con cualquier fuente de imagen"
+
+#: admin/strings.php:1090
+msgid "Serve remote images using your site's domain"
+msgstr "Sirve imágenes remotas utilizando el dominio de tu sitio"
+
+#: admin/strings.php:1051
+msgid "optimize images with FIFU CDN"
+msgstr "optimizar imágenes con FIFU CDN"
+
+#: admin/strings.php:1889
+msgid "Page redirection (forwarding URL)"
+msgstr "Redirección de página (reenvío de URL)"
+
+#: admin/strings.php:1451
+msgid "Set one image for each category. The chosen image will be a random featured image from the products in that category."
+msgstr "Establece una imagen para cada categoría. La imagen elegida será una imagen destacada aleatoria de entre los productos de esa categoría."
+
+#: admin/strings.php:2293
+msgid "Automatic delete"
+msgstr "Borrado automático"
+
+#: admin/strings.php:2296
+msgid "Automatically delete images from the cloud when they are no longer in use on the site, for example, due to a deleted post."
+msgstr "Borra automáticamente las imágenes de la nube cuando ya no se utilicen en el sitio, por ejemplo, debido a una entrada borrada."
+
+#: admin/strings.php:2412
+msgid "Update payment method"
+msgstr "Actualizar el método de pago"
+
+#: admin/strings.php:2253
+msgid "You don't pay for the multiple thumbnails generated for each image."
+msgstr "No pagas por las múltiples miniaturas generadas para cada imagen."
+
+#: admin/strings.php:784
+msgid "Secret key"
+msgstr "Clave secreta"
+
+#: admin/strings.php:781
+msgid "Access key"
+msgstr "Clave de acceso"
+
+#: admin/strings.php:772
+msgid "Credentials"
+msgstr "Credenciales"
+
+#: admin/strings.php:892
+msgid "Default featured image"
+msgstr "Imagen destacada por defecto"
+
+#: admin/strings.php:1758 admin/strings.php:1816 admin/strings.php:1883
+msgid "ASIN"
+msgstr "ASIN"
+
+#: admin/strings.php:159
+msgid "Saved"
+msgstr "Guardado"
+
+#: admin/strings.php:156
+msgid "Saving"
+msgstr "Guardando"
+
+#: admin/strings.php:162
+msgid "Error"
+msgstr "Error"
+
+#: admin/strings.php:240
+msgid "Your license key is invalid."
+msgstr "Tu clave de licencia no es válida."
+
+#: admin/strings.php:292
+msgid "Renew or upgrade"
+msgstr "Renovar o actualizar"
+
+#: admin/strings.php:237
+msgid "Your license key has expired."
+msgstr "Tu clave de licencia ha caducado."
+
+#: admin/strings.php:234
+msgid "Your license key was successfully registered."
+msgstr "Tu clave de licencia se ha registrado correctamente."
+
+#: admin/strings.php:243
+msgid "FIFU is now fully activated, and all features are unlocked."
+msgstr "FIFU está ahora totalmente activado, y todas las características están desbloqueadas."
+
+#: admin/strings.php:31
+msgid "License Key Expired"
+msgstr "Clave de licencia caducada"
+
+#: admin/strings.php:1664 admin/strings.php:1729 admin/strings.php:1784
+#: admin/strings.php:2536 admin/strings.php:2670
+msgid "Alternative text"
+msgstr "Texto alternativo"
+
+#: admin/strings.php:1230
+msgid "Display form"
+msgstr "Mostrar formulario"
+
+#: admin/strings.php:921
+msgid "remove duplicated media"
+msgstr "eliminar medios duplicados"
+
+#: admin/strings.php:918
+msgid "add missing media"
+msgstr "añadir los medios que faltan"
+
+#: admin/strings.php:941
+msgid "Apply the feature to specific post formats:  "
+msgstr "Aplica la característica a los formatos de entrada específicos:  "
+
+#: admin/strings.php:1048
+msgid "optimize secondary images"
+msgstr "optimizar las imágenes secundarias"
+
+#: admin/strings.php:1045
+msgid "optimize featured images"
+msgstr "optimizar las imágenes destacadas"
+
+#: admin/strings.php:375
+msgid "Optimized Images"
+msgstr "Imágenes optimizadas"
+
+#: admin/strings.php:280
+msgid "Audio"
+msgstr "Audio"
+
+#: admin/strings.php:912
+msgid "Modify post content"
+msgstr "Modificar el contenido de la entrada"
+
+#: admin/strings.php:924
+msgid "Apply the feature to specific post types:"
+msgstr "Aplica la característica a los tipos de entrada específicos:"
+
+#: admin/strings.php:973
+msgid "Skip URLs containing these keywords:"
+msgstr "Omitir las URL que contengan estas palabras clave:"
+
+#: admin/strings.php:1459
+msgid "FIFU product gallery"
+msgstr "Galería de productos FIFU"
+
+#: admin/strings.php:909
+msgid "Post content refers to the main body of text within a post. It comes after the post title and doesn't include the featured media (image or video). However, with this feature, you can add the featured media to the top of the content, which may be useful when the theme doesn't render the featured media on single posts. You can also remove media from the content, which is useful when the same media is defined as the featured media, causing unwanted duplication. These changes are dynamic, happening only on page load, so they won't change the database and can be easily undone."
+msgstr "El contenido de la entrada se refiere al cuerpo principal del texto de una entrada. Viene después del título de la entrada y no incluye los medios destacados (imagen o vídeo). Sin embargo, con esta característica, puedes añadir los medios destacados a la parte superior del contenido, lo que puede ser útil cuando el tema no muestra los medios destacados en entradas individuales. También puedes eliminar medios del contenido, lo que es útil cuando los mismos medios se definen como medios destacados, causando una duplicación no deseada. Estos cambios son dinámicos, solo se producen al cargar la página, por lo que no modifican la base de datos y pueden deshacerse fácilmente."
+
+#: admin/strings.php:967
+msgid "auto set featured media from post content"
+msgstr "establecer automáticamente los medios destacados a partir del contenido de la entrada"
+
+#: admin/strings.php:342
+msgid "Modify Post Content"
+msgstr "Modificar el contenido de la entrada"
+
+#: admin/strings.php:517
+msgid "It means I'm NOT in your media library."
+msgstr "Significa que NO estoy en tu biblioteca de medios."
+
+#: admin/strings.php:1732
+msgid "iframe URL"
+msgstr "URL del iframe"
+
+#: admin/strings.php:1471
+msgid "Custom content"
+msgstr "Contenido personalizado"
+
+#: admin/strings.php:372
+msgid "Debug Mode"
+msgstr "Modo de depuración"
+
+#: admin/strings.php:93
+msgid "size"
+msgstr "tamaño"
+
+#: admin/strings.php:202 admin/strings.php:208 admin/strings.php:211
+msgid "YouTube, Vimeo, local videos, remote video files"
+msgstr "YouTube, Vimeo, vídeos locales, archivos de vídeo remotos"
+
+#: admin/strings.php:205
+msgid "YouTube, Vimeo, Odysee, Rumble, local videos, remote video files"
+msgstr "YouTube, Vimeo, Odysee, Rumble, vídeos locales, archivos de vídeo remotos"
+
+#: admin/strings.php:2642
+msgid "Please submit your activation key to use the plugin without limitations."
+msgstr "Envía tu clave de activación para utilizar el plugin sin restricciones."
+
+#: admin/strings.php:321
+msgid "Auto set featured media from custom field"
+msgstr "Establecer automáticamente la imagen destacada desde el campo personalizado"
+
+#: admin/strings.php:129 admin/strings.php:1988
+msgid "Name"
+msgstr "Nombre"
+
+#: admin/strings.php:217
+msgid "YouTube"
+msgstr "YouTube"
+
+#: admin/strings.php:214
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: admin/strings.php:199
+msgid "Available for"
+msgstr "Disponible para"
+
+#: admin/strings.php:1422
+msgid "background video"
+msgstr "vídeo de fondo"
+
+#: admin/strings.php:1414
+msgid "Start videos without audio."
+msgstr "Iniciar vídeos sin audio."
+
+#: admin/strings.php:1409
+msgid "Looping video playback."
+msgstr "Reproducción de vídeo en bucle."
+
+#: admin/strings.php:2076
+msgid "You should also set a featured image. It will be used as the video thumbnail."
+msgstr "También debes establecer una imagen destacada. Se utilizará como miniatura del vídeo."
+
+#: admin/strings.php:1441
+msgid "move to left"
+msgstr "mover a la izquierda"
+
+#: admin/strings.php:1438
+msgid "watch later and queue buttons"
+msgstr "botones «ver más tarde» y «poner en cola»"
+
+#: admin/strings.php:864
+msgid "Portrait"
+msgstr "Vertical"
+
+#: admin/strings.php:861
+msgid "Landscape"
+msgstr "Horizontal"
+
+#: admin/strings.php:740
+msgid "Wide"
+msgstr "Amplio"
+
+#: admin/strings.php:737
+msgid "Tall"
+msgstr "Alto"
+
+#: admin/strings.php:734
+msgid "Square"
+msgstr "Cuadrado"
+
+#: admin/strings.php:1425
+msgid "on single post types only"
+msgstr "solo en tipos de contenido individual"
+
+#: admin/strings.php:2396
+msgid "Date"
+msgstr "Fecha"
+
+#: admin/strings.php:2381
+msgid "Post ID"
+msgstr "ID de la entrada"
+
+#: admin/strings.php:2364
+msgid "Please enter your email"
+msgstr "Por favor, introduce tu correo electrónico"
+
+#: admin/strings.php:2349
+msgid "Enter your email"
+msgstr "Introduce tu correo electrónico"
+
+#: admin/strings.php:2346
+msgid "Site"
+msgstr "Sitio"
+
+#: admin/strings.php:2338
+msgid "To select multiple non-adjacent images, click the first image, press the <b>CTRL</b> key, and click each desired image."
+msgstr "Para seleccionar varias imágenes no adyacentes, haz clic en la primera imagen, pulsa la tecla <b>CTRL</b> y haz clic en cada una de las imágenes deseadas."
+
+#: admin/strings.php:2335
+msgid "To select multiple images adjacent to each other, click the first image, press <b>SHIFT</b> and click the last image."
+msgstr "Para seleccionar varias imágenes adyacentes entre sí, haz clic en la primera imagen, pulsa <b>MAYÚS</b> y haz clic en la última imagen."
+
+#: admin/strings.php:2221
+msgid "Smart cropping"
+msgstr "Recorte inteligente"
+
+#: admin/strings.php:2195
+msgid "featured media"
+msgstr "medios destacados"
+
+#: admin/strings.php:2096
+msgid "Payment and billing information"
+msgstr "Información de pago y facturación"
+
+#: admin/strings.php:1897
+msgid "Default is '|'"
+msgstr "Por defecto es |"
+
+#: admin/strings.php:1999
+msgid "Set featured video with URL"
+msgstr "Establecer vídeo destacado con URL"
+
+#: admin/strings.php:1996
+msgid "Set featured image with URL"
+msgstr "Establecer imagen destacada con URL"
+
+#: admin/strings.php:1836
+msgid "Powered by FIFU plugin"
+msgstr "Funciona con el plugin FIFU"
+
+#: admin/strings.php:1775
+msgid "Please wait..."
+msgstr "Por favor, espera..."
+
+#: admin/strings.php:1679
+msgid "Set frame as thumbnail"
+msgstr "Establecer marco como miniatura"
+
+#: admin/strings.php:1548
+msgid "Importing variable products"
+msgstr "Importar productos variables"
+
+#: admin/strings.php:1489
+msgid "Use FIFU with the import tool from WooCommerce."
+msgstr "Utilizar FIFU con la herramienta de importación de WooCommerce."
+
+#: admin/strings.php:1419
+msgid "Start videos in the background, meaning autoplay with no controls and no sound."
+msgstr "Inicia los vídeos en segundo plano, es decir, con reproducción automática sin controles ni sonido."
+
+#: admin/strings.php:1382
+msgid "Add a play button to the video thumbnail. When clicking on the button, the video will start (in inline or lightbox mode)."
+msgstr "Añade un botón de reproducción a la miniatura del vídeo. Al hacer clic en el botón, se iniciará el vídeo (en modo integrado o caja de luz)."
+
+#: admin/strings.php:1338
+msgid "Enable the addition of featured images to forums, topics, and replies."
+msgstr "Activa la adición de imágenes destacadas a los foros, debates y respuestas."
+
+#: admin/strings.php:1304
+msgid "Previous button"
+msgstr "Botón «Anterior»"
+
+#: admin/strings.php:1277
+msgid "Start autoplay automatically"
+msgstr "Iniciar automáticamente la reproducción automática"
+
+#: admin/strings.php:1274
+msgid "Show previous/next buttons"
+msgstr "Mostrar los botones anterior/siguiente"
+
+#: admin/strings.php:1177 admin/strings.php:1198
+msgid "WordPress post"
+msgstr "Entrada de WordPress"
+
+#: admin/strings.php:678
+msgid "Only save images from specific domains."
+msgstr "Guarda solo imágenes de dominios específicos."
+
+#: admin/strings.php:728
+msgid "Limit the search to one or more specific sites."
+msgstr "Limita la búsqueda a uno o varios sitios concretos."
+
+#: admin/strings.php:719
+msgid "List of prohibited strings in the image URL:"
+msgstr "Lista de cadenas prohibidas en la URL de la imagen:"
+
+#: admin/strings.php:108
+msgid "PRO"
+msgstr "PRO"
+
+#: admin/strings.php:70
+msgid "Note"
+msgstr "Nota"
+
+#: admin/strings.php:414
+msgid "Playback Loop"
+msgstr "Bucle de reproducción"
+
+#: admin/strings.php:300 admin/strings.php:2508
+msgid "Technical support"
+msgstr "Soporte técnico"
+
+#: admin/strings.php:194
+msgid "on mobile phone"
+msgstr "en teléfono móvil"
+
+#: admin/strings.php:1711
+msgid "Use screenshot"
+msgstr "Utiliza la captura de pantalla"
+
+#: admin/strings.php:809
+msgid "If the GIF \"Generating Preview\" appears, ignore it. It means the screenshot was not found in the cache but is being generated on the server. You can save the post and exit the editor. The screenshot will be ready in a few seconds. Refresh the page."
+msgstr "Si aparece el GIF «Generando vista previa», ignóralo. Significa que la captura de pantalla no se encontró en la caché, sino que se está generando en el servidor. Puedes guardar la entrada y salir del editor. La captura de pantalla estará lista en unos segundos. Actualiza la página."
+
+#: admin/strings.php:523
+msgid "1. Right-click on me now"
+msgstr "1. Haz clic derecho sobre mí ahora"
+
+#: admin/strings.php:2180
+msgid "Yes"
+msgstr "Sí"
+
+#: admin/strings.php:2171
+msgid "link"
+msgstr "enlace"
+
+#: admin/strings.php:2165
+msgid "delete"
+msgstr "borrar"
+
+#: admin/strings.php:2150
+msgid "No data available"
+msgstr "No hay datos disponibles"
+
+#: admin/strings.php:2136
+msgid "Connected"
+msgstr "Conectado"
+
+#: admin/strings.php:1923
+msgid "Columns"
+msgstr "Columnas"
+
+#: admin/strings.php:2527 admin/strings.php:2564
+msgid "Featured Image"
+msgstr "Imagen destacada"
+
+#: admin/strings.php:2417 admin/strings.php:2420
+msgid "Close account"
+msgstr "Cerrar cuenta"
+
+#: admin/strings.php:2399
+msgid "Number of images"
+msgstr "Número de imágenes"
+
+#: admin/strings.php:2387
+msgid "Upload date"
+msgstr "Fecha de subida"
+
+#: admin/strings.php:2378
+msgid "Post date"
+msgstr "Fecha de la entrada"
+
+#: admin/strings.php:2375
+msgid "Post title"
+msgstr "Título de la entrada"
+
+#: admin/strings.php:2192
+msgid "gallery"
+msgstr "galería"
+
+#: admin/strings.php:2186
+msgid "category"
+msgstr "categoría"
+
+#: admin/strings.php:2183
+msgid "No"
+msgstr "No"
+
+#: admin/strings.php:2177
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: admin/strings.php:2168
+msgid "upload"
+msgstr "subir"
+
+#: admin/strings.php:2159
+msgid "load more"
+msgstr "cargar más"
+
+#: admin/strings.php:2153
+msgid "select all"
+msgstr "seleccionar todo"
+
+#: admin/strings.php:2147
+msgid "No posts available"
+msgstr "No hay entradas disponibles"
+
+#: admin/strings.php:2139
+msgid "Not connected"
+msgstr "No conectado"
+
+#: admin/strings.php:2073
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: admin/strings.php:1920
+msgid "Rows"
+msgstr "Filas"
+
+#: admin/strings.php:1761
+msgid "Embed code"
+msgstr "Incrustar código"
+
+#: admin/strings.php:1749
+msgid "Audio URL"
+msgstr "URL del audio"
+
+#: admin/strings.php:2621
+msgid "Queue"
+msgstr "Cola"
+
+#: admin/strings.php:2618
+msgid "Watch later"
+msgstr "Ver más tarde"
+
+#: admin/strings.php:2595
+msgid "try again later"
+msgstr "inténtalo más tarde"
+
+#: admin/strings.php:2393
+msgid "Gallery images"
+msgstr "Imágenes de la galería"
+
+#: admin/strings.php:2384
+msgid "Image location"
+msgstr "Ubicación de la imagen"
+
+#: admin/strings.php:2359
+msgid "Reset credentials"
+msgstr "Restablecer credenciales"
+
+#: admin/strings.php:2144
+msgid "No images available"
+msgstr "No hay imágenes disponibles"
+
+#: admin/strings.php:2133
+msgid "Web service is down"
+msgstr "El servicio web no funciona"
+
+#: admin/strings.php:2070
+msgid "Loading more..."
+msgstr "Cargando más..."
+
+#: admin/strings.php:1928
+msgid "Product gallery settings"
+msgstr "Ajustes de la galería de productos"
+
+#: admin/strings.php:2548
+msgid "Requires FIFU PRO"
+msgstr "Requiere FIFU PRO"
+
+#: admin/strings.php:2514
+msgid "Are you enjoying FIFU? Please give it a 5-star rating!"
+msgstr "¿Te está gustando FIFU? Por favor, ¡dale una puntuación de 5 estrellas!"
+
+#: admin/strings.php:2511
+msgid "Upgrade to <b>PRO</b> for €29.90"
+msgstr "Actualiza a <b>PRO</b> por €29.90"
+
+#: admin/strings.php:2431
+msgid "The selected images will be permanently removed from FIFU Cloud and cannot be recovered. Are you sure?"
+msgstr "Las imágenes seleccionadas se eliminarán permanentemente de FIFU Cloud y no se podrán recuperar. ¿Seguro?"
+
+#: admin/strings.php:2428
+msgid "Remove selected image(s)"
+msgstr "Eliminar la(s )imagen(es) seleccionada(s)"
+
+#: admin/strings.php:2423
+msgid "All the images you uploaded to FIFU Cloud will be deleted. Are you sure?"
+msgstr "Todas las imágenes que has subido a FIFU Cloud se borrarán. ¿Seguro?"
+
+#: admin/strings.php:2162
+msgid "1,000 rows limit"
+msgstr "Límite de 1.000 filas"
+
+#: admin/strings.php:2156
+msgid "select none"
+msgstr "no seleccionar nada"
+
+#: admin/strings.php:1752
+msgid "Web page URL"
+msgstr "URL de la página web"
+
+#: admin/strings.php:1746
+msgid "Forwarding URL"
+msgstr "URL de reenvío"
+
+#: admin/strings.php:114
+msgid "no"
+msgstr "no"
+
+#: admin/strings.php:111
+msgid "yes"
+msgstr "sí"
+
+#: admin/strings.php:47
+msgid "Copy to clipboard"
+msgstr "Copiar al portapapeles"
+
+#: admin/strings.php:25
+msgid "Upgrade to <b>PRO</b>"
+msgstr "Actualizar a <b>PRO</b>"
+
+#: admin/strings.php:500
+msgid "Changes have no effect"
+msgstr "Los cambios no tienen efecto"
+
+#: admin/strings.php:497
+msgid "Images saved in the media library"
+msgstr "Imágenes guardadas en la biblioteca de medios"
+
+#: admin/strings.php:2021
+msgid "Clear"
+msgstr "Vaciar"
+
+#: admin/strings.php:168 admin/strings.php:2018
+msgid "Save"
+msgstr "Guardar"
+
+#: admin/strings.php:1539
+msgid "Importing..."
+msgstr "Importando..."
+
+#: admin/strings.php:944
+msgid "Post formats found on your site:"
+msgstr "Formatos de entrada encontrados en tu sitio: "
+
+#: admin/strings.php:932
+msgid "Hide"
+msgstr "Ocultar"
+
+#: admin/strings.php:635
+msgid "Command example"
+msgstr "Ejemplo de comando"
+
+#: admin/strings.php:632
+msgid "Action"
+msgstr "Acción"
+
+#: admin/strings.php:608
+msgid "Create a post"
+msgstr "Crea una entrada"
+
+#: admin/strings.php:602 admin/strings.php:1156
+msgid "FIFU custom fields"
+msgstr "Campos personalizados de FIFU"
+
+#: admin/strings.php:599
+msgid "FIFU commands"
+msgstr "Comandos de FIFU"
+
+#: admin/strings.php:579
+msgid "Product video"
+msgstr "Vídeo del producto"
+
+#: admin/strings.php:1828
+msgid "Custom popup"
+msgstr "Ventana emergente personalizada"
+
+#: admin/strings.php:348
+msgid "Custom Popup"
+msgstr "Ventana emergente personalizada"
+
+#: admin/strings.php:1435
+msgid "Adds the Watch Later and Queue buttons."
+msgstr "Añade los botones «Ver más tarde» y «Cola»."
+
+#: admin/strings.php:426
+msgid "Watch Later"
+msgstr "Ver más tarde"
+
+#: admin/strings.php:2457
+msgid "If it's a temporary deactivation"
+msgstr "Es una desactivación temporal"
+
+#: admin/strings.php:2454
+msgid "If you don't intend to use FIFU again"
+msgstr "Si no tienes intención de volver a utilizar FIFU"
+
+#: admin/strings.php:2451
+msgid "Deactivate"
+msgstr "Desactivar"
+
+#: admin/strings.php:2448
+msgid "Clear metadata and deactivate"
+msgstr "Vaciar metadatos y desactivar"
+
+#: admin/strings.php:1581
+msgid "Images"
+msgstr "Imágenes"
+
+#: admin/strings.php:1587
+msgid "Custom Fields"
+msgstr "Campos personalizados"
+
+#: admin/strings.php:1599
+msgid "Do NOT add FIFU custom fields"
+msgstr "NO añadas campos personalizados de FIFU"
+
+#: admin/strings.php:1596
+msgid "Do NOT add filenames or URLs. Keep the text fields EMPTY"
+msgstr "NO añadas nombres de archivos ni URLs. Mantén los campos de texto VACÍOS"
+
+#: admin/strings.php:1593
+msgid "URLs in different columns"
+msgstr "URLs en diferentes columnas"
+
+#: admin/strings.php:1590
+msgid "List of URLs delimited by comma"
+msgstr "Lista de URLs delimitadas por comas"
+
+#: admin/strings.php:2460
+msgid "Why are you deactivating FIFU?"
+msgstr "¿Por qué desactivas FIFU?"
+
+#: admin/strings.php:1242
+msgid "Required parameters"
+msgstr "Parámetros necesarios"
+
+#: admin/strings.php:1227
+msgid "Display media"
+msgstr "Mostrar medios"
+
+#: admin/strings.php:1257
+msgid "Input field for featured image URL"
+msgstr "Campo de entrada para la URL de la imagen destacada"
+
+#: admin/strings.php:1251
+msgid "Displays the product gallery"
+msgstr "Muestra la galería de productos"
+
+#: admin/strings.php:1245
+msgid "Displays the featured image/video"
+msgstr "Muestra la imagen/vídeo destacado"
+
+#: admin/strings.php:1333
+msgid "Custom field name (optional)"
+msgstr "Nombre del campo personalizado (opcional)"
+
+#: admin/strings.php:1354
+msgid "Video files"
+msgstr "Archivos de vídeo"
+
+#: admin/strings.php:1330
+msgid "Disclaimer (optional)"
+msgstr "Descargo de responsabilidad (opcional)"
+
+#: admin/strings.php:1327
+msgid "Buy now (optional)"
+msgstr "Comprar ahora (opcional)"
+
+#: admin/strings.php:1321
+msgid "Disclaimer"
+msgstr "Descargo de responsabilidad"
+
+#: admin/strings.php:1318
+msgid "Text button"
+msgstr "Botón de texto"
+
+#: admin/strings.php:369
+msgid "Featured Audio"
+msgstr "Audio destacado"
+
+#: admin/strings.php:1822
+msgid "Featured audio"
+msgstr "Audio destacado"
+
+#: admin/strings.php:191
+msgid "on desktop"
+msgstr "en ordenadores de escritorio"
+
+#: admin/strings.php:1295
+msgid "Vertical mode"
+msgstr "Modo vertical"
+
+#: admin/strings.php:591
+msgid "Product category video"
+msgstr "Vídeo de la categoría de producto"
+
+#: admin/strings.php:1993
+msgid "Quick edit"
+msgstr "Edición rápida"
+
+#: admin/strings.php:1395
+msgid "You can disable video controls here."
+msgstr "Aquí puedes desactivar los controles de vídeo."
+
+#: admin/strings.php:405
+msgid "Video Controls"
+msgstr "Controles de vídeo"
+
+#: admin/strings.php:2090 admin/strings.php:2128
+msgid "Account"
+msgstr "Cuenta"
+
+#: admin/strings.php:1825
+msgid "Page redirection"
+msgstr "Redirección de página"
+
+#: admin/strings.php:351
+msgid "Page Redirection"
+msgstr "Redirección de página"
+
+#: admin/strings.php:2329
+msgid "Adjacent"
+msgstr "Adyacente"
+
+#: admin/strings.php:2326
+msgid "Multiple image selection"
+msgstr "Selección múltiple de imágenes"
+
+#: admin/strings.php:2332
+msgid "Non-adjacent"
+msgstr "No adyacente"
+
+#: admin/strings.php:2321
+msgid "Current cost"
+msgstr "Coste actual"
+
+#: admin/strings.php:2315
+msgid "End date"
+msgstr "Fecha de finalización"
+
+#: admin/strings.php:2312
+msgid "Start date"
+msgstr "Fecha de inicio"
+
+#: admin/strings.php:2318
+msgid "Daily average of stored images"
+msgstr "Media diaria de imágenes almacenadas"
+
+#: admin/strings.php:2309
+msgid "Current 30-day period"
+msgstr "Periodo actual de 30 días"
+
+#: admin/strings.php:2290
+msgid "When an image is deleted from the cloud, you are no longer charged from the next day."
+msgstr "Cuando se borra una imagen de la nube, ya no se te cobra a partir del día siguiente."
+
+#: admin/strings.php:2125
+msgid "Trash"
+msgstr "Papelera"
+
+#: admin/strings.php:2122
+msgid "Local images"
+msgstr "Imágenes locales"
+
+#: admin/strings.php:2116
+msgid "Upload"
+msgstr "Subir"
+
+#: admin/strings.php:2108
+msgid "Billing"
+msgstr "Facturación"
+
+#: admin/strings.php:2105
+msgid "Link local image URLs to FIFU plugin"
+msgstr "Enlazar las URLs de las imágenes locales al plugin FIFU"
+
+#: admin/strings.php:2099
+msgid "Upload to Cloud"
+msgstr "Subir a la nube"
+
+#: admin/strings.php:2274
+msgid "Total price"
+msgstr "Precio total"
+
+#: admin/strings.php:2271
+msgid "Price per image"
+msgstr "Precio por imagen"
+
+#: admin/strings.php:2262
+msgid "Number of days"
+msgstr "Número de días"
+
+#: admin/strings.php:2119 admin/strings.php:2174
+msgid "Delete"
+msgstr "Borrar"
+
+#: admin/strings.php:2113
+msgid "Welcome"
+msgstr "Te damos la bienvenida"
+
+#: admin/strings.php:2102
+msgid "Delete from Cloud"
+msgstr "Borrar de la nube"
+
+#: admin/strings.php:2367
+msgid "Sign up"
+msgstr "Registrarse"
+
+#: admin/strings.php:2087
+msgid "Pricing"
+msgstr "Precios"
+
+#: admin/strings.php:222
+msgid "Chrome extension"
+msgstr "Extensión de Chrome"
+
+#: admin/strings.php:1462
+msgid "Adaptive height"
+msgstr "Altura adaptable"
+
+#: admin/strings.php:755 admin/strings.php:769 admin/strings.php:801
+#: admin/strings.php:818 admin/strings.php:838 admin/strings.php:1324
+msgid "Custom field"
+msgstr "Campo personalizado"
+
+#: admin/strings.php:1819
+msgid "Media finder"
+msgstr "Buscador de medios"
+
+#: admin/strings.php:832
+msgid "look for embedded videos"
+msgstr "busca vídeos incrustados"
+
+#: admin/strings.php:333
+msgid "Disable right-click"
+msgstr "Desactivar el clic derecho"
+
+#: admin/strings.php:869
+msgid "Disable right-click on all images."
+msgstr "Desactivar el clic derecho en todas las imágenes."
+
+#: admin/strings.php:2049
+msgid "More"
+msgstr "Más"
+
+#: admin/strings.php:1572 admin/strings.php:2040
+msgid "Examples"
+msgstr "Ejemplos"
+
+#: admin/strings.php:2013 admin/strings.php:2043
+msgid "Keywords"
+msgstr "Palabras clave"
+
+#: admin/strings.php:1973
+msgid "Image search"
+msgstr "Búsqueda de imágenes"
+
+#: admin/strings.php:2002
+msgid "Search Unsplash images. Example: sun,sea"
+msgstr "Busca imágenes en Unsplash. Ejemplo: sol, mar"
+
+#: admin/strings.php:141 admin/strings.php:1236 admin/strings.php:1566
+msgid "Description"
+msgstr "Descripción"
+
+#: admin/strings.php:381
+msgid "FIFU Shortcode"
+msgstr "Shortcode de FIFU"
+
+#: admin/strings.php:1933
+msgid "Featured media"
+msgstr "Medios destacados"
+
+#: admin/strings.php:1557
+msgid "XML"
+msgstr "XML"
+
+#: admin/strings.php:147
+msgid "Height"
+msgstr "Altura"
+
+#: admin/strings.php:444 admin/strings.php:1619
+msgid "Activation"
+msgstr "Activación"
+
+#: admin/strings.php:1726 admin/strings.php:1845 admin/strings.php:2024
+msgid "Upload to media library"
+msgstr "Subir a la biblioteca de medios"
+
+#: admin/strings.php:309
+msgid "Save in the Media Library"
+msgstr "Guardar en la biblioteca de medios"
+
+#: admin/strings.php:596
+msgid "Configure FIFU via command line."
+msgstr "Configura FIFU a través de la línea de comandos."
+
+#: admin/strings.php:105
+msgid "Delimiter"
+msgstr "Delimitador"
+
+#: admin/strings.php:102
+msgid "Fields"
+msgstr "Campos"
+
+#: admin/strings.php:99
+msgid "Function"
+msgstr "Función"
+
+#: admin/strings.php:620
+msgid "Feature"
+msgstr "Característica"
+
+#: admin/strings.php:617 admin/strings.php:1560
+msgid "Section"
+msgstr "Sección"
+
+#: admin/strings.php:614
+msgid "Tab"
+msgstr "Pestaña"
+
+#: admin/strings.php:605
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+#: admin/strings.php:629
+msgid "e.g. (args)"
+msgstr "por ejemplo (argumentos)"
+
+#: admin/strings.php:626
+msgid "Command"
+msgstr "Comando"
+
+#: admin/strings.php:138 admin/strings.php:623
+msgid "Option"
+msgstr "Opción"
+
+#: admin/strings.php:1755 admin/strings.php:1813 admin/strings.php:1880
+msgid "ISBN"
+msgstr "ISBN"
+
+#: admin/strings.php:955
+msgid "Run it for all posts"
+msgstr "Ejecútalo para todas las entradas"
+
+#: admin/strings.php:312
+msgid "Auto set featured image using post title and search engine"
+msgstr "Establecer automáticamente la imagen destacada utilizando el título de la entrada y el motor de búsqueda"
+
+#: admin/strings.php:1283
+msgid "Show thumbnail gallery"
+msgstr "Mostrar la galería de miniaturas"
+
+#. Plugin Name of the plugin
+#: featured-image-from-url.php
+msgid "Featured Image from URL (FIFU)"
+msgstr "Featured Image from URL (FIFU)"
+
+#: admin/strings.php:716
+msgid "minimum height (px)"
+msgstr "altura mínima (px)"
+
+#: admin/strings.php:689 admin/strings.php:752 admin/strings.php:766
+#: admin/strings.php:798 admin/strings.php:815 admin/strings.php:835
+#: admin/strings.php:852 admin/strings.php:952
+msgid "Auto set"
+msgstr "Establecer automáticamente"
+
+#: admin/strings.php:1516
+msgid "Featured video URL"
+msgstr "URL del vídeo destacado"
+
+#: admin/strings.php:1510
+msgid "Featured image URL"
+msgstr "URL de la imagen destacada"
+
+#: admin/strings.php:585 admin/strings.php:1798 admin/strings.php:1979
+msgid "Video gallery"
+msgstr "Galería de vídeos"
+
+#: admin/strings.php:582 admin/strings.php:1792 admin/strings.php:1976
+#: admin/strings.php:2494
+msgid "Image gallery"
+msgstr "Galería de imágenes"
+
+#: admin/strings.php:570 admin/strings.php:1351 admin/strings.php:1692
+#: admin/strings.php:1795 admin/strings.php:1807 admin/strings.php:1967
+#: admin/strings.php:2542
+msgid "Featured video"
+msgstr "Vídeo destacado"
+
+#: admin/strings.php:1684
+msgid "Ratio"
+msgstr "Proporción"
+
+#: admin/strings.php:1676 admin/strings.php:1703 admin/strings.php:1781
+#: admin/strings.php:2010 admin/strings.php:2545 admin/strings.php:2576
+msgid "Video URL"
+msgstr "URL del vídeo"
+
+#: admin/strings.php:1659
+msgid "Remove"
+msgstr "Eliminar"
+
+#: admin/strings.php:2343
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: admin/strings.php:1542
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/strings.php:1301
+msgid "Transition duration (in ms)"
+msgstr "Duración de la transición (en ms)"
+
+#: admin/strings.php:1298
+msgid "Time between each transition (in ms)"
+msgstr "Tiempo entre cada transición (en ms)"
+
+#: admin/strings.php:1280
+msgid "Show gallery on click"
+msgstr "Mostrar galería al hacer clic"
+
+#: admin/strings.php:1271
+msgid "Pause autoplay on hover"
+msgstr "Detener la reproducción automática al pasar el cursor"
+
+#: admin/strings.php:713
+msgid "minimum width (px)"
+msgstr "anchura mínima (px)"
+
+#: admin/strings.php:643
+msgid "reset settings"
+msgstr "restablecer los ajustes"
+
+#: admin/strings.php:573 admin/strings.php:1268 admin/strings.php:1801
+#: admin/strings.php:1810 admin/strings.php:1942 admin/strings.php:1970
+msgid "Featured slider"
+msgstr "Carrusel destacado"
+
+#: admin/strings.php:970
+msgid "overwrite the existing featured media"
+msgstr "sobrescribir los medios destacados existentes"
+
+#: admin/strings.php:929
+msgid "Hide the featured media (image, video, or slider) on posts but keep its visibility on the homepage."
+msgstr "Ocultar los medios destacados (imagen, vídeo o carrusel) en las entradas, pero mantener su visibilidad en la página de inicio."
+
+#: admin/strings.php:461
+msgid "status"
+msgstr "estado"
+
+#: admin/strings.php:458
+msgid "with this"
+msgstr "con esto"
+
+#: admin/strings.php:441
+msgid "Add-On"
+msgstr "Extensión"
+
+#: admin/strings.php:438
+msgid "Import"
+msgstr "Importar"
+
+#: admin/strings.php:411
+msgid "Autoplay"
+msgstr "Reproducción automática"
+
+#: admin/strings.php:402
+msgid "Minimum Width"
+msgstr "Anchura mínima"
+
+#: admin/strings.php:399
+msgid "Play Button"
+msgstr "Botón de reproducción"
+
+#: admin/strings.php:396
+msgid "Video Thumbnail"
+msgstr "Miniatura del vídeo"
+
+#: admin/strings.php:393 admin/strings.php:2539 admin/strings.php:2570
+msgid "Featured Video"
+msgstr "Vídeo destacado"
+
+#: admin/strings.php:384 admin/strings.php:2567
+msgid "Featured Slider"
+msgstr "Carrusel destacado"
+
+#: admin/strings.php:366
+msgid "Delete All URLs"
+msgstr "Borrar todas las URL"
+
+#: admin/strings.php:306
+msgid "Reset Settings"
+msgstr "Restablecer los ajustes"
+
+#: admin/strings.php:303
+msgid "Getting started"
+msgstr "Primeros pasos"
+
+#: admin/strings.php:345
+msgid "Hide Featured Media"
+msgstr "Ocultar los medios destacados"
+
+#: admin/strings.php:339
+msgid "Default Featured Image"
+msgstr "Imagen destacada por defecto"
+
+#: admin/strings.php:336
+msgid "Replace Not Found Image"
+msgstr "Sustituir imagen no encontrada"
+
+#: admin/strings.php:1265
+msgid "Configuration"
+msgstr "Configuración"
+
+#: admin/strings.php:357
+msgid "Image Metadata"
+msgstr "Metadatos de la imagen"
+
+#: admin/strings.php:360
+msgid "Clear Metadata"
+msgstr "Vaciar metadatos"
+
+#: admin/strings.php:1714
+msgid "Image URL or Keywords"
+msgstr "URL de la imagen o palabras clave"
+
+#: admin/strings.php:1286
+msgid "Show counter"
+msgstr "Mostrar contador"
+
+#: admin/strings.php:1385
+msgid "Hide from grid"
+msgstr "Ocultar de la cuadrícula"
+
+#: admin/strings.php:265 admin/strings.php:976 admin/strings.php:2372
+msgid "Image"
+msgstr "Imagen"
+
+#: admin/strings.php:1201
+msgid "Custom post type"
+msgstr "Tipo de contenido personalizado"
+
+#: admin/strings.php:1189
+msgid "Product variation"
+msgstr "Variación del producto"
+
+#: admin/strings.php:1186
+msgid "Product category"
+msgstr "Categoría del producto"
+
+#: admin/strings.php:1183 admin/strings.php:1982
+msgid "Product"
+msgstr "Producto"
+
+#: admin/strings.php:1180 admin/strings.php:1622
+msgid "Documentation"
+msgstr "Documentación"
+
+#: admin/strings.php:1168
+msgid "product variation"
+msgstr "variación del producto"
+
+#: admin/strings.php:1165
+msgid "variable product"
+msgstr "producto variable"
+
+#: admin/strings.php:1162
+msgid "product category"
+msgstr "categoría de producto"
+
+#: admin/strings.php:470
+msgid "Facebook doesn't share images"
+msgstr "Facebook no comparte imágenes"
+
+#: admin/strings.php:467
+msgid "A plugin isn't working with FIFU"
+msgstr "Un plugin no funciona con FIFU"
+
+#: admin/strings.php:464
+msgid "All images disappeared"
+msgstr "Desaparecieron todas las imágenes"
+
+#: admin/strings.php:455
+msgid "If you need help, refer to the troubleshooting or send an email to"
+msgstr "Si necesitas ayuda, consulta el diagnóstico o envía un correo electrónico a"
+
+#: admin/strings.php:544
+msgid "1. Add a new post"
+msgstr "1. Añade una nueva entrada"
+
+#: admin/strings.php:541
+msgid "You just need to create a post and use me as the featured image:"
+msgstr "Solo tienes que crear una entrada y utilizarme como imagen destacada:"
+
+#: admin/strings.php:538
+msgid "Now that you have my address (also known as URL), how about making me famous?"
+msgstr "Ahora que tienes mi dirección (también conocida como URL), ¿qué tal si me haces famoso?"
+
+#: admin/strings.php:535
+msgid "Right click me!"
+msgstr "¡Hazme clic derecho!"
+
+#: admin/strings.php:532
+msgid "Or just drag me and drop me here"
+msgstr "O simplemente arrástrame y suéltame aquí"
+
+#: admin/strings.php:529
+msgid "3. Paste it here:"
+msgstr "3. Pégalo aquí:"
+
+#: admin/strings.php:526
+msgid "2. Select \"Copy image address\""
+msgstr "2. Selecciona «Copiar dirección de la imagen»"
+
+#: admin/strings.php:520
+msgid "Don't you believe me? So why don't you check my Internet address (also known as URL)?"
+msgstr "¿No me crees? Entonces, ¿por qué no compruebas mi dirección de Internet (también conocida como URL)?"
+
+#: admin/strings.php:61
+msgid "Example"
+msgstr "Ejemplo"
+
+#: admin/strings.php:58
+msgid "Tip"
+msgstr "Consejo"
+
+#: admin/strings.php:55
+msgid "Requirement"
+msgstr "Requisito"
+
+#: admin/strings.php:52
+msgid "Important"
+msgstr "Importante˙"
+
+#: admin/strings.php:1670 admin/strings.php:1706 admin/strings.php:1738
+msgid "OK"
+msgstr "OK"
+
+#: admin/strings.php:44
+msgid "Submit"
+msgstr "Enviar"
+
+#: admin/strings.php:550 admin/strings.php:567 admin/strings.php:1695
+#: admin/strings.php:1804 admin/strings.php:1964 admin/strings.php:2390
+#: admin/strings.php:2530 admin/strings.php:2605 admin/strings.php:2673
+msgid "Featured image"
+msgstr "Imagen destacada"
+
+#: admin/strings.php:576 admin/strings.php:1789 admin/strings.php:2491
+msgid "Product image"
+msgstr "Imagen del producto"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: featured-image-from-url.php
+msgid "https://fifu.app/"
+msgstr "https://fifu.app/"
+
+#. Author of the plugin
+#: featured-image-from-url.php
+msgid "fifu.app"
+msgstr "fifu.app"
+
+#: admin/strings.php:22 admin/strings.php:123
+msgid "Status"
+msgstr "Estado"
+
+#: admin/strings.php:36 admin/strings.php:254
+msgid "Please wait a few seconds..."
+msgstr "Por favor, espera unos segundos..."
+
+#: admin/strings.php:1833
+msgid "Product Image (URL)"
+msgstr "Imagen del producto (URL)"
+
+#: admin/strings.php:1862
+msgid "Featured video (URL)"
+msgstr "Vídeo destacado (URL)"
+
+#: admin/strings.php:1874
+msgid "Featured slider (URLs)"
+msgstr "Carrusel destacado (URL)"
+
+#: admin/strings.php:904 admin/strings.php:1667 admin/strings.php:1735
+#: admin/strings.php:1778 admin/strings.php:1839 admin/strings.php:2007
+#: admin/strings.php:2052 admin/strings.php:2404 admin/strings.php:2498
+#: admin/strings.php:2533 admin/strings.php:2573 admin/strings.php:2608
+#: admin/strings.php:2667
+msgid "Image URL"
+msgstr "URL de la imagen"
+
+#: admin/strings.php:1842
+msgid "Gallery Image (URL)"
+msgstr "Imagen de la galería (URL)"
+
+#: admin/strings.php:1856
+msgid "Featured image (URL)"
+msgstr "Imagen destacada (URL)"
+
+#: admin/strings.php:1513 admin/strings.php:1859
+msgid "Featured image title"
+msgstr "Título de la imagen destacada"
+
+#: admin/strings.php:13 admin/strings.php:1917 admin/strings.php:2517
+#: admin/strings.php:2664
+msgid "Settings"
+msgstr "Ajustes"

@@ -1,0 +1,617 @@
+# Translation of Plugins - Ultimate FAQ Accordion Plugin - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Ultimate FAQ Accordion Plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-08-23 14:44:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Ultimate FAQ Accordion Plugin - Stable (latest release)\n"
+
+#. Author of the plugin
+#: ultimate-faqs.php
+msgid "Etoile Web Design"
+msgstr "Etoile Web Design"
+
+#: includes/InstallationWalkthrough.class.php:439
+msgid "Skip Setup"
+msgstr "Пропустить настройку"
+
+#: includes/InstallationWalkthrough.class.php:432
+msgid "Finish"
+msgstr "Завершить"
+
+#: includes/InstallationWalkthrough.class.php:429
+msgid "Save Options"
+msgstr "Сохранить настройки"
+
+#: includes/InstallationWalkthrough.class.php:415
+#: includes/Settings.class.php:531
+msgid "FAQ Ordering"
+msgstr "Порядок ЧаВо"
+
+#: includes/InstallationWalkthrough.class.php:400
+#: includes/Settings.class.php:470
+msgid "Group FAQs by Category"
+msgstr "Группа ЧаВо по категориям"
+
+#: includes/InstallationWalkthrough.class.php:385
+msgid "FAQ Toggle"
+msgstr "Переключатель ЧаВо"
+
+#: includes/InstallationWalkthrough.class.php:370
+#: includes/Settings.class.php:326
+msgid "FAQ Accordion"
+msgstr "Разворачивание ЧаВо"
+
+#: includes/InstallationWalkthrough.class.php:352
+msgid "Create Page"
+msgstr "Создать страницу"
+
+#: includes/InstallationWalkthrough.class.php:341
+msgid "You can create a dedicated FAQ page below, or skip this step and add your FAQs to a page you've already created manually."
+msgstr "Вы можете создать отдельную страницу ЧаВо ниже или пропустить этот шаг и добавить свои ЧаВо на страницу, которую вы уже создали вручную."
+
+#: includes/InstallationWalkthrough.class.php:324
+msgid "Category"
+msgstr "Категория"
+
+#: includes/InstallationWalkthrough.class.php:297
+#: includes/InstallationWalkthrough.class.php:323
+msgid "Answer"
+msgstr "Ответ"
+
+#: includes/InstallationWalkthrough.class.php:313
+msgid "Add FAQ"
+msgstr "Добавить ЧаВо"
+
+#: includes/InstallationWalkthrough.class.php:339
+msgid "3. Add an FAQ Page"
+msgstr "3. Добавление страницы ЧаВо"
+
+#: includes/InstallationWalkthrough.class.php:365
+msgid "4. Set Key Options"
+msgstr "4. Настройки ключа"
+
+#: includes/InstallationWalkthrough.class.php:288
+msgid "Create your first set of questions and answers. Don't worry, you can always add more later."
+msgstr "Создайте свой первый набор вопросов и ответов. Не волнуйтесь, позже вы сможете добавить ещё."
+
+#: includes/InstallationWalkthrough.class.php:286
+msgid "2. Questions & Answers"
+msgstr "2. Вопросы и ответы"
+
+#: includes/InstallationWalkthrough.class.php:273
+msgid "Description"
+msgstr "Описание"
+
+#: includes/InstallationWalkthrough.class.php:272
+#: includes/Settings.class.php:498
+msgid "Name"
+msgstr "Название"
+
+#: includes/InstallationWalkthrough.class.php:263
+msgid "Add Category"
+msgstr "Добавить категорию"
+
+#: includes/InstallationWalkthrough.class.php:246
+msgid "Categories let you organize your FAQs in a way that's easy for you - and your customers - to find."
+msgstr "Категории позволяют упорядочить ЧаВо так, чтобы вам и вашим клиентам их было легко найти."
+
+#: includes/InstallationWalkthrough.class.php:244
+msgid "1. Create Categories"
+msgstr "1. Создание категории"
+
+#: includes/InstallationWalkthrough.class.php:240
+msgid "Thanks for choosing Ultimate FAQs! The following will help you get started with the setup by creating your first FAQ and category, as well as adding your FAQs to a page and configuring a few key options."
+msgstr "Спасибо, что выбрали Ultimate FAQs! Мастер настройки поможет вам создать первые ЧаВо и категорию, а также добавить ЧаВо на страницу и выполнить несколько ключевых настроек."
+
+#: includes/InstallationWalkthrough.class.php:239
+msgid "Welcome to Ultimate FAQs"
+msgstr "Добро пожаловать в Ultimate FAQs"
+
+#: includes/InstallationWalkthrough.class.php:53
+#: includes/InstallationWalkthrough.class.php:54
+msgid "Ultimate FAQs - Welcome!"
+msgstr "Ultimate FAQs — Добро пожаловать!"
+
+#: includes/DeactivationSurvey.class.php:44
+msgid "Please share what wasn't working"
+msgstr "Пожалуйста, сообщите о том, что не работает"
+
+#: includes/AboutUs.class.php:246 includes/ReviewAsk.class.php:57
+msgid "Email Address"
+msgstr "Адрес электронной почты"
+
+#: includes/Blocks.class.php:163 includes/Patterns.class.php:54
+#: includes/WPForms.class.php:46
+msgid "Ultimate FAQs"
+msgstr "Ultimate FAQs"
+
+#: includes/Settings.class.php:248
+msgid "Icon"
+msgstr "Иконка"
+
+#: includes/Settings.class.php:626 includes/Settings.class.php:740
+msgid "Styling"
+msgstr "Стиль"
+
+#: views/View.class.php:127
+msgid "Load More"
+msgstr "Загрузить больше"
+
+#: includes/InstallationWalkthrough.class.php:333
+#: includes/InstallationWalkthrough.class.php:359
+#: includes/InstallationWalkthrough.class.php:431 views/View.class.php:125
+msgid "Previous"
+msgstr "Назад"
+
+#: views/View.class.php:129
+msgid "Share"
+msgstr "Поделиться"
+
+#: includes/CustomPostTypes.class.php:174
+msgid "Need Help?"
+msgstr "Нужна помощь?"
+
+#: includes/DeactivationSurvey.class.php:75
+msgid "Skip and Deactivate"
+msgstr "Пропустить и деактивировать"
+
+#: includes/DeactivationSurvey.class.php:74
+msgid "Submit and Deactivate"
+msgstr "Сохранить и деактивировать"
+
+#: includes/DeactivationSurvey.class.php:59
+msgid "If you have a moment, please share why you are deactivating Ultimate FAQs:"
+msgstr "Если у вас есть время, пожалуйста, поделитесь, почему вы деактивируете Ultimate FAQs:"
+
+#: includes/DeactivationSurvey.class.php:58
+msgid "Quick Feedback"
+msgstr "Быстрая обратная связь"
+
+#: includes/DeactivationSurvey.class.php:51
+msgid "Please share the reason"
+msgstr "Поделитесь, пожалуйста, причиной"
+
+#: includes/DeactivationSurvey.class.php:50
+msgid "Other"
+msgstr "Другая"
+
+#: includes/DeactivationSurvey.class.php:47
+msgid "It's a temporary deactivation"
+msgstr "Это временная деактивация"
+
+#: includes/DeactivationSurvey.class.php:43
+msgid "I couldn't get the plugin to work"
+msgstr "Плагин не работает"
+
+#: includes/DeactivationSurvey.class.php:40
+msgid "Please share which plugin"
+msgstr "Укажите, пожалуйста, плагин"
+
+#: includes/DeactivationSurvey.class.php:39
+msgid "I'm switching to a different plugin"
+msgstr "Меняю этот плагин на другой"
+
+#: includes/DeactivationSurvey.class.php:36
+msgid "I no longer need the plugin"
+msgstr "Плагин больше не нужен"
+
+#: ultimate-faqs.php:581
+msgid "MENU"
+msgstr "МЕНЮ"
+
+#: includes/Settings.class.php:288
+msgid "Set Access Role"
+msgstr "Выберите роль доступа"
+
+#: includes/Settings.class.php:246
+msgid "None"
+msgstr "Никакая"
+
+#: views/View.class.php:143
+msgid "This is only used to verify the authenticity of the FAQ. It is not displayed anywhere."
+msgstr "Используется только для проверки подлинности ЧаВо и нигде не отображается."
+
+#: views/View.class.php:142
+msgid "Author Email"
+msgstr "Электронная почта автора"
+
+#: includes/WooCommerce.class.php:172 includes/WooCommerce.class.php:321
+msgid "Add?"
+msgstr "Добавить?"
+
+#: includes/WooCommerce.class.php:165
+msgid "All Categories"
+msgstr "Все категории"
+
+#: includes/CustomPostTypes.class.php:50 includes/WooCommerce.class.php:173
+#: includes/WooCommerce.class.php:200 includes/WooCommerce.class.php:322
+msgid "FAQ"
+msgstr "ЧаВо"
+
+#: includes/CustomPostTypes.class.php:49 includes/CustomPostTypes.class.php:51
+#: includes/CustomPostTypes.class.php:52 includes/patterns/faqs.php:6
+#: includes/Settings.class.php:76 includes/WooCommerce.class.php:129
+#: includes/WPForms.class.php:31 ultimate-faqs.php:543 views/View.class.php:128
+msgid "FAQs"
+msgstr "ЧаВо"
+
+#: includes/WooCommerce.class.php:199
+msgid "Delete?"
+msgstr "Удалить?"
+
+#: includes/WooCommerce.class.php:187
+msgid "Add FAQs"
+msgstr "Добавить ЧаВо"
+
+#: includes/WooCommerce.class.php:155
+msgid "You can use the form below to select which FAQs to display for this product, or leave it blank to use the default category naming system."
+msgstr "Вы можете использовать форму ниже, чтобы выбрать, какие ЧаВо отображать для этого товара, или оставьте пустым, чтобы использовать систему именования категорий по умолчанию."
+
+#: views/View.class.php:116
+msgid "Posted"
+msgstr "Опубликовано"
+
+#: includes/InstallationWalkthrough.class.php:322
+#: includes/OrderingTable.class.php:75
+msgid "Question"
+msgstr "Вопрос"
+
+#: includes/Settings.class.php:304
+msgid "Functionality"
+msgstr "Функциональность"
+
+#: includes/Settings.class.php:170
+msgid "General"
+msgstr "Основное"
+
+#: includes/Settings.class.php:374
+msgid "Display"
+msgstr "Отображение"
+
+#: includes/Dashboard.class.php:129 includes/OrderingTable.class.php:76
+msgid "Views"
+msgstr "Просмотры"
+
+#: includes/Dashboard.class.php:128
+#: includes/InstallationWalkthrough.class.php:420
+#: includes/Settings.class.php:535
+msgid "Title"
+msgstr "Заголовок"
+
+#: views/View.class.php:141
+msgid "What name should be displayed with your FAQ?"
+msgstr "Какое название должно отображаться в вашем ЧаВо?"
+
+#: views/View.class.php:140
+msgid "FAQ Author"
+msgstr "Автор ЧаВо"
+
+#: views/View.class.php:138
+msgid "Proposed Answer"
+msgstr "Предлагаемый ответ"
+
+#: views/View.class.php:137
+msgid "What question is being answered?"
+msgstr "Ответ на какой вопрос?"
+
+#: views/View.class.php:136
+msgid "Question Title"
+msgstr "Название вопроса"
+
+#: views/View.class.php:135
+msgid "Send Question"
+msgstr "Сохранить вопрос"
+
+#: views/View.class.php:134
+msgid "Please fill out the form below to submit a question."
+msgstr "Заполните, пожалуйста, форму ниже, чтобы сохранить вопрос."
+
+#: views/View.class.php:133
+msgid "Submit a Question"
+msgstr "Сохранить вопрос"
+
+#: includes/Settings.class.php:80 views/View.class.php:132
+msgid "Thank you for submitting an FAQ."
+msgstr "Спасибо за сохранение ЧаВо."
+
+#: views/View.class.php:120
+msgid "Search"
+msgstr "Поиск"
+
+#: views/View.class.php:119
+msgid "Enter your question"
+msgstr "Введите вопрос"
+
+#: views/View.class.php:130
+msgid "Did you find this FAQ helpful?"
+msgstr "Вы считаете этот ЧаВо полезным?"
+
+#: views/View.class.php:124
+msgid "Collapse All"
+msgstr "Свернуть всё"
+
+#: views/View.class.php:123
+msgid "Expand All"
+msgstr "Развернуть всё"
+
+#: includes/Settings.class.php:75
+msgid "No result FAQ's contained the term '%s'"
+msgstr "Поиск «%s» в ЧаВо не дал результатов"
+
+#: views/View.class.php:121
+msgid "Permalink"
+msgstr "Постоянная ссылка"
+
+#: views/View.class.php:122
+msgid "Back to Top"
+msgstr "Наверх"
+
+#: includes/InstallationWalkthrough.class.php:280
+#: includes/InstallationWalkthrough.class.php:332
+#: includes/InstallationWalkthrough.class.php:358 views/View.class.php:126
+msgid "Next"
+msgstr "Далее"
+
+#: includes/Settings.class.php:74
+msgid "Retrieving Results"
+msgstr "Получить результаты"
+
+#: includes/Settings.class.php:147 includes/Settings.class.php:148
+#: includes/Settings.class.php:459 ultimate-faqs.php:426 ultimate-faqs.php:567
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/CustomPostTypes.class.php:427 includes/OrderingTable.class.php:78
+#: ultimate-faqs.php:561
+msgid "Tags"
+msgstr "Метки"
+
+#: ultimate-faqs.php:537
+msgid "Dashboard"
+msgstr "Консоль"
+
+#: includes/CustomPostTypes.class.php:130
+msgid "New FAQ Tag Name"
+msgstr "Название новой метки ЧаВо"
+
+#: includes/CustomPostTypes.class.php:129
+msgid "Add New FAQ Tag"
+msgstr "Добавить новую метку ЧаВо"
+
+#: includes/CustomPostTypes.class.php:128
+msgid "Update FAQ Tag"
+msgstr "Обновить метку ЧаВо"
+
+#: includes/CustomPostTypes.class.php:127
+msgid "Edit FAQ Tag"
+msgstr "Изменить метку ЧаВо"
+
+#: includes/CustomPostTypes.class.php:126
+msgid "Parent FAQ Tag:"
+msgstr "Родительская метка ЧаВо:"
+
+#: includes/CustomPostTypes.class.php:125
+msgid "Parent FAQ Tag"
+msgstr "Родительская метка ЧаВо"
+
+#: includes/CustomPostTypes.class.php:124
+msgid "All FAQ Tags"
+msgstr "Все метки ЧаВо"
+
+#: includes/CustomPostTypes.class.php:123
+msgid "Search FAQ Tags"
+msgstr "Поиск меток ЧаВо"
+
+#: includes/CustomPostTypes.class.php:122
+msgid "FAQ Tag"
+msgstr "Метка ЧаВо"
+
+#: includes/CustomPostTypes.class.php:121
+#: includes/CustomPostTypes.class.php:131
+msgid "FAQ Tags"
+msgstr "Метки ЧаВо"
+
+#: includes/CustomPostTypes.class.php:104
+msgid "New FAQ Category Name"
+msgstr "Название новой категории ЧаВо"
+
+#: includes/CustomPostTypes.class.php:103
+msgid "Add New FAQ Category"
+msgstr "Добавить новую категорию ЧаВо"
+
+#: includes/CustomPostTypes.class.php:102
+msgid "Update FAQ Category"
+msgstr "Обновить категорию ЧаВо"
+
+#: includes/CustomPostTypes.class.php:101
+msgid "Edit FAQ Category"
+msgstr "Изменить категорию ЧаВо"
+
+#: includes/CustomPostTypes.class.php:100
+msgid "Parent FAQ Category:"
+msgstr "Родительская категория ЧаВо:"
+
+#: includes/CustomPostTypes.class.php:99
+msgid "Parent FAQ Category"
+msgstr "Родительская категория ЧаВо"
+
+#: includes/CustomPostTypes.class.php:98
+msgid "All FAQ Categories"
+msgstr "Все категории ЧаВо"
+
+#: includes/CustomPostTypes.class.php:97
+msgid "Search FAQ Categories"
+msgstr "Поиск категорий ЧаВо"
+
+#: includes/CustomPostTypes.class.php:96
+#: includes/InstallationWalkthrough.class.php:303
+msgid "FAQ Category"
+msgstr "Категория ЧаВо"
+
+#: includes/CustomPostTypes.class.php:95 includes/CustomPostTypes.class.php:105
+msgid "FAQ Categories"
+msgstr "Категории ЧаВо"
+
+#: includes/CustomPostTypes.class.php:58 includes/patterns/search.php:6
+msgid "Search FAQs"
+msgstr "Поиск ЧаВо"
+
+#: includes/CustomPostTypes.class.php:57
+msgid "View FAQ"
+msgstr "Посмотреть ЧаВо"
+
+#: includes/CustomPostTypes.class.php:56
+msgid "New FAQ"
+msgstr "Новый ЧаВо"
+
+#: includes/CustomPostTypes.class.php:55
+msgid "Edit FAQ"
+msgstr "Изменить ЧаВо"
+
+#: includes/CustomPostTypes.class.php:54
+msgid "Add New FAQ"
+msgstr "Добавить новый ЧаВо"
+
+#: includes/CustomPostTypes.class.php:53 ultimate-faqs.php:549
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: includes/WooCommerce.class.php:215
+msgid "Delete FAQs"
+msgstr "Удалить ЧаВо"
+
+#: includes/Widgets.class.php:412
+msgid "FAQ Category List:"
+msgstr "Список категорий ЧаВо:"
+
+#: includes/Widgets.class.php:406
+msgid "FAQ Category List"
+msgstr "Список категорий ЧаВо"
+
+#: includes/Widgets.class.php:372
+msgid "Insert FAQ posts using a comma-separated list of categories"
+msgstr "Добавьте ЧаВо, разделяя запятыми список категорий"
+
+#: includes/Widgets.class.php:371
+msgid "UFAQ FAQ Category List"
+msgstr "Список категорий ЧаВо"
+
+#: includes/Widgets.class.php:292
+msgid "Display a random FAQ"
+msgstr "Показ случайного ЧаВо"
+
+#: includes/Widgets.class.php:291
+msgid "Random FAQ"
+msgstr "Случайный ЧаВо"
+
+#: includes/Widgets.class.php:210
+msgid "Popular FAQs"
+msgstr "Популярные ЧаВо"
+
+#: includes/Widgets.class.php:174 includes/Widgets.class.php:255
+msgid "Number of FAQs:"
+msgstr "Количество ЧаВо:"
+
+#: includes/AIAssist.class.php:93 includes/Widgets.class.php:168
+#: includes/Widgets.class.php:249
+msgid "Number of FAQs"
+msgstr "Количество ЧаВо"
+
+#: includes/Widgets.class.php:130
+msgid "Insert a number of the most recent FAQs"
+msgstr "Укажите количество последних ЧаВо"
+
+#: includes/Widgets.class.php:129
+msgid "Recent FAQs"
+msgstr "Недавний ЧаВо"
+
+#: includes/Widgets.class.php:97 includes/Widgets.class.php:178
+#: includes/Widgets.class.php:259 includes/Widgets.class.php:340
+#: includes/Widgets.class.php:416
+msgid "Widget Title:"
+msgstr "Название виджета:"
+
+#: includes/Widgets.class.php:169 includes/Widgets.class.php:250
+#: includes/Widgets.class.php:335 includes/Widgets.class.php:407
+msgid "Widget Title"
+msgstr "Название виджета"
+
+#: includes/Widgets.class.php:51
+msgid "Insert FAQ posts using a comma-separated list of post IDs"
+msgstr "Укажите записи с ЧаВо, используя список ID записей через запятую"
+
+#: includes/Widgets.class.php:50
+msgid "UFAQ FAQ ID List"
+msgstr "ID-список ЧаВо"
+
+#: includes/Widgets.class.php:92
+msgid "FAQ ID List:"
+msgstr "ID-список ЧаВо:"
+
+#: includes/Widgets.class.php:85
+msgid "FAQ ID List"
+msgstr "ID-список ЧаВо"
+
+#: includes/Notifications.class.php:47
+msgid "Ultimate FAQs Team"
+msgstr "Команда Ultimate FAQs"
+
+#: includes/Notifications.class.php:46
+msgid "Have a great day,"
+msgstr "Хорошего дня,"
+
+#: includes/Notifications.class.php:44
+msgid "You can view the question in the admin area by going to the following link:<br>"
+msgstr "Вы можете посмотреть вопрос в консоли, перейдя по следующей ссылке:<br>"
+
+#: includes/Notifications.class.php:40
+msgid "The answer reads:<br>"
+msgstr "Ответ таков:<br>"
+
+#: includes/Notifications.class.php:35
+msgid "Hello Admin,"
+msgstr "Здравствуйте, администратор!"
+
+#: includes/Notifications.class.php:33
+msgid "New Question Received"
+msgstr "Получен новый вопрос"
+
+#: includes/CustomPostTypes.class.php:233
+msgid "Down Votes:"
+msgstr "Отрицательные голоса:"
+
+#: includes/CustomPostTypes.class.php:229
+msgid "Up Votes:"
+msgstr "Положительные голоса:"
+
+#: includes/CustomPostTypes.class.php:220
+msgid "Author Display Name:"
+msgstr "Показываемое имя автора:"
+
+#: includes/CustomPostTypes.class.php:164
+msgid "FAQ Details"
+msgstr "Детали ЧаВо"
+
+#: includes/CustomPostTypes.class.php:428
+msgid "Post ID"
+msgstr "ID записи"
+
+#: includes/CustomPostTypes.class.php:426 includes/Dashboard.class.php:130
+#: includes/OrderingTable.class.php:77 ultimate-faqs.php:555
+msgid "Categories"
+msgstr "Категории"
+
+#: includes/CustomPostTypes.class.php:425
+msgid "# of Views"
+msgstr "# просмотров"
+
+#: views/View.FAQ.class.php:631 views/View.FAQ.class.php:643
+#: views/View.FAQ.class.php:655 views/View.FAQ.class.php:667
+msgid "Check out this helpful FAQ"
+msgstr "Проверьте наши полезные ЧаВо"

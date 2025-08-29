@@ -1,0 +1,4594 @@
+# Translation of Plugins - Simple History – Track, Log, and Audit WordPress Changes - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Simple History – Track, Log, and Audit WordPress Changes - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-24 18:12:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Simple History – Track, Log, and Audit WordPress Changes - Stable (latest release)\n"
+
+#. translators: 1: URL to history page, 2: link style attribute including
+#. style=""
+#: templates/email-summary-report.php:190
+msgid "<a href=\"%1$s\" %2$s>View the Simple History event log</a> on your website for a detailed history of changes and activities."
+msgstr "<a href=\"%1$s\" %2$s>I händelseloggen för Simple History</a> på din webbplats hittar du detaljerad historik över ändringar och åtgärder."
+
+#: loggers/class-core-files-logger.php:41
+msgctxt "Core Files Logger: search"
+msgid "Core Files Modifications"
+msgstr "Ändringar i WordPress kärnfiler"
+
+#: loggers/class-core-files-logger.php:37
+msgid "Could not check WordPress core files integrity: {error_message}"
+msgstr "Det gick inte att kontrollera integriteten för WordPress kärnfiler: {error_message}"
+
+#: loggers/class-core-files-logger.php:36
+msgid "Verified integrity restored for {file_count} WordPress core files"
+msgstr "Bekräftad integritet har återställts för {file_count} av WordPress kärnfiler"
+
+#: loggers/class-core-files-logger.php:35
+msgid "Detected modifications to {file_count} WordPress core files"
+msgstr "Ändringar har upptäckts i {file_count} av WordPress kärnfiler"
+
+#: loggers/class-core-files-logger.php:31
+msgid "Core Files Logger"
+msgstr "Loggning av filer i WordPress-kärnan"
+
+#: inc/services/class-simple-history-updates.php:84
+msgid "New features in this version"
+msgstr "Nya funktioner i denna version"
+
+#: inc/services/class-email-report-service.php:445
+msgid "Enable email reports"
+msgstr "Aktivera rapporter via e-post"
+
+#: inc/services/class-email-report-service.php:268
+msgid "Email Reports"
+msgstr "Rapporter via e-post"
+
+#: dropins/class-sidebar-add-ons-dropin.php:198
+msgid "Pin important log entries to the top of the log for easy access."
+msgstr "Klistra viktiga loggposter längst upp i loggen så att de är lättåtkomliga."
+
+#: dropins/class-sidebar-add-ons-dropin.php:191
+msgid "Sticky events"
+msgstr "Klistrade händelser"
+
+#. translators: %d: number of additional files not shown
+#: loggers/class-core-files-logger.php:326
+msgid "%d more file affected"
+msgid_plural "%d more files affected"
+msgstr[0] "Ytterligare %d fil berörs"
+msgstr[1] "Ytterligare %d filer berörs"
+
+#: loggers/class-core-files-logger.php:322
+msgid "Additional files"
+msgstr "Extra filer"
+
+#: loggers/class-core-files-logger.php:301
+msgid "File missing"
+msgstr "Fil saknas"
+
+#: loggers/class-core-files-logger.php:299
+msgid "File unreadable"
+msgstr "Fil kan ej läsas"
+
+#: loggers/class-core-files-logger.php:297
+msgid "Hash mismatch"
+msgstr "Ej matchande hash-värde"
+
+#. translators: %s: issue type
+#: loggers/class-core-files-logger.php:292
+msgid "%s fixed"
+msgstr "%s har korrigerats"
+
+#: loggers/class-core-files-logger.php:289
+msgid "Missing file restored"
+msgstr "Saknad fil återställd"
+
+#: loggers/class-core-files-logger.php:287
+msgid "File readability restored"
+msgstr "Filens läsbarhet återställd"
+
+#: loggers/class-core-files-logger.php:285
+msgid "Hash mismatch fixed"
+msgstr "Ej matchande hash-värde åtgärdat"
+
+#: loggers/class-core-files-logger.php:265
+msgid "Modified Core Files"
+msgstr "Ändra kärnfiler"
+
+#: loggers/class-core-files-logger.php:263
+msgid "Restored Core Files"
+msgstr "Återställda kärnfiler"
+
+#: loggers/class-core-files-logger.php:43
+msgctxt "Core Files Logger: search"
+msgid "Core file modifications"
+msgstr "Ändringar i kärnfiler"
+
+#: loggers/class-core-files-logger.php:32
+msgid "Detects modifications to WordPress core files by checking file integrity against official checksums"
+msgstr "Upptäcker ändringar i WordPress kärnfiler genom att kontrollera filintegriteten med hjälp av officiella kontrollsummor"
+
+#. translators: %1$s: parameter name, %2$s: invalid values, %3$s: valid values.
+#: inc/services/wp-cli-commands/class-wp-cli-list-command.php:54
+msgid "Error: Invalid %1$s values: %2$s. Valid values are: %3$s"
+msgstr "Fel: Fel: Ogiltiga värden för %1$s: %2$s. Följande värden är giltiga: %3$s"
+
+#: inc/services/class-simple-history-updates.php:51
+msgid "Read full release notes"
+msgstr "Läs de fullständiga kommentarerna om versionen"
+
+#: inc/services/class-simple-history-updates.php:37
+#: inc/services/class-simple-history-updates.php:66
+msgid "What's new in this version"
+msgstr "Vad är nytt i denna version"
+
+#. translators: %s: parameter name
+#: inc/class-wp-rest-events-controller.php:1125
+msgid "%s must be a string or array of strings"
+msgstr "%s måste vara en sträng eller en array av strängar"
+
+#. translators: %1$s: parameter name, %2$s: list of valid values
+#: inc/class-wp-rest-events-controller.php:1105
+#: inc/class-wp-rest-events-controller.php:1116
+msgid "%1$s is not one of %2$s"
+msgstr "%1$s ingår inte i %2$s"
+
+#: inc/class-wp-rest-events-controller.php:460
+msgid "Return ungrouped events without occasions grouping."
+msgstr "Returnera ogrupperade händelser utan gruppering av tillfällen."
+
+#: inc/class-wp-rest-events-controller.php:452
+msgid "Context filters as key-value pairs to filter events by context data."
+msgstr "Kontextfilter i form av parade nycklar och värden för att filtrera händelser på kontextdata."
+
+#: inc/class-wp-rest-events-controller.php:442
+msgid "Limit result set to events from specific initiator(s)."
+msgstr "Begränsa resultatuppsättningen till händelser med viss eller vissa initierare."
+
+#: inc/class-log-initiators.php:76 inc/class-log-initiators.php:101
+msgid "WordPress user"
+msgstr "WordPress-användare"
+
+#: templates/email-summary-report.php:392
+msgid "View Activity Log"
+msgstr "Visa aktivitetsloggen"
+
+#: templates/email-summary-report.php:374
+msgid "Updates completed"
+msgstr "Utförda uppdateringar"
+
+#: templates/email-summary-report.php:301
+msgid "Updates"
+msgstr "Uppdateringar"
+
+#: templates/email-summary-report.php:293
+msgid "Posts created"
+msgstr "Inlägg skapat"
+
+#: templates/email-summary-report.php:286
+msgid "Posts and Pages"
+msgstr "Inlägg och sidor"
+
+#: templates/email-summary-report.php:233
+msgid "Activity by day"
+msgstr "Aktivitet per dag"
+
+#: templates/email-summary-report.php:206
+msgid "Website"
+msgstr "Webbplats"
+
+#: templates/email-summary-report.php:174
+msgid "Here's a summary of what happened on your website last week."
+msgstr "Här är en sammanfattning av vad som skedde på din webbplats förra veckan."
+
+#: templates/email-summary-report.php:42
+msgid "Website Activity Summary"
+msgstr "Sammanfattning av webbplatsens aktivitet"
+
+#: inc/services/class-licences-settings-page.php:199
+msgid "How to install an add-on"
+msgstr "Så här installerar du en utökning"
+
+#: inc/services/class-licences-settings-page.php:193
+msgid "If you have bought an add-on then install and activate the add-on and then return here to enter the license key."
+msgstr "Om du har köpt en utökning ska du installera och sedan aktivera dess tillägget och därefter återvända hit för att ange dess licensnyckel."
+
+#: inc/services/class-licences-settings-page.php:190
+msgid "No add-ons activated."
+msgstr "Inga utökningar aktiverade."
+
+#: inc/services/class-email-report-service.php:320
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+#. translators: %s: Site name.
+#: inc/services/class-email-report-service.php:181
+msgid "Weekly Activity Summary for %s"
+msgstr "Veckovis aktivitetsöversikt för %s"
+
+#: inc/class-wp-rest-events-controller.php:1079
+msgid "Failed to unstick event."
+msgstr "Det gick inte att ta bort klistringen av händelsen."
+
+#: inc/class-wp-rest-events-controller.php:1050
+msgid "Failed to stick event."
+msgstr "Det gick inte att klistra händelsen."
+
+#: inc/class-wp-rest-events-controller.php:1042
+#: inc/class-wp-rest-events-controller.php:1071
+msgid "Event not found."
+msgstr "Händelsen hittades inte."
+
+#: templates/email-summary-report.php:438
+msgid "Learn how to unsubscribe/stop receiving emails"
+msgstr "Ta reda på hur du kan avregistrera dig och sluta ta emot e-post"
+
+#: templates/email-summary-report.php:436
+msgid "This email was auto-generated and sent from www.simple-history.com."
+msgstr "Detta e-postmeddelande är automatiskt genererat och har skickats från www.simple-history.com."
+
+#: templates/email-summary-report.php:433
+msgid "You're receiving this email because your email address was entered in the WordPress admin settings for Simple History."
+msgstr "Du får detta e-postmeddelande eftersom din e-postadress är inlagd inställningarna för Simple History i WordPress administrationspanel."
+
+#: templates/email-summary-report.php:412
+msgid "Learn More About Premium"
+msgstr "Läs mer om Premium"
+
+#: templates/email-summary-report.php:407
+msgid "Simple History Premium includes detailed activity breakdowns, user insights, security monitoring, and weekly trends."
+msgstr "Simple History Premium innehåller detaljerade aktivitetsuppgifter, insikter om användare, säkerhetsövervakning och veckotrender."
+
+#: templates/email-summary-report.php:404
+msgid "Want More Insights?"
+msgstr "Vill du ha fler insikter?"
+
+#: templates/email-summary-report.php:223
+msgid "Events this week"
+msgstr "Händelser denna vecka"
+
+#: templates/email-summary-report.php:163
+msgid "Website weekly activity summary"
+msgstr "Sammanfattning av webbplatsens aktivitet under veckan"
+
+#. translators: 1: number of events, 2: day of the week
+#: templates/email-summary-report.php:132
+msgid "%1$d events last week • %2$s was the busiest day"
+msgstr "%1$d händelser förra veckan • Mest aktivitet var det %2$s"
+
+#: templates/email-summary-report.php:128
+msgid "No activity"
+msgstr "Ingen aktivitet"
+
+#: inc/services/class-email-report-service.php:469
+msgid "Enter one email address per line."
+msgstr "Ange en e-postadress per rad."
+
+#. translators: %s: Current user's email address.
+#: inc/services/class-email-report-service.php:356
+msgid "Send test email to %s"
+msgstr "Skicka testmeddelande till %s"
+
+#: inc/services/class-email-report-service.php:349
+msgid "Show email preview"
+msgstr "Visa förhandsgranskning av e-postmeddelande"
+
+#: inc/services/class-email-report-service.php:331
+msgid "Configure automatic email reports with website statistics. Reports are sent every Monday morning."
+msgstr "Konfigurera automatiska rapporter via e-post med webbplatsstatistik. Rapporterna skickas varje måndag morgon."
+
+#: inc/services/class-email-report-service.php:312
+msgid "Recipients"
+msgstr "Mottagare"
+
+#: inc/services/class-email-report-service.php:233
+#: inc/services/class-email-report-service.php:373
+msgid "Failed to send test email."
+msgstr "Det gick inte att skicka testmeddelandet."
+
+#. translators: %s: Email address
+#: inc/services/class-email-report-service.php:225
+msgid "Test email sent successfully to %s."
+msgstr "Testmejl har skickats till %s."
+
+#. translators: 1: start date, 2: end date
+#: inc/services/class-email-report-service.php:123
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: inc/class-wp-rest-stats-controller.php:607
+msgid "Detailed stats."
+msgstr "Detaljerad statistik."
+
+#: inc/class-wp-rest-stats-controller.php:603
+msgid "Summary of stats."
+msgstr "Sammanfattning av statistiken."
+
+#: inc/class-wp-rest-stats-controller.php:597
+msgid "End date as Unix timestamp."
+msgstr "Slutdatum som Unix-tidsstämpel."
+
+#: inc/class-wp-rest-stats-controller.php:593
+msgid "Start date as Unix timestamp."
+msgstr "Startdatum som Unix-tidsstämpel."
+
+#: inc/class-wp-rest-stats-controller.php:589
+msgid "Date range for the stats."
+msgstr "Datumintervall för statistiken."
+
+#: inc/class-wp-rest-stats-controller.php:217
+msgid "Whether to include detailed stats."
+msgstr "Om detaljerad statistik ska inkluderas eller inte."
+
+#: inc/class-wp-rest-stats-controller.php:203
+msgid "End date as Unix timestamp. If not provided, defaults to end of today."
+msgstr "Slutdatum som Unix-tidsstämpel. Om inget anges är standardvärdet slutet av innevarande dygn."
+
+#: inc/class-wp-rest-stats-controller.php:197
+msgid "Start date as Unix timestamp. If not provided, defaults to 28 days ago."
+msgstr "Startdatum som Unix-tidsstämpel. Om inget anges är standardvärdet för 28 dagar sedan."
+
+#: inc/class-wp-rest-stats-controller.php:180
+msgid "Sorry, you are not allowed to view stats."
+msgstr "Du saknar behörighet att se statistik."
+
+#: inc/services/class-stats-service.php:49
+msgctxt "dashboard menu name"
+msgid "History Insights"
+msgstr "Historikinsikter"
+
+#: inc/services/class-stats-service.php:48
+msgctxt "dashboard title name"
+msgid "History Insights - Simple History"
+msgstr "Historikinsikter – Simple History"
+
+#. translators: 1 is number of events, 2 is description of when the plugin was
+#. installed.
+#: dropins/class-sidebar-stats-dropin.php:410
+msgid "A total of <b>%1$s events</b> have been logged since Simple History was installed."
+msgstr "Totalt har <b>%1$s händelser</b> loggats sedan Simple History installerades."
+
+#: dropins/class-sidebar-stats-dropin.php:398
+msgid "Only administrators can see user names and avatars."
+msgstr "Endast administratörer kan se användarnamn och avatarer."
+
+#: dropins/class-sidebar-stats-dropin.php:397
+msgid "Most active users in last 28 days"
+msgstr "Mest aktiva användare under de senaste 28 dagarna"
+
+#: dropins/class-sidebar-stats-dropin.php:384
+msgid "Last 28 days"
+msgstr "Senaste 28 dagarna"
+
+#: dropins/class-sidebar-stats-dropin.php:374
+#: dropins/class-sidebar-stats-dropin.php:380
+#: dropins/class-sidebar-stats-dropin.php:386
+msgid "event"
+msgid_plural "events"
+msgstr[0] "händelse"
+msgstr[1] "händelser"
+
+#: dropins/class-sidebar-stats-dropin.php:372 build/index.js:10
+msgid "Today"
+msgstr "Idag"
+
+#: dropins/class-sidebar-stats-dropin.php:180
+msgid "Daily activity over last 28 days"
+msgstr "Daglig aktivitet för de senaste 28 dagarna"
+
+#. translators: %s date of oldest event.
+#: templates/settings-tab-debug.php:175
+msgctxt "debug dropin"
+msgid "Oldest event is from %1$s and has id %2$s."
+msgstr "Den äldsta händelsen är från %1$s och har ID %2$s."
+
+#: inc/class-wp-rest-events-controller.php:1013
+msgid "Sorry, you are not allowed to update events."
+msgstr "Du saknar behörighet att uppdatera händelser."
+
+#: inc/class-wp-rest-events-controller.php:576
+msgid "Whether the event is sticky and appended to the result set."
+msgstr "Huruvida en händelse är klistrad och inkluderas i resultatuppsättningen."
+
+#: inc/class-wp-rest-events-controller.php:572
+msgid "Whether the event is sticky."
+msgstr "Om händelsen är klistrad."
+
+#: inc/class-wp-rest-events-controller.php:436
+msgid "Only return sticky events."
+msgstr "Returnera endast klistrade händelser."
+
+#: inc/class-wp-rest-events-controller.php:430
+msgid "Include sticky events in the result set."
+msgstr "Inkludera klistrade händelser i resultatuppsättningen."
+
+#: dropins/class-sidebar-stats-dropin.php:353 inc/class-stats-view.php:31
+msgid "History Insights"
+msgstr "Historikinsikter"
+
+#: dropins/class-sidebar-stats-dropin.php:293
+msgid "See all History Insights"
+msgstr "Se alla historikinsikter"
+
+#: inc/class-export.php:207
+msgctxt "CSV export header"
+msgid "Occasions"
+msgstr "Tillfällen"
+
+#: inc/class-export.php:206
+msgctxt "CSV export header"
+msgid "Details"
+msgstr "Uppgifter"
+
+#: inc/class-export.php:205
+msgctxt "CSV export header"
+msgid "Header Message"
+msgstr "Rubrik för meddelande"
+
+#: inc/class-export.php:204
+msgctxt "CSV export header"
+msgid "User Roles"
+msgstr "Användarroller"
+
+#: inc/class-export.php:203
+msgctxt "CSV export header"
+msgid "User Login"
+msgstr "Inloggning av användare"
+
+#: inc/class-export.php:202
+msgctxt "CSV export header"
+msgid "User Email"
+msgstr "Användarens e-post"
+
+#: inc/class-export.php:201
+msgctxt "CSV export header"
+msgid "Message Key"
+msgstr "Nyckel till meddelande"
+
+#: inc/class-export.php:200
+msgctxt "CSV export header"
+msgid "Initiator"
+msgstr "Initiativtagare"
+
+#: inc/class-export.php:199
+msgctxt "CSV export header"
+msgid "Level"
+msgstr "Nivå"
+
+#: inc/class-export.php:198
+msgctxt "CSV export header"
+msgid "Logger"
+msgstr "Loggare"
+
+#: inc/class-export.php:197
+msgctxt "CSV export header"
+msgid "Date (local)"
+msgstr "Datum (lokalt)"
+
+#: inc/class-export.php:196
+msgctxt "CSV export header"
+msgid "Date (UTC)"
+msgstr "Datum (UTC)"
+
+#: dropins/class-export-dropin.php:149
+msgctxt "Export dropin: include headers"
+msgid "Include headers"
+msgstr "Inkludera rubriker"
+
+#: inc/class-events-stats.php:473 inc/services/class-stats-service.php:267
+#: templates/email-summary-report.php:244
+msgid "Saturday"
+msgstr "Lördag"
+
+#: inc/class-events-stats.php:472 inc/services/class-stats-service.php:266
+#: templates/email-summary-report.php:243
+msgid "Friday"
+msgstr "Fredag"
+
+#: inc/class-events-stats.php:471 inc/services/class-stats-service.php:265
+#: templates/email-summary-report.php:242
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: inc/class-events-stats.php:470 inc/services/class-stats-service.php:264
+#: templates/email-summary-report.php:241
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: inc/class-events-stats.php:469 inc/services/class-stats-service.php:263
+#: templates/email-summary-report.php:240
+msgid "Tuesday"
+msgstr "Tisdag"
+
+#: inc/class-events-stats.php:468 inc/services/class-stats-service.php:262
+#: templates/email-summary-report.php:239
+msgid "Monday"
+msgstr "Måndag"
+
+#: inc/class-events-stats.php:467 inc/services/class-stats-service.php:261
+#: templates/email-summary-report.php:245
+msgid "Sunday"
+msgstr "Söndag"
+
+#: inc/services/class-stats-service.php:269
+msgid "Events"
+msgstr "Händelser"
+
+#: inc/class-stats-view.php:805
+msgctxt "stats section title"
+msgid "Activity calendar"
+msgstr "Aktivitetskalender"
+
+#: inc/class-stats-view.php:781
+msgctxt "stats section title"
+msgid "Peak activity days"
+msgstr "Dagar med hög aktivitet"
+
+#: inc/class-stats-view.php:776
+msgctxt "stats section title"
+msgid "Peak activity times"
+msgstr "Tider med hög aktivitet"
+
+#: inc/class-stats-view.php:748
+msgctxt "stats section title"
+msgid "Media"
+msgstr "Media"
+
+#: inc/class-stats-view.php:738
+msgid "Edits"
+msgstr "Redigeringar"
+
+#: inc/class-stats-view.php:734
+msgid "Uploads"
+msgstr "Uppladdningar"
+
+#: inc/class-stats-view.php:721
+msgctxt "stats section title"
+msgid "Posts & pages activity"
+msgstr "Aktivitet för inlägg och sidor"
+
+#: inc/class-stats-view.php:707
+msgid "Updated"
+msgstr "Uppdaterad"
+
+#: inc/class-stats-view.php:703
+msgid "Created"
+msgstr "Skapad"
+
+#: inc/class-stats-view.php:690
+msgctxt "stats section title"
+msgid "User profile activity"
+msgstr "Aktivitet i användarprofiler"
+
+#: inc/class-stats-view.php:684
+msgid "Removed users"
+msgstr "Borttagna användare"
+
+#: inc/class-stats-view.php:680
+msgid "Added users"
+msgstr "Tillagda användare"
+
+#: inc/class-stats-view.php:676
+msgid "Profile updates"
+msgstr "Profiluppdateringar"
+
+#: inc/class-stats-view.php:672 templates/email-summary-report.php:328
+msgid "Failed logins"
+msgstr "Misslyckade inloggningar"
+
+#: inc/class-stats-view.php:668 templates/email-summary-report.php:320
+msgid "Successful logins"
+msgstr "Lyckade inloggningar"
+
+#: inc/class-stats-view.php:649 inc/class-stats-view.php:742
+msgid "Deletions"
+msgstr "Borttagningar"
+
+#: inc/class-stats-view.php:645 templates/email-summary-report.php:358
+msgid "Deactivations"
+msgstr "Inaktiveringar"
+
+#: inc/class-stats-view.php:641
+msgid "Updates done"
+msgstr "Uppdateringar gjorda"
+
+#: inc/class-stats-view.php:637
+msgid "Updates found"
+msgstr "Uppdateringar hittades"
+
+#: inc/class-stats-view.php:633 templates/email-summary-report.php:350
+msgid "Activations"
+msgstr "Aktiveringar"
+
+#: inc/class-stats-view.php:629
+msgid "Installations"
+msgstr "Installationer"
+
+#: inc/class-stats-view.php:550
+msgid "Outside selected date range"
+msgstr "Utanför valt datumintervall"
+
+#. translators: %d: number of events
+#: inc/class-stats-view.php:549
+msgid "%d event"
+msgid_plural "%d events"
+msgstr[0] "%d händelse"
+msgstr[1] "%d händelser"
+
+#: inc/class-stats-view.php:516
+msgid "Sat"
+msgstr "Lör"
+
+#: inc/class-stats-view.php:515
+msgid "Fri"
+msgstr "Fre"
+
+#: inc/class-stats-view.php:514
+msgid "Thu"
+msgstr "Tor"
+
+#: inc/class-stats-view.php:513
+msgid "Wed"
+msgstr "Ons"
+
+#: inc/class-stats-view.php:512
+msgid "Tue"
+msgstr "Tis"
+
+#: inc/class-stats-view.php:511
+msgid "Mon"
+msgstr "Mån"
+
+#: inc/class-stats-view.php:510
+msgid "Sun"
+msgstr "Sön"
+
+#: inc/class-stats-view.php:461 inc/class-stats-view.php:603
+msgid "View more details"
+msgstr "Visa fler detaljer"
+
+#: inc/class-stats-view.php:411
+msgctxt "stats table header"
+msgid "Events"
+msgstr "Händelser"
+
+#: inc/class-stats-view.php:410
+msgctxt "stats table header"
+msgid "User"
+msgstr "Användare"
+
+#: inc/class-stats-view.php:343
+msgctxt "stats table header"
+msgid "Number of events"
+msgstr "Antal händelser"
+
+#: inc/class-stats-view.php:342
+msgctxt "stats table header"
+msgid "Post"
+msgstr "Inlägg"
+
+#: inc/class-stats-view.php:315
+msgctxt "stats section title"
+msgid "Most edited posts and pages"
+msgstr "Mest redigerade inlägg och sidor"
+
+#: inc/class-stats-view.php:294
+msgid "No users are currently logged in."
+msgstr "Inga användare är för närvarande inloggade."
+
+#. translators: %s: IP address
+#: inc/class-stats-view.php:275
+msgid "IP: %s"
+msgstr "IP: %s"
+
+#. translators: %s: session expiration date and time
+#: inc/class-stats-view.php:264
+msgid "Expires: %s"
+msgstr "Löper ut: %s"
+
+#. translators: %s: login date and time
+#: inc/class-stats-view.php:253
+msgid "Login: %s"
+msgstr "Loggade in: %s"
+
+#. translators: %d: number of active sessions
+#: inc/class-stats-view.php:238
+msgid "%d active session"
+msgid_plural "%d active sessions"
+msgstr[0] "%d aktiv session"
+msgstr[1] "%d aktiva sessioner"
+
+#: inc/class-stats-view.php:213
+msgctxt "stats section title"
+msgid "Currently Logged In Users"
+msgstr "För närvarande inloggade användare"
+
+#: inc/class-stats-view.php:178
+msgid "Activity by date"
+msgstr "Aktivitet efter datum"
+
+#: inc/class-stats-view.php:160
+msgid "Media actions"
+msgstr "Mediaåtgärder"
+
+#: inc/class-stats-view.php:156
+msgid "Plugin actions"
+msgstr "Tilläggsåtgärder"
+
+#: inc/class-stats-view.php:152
+msgid "Content actions"
+msgstr "Innehållsåtgärder"
+
+#: inc/class-stats-view.php:148
+msgid "User profile actions"
+msgstr "Åtgärder för användarprofil"
+
+#: inc/class-stats-view.php:136
+msgid "Users with most events"
+msgstr "Användare med flest händelser"
+
+#: inc/class-stats-view.php:131
+msgid "Total users"
+msgstr "Totalt antal användare"
+
+#: inc/class-stats-view.php:126
+msgid "Total events"
+msgstr "Totalt antal händelser"
+
+#. translators: %s: site name
+#: inc/class-stats-view.php:117
+msgid "Summary for %s"
+msgstr "Sammanfattning för %s"
+
+#. translators: 1: Start date, 2: End date
+#: inc/class-stats-view.php:61
+msgid "%1$s - %2$s"
+msgstr "%1$s – %2$s"
+
+#. translators: 1: service class name.
+#: inc/class-simple-history.php:235
+msgid "A service was not found. Classname was \"%1$s\"."
+msgstr "En tjänst kunde inte hittas. Klassnamnet var ”%1$s”."
+
+#: templates/settings-tab-help.php:120
+msgctxt "help page section title"
+msgid "Frequently Asked Questions"
+msgstr "Vanliga frågor"
+
+#. translators: 1: Link to documentation website.
+#: templates/settings-tab-help.php:110
+msgid "Visit the <a href=\"%1$s\" target=\"_blank\">Simple History documentation website</a> for detailed information about features, settings, and how to get the most out of Simple History."
+msgstr "Besök <a href=\"%1$s\" target=\"_blank\">Simple History-webbplatsen för dokumentation</a> för detaljerad information om funktioner, inställningar och hur du får ut mesta möjliga av Simple History."
+
+#: templates/settings-tab-help.php:105
+msgctxt "help page section title"
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#. translators: 1: Link to premium support.
+#: templates/settings-tab-help.php:95
+msgid "If you're using Simple History Premium or any add-ons, you can access <a href=\"%1$s\" target=\"_blank\">premium support</a>."
+msgstr "Om du använder ”Simple History Premium” eller någon utökning, får du tillgång till <a href=\"%1$s\" target=\"_blank\">premiumsupport</a>."
+
+#. translators: 1: Link to support forum.
+#: templates/settings-tab-help.php:86
+msgid "For support with the free version, please visit the <a href=\"%1$s\" target=\"_blank\">WordPress.org support forum</a>."
+msgstr "För support av gratisversionen, besök <a href=\"%1$s\" target=\"_blank\">WordPress.org supportforum</a>."
+
+#: templates/settings-tab-help.php:81
+msgctxt "help page section title"
+msgid "Support"
+msgstr "Hjälp"
+
+#: templates/settings-tab-help.php:69
+msgid "Get help and support"
+msgstr "Skaffa hjälp och support"
+
+#: inc/services/class-review-reminder-service.php:110
+msgid "I already did!"
+msgstr "Jag har redan gjort det!"
+
+#: inc/services/class-review-reminder-service.php:109
+msgid "Maybe Later"
+msgstr "Kanske senare"
+
+#: inc/services/class-review-reminder-service.php:108
+msgid "Sure, you're worth it"
+msgstr "Självklart. Det är du värd."
+
+#: inc/services/class-admin-page-premium-promo.php:77
+msgid "Simple History add-ons give you more features to your WordPress site."
+msgstr "Utökningar för Simple History ger fler funktioner till din WordPress-webbplats."
+
+#: inc/services/class-admin-page-premium-promo.php:65
+msgid "Get more features with Simple History Premium"
+msgstr "Få fler funktioner med Simple History Premium"
+
+#: inc/services/class-admin-page-premium-promo.php:46
+msgctxt "settings menu name"
+msgid "Upgrade to Premium for more features"
+msgstr "Uppgradera till Premium för fler funktioner"
+
+#: inc/services/class-admin-page-premium-promo.php:40
+msgctxt "settings menu name"
+msgid "Get Premium"
+msgstr "Skaffa Premium"
+
+#: inc/services/class-admin-page-premium-promo.php:31
+msgctxt "promo upsell page title"
+msgid "Get more features with Simple History add-ons"
+msgstr "Få fler funktioner med utökningar för Simple History"
+
+#: dropins/class-settings-debug-tab-dropin.php:106
+#: dropins/class-settings-debug-tab-dropin.php:129
+msgctxt "dashboard title name"
+msgid "Debug"
+msgstr "Felsökning"
+
+#: dropins/class-settings-debug-tab-dropin.php:97
+msgctxt "dashboard title name"
+msgid "Help & Support"
+msgstr "Hjälp och support"
+
+#: dropins/class-settings-debug-tab-dropin.php:84
+#: dropins/class-settings-debug-tab-dropin.php:117
+msgctxt "dashboard title name"
+msgid "Support"
+msgstr "Support"
+
+#: dropins/class-settings-debug-tab-dropin.php:83
+#: dropins/class-settings-debug-tab-dropin.php:116
+msgctxt "settings menu name"
+msgid "Support"
+msgstr "Support"
+
+#: dropins/class-settings-debug-tab-dropin.php:43
+#: dropins/class-settings-debug-tab-dropin.php:96
+msgctxt "settings menu name"
+msgid "Help & Support"
+msgstr "Hjälp och support"
+
+#: dropins/class-settings-debug-tab-dropin.php:41
+msgctxt "dashboard title name"
+msgid "Simple History Help & Support"
+msgstr "Simple History hjälp och support"
+
+#: loggers/class-user-logger.php:137
+msgctxt "User logger: search"
+msgid "Admin page access denied"
+msgstr "Nekad åtkomst till admin-sida"
+
+#: loggers/class-user-logger.php:97
+msgctxt "User was denied access to an admin page"
+msgid "Was denied access to admin page \"{admin_page}\""
+msgstr "Nekades åtkomst till administrationssidan ”{admin_page}”"
+
+#: loggers/class-custom-entry-logger.php:44
+msgctxt "Custom entry logger: search"
+msgid "Custom entry added"
+msgstr "Anpassat inlägg tillagd"
+
+#: loggers/class-custom-entry-logger.php:41
+msgctxt "Custom entry logger: search"
+msgid "Custom entries"
+msgstr "Anpassade inlägg"
+
+#: loggers/class-custom-entry-logger.php:37
+msgctxt "Logger: Custom Entry"
+msgid "Added a custom entry: {message}"
+msgstr "Lade till ett anpassat inlägg: {message}"
+
+#: loggers/class-custom-entry-logger.php:34
+msgctxt "Logger: Custom Entry"
+msgid "Logs custom entries added through WP-CLI or REST API"
+msgstr "Loggar anpassade poster som lagts till via WP-CLI eller REST API"
+
+#: loggers/class-custom-entry-logger.php:33
+msgctxt "Logger: Custom Entry"
+msgid "Custom Entry Logger"
+msgstr "Loggare för anpassade inlägg"
+
+#: inc/class-wp-rest-events-controller.php:975
+msgid "Custom entry logger could not be initialized."
+msgstr "Loggare för anpassade inlägg kunde inte initieras."
+
+#: inc/class-wp-rest-events-controller.php:966
+msgid "Invalid log level specified."
+msgstr "Ogiltig loggnivå angiven."
+
+#: dropins/class-sidebar-add-ons-dropin.php:207
+msgid "Document important changes by creating custom log entries for team actions, content updates, or system changes that aren't automatically tracked."
+msgstr "Dokumentera viktiga ändringar genom att skapa anpassade loggposter för teamåtgärder, innehållsuppdateringar eller systemändringar som inte spåras automatiskt."
+
+#: dropins/class-sidebar-add-ons-dropin.php:204
+msgid "Add custom events manually"
+msgstr "Lägg till anpassade händelser manuellt"
+
+#: dropins/class-export-dropin.php:40
+msgctxt "dashboard title name"
+msgid "Simple History Export"
+msgstr "Export av Simple History"
+
+#: inc/services/class-setup-settings-page.php:334
+msgid "Inside tools menu item"
+msgstr "Inne i menyalternativet Verktyg"
+
+#: inc/services/class-setup-settings-page.php:330
+msgid "Inside dashboard menu item"
+msgstr "Inne i menyalternativet Adminpanel"
+
+#: inc/services/class-setup-settings-page.php:326
+msgid "Bottom of main menu"
+msgstr "Nedersta i huvudmenyn"
+
+#: inc/services/class-setup-settings-page.php:322
+msgid "Top of main menu"
+msgstr "Överst i huvudmenyn"
+
+#: inc/services/class-setup-settings-page.php:268
+msgid "History menu position"
+msgstr "Historikmenyns position"
+
+#: inc/services/class-setup-settings-page.php:186
+msgid "General settings"
+msgstr "Allmänna inställningar"
+
+#: inc/services/class-setup-settings-page.php:150
+msgctxt "settings menu name"
+msgid "Simple History"
+msgstr "Simple History"
+
+#: dropins/class-sidebar-add-ons-dropin.php:215
+msgid "Allow only specified users to see Simple History in the WordPress admin."
+msgstr "Tillåt endast specificerade användare att se Simple History i WordPress adminpanel."
+
+#: dropins/class-sidebar-add-ons-dropin.php:194
+msgid "New!"
+msgstr "Nyhet!"
+
+#: dropins/class-sidebar-add-ons-dropin.php:212
+msgid "Stealth Mode"
+msgstr "”Stealth”-läge"
+
+#: dropins/class-settings-debug-tab-dropin.php:105
+#: dropins/class-settings-debug-tab-dropin.php:128
+msgctxt "settings menu name"
+msgid "Debug"
+msgstr "Felsökning"
+
+#: dropins/class-export-dropin.php:49 dropins/class-export-dropin.php:55
+msgctxt "settings menu name"
+msgid "Export"
+msgstr "Exportera"
+
+#: templates/settings-tab-debug.php:212
+msgctxt "debug dropin"
+msgid "Allowed email addresses:"
+msgstr "Tillåtna e-postadresser:"
+
+#: templates/settings-tab-debug.php:209
+msgctxt "debug dropin"
+msgid "Partial Stealth Mode is enabled."
+msgstr "Delvist ”stealth”-läge är aktiverat."
+
+#: templates/settings-tab-debug.php:206
+msgctxt "debug dropin"
+msgid "Stealth Mode"
+msgstr "”Stealth”-läge"
+
+#. translators: %d number of emails.
+#: templates/settings-tab-debug.php:201
+msgctxt "debug dropin"
+msgid "And %d more."
+msgstr "Och %d fler."
+
+#: inc/services/wp-cli-commands/class-wp-cli-stealth-mode-command.php:38
+msgid "Partial Stealth Mode"
+msgstr "Delvist ”stealth”-läge"
+
+#: inc/services/wp-cli-commands/class-wp-cli-stealth-mode-command.php:35
+#: inc/services/wp-cli-commands/class-wp-cli-stealth-mode-command.php:39
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+#: inc/services/wp-cli-commands/class-wp-cli-stealth-mode-command.php:35
+#: inc/services/wp-cli-commands/class-wp-cli-stealth-mode-command.php:39
+msgid "Enabled"
+msgstr "Aktiverad"
+
+#: inc/services/wp-cli-commands/class-wp-cli-stealth-mode-command.php:34
+msgid "Full Stealth Mode"
+msgstr "Fullständigt ”stealth”-läge"
+
+#: dropins/class-sidebar-dropin.php:71
+msgctxt "Sidebar box"
+msgid "Need help?"
+msgstr "Behöver du hjälp?"
+
+#: dropins/class-sidebar-dropin.php:24
+msgctxt "Sidebar box"
+msgid "Support our work"
+msgstr "Stöd vårt arbete"
+
+#. translators: 1 is a link to webpage with info about how to modify number of
+#. days to keep the log
+#: loggers/class-simple-history-logger.php:180
+msgid "<a href=\"%1$s\">Set number of days the log is kept.</a>"
+msgstr "<a href=\"%1$s\">Ange antal dagar som loggen sparas.</a>"
+
+#: inc/services/class-setup-settings-page.php:144
+msgctxt "settings menu name"
+msgid "Settings"
+msgstr "Inställningar"
+
+#: inc/services/class-setup-settings-page.php:133
+msgctxt "settings title name"
+msgid "Simple History Settings"
+msgstr "Inställningar för Simple History"
+
+#: inc/services/class-admin-pages.php:52
+msgctxt "dashboard menu name"
+msgid "Event Log"
+msgstr "Händelselogg"
+
+#: inc/services/class-admin-pages.php:51
+msgctxt "dashboard title name"
+msgid "Event Log - Simple History"
+msgstr "Händelselogg - Simple History"
+
+#: inc/services/class-admin-pages.php:37
+msgctxt "dashboard title name"
+msgid "History"
+msgstr "Historik"
+
+#: dropins/class-sidebar-add-ons-dropin.php:160
+msgid "Only $29 for 5 sites!"
+msgstr "Endast $29 för 5 webbplatser!"
+
+#: dropins/class-sidebar-add-ons-dropin.php:155
+msgid "Buy Debug & Monitor"
+msgstr "Köp ”Debug & Monitor”"
+
+#: dropins/class-sidebar-add-ons-dropin.php:271
+msgid "Buy WooCommerce Logger"
+msgstr "Köp ”WooCommerce Logger”"
+
+#: dropins/class-sidebar-add-ons-dropin.php:266
+msgid "Email templates updates"
+msgstr "Uppdateringar av e-postmallar"
+
+#: dropins/class-sidebar-add-ons-dropin.php:265
+msgid "WooCommerce settings adjustments"
+msgstr "Justeringar av WooCommerce-inställningar"
+
+#: dropins/class-sidebar-add-ons-dropin.php:264
+msgid "Coupon changes"
+msgstr "Förändringar av rabattkoder"
+
+#: dropins/class-sidebar-add-ons-dropin.php:263
+msgid "Product modifications"
+msgstr "Produktändringar"
+
+#: dropins/class-sidebar-add-ons-dropin.php:262
+msgid "Order edits"
+msgstr "Beställningsredigeringar"
+
+#: dropins/class-sidebar-add-ons-dropin.php:259
+msgid "Log detailed information about many things that happen in your WooCommerce shop:"
+msgstr "Logga detaljerad information om många saker som händer i din WooCommerce-butik:"
+
+#: dropins/class-sidebar-add-ons-dropin.php:256
+msgid "WooCommerce Logger"
+msgstr "WooCommerce Logger"
+
+#: dropins/class-sidebar-add-ons-dropin.php:55
+msgid "Get Add-Ons Now"
+msgstr "Skaffa utökningar nu"
+
+#: dropins/class-sidebar-add-ons-dropin.php:44
+msgid "Our New Year's Sale is Here - 50% Off All Add-Ons 🙀"
+msgstr "Vår nyårsrea är här – 50% rabatt på alla utökningar 🙀"
+
+#: loggers/class-user-logger.php:1145
+msgctxt "User logger"
+msgid "Send notification"
+msgstr "Skicka aviseringar"
+
+#. translators: 1 is a link to webpage with info about how to modify number of
+#. days to keep the log
+#: loggers/class-simple-history-logger.php:186
+msgid "<a href=\"%1$s\" target=\"_blank\" class=\"sh-ExternalLink\">Get Premium to set number of days the log is kept.</a>"
+msgstr "<a href=\"%1$s\" target=\"_blank\" class=\"sh-ExternalLink\">Skaffa Premium för att ställa in antal dagar som loggen sparas.</a>"
+
+#. translators: %d is the event ID
+#: inc/services/wp-cli-commands/class-wp-cli-get-command.php:64
+msgid "No event found with ID %1$d."
+msgstr "Ingen händelse hittades med ID %1$d."
+
+#. translators: %d: number of rows deleted
+#: inc/services/wp-cli-commands/class-wp-cli-db-command.php:44
+msgid "Removed %1$d rows."
+msgstr "Borttagna %1$d rader."
+
+#: inc/services/wp-cli-commands/class-wp-cli-db-command.php:35
+msgid "Are you sure you want to clear all logged items?"
+msgstr "Är du säker på att du vill rensa alla loggade objekt?"
+
+#: inc/services/class-setup-settings-page.php:525
+msgid "Upgrade to Simple History Premium to set this to any number of days."
+msgstr "Uppgradera till ”Simple History Premium” för att ställa in detta till valfritt antal dagar."
+
+#: dropins/class-sidebar-add-ons-dropin.php:151
+msgid "Great for developers who need to debug issues and for site owners who want to understand what's happening behind the scenes."
+msgstr "Perfekt för utvecklare som behöver felsöka problem och för webbplatsägare som vill förstå vad som händer bakom kulisserna."
+
+#: dropins/class-sidebar-add-ons-dropin.php:148
+msgid "WP cron jobs"
+msgstr "WP cron-jobb"
+
+#: dropins/class-sidebar-add-ons-dropin.php:147
+msgid "REST API activity"
+msgstr "REST API-aktivitet"
+
+#: dropins/class-sidebar-add-ons-dropin.php:146
+msgid "HTTP API requests"
+msgstr "HTTP API-förfrågningar"
+
+#: dropins/class-sidebar-add-ons-dropin.php:145
+msgid "Email sending"
+msgstr "Skicka e-post"
+
+#: dropins/class-sidebar-add-ons-dropin.php:142
+msgid "Keep track of WordPress activities with the Debug & Monitor add-on:"
+msgstr "Håll koll på WordPress-aktiviteter med utökningen ”Debug & Monitor”:"
+
+#: dropins/class-sidebar-add-ons-dropin.php:136
+#: dropins/class-sidebar-add-ons-dropin.php:253
+msgid "Add-on"
+msgstr "Utökning"
+
+#: dropins/class-sidebar-add-ons-dropin.php:139
+msgid "Debug & Monitor"
+msgstr "Felsökning och övervakning"
+
+#: dropins/class-sidebar-add-ons-dropin.php:230
+msgid "Upgrade to Premium"
+msgstr "Uppgradera till Premium"
+
+#: dropins/class-sidebar-add-ons-dropin.php:225
+msgid "Remove banners like this one"
+msgstr "Ta bort banners som den här"
+
+#: dropins/class-sidebar-add-ons-dropin.php:224
+msgid "Control what messages that are logged to match your needs"
+msgstr "Styr vilka meddelanden som loggas för att matcha dina behov"
+
+#: dropins/class-sidebar-add-ons-dropin.php:223
+msgid "View a map of where failed login attempts happened"
+msgstr "Visa en karta över var misslyckade inloggningsförsök inträffade"
+
+#: dropins/class-sidebar-add-ons-dropin.php:222
+msgid "Control how to store IP Addresses – anonymized or not"
+msgstr "Styr hur IP-adresser ska lagras – anonymiserade eller ej"
+
+#: dropins/class-sidebar-add-ons-dropin.php:221 build/index.js:1
+msgid "Limit number of failed login attempts that are logged"
+msgstr "Begränsa antalet misslyckade inloggningsförsök som loggas"
+
+#: dropins/class-sidebar-add-ons-dropin.php:220
+msgid "Customize log retention by setting the number of days to keep logs"
+msgstr "Anpassa logglagringen genom att ange antalet dagar som loggar ska sparas"
+
+#: dropins/class-sidebar-add-ons-dropin.php:219
+msgid "Export search results as CSV and JSON"
+msgstr "Exportera sökresultat som CSV och JSON"
+
+#: dropins/class-sidebar-add-ons-dropin.php:185
+msgid "Unlock more features with Simple History Premium!"
+msgstr "Lås upp fler funktioner med Simple History Premium!"
+
+#: dropins/class-export-dropin.php:163
+msgctxt "Export dropin: export format"
+msgid "HTML"
+msgstr "HTML"
+
+#. translators: %d number of logged events.
+#: templates/settings-tab-debug.php:161
+msgctxt "debug dropin"
+msgid "%1$s logged events since %2$s."
+msgstr "%1$s loggade händelser sedan %2$s."
+
+#: templates/settings-tab-debug.php:153
+msgctxt "debug dropin"
+msgid "Could not find the date when the plugin was installed."
+msgstr "Kunde inte hitta datumet när tillägget installerades."
+
+#: templates/settings-tab-debug.php:149
+msgctxt "debug dropin"
+msgid "Total number of logged events"
+msgstr "Totalt antal loggade händelser"
+
+#: inc/services/class-setup-settings-page.php:386
+msgid "in the admin bar"
+msgstr "i adminfältet"
+
+#: templates/email-summary-report.php:371 build/index-admin-bar.js:6
+#: build/index-gutenberg.js:6 build/index.js:8
+msgid "WordPress"
+msgstr "WordPress"
+
+#: dropins/class-sidebar-stats-dropin.php:378 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgid "Last 7 days"
+msgstr "Senaste 7 dagarna"
+
+#: dropins/class-sidebar-add-ons-dropin.php:182 build/index.js:1
+msgid "Premium"
+msgstr "Premium"
+
+#: inc/class-wp-rest-searchoptions-controller.php:136
+#: inc/class-wp-rest-searchoptions-controller.php:145
+msgid "Sorry, you are not allowed to search users."
+msgstr "Du har inte behörighet att söka efter användare."
+
+#: inc/class-wp-rest-searchoptions-controller.php:98
+msgid "Sorry, you are not allowed to search options."
+msgstr "Du saknar behörighet för att söka alternativ."
+
+#: inc/class-wp-rest-searchoptions-controller.php:77
+msgid "Please provide a search query."
+msgstr "Ange en sökfråga."
+
+#: inc/class-wp-rest-events-controller.php:568
+msgid "The permalink of the event."
+msgstr "Händelsens permalink."
+
+#: inc/class-wp-rest-events-controller.php:564
+msgid "The context of the event."
+msgstr "Händelsens sammanhang."
+
+#: inc/class-wp-rest-events-controller.php:552
+msgid "The IP addresses of the event."
+msgstr "Händelsens IP-adresser."
+
+#: inc/class-wp-rest-events-controller.php:544
+msgid "The initiator of the event."
+msgstr "Initiativtagaren till händelsen."
+
+#: inc/class-wp-rest-events-controller.php:540
+msgid "The log level of the event."
+msgstr "Händelsens loggnivå."
+
+#: inc/class-wp-rest-events-controller.php:536
+msgid "The message key of the event."
+msgstr "Meddelandets nyckel för händelsen."
+
+#: inc/class-wp-rest-events-controller.php:528
+msgid "The logger of the event."
+msgstr "Händelsens loggare."
+
+#: inc/class-wp-rest-events-controller.php:520
+msgid "The details of the event."
+msgstr "Händelsens detaljer."
+
+#: inc/class-wp-rest-events-controller.php:503
+msgid "URL to the event."
+msgstr "Händelsens URL."
+
+#: inc/class-wp-rest-events-controller.php:498
+msgid "The date the event was added, as GMT."
+msgstr "Det datum då händelsen lades till, som GMT."
+
+#: inc/class-wp-rest-events-controller.php:493
+msgid "The date the event was added, in the site's timezone."
+msgstr "Datumet då händelsen lades till, i webbplatsens tidszon."
+
+#: inc/class-wp-rest-events-controller.php:420
+msgid "Limit result set to rows with user id."
+msgstr "Begränsa resultatet till rader med användar-ID."
+
+#: inc/class-wp-rest-events-controller.php:412
+msgid "Limit result set to rows with user ids."
+msgstr "Begränsa resultatet till rader med användar-ID:n."
+
+#: inc/class-wp-rest-events-controller.php:395
+msgid "Limit result set to rows with loggers."
+msgstr "Begränsa resultatet till rader med loggare."
+
+#: inc/class-wp-rest-events-controller.php:386
+msgid "Limit result set to rows with log levels."
+msgstr "Begränsa resultatet till rader med loggnivåer."
+
+#: inc/class-wp-rest-events-controller.php:377
+msgid "Limit result set to rows with date within this range. Format: Y-m."
+msgstr "Begränsa resultatet till rader med datum inom detta intervall. Format: Å-m."
+
+#: inc/class-wp-rest-events-controller.php:361
+#: inc/class-wp-rest-events-controller.php:370
+msgid "Limit result set to rows with date within this range."
+msgstr "Begränsa resultatet till rader med datum inom detta intervall."
+
+#: inc/class-wp-rest-events-controller.php:303
+msgid "Limit result set to specific IDs."
+msgstr "Begränsa resultatet till specifika ID:n."
+
+#: inc/class-wp-rest-events-controller.php:278
+msgid "The number of occasions to get."
+msgstr "Antalet tillfällen att hämta."
+
+#: inc/class-wp-rest-events-controller.php:261
+#: inc/class-wp-rest-events-controller.php:488
+msgid "Type of result to return."
+msgstr "Typ av resultat som ska returneras."
+
+#: inc/class-wp-rest-events-controller.php:208
+msgid "Sorry, you are not allowed to view this event."
+msgstr "Du har inte behörighet att se denna händelse."
+
+#: inc/class-wp-rest-events-controller.php:198
+#: inc/class-wp-rest-events-controller.php:1022
+msgid "Invalid event ID."
+msgstr "Ogiltigt händelse-ID."
+
+#: inc/class-wp-rest-events-controller.php:189
+#: inc/class-wp-rest-events-controller.php:598
+#: inc/class-wp-rest-searchoptions-controller.php:117
+msgid "Sorry, you are not allowed to view events."
+msgstr "Du har inte behörighet att visa händelser."
+
+#: inc/class-wp-rest-events-controller.php:110
+#: inc/class-wp-rest-events-controller.php:130
+#: inc/class-wp-rest-events-controller.php:149
+#: inc/class-wp-rest-events-controller.php:484
+msgid "Unique identifier for the event."
+msgstr "Unik identifierare för händelsen."
+
+#: dropins/class-experimental-features-dropin.php:72
+msgid "Please note that these features may not work as expected and could change or be removed in future updates."
+msgstr "Observera att dessa funktioner kanske inte fungerar som förväntat och att de kan ändras eller tas bort i framtida uppdateringar."
+
+#: dropins/class-experimental-features-dropin.php:66
+msgid "Try out upcoming features that are still in testing."
+msgstr "Prova kommande funktioner som fortfarande är under testning."
+
+#: dropins/class-experimental-features-dropin.php:61
+msgid "Enable experimental features"
+msgstr "Aktivera experimentella funktioner"
+
+#: dropins/class-experimental-features-dropin.php:45
+msgid "Experimental features"
+msgstr "Experimentella funktioner"
+
+#: templates/settings-tab-debug.php:536
+msgctxt "debug dropin"
+msgid "Drop-in filename"
+msgstr "Filnamn på insticksprogram"
+
+#: templates/settings-tab-debug.php:535
+msgctxt "debug dropin"
+msgid "Drop-in name"
+msgstr "Namn på insticksprogram"
+
+#: templates/settings-tab-debug.php:524
+msgctxt "debug dropin"
+msgid "No drop-ins found."
+msgstr "Inga insticksprogram hittades."
+
+#: templates/settings-tab-debug.php:521
+msgctxt "debug dropin"
+msgid "As returned from get_dropins()."
+msgstr "Som returneras från get_dropins()."
+
+#: templates/settings-tab-debug.php:519
+msgctxt "debug dropin"
+msgid "WordPress drop-ins"
+msgstr "WordPress insticksprogram"
+
+#. translators: %1$s database engine name, %2$s database engine version.
+#: templates/settings-tab-debug.php:75
+msgid "Database engine used to perform queries: <code>%1$s</code>."
+msgstr "Databasmotor som används för att utföra sökningar: <code>%1$s</code>."
+
+#: templates/settings-tab-debug.php:70
+msgctxt "debug dropin"
+msgid "Database engine"
+msgstr "Databasmotor"
+
+#: templates/settings-tab-debug.php:68
+msgctxt "debug dropin"
+msgid "Database"
+msgstr "Databas"
+
+#: loggers/class-plugin-logger.php:108
+msgctxt "Plugin failed to update in bulk"
+msgid "Failed to update plugin \"{plugin_name}\""
+msgstr "Misslyckades att uppdatera tillägget ”{plugin_name}”"
+
+#: loggers/class-options-logger.php:841 loggers/class-options-logger.php:845
+msgid "Off"
+msgstr "Av"
+
+#: loggers/class-options-logger.php:840 loggers/class-options-logger.php:846
+msgid "On"
+msgstr "På"
+
+#: loggers/class-options-logger.php:734 loggers/class-options-logger.php:736
+msgid "Excerpt"
+msgstr "Utdrag"
+
+#: loggers/class-options-logger.php:733 loggers/class-options-logger.php:737
+msgid "Full text"
+msgstr "Hel text"
+
+#: loggers/class-options-logger.php:323
+msgid "Updated setting \"{option_translated}\" on the <a href=\"{option_page_link}\">{option_page_translated}</a>"
+msgstr "Uppdaterad inställningen ”{option_translated}” på <a href=\"{option_page_link}\">{option_page_translated}</a>"
+
+#: loggers/class-options-logger.php:204
+msgid "Tag base"
+msgstr "Etikettbas"
+
+#: loggers/class-options-logger.php:203
+msgid "Category base"
+msgstr "Kategoribas"
+
+#: loggers/class-options-logger.php:202
+msgid "Custom Structure"
+msgstr "Anpassad struktur"
+
+#: loggers/class-options-logger.php:200
+msgid "Permalink Settings Page"
+msgstr "Sida för permalänksinställningar"
+
+#: loggers/class-options-logger.php:199
+msgid "Permalinks"
+msgstr "Permalänkar"
+
+#: loggers/class-options-logger.php:193
+msgid "Organize my uploads into month- and year-based folders"
+msgstr "Organisera mina uppladdade filer i månads- och årsbaserade mappar"
+
+#: loggers/class-options-logger.php:191
+msgid "Large size height"
+msgstr "Höjd på stor storlek"
+
+#: loggers/class-options-logger.php:190
+msgid "Large size width"
+msgstr "Bredd på stor storlek"
+
+#: loggers/class-options-logger.php:189
+msgid "Medium size height"
+msgstr "Höjd på medelstor storlek"
+
+#: loggers/class-options-logger.php:188
+msgid "Medium size width"
+msgstr "Bredd på medelstor storlek"
+
+#: loggers/class-options-logger.php:187
+msgid "Crop thumbnail to exact dimensions"
+msgstr "Beskär miniatyrer till exakta mått"
+
+#: loggers/class-options-logger.php:186
+msgid "Thumbnail size height"
+msgstr "Höjd på liten storlek"
+
+#: loggers/class-options-logger.php:185
+msgid "Thumbnail size width"
+msgstr "Bredd på liten storlek"
+
+#: loggers/class-options-logger.php:183
+msgid "Media Settings Page"
+msgstr "Sidan för mediainställningar"
+
+#: loggers/class-options-logger.php:182
+msgid "Media"
+msgstr "Media"
+
+#: loggers/class-options-logger.php:178
+msgid "Default Avatar"
+msgstr "Standardprofilbild"
+
+#: loggers/class-options-logger.php:177
+msgid "Maximum Rating"
+msgstr "Rekommendation"
+
+#: loggers/class-options-logger.php:174
+msgid "Show Avatars"
+msgstr "Visa profilbilder"
+
+#: loggers/class-options-logger.php:170
+msgid "Email me whenever a comment is held for moderation"
+msgstr "Skicka e-post till mig när en kommentar hålls kvar för granskning"
+
+#: loggers/class-options-logger.php:165 loggers/class-options-logger.php:168
+msgid "Email me whenever anyone posts a comment"
+msgstr "Skicka e-post till mig när någon skriver en kommentar"
+
+#: loggers/class-options-logger.php:162
+msgid "Comment must be manually approved"
+msgstr "Kommentaren måste godkännas manuellt"
+
+#: loggers/class-options-logger.php:160 loggers/class-options-logger.php:161
+msgid "Disallowed Comment Keys"
+msgstr "Otillåtna begrepp i kommentarer"
+
+#: loggers/class-options-logger.php:159
+msgid "Comment Moderation"
+msgstr "Kommentarsgranskning"
+
+#: loggers/class-options-logger.php:158
+msgid "Hold a comment in the queue if it contains"
+msgstr "Håll en kommentar för granskning om den innehåller"
+
+#: loggers/class-options-logger.php:157 loggers/class-options-logger.php:163
+msgid "Comment author must have a previously approved comment"
+msgstr "Kommentarförfattaren måste ha en tidigare godkänd kommentar"
+
+#: loggers/class-options-logger.php:156
+msgid "Comments order"
+msgstr "Sortering av kommentarer"
+
+#: loggers/class-options-logger.php:155
+msgid "Comments should be displayed with the"
+msgstr "Kommentarer ska visas med"
+
+#: loggers/class-options-logger.php:154
+msgid "Top level comments per page"
+msgstr "Kommentarer på högsta nivå per sida"
+
+#: loggers/class-options-logger.php:151
+msgid "Break comments into pages"
+msgstr "Dela upp kommentarer i sidor"
+
+#: loggers/class-options-logger.php:149
+msgid "Max depth for threaded comments"
+msgstr "Maxdjup för trådade kommentarer"
+
+#: loggers/class-options-logger.php:142
+msgid "Show comments cookies opt-in checkbox"
+msgstr "Visa kryssrutan för samtycke till cookies för kommentarer"
+
+#: loggers/class-options-logger.php:140
+msgid "Days before comments are closed"
+msgstr "Dagar innan kommentarer stängs"
+
+#: loggers/class-options-logger.php:137
+msgid "Automatically close comments on posts older than"
+msgstr "Stäng automatiskt möjligheten att kommentera på inlägg som är äldre än"
+
+#: loggers/class-options-logger.php:133
+msgid "Users must be registered and logged in to comment"
+msgstr "Användare måste vara registrerade och inloggade för att kunna kommentera"
+
+#: loggers/class-options-logger.php:129
+msgid "Comment author must fill out name and email"
+msgstr "Kommentarsförfattaren måste fylla i namn och e-postadress"
+
+#: loggers/class-options-logger.php:126
+msgid "Default article visibility"
+msgstr "Standardsynlighet för artiklar"
+
+#: loggers/class-options-logger.php:124
+msgid "Discussion Settings Page"
+msgstr "Sida för diskussionsinställningar"
+
+#: loggers/class-options-logger.php:123
+msgid "Discussion"
+msgstr "Diskussion"
+
+#: loggers/class-options-logger.php:117
+msgid "Discourage search engines from indexing this site"
+msgstr "Be sökmotorer att inte indexera denna webbplats"
+
+#: loggers/class-options-logger.php:115
+msgid "Posts page"
+msgstr "Inläggssida"
+
+#: loggers/class-options-logger.php:114
+msgid "Front page"
+msgstr "Startsida"
+
+#: loggers/class-options-logger.php:113
+msgid "Front page displays"
+msgstr "Startsidan visar"
+
+#: loggers/class-options-logger.php:112
+msgid "For each article in a feed, show"
+msgstr "Inlägg i flödet visas som"
+
+#: loggers/class-options-logger.php:111
+msgid "Syndication feeds show the most recent"
+msgstr "Syndikeringsflöden visar"
+
+#: loggers/class-options-logger.php:110
+msgid "Blog pages show at most"
+msgstr "Inlägg per sida"
+
+#: loggers/class-options-logger.php:108
+msgid "Reading Settings Page"
+msgstr "Sida för läsinställningar"
+
+#: loggers/class-options-logger.php:107
+msgid "Reading"
+msgstr "Läsa"
+
+#: loggers/class-options-logger.php:103
+msgid "Update Services"
+msgstr "Uppdateringstjänster"
+
+#: loggers/class-options-logger.php:102 loggers/class-options-logger.php:127
+msgid "Allow people to submit comments on new posts"
+msgstr "Låt besökare lämna kommentarer på nya inlägg"
+
+#: loggers/class-options-logger.php:101
+msgid "Allow link notifications from other blogs (pingbacks and trackbacks)"
+msgstr "Tillåt länknotifikationer från andra bloggar (pingbacks och trackbacks)"
+
+#: loggers/class-options-logger.php:98
+msgid "Attempt to notify any blogs linked to from the article"
+msgstr "Försök meddela alla bloggar som är länkade från inlägget"
+
+#: loggers/class-options-logger.php:96
+msgid "Default Mail Server Port"
+msgstr "Standardport för e-postserver"
+
+#: loggers/class-options-logger.php:95
+msgid "Password"
+msgstr "Lösenord"
+
+#: loggers/class-options-logger.php:94
+msgid "Login Name"
+msgstr "Inloggningsnamn"
+
+#: loggers/class-options-logger.php:93
+msgid "Mail Server"
+msgstr "E-postserver"
+
+#: loggers/class-options-logger.php:92
+msgid "Post via Email settings (legacy)"
+msgstr "Inställningar för att skriva inlägg via e-post (föråldrat)"
+
+#: loggers/class-options-logger.php:91
+msgid "Default Post Format"
+msgstr "Standardformat för inlägg"
+
+#: loggers/class-options-logger.php:90
+msgid "Default Post Category"
+msgstr "Standardkategori för inlägg"
+
+#: loggers/class-options-logger.php:88
+msgid "Writing Settings Page"
+msgstr "Sida med skrivinställningar"
+
+#: loggers/class-options-logger.php:87
+msgid "Writing"
+msgstr "Skriva"
+
+#: loggers/class-options-logger.php:83
+msgid "Site Language"
+msgstr "Webbplatsspråk"
+
+#: loggers/class-options-logger.php:82
+msgid "Week Starts On"
+msgstr "Veckor börjar på"
+
+#: loggers/class-options-logger.php:81
+msgid "Time Format"
+msgstr "Tidsformat"
+
+#: loggers/class-options-logger.php:80
+msgid "Date Format"
+msgstr "Datumformat"
+
+#: loggers/class-options-logger.php:79
+msgid "Timezone"
+msgstr "Tidszon"
+
+#: loggers/class-options-logger.php:78
+msgid "New User Default Role"
+msgstr "Förvald roll för nya användare"
+
+#: loggers/class-options-logger.php:75
+msgid "Anyone can register"
+msgstr "Vem som helst kan registrera sig"
+
+#: loggers/class-options-logger.php:73
+msgid "New Email Address"
+msgstr "Ny e-postadress"
+
+#: loggers/class-options-logger.php:72
+msgid "Administration Email Address"
+msgstr "E-postadress för administration"
+
+#: loggers/class-options-logger.php:71
+msgid "Site Icon"
+msgstr "Webbplatsikon"
+
+#: loggers/class-options-logger.php:70
+msgid "Tagline"
+msgstr "Slogan"
+
+#: loggers/class-options-logger.php:69
+msgid "Site Title"
+msgstr "Webbplatsrubrik"
+
+#: loggers/class-options-logger.php:68
+msgid "Site Address (URL)"
+msgstr "Webbplatsadress (URL)"
+
+#: loggers/class-options-logger.php:67
+msgid "WordPress Address (URL)"
+msgstr "WordPressadress (URL)"
+
+#: loggers/class-options-logger.php:65
+msgid "General Settings Page"
+msgstr "Sidan för allmänna inställningar"
+
+#: loggers/class-options-logger.php:25
+msgid "Updated setting \"{option}\" on the \"{option_page}\" settings page"
+msgstr "Uppdaterad inställningen ”{option}” på inställningssidan ”{option_page}”"
+
+#: loggers/class-media-logger.php:300
+msgid "Slug"
+msgstr "Slug"
+
+#: loggers/class-media-logger.php:292
+msgid "Caption"
+msgstr "Bildtext"
+
+#: loggers/class-media-logger.php:288
+msgid "Alternative text"
+msgstr "Alternativ text"
+
+#: loggers/class-media-logger.php:279
+msgid "Changed values"
+msgstr "Ändrade värden"
+
+#: loggers/class-media-logger.php:34
+msgid "Edited attachment \"{attachment_title}\""
+msgstr "Redigerade bilagan ”{attachment_title}”"
+
+#: loggers/class-core-updates-logger.php:27
+msgid "Switched to automatic updates for maintenance and security releases of WordPress only"
+msgstr "Ändrade till att endast automatiskt installera underhålls- och säkerhetsutgåvor av WordPress"
+
+#: loggers/class-core-updates-logger.php:26
+msgid "Enabled automatic updates for all new versions of WordPress"
+msgstr "Aktiverade automatiska uppdateringar för alla nya versioner av WordPress"
+
+#: inc/class-simple-history.php:1011
+msgid "Limit logged login attempts"
+msgstr "Begränsa loggade inloggningsförsök"
+
+#: inc/class-simple-history.php:993 inc/class-simple-history.php:1002
+#: build/index.js:8
+msgid "Configure failed login attempts"
+msgstr "Konfigurera misslyckade inloggningsförsök"
+
+#. translators: %s: error message
+#: inc/class-log-query.php:159 inc/class-log-query.php:409
+msgid "Error when performing query: %s"
+msgstr "Fel vid utförande av sökningen: %s"
+
+#: dropins/class-action-links-dropin.php:50
+msgid "Go to Simple History"
+msgstr "Gå till Simple History"
+
+#: loggers/class-simple-history-logger.php:228
+msgid "Detective Mode enabled"
+msgstr "Detektivläget aktiverat"
+
+#: dropins/class-detective-mode-dropin.php:89
+msgid "Read more about detective mode"
+msgstr "Läs mer om detektivläget"
+
+#: dropins/class-detective-mode-dropin.php:84
+msgid "While particularly useful for developers and administrators seeking to understand complex interactions or resolve issues, please note that enabling this feature may increase the volume of logged data."
+msgstr "Denna funktion är särskilt användbar för utvecklare och administratörer som vill förstå komplexa interaktioner eller lösa problem, men observera att det kan öka volymen loggade data."
+
+#: dropins/class-detective-mode-dropin.php:75
+msgid "When enabled, Detective Mode captures in-depth data for each event, including the current <code>$_GET</code>, <code>$_POST</code> values, the current filter name, and much more."
+msgstr "När det är aktiverat samlar ”Detektivläget” in djupgående data för varje händelse, inklusive aktuella <code>$_GET</code>, <code>$_POST</code>-värden, aktuellt filternamn och mycket mer."
+
+#: dropins/class-detective-mode-dropin.php:69
+msgid "Enable detective mode"
+msgstr "Aktivera detektivläge"
+
+#: dropins/class-detective-mode-dropin.php:53
+msgid "Detective mode"
+msgstr "Detektivläge"
+
+#: loggers/class-user-logger.php:77
+msgctxt "A role is removed from a user"
+msgid "Removed role(s) \"{roles}\" from user \"{edited_user_login}\""
+msgstr "Tog bort roll/roller ”{roles}” från användaren ”{edited_user_login}”"
+
+#: loggers/class-user-logger.php:72
+msgctxt "A role is added to a user"
+msgid "Added role(s) \"{roles}\" to user \"{edited_user_login}\""
+msgstr "Lade till roll/roller ”{roles}” för användaren ”{edited_user_login}”"
+
+#: loggers/class-user-logger.php:1215
+msgid "Role removed"
+msgstr "Roll borttagen"
+
+#: loggers/class-user-logger.php:1202
+msgid "Role added"
+msgstr "Roll tillagd"
+
+#. translators: %s is the slug of the sub tab
+#: inc/services/class-setup-settings-page.php:682
+msgid "Function not found for sub tab \"%1$s\"."
+msgstr "Funktion hittades inte för underfliken ”%1$s”."
+
+#: loggers/class-post-logger.php:1571
+msgid "Removed term"
+msgid_plural "Removed terms"
+msgstr[0] "Tog bort term"
+msgstr[1] "Tog bort termer"
+
+#: loggers/class-post-logger.php:1564
+msgid "Added term"
+msgid_plural "Added terms"
+msgstr[0] "Lade till term"
+msgstr[1] "Lade till termer"
+
+#. translators: 1 %s is a link to the add-ons page
+#: inc/services/class-setup-database.php:429
+msgid "Extend Simple History with more features using <a href=\"%1$s\" target=\"_blank\">add-ons</a>."
+msgstr "Utöka ”Simple History” med fler funktioner med hjälp av <a href=\"%1$s\" target=\"_blank\">utökningar</a>."
+
+#: inc/services/class-setup-database.php:421
+msgid "If you have multiple users working on this website, you'll find Simple History especially useful . It logs events from all users, providing a centralized view of what's happening. This makes it easy for you to see and understand the activities of other users on the same website."
+msgstr "Om du har flera användare som arbetar på denna webbplats kommer du att tycka att Simple History är särskilt användbart. Det loggar händelser från alla användare och ger en centraliserad bild av vad som händer. Det gör det enkelt för dig att se och förstå andra användares aktiviteter på samma webbplats."
+
+#: inc/services/class-setup-database.php:415
+msgid "As your users work on this site, this feed will contain information about their actions. Page edits, attachment uploads, plugin updates, user logins, site settings changes, and much more will show up in this log."
+msgstr "När dina användare arbetar på denna webbplats kommer detta flöde innehålla information om deras åtgärder. Sidredigeringar, uppladdningar av bilagor, tilläggsuppdateringar, användarinloggningar, ändringar av webbplatsinställningar och mycket mer kommer att visas i denna logg."
+
+#: inc/services/class-setup-database.php:409
+msgid "Simple History has been successfully installed on your WordPress site and is active and ready to log important changes on your website"
+msgstr "Simple History har installerats på din WordPress-webbplats och är aktivt och redo att logga viktiga ändringar på din webbplats"
+
+#: inc/services/class-plugin-list-info.php:44
+msgid "Add licence key to enable updates"
+msgstr "Lägg till licensnyckel för att aktivera uppdateringar"
+
+#: inc/services/class-licences-settings-page.php:297
+msgid "Enter license key..."
+msgstr "Ange licensnyckel …"
+
+#: inc/services/class-licences-settings-page.php:228
+msgid "On multisite installations you enter the licence keys on the main site."
+msgstr "Vid nätverksinstallation av WordPress anger du licensnycklarna på huvudplatsen."
+
+#. translators: 1: link start tag, 2: link end tag
+#: inc/services/class-licences-settings-page.php:403
+msgid "Manage subscriptions and billing for your add-ons at the %1$sCustomer portal%2$s."
+msgstr "Hantera prenumerationer och fakturering för dina utökningar i %1$sKundportalen%2$s."
+
+#. translators: 1: link start tag, 2: link end tag
+#: inc/services/class-licences-settings-page.php:392
+msgid "Manage licences and download your add-ons at the %1$sMy orders%2$s page."
+msgstr "Hantera licenser och ladda ner dina utökningar på sidan %1$sMina beställningar%2$s."
+
+#. translators: 1: link to plus plugins page, 2: link text
+#: inc/services/class-licences-settings-page.php:154
+msgid "Don't have any add-ons yet? Visit <a href=\"%1$s\" class=\"sh-ExternalLink\" target=\"_blank\">%2$s</a> to see available add-ons."
+msgstr "Har du inte något utökningar än? Besök gärna <a href=\"%1$s\" class=\"sh-ExternalLink\" target=\"_blank\">%2$s</a> för tillgängliga utökningar."
+
+#: inc/services/class-licences-settings-page.php:131
+msgid "Sites and Billing"
+msgstr "Webbplatser och fakturering"
+
+#: inc/services/class-licences-settings-page.php:114
+msgid "License information for add-ons"
+msgstr "Licensinformation för utökningar"
+
+#: inc/services/class-dashboard-widget.php:41
+msgid "Settings & Tools"
+msgstr "Inställningar och verktyg"
+
+#: inc/class-helpers.php:843
+msgid "Add-ons"
+msgstr "Utökningar"
+
+#: templates/settings-tab-debug.php:435
+msgctxt "debug dropin"
+msgid "Disabled"
+msgstr "Inaktiverat"
+
+#: templates/settings-tab-debug.php:435
+msgctxt "debug dropin"
+msgid "Enabled"
+msgstr "Aktiverat"
+
+#: templates/settings-tab-debug.php:383
+msgctxt "debug dropin"
+msgid "Status"
+msgstr "Status"
+
+#: inc/services/class-setup-settings-page.php:277
+msgid "Items per page"
+msgstr "Objekt per sida"
+
+#: inc/services/class-licences-settings-page.php:308
+msgid "License key is <strong>active</strong>. "
+msgstr "Licensnyckeln är <strong>aktiv</strong>. "
+
+#: inc/services/class-licences-settings-page.php:333
+msgid "No license found."
+msgstr "Ingen licens hittades."
+
+#: inc/services/class-licences-settings-page.php:144
+msgid "Enter your license key(s) to activate and retrieve updates for your add-on plugins."
+msgstr "Ange din licensnyckel/dina licensnycklar för att aktivera och hämta uppdateringar för dina utökningstillägg."
+
+#: inc/services/class-licences-settings-page.php:122
+msgid "License Keys"
+msgstr "Licensnycklar"
+
+#: inc/services/class-licences-settings-page.php:89
+#: inc/services/class-licences-settings-page.php:90
+msgid "Licences"
+msgstr "Licenser"
+
+#: inc/class-addon-plugin.php:150 inc/class-addon-plugin.php:159
+#: build/index.js:16
+msgid "Unknown error"
+msgstr "Okänt fel"
+
+#: dropins/class-export-dropin.php:120
+msgid "Export history"
+msgstr "Exportera historik"
+
+#. translators: 1 is a link to PayPal, 2 is a link to GitHub sponsors.
+#: dropins/class-donate-dropin.php:130
+msgid "If you find Simple History useful please <a href=\"%1$s\" target=\"_blank\" class=\"sh-ExternalLink\">donate using PayPal</a> or <a href=\"%2$s\" target=\"_blank\" class=\"sh-ExternalLink\">become a GitHub sponsor</a>."
+msgstr "Om du tycker att Simple History är användbart kan du <a href=\"%1$s\" target=\"_blank\" class=\"sh-ExternalLink\">donera med PayPal</a> eller <a href=\"%2$s\" target=\"_blank\" class=\"sh-ExternalLink\">bli en GitHub-sponsor</a>."
+
+#: dropins/class-donate-dropin.php:100
+msgctxt "donate settings headline"
+msgid "Support development"
+msgstr "Stöd utvecklingen"
+
+#: templates/settings-tab-debug.php:481
+msgctxt "debug dropin"
+msgid "As returned from get_plugins()."
+msgstr "Som returneras från get_plugins()."
+
+#. translators: %d number of dropins loaded.
+#: templates/settings-tab-debug.php:271
+msgctxt "debug dropin"
+msgid "%1$d dropins loaded."
+msgstr "%1$d dropins inladdade."
+
+#: templates/settings-tab-debug.php:266
+msgctxt "debug dropin"
+msgid "Dropins"
+msgstr "Dropins"
+
+#: templates/settings-tab-debug.php:243 templates/settings-tab-debug.php:287
+msgctxt "debug dropin"
+msgid "Namespaced name"
+msgstr "Namn med namnrymd"
+
+#: templates/settings-tab-debug.php:242 templates/settings-tab-debug.php:286
+msgctxt "debug dropin"
+msgid "Short name"
+msgstr "Kort namn"
+
+#. translators: %d number of dropins loaded.
+#: templates/settings-tab-debug.php:227
+msgctxt "debug dropin"
+msgid "%1$d services loaded."
+msgstr "%1$d tjänster inladdade."
+
+#: templates/settings-tab-debug.php:222
+msgctxt "debug dropin"
+msgid "Services"
+msgstr "Tjänster"
+
+#: templates/settings-tab-debug.php:106
+msgctxt "debug dropin"
+msgid "No tables found."
+msgstr "Inga tabeller hittades."
+
+#. translators: %s table name.
+#: templates/settings-tab-debug.php:48
+msgctxt "debug dropin"
+msgid "Required table \"%s\" does not exist."
+msgstr "Obligatoriska tabellen ”%s” finns inte."
+
+#: loggers/class-simple-history-logger.php:34
+msgctxt "Logger: SimpleHistoryLogger"
+msgid "Removed {num_rows} events that were older than {days} days"
+msgstr "Tog bort {num_rows} händelser som var äldre än {days} dagar"
+
+#. translators: 1 is a link to the WordPress.org plugin review page for Simple
+#. History.
+#: dropins/class-donate-dropin.php:62
+msgid "Consider giving Simple History <a href=\"%1$s\" target=\"_blank\">a nice review at WordPress.org</a> if you find it useful."
+msgstr "Överväg att ge Simple History <a href=\"%1$s\" target=\"_blank\">en trevlig recension på WordPress.org</a> om du tycker att det är användbart."
+
+#: loggers/class-simple-history-logger.php:232
+msgid "Changed items"
+msgstr "Ändrade objekt"
+
+#: loggers/class-simple-history-logger.php:33
+msgctxt "Logger: SimpleHistoryLogger"
+msgid "Cleared the log for Simple History ({num_rows_deleted} rows were removed)"
+msgstr "Rensade loggen för Simple History ({num_rows_deleted} rader togs bort)"
+
+#: loggers/class-simple-history-logger.php:32
+msgctxt "Logger: SimpleHistoryLogger"
+msgid "Regenerated RSS feed secret"
+msgstr "Återskapade hemlighet för RSS-flöde"
+
+#: loggers/class-simple-history-logger.php:31
+msgctxt "Logger: SimpleHistoryLogger"
+msgid "Modified settings"
+msgstr "Ändrade inställningar"
+
+#: loggers/class-simple-history-logger.php:28
+msgid "Logs changes made on the Simple History settings page."
+msgstr "Loggar ändringar som gjorts på inställningssidan för Simple History."
+
+#: loggers/class-simple-history-logger.php:27
+msgctxt "Logger: SimpleHistoryLogger"
+msgid "Using plugin Simple History"
+msgstr "Användning av tillägget Simple History"
+
+#: loggers/class-simple-history-logger.php:26
+msgctxt "Logger: SimpleHistoryLogger"
+msgid "Simple History Logger"
+msgstr "Loggare för Simple History"
+
+#: inc/services/class-setup-settings-page.php:185
+#: inc/services/class-setup-settings-page.php:207
+#: loggers/class-options-logger.php:64
+msgid "General"
+msgstr "Allmänt"
+
+#. translators: %s is a link to the documentation
+#: dropins/class-rss-dropin.php:487
+msgid "Query parameters can be used to control what to include in the feed. <a href=\"%1$s\" class=\"sh-ExternalLink\" target=\"_blank\">View documentation</a>."
+msgstr "Query-parametrar kan användas för att styra vad som ska inkluderas i flödet. <a href=\"%1$s\" class=\"sh-ExternalLink\" target=\"_blank\">Visa dokumentation</a>."
+
+#: loggers/class-simple-history-logger.php:224
+msgid "RSS feed enabled"
+msgstr "RSS-flöde aktiverat"
+
+#: loggers/class-simple-history-logger.php:220
+msgid "Items on dashboard"
+msgstr "Objekt i adminpanelen"
+
+#: loggers/class-simple-history-logger.php:216
+msgid "Items on page"
+msgstr "Objekt på sidan"
+
+#: loggers/class-simple-history-logger.php:212
+msgid "Show as a page"
+msgstr "Visa som en sida"
+
+#: loggers/class-simple-history-logger.php:208
+msgid "Show on dashboard"
+msgstr "Visa i adminpanelen"
+
+#. translators: %s post title with link.
+#: loggers/class-options-logger.php:504 loggers/class-options-logger.php:529
+msgid "Page %s"
+msgstr "Sida %s"
+
+#: loggers/class-privacy-logger.php:48
+msgctxt "Logger: Privacy"
+msgid "Marked personal data erasure request as complete for \"{user_email}\""
+msgstr "Markerade begäran om borttagning av personuppgifter för ”{user_email}” som slutförd"
+
+#: loggers/class-privacy-logger.php:44
+msgctxt "Logger: Privacy"
+msgid "Marked personal data export request as complete for \"{request_email}\""
+msgstr "Markerade begäran om export av personuppgifter för ”{request_email}” som slutförd"
+
+#: loggers/class-plugin-redirection-logger.php:40
+msgctxt "Logger: Redirection"
+msgid "Edited redirection group \"{prev_group_name}\""
+msgstr "Redigerade omdirigeringsgruppen ”{prev_group_name}”"
+
+#. translators: 1: dropin class name.
+#: inc/services/class-dropins-loader.php:59
+msgid "A dropin was not found. Classname was \"%1$s\"."
+msgstr "Ett insticksprogram kunde inte hittas. Klassnamnet var ”%1$s”."
+
+#. translators: 1: logger slug.
+#: inc/services/class-loggers-loader.php:141
+msgid "Logger %1$s is missing a name."
+msgstr "Loggaren %1$s saknar ett namn."
+
+#: inc/services/class-loggers-loader.php:130
+msgid "A logger is missing a slug."
+msgstr "En loggare saknar en slug."
+
+#. translators: 1: logger slug, 2: logger name.
+#: inc/services/class-loggers-loader.php:118
+msgid "A logger slug can be max 30 chars long. Slug %1$s of logger %2$s is to long."
+msgstr "En loggares slug kan maximalt vara 30 tecken lång. Slugen %1$s för loggaren %2$s är för lång."
+
+#: dropins/class-donate-dropin.php:87
+msgid "Become a GitHub sponsor"
+msgstr "Bli en GitHub-sponsor"
+
+#: dropins/class-donate-dropin.php:82
+msgid "Donate using PayPal"
+msgstr "Donera med PayPal"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:35
+msgctxt "PluginWPCrontrolLogger"
+msgid "Resumed the \"{event_hook}\" cron event hook"
+msgstr "Återupptog åtgärds-hooken för cron-händelsen ”{event_hook}”"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:34
+msgctxt "PluginWPCrontrolLogger"
+msgid "Paused the \"{event_hook}\" cron event hook"
+msgstr "Pausade åtgärds-hooken för cron-händelsen ”{event_hook}”"
+
+#: inc/class-stats-view.php:715
+msgid "Deleted"
+msgstr "Borttagen"
+
+#: loggers/class-media-logger.php:296 build/index-admin-bar.js:4
+#: build/index-gutenberg.js:4 build/index.js:6
+msgid "Description"
+msgstr "Beskrivning"
+
+#: loggers/class-theme-logger.php:30
+msgid "Logs theme edits"
+msgstr "Loggar temaändringar"
+
+#: loggers/class-theme-logger.php:29
+msgid "Theme Logger"
+msgstr "Loggare för teman"
+
+#: loggers/class-post-logger.php:33
+msgid "Logs the creation and modification of posts and pages"
+msgstr "Loggar skapande och ändring av inlägg och sidor"
+
+#: loggers/class-post-logger.php:32
+msgid "Post Logger"
+msgstr "Loggare av inlägg"
+
+#: loggers/class-plugin-logger.php:55
+msgid "Logs plugin installs, uninstalls and updates"
+msgstr "Loggar installationer, avinstallationer och uppdateringar av tillägg"
+
+#: loggers/class-plugin-logger.php:54
+msgid "Plugin Logger"
+msgstr "Loggare av tillägg"
+
+#: loggers/class-options-logger.php:22
+msgid "Logs updates to WordPress settings"
+msgstr "Loggar uppdateringar av WordPress-inställningar"
+
+#: loggers/class-options-logger.php:21
+msgid "Options Logger"
+msgstr "Loggare för alternativ"
+
+#: loggers/class-menu-logger.php:23
+msgid "Logs menu edits"
+msgstr "Loggar menyändringar"
+
+#: loggers/class-menu-logger.php:22
+msgid "Menu Logger"
+msgstr "Loggare för menyer"
+
+#: loggers/class-simple-logger.php:27
+msgid "The built in logger for Simple History"
+msgstr "Inbyggd loggare för ”Simple History”"
+
+#: loggers/class-core-updates-logger.php:20
+msgid "Logs the update of WordPress (manual and automatic updates)"
+msgstr "Loggar uppdateringarna av WordPress (manuella och automatiska uppdateringar)"
+
+#: loggers/class-core-updates-logger.php:19
+msgid "Core Updates Logger"
+msgstr "Loggare för kärnuppdateringar"
+
+#: loggers/class-comments-logger.php:24
+msgid "Logs comments, and modifications to them"
+msgstr "Loggar kommentarer och ändringar av dem"
+
+#: loggers/class-comments-logger.php:23
+msgid "Comments Logger"
+msgstr "Loggare för kommentarer"
+
+#: loggers/class-categories-logger.php:22
+msgid "Logs changes to categories, tags, and taxonomies"
+msgstr "Loggar ändringar av kategorier, etiketter och taxonomier"
+
+#: loggers/class-plugin-redirection-logger.php:28
+msgctxt "Logger: Redirection"
+msgid "Logs edits in the Redirection plugin"
+msgstr "Loggar ändringar i tillägget ”Redirection”"
+
+#: loggers/class-plugin-redirection-logger.php:27
+msgctxt "Logger: Redirection"
+msgid "Plugin: Redirection Logger"
+msgstr "Tillägg: Loggare för ”Redirection”"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:22
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Plugin: Limit Login Attempts Logger"
+msgstr "Tillägg: Loggare för ”Limit Login Attempts”"
+
+#: loggers/class-plugin-duplicate-post-logger.php:25
+msgctxt "Logger: Plugin Duplicate Post"
+msgid "Plugin: Duplicate Posts Logger"
+msgstr "Tillägg: Loggare för ”Duplicate Posts”"
+
+#: loggers/class-plugin-beaver-builder-logger.php:19
+msgctxt "Logger: Plugin Beaver Builder"
+msgid "Plugin: Beaver Builder Logger"
+msgstr "Tillägg: Loggare för ”Beaver Builder”"
+
+#: loggers/class-plugin-acf-logger.php:53
+msgctxt "Logger: Plugin ACF"
+msgid "Plugin: Advanced Custom Fields Logger"
+msgstr "Tillägg: Loggare för ”Advanced Custom Fields”"
+
+#: loggers/class-file-edits-logger.php:21
+msgid "Logs edits to theme and plugin files"
+msgstr "Loggar ändringar av tema- och tilläggsfiler"
+
+#: loggers/class-file-edits-logger.php:20
+msgctxt "Logger: FileEditsLogger"
+msgid "File edits Logger"
+msgstr "Loggare för ändringar av filer"
+
+#: loggers/class-translations-logger.php:24
+msgctxt "Logger: Translations"
+msgid "Translation Logger"
+msgstr "Loggare för översättningar"
+
+#: loggers/class-privacy-logger.php:34
+msgctxt "Logger: privacy"
+msgid "Privacy Logger"
+msgstr "Loggare för integritet"
+
+#: loggers/class-plugin-jetpack-logger.php:24
+msgctxt "Logger: Jetpack"
+msgid "Plugin: Jetpack Logger"
+msgstr "Tillägg: Loggare för ”Jetpack”"
+
+#: loggers/class-available-updates-logger.php:25
+msgid "Logs found updates to WordPress, plugins, and themes"
+msgstr "Loggar hittade uppdateringar av WordPress, tillägg och teman"
+
+#: loggers/class-available-updates-logger.php:23
+msgctxt "AvailableUpdatesLogger"
+msgid "Available Updates Logger"
+msgstr "Loggare för tillgängliga uppdatering"
+
+#: loggers/class-user-logger.php:1085 loggers/class-user-logger.php:1092
+msgid "Site Default"
+msgstr "Standardspråk för webbplatsen"
+
+#: loggers/class-user-logger.php:1029
+msgctxt "User logger"
+msgid "Language"
+msgstr "Språk"
+
+#: loggers/class-user-logger.php:1026
+msgctxt "User logger"
+msgid "Don't show"
+msgstr "Visa inte"
+
+#: loggers/class-user-logger.php:1025
+msgctxt "User logger"
+msgid "Show"
+msgstr "Visa"
+
+#: loggers/class-user-logger.php:1023
+msgctxt "User logger"
+msgid "Toolbar"
+msgstr "Verktygsfält"
+
+#: loggers/class-user-logger.php:1011 loggers/class-user-logger.php:1020
+msgctxt "User logger"
+msgid "Disable"
+msgstr "Inaktivera"
+
+#: loggers/class-user-logger.php:1010 loggers/class-user-logger.php:1019
+msgctxt "User logger"
+msgid "Enable"
+msgstr "Aktivera"
+
+#: loggers/class-user-logger.php:134
+msgctxt "User logger: search"
+msgid "User application password deletion"
+msgstr "Applikationslösenord för användare borttaget"
+
+#: loggers/class-user-logger.php:131
+msgctxt "User logger: search"
+msgid "User application password created"
+msgstr "Applikationslösenord för användare skapades"
+
+#: loggers/class-user-logger.php:125
+msgctxt "User logger: search"
+msgid "User role changes"
+msgstr "Ändringar av användarroll"
+
+#: loggers/class-user-logger.php:92
+msgctxt "User revoke application password"
+msgid "Revoked application password \"{application_password_name}\" for user \"{edited_user_login}\""
+msgstr "Återkallade applikationslösenordet ”{application_password_name}” för användaren ”{edited_user_login}”"
+
+#: loggers/class-user-logger.php:87
+msgctxt "User add new application password"
+msgid "Added application password \"{application_password_name}\" for user \"{edited_user_login}\""
+msgstr "La till applikationslösenordet ”{application_password_name}” för användaren ”{edited_user_login}”"
+
+#: loggers/class-user-logger.php:67
+msgctxt "User updates the role for a user"
+msgid "Changed role for user \"{edited_user_login}\" to \"{new_role}\" from \"{old_role}\""
+msgstr "Ändrade roll för användare ”{edited_user_login}” till ”{new_role}” från ”{old_role}”"
+
+#: loggers/class-user-logger.php:82
+msgctxt "User clicks confirm admin email on admin email confirm screen"
+msgid "Verified that administration email for website is correct"
+msgstr "Verifierade att webbplatsens e-postadress för administration är korrekt"
+
+#: loggers/class-theme-logger.php:35
+msgid "Deleted theme \"{theme_name}\""
+msgstr "Tog bort temat ”{theme_name}”"
+
+#: loggers/class-theme-logger.php:34
+msgid "Installed theme \"{theme_name}\" by {theme_author}"
+msgstr "Installerade temat ”{theme_name}” av {theme_author}"
+
+#: loggers/class-media-logger.php:161
+msgid "Uploaded {post_type} <a href=\"{edit_link}\">\"{attachment_title}\"</a> to {attachment_parent_post_type} \"{attachment_parent_title}\""
+msgstr "Laddade upp {post_type} <a href=\"{edit_link}\">\"{attachment_title}\"</a> till {attachment_parent_post_type} ”{attachment_parent_title}”"
+
+#: loggers/class-media-logger.php:158
+msgid "Uploaded {post_type} <a href=\"{edit_link}\">\"{attachment_title}\"</a> to {attachment_parent_post_type} <a href=\"{attachment_parent_edit_link}\">\"{attachment_parent_title}\"</a>"
+msgstr "Laddade upp {post_type} <a href=\"{edit_link}\">\"{attachment_title}\"</a> till {attachment_parent_post_type} <a href=\"{attachment_parent_edit_link}\">”{attachment_parent_title}”</a>"
+
+#: loggers/class-media-logger.php:30
+msgid "Logs media uploads and edits"
+msgstr "Loggar uppladdning och redigeringar av media"
+
+#: loggers/class-media-logger.php:29
+msgid "Media/Attachments Logger"
+msgstr "Loggare för media/bilagor"
+
+#. translators: %s list of links to ipinfo.io with IP:s as link labels.
+#: loggers/class-logger.php:586
+msgid "IP Addresses %1$s"
+msgstr "IP-adresser %1$s"
+
+#. translators: %s link to ipinfo.io with first IP as link label.
+#: loggers/class-logger.php:558
+msgid "IP Address %1$s"
+msgstr "IP-adress %1$s"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:461
+msgctxt "PluginWPCrontrolLogger"
+msgid "Display Name"
+msgstr "Visningsnamn"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:453
+msgctxt "PluginWPCrontrolLogger"
+msgid "Interval"
+msgstr "Intervall"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:445
+msgctxt "PluginWPCrontrolLogger"
+msgid "Name"
+msgstr "Namn"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:409
+#: loggers/class-plugin-wp-crontrol-logger.php:416
+msgctxt "PluginWPCrontrolLogger"
+msgid "Recurrence"
+msgstr "Upprepning"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:389
+#: loggers/class-plugin-wp-crontrol-logger.php:396
+msgctxt "PluginWPCrontrolLogger"
+msgid "Next Run"
+msgstr "Nästa körning"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:364
+#: loggers/class-plugin-wp-crontrol-logger.php:376
+msgctxt "PluginWPCrontrolLogger"
+msgid "Arguments"
+msgstr "Argument"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:350
+msgctxt "PluginWPCrontrolLogger"
+msgid "Hook"
+msgstr "Åtgärds-hook"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:89
+#: loggers/class-plugin-wp-crontrol-logger.php:150
+#: loggers/class-plugin-wp-crontrol-logger.php:248
+#: loggers/class-plugin-wp-crontrol-logger.php:258
+#: loggers/class-plugin-wp-crontrol-logger.php:372
+msgctxt "PluginWPCrontrolLogger"
+msgid "None"
+msgstr "Inget"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:38
+msgctxt "PluginWPCrontrolLogger"
+msgid "Deleted cron schedule \"{schedule_name}\""
+msgstr "Tog bort cron-schemat ”{schedule_name}”"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:37
+msgctxt "PluginWPCrontrolLogger"
+msgid "Added cron schedule \"{schedule_name}\""
+msgstr "Lade till cron-schemat ”{schedule_name}”"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:36
+msgctxt "PluginWPCrontrolLogger"
+msgid "Edited cron event \"{event_hook}\""
+msgstr "Redigerade cron-händelsen ”{event_hook}”"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:33
+msgctxt "PluginWPCrontrolLogger"
+msgid "Deleted all \"{event_hook}\" cron events"
+msgstr "Tog bort alla cron-händelser för ”{event_hook}”"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:32
+msgctxt "PluginWPCrontrolLogger"
+msgid "Deleted cron event \"{event_hook}\""
+msgstr "Tog bort cron-händelsen ”{event_hook}”"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:31
+msgctxt "PluginWPCrontrolLogger"
+msgid "Manually ran cron event \"{event_hook}\""
+msgstr "Körde cron-händelsen ”{event_hook}” manuellt"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:30
+msgctxt "PluginWPCrontrolLogger"
+msgid "Added cron event \"{event_hook}\""
+msgstr "Lade till cron-händelsen ”{event_hook}”"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:27
+msgctxt "PluginWPCrontrolLogger"
+msgid "Using plugin WP Crontrol"
+msgstr "Använder tillägget WP Crontrol"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:26
+msgctxt "PluginWPCrontrolLogger"
+msgid "Logs management of cron events"
+msgstr "Loggar hanteringen av cron-händelser"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:25
+msgctxt "PluginWPCrontrolLogger"
+msgid "Plugin: WP Crontrol Logger"
+msgstr "Tillägg: Loggare för ”WP Crontrol”"
+
+#: loggers/class-plugin-logger.php:126
+msgctxt "Plugin was enabled for auto-updates"
+msgid "Disabled auto-updates for plugin \"{plugin_name}\""
+msgstr "Inaktiverade automatiska uppdateringar för tillägget ”{plugin_name}”"
+
+#: loggers/class-plugin-logger.php:121
+msgctxt "Plugin was enabled for auto-updates"
+msgid "Enabled auto-updates for plugin \"{plugin_name}\""
+msgstr "Aktiverade automatiska uppdateringar för tillägget ”{plugin_name}”"
+
+#: loggers/class-plugin-beaver-builder-logger.php:44
+msgid "Beaver Builder settings saved"
+msgstr "Inställningar för Beaver Builder sparade"
+
+#: loggers/class-plugin-beaver-builder-logger.php:40
+msgid "Draft \"{layout_name}\" updated"
+msgstr "Utkastet ”{layout_name}” uppdaterat"
+
+#: loggers/class-plugin-beaver-builder-logger.php:36
+msgid "Template \"{layout_name}\" updated"
+msgstr "Mallen ”{layout_name}” uppdaterad"
+
+#: loggers/class-plugin-beaver-builder-logger.php:32
+msgid "Layout \"{layout_name}\" updated"
+msgstr "Layouten ”{layout_name}” uppdaterad"
+
+#: loggers/class-plugin-beaver-builder-logger.php:25
+msgctxt "Logger: Plugin Beaver Builder"
+msgid "Using plugin Beaver Builder"
+msgstr "Använder tillägget Beaver Builder"
+
+#: loggers/class-plugin-beaver-builder-logger.php:20
+msgctxt "Logger: Plugin Beaver Builder"
+msgid "Logs various things in Beaver Builder"
+msgstr "Loggar olika saker i Beaver Builder"
+
+#: inc/services/class-setup-database.php:364
+msgid "Welcome to Simple History! This is the event history feed. It will contain events that this plugin has logged."
+msgstr "Välkommen till Simple History! Detta är flödet för händelsehistorik. Det kommer innehålla händelser som detta tillägg har loggat."
+
+#: loggers/class-categories-logger.php:39
+msgctxt "Category logger: search"
+msgid "Term edited"
+msgstr "Term redigerad"
+
+#: loggers/class-categories-logger.php:36
+msgctxt "Category logger: search"
+msgid "Term deleted"
+msgstr "Term borttagen"
+
+#: loggers/class-categories-logger.php:33
+msgctxt "Category logger: search"
+msgid "Term created"
+msgstr "Term skapad"
+
+#: loggers/class-categories-logger.php:31
+msgctxt "Category logger: search"
+msgid "All category activity"
+msgstr "All kategoriaktivitet"
+
+#: loggers/class-categories-logger.php:30
+msgctxt "Categories logger: search"
+msgid "Categories"
+msgstr "Kategorier"
+
+#: templates/settings-tab-debug.php:511
+msgctxt "debug dropin"
+msgid "No"
+msgstr "Nej"
+
+#: templates/settings-tab-debug.php:511
+msgctxt "debug dropin"
+msgid "Yes"
+msgstr "Ja"
+
+#: templates/settings-tab-debug.php:479
+msgctxt "debug dropin"
+msgid "Plugins"
+msgstr "Tillägg"
+
+#: templates/settings-tab-debug.php:432
+msgctxt "debug dropin"
+msgid "No message strings"
+msgstr "Inga meddelandesträngar"
+
+#: templates/settings-tab-debug.php:87
+msgctxt "debug dropin"
+msgid "Database size"
+msgstr "Databasstorlek"
+
+#: loggers/class-translations-logger.php:28
+msgctxt "Logger: Translations"
+msgid "Updated translations for \"{name}\" ({language})"
+msgstr "Uppdaterade översättningar för ”{name}” ({language})"
+
+#: loggers/class-translations-logger.php:25
+msgctxt "Logger: Translations"
+msgid "Log WordPress translation related things"
+msgstr "Loggar saker relaterade till WordPress-översättningar"
+
+#: loggers/class-plugin-jetpack-logger.php:30
+msgctxt "Logger: Jetpack"
+msgid "Deactivated Jetpack module \"{module_name}\""
+msgstr "Inaktiverade Jetpack-modulen ”{module_name}”"
+
+#: loggers/class-plugin-jetpack-logger.php:29
+msgctxt "Logger: Jetpack"
+msgid "Activated Jetpack module \"{module_name}\""
+msgstr "Aktiverade Jetpack-modulen ”{module_name}”"
+
+#: loggers/class-plugin-jetpack-logger.php:27
+msgctxt "Logger: Jetpack"
+msgid "Using plugin Jetpack"
+msgstr "Använder tillägget Jetpack"
+
+#: loggers/class-plugin-jetpack-logger.php:25
+msgctxt "Logger: Jetpack"
+msgid "Log Jetpack settings changes"
+msgstr "Loggar ändringar av Jetpackinställningar"
+
+#: loggers/class-privacy-logger.php:49
+msgctxt "Logger: Privacy"
+msgid "Removed personal data removal request for \"{user_email}\""
+msgstr "Tog bort begäran om borttagning av personuppgifter för ”{user_email}”"
+
+#: loggers/class-privacy-logger.php:50
+msgctxt "Logger: Privacy"
+msgid "Erased personal data for \"{user_email}\""
+msgstr "Tog bort personuppgifter för ”{user_email}”"
+
+#: loggers/class-privacy-logger.php:47
+msgctxt "Logger: Privacy"
+msgid "Confirmed personal data erasure request for \"{user_email}\""
+msgstr "Bekräftade begäran om borttagning av personuppgifter för ”{user_email}”"
+
+#: loggers/class-privacy-logger.php:46
+msgctxt "Logger: Privacy"
+msgid "Added personal data erasure request for \"{user_email}\""
+msgstr "Lade till begäran om borttagning av personuppgifter för ”{user_email}”"
+
+#: loggers/class-privacy-logger.php:45
+msgctxt "Logger: Privacy"
+msgid "Removed data export request for \"{user_email}\""
+msgstr "Tog bort begäran om export av data för ”{user_email}”"
+
+#: loggers/class-privacy-logger.php:43
+msgctxt "Logger: Privacy"
+msgid "Confirmed personal data export request for \"{user_email}\""
+msgstr "Bekräftade begäran om export av personuppgifter för ”{user_email}”"
+
+#: loggers/class-privacy-logger.php:42
+msgctxt "Logger: Privacy"
+msgid "Sent email with personal data export download info for user \"{user_email}\""
+msgstr "Skickat e-postmeddelande med nedladdningsinformation av exporterade personuppgifter för användaren ”{user_email}”"
+
+#: loggers/class-privacy-logger.php:41
+msgctxt "Logger: Privacy"
+msgid "Downloaded personal data export file for user \"{user_email}\""
+msgstr "Laddade ner exportfil med personuppgifter för användaren ”{user_email}”"
+
+#: loggers/class-privacy-logger.php:40
+msgctxt "Logger: Privacy"
+msgid "Requested a personal privacy data export for user \"{user_email}\""
+msgstr "Begärde en export av personliga integritetsdata för användaren ”{user_email}”"
+
+#: loggers/class-privacy-logger.php:39
+msgctxt "Logger: Privacy"
+msgid "Set privacy page to page \"{new_post_title}\""
+msgstr "Angav integritetssidan till sidan ”{new_post_title}”"
+
+#: loggers/class-privacy-logger.php:38
+msgctxt "Logger: Privacy"
+msgid "Created a new privacy page \"{new_post_title}\""
+msgstr "Skapade en ny integritetssida ”{new_post_title}”"
+
+#: loggers/class-privacy-logger.php:35
+msgctxt "Logger: Privacy"
+msgid "Log WordPress privacy related things"
+msgstr "Loggar saker relaterade till personlig integritet i WordPress"
+
+#: loggers/class-plugin-redirection-logger.php:418
+msgctxt "Logger: Redirection"
+msgid "Target"
+msgstr "Mål"
+
+#: loggers/class-plugin-redirection-logger.php:401
+msgctxt "Logger: Redirection"
+msgid "Source URL"
+msgstr "URL-källa"
+
+#: loggers/class-plugin-redirection-logger.php:43
+msgctxt "Logger: Redirection"
+msgid "Deleted {items_count} redirection group(s)"
+msgstr "Tog bort {items_count} omdirigeringsgrupp/-grupper"
+
+#: loggers/class-plugin-redirection-logger.php:42
+msgctxt "Logger: Redirection"
+msgid "Disabled {items_count} redirection group(s)"
+msgstr "Inaktiverade {items_count} omdirigeringsgrupp/-grupper"
+
+#: loggers/class-plugin-redirection-logger.php:41
+msgctxt "Logger: Redirection"
+msgid "Enabled {items_count} redirection group(s)"
+msgstr "Aktiverade {items_count} omdirigeringsgrupp/-grupper"
+
+#: loggers/class-plugin-redirection-logger.php:39
+msgctxt "Logger: Redirection"
+msgid "Added redirection group \"{group_name}\""
+msgstr "Lade till omdirigeringsgruppen ”{group_name}”"
+
+#: loggers/class-plugin-redirection-logger.php:37
+msgctxt "Logger: Redirection"
+msgid "Updated redirection options"
+msgstr "Uppdaterade omdirigeringsalternativ"
+
+#: loggers/class-categories-logger.php:266
+msgctxt "Categories logger: detailed plain text output for edited term"
+msgid "Edited term <a href=\"{term_edit_link}\">\"{to_term_name}\"</a> in taxonomy <a href=\"{tax_edit_link}\">\"{toTermTaxonomySlugOrName}\"</a>"
+msgstr "Redigerade termen <a href=\"{term_edit_link}\">”{to_term_name}”</a> i taxonomin <a href=\"{tax_edit_link}\">”{toTermTaxonomySlugOrName}”</a>"
+
+#: loggers/class-categories-logger.php:260
+msgctxt "Categories logger: detailed plain text output for deleted term"
+msgid "Deleted term \"{term_name}\" from taxonomy <a href=\"{tax_edit_link}\">\"{termTaxonomySlugOrName}\"</a>"
+msgstr "Tog bort termen ”{term_name}” från taxonomin <a href=\"{tax_edit_link}\">\"{termTaxonomySlugOrName}\"</a>"
+
+#: loggers/class-categories-logger.php:254
+msgctxt "Categories logger: detailed plain text output for created term"
+msgid "Added term <a href=\"{term_edit_link}\">\"{term_name}\"</a> in taxonomy <a href=\"{tax_edit_link}\">\"{termTaxonomySlugOrName}\"</a>"
+msgstr "Lade till termen <a href=\"{term_edit_link}\">”{term_name}”</a> i taxonomin <a href=\"{tax_edit_link}\">”{termTaxonomySlugOrName}”</a>"
+
+#: loggers/class-plugin-acf-logger.php:772
+msgctxt "Logger: Plugin ACF"
+msgid "Modified field"
+msgstr "Ändrat fält"
+
+#. translators: %1$s is the label name.
+#: loggers/class-plugin-acf-logger.php:740
+msgctxt "Logger: Plugin ACF"
+msgid "Label: %1$s"
+msgstr "Etikett: %1$s"
+
+#: loggers/class-plugin-acf-logger.php:727
+msgctxt "Logger: Plugin ACF"
+msgid "Type: "
+msgstr "Typ: "
+
+#: loggers/class-plugin-acf-logger.php:724
+msgctxt "Logger: Plugin ACF"
+msgid "Label: "
+msgstr "Etikett: "
+
+#: loggers/class-plugin-acf-logger.php:721
+msgctxt "Logger: Plugin ACF"
+msgid "Key: "
+msgstr "Nyckel: "
+
+#: loggers/class-plugin-acf-logger.php:718
+msgctxt "Logger: Plugin ACF"
+msgid "Parent: "
+msgstr "Överordnad: "
+
+#: loggers/class-plugin-acf-logger.php:715
+msgctxt "Logger: Plugin ACF"
+msgid "Name: "
+msgstr "Namn: "
+
+#: loggers/class-plugin-acf-logger.php:703
+msgctxt "Logger: Plugin ACF"
+msgid "Added field"
+msgid_plural "Added fields"
+msgstr[0] "Tillagt fält"
+msgstr[1] "Tillagda fält"
+
+#: loggers/class-plugin-acf-logger.php:674
+msgctxt "Logger: Plugin ACF"
+msgid "Deleted field"
+msgid_plural "Deleted fields"
+msgstr[0] "Tog bort fält"
+msgstr[1] "Tog bort fält"
+
+#: loggers/class-plugin-acf-logger.php:644
+msgctxt "Logger: Plugin ACF"
+msgid "Hide on screen"
+msgstr "Dölj på skärm"
+
+#: loggers/class-plugin-acf-logger.php:631
+msgctxt "Logger: Plugin ACF"
+msgid "Unchecked"
+msgstr "Avmarkerad"
+
+#: loggers/class-plugin-acf-logger.php:623
+msgctxt "Logger: Plugin ACF"
+msgid "Checked"
+msgstr "Markerad"
+
+#: loggers/class-plugin-acf-logger.php:591
+msgctxt "Logger: Plugin ACF"
+msgid "Style"
+msgstr "Stil"
+
+#: loggers/class-plugin-acf-logger.php:588
+msgctxt "Logger: Plugin ACF"
+msgid "Active"
+msgstr "Aktiv"
+
+#: loggers/class-plugin-acf-logger.php:585
+msgctxt "Logger: Plugin ACF"
+msgid "Position"
+msgstr "Position"
+
+#: loggers/class-plugin-acf-logger.php:582
+msgctxt "Logger: Plugin ACF"
+msgid "Menu order"
+msgstr "Menyordning"
+
+#: loggers/class-plugin-acf-logger.php:579
+msgctxt "Logger: Plugin ACF"
+msgid "Description"
+msgstr "Beskrivning"
+
+#: loggers/class-plugin-acf-logger.php:576
+msgctxt "Logger: Plugin ACF"
+msgid "Label placement"
+msgstr "Etikettplacering"
+
+#: loggers/class-plugin-acf-logger.php:573
+msgctxt "Logger: Plugin ACF"
+msgid "Instruction placement"
+msgstr "Instruktionsplacering"
+
+#: loggers/class-plugin-acf-logger.php:55
+msgctxt "Logger: Plugin ACF"
+msgid "Using plugin ACF"
+msgstr "Använder tillägget ACF"
+
+#: loggers/class-plugin-acf-logger.php:54
+msgctxt "Logger: Plugin ACF"
+msgid "Logs ACF stuff"
+msgstr "Loggar saker från ACF"
+
+#: loggers/class-post-logger.php:1686
+msgid "Featured image"
+msgstr "Utvald bild"
+
+#. translators: 1: WordPress version
+#: inc/oldversions.php:31
+msgid "Simple History requires WordPress version 6.3 or higher (you have version %s)."
+msgstr "Simple History kräver WordPress version 6.3 eller högre (du har version %s)."
+
+#: loggers/class-plugin-logger.php:115
+msgctxt "Plugin was disabled because of an error"
+msgid "Deactivated plugin \"{plugin_slug}\" because of an error (\"{deactivation_reason}\")."
+msgstr "Inaktiverade tillägget ”{plugin_slug}” på grund av ett fel (”{deactivation_reason}”)."
+
+#: loggers/class-file-edits-logger.php:194
+msgid "File contents"
+msgstr "Filinnehåll"
+
+#: loggers/class-file-edits-logger.php:32
+msgctxt "Plugin logger: file edits"
+msgid "Edited theme files"
+msgstr "Redigerade temafiler"
+
+#: loggers/class-file-edits-logger.php:30
+msgctxt "Plugin logger: file edits"
+msgid "All file edits"
+msgstr "Alla filändringar"
+
+#: loggers/class-file-edits-logger.php:29
+msgctxt "Plugin logger: file edits"
+msgid "Edited theme and plugin files"
+msgstr "Temat och tilläggets filer har redigerats"
+
+#: loggers/class-file-edits-logger.php:25
+msgid "Edited file \"{file_name}\" in plugin \"{plugin_name}\""
+msgstr "Redigerat fil ”{file_name}” i tillägg ”{plugin_name}”"
+
+#: loggers/class-file-edits-logger.php:24
+msgid "Edited file \"{file_name}\" in theme \"{theme_name}\""
+msgstr "Redigerade filen ”{file_name}” i temat ”{theme_name}”"
+
+#: inc/services/wp-cli-commands/class-wp-cli-list-command.php:182
+msgid "Error: parameter \"count\" must be a number"
+msgstr "Fel: parameter ”antal” måste vara ett nummer"
+
+#: templates/settings-tab-debug.php:495
+msgctxt "debug dropin"
+msgid "Active"
+msgstr "Aktivt"
+
+#: templates/settings-tab-debug.php:494
+msgctxt "debug dropin"
+msgid "Plugin file path"
+msgstr "Tilläggets filsökväg"
+
+#: templates/settings-tab-debug.php:493
+msgctxt "debug dropin"
+msgid "Plugin name"
+msgstr "Tilläggets namn"
+
+#: loggers/class-plugin-duplicate-post-logger.php:118
+msgctxt "Logger: Plugin Duplicate Post"
+msgid "Cloned {duplicated_post_post_type_singular_name} <a href=\"{duplicated_post_edit_link}\">\"{duplicated_post_title}\"</a> to <a href=\"{new_post_edit_link}\">a new {duplicated_post_post_type_singular_name}</a>"
+msgstr "Klonade {duplicated_post_post_type_singular_name} <a href=\"{duplicated_post_edit_link}\">”{duplicated_post_title}”</a> till <a href=\"{new_post_edit_link}\">ett ny {duplicated_post_post_type_singular_name}</a>"
+
+#: loggers/class-plugin-duplicate-post-logger.php:34
+msgctxt "Logger: Plugin Duplicate Post"
+msgid "Cloned \"{duplicated_post_title}\" to a new post"
+msgstr "”{duplicated_post_title}” har klonats till ett nytt inlägg"
+
+#: loggers/class-plugin-duplicate-post-logger.php:31
+msgctxt "Logger: Plugin Duplicate Post"
+msgid "Using plugin Yoast Duplicate Post"
+msgstr "Använder tillägget ”Yoast Duplicate Posts”"
+
+#: loggers/class-plugin-duplicate-post-logger.php:26
+msgctxt "Logger: Plugin Duplicate Post"
+msgid "Logs posts and pages cloned using plugin Duplicate Post"
+msgstr "Loggar inlägg och sidor klonade med tillägget Duplicate Post"
+
+#: inc/services/class-setup-settings-page.php:454
+msgid "Number of items per page on the dashboard"
+msgstr "Antal objekt per sida i panelen"
+
+#: inc/services/class-setup-settings-page.php:408
+msgid "Number of items per page on the log page"
+msgstr "Antal objekt per sida på loggsidan"
+
+#: loggers/class-plugin-redirection-logger.php:38
+msgctxt "Logger: Redirection"
+msgid "Removed all redirection options and deactivated plugin"
+msgstr "Tog bort alla omdirigeringsalternativ och inaktiverade tillägg"
+
+#: loggers/class-plugin-redirection-logger.php:36
+msgctxt "Logger: Redirection"
+msgid "Deleted redirection for {items_count} URL(s)"
+msgstr "Tog bort omdirigering för {items_count} URL:er"
+
+#: loggers/class-plugin-redirection-logger.php:35
+msgctxt "Logger: Redirection"
+msgid "Disabled redirection for {items_count} URL(s)"
+msgstr "Inaktiverade omdirigering för {items_count} URL:er"
+
+#: loggers/class-plugin-redirection-logger.php:34
+msgctxt "Logger: Redirection"
+msgid "Enabled redirection for {items_count} URL(s)"
+msgstr "Aktiverade omdirigering för {items_count} URL:er"
+
+#: loggers/class-plugin-redirection-logger.php:33
+msgctxt "Logger: Redirection"
+msgid "Edited redirection for URL \"{prev_source_url}\""
+msgstr "Redigerade omdirigering för ”{prev_source_url}”"
+
+#: loggers/class-plugin-redirection-logger.php:32
+msgctxt "Logger: Redirection"
+msgid "Added a redirection for URL \"{source_url}\""
+msgstr "Lade till en omdirigering för URL:en ”{source_url}”"
+
+#: loggers/class-plugin-redirection-logger.php:29
+msgctxt "Logger: Redirection"
+msgid "In plugin Redirection"
+msgstr "I tillägget Redirection"
+
+#: loggers/class-available-updates-logger.php:300
+msgid "View all updates"
+msgstr "Visa alla uppdateringar"
+
+#: loggers/class-available-updates-logger.php:290
+msgid "Installed version"
+msgstr "Installerad version"
+
+#: loggers/class-available-updates-logger.php:286
+msgid "Available version"
+msgstr "Tillgänglig version"
+
+#: loggers/class-available-updates-logger.php:43
+msgctxt "Plugin logger: updates found"
+msgid "Theme updates found"
+msgstr "Tema uppdateringar hittades"
+
+#: loggers/class-available-updates-logger.php:40
+msgctxt "Plugin logger: updates found"
+msgid "Plugin updates found"
+msgstr "Tilläggsuppdatering hittades"
+
+#: loggers/class-available-updates-logger.php:37
+msgctxt "Plugin logger: updates found"
+msgid "WordPress updates found"
+msgstr "WordPress-uppdateringar hittades"
+
+#: loggers/class-available-updates-logger.php:35
+msgctxt "Plugin logger: updates found"
+msgid "All found updates"
+msgstr "Alla hittade uppdateringar"
+
+#: loggers/class-available-updates-logger.php:34
+msgctxt "Plugin logger: updates found"
+msgid "WordPress and plugins updates found"
+msgstr "WordPress och tilläggsuppdateringar hittades"
+
+#: loggers/class-available-updates-logger.php:30
+msgid "Found an update to theme \"{theme_name}\""
+msgstr "Hittade en uppdatering till temat ”{theme_name}”"
+
+#: loggers/class-available-updates-logger.php:29
+msgid "Found an update to plugin \"{plugin_name}\""
+msgstr "Hittade en uppdatering till tillägget ”{plugin_name}”"
+
+#: loggers/class-available-updates-logger.php:28
+msgid "Found an update to WordPress"
+msgstr "Hittade en uppdatering till WordPress"
+
+#: loggers/class-theme-logger.php:55
+msgctxt "Theme logger: search"
+msgid "Installed themes"
+msgstr "Installerade teman"
+
+#: loggers/class-theme-logger.php:52
+msgctxt "Theme logger: search"
+msgid "Deleted themes"
+msgstr "Borttagna teman"
+
+#: loggers/class-theme-logger.php:49
+msgctxt "Theme logger: search"
+msgid "Updated themes"
+msgstr "Uppdaterade teman"
+
+#: loggers/class-theme-logger.php:36
+msgid "Updated theme \"{theme_name}\""
+msgstr "Uppdaterade temat ”{theme_name}”"
+
+#: loggers/class-plugin-logger.php:89
+msgctxt "Plugin update failed"
+msgid "Failed to update plugin \"{plugin_name}\""
+msgstr "Misslyckades att uppdatera tillägg ”{plugin_name}”"
+
+#. translators: %s time the IP was blocked, e.g. 2 hours.
+#: loggers/class-plugin-limit-login-attempts-logger.php:217
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "IP was blocked for %s"
+msgstr "IP blockerades i %s"
+
+#. translators: %d number of minutes.
+#: loggers/class-plugin-limit-login-attempts-logger.php:210
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minut"
+msgstr[1] "%d minuter"
+
+#. translators: %d number of hours.
+#: loggers/class-plugin-limit-login-attempts-logger.php:204
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d timme"
+msgstr[1] "%d timmar"
+
+#. translators: 1: number of login attempts, 2: number of lockouts, 3: IP that
+#. caused lockout.
+#: loggers/class-plugin-limit-login-attempts-logger.php:193
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "%1$d failed login attempts (%2$d lockout(s)) from IP: %3$s"
+msgstr "%1$d misslyckade inloggningsförsök (%2$d utelåsning/utelåsningar) från IP: %3$s"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:33
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Updated options"
+msgstr "Uppdaterade alternativ"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:32
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Cleared current lockouts"
+msgstr "Rensade nuvarande utlåsningar"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:31
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Reset lockout count"
+msgstr "Återställde antalet utelåsningar"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:30
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Cleared IP log"
+msgstr "Rensad IP-logg"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:29
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Was locked out because too many failed login attempts"
+msgstr "Blev utelåst på grund av för många misslyckade inloggningsförsök"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:28
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Failed login attempt from whitelisted IP"
+msgstr "Misslyckat inloggningsförsök från vitlistat IP"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:24
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Using plugin Limit Login Attempts"
+msgstr "Använder tillägget Limit Login Attempts"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:23
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Logs failed login attempts, lockouts, and configuration changes made in the plugin Limit Login Attempts"
+msgstr "Loggar misslyckade inloggningsförsök, utelåsningar och konfigurationsändringar som gjorts i tillägget ”Limit Login Attempts”"
+
+#. translators: %d number of message strings.
+#: templates/settings-tab-debug.php:415
+msgctxt "debug dropin"
+msgid "%1$s message strings"
+msgstr "%1$s meddelandesträngar"
+
+#: templates/settings-tab-debug.php:382
+msgctxt "debug dropin"
+msgid "Rows count"
+msgstr "Antal rader"
+
+#: templates/settings-tab-debug.php:381
+msgctxt "debug dropin"
+msgid "Capability"
+msgstr "Behörighet"
+
+#: templates/settings-tab-debug.php:380
+msgctxt "debug dropin"
+msgid "Messages"
+msgstr "Meddelanden"
+
+#: templates/settings-tab-debug.php:379
+msgctxt "debug dropin"
+msgid "Description"
+msgstr "Beskrivning"
+
+#: templates/settings-tab-debug.php:378
+msgctxt "debug dropin"
+msgid "Slug"
+msgstr "Slug"
+
+#: templates/settings-tab-debug.php:377
+msgctxt "debug dropin"
+msgid "Logger name"
+msgstr "Namn på loggare"
+
+#. translators: %d number of loggers.
+#: templates/settings-tab-debug.php:357
+msgctxt "debug dropin"
+msgid "Listing %1$d loggers, ordered by rows count in database."
+msgstr "Visar %1$d loggare, sorterat på antalet rader i databasen."
+
+#: templates/settings-tab-debug.php:351
+msgctxt "debug dropin"
+msgid "Loggers"
+msgstr "Loggare"
+
+#. translators: %d number of rows.
+#: templates/settings-tab-debug.php:142
+msgctxt "debug dropin"
+msgid "Total %s rows, when grouped by occasion id."
+msgstr "Totalt %s rader, vid gruppering på ID för tillfälle."
+
+#. translators: %s number of rows.
+#: templates/settings-tab-debug.php:114
+msgctxt "debug dropin"
+msgid "%s rows"
+msgstr "%s rader"
+
+#. translators: %s size in mb.
+#: templates/settings-tab-debug.php:111
+msgctxt "debug dropin"
+msgid "%s MB"
+msgstr "%s MB"
+
+#: templates/settings-tab-debug.php:101
+msgctxt "debug dropin"
+msgid "Rows"
+msgstr "Rader"
+
+#: templates/settings-tab-debug.php:100
+msgctxt "debug dropin"
+msgid "Size"
+msgstr "Storlek"
+
+#: templates/settings-tab-debug.php:99
+msgctxt "debug dropin"
+msgid "Table name"
+msgstr "Tabellnamn"
+
+#: loggers/class-options-logger.php:407
+msgid "&hellip;"
+msgstr "&hellip;"
+
+#: templates/settings-tab-debug.php:57
+msgid "Debug"
+msgstr "Felsök"
+
+#: loggers/class-options-logger.php:513 loggers/class-options-logger.php:539
+msgid "Your latest posts"
+msgstr "Dina senaste inlägg"
+
+#: inc/services/class-network-menu-items.php:125
+msgctxt "Admin bar name"
+msgid "View History"
+msgstr "Visa historik"
+
+#: inc/services/class-network-menu-items.php:71
+msgctxt "Admin bar network name"
+msgid "View History"
+msgstr "Visa historik"
+
+#: loggers/class-user-logger.php:1126
+msgctxt "User logger"
+msgid "Changed"
+msgstr "Ändrat"
+
+#: loggers/class-user-logger.php:1125
+msgctxt "User logger"
+msgid "Password"
+msgstr "Lösenord"
+
+#: loggers/class-user-logger.php:1133
+msgctxt "User logger"
+msgid "Role"
+msgstr "Roll"
+
+#: loggers/class-user-logger.php:1047 loggers/class-user-logger.php:1142
+msgctxt "User logger"
+msgid "Website"
+msgstr "Webbplats"
+
+#: loggers/class-user-logger.php:1041
+msgctxt "User logger"
+msgid "Display name"
+msgstr "Visningsnamn"
+
+#: loggers/class-user-logger.php:1044
+msgctxt "User logger"
+msgid "Email"
+msgstr "E-post"
+
+#: loggers/class-user-logger.php:1059
+msgctxt "User logger"
+msgid "Jabber / Google Talk "
+msgstr "Jabber/Google Talk "
+
+#: loggers/class-user-logger.php:1056
+msgctxt "User logger"
+msgid "Yahoo IM"
+msgstr "Yahoo IM"
+
+#: loggers/class-user-logger.php:1053
+msgctxt "User logger"
+msgid "AIM"
+msgstr "AIM"
+
+#: loggers/class-user-logger.php:1014
+msgctxt "User logger"
+msgid "Colour scheme"
+msgstr "Färgschema"
+
+#: loggers/class-user-logger.php:1017
+msgctxt "User logger"
+msgid "Keyboard shortcuts"
+msgstr "Tangentbordsgenvägar"
+
+#: loggers/class-user-logger.php:1008
+msgctxt "User logger"
+msgid "Visual editor"
+msgstr "Visuell redigerare"
+
+#: loggers/class-user-logger.php:1050
+msgctxt "User logger"
+msgid "Description"
+msgstr "Beskrivning"
+
+#: loggers/class-user-logger.php:1038
+msgctxt "User logger"
+msgid "Nickname"
+msgstr "Smeknamn"
+
+#: loggers/class-user-logger.php:1035 loggers/class-user-logger.php:1139
+msgctxt "User logger"
+msgid "Last name"
+msgstr "Efternamn"
+
+#: loggers/class-user-logger.php:1032 loggers/class-user-logger.php:1136
+msgctxt "User logger"
+msgid "First name"
+msgstr "Förnamn"
+
+#: loggers/class-user-logger.php:739
+msgid "Created user <a href=\"{edit_profile_link}\">{created_user_login} ({created_user_email})</a> with role {created_user_role}"
+msgstr "Skapade användaren <a href=\"{edit_profile_link}\">{created_user_login} ({created_user_email})</a> med rollen {created_user_role}"
+
+#: loggers/class-plugin-user-switching-logger.php:26
+msgctxt "PluginUserSwitchingLogger"
+msgid "Using plugin User Switching"
+msgstr "Använder tillägget User Switching"
+
+#: loggers/class-plugin-enable-media-replace-logger.php:25
+msgctxt "PluginUserSwitchingLogger"
+msgid "Using plugin Enable Media Replace"
+msgstr "Använder tillägget Enable Media Replace"
+
+#. translators: 1 is a link to the support forum.
+#: dropins/class-sidebar-dropin.php:74
+msgctxt "Sidebar box"
+msgid "<a href=\"%1$s\">Visit the support forum</a> if you need help or have questions."
+msgstr "<a href=\"%1$s\">Besök supportforumet</a> om du behöver hjälp eller har frågor."
+
+#: loggers/class-user-logger.php:36
+msgid "Failed to login with username \"{failed_username}\" (username does not exist)"
+msgstr "Misslyckades att logga in med användarnamnet ”{failed_username}” (användarnamnet finns inte)"
+
+#: loggers/class-user-logger.php:32
+msgid "Failed to login with username \"{login}\" (incorrect password entered)"
+msgstr "Misslyckades att logga in med användarnamnet ”{login}” (felaktigt lösenord angavs)"
+
+#: loggers/class-user-logger.php:29
+msgid "Logs user logins, logouts, and failed logins"
+msgstr "Loggar inloggningar, utloggningar, samt misslyckade inloggningsförsök"
+
+#: loggers/class-user-logger.php:28
+msgid "User Logger"
+msgstr "Loggare för användare"
+
+#: loggers/class-categories-logger.php:26
+msgid "Edited term \"{to_term_name}\" in taxonomy \"{to_term_taxonomy}\""
+msgstr "Redigerade termen ”{to_term_name}” i taxonomin ”{to_term_taxonomy}”"
+
+#: loggers/class-categories-logger.php:25
+msgid "Deleted term \"{term_name}\" from taxonomy \"{term_taxonomy}\""
+msgstr "Tog bort termen ”{term_name}” från taxonomin ”{term_taxonomy}”"
+
+#: loggers/class-categories-logger.php:24
+msgid "Added term \"{term_name}\" in taxonomy \"{term_taxonomy}\""
+msgstr "Lade till termen ”{term_name}” i taxonomin ”{term_taxonomy}”"
+
+#: loggers/class-categories-logger.php:21
+msgid "Categories Logger"
+msgstr "Loggare för kategorier"
+
+#: loggers/class-user-logger.php:53
+msgid "Requested a password reset link for user with login '{user_login}' and email '{user_email}'"
+msgstr "Begärde en länk för nollställning av lösenord för användaren med användarnamnet ”{user_login}” och e-post ”{user_email}”"
+
+#: loggers/class-user-logger.php:52
+msgid "Reset their password"
+msgstr "Återställde deras lösenord"
+
+#. translators: 1: local time string, 2: GMT time string.
+#: loggers/class-logger.php:429
+msgid "%1$s local time %3$s (%2$s GMT time)"
+msgstr "%1$s lokal tid %3$s (%2$s GMT-tid)"
+
+#: dropins/class-rss-dropin.php:171
+msgid "Enable RSS feed"
+msgstr "Aktivera RSS-flöde"
+
+#: dropins/class-rss-dropin.php:85
+#: inc/services/class-email-report-service.php:304
+msgid "Enable"
+msgstr "Aktivera"
+
+#: loggers/class-core-updates-logger.php:25
+msgid "WordPress database version updated to {new_version} from {prev_version}"
+msgstr "WordPress-databasen uppdaterades till {new_version} från {prev_version}"
+
+#. Author URI of the plugin
+#: index.php
+msgid "https://simple-history.com/"
+msgstr "https://simple-history.com/"
+
+#. Author of the plugin
+#: index.php
+msgid "Pär Thernström"
+msgstr "Pär Thernström"
+
+#. Description of the plugin
+#: index.php
+msgid "Plugin that logs various things that occur in WordPress and then presents those events in a very nice GUI."
+msgstr "Tillägg som loggar olika saker som händer i WordPress och sedan presenterar dessa händelser i ett mycket trevligt gränssnitt."
+
+#. Plugin URI of the plugin
+#: index.php
+msgid "https://simple-history.com"
+msgstr "https://simple-history.com"
+
+#: templates/email-summary-report.php:313 build/index.js:13
+msgid "Users"
+msgstr "Användare"
+
+#: dropins/class-sidebar-stats-dropin.php:223
+msgctxt "stats: date in rows per day chart"
+msgid "M j"
+msgstr "M j"
+
+#: loggers/class-user-logger.php:729
+msgid "Edited the profile for user <a href=\"{edit_profile_link}\">{edited_user_login} ({edited_user_email})</a>"
+msgstr "Redigerade profilen för användaren <a href=\"{edit_profile_link}\">{edited_user_login} ({edited_user_email})</a>"
+
+#: loggers/class-user-logger.php:723
+msgid "Edited your profile"
+msgstr "Redigerade din profil"
+
+#: loggers/class-user-logger.php:717
+msgid "Edited <a href=\"{edit_profile_link}\">their profile</a>"
+msgstr "Redigerade <a href=\"{edit_profile_link}\">sin profil</a>"
+
+#: loggers/class-user-logger.php:715
+msgid "Edited <a href=\"{edit_profile_link}\">your profile</a>"
+msgstr "Redigerade <a href=\"{edit_profile_link}\">din profl</a>"
+
+#: loggers/class-user-logger.php:128
+msgctxt "User logger: search"
+msgid "User deletions"
+msgstr "Radering av användare"
+
+#: loggers/class-user-logger.php:122
+msgctxt "User logger: search"
+msgid "User profile updates"
+msgstr "Uppdateringar av användarprofiler"
+
+#: loggers/class-user-logger.php:119
+msgctxt "User logger: search"
+msgid "Created users"
+msgstr "Skapade användare"
+
+#: loggers/class-user-logger.php:116
+msgctxt "User logger: search"
+msgid "User logouts"
+msgstr "Utloggning av användare"
+
+#: loggers/class-user-logger.php:112
+msgctxt "User logger: search"
+msgid "Failed user logins"
+msgstr "Misslyckade inloggningar av användare"
+
+#: loggers/class-user-logger.php:108
+msgctxt "User logger: search"
+msgid "Successful user logins"
+msgstr "Lyckade inloggningar av användare"
+
+#: loggers/class-user-logger.php:106
+msgctxt "User logger: search"
+msgid "All user activity"
+msgstr "All användaraktivitet"
+
+#: loggers/class-user-logger.php:105
+msgctxt "User logger: search"
+msgid "Users"
+msgstr "Användare"
+
+#: loggers/class-user-logger.php:62
+msgctxt "User destroys all login sessions for a user"
+msgid "Logged out \"{user_display_name}\" from all sessions"
+msgstr "Loggade ut ”{user_display_name}” från alla sessioner"
+
+#: loggers/class-user-logger.php:57
+msgctxt "User destroys other login sessions for themself"
+msgid "Logged out from all other sessions"
+msgstr "Loggade ut från alla andra sessioner"
+
+#: loggers/class-user-logger.php:51
+msgid "Deleted user {deleted_user_login} ({deleted_user_email})"
+msgstr "Tog bort användaren {deleted_user_login} ({deleted_user_email})"
+
+#: loggers/class-user-logger.php:47
+msgid "Created user {created_user_login} ({created_user_email}) with role {created_user_role}"
+msgstr "Skapade användare {created_user_login} ({created_user_email}) med rollen {created_user_role}"
+
+#: loggers/class-user-logger.php:43
+msgid "Edited the profile for user \"{edited_user_login}\" ({edited_user_email})"
+msgstr "Redigerade profilen för användaren ”{edited_user_login}” ({edited_user_email})"
+
+#: loggers/class-user-logger.php:42
+msgid "Logged out"
+msgstr "Loggade ut"
+
+#: loggers/class-user-logger.php:41
+msgid "Unknown user logged in"
+msgstr "Okänd användare loggade in"
+
+#: loggers/class-user-logger.php:40
+msgid "Logged in"
+msgstr "Loggade in"
+
+#: loggers/class-theme-logger.php:457
+msgid "Section"
+msgstr "Sektion"
+
+#: loggers/class-theme-logger.php:76
+msgctxt "Theme logger: search"
+msgid "Background of themes changed"
+msgstr "Bakgrunden till teman ändrat"
+
+#: loggers/class-theme-logger.php:73
+msgctxt "Theme logger: search"
+msgid "Edited widgets"
+msgstr "Redigerade widgetar"
+
+#: loggers/class-theme-logger.php:70
+msgctxt "Theme logger: search"
+msgid "Changed widgets order"
+msgstr "Ändrade ordning av widgetar"
+
+#: loggers/class-theme-logger.php:67
+msgctxt "Theme logger: search"
+msgid "Removed widgets"
+msgstr "Tog bort widgetar"
+
+#: loggers/class-theme-logger.php:64
+msgctxt "Theme logger: search"
+msgid "Added widgets"
+msgstr "Lade till widgetar"
+
+#: loggers/class-theme-logger.php:61
+msgctxt "Theme logger: search"
+msgid "Changed appearance of themes"
+msgstr "Ändrade utseende av teman"
+
+#: loggers/class-theme-logger.php:58
+msgctxt "Theme logger: search"
+msgid "Switched themes"
+msgstr "Byten av teman"
+
+#: loggers/class-theme-logger.php:47
+msgctxt "Theme logger: search"
+msgid "All theme activity"
+msgstr "All aktivitet från teman"
+
+#: loggers/class-theme-logger.php:46
+msgctxt "Theme logger: search"
+msgid "Themes & Widgets"
+msgstr "Teman och widgetar"
+
+#: loggers/class-theme-logger.php:42
+msgid "Changed settings for the theme custom background"
+msgstr "Ändrade inställningar för temats anpassade bakgrund"
+
+#: loggers/class-theme-logger.php:41
+msgid "Changed widget \"{widget_id_base}\" in sidebar \"{sidebar_id}\""
+msgstr "Ändrade widgeten ”{widget_id_base}” i sidopanelen ”{sidebar_id}”"
+
+#: loggers/class-theme-logger.php:40
+msgid "Changed widget order \"{widget_id_base}\" in sidebar \"{sidebar_id}\""
+msgstr "Ändrade ordningen på widgeten ”{widget_id_base}” i sidopanelen ”{sidebar_id}”"
+
+#: loggers/class-theme-logger.php:39
+msgid "Added widget \"{widget_id_base}\" to sidebar \"{sidebar_id}\""
+msgstr "Lagt till widget ”{widget_id_base}” till sidopanel ”{sidebar_id}”"
+
+#: loggers/class-theme-logger.php:38
+msgid "Removed widget \"{widget_id_base}\" from sidebar \"{sidebar_id}\""
+msgstr "Tog bort widgeten ”{widget_id_base}” från sidopanelen ”{sidebar_id}”"
+
+#: loggers/class-theme-logger.php:37
+msgid "Customized theme appearance \"{setting_id}\""
+msgstr "Anpassade temautseendet för ”{setting_id}”"
+
+#: loggers/class-theme-logger.php:33
+msgid "Switched theme to \"{theme_name}\" from \"{prev_theme_name}\""
+msgstr "Bytte tema till ”{theme_name}” från ”{prev_theme_name}”"
+
+#: loggers/class-post-logger.php:1381
+msgid "Custom fields"
+msgstr "Anpassade fält"
+
+#: loggers/class-post-logger.php:1316
+msgid "Template"
+msgstr "Mall"
+
+#: loggers/class-post-logger.php:1310
+msgid "Changed from \"{prev_page_template_name}\" to \"{new_page_template_name}\""
+msgstr "Ändrad från ”{prev_page_template_name}” till ”{new_page_template_name}”"
+
+#: loggers/class-post-logger.php:1305
+msgid "Changed from {prev_page_template} to {new_page_template}"
+msgstr "Ändrad från {prev_page_template} till {new_page_template}"
+
+#: loggers/class-post-logger.php:1273
+msgid "Changed from {prev_user_display_name} ({prev_user_email}) to {new_user_display_name} ({new_user_email})"
+msgstr "Ändrad från {prev_user_display_name} ({prev_user_email}) till {new_user_display_name} ({new_user_email})"
+
+#: loggers/class-post-logger.php:1265
+msgid "Author"
+msgstr "Författare"
+
+#: loggers/class-post-logger.php:1239
+msgid "Comment status"
+msgstr "Status på kommentar"
+
+#: loggers/class-post-logger.php:1226
+msgid "Permalink"
+msgstr "Permalänk"
+
+#: loggers/class-post-logger.php:1212
+msgid "Publish date"
+msgstr "Publiceringsdatum"
+
+#: loggers/class-post-logger.php:1200
+msgid "Status"
+msgstr "Status"
+
+#: loggers/class-post-logger.php:1188
+msgid "Content"
+msgstr "Innehåll"
+
+#: loggers/class-media-logger.php:284 loggers/class-post-logger.php:1176
+msgid "Title"
+msgstr "Rubrik"
+
+#: loggers/class-post-logger.php:1121
+msgid "Moved {post_type} <a href=\"{edit_link}\">\"{post_title}\"</a> to the trash"
+msgstr "Flyttade {post_type} <a href=\"{edit_link}\">”{post_title}”</a> till papperskorgen"
+
+#: loggers/class-post-logger.php:1118
+msgid "Created {post_type} <a href=\"{edit_link}\">\"{post_title}\"</a>"
+msgstr "Skapade {post_type} <a href=\"{edit_link}\">”{post_title}”</a>"
+
+#: loggers/class-post-logger.php:1114
+msgid "Updated {post_type} <a href=\"{edit_link}\">\"{post_title}\"</a>"
+msgstr "Uppdaterade {post_type} <a href=\"{edit_link}\">”{post_title}”</a>"
+
+#: loggers/class-post-logger.php:51
+msgctxt "Post logger: search"
+msgid "Posts restored"
+msgstr "Inlägg återställda"
+
+#: loggers/class-post-logger.php:50
+msgctxt "Post logger: search"
+msgid "Posts deleted"
+msgstr "Inlägg borttagna"
+
+#: loggers/class-post-logger.php:49
+msgctxt "Post logger: search"
+msgid "Posts trashed"
+msgstr "Inlägg kastade"
+
+#: loggers/class-post-logger.php:48
+msgctxt "Post logger: search"
+msgid "Posts updated"
+msgstr "Inlägg uppdaterade"
+
+#: loggers/class-post-logger.php:47
+msgctxt "Post logger: search"
+msgid "Posts created"
+msgstr "Inlägg skapade"
+
+#: loggers/class-post-logger.php:45
+msgctxt "Post logger: search"
+msgid "All posts & pages activity"
+msgstr "All aktivitet på inlägg och sidor"
+
+#: loggers/class-post-logger.php:44
+msgctxt "Post logger: search"
+msgid "Posts & Pages"
+msgstr "Inlägg och sidor"
+
+#: loggers/class-post-logger.php:40
+msgid "Moved {post_type} \"{post_title}\" to the trash"
+msgstr "Flyttade {post_type} ”{post_title}” till papperskorgen"
+
+#: loggers/class-post-logger.php:39 loggers/class-post-logger.php:1116
+msgid "Deleted {post_type} \"{post_title}\""
+msgstr "Tog bort {post_type} ”{post_title}”"
+
+#: loggers/class-post-logger.php:38
+msgid "Restored {post_type} \"{post_title}\" from trash"
+msgstr "Återställde {post_type} ”{post_title}” från papperskorgen"
+
+#: loggers/class-post-logger.php:37
+msgid "Updated {post_type} \"{post_title}\""
+msgstr "Uppdaterade {post_type} ”{post_title}”"
+
+#: loggers/class-post-logger.php:36
+msgid "Created {post_type} \"{post_title}\""
+msgstr "Skapade {post_type} ”{post_title}”"
+
+#: loggers/class-plugin-logger.php:1315
+msgctxt "plugin logger: plugin info thickbox title"
+msgid "View changelog"
+msgstr "Visa ändringslogg"
+
+#: loggers/class-plugin-logger.php:1311
+msgctxt "plugin logger: plugin info thickbox title"
+msgid "View plugin info"
+msgstr "Visa information om tillägg"
+
+#: loggers/class-plugin-logger.php:1280 loggers/class-plugin-logger.php:1291
+#: loggers/class-plugin-logger.php:1368
+msgctxt "plugin logger: plugin info thickbox title view all info"
+msgid "View plugin info"
+msgstr "Visa information om tillägg"
+
+#: loggers/class-plugin-logger.php:1238
+msgid "Uploaded ZIP archive"
+msgstr "Uppladdat ZIP-arkiv"
+
+#: loggers/class-plugin-logger.php:1236
+msgid "WordPress Plugin Repository"
+msgstr "Tilläggskatalogen på WordPress.org"
+
+#: loggers/class-plugin-logger.php:1172
+msgctxt "plugin logger - detailed output url"
+msgid "URL"
+msgstr "URL"
+
+#: loggers/class-plugin-logger.php:1171
+msgctxt "plugin logger - detailed output author"
+msgid "Author"
+msgstr "Författare"
+
+#: loggers/class-plugin-logger.php:1170
+msgctxt "plugin logger - detailed output version"
+msgid "Version"
+msgstr "Version"
+
+#: loggers/class-plugin-logger.php:1169
+msgctxt "plugin logger - detailed output install source"
+msgid "Source file name"
+msgstr "Källans filnamn"
+
+#: loggers/class-plugin-logger.php:1168
+msgctxt "plugin logger - detailed output install source"
+msgid "Source"
+msgstr "Källa"
+
+#: loggers/class-plugin-logger.php:1167
+msgctxt "plugin logger - detailed output"
+msgid "Description"
+msgstr "Beskrivning"
+
+#. translators: %1$s is a link to the repo, %2$s is the repo name.
+#: loggers/class-plugin-logger.php:665
+msgid "Viewing <code>readme</code> from repository <code><a target=\"_blank\" href=\"%1$s\">%2$s</a></code>."
+msgstr "Visa <code>readme</code> från filförvaret <code><a target=\"_blank\" href=\"%1$s\">%2$s</a></code>."
+
+#: loggers/class-plugin-logger.php:636 loggers/class-plugin-logger.php:641
+msgid "Could not find GitHub repository."
+msgstr "Kunde inte hitta GitHub-filförvar."
+
+#: loggers/class-plugin-logger.php:630
+msgid "You don't have access to this page."
+msgstr "Du har inte tillgång till den här sidan."
+
+#: loggers/class-plugin-logger.php:159
+msgctxt "Plugin logger: search"
+msgid "Deleted plugins"
+msgstr "Borttagna tillägg"
+
+#: loggers/class-file-edits-logger.php:35
+msgctxt "Plugin logger: file edits"
+msgid "Edited plugin files"
+msgstr "Redigerade tilläggsfiler"
+
+#: loggers/class-plugin-logger.php:155
+msgctxt "Plugin logger: search"
+msgid "Failed plugin updates"
+msgstr "Misslyckades uppdateringar av tillägg"
+
+#: loggers/class-plugin-logger.php:151
+msgctxt "Plugin logger: search"
+msgid "Updated plugins"
+msgstr "Uppdaterade tillägg"
+
+#: loggers/class-plugin-logger.php:148
+msgctxt "Plugin logger: search"
+msgid "Failed plugin installs"
+msgstr "Misslyckade installationer av tillägg"
+
+#: loggers/class-plugin-logger.php:145
+msgctxt "Plugin logger: search"
+msgid "Installed plugins"
+msgstr "Installerade tillägg"
+
+#: loggers/class-plugin-logger.php:141
+msgctxt "Plugin logger: search"
+msgid "Deactivated plugins"
+msgstr "Inaktiverade tillägg"
+
+#: loggers/class-plugin-logger.php:138
+msgctxt "Plugin logger: search"
+msgid "Activated plugins"
+msgstr "Aktiverade tillägg"
+
+#: loggers/class-plugin-logger.php:136
+msgctxt "Plugin logger: search"
+msgid "All plugin activity"
+msgstr "All tilläggsaktivitet"
+
+#: loggers/class-plugin-logger.php:135
+msgctxt "Plugin logger: search"
+msgid "Plugins"
+msgstr "Tillägg"
+
+#: loggers/class-plugin-logger.php:102
+msgctxt "Plugin was updated in bulk"
+msgid "Updated plugin \"{plugin_name}\" to {plugin_version} from {plugin_prev_version}"
+msgstr "Uppdaterade tillägget ”{plugin_name}” till {plugin_version} från {plugin_prev_version}"
+
+#: loggers/class-plugin-logger.php:95
+msgctxt "Plugin files was deleted"
+msgid "Deleted plugin \"{plugin_name}\""
+msgstr "Tog bort tillägget ”{plugin_name}”"
+
+#: loggers/class-plugin-logger.php:83
+msgctxt "Plugin was updated"
+msgid "Updated plugin \"{plugin_name}\" to version {plugin_version} from {plugin_prev_version}"
+msgstr "Uppdaterade tillägget ”{plugin_name}” till {plugin_version} från {plugin_prev_version}"
+
+#: loggers/class-plugin-logger.php:77
+msgctxt "Plugin failed to install"
+msgid "Failed to install plugin \"{plugin_name}\""
+msgstr "Misslyckades installera tillägget ”{plugin_name}”"
+
+#: loggers/class-plugin-logger.php:71
+msgctxt "Plugin was installed"
+msgid "Installed plugin \"{plugin_name}\""
+msgstr "Installerade tillägget ”{plugin_name}”"
+
+#: loggers/class-plugin-logger.php:65
+msgctxt "Plugin was non-silently deactivated by a user"
+msgid "Deactivated plugin \"{plugin_name}\""
+msgstr "Inaktiverade tillägget ”{plugin_name}”"
+
+#: loggers/class-plugin-logger.php:59
+msgctxt "Plugin was non-silently activated by a user"
+msgid "Activated plugin \"{plugin_name}\""
+msgstr "Aktiverade tillägget ”{plugin_name}”"
+
+#: loggers/class-options-logger.php:386 loggers/class-options-logger.php:526
+#: loggers/class-options-logger.php:538 loggers/class-options-logger.php:649
+#: loggers/class-options-logger.php:711 loggers/class-options-logger.php:748
+#: loggers/class-options-logger.php:860 loggers/class-theme-logger.php:503
+msgid "Old value"
+msgstr "Gammalt värde"
+
+#: loggers/class-options-logger.php:380 loggers/class-options-logger.php:501
+#: loggers/class-options-logger.php:512 loggers/class-options-logger.php:657
+#: loggers/class-options-logger.php:705 loggers/class-options-logger.php:742
+#: loggers/class-options-logger.php:854 loggers/class-theme-logger.php:491
+msgid "New value"
+msgstr "Nytt värde"
+
+#: loggers/class-options-logger.php:31
+msgctxt "Options logger: search"
+msgid "Changed options"
+msgstr "Ändrade alternativ"
+
+#: loggers/class-options-logger.php:29
+msgctxt "Options logger: search"
+msgid "Options"
+msgstr "Alternativ"
+
+#. translators: Number of menu items removed.
+#: loggers/class-menu-logger.php:254
+msgctxt "menu logger"
+msgid "%1$s menu item removed"
+msgid_plural "%1$s menu items removed"
+msgstr[0] "%1$s menyval borttaget"
+msgstr[1] "%1$s menyval borttagna"
+
+#. translators: Number of menu items added.
+#: loggers/class-menu-logger.php:247
+msgctxt "menu logger"
+msgid "%1$s menu item added"
+msgid_plural "%1$s menu items added"
+msgstr[0] "%1$s menyval tillagt"
+msgstr[1] "%1$s menyval tillagda"
+
+#: loggers/class-menu-logger.php:45
+msgctxt "Menu updates logger: search"
+msgid "Deleted menus"
+msgstr "Tog bort menyer"
+
+#: loggers/class-menu-logger.php:40
+msgctxt "Menu updates logger: search"
+msgid "Edited menus"
+msgstr "Ändrade menyer"
+
+#: loggers/class-menu-logger.php:37
+msgctxt "Menu updates logger: search"
+msgid "Created menus"
+msgstr "Skapade menyer"
+
+#: loggers/class-menu-logger.php:35
+msgctxt "Menu updates logger: search"
+msgid "All menu activity"
+msgstr "All aktivitet från menyer"
+
+#: loggers/class-menu-logger.php:34
+msgctxt "Menu logger: search"
+msgid "Menus"
+msgstr "Menyer"
+
+#: loggers/class-menu-logger.php:30
+msgid "Updated menu locations"
+msgstr "Uppdaterade meny-platser"
+
+#: loggers/class-menu-logger.php:29
+msgid "Edited a menu item"
+msgstr "Redigerade ett menyalternativ"
+
+#: loggers/class-menu-logger.php:28
+msgid "Deleted menu \"{menu_name}\""
+msgstr "Tog bort meny ”{menu_name}”"
+
+#: loggers/class-menu-logger.php:27
+msgid "Edited menu \"{menu_name}\""
+msgstr "Redigerade menyn ”{menu_name}”"
+
+#: loggers/class-menu-logger.php:26
+msgid "Created menu \"{menu_name}\""
+msgstr "Skapade menyn ”{menu_name}”"
+
+#: loggers/class-media-logger.php:264
+msgid "{full_image_width} × {full_image_height}"
+msgstr "{full_image_width} × {full_image_height}"
+
+#: loggers/class-media-logger.php:261
+msgid "{attachment_filetype_extension}"
+msgstr "{attachment_filetype_extension}"
+
+#: loggers/class-media-logger.php:260
+msgid "{attachment_size_format}"
+msgstr "{attachment_size_format}"
+
+#: loggers/class-media-logger.php:252
+msgid "{attachment_thumb}"
+msgstr "{attachment_thumb}"
+
+#: loggers/class-media-logger.php:164
+msgid "Uploaded {post_type} <a href=\"{edit_link}\">\"{attachment_title}\"</a>"
+msgstr "Laddade upp {post_type} <a href=\"{edit_link}\">”{attachment_title}”</a>"
+
+#: loggers/class-media-logger.php:144
+msgid "Edited attachment <a href=\"{edit_link}\">\"{attachment_title}\"</a>"
+msgstr "Redigerade bilagan <a href=\"{edit_link}\">”{attachment_title}”</a>"
+
+#: loggers/class-media-logger.php:48
+msgctxt "Media logger: search"
+msgid "Deleted media"
+msgstr "Tog bort media"
+
+#: loggers/class-media-logger.php:45
+msgctxt "Media logger: search"
+msgid "Updated media"
+msgstr "Uppdaterade medier"
+
+#: loggers/class-media-logger.php:42
+msgctxt "Media logger: search"
+msgid "Added media"
+msgstr "Tillagda media"
+
+#: loggers/class-media-logger.php:40
+msgctxt "Media logger: search"
+msgid "All media activity"
+msgstr "All mediaaktivitet"
+
+#: loggers/class-media-logger.php:39
+msgctxt "Media logger: search"
+msgid "Media"
+msgstr "Media"
+
+#: loggers/class-media-logger.php:35
+msgid "Deleted {post_type} \"{attachment_title}\" (\"{attachment_filename}\")"
+msgstr "Tog bort {post_type} ”{attachment_title}” (”{attachment_filename}”)"
+
+#: loggers/class-media-logger.php:33
+msgid "Created {post_type} \"{attachment_title}\""
+msgstr "Skapade {post_type} ”{attachment_title}”"
+
+#. translators: %s last modified date and time in human time diff-format
+#: inc/class-events-stats.php:666 loggers/class-logger.php:415
+msgid "%1$s ago"
+msgstr "%1$s sedan"
+
+#. translators: Date format for log row header, see http://php.net/date
+#: loggers/class-logger.php:401
+msgid "M j, Y \\a\\t G:i"
+msgstr "M j, Y \\a\\t G:i"
+
+#: inc/class-log-initiators.php:83 inc/class-log-initiators.php:105
+#: loggers/class-logger.php:292
+msgctxt "Event header output, when initiator is unknown"
+msgid "Other"
+msgstr "Annan"
+
+#: inc/class-log-initiators.php:80 inc/class-log-initiators.php:102
+#: loggers/class-logger.php:284 build/index-admin-bar.js:6
+#: build/index-gutenberg.js:6 build/index.js:8
+msgid "Anonymous web user"
+msgstr "Anonym webbanvändare"
+
+#. translators: 1: user id, 2: user email address, 3: user account name.
+#: inc/class-log-initiators.php:69 loggers/class-logger.php:260
+msgid "Deleted user (had id %1$s, email %2$s, login %3$s)"
+msgstr "Tog bort användare (hade ID %1$s, e-post %2$s, login %3$s)"
+
+#: loggers/class-logger.php:247
+msgctxt "header output when initiator is the currently logged in user"
+msgid "You"
+msgstr "Du"
+
+#: loggers/class-export-logger.php:31
+msgctxt "Export logger: search"
+msgid "Created exports"
+msgstr "Skapade exporter"
+
+#: loggers/class-export-logger.php:29
+msgctxt "Export logger: search"
+msgid "Export"
+msgstr "Export"
+
+#: loggers/class-export-logger.php:25
+msgid "Created XML export"
+msgstr "Skapade XML-export"
+
+#: loggers/class-export-logger.php:22
+msgid "Logs updates to WordPress export"
+msgstr "Loggar uppdateringar i WordPress-exporten"
+
+#: loggers/class-export-logger.php:21
+msgid "Export Logger"
+msgstr "Loggare för exporter"
+
+#: loggers/class-core-updates-logger.php:33
+msgctxt "User logger: search"
+msgid "WordPress core updates"
+msgstr "Uppdateringar för WordPress kärna"
+
+#: loggers/class-core-updates-logger.php:31
+msgctxt "User logger: search"
+msgid "WordPress Core"
+msgstr "WordPress kärna"
+
+#: loggers/class-core-updates-logger.php:24
+msgid "WordPress auto-updated to {new_version} from {prev_version}"
+msgstr "WordPress uppdaterades automatiskt till {new_version} från {prev_version}"
+
+#: loggers/class-core-updates-logger.php:23
+msgid "Updated WordPress to {new_version} from {prev_version}"
+msgstr "Uppdaterade WordPress till {new_version} från {prev_version}"
+
+#: loggers/class-comments-logger.php:732
+msgctxt "comments logger - edit comment"
+msgid "View/Edit"
+msgstr "Visa/Redigera"
+
+#: loggers/class-comments-logger.php:678
+msgid "Comment"
+msgstr "Kommentar"
+
+#: loggers/class-comments-logger.php:676
+msgid "Pingback"
+msgstr "Pingback"
+
+#: loggers/class-comments-logger.php:674
+msgid "Trackback"
+msgstr "Trackback"
+
+#: loggers/class-comments-logger.php:663
+msgid "Pending"
+msgstr "Väntande"
+
+#: loggers/class-comments-logger.php:661
+msgid "Approved"
+msgstr "Godkänd"
+
+#: loggers/class-comments-logger.php:659
+msgid "Spam"
+msgstr "Skräp"
+
+#: loggers/class-comments-logger.php:619
+msgctxt "comments logger - detailed output content"
+msgid "Comment"
+msgstr "Kommentar"
+
+#: loggers/class-comments-logger.php:599 loggers/class-comments-logger.php:608
+msgctxt "comments logger - detailed output content"
+msgid "Content"
+msgstr "Innehåll"
+
+#: loggers/class-comments-logger.php:598 loggers/class-comments-logger.php:607
+#: loggers/class-comments-logger.php:618
+msgctxt "comments logger - detailed output email"
+msgid "Email"
+msgstr "E-post"
+
+#: loggers/class-comments-logger.php:597 loggers/class-comments-logger.php:606
+#: loggers/class-comments-logger.php:617
+msgctxt "comments logger - detailed output author"
+msgid "Name"
+msgstr "Namn"
+
+#: loggers/class-comments-logger.php:596 loggers/class-comments-logger.php:605
+#: loggers/class-comments-logger.php:616
+msgctxt "comments logger - detailed output comment status"
+msgid "Status"
+msgstr "Status"
+
+#: loggers/class-comments-logger.php:238
+msgctxt "Comments logger: search"
+msgid "Deleted comments"
+msgstr "Borttagna kommentarer"
+
+#: loggers/class-comments-logger.php:233
+msgctxt "Comments logger: search"
+msgid "Untrashed comments"
+msgstr "Kommentarer tillbakatagna från papperskorgen"
+
+#: loggers/class-comments-logger.php:228
+msgctxt "Comments logger: search"
+msgid "Trashed comments"
+msgstr "Kastade kommentarer"
+
+#: loggers/class-comments-logger.php:223
+msgctxt "Comments logger: search"
+msgid "Comments status changed to spam"
+msgstr "Status på kommentarer ändrade till skräppost"
+
+#: loggers/class-comments-logger.php:218
+msgctxt "Comments logger: search"
+msgid "Held comments"
+msgstr "Tillbakahållna kommentar"
+
+#: loggers/class-comments-logger.php:213
+msgctxt "Comments logger: search"
+msgid "Approved comments"
+msgstr "Godkända kommentarer"
+
+#: loggers/class-comments-logger.php:208
+msgctxt "Comments logger: search"
+msgid "Edited comments"
+msgstr "Redigerade kommentarer"
+
+#: loggers/class-comments-logger.php:200
+msgctxt "Comments logger: search"
+msgid "Added comments"
+msgstr "Tillagda kommentarer"
+
+#: loggers/class-comments-logger.php:198
+msgctxt "Comments logger: search"
+msgid "All comments activity"
+msgstr "Alla kommentarshändelser"
+
+#: loggers/class-comments-logger.php:197
+msgctxt "Comments logger: search"
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: loggers/class-comments-logger.php:186
+msgctxt "A pingback was edited"
+msgid "Edited a pingback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Redigerade en pingback till ”{comment_post_title}” av {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:180
+msgctxt "A pingback was deleted"
+msgid "Deleted a pingback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Tog bort en pingback till ”{comment_post_title}” av {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:174
+msgctxt "A pingback was restored from the trash"
+msgid "Restored a pingback to \"{comment_post_title}\" by {comment_author} ({comment_author_email}) from the trash"
+msgstr "Återställde en pingback till ”{comment_post_title}” av {comment_author} ({comment_author_email}) från papperskorgen"
+
+#: loggers/class-comments-logger.php:168
+msgctxt "A pingback was marked moved to the trash"
+msgid "Trashed a pingback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Kastade en pingback till ”{comment_post_title}” av {comment_author} ({comment_author_email}) i papperskorgen"
+
+#: loggers/class-comments-logger.php:162
+msgctxt "A pingback was marked as spam"
+msgid "Marked a pingback to post \"{comment_post_title}\" as spam"
+msgstr "Markerade en pingback till ”{comment_post_title}” som skräppost"
+
+#: loggers/class-comments-logger.php:156
+msgctxt "A pingback was was unapproved"
+msgid "Unapproved a pingback to \"{comment_post_title}\" by \"{comment_author}\" ({comment_author_email})"
+msgstr "Godkände inte en pingback till ”{comment_post_title}” av {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:150
+msgctxt "A pingback was approved"
+msgid "Approved a pingback to \"{comment_post_title}\" by \"{comment_author}\"\" ({comment_author_email})"
+msgstr "Godkände en pingback till ”{comment_post_title}” av {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:144
+msgctxt "A pingback was added to the database by a logged in user"
+msgid "Added a pingback to {comment_post_type} \"{comment_post_title}\""
+msgstr "Lade till en pingback till {comment_post_type} ”{comment_post_title}”"
+
+#: loggers/class-comments-logger.php:138
+msgctxt "A trackback was added to the database by a non-logged in internet user"
+msgid "Added a pingback to {comment_post_type} \"{comment_post_title}\""
+msgstr "Lade till en pingback till {comment_post_type} ”{comment_post_title}”"
+
+#: loggers/class-comments-logger.php:131
+msgctxt "A trackback was edited"
+msgid "Edited a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Redigerade en trackback till ”{comment_post_title}” av {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:125
+msgctxt "A trackback was deleted"
+msgid "Deleted a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Tog bort en trackback till ”{comment_post_title}” av {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:119
+msgctxt "A trackback was restored from the trash"
+msgid "Restored a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email}) from the trash"
+msgstr "Återställde en trackback till ”{comment_post_title}” av {comment_author} ({comment_author_email}) från papperskorgen"
+
+#: loggers/class-comments-logger.php:113
+msgctxt "A trackback was marked moved to the trash"
+msgid "Trashed a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Kastade en trackback till ”{comment_post_title}” av {comment_author} ({comment_author_email}) i papperskorgen"
+
+#: loggers/class-comments-logger.php:107
+msgctxt "A trackback was marked as spam"
+msgid "Marked a trackback to post \"{comment_post_title}\" as spam"
+msgstr "Markerade en trackback till ”{comment_post_title}” som skräppost"
+
+#: loggers/class-comments-logger.php:101
+msgctxt "A trackback was was unapproved"
+msgid "Unapproved a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Godkände inte en trackback till ”{comment_post_title}” av {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:95
+msgctxt "A trackback was approved"
+msgid "Approved a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Godkände en trackback till ”{comment_post_title}” av {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:89
+msgctxt "A trackback was added to the database by a logged in user"
+msgid "Added a trackback to {comment_post_type} \"{comment_post_title}\""
+msgstr "Lade till en trackback till {comment_post_type} ”{comment_post_title}”"
+
+#: loggers/class-comments-logger.php:83
+msgctxt "A trackback was added to the database by a non-logged in internet user"
+msgid "Added a trackback to {comment_post_type} \"{comment_post_title}\""
+msgstr "Lade till en trackback till {comment_post_type} ”{comment_post_title}”"
+
+#: loggers/class-comments-logger.php:76
+msgctxt "A comment was edited"
+msgid "Edited a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Redigerade en kommentar till ”{comment_post_title}” av {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:70
+msgctxt "A comment was deleted"
+msgid "Deleted a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Tog bort en kommentar till ”{comment_post_title}” av {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:64
+msgctxt "A comment was restored from the trash"
+msgid "Restored a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email}) from the trash"
+msgstr "Återställde en kommentar till ”{comment_post_title}” av {comment_author} ({comment_author_email}) från papperskorgen"
+
+#: loggers/class-comments-logger.php:58
+msgctxt "A comment was marked moved to the trash"
+msgid "Trashed a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Kastade en kommentar till ”{comment_post_title}” av {comment_author} ({comment_author_email}) i papperskorgen"
+
+#: loggers/class-comments-logger.php:52
+msgctxt "A comment was marked as spam"
+msgid "Marked a comment to post \"{comment_post_title}\" as spam"
+msgstr "Markerade en kommentar till inlägget ”{comment_post_title}” som skräppost"
+
+#: loggers/class-comments-logger.php:46
+msgctxt "A comment was was unapproved"
+msgid "Unapproved a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Godkände inte en kommentar till ”{comment_post_title}” av {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:40
+msgctxt "A comment was approved"
+msgid "Approved a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Godkände en kommentar till ”{comment_post_title}” av {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:34
+msgctxt "A comment was added to the database by a logged in user"
+msgid "Added a comment to {comment_post_type} \"{comment_post_title}\""
+msgstr "Lade till en kommentar till {comment_post_type} ”{comment_post_title}”"
+
+#: loggers/class-comments-logger.php:28
+msgctxt "A comment was added to the database by a non-logged in internet user"
+msgid "Added a comment to {comment_post_type} \"{comment_post_title}\""
+msgstr "Lade till en kommentar till {comment_post_type} ”{comment_post_title}”"
+
+#: loggers/class-plugin-user-switching-logger.php:32
+msgctxt "PluginUserSwitchingLogger"
+msgid "Switched off user \"{user_login}\""
+msgstr "Loggade av användaren ”{user_login}”"
+
+#: loggers/class-plugin-user-switching-logger.php:31
+msgctxt "PluginUserSwitchingLogger"
+msgid "Switched back to user \"{user_login_to}\""
+msgstr "Bytte tillbaka till användaren ”{user_login_to}”"
+
+#: loggers/class-plugin-user-switching-logger.php:30
+msgctxt "PluginUserSwitchingLogger"
+msgid "Switched back to user \"{user_login_to}\" from user \"{user_login_from}\""
+msgstr "Växlade tillbaka till användaren ”{user_login_to}” från användaren ”{user_login_from}”"
+
+#: loggers/class-plugin-user-switching-logger.php:29
+msgctxt "PluginUserSwitchingLogger"
+msgid "Switched to user \"{user_login_to}\" from user \"{user_login_from}\""
+msgstr "Växlade till användaren ”{user_login_to}” från användaren ”{user_login_from}”"
+
+#: loggers/class-plugin-user-switching-logger.php:25
+msgctxt "PluginUserSwitchingLogger"
+msgid "Logs user switches"
+msgstr "Loggar byte av användare"
+
+#: loggers/class-plugin-user-switching-logger.php:24
+msgctxt "PluginUserSwitchingLogger"
+msgid "Plugin: User Switching Logger"
+msgstr "Tillägg: Loggare för ”User Switching”"
+
+#: loggers/class-plugin-enable-media-replace-logger.php:28
+msgctxt "PluginEnableMediaReplaceLogger"
+msgid "Replaced attachment \"{prev_attachment_title}\" with new attachment \"{new_attachment_title}\""
+msgstr "Ersatte bilagan ”{prev_attachment_title}” med den nya bilagan ”{new_attachment_title}”"
+
+#: loggers/class-plugin-enable-media-replace-logger.php:24
+msgctxt "PluginEnableMediaReplaceLogger"
+msgid "Logs media updates made with the Enable Media Replace Plugin"
+msgstr "Loggar uppdateringar av media gjorda med hjälp av tillägget ”Enable Media Replace”"
+
+#: loggers/class-plugin-enable-media-replace-logger.php:23
+msgctxt "PluginEnableMediaReplaceLogger"
+msgid "Plugin: Enable Media Replace Logger"
+msgstr "Tillägg: Loggare för ”Enable Media Replace”"
+
+#. translators: 1: PHP version
+#: inc/oldversions.php:16
+msgid "Simple History is a great plugin, but to use it your server must have at least PHP 7.4 installed (you have version %s)."
+msgstr "”Simple History” är ett bra tillägg, men för att använda det måste din server ha minst PHP 7.4 installerat (du har version %s)."
+
+#: inc/class-log-levels.php:92 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Debug"
+msgstr "Felsökning"
+
+#: inc/class-log-levels.php:88 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Info"
+msgstr "Info"
+
+#: inc/class-log-levels.php:84 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Notice"
+msgstr "Notis"
+
+#: inc/class-log-levels.php:80 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Warning"
+msgstr "Varning"
+
+#: inc/class-log-levels.php:76 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Error"
+msgstr "Fel"
+
+#: inc/class-log-levels.php:72 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Critical"
+msgstr "Kritiskt"
+
+#: inc/class-log-levels.php:68 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Alert"
+msgstr "Larm (varning)"
+
+#: inc/class-log-levels.php:64 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Emergency"
+msgstr "Nödsituation"
+
+#: inc/class-log-levels.php:59
+msgctxt "Log level in gui"
+msgid "debug"
+msgstr "felsokning"
+
+#: inc/class-log-levels.php:55
+msgctxt "Log level in gui"
+msgid "info"
+msgstr "info"
+
+#: inc/class-log-levels.php:51
+msgctxt "Log level in gui"
+msgid "notice"
+msgstr "notis"
+
+#: inc/class-log-levels.php:47
+msgctxt "Log level in gui"
+msgid "warning"
+msgstr "varning"
+
+#: inc/class-log-levels.php:43
+msgctxt "Log level in gui"
+msgid "error"
+msgstr "fel"
+
+#: inc/class-log-levels.php:39
+msgctxt "Log level in gui"
+msgid "critical"
+msgstr "kritiskt"
+
+#: inc/class-log-levels.php:35
+msgctxt "Log level in gui"
+msgid "alert"
+msgstr "larm"
+
+#: inc/class-log-levels.php:31
+msgctxt "Log level in gui"
+msgid "emergency"
+msgstr "nödsituation"
+
+#: inc/class-simple-history.php:1065
+msgid "This is potentially useful meta data that a logger has saved."
+msgstr "Detta är eventuellt användbar metadata som en loggare har sparat."
+
+#: inc/class-simple-history.php:1062
+msgid "Context data"
+msgstr "Kontextuell data"
+
+#. translators: %1$s is number of similar events.
+#. translators: %s: number of similar events
+#: inc/class-simple-history.php:972 build/index.js:10
+msgid "Showing %1$s more"
+msgstr "Visar %1$s mer"
+
+#: inc/class-simple-history.php:966 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index-gutenberg.js:6 build/index.js:1
+#: build/index.js:9
+msgid "Loading…"
+msgstr "Laddar in …"
+
+#. translators: %1$s is number of similar events.
+#. translators: %s: number of similar events
+#: inc/class-simple-history.php:960 build/index.js:9
+msgid "+%1$s similar event"
+msgid_plural "+%1$s similar events"
+msgstr[0] "+%1$s liknande händelse"
+msgstr[1] "+%1$s liknande händelser"
+
+#: inc/services/class-setup-settings-page.php:533
+msgid "Clear log now"
+msgstr "Rensa loggen nu"
+
+#: inc/services/class-setup-settings-page.php:515
+msgid "Items in the database are kept forever."
+msgstr "Poster i databasen lagras för evigt."
+
+#. translators: %1$s is number of days.
+#: inc/services/class-setup-settings-page.php:510
+msgid "Items in the database are automatically removed after %1$s days."
+msgstr "Poster i databasen tas automatiskt bort efter %1$s dagar."
+
+#: inc/services/class-setup-settings-page.php:367
+msgid "on the dashboard"
+msgstr "på adminpanelen"
+
+#: inc/services/class-setup-settings-page.php:293
+msgid "Clear log"
+msgstr "Rensa logg"
+
+#: inc/services/class-setup-settings-page.php:260
+msgid "Show history"
+msgstr "Visa historik"
+
+#: inc/services/class-setup-settings-page.php:745
+msgid "Cleared database"
+msgstr "Databasen rensades"
+
+#: inc/services/class-admin-pages.php:38
+msgctxt "dashboard menu name"
+msgid "Simple History"
+msgstr "Simple History"
+
+#: inc/services/class-scripts-and-templates.php:81
+msgid "Remove all log items?"
+msgstr "Ta bort alla loggposter?"
+
+#. Plugin Name of the plugin
+#: index.php inc/services/class-dashboard-widget.php:48
+#: templates/email-summary-report.php:147
+msgid "Simple History"
+msgstr "Simple History"
+
+#: inc/services/class-plugin-list-link.php:45
+#: inc/services/class-setup-settings-page.php:172
+#: inc/services/class-setup-settings-page.php:173 build/index-admin-bar.js:6
+msgid "Settings"
+msgstr "Inställningar"
+
+#: inc/services/class-api.php:39
+msgctxt "API: not enough arguments passed"
+msgid "Not enough args specified"
+msgstr "Inte tillräckligt med argument angivna"
+
+#: loggers/class-logger.php:396
+msgid "Just now"
+msgstr "Just nu"
+
+#: dropins/class-sidebar-dropin.php:49
+msgctxt "Sidebar box"
+msgid "A good review will help new users find this plugin. And it will make the plugin author very happy :)"
+msgstr "En bra recension hjälper nya användare att hitta detta tillägg. Och det kommer göra tilläggets utvecklare väldigt glad!"
+
+#. translators: 1 is a link to the review page.
+#: dropins/class-sidebar-dropin.php:45
+msgctxt "Sidebar box"
+msgid "If you like Simple History then please <a href=\"%1$s\">give it a nice review over at wordpress.org</a>."
+msgstr "Om du gillar Simple History så <a href=\"%1$s\">ge gärna en positiv recension på wordpress.org</a>."
+
+#: dropins/class-sidebar-dropin.php:41
+msgctxt "Sidebar box"
+msgid "Review this plugin if you like it"
+msgstr "Recensera tillägget om du gillar det"
+
+#: dropins/class-sidebar-dropin.php:27
+msgctxt "Sidebar box"
+msgid "Donate to support development"
+msgstr "Donera för att stödja utvecklingen"
+
+#: inc/class-stats-view.php:655 templates/email-summary-report.php:343
+msgid "Plugins"
+msgstr "Tillägg"
+
+#: dropins/class-rss-dropin.php:554
+msgid "Simple History has a RSS feed which you can subscribe to and receive log updates. Make sure you only share the feed with people you trust, since it can contain sensitive or confidential information."
+msgstr "Simple History har ett RSS-flöde som du kan prenumerera på för att få logguppdateringar. Dela bara webbflödets adress med personer du litar på, eftersom den kan innehåll känslig eller konfidentiell information."
+
+#: dropins/class-rss-dropin.php:523
+msgid "Generate new address"
+msgstr "Skapa ny adress"
+
+#: dropins/class-rss-dropin.php:516
+msgid "You can generate a new address for the RSS feed. This is useful if you think that the address has fallen into the wrong hands."
+msgstr "Du kan skapa en ny adress för RSS-flödet. Detta är användbart om du misstänker att adressen kommit i orätta händer."
+
+#: dropins/class-rss-dropin.php:441
+msgid "Your RSS secret for Simple History RSS feed is wrong. Please see WordPress settings for current link to the RSS feed."
+msgstr "Din RSS-hemlighet för RSS-flödet för Simple History är felaktig. Gå till WordPress-inställningarna för att få en aktuell länk till RSS-flödet."
+
+#: dropins/class-rss-dropin.php:439
+msgid "Wrong RSS secret"
+msgstr "Fel RSS-hemlighet"
+
+#. translators: %1$s is the number of times this log has been repeated.
+#: dropins/class-rss-dropin.php:400
+msgid "+%1$s occasion"
+msgid_plural "+%1$s occasions"
+msgstr[0] "+%1$s tillfälle"
+msgstr[1] "+%1$s tillfällen"
+
+#. translators: %s is the severity level of the log.
+#: dropins/class-rss-dropin.php:338
+msgid "Severity level: %1$s"
+msgstr "Allvarlighetsgrad: %1$s"
+
+#. translators: %s blog name
+#: dropins/class-rss-dropin.php:239
+msgid "WordPress History for %s"
+msgstr "WordPress-historik för %s"
+
+#. translators: %s blog name
+#: dropins/class-rss-dropin.php:233
+msgid "History for %s"
+msgstr "Historik för %s"
+
+#: dropins/class-rss-dropin.php:121
+msgid "Created new secret RSS address"
+msgstr "Skapade en ny hemlig RSS-adress"
+
+#: dropins/class-rss-dropin.php:105
+msgid "Regenerate"
+msgstr "Återskapa"
+
+#: dropins/class-rss-dropin.php:96
+msgid "Address"
+msgstr "Adress"
+
+#: dropins/class-rss-dropin.php:72
+msgctxt "rss settings headline"
+msgid "RSS feed"
+msgstr "RSS-flöde"
+
+#: dropins/class-export-dropin.php:169
+msgctxt "Export dropin: submit button"
+msgid "Download Export File"
+msgstr "Ladda ner exportfil"
+
+#: dropins/class-export-dropin.php:142
+msgctxt "Export dropin: export format"
+msgid "CSV"
+msgstr "CSV"
+
+#: dropins/class-export-dropin.php:156
+msgctxt "Export dropin: export format"
+msgid "JSON"
+msgstr "JSON"
+
+#: dropins/class-export-dropin.php:136
+msgctxt "Export dropin: format"
+msgid "Choose format to export to"
+msgstr "Välj format att exportera till"
+
+#: dropins/class-export-dropin.php:131
+msgctxt "Export dropin: introtext"
+msgid "The export function will export the full history."
+msgstr "Exportfunktionen kommer exportera hela historiken."

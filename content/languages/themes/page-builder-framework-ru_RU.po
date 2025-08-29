@@ -1,0 +1,2707 @@
+# Translation of Themes - Page Builder Framework in Russian
+# This file is distributed under the same license as the Themes - Page Builder Framework package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-08 12:57:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Page Builder Framework\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Page Builder Framework is a super fast, lightweight (less than 50kb on the frontend) and highly customizible WordPress theme made to work with all page builders such as Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, Thrive Architect, Brizy and more. It can be daunting to look for the perfect theme to pair with the page builder you love. Page Builder Framework is the only theme that has been specifically created for Page Builders. It has been written from ground up with SEO in mind, is 100% Gutenberg compatible and follows the latest web standards (HTML5 and schema.org markup). With its minimalistic approach and lots of customization options in the WordPress customizer, it enables you to build almost any type of website such as a Blog, Portfolio website, Agency website or WooCommerce storefront. Agency owners and Developers love Page Builder Framework for its flexibility and extendability when it comes to building outstanding client websites. If you’re not a coder, don’t worry! With endless options in the WordPress customizer it’s the perfect fit for users at any skill level. Are you using a Page Builder and still looking for the perfect theme? Look no further."
+msgstr "Page Builder Framework - это сверхбыстрая, легкая (менее 50кб на клиентской стороне) и легко настраиваемая WordPress тема, предназначенная для работы со всеми конструкторами страниц, такими как Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, Thrive Architect, Brizy и другими. Может быть сложно найти идеальную тему для создания любимого конструктора страниц. Page Builder Framework - единственная тема, специально созданная для конструкторов страниц. Она была написана с нуля с точки зрения SEO, на 100% совместима с Gutenberg и соответствует последним веб-стандартам (HTML5 разметка и schema.org). Благодаря минималистичному подходу и множеству вариантов настройки в настройке темы WordPress, она позволяет создавать практически любой тип веб-сайта, например блог, сайт-портфолио, сайт агентства или интернет-магазин WooCommerce. Владельцы агентств и разработчики любят Page Builder Framework за её гибкость и расширяемость, когда речь идет о создании выдающихся клиентских веб-сайтов. Если вы не кодер, не волнуйтесь! Благодаря бесконечным возможностям в настройщике WordPress, она идеально подходит для пользователей любого уровня квалификации. Вы используете конструктор страниц и все еще ищете идеальную тему? Не смотрите дальше."
+
+#. Theme Name of the theme
+#: inc/template-parts/footer.php:21
+#, gp-priority: high
+msgid "Page Builder Framework"
+msgstr "Page Builder Framework"
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/clear-font-cache.php:26
+#: inc/settings/metaboxes/clear-font-cache.php:26
+msgid "Clear Cache"
+msgstr "Очистить кэш"
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/clear-font-cache.php:19
+#: inc/settings/metaboxes/clear-font-cache.php:19
+msgid "This is safe to do on production sites."
+msgstr "Это безопасно делать на рабочем сайте."
+
+#: inc/settings/metaboxes/clear-font-cache.php:16
+msgid "If Google Fonts selected in the Customizer are not displayed correctly, please try clearing the Font Cache."
+msgstr "Если шрифты Google, выбранные в настройке темы, отображаются неправильно, попробуйте очистить кэш шрифтов."
+
+#: inc/settings/metaboxes/clear-font-cache.php:15
+msgid "In order to achieve GDPR-compliance, we store Google Fonts locally on your server."
+msgstr "Чтобы обеспечить соответствие GDPR, мы храним шрифты Google локально на вашем сервере."
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/clear-font-cache.php:12
+#: inc/settings/metaboxes/clear-font-cache.php:12
+msgid "Clear Font Cache"
+msgstr "Очистить кэш шрифтов"
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/ultimate-dashboard.php:16
+#: inc/settings/bfcm-notice.php:31
+msgid "Learn more"
+msgstr "Подробнее"
+
+#: inc/settings/bfcm-notice.php:23
+msgid "Upgrade to the <strong>Premium Add-On</strong> for Page Builder Framework, today & get up to 30% off!"
+msgstr "Перейдите на <strong>премиум-дополнения</strong> для Page Builder Framework сегодня и получите скидку до 30 %!"
+
+#: inc/settings/bfcm-notice.php:20
+msgid "Our Biggest Sale of the Year starts NOW! - Save up to 30%!"
+msgstr "Наша самая большая распродажа года начинается УЖЕ СЕЙЧАС! - Сэкономьте до 30%!"
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/recommended-plugins.php:35
+#: inc/settings/metaboxes/recommended.php:27
+msgid "Better Admin Bar"
+msgstr "Улучшенная панель администратора"
+
+#: inc/settings/compatibility-notice.php:30
+msgid "Manage Subscription"
+msgstr "Управление подпиской"
+
+#: inc/settings/compatibility-notice.php:27
+msgid "View Updates"
+msgstr "Посмотреть обновления"
+
+#: inc/settings/compatibility-notice.php:23
+msgid "Please update the Premium Add-On to the latest version."
+msgstr "Пожалуйста, обновите премиум-дополнение до последней версии."
+
+#: inc/settings/compatibility-notice.php:22
+msgid "Your version of the <strong>Premium Add-On</strong> is outdated and no longer compatible with Page Builder Framework."
+msgstr "Ваша версия <strong>премиум-дополнения</strong> устарела и больше не совместима с Page Builder Framework."
+
+#: inc/settings/compatibility-notice.php:19
+msgid "Premium Add-On - Compatibility Warning"
+msgstr "Премиум-дополнение - предупреждение о совместимости"
+
+#: inc/customizer/settings/settings-header.php:1394
+msgid "Define a background color & turn the hamburger icon into a button."
+msgstr "Определите цвет фона и превратите значок гамбургера в кнопку."
+
+#: inc/customizer/settings/settings-header.php:1392
+msgid "Hamburger Icon Button"
+msgstr "Кнопка со значком гамбургера"
+
+#: inc/customizer/settings/settings-header.php:1016
+msgid "Sub Menu Width"
+msgstr "Ширина подменю"
+
+#: inc/customizer/settings/settings-general.php:812
+msgid "Applies to buttons displayed in the themes accent color such as WooCommerce buttons."
+msgstr "Применяется к кнопкам, отображаемым цветом акцента темы, например к кнопкам WooCommerce."
+
+#: inc/customizer/settings/settings-general.php:811
+msgid "Theme Buttons (Primary)"
+msgstr "Кнопки тем (основные)"
+
+#: inc/customizer/settings/settings-general.php:749
+msgid "Applies to default buttons such as \"Read more\" used throughout the theme."
+msgstr "Применяется к кнопкам по умолчанию, таким как Читать далее, используемым в теме."
+
+#: inc/customizer/settings/settings-general.php:414
+msgid "Sidebar Widgets"
+msgstr "Виджеты боковой панели"
+
+#: inc/customizer/settings/settings-general.php:356
+msgid "Position (Global)"
+msgstr "Позиция (глобально)"
+
+#: inc/customizer/settings/settings-general.php:79
+msgid "Page Padding"
+msgstr "Внутренний отступ страницы"
+
+#: inc/customizer/settings/settings-general.php:58
+#: inc/customizer/settings/settings-general.php:1013
+msgid "Scroll to Top Button"
+msgstr "Кнопка Прокрутить вверх"
+
+#: inc/customizer/settings/settings-footer.php:40
+#: inc/customizer/settings/settings-header.php:33
+#: inc/customizer/settings/settings-header.php:51
+#: inc/customizer/settings/settings-header.php:69
+#: inc/customizer/settings/settings-header.php:87
+msgid "Design"
+msgstr "Дизайн"
+
+#: inc/customizer/settings/settings-blog.php:847
+msgid "Disable Comments"
+msgstr "Отключить комментарии"
+
+#. translators: %s is the limit of selection number.
+#: assets/kirki/kirki-packages/control-react-select/src/Control/ReactSelect.php:169
+msgid "You can only select %s items"
+msgstr "Вы можете выбрать только %s элемент"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Extra Large"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Larger"
+msgstr "Больше"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Большой"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Regular"
+msgstr "Стандартный"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Маленький"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Tiny"
+msgstr "Миниатюрная"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:850
+msgid "Defaults"
+msgstr "По умолчанию"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:387
+msgid "Wavy"
+msgstr "Волнистый"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:386
+msgid "Solid"
+msgstr "Сплошной"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:301
+msgid "Font Variant"
+msgstr "Вариант шрифта"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:199
+msgid "900 Italic"
+msgstr "900 Italic"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:195
+msgid "900"
+msgstr "900"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:191
+msgid "800 Italic"
+msgstr "800 Italic"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:187
+msgid "800"
+msgstr "800"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:175
+msgid "600 Italic"
+msgstr "600 Italic"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:171
+msgid "600"
+msgstr "600"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:167
+msgid "500 Italic"
+msgstr "500 Italic"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:163
+msgid "500"
+msgstr "500"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:159
+msgid "300 Italic"
+msgstr "300 Italic"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:155
+msgid "300"
+msgstr "300"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:151
+msgid "200 Italic"
+msgstr "200 Italic"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:147
+msgid "200"
+msgstr "200"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:143
+msgid "100 Italic"
+msgstr "100 Italic"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:139
+msgid "100"
+msgstr "100"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:124
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:183
+msgid "700 Italic"
+msgstr "700 Italic"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:120
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:179
+msgid "700"
+msgstr "700"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:116
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:135
+msgid "Italic"
+msgstr "Italic"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:112
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:131
+msgid "Regular"
+msgstr "Обычный"
+
+#: assets/kirki/kirki-packages/control-react-select/src/Control/ReactSelect.php:162
+msgid "Select..."
+msgstr "Выбрать..."
+
+#: assets/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:116
+msgid "Miscelaneous"
+msgstr "Разное"
+
+#: assets/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:115
+msgid "Notifications"
+msgstr "Оповещения"
+
+#: assets/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:114
+msgid "Widgets"
+msgstr "Виджеты"
+
+#: assets/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:113
+msgid "Taxonomies"
+msgstr "Таксономии"
+
+#: assets/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:112
+msgid "Products"
+msgstr "Товары"
+
+#: assets/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:110
+msgid "Social"
+msgstr "Соцсети"
+
+#: assets/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:109
+msgid "Sorting"
+msgstr "Сортировка"
+
+#: assets/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:108
+msgid "Posts"
+msgstr "Записи"
+
+#: assets/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:106
+msgid "Image Editing"
+msgstr "Редактирование изображения"
+
+#: assets/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:105
+msgid "Media"
+msgstr "Медиа"
+
+#: assets/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:104
+msgid "Post Formats"
+msgstr "Форматы записи"
+
+#: assets/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:103
+msgid "Welcome Screen"
+msgstr "Экран приветствия"
+
+#: assets/kirki/kirki-packages/control-dashicons/src/Control/Dashicons.php:102
+msgid "Admin Menu"
+msgstr "Меню администратора"
+
+#: inc/settings/bfcm-notice.php:33
+msgid "*Only Administrators will see this message."
+msgstr "* Это сообщение увидят только администраторы."
+
+#: inc/settings/bfcm-notice.php:27
+msgid "All prices are reduced. No coupon code required."
+msgstr "Все цены снижены. Код купона не требуется."
+
+#: inc/settings/bfcm-notice.php:26
+msgid "But hurry up, the deal will expire soon!"
+msgstr "Поторопитесь, срок действия акции скоро истечет!"
+
+#: inc/customizer/settings/settings-header.php:1595
+msgid "Auto collapse open sub-menu if other sub-menu is being opened."
+msgstr "Авто сворачивать открытое подменю, если открыто другое подменю."
+
+#: inc/customizer/settings/settings-header.php:1594
+msgid "Auto Collapse"
+msgstr "Авто свертывание"
+
+#: inc/settings/metaboxes/recommended.php:76
+msgid "WPML is a popular translation plugin that helps you create a multilingual website for your business or blog."
+msgstr "WPML - популярный плагин для перевода, который поможет вам создать многоязычный веб-сайт для вашего бизнеса или блога."
+
+#: inc/settings/metaboxes/recommended.php:75
+msgid "WPML"
+msgstr "WPML"
+
+#: inc/options.php:114
+msgid "Custom Width"
+msgstr "Пользовательская ширина"
+
+#: inc/customizer/settings/settings-header.php:1059
+msgid "Text Alignment"
+msgstr "Выравнивание текста"
+
+#: inc/settings/metaboxes/recommended.php:60
+msgid "A set of plugins to help you build dynamic, advanced websites without programming."
+msgstr "Набор плагинов, которые помогут вам создавать динамичные, продвинутые веб-сайты без программирования."
+
+#: inc/settings/metaboxes/recommended.php:59
+msgid "Toolset"
+msgstr "Набор инструментов"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:680
+msgid "Notice Font Color"
+msgstr "Цвет шрифта уведомления"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:311
+msgid "Disable Gallery Lightbox"
+msgstr "Отключить лайтбокс галереи"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:301
+msgid "Disable Gallery Slider"
+msgstr "Отключить слайдер галереи"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:291
+msgid "Disable Gallery Zoom"
+msgstr "Отключить масштабирование галереи"
+
+#: searchform.php:29 searchform.php:30 searchform.php:36
+msgid "Search"
+msgstr "Поиск"
+
+#: inc/settings/metaboxes/recommended.php:68
+msgid "The Weglot translation plugin gives you a reliable and easy way to take your WordPress website from local to global in minutes. No coding required and no developer time needed."
+msgstr "Плагин перевода Weglot дает вам надежный и простой способ перевести ваш веб-сайт WordPress из локального в глобальный за считанные минуты. Не требуется кодирование и не требуется время разработчика."
+
+#: inc/customizer/settings/settings-blog.php:485
+msgid "Full Post"
+msgstr "Полная запись"
+
+#: inc/customizer/settings/settings-blog.php:484
+msgid "Excerpt"
+msgstr "Отрывок"
+
+#: inc/customizer/settings/settings-blog.php:478
+msgid "Content"
+msgstr "Содержимое"
+
+#: inc/settings/metaboxes/review.php:18
+msgid "Leave a Review"
+msgstr "Оставьте отзыв"
+
+#: inc/settings/metaboxes/review.php:15
+msgid "Do you enjoy Page Builder Framework? Leave a review in the WordPress directory and spread the word!"
+msgstr "Вам нравится Page Builder Framework? Оставьте отзыв в каталоге WordPress и распространите информацию!"
+
+#: inc/settings/metaboxes/review.php:12
+msgid "Leave us a Review"
+msgstr "Оставьте нам отзыв"
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/recommended-plugins.php:89
+#: inc/settings/metaboxes/recommended.php:121
+msgid "Not Installed"
+msgstr "Не установлен"
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/recommended-plugins.php:81
+#: inc/settings/metaboxes/recommended.php:113
+msgid "Install"
+msgstr "Установить"
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/recommended-plugins.php:71
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/recommended-plugins.php:74
+#: inc/settings/metaboxes/recommended.php:103
+#: inc/settings/metaboxes/recommended.php:106
+msgid "Installed"
+msgstr "Установленные"
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/recommended-plugins.php:20
+#: inc/settings/metaboxes/recommended.php:52
+msgid "Reset, Export & Import your WordPress customizer settings with a simple click of a button."
+msgstr "Сбросьте, экспортируйте и импортируйте Настройки темы WordPress простым нажатием кнопки."
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/recommended-plugins.php:19
+#: inc/settings/metaboxes/recommended.php:51
+msgid "Customizer Reset - Export & Import"
+msgstr "Сброс настройки темы - экспорт и импорт"
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/recommended-plugins.php:28
+#: inc/settings/metaboxes/recommended.php:44
+msgid "Ultimate Dashboard is the #1 plugin to customize your WordPress Dashboard."
+msgstr "Ultimate Dashboard - плагин №1 для настройки панели управления WordPress."
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/recommended-plugins.php:27
+#: inc/settings/metaboxes/recommended.php:43
+msgid "Ultimate Dashboard"
+msgstr "Ultimate Dashboard"
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/recommended-plugins.php:44
+#: inc/settings/metaboxes/recommended.php:36
+msgid "Add beautiful WordPress video lightbox popups to your website without sacrificing performance."
+msgstr "Добавьте на свой веб-сайт красивые всплывающие окна с лайтбоксами для видео WordPress без ущерба для производительности."
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/recommended-plugins.php:43
+#: inc/settings/metaboxes/recommended.php:35
+msgid "WP Video Popup"
+msgstr "Всплывающее видео WP"
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/recommended-plugins.php:36
+#: inc/settings/metaboxes/recommended.php:28
+msgid "Quickly access all important areas of your WordPress website & provide your clients with the user experience they deserve."
+msgstr "Получите быстрый доступ ко всем важным областям вашего веб-сайта WordPress и предоставьте своим клиентам пользовательский опыт, которого они заслуживают."
+
+#: inc/settings/metaboxes/recommended.php:20
+msgid "Take your website to the next level with the Premium Add-On for Page Builder Framework."
+msgstr "Поднимите свой веб-сайт на новый уровень с премиум-дополнения для Page Builder Framework."
+
+#: inc/settings/metaboxes/premium.php:100
+msgid "Check out all the Premium Add-On features."
+msgstr "Ознакомьтесь со всеми функциями премиум-дополнения."
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/ultimate-dashboard.php:91
+#: inc/settings/metaboxes/premium.php:97
+msgid "And much more!"
+msgstr "И многое другое!"
+
+#: inc/settings/metaboxes/premium.php:64
+msgid "Add a customizable Call to Action Button to your navigation with just a few clicks."
+msgstr "Добавьте настраиваемую кнопку призыва к действию в свою навигацию всего за несколько кликов."
+
+#: inc/settings/metaboxes/premium.php:63
+msgid "Call to Action Button"
+msgstr "Кнопка призыва к действию"
+
+#: inc/settings/metaboxes/premium.php:59
+msgid "Easily create an advanced mega menu with up to 4 rows."
+msgstr "С легкостью создавайте расширенное мега меню, содержащее до 4 строк."
+
+#: inc/settings/metaboxes/premium.php:58
+msgid "Mega Menu"
+msgstr "Мега меню"
+
+#: inc/settings/metaboxes/premium.php:54
+msgid "Take full control over the design of your online store with more advanced WooCommerce features."
+msgstr "Получите полный контроль над дизайном своего интернет-магазина с более продвинутыми функциями WooCommerce."
+
+#: inc/settings/metaboxes/premium.php:53
+msgid "Advanced WooCommerce Features"
+msgstr "Расширенные функции WooCommerce"
+
+#: inc/settings/metaboxes/premium.php:49
+msgid "Set custom responsive breakpoints for tablets, desktops & mobiles for a pixel perfect design."
+msgstr "Установите настраиваемые точки останова для планшетов, настольных компьютеров и мобильных устройств, чтобы добиться идеального дизайна с точностью до пикселя."
+
+#: inc/settings/metaboxes/premium.php:48
+msgid "Adjustable Breakpoints"
+msgstr "Регулируемые точки останова"
+
+#: inc/settings/metaboxes/premium.php:44
+msgid "Customize fonts and add Typekit- & Custom Fonts to your website."
+msgstr "Настройте шрифты и добавьте Typekit и пользовательские шрифты на свой веб-сайт."
+
+#: inc/settings/metaboxes/premium.php:43
+msgid "Advanced Typography"
+msgstr "Расширенная типографика"
+
+#: inc/settings/metaboxes/premium.php:39
+msgid "Your theme, your branding. Fully white label Page Builder Framework & the Premium Add-On."
+msgstr "Ваша тема, ваш брендинг. Полностью белая этикетка Page Builder Framework и надстройка Premium."
+
+#: inc/settings/metaboxes/premium.php:38
+msgid "White Label Settings"
+msgstr "Настройки White Label (белая этикетка)"
+
+#: inc/settings/metaboxes/premium.php:34
+msgid "Create a beautiful & fully customizable Sticky Navigation in seconds."
+msgstr "Создайте красивую и полностью настраиваемую прикрепленную навигацию за считанные секунды."
+
+#: inc/settings/metaboxes/premium.php:33
+msgid "Sticky Navigation"
+msgstr "Прикрепленная навигация"
+
+#: inc/settings/metaboxes/premium.php:29
+msgid "Create a customizable Transparent Header with just a few clicks."
+msgstr "Создайте настраиваемый прозрачный заголовок всего за несколько кликов."
+
+#: inc/settings/metaboxes/premium.php:28
+msgid "Transparent Header"
+msgstr "Прозрачный заголовок"
+
+#: inc/settings/metaboxes/premium.php:19
+msgid "Upgrade Now"
+msgstr "Обновить сейчас"
+
+#: inc/settings/metaboxes/premium.php:18
+msgid "Premium Add-On Features"
+msgstr "Функции премиум-дополнения"
+
+#: inc/settings/metaboxes/community.php:15
+msgid "Join the community and meet 1700+ Page Builder Framework users in our Facebook group."
+msgstr "Присоединяйтесь к сообществу и познакомьтесь с более чем 1700 пользователями Page Builder Framework в нашей группе Facebook."
+
+#: inc/settings/metaboxes/community.php:12
+#: inc/settings/metaboxes/community.php:18
+msgid "Join the Community"
+msgstr "Присоединяйтесь к сообществу"
+
+#: inc/settings/metaboxes/customizer.php:96
+msgid "Explore all of the Page Builder Framework features."
+msgstr "Изучите все возможности Page Builder Framework."
+
+#: inc/settings/metaboxes/customizer.php:93
+msgid "Launch WordPress Customizer"
+msgstr "Запустить Настройку темы WordPress"
+
+#: inc/settings/metaboxes/customizer.php:80
+msgid "Customizer Settings"
+msgstr "Параметры Настройки темы"
+
+#: inc/settings/metaboxes/resources.php:20
+msgid "Page Builder Framework Website"
+msgstr "Page Builder Framework Website"
+
+#: inc/settings/metaboxes/resources.php:13
+msgid "Additional Resources"
+msgstr "Дополнительные ресурсы"
+
+#: inc/settings/metaboxes/documentation.php:39
+msgid "Any questions? Don't hesitate to reach out! <br><br> Post your question in the official WordPress support forum and we will help you out asap!"
+msgstr "Любые вопросы? Не стесняйтесь обращаться! <br><br> Разместите свой вопрос на официальном форуме поддержки WordPress, и мы поможем вам как можно скорее!"
+
+#: inc/settings/metaboxes/documentation.php:38
+#: inc/settings/metaboxes/resources.php:32
+msgid "Support Forum"
+msgstr "Форум поддержки"
+
+#: inc/settings/metaboxes/documentation.php:33
+msgid "Are you planning to make code changes to your website? We've got you covered! <br><br> Download the Page Builder Framework child theme or generate your own, white labeled version of it."
+msgstr "Планируете ли вы внести изменения в код вашего сайта? <br><br>Загрузите дочернюю тему Page Builder Framework или создайте свою собственную версию с белой этикеткой."
+
+#: inc/settings/metaboxes/documentation.php:32
+#: inc/settings/metaboxes/resources.php:26
+msgid "Child Theme"
+msgstr "Дочерняя тема"
+
+#: inc/settings/metaboxes/documentation.php:27
+msgid "Did you know? There is a Facebook Community of Page Builder Framework users, just like you! <br><br> Join the community and meet 1700+ Page Builder Framework users."
+msgstr "Вы знали? На Facebook существует сообщество пользователей Page Builder Framework, таких же, как и вы! <br><br> Присоединяйтесь к сообществу и познакомьтесь с более чем 1700 пользователями Page Builder Framework."
+
+#: inc/settings/metaboxes/documentation.php:26
+msgid "Community"
+msgstr "Сообщество"
+
+#: inc/settings/metaboxes/documentation.php:21
+msgid "Not sure how something works? <br><br> Our extensive Documentation is a great place to get started and learn more about Page Builder Framework."
+msgstr "Не знаете, как что-то работает? <br><br> Наша обширная документация — отличное место, чтобы начать работу и узнать больше о Page Builder Framework."
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/documentation.php:27
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/documentation.php:37
+#: inc/settings/metaboxes/documentation.php:20
+msgid "Documentation"
+msgstr "Документация (англ.)"
+
+#: inc/settings/settings-page.php:38
+msgid "Help"
+msgstr "Помощь"
+
+#: assets/kirki/kirki-packages/settings/templates/settings-template.php:41
+#: inc/settings/settings-page.php:37
+msgid "Recommended Plugins"
+msgstr "Рекомендуемые плагины"
+
+#: inc/settings/metaboxes/recommended.php:19 inc/settings/settings-page.php:36
+msgid "Premium Add-On"
+msgstr "Премиум-дополнения"
+
+#: inc/settings/settings-page.php:35
+msgid "Getting Started"
+msgstr "Начало работы"
+
+#: inc/integration/elementor-pro.php:113
+msgid "After Main Content"
+msgstr "Ниже основного содержимого"
+
+#: inc/integration/elementor-pro.php:104
+msgid "Before Main Content"
+msgstr "Выше основного содержимого"
+
+#: inc/integration/elementor-pro.php:95
+msgid "After Inner Content"
+msgstr "Ниже внутреннего содержимого"
+
+#: inc/integration/elementor-pro.php:86
+msgid "Before Inner Content"
+msgstr "Выше внутреннего содержимого"
+
+#: inc/integration/elementor-pro.php:77
+msgid "After Content"
+msgstr "После содержимого"
+
+#: inc/integration/elementor-pro.php:40
+msgid "Footer (Replace)"
+msgstr "Подвал (замена)"
+
+#: inc/integration/elementor-pro.php:31
+msgid "Header (Replace)"
+msgstr "Заголовок (замена)"
+
+#: inc/integration/elementor-pro.php:22
+msgid "Pre Header (Replace)"
+msgstr "Предзаголовок (замена)"
+
+#: inc/integration/lifterlms/lifterlms-customizer-settings.php:58
+msgid "Action Color"
+msgstr "Цвет действия"
+
+#: inc/integration/lifterlms/lifterlms-customizer-settings.php:44
+msgid "Primary Color"
+msgstr "Основной цвет"
+
+#: inc/integration/lifterlms/lifterlms-customizer-settings.php:26
+msgid "Colors"
+msgstr "Цвета"
+
+#: inc/integration/lifterlms/lifterlms-customizer-settings.php:19
+msgid "LifterLMS"
+msgstr "LifterLMS"
+
+#: inc/template-parts/navigation/menu-mobile-default.php:25
+#: inc/template-parts/navigation/menu-mobile-hamburger.php:29
+#: inc/template-parts/navigation/menu-mobile-hamburger.php:37
+#: inc/template-parts/navigation/menu-mobile-off-canvas.php:33
+#: inc/template-parts/navigation/menu-mobile-off-canvas.php:40
+msgid "Mobile Site Navigation"
+msgstr "Навигация по сайту для мобильных"
+
+#: inc/customizer/settings/settings-header.php:1605
+msgid "Indent"
+msgstr "Отступ"
+
+#: inc/customizer/settings/settings-header.php:95
+msgid "Mobile Sub Menu"
+msgstr "Подменю для мобильных"
+
+#: inc/integration/woocommerce/woocommerce-functions.php:87
+msgid "Widgets in this area will be shown on WooCommerce product pages."
+msgstr "Виджеты в этой области будут отображаться на страницах товара WooCommerce."
+
+#: inc/integration/woocommerce/woocommerce-functions.php:74
+msgid "Widgets in this area will be shown on WooCommerce archive pages."
+msgstr "Виджеты в этой области будут отображаться на страницах архива WooCommerce."
+
+#: inc/integration/edd/edd-functions.php:80
+msgid "Widgets in this area will be shown on EDD product pages."
+msgstr "Виджеты в этой области будут отображаться на страницах товара EDD."
+
+#: inc/integration/edd/edd-functions.php:69
+msgid "Widgets in this area will be shown on EDD archive pages."
+msgstr "Виджеты в этой области будут отображаться на страницах архива EDD."
+
+#: inc/settings/activation-notice.php:28
+msgid "Get Started"
+msgstr "Начало работы"
+
+#. Template Name of the theme
+msgid "Sidebar (Deprecated)"
+msgstr "Боковая панель (устарело)"
+
+#: inc/customizer/settings/settings-footer.php:32
+msgid "Footer Bar"
+msgstr "Панель подвала"
+
+#: inc/customizer/settings/settings-footer.php:23
+msgid "Widget Area"
+msgstr "Области виджетов"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:344
+msgid "Price Quantity Buttons (+/-)"
+msgstr "Кнопки количества цены (+/-)"
+
+#: inc/integration/woocommerce/woocommerce-functions.php:738
+msgid "Increase quantity"
+msgstr "Увеличить количество"
+
+#: inc/integration/woocommerce/woocommerce-functions.php:725
+msgid "Decrease quantity"
+msgstr "Уменьшить количество"
+
+#: inc/settings/metaboxes/customizer.php:98
+msgid "Customize"
+msgstr "Настроить"
+
+#: inc/settings/activation-notice.php:23
+msgid "Thank you for choosing Page Builder Framework! Please visit the theme settings page to get started."
+msgstr "Благодарим вас за выбор Page Builder Framework! Посетите страницу настроек темы, чтобы начать работу."
+
+#: inc/settings/activation-notice.php:20
+msgid "Welcome to Page Builder Framework!"
+msgstr "Добро пожаловать в Page Builder Framework!"
+
+#: inc/customizer/settings/settings-header.php:1442
+msgid "Menu Item Settings"
+msgstr "Настройки пункта меню"
+
+#: inc/theme-settings.php:40
+msgid "Theme Settings"
+msgstr "Настройки темы"
+
+#: inc/customizer/settings/settings-general.php:99
+msgid "Boxed Layout"
+msgstr "Фиксированный макет"
+
+#: inc/customizer/settings/settings-blog.php:187
+msgid "Excerpt Indicator"
+msgstr "Индикатор отрывка"
+
+#: inc/integration/edd/edd-customizer-settings.php:26
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:37
+msgid "Cart Menu Item"
+msgstr "Пункт меню корзины"
+
+#: inc/customizer/settings/settings-header.php:290
+msgid "Pre Header Width"
+msgstr "Ширина предзаголовка"
+
+#: assets/kirki/kirki-packages/settings/templates/metaboxes/recommended-plugins.php:83
+#: inc/customizer/settings/settings-footer.php:374
+#: inc/customizer/settings/settings-footer.php:389
+#: inc/customizer/settings/settings-header.php:997
+#: inc/customizer/settings/settings-header.php:1204
+#: inc/customizer/settings/settings-header.php:1575
+#: inc/customizer/settings/settings-header.php:1722
+#: inc/customizer/settings/settings-typography.php:188
+#: inc/customizer/settings/settings-typography.php:319
+#: inc/customizer/settings/settings-typography.php:372
+#: inc/customizer/settings/settings-typography.php:426
+#: inc/customizer/settings/settings-typography.php:479
+#: inc/customizer/settings/settings-typography.php:532
+#: inc/customizer/settings/settings-typography.php:585
+#: inc/customizer/settings/settings-typography.php:638
+#: inc/customizer/settings/settings-typography.php:691
+#: inc/customizer/settings/settings-typography.php:744
+#: inc/settings/metaboxes/premium.php:104
+#: inc/settings/metaboxes/recommended.php:115
+msgid "Learn More"
+msgstr "Подробнее"
+
+#: inc/customizer/settings/settings-footer.php:373
+#: inc/customizer/settings/settings-footer.php:388
+#: inc/customizer/settings/settings-header.php:996
+#: inc/customizer/settings/settings-header.php:1203
+#: inc/customizer/settings/settings-header.php:1574
+#: inc/customizer/settings/settings-header.php:1721
+#: inc/customizer/settings/settings-typography.php:187
+#: inc/customizer/settings/settings-typography.php:318
+#: inc/customizer/settings/settings-typography.php:371
+#: inc/customizer/settings/settings-typography.php:425
+#: inc/customizer/settings/settings-typography.php:478
+#: inc/customizer/settings/settings-typography.php:531
+#: inc/customizer/settings/settings-typography.php:584
+#: inc/customizer/settings/settings-typography.php:637
+#: inc/customizer/settings/settings-typography.php:690
+#: inc/customizer/settings/settings-typography.php:743
+msgid "Premium Features available"
+msgstr "Доступны премиум-функции"
+
+#: inc/customizer/settings/settings-header.php:445
+msgid "Mobile Logo"
+msgstr "Логотип для мобильных"
+
+#: inc/customizer/settings/settings-blog.php:66
+msgid "Post"
+msgstr "Запись"
+
+#: inc/integration/elementor-pro.php:167
+msgid "After Sidebar"
+msgstr "После боковой панели"
+
+#: inc/integration/elementor-pro.php:158
+msgid "Before Sidebar"
+msgstr "Выше боковой панели"
+
+#: inc/integration/elementor-pro.php:149
+msgid "After Post"
+msgstr "После записи"
+
+#: inc/integration/elementor-pro.php:140
+msgid "Before Post"
+msgstr "Выше записи"
+
+#: inc/integration/elementor-pro.php:131
+msgid "After Footer"
+msgstr "После подвала"
+
+#: inc/integration/elementor-pro.php:122
+msgid "Before Footer"
+msgstr "Выше подвала"
+
+#: inc/integration/elementor-pro.php:58
+msgid "After Header"
+msgstr "После шапки"
+
+#: inc/integration/elementor-pro.php:49
+msgid "Before Header"
+msgstr "Выше заголовка"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:884
+msgid "List"
+msgstr "Список"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:542
+msgid "Enable AJAX add to cart button"
+msgstr "Включить AJAX кнопку \"Добавить в корзину\""
+
+#: assets/kirki/kirki-packages/compatibility/src/Init.php:261
+msgid "Don't show this again"
+msgstr "Больше не показывать"
+
+#: assets/kirki/kirki-packages/compatibility/src/Init.php:260
+msgid "Install Plugin"
+msgstr "Установить плагин"
+
+#: assets/kirki/kirki-packages/compatibility/src/Init.php:257
+msgid "Your theme uses a Font Awesome field for icons. To avoid issues with missing icons on your frontend we recommend you install the official Font Awesome plugin."
+msgstr "Ваша тема для полей значков использует Font Awesome. Чтобы избежать проблем с отсутствующими значками на внешнем интерфейсе, мы рекомендуем вам установить официальный плагин Font Awesome."
+
+#: inc/customizer/settings/settings-blog.php:129
+msgid "Author Avatar"
+msgstr "Аватар автора"
+
+#: inc/customizer/settings/settings-blog.php:100
+msgid "Date"
+msgstr "Дата"
+
+#: inc/customizer/settings/settings-general.php:574
+msgid "Below Header"
+msgstr "Выше шапки"
+
+#: inc/customizer/settings/settings-general.php:573
+#: inc/integration/elementor-pro.php:68
+msgid "Before Content"
+msgstr "Выше содержимого"
+
+#: inc/customizer/settings/settings-blog.php:30
+msgid "Pagination"
+msgstr "Постраничная навигация"
+
+#: inc/customizer/settings/settings-blog.php:697
+msgid "Image Beside Post Layout Settings"
+msgstr "Изображение рядом с настройками макета записи"
+
+#: inc/customizer/settings/settings-blog.php:551
+#: inc/customizer/settings/settings-blog.php:900
+msgid "Stretch Featured Image"
+msgstr "Растянуть изображение записи"
+
+#: inc/helpers.php:767
+msgid "Scroll to Top"
+msgstr "Прокрутить вверх"
+
+#: inc/customizer/settings/settings-header.php:469
+msgid "Logo Width"
+msgstr "Ширина логотипа"
+
+#: inc/customizer/settings/settings-footer.php:191
+msgid "Powered by [theme_author]"
+msgstr "Работает на [theme_author]"
+
+#: inc/customizer/settings/settings-footer.php:111
+msgid "&copy; [year] - [blogname] | All rights reserved"
+msgstr "&copy; [year] - [blogname] | Все права сохранены"
+
+#: inc/customizer/settings/settings-header.php:616
+msgid "Display Tagline on Mobile"
+msgstr "Показать краткое описание на мобильных устройствах"
+
+#: inc/customizer/settings/settings-typography.php:250
+msgid "Tagline - Font Settings"
+msgstr "Краткое описание - настройки шрифта"
+
+#: inc/customizer/settings/settings-typography.php:207
+msgid "Title - Font Settings"
+msgstr "Названия сайта - настройка шрифта"
+
+#: inc/customizer/settings/settings-general.php:372
+msgid "Gap"
+msgstr "Отступ"
+
+#: inc/customizer/settings/settings-general.php:1063
+msgid "Show after (px)"
+msgstr "Показать после (px)"
+
+#: inc/customizer/settings/settings-blog.php:876
+msgid "Post Title"
+msgstr "Заголовок записи"
+
+#: inc/customizer/settings/settings-blog.php:875
+msgid "Previous/Next Post"
+msgstr "Предыдущая / Следующая запись"
+
+#: inc/customizer/settings/settings-blog.php:736
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:275
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:916
+msgid "Image Width"
+msgstr "Ширина изображения"
+
+#: inc/customizer/settings/settings-blog.php:589
+msgid "Space Between"
+msgstr "Отступ между"
+
+#: inc/customizer/settings/settings-blog.php:536
+#: inc/customizer/settings/settings-blog.php:885
+msgid "Style"
+msgstr "Стиль"
+
+#: inc/customizer/settings/settings-blog.php:423
+msgid "Remove Prefix"
+msgstr "Удалить префикс"
+
+#: inc/customizer/settings/settings-blog.php:267
+msgid "Categories Title"
+msgstr "Заголовок рубрик"
+
+#: inc/customizer/settings/settings-blog.php:110
+#: inc/customizer/settings/settings-general.php:589
+msgid "Separator"
+msgstr "Разделитель"
+
+#: inc/customizer/settings/settings-blog.php:47
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: inc/customizer/settings/settings-blog.php:43
+msgid "Blog / Archive"
+msgstr "Архив блога"
+
+#: inc/customizer/settings/settings-typography.php:23
+msgid "Site Title / Tagline"
+msgstr "Название и краткое описание сайта"
+
+#: inc/theme-mods.php:129
+msgid "Search Toggle"
+msgstr "Переключатель поиска"
+
+#: inc/integration/edd/edd-functions.php:75
+msgid "Easy Digital Downloads Product Page Sidebar"
+msgstr "Боковая панель страницы продукта Easy Digital Downloads"
+
+#: inc/integration/edd/edd-functions.php:64
+msgid "Easy Digital Downloads Sidebar"
+msgstr "Боковая панель Easy Digital Downloads (EDD)"
+
+#: inc/integration/edd/edd-customizer-settings.php:81
+msgid "Display Menu Item only on EDD related pages."
+msgstr "Отображать пункт меню только на страницах, связанных с EDD."
+
+#: inc/integration/edd/edd-customizer-settings.php:19
+msgid "Easy Digital Downloads"
+msgstr "Easy Digital Downloads"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:644
+msgid "Error Notice"
+msgstr "Уведомление об ошибке"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:630
+msgid "Success Notice"
+msgstr "Уведомление об успехе"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:617
+msgid "Info Notice"
+msgstr "Информационное уведомление"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:588
+msgid "Store Notice"
+msgstr "Уведомление магазина"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:81
+msgid "Turn the Search Menu Item into a Product Search."
+msgstr "Превратите пункт меню Поиск в поиск товара."
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:80
+msgid "Product Search"
+msgstr "Поиск товара"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:58
+msgid "Notices"
+msgstr "Уведомления"
+
+#: inc/integration/edd/edd-functions.php:177
+#: inc/integration/woocommerce/woocommerce-functions.php:575
+msgid "Items in Cart"
+msgstr "Товары в корзине"
+
+#: inc/helpers.php:1243
+msgid "<span>1</span> Comment"
+msgstr "<span>1</span> комментарий"
+
+#: inc/helpers.php:1502 inc/helpers.php:1508
+#: inc/template-parts/navigation/menu-full-screen.php:32
+#: inc/template-parts/navigation/menu-full-screen.php:39
+#: inc/template-parts/navigation/menu-mobile-hamburger.php:30
+#: inc/template-parts/navigation/menu-mobile-hamburger.php:38
+#: inc/template-parts/navigation/menu-mobile-off-canvas.php:34
+#: inc/template-parts/navigation/menu-mobile-off-canvas.php:41
+#: inc/template-parts/navigation/menu-off-canvas-left.php:30
+#: inc/template-parts/navigation/menu-off-canvas-left.php:37
+#: inc/template-parts/navigation/menu-off-canvas.php:36
+#: inc/template-parts/navigation/menu-off-canvas.php:43
+msgid "Menu Toggle"
+msgstr "Переключатель меню"
+
+#: inc/settings/metaboxes/customizer.php:21
+#: inc/template-parts/navigation/menu-centered.php:23
+#: inc/template-parts/navigation/menu-full-screen.php:31
+#: inc/template-parts/navigation/menu-full-screen.php:38
+#: inc/template-parts/navigation/menu-left.php:21
+#: inc/template-parts/navigation/menu-off-canvas-left.php:29
+#: inc/template-parts/navigation/menu-off-canvas-left.php:36
+#: inc/template-parts/navigation/menu-off-canvas.php:35
+#: inc/template-parts/navigation/menu-off-canvas.php:42
+#: inc/template-parts/navigation/menu-right.php:27
+#: inc/template-parts/navigation/menu-stacked-advanced.php:37
+#: inc/template-parts/navigation/menu-stacked.php:19
+msgid "Site Navigation"
+msgstr "Навигация по сайту"
+
+#: inc/options.php:125 inc/quick-edit.php:82
+msgid "Page Title"
+msgstr "Заголовок страницы"
+
+#: inc/options.php:121 inc/quick-edit.php:72
+msgid "Disable Elements"
+msgstr "Отключить элементы"
+
+#: inc/options.php:109 inc/options.php:318 inc/quick-edit.php:60
+msgid "Contained"
+msgstr "Ограниченный"
+
+#: comments.php:49 comments.php:50
+msgid "Comments Navigation"
+msgstr "Навигация по комментариям"
+
+#: searchform.php:24
+msgid "Search for:"
+msgstr "Поиск для:"
+
+#: inc/customizer/settings/settings-header.php:1368
+msgid "Icon Size"
+msgstr "Размер значка"
+
+#: inc/customizer/settings/settings-header.php:738
+msgid "Custom \"title\" Tag"
+msgstr "Свой тег заголовка"
+
+#: inc/customizer/settings/settings-header.php:721
+msgid "Custom \"alt\" Tag"
+msgstr "Свой атрибут alt"
+
+#: inc/customizer/settings/settings-general.php:848
+msgid "Primary Font Color"
+msgstr "Основной цвет шрифта"
+
+#: inc/customizer/settings/settings-general.php:488
+msgid "Search Form"
+msgstr "Форма поиска"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:70
+msgid "Display Menu Item only on WooCommerce related pages."
+msgstr "Отображать пункт меню только на страницах, связанных с WooCommerce."
+
+#: inc/integration/edd/edd-customizer-settings.php:80
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:69
+msgid "Hide from non-Shop Pages"
+msgstr "Скрыть со страниц, не относящихся к магазину"
+
+#: inc/customizer/settings/settings-footer.php:219
+msgid "Footer Width"
+msgstr "Ширина подвала"
+
+#: inc/customizer/settings/settings-header.php:1168
+msgid "Sub Menu Separator"
+msgstr "Разделитель подменю"
+
+#: inc/customizer/settings/settings-blog.php:415
+msgid "Headline"
+msgstr "Заголовок"
+
+#: inc/helpers.php:1210
+msgid "View all posts by %s"
+msgstr "Смотреть все записи автора %s"
+
+#: inc/customizer/settings/settings-general.php:552
+msgid "Pages"
+msgstr "Страницы"
+
+#: inc/customizer/settings/settings-general.php:37
+#: inc/customizer/settings/settings-general.php:551
+msgid "404 Page"
+msgstr "Страница 404"
+
+#: inc/customizer/settings/settings-general.php:550
+msgid "Search Page"
+msgstr "Страница поиска"
+
+#: inc/customizer/settings/settings-general.php:549
+msgid "Single"
+msgstr "Одиночная"
+
+#: inc/customizer/settings/settings-general.php:547
+msgid "Front Page"
+msgstr "Главная страница"
+
+#: inc/customizer/settings/settings-general.php:541
+msgid "Display Breadcrumbs on"
+msgstr "Показывать хлебные крошки"
+
+#: inc/customizer/settings/settings-general.php:44
+#: inc/customizer/settings/settings-general.php:514
+msgid "Breadcrumbs"
+msgstr "Хлебные крошки"
+
+#: inc/customizer/settings/settings-general.php:51
+#: inc/customizer/settings/settings-general.php:748
+#: inc/settings/metaboxes/customizer.php:53
+msgid "Theme Buttons"
+msgstr "Кнопки темы"
+
+#: inc/customizer/settings/settings-blog.php:16
+#: inc/settings/metaboxes/customizer.php:41
+msgid "Blog"
+msgstr "Блог"
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: inc/breadcrumbs.php:377
+msgid "Week %s"
+msgstr "Неделя %s"
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: inc/breadcrumbs.php:375
+msgid "Minute %s"
+msgstr "Минута %s"
+
+#. Translators: %s is the page number.
+#: inc/breadcrumbs.php:373
+msgid "Comment Page %s"
+msgstr "Страница комментариев %s"
+
+#. Translators: %s is the page number.
+#: inc/breadcrumbs.php:371
+msgid "Page %s"
+msgstr "Страница %s"
+
+#. Translators: %s is the search query.
+#: inc/breadcrumbs.php:369
+msgid "Search results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: inc/breadcrumbs.php:367 inc/customizer/settings/settings-general.php:548
+msgid "Archives"
+msgstr "Архивы"
+
+#: inc/breadcrumbs.php:366
+msgid "404 Not Found"
+msgstr "404 Не найдено"
+
+#: inc/breadcrumbs.php:365
+msgid "Home"
+msgstr "Главная"
+
+#: inc/breadcrumbs.php:364
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "Хлебные крошки"
+
+#: inc/customizer/settings/settings-blog.php:314
+#: inc/customizer/settings/settings-blog.php:354
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:454
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:503
+msgid "Active"
+msgstr "Активно"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:404
+msgid "Modern"
+msgstr "Модерн"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:397
+msgid "Tabs Layout"
+msgstr "Расположение вкладок"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:321
+msgid "Summary Separator"
+msgstr "Разделитель анонса"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:1161
+msgid "Out of Stock Notice"
+msgstr "Уведомление об отсутствии в наличии"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:1121
+msgid "Price Font Size"
+msgstr "Размер шрифта цены"
+
+#: inc/customizer/settings/settings-blog.php:666
+#: inc/customizer/settings/settings-blog.php:969
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:1082
+msgid "Title Font Size"
+msgstr "Размер шрифта заголовка"
+
+#: inc/customizer/settings/settings-general.php:615
+#: inc/customizer/settings/settings-general.php:1040
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:986
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:971
+msgid "Square"
+msgstr "Квадрат"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:970
+msgid "Round"
+msgstr "Круглый"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:867
+msgid "Short Description"
+msgstr "Краткое описание"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:866
+msgid "Add to Cart Button"
+msgstr "Кнопка \"Добавить в корзину\""
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:865
+msgid "Price"
+msgstr "Цена"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:864
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:853
+msgid "Structure"
+msgstr "Состав"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:818
+msgid "Grid Gap"
+msgstr "Отступы сетки"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:801
+msgid "Products per Row"
+msgstr "Товаров в ряду"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:762
+msgid "Hide Breadcrumbs"
+msgstr "Скрыть хлебные крошки"
+
+#: inc/integration/edd/edd-customizer-settings.php:220
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:220
+msgid "Count"
+msgstr "Количество"
+
+#: inc/customizer/settings/settings-general.php:1143
+#: inc/customizer/settings/settings-header.php:1347
+msgid "Icon Color"
+msgstr "Цвет значка"
+
+#: inc/integration/edd/edd-customizer-settings.php:161
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:161
+msgid "Add a Cart Icon to your Mobile Navigation."
+msgstr "Добавляет значок корзины в мобильное меню."
+
+#: inc/integration/edd/edd-customizer-settings.php:160
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:160
+msgid "Visibility (Mobile)"
+msgstr "Видимость (мобильный)"
+
+#: inc/integration/edd/edd-customizer-settings.php:101
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:101
+msgid "Add a Cart Icon to your Main Navigation."
+msgstr "Добавляет значок корзины в главное меню."
+
+#: inc/integration/edd/edd-customizer-settings.php:100
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:100
+msgid "Visibility (Desktop)"
+msgstr "Видимость (компьютер)"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:28
+msgid "Shop Page"
+msgstr "Страница магазина"
+
+#: inc/integration/edd/edd-functions.php:161
+#: inc/integration/edd/edd-functions.php:170
+#: inc/integration/woocommerce/woocommerce-functions.php:559
+#: inc/integration/woocommerce/woocommerce-functions.php:568
+msgid "Shopping Cart"
+msgstr "Корзина"
+
+#: inc/integration/woocommerce/woocommerce-functions.php:392
+msgid "Out of stock"
+msgstr "Нет в наличии"
+
+#: inc/customizer/settings/settings-header.php:1076
+msgid "Menu Item Padding"
+msgstr "Внутренний отступ пункта меню"
+
+#: inc/customizer/settings/settings-header.php:783
+msgid "Logo Container Width (Mobile)"
+msgstr "Ширина контейнера логотипа (мобильный)"
+
+#: inc/customizer/settings/settings-blog.php:402
+#: inc/customizer/settings/settings-blog.php:763
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:247
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:731
+msgid "Custom Content Width"
+msgstr "Ширина пользовательского содержимого"
+
+#: inc/settings/metaboxes/customizer.php:45
+msgid "Post Layout"
+msgstr "Макет записи"
+
+#: inc/template-parts/blog/blog-readmore.php:19
+msgid "Read more"
+msgstr "Читать далее"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:702
+msgid "Side by Side"
+msgstr "Бок о бок"
+
+#: inc/customizer/settings/settings-blog.php:714
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:259
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:893
+msgid "Image Alignment"
+msgstr "Выравнивание изображения"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:956
+msgid "Inside"
+msgstr "Внутри"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:955
+msgid "Outside"
+msgstr "Снаружи"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:948
+msgid "Sale Badge"
+msgstr "Бейдж распродажи"
+
+#: inc/customizer/settings/settings-blog.php:607
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:836
+msgid "Content Alignment"
+msgstr "Выравнивание контента"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:782
+msgid "Hide Ordering"
+msgstr "Скрыть заказ"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:772
+msgid "Hide Result Count"
+msgstr "Скрыть результаты счетчика"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:44
+msgid "Product Page"
+msgstr "Страница продукта"
+
+#: searchform.php:25
+msgid "Search &hellip;"
+msgstr "Поиск &hellip;"
+
+#: inc/customizer/settings/settings-header.php:1527
+msgid "Divider Color"
+msgstr "Цвет разделителя"
+
+#: inc/customizer/settings/settings-typography.php:392
+msgid "The settings below will apply to all headlines if not configured individually."
+msgstr "Приведенные ниже настройки будут применяться ко всем заголовкам, если они не настроены отдельно."
+
+#: sidebar.php:28
+msgid "Add Widgets"
+msgstr "Добавить виджеты"
+
+#: sidebar.php:27
+msgid "Your Sidebar Widgets will appear here."
+msgstr "Ваши виджеты боковой панели появятся здесь."
+
+#: inc/integration/woocommerce/woocommerce-functions.php:82
+msgid "WooCommerce Product Page Sidebar"
+msgstr "Боковая панель страницы продукта WooCommerce"
+
+#: inc/integration/woocommerce/woocommerce-functions.php:69
+msgid "WooCommerce Sidebar"
+msgstr "Боковая панель WooCommerce"
+
+#: inc/integration/edd/edd-customizer-settings.php:61
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:570
+msgid "Product Page Sidebar"
+msgstr "Боковая панель страницы продукта"
+
+#: inc/integration/edd/edd-customizer-settings.php:44
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:554
+msgid "Shop Page Sidebar"
+msgstr "Боковая панель страницы магазина"
+
+#: inc/customizer/settings/settings-header.php:1542
+#: inc/customizer/settings/settings-header.php:1692
+msgid "Sub Menu Arrow Color"
+msgstr "Цвет стрелки подменю"
+
+#: inc/customizer/settings/settings-header.php:767
+#: inc/customizer/settings/settings-header.php:784
+msgid "Defines the space in % the logo area takes in the navigation."
+msgstr "Определяет пространство в %, которое занимает область логотипа в навигации."
+
+#: inc/customizer/settings/settings-header.php:766
+msgid "Logo Container Width"
+msgstr "Ширина контейнера логотипа"
+
+#: inc/customizer/settings/settings-typography.php:105
+#: inc/customizer/settings/settings-typography.php:285
+#: inc/customizer/settings/settings-typography.php:338
+#: inc/customizer/settings/settings-typography.php:391
+#: inc/customizer/settings/settings-typography.php:445
+#: inc/customizer/settings/settings-typography.php:498
+#: inc/customizer/settings/settings-typography.php:551
+#: inc/customizer/settings/settings-typography.php:604
+#: inc/customizer/settings/settings-typography.php:657
+#: inc/customizer/settings/settings-typography.php:710
+msgid "Font Settings"
+msgstr "Настройки шрифта"
+
+#: inc/customizer/settings/settings-general.php:971
+msgid "Primary Border Color"
+msgstr "Основной цвет границы"
+
+#: inc/customizer/settings/settings-general.php:899
+msgid "Border Width"
+msgstr "Ширина границы"
+
+#: inc/customizer/settings/settings-blog.php:368
+#: inc/customizer/settings/settings-general.php:883
+#: inc/customizer/settings/settings-general.php:1184
+#: inc/customizer/settings/settings-header.php:1413
+msgid "Border Radius"
+msgstr "Радиус границ"
+
+#: inc/customizer/settings/settings-general.php:567
+msgid "Position"
+msgstr "Позиция"
+
+#: inc/customizer/settings/settings-typography.php:87
+msgid "H6"
+msgstr "H6"
+
+#: inc/customizer/settings/settings-typography.php:80
+msgid "H5"
+msgstr "H5"
+
+#: inc/customizer/settings/settings-typography.php:73
+msgid "H4"
+msgstr "H4"
+
+#: inc/customizer/settings/settings-typography.php:66
+msgid "H3"
+msgstr "H3"
+
+#: inc/customizer/settings/settings-typography.php:59
+msgid "H2"
+msgstr "H2"
+
+#: inc/customizer/settings/settings-typography.php:52
+msgid "H1"
+msgstr "H1"
+
+#: inc/customizer/settings/settings-typography.php:16
+#: inc/settings/metaboxes/customizer.php:49
+msgid "Typography"
+msgstr "Типография"
+
+#: functions.php:134
+msgid "Footer Right"
+msgstr "Меню в подвале справа"
+
+#: functions.php:133
+msgid "Footer Left"
+msgstr "Меню в подвале слева"
+
+#: inc/helpers.php:1016
+msgid "Next Post &rarr;"
+msgstr "Следующая запись &rarr;"
+
+#: inc/helpers.php:1015
+msgid "&larr; Previous Post"
+msgstr "&larr; Предыдущая запись"
+
+#: searchform.php:25
+msgid "Press enter to search"
+msgstr "Нажмите ввод для поиска"
+
+#. translators: Search query
+#: inc/helpers.php:905
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: inc/helpers.php:159
+msgid "Edit"
+msgstr "Изменить"
+
+#: inc/template-parts/blog/blog-tags.php:18
+#: inc/template-parts/single/single-tags.php:18
+msgid "Tags:"
+msgstr "Метки:"
+
+#: inc/helpers.php:1228
+msgid "Posted on"
+msgstr "Опубликовано"
+
+#: inc/template-parts/blog/blog-categories.php:20
+#: inc/template-parts/single/single-categories.php:20
+msgid "Filed under:"
+msgstr "Рубрики:"
+
+#: inc/template-parts/blog-layouts/beside.php:63
+#: inc/template-parts/blog-layouts/default.php:49
+#: inc/template-parts/blog-layouts/grid.php:51
+#: inc/template-parts/single-layouts/default.php:46 page-sidebar.php:44
+#: page.php:46
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: inc/options.php:173 inc/quick-edit.php:149
+msgid "Left Sidebar"
+msgstr "Боковая панель слева"
+
+#: inc/options.php:168 inc/quick-edit.php:140
+msgid "Right Sidebar"
+msgstr "Боковая панель справа"
+
+#: inc/options.php:104 inc/options.php:314 inc/quick-edit.php:51
+msgid "Full Width"
+msgstr "Во всю ширину"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:752
+msgid "Hide Page Title"
+msgstr "Скрыть заголовок страницы"
+
+#: inc/options.php:33
+msgid "Template Settings"
+msgstr "Настройки шаблона"
+
+#: inc/misc.php:27 inc/misc.php:39 inc/misc.php:66 inc/misc.php:78
+#: inc/misc.php:103 inc/misc.php:109
+msgid "Add Menu"
+msgstr "Добавить меню"
+
+#: inc/customizer/settings/settings-general.php:931
+msgid "Border Color"
+msgstr "Цвет границы"
+
+#: inc/customizer/settings/settings-header.php:1232
+msgid "Hamburger"
+msgstr "Гамбургер"
+
+#: inc/customizer/settings/settings-header.php:1033
+msgid "Sub Menu Alignment"
+msgstr "Выравнивание подменю"
+
+#: inc/customizer/settings/settings-header.php:905
+msgid "Menu Item Spacing"
+msgstr "Расстояние между пунктами меню"
+
+#: inc/customizer/settings/settings-header.php:888
+msgid "Menu Height"
+msgstr "Высота меню"
+
+#: inc/customizer/settings/settings-header.php:848
+#: inc/customizer/settings/settings-header.php:1266
+msgid "Search Icon"
+msgstr "Значок поиска"
+
+#: inc/customizer/settings/settings-header.php:821
+msgid "Stacked"
+msgstr "Стекировано"
+
+#: inc/customizer/settings/settings-header.php:820
+msgid "Centered"
+msgstr "По центру"
+
+#: inc/customizer/settings/settings-header.php:818
+msgid "Right (default)"
+msgstr "Справа (по умолчанию)"
+
+#: inc/customizer/settings/settings-footer.php:85
+#: inc/customizer/settings/settings-footer.php:165
+#: inc/customizer/settings/settings-header.php:139
+#: inc/customizer/settings/settings-header.php:219
+#: inc/customizer/settings/settings-header.php:811
+#: inc/customizer/settings/settings-header.php:1224
+#: inc/template-parts/navigation/menu-mobile-default.php:26
+msgid "Menu"
+msgstr "Меню"
+
+#: inc/customizer/settings/settings-header.php:876
+msgid "Navigation Width"
+msgstr "Ширина меню"
+
+#: inc/customizer/settings/settings-header.php:590
+msgid "Display Tagline"
+msgstr "Показать краткое описание"
+
+#: inc/customizer/settings/settings-header.php:711
+msgid "Custom Logo URL"
+msgstr "Своя ссылка логотипа"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:328
+#: inc/customizer/settings/settings-blog.php:327
+#: inc/customizer/settings/settings-footer.php:285
+#: inc/customizer/settings/settings-general.php:686
+#: inc/customizer/settings/settings-general.php:785
+#: inc/customizer/settings/settings-header.php:356
+#: inc/customizer/settings/settings-header.php:950
+#: inc/customizer/settings/settings-header.php:1127
+#: inc/customizer/settings/settings-header.php:1502
+#: inc/customizer/settings/settings-header.php:1656
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:358
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:475
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:1053
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:1099
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:1138
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:1197
+msgid "Font Color"
+msgstr "Цвет шрифта"
+
+#: inc/customizer/settings/settings-footer.php:157
+#: inc/customizer/settings/settings-header.php:211
+#: inc/customizer/settings/settings-header.php:245
+#: inc/template-parts/pre-header.php:17
+msgid "Column 2"
+msgstr "Столбец 2"
+
+#: inc/customizer/settings/settings-footer.php:77
+#: inc/customizer/settings/settings-header.php:131
+#: inc/customizer/settings/settings-header.php:165
+#: inc/template-parts/pre-header.php:16
+msgid "Column 1"
+msgstr "Столбец 1"
+
+#: inc/customizer/settings/settings-footer.php:60
+#: inc/customizer/settings/settings-header.php:114
+msgid "Two Columns"
+msgstr "Два столбца"
+
+#: inc/customizer/settings/settings-footer.php:59
+#: inc/customizer/settings/settings-header.php:113
+msgid "One Column"
+msgstr "Один столбик"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:667
+msgid "Notice Background Color"
+msgstr "Цвет фона уведомления"
+
+#: inc/customizer/settings/settings-blog.php:301
+#: inc/customizer/settings/settings-blog.php:340
+#: inc/customizer/settings/settings-blog.php:655
+#: inc/customizer/settings/settings-footer.php:327
+#: inc/customizer/settings/settings-general.php:726
+#: inc/customizer/settings/settings-general.php:772
+#: inc/customizer/settings/settings-general.php:798
+#: inc/customizer/settings/settings-general.php:835
+#: inc/customizer/settings/settings-general.php:861
+#: inc/customizer/settings/settings-general.php:951
+#: inc/customizer/settings/settings-general.php:991
+#: inc/customizer/settings/settings-general.php:1122
+#: inc/customizer/settings/settings-general.php:1164
+#: inc/customizer/settings/settings-header.php:398
+#: inc/customizer/settings/settings-header.php:522
+#: inc/customizer/settings/settings-header.php:964
+#: inc/customizer/settings/settings-header.php:1112
+#: inc/customizer/settings/settings-header.php:1138
+#: inc/customizer/settings/settings-header.php:1487
+#: inc/customizer/settings/settings-header.php:1513
+#: inc/customizer/settings/settings-header.php:1643
+#: inc/customizer/settings/settings-header.php:1666
+#: inc/customizer/settings/settings-typography.php:173
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:433
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:489
+msgid "Hover"
+msgstr "Наведение"
+
+#: inc/customizer/settings/settings-general.php:383
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:828
+msgid "Collapse"
+msgstr "Свернуть"
+
+#: inc/customizer/settings/settings-general.php:382
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:824
+msgid "Small"
+msgstr "Маленький"
+
+#: inc/customizer/settings/settings-general.php:381
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:825
+msgid "Medium"
+msgstr "Средний"
+
+#: inc/customizer/settings/settings-general.php:380
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:826
+msgid "Large"
+msgstr "Большой"
+
+#: inc/customizer/settings/settings-general.php:379
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:827
+msgid "xLarge"
+msgstr "Огромный"
+
+#: inc/customizer/settings/settings-general.php:378
+msgid "Divider"
+msgstr "Разделитель"
+
+#: inc/customizer/settings/settings-general.php:302
+msgid "Vertical"
+msgstr "Вертикально"
+
+#: inc/customizer/settings/settings-general.php:275
+msgid "Horizontal"
+msgstr "Горизонтально"
+
+#: inc/customizer/settings/settings-general.php:248
+msgid "Spread"
+msgstr "Размах"
+
+#: inc/customizer/settings/settings-general.php:221
+msgid "Blur"
+msgstr "Размытие"
+
+#: inc/customizer/settings/settings-general.php:203
+msgid "Box Shadow"
+msgstr "Тень блока"
+
+#: inc/customizer/settings/settings-general.php:110
+msgid "Margin"
+msgstr "Внешний отступ"
+
+#: inc/customizer/settings/settings-blog.php:543
+#: inc/customizer/settings/settings-blog.php:892
+msgid "Boxed"
+msgstr "Блоком"
+
+#: inc/customizer/settings/settings-blog.php:405
+#: inc/customizer/settings/settings-blog.php:766
+#: inc/customizer/settings/settings-footer.php:220
+#: inc/customizer/settings/settings-general.php:72
+#: inc/customizer/settings/settings-header.php:291
+#: inc/customizer/settings/settings-header.php:877
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:250
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:734
+msgid "Default: 1200px"
+msgstr "По умолчанию: 1200px"
+
+#: inc/customizer/settings/settings-general.php:68
+msgid "Page Width"
+msgstr "Ширина страницы"
+
+#: inc/customizer/settings/settings-blog.php:869 inc/helpers.php:1010
+#: inc/helpers.php:1012
+msgid "Post Navigation"
+msgstr "Навигация по записям"
+
+#: inc/customizer/settings/settings-blog.php:101
+msgid "Comments"
+msgstr "Комментарии"
+
+#: inc/customizer/settings/settings-blog.php:503
+#: inc/customizer/settings/settings-blog.php:828
+msgid "Tags"
+msgstr "Метки"
+
+#: inc/customizer/settings/settings-blog.php:502
+#: inc/customizer/settings/settings-blog.php:827
+msgid "Categories"
+msgstr "Рубрики"
+
+#: inc/customizer/settings/settings-blog.php:501
+#: inc/customizer/settings/settings-blog.php:826
+msgid "Read More"
+msgstr "Читать далее"
+
+#: inc/customizer/settings/settings-blog.php:469
+#: inc/customizer/settings/settings-blog.php:810 inc/options.php:130
+#: inc/quick-edit.php:91
+msgid "Featured Image"
+msgstr "Изображение записи"
+
+#: inc/customizer/settings/settings-blog.php:83
+#: inc/customizer/settings/settings-blog.php:468
+#: inc/customizer/settings/settings-blog.php:809
+msgid "Meta Data"
+msgstr "Метаданные"
+
+#: inc/customizer/settings/settings-blog.php:467
+#: inc/customizer/settings/settings-blog.php:808
+#: inc/customizer/settings/settings-general.php:465
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:863
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/customizer/settings/settings-blog.php:442
+#: inc/customizer/settings/settings-blog.php:783
+#: inc/customizer/settings/settings-general.php:364
+#: inc/integration/edd/edd-customizer-settings.php:53
+#: inc/integration/edd/edd-customizer-settings.php:70
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:562
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:578
+#: inc/options.php:178 inc/quick-edit.php:158
+msgid "No Sidebar"
+msgstr "Без боковой панели"
+
+#: inc/customizer/settings/settings-blog.php:439
+#: inc/customizer/settings/settings-blog.php:780
+#: inc/integration/edd/edd-customizer-settings.php:50
+#: inc/integration/edd/edd-customizer-settings.php:67 inc/options.php:94
+#: inc/options.php:163 inc/options.php:322 inc/quick-edit.php:42
+#: inc/quick-edit.php:131
+msgid "Inherit Global Settings"
+msgstr "Наследовать глобальные настройки"
+
+#: inc/customizer/settings/settings-blog.php:528
+msgid "Image Beside Post"
+msgstr "Изображение рядом с записью"
+
+#: inc/customizer/settings/settings-blog.php:239
+msgid "Read More Text"
+msgstr "Текст кнопки \"Читать далее\""
+
+#: inc/customizer/settings/settings-blog.php:222
+msgid "Button (Primary)"
+msgstr "Кнопка (Основной стиль)"
+
+#: inc/customizer/settings/settings-blog.php:221
+msgid "Button"
+msgstr "Кнопка"
+
+#: inc/customizer/settings/settings-blog.php:220
+#: inc/customizer/settings/settings-footer.php:84
+#: inc/customizer/settings/settings-footer.php:109
+#: inc/customizer/settings/settings-footer.php:164
+#: inc/customizer/settings/settings-footer.php:189
+#: inc/customizer/settings/settings-general.php:476
+#: inc/customizer/settings/settings-header.php:138
+#: inc/customizer/settings/settings-header.php:163
+#: inc/customizer/settings/settings-header.php:218
+#: inc/customizer/settings/settings-header.php:243
+#: inc/customizer/settings/settings-typography.php:45
+msgid "Text"
+msgstr "Текст"
+
+#: inc/customizer/settings/settings-blog.php:214
+msgid "Read More Link"
+msgstr "Ссылка Читать далее"
+
+#: inc/customizer/settings/settings-blog.php:164
+msgid "By default the excerpt length is set to return 55 words."
+msgstr "По умолчанию длина отрывка установлена в 55 слов."
+
+#: inc/customizer/settings/settings-blog.php:163
+msgid "Excerpt Length"
+msgstr "Длина отрывка"
+
+#: inc/customizer/settings/settings-blog.php:422
+#: inc/customizer/settings/settings-blog.php:877
+#: inc/customizer/settings/settings-general.php:504
+#: inc/integration/edd/edd-customizer-settings.php:108
+#: inc/integration/edd/edd-customizer-settings.php:168
+#: inc/integration/edd/edd-customizer-settings.php:227
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:108
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:168
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:227
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:326
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:350
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:954
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:1168
+msgid "Hide"
+msgstr "Скрыть"
+
+#: inc/customizer/settings/settings-blog.php:421
+#: inc/customizer/settings/settings-general.php:503
+#: inc/integration/edd/edd-customizer-settings.php:107
+#: inc/integration/edd/edd-customizer-settings.php:167
+#: inc/integration/edd/edd-customizer-settings.php:226
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:107
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:167
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:226
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:327
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:349
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:1167
+msgid "Show"
+msgstr "Показать"
+
+#: inc/customizer/settings/settings-blog.php:99
+msgid "Author"
+msgstr "Автор"
+
+#: inc/customizer/settings/settings-header.php:25
+msgid "Pre Header"
+msgstr "Область над шапкой"
+
+#: inc/customizer/settings/settings-header.php:79
+msgid "Mobile Navigation"
+msgstr "Мобильное меню"
+
+#: inc/customizer/settings/settings-header.php:61
+#: inc/customizer/settings/settings-typography.php:37
+msgid "Sub Menu"
+msgstr "Подменю"
+
+#: inc/customizer/settings/settings-header.php:43
+#: inc/customizer/settings/settings-typography.php:30
+msgid "Navigation"
+msgstr "Навигация"
+
+#: inc/customizer/settings/settings-blog.php:643
+#: inc/customizer/settings/settings-footer.php:306
+#: inc/customizer/settings/settings-general.php:706
+#: inc/customizer/settings/settings-header.php:377
+#: inc/customizer/settings/settings-typography.php:160
+#: inc/integration/lifterlms/lifterlms-customizer-settings.php:72
+msgid "Accent Color"
+msgstr "Акцентный цвет"
+
+#: inc/customizer/settings/settings-blog.php:51
+#: inc/customizer/settings/settings-blog.php:70
+#: inc/customizer/settings/settings-blog.php:521
+#: inc/customizer/settings/settings-general.php:23
+#: inc/customizer/settings/settings-header.php:106
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:695
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:878
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:964
+#: inc/options.php:90 inc/options.php:289 inc/quick-edit.php:32
+#: inc/settings/metaboxes/customizer.php:33
+msgid "Layout"
+msgstr "Макет"
+
+#: inc/customizer/settings/settings-blog.php:494
+#: inc/customizer/settings/settings-blog.php:819
+#: inc/customizer/settings/settings-footer.php:16
+#: inc/customizer/settings/settings-footer.php:52
+#: inc/customizer/settings/settings-typography.php:94 inc/options.php:140
+#: inc/quick-edit.php:109 inc/settings/metaboxes/customizer.php:29
+msgid "Footer"
+msgstr "Подвал"
+
+#: inc/customizer/settings/settings-blog.php:459
+#: inc/customizer/settings/settings-blog.php:800
+#: inc/customizer/settings/settings-header.php:16 inc/options.php:135
+#: inc/quick-edit.php:100 inc/settings/metaboxes/customizer.php:25
+msgid "Header"
+msgstr "Шапка"
+
+#: inc/customizer/settings/settings-blog.php:23
+#: inc/customizer/settings/settings-footer.php:37
+#: inc/customizer/settings/settings-general.php:16
+#: inc/customizer/settings/settings-header.php:30
+#: inc/customizer/settings/settings-header.php:48
+#: inc/customizer/settings/settings-header.php:66
+#: inc/customizer/settings/settings-header.php:84
+msgid "General"
+msgstr "Основные"
+
+#: inc/customizer/settings/settings-premium.php:17
+msgid "Get all features with the <a href=\"%1s\" target=\"_blank\">Premium Add-On</a>!"
+msgstr "Получите все функции с <a href=\"%1s\" target=\"_blank\">платным дополнением</a>!"
+
+#: inc/customizer/settings/settings-premium.php:23
+msgid "Premium Features available!"
+msgstr "Доступно платное дополнение!"
+
+#: inc/customizer/settings/settings-setup.php:27
+msgid "Background"
+msgstr "Фон"
+
+#: inc/customizer/settings/settings-setup.php:26
+#: inc/settings/metaboxes/customizer.php:17
+msgid "Logo"
+msgstr "Логотип"
+
+#: inc/customizer/settings/settings-blog.php:572
+#: inc/customizer/settings/settings-blog.php:932
+#: inc/customizer/settings/settings-general.php:133
+#: inc/customizer/settings/settings-general.php:423
+#: inc/customizer/settings/settings-header.php:1451
+msgid "Padding"
+msgstr "Внутренний отступ"
+
+#: inc/helpers.php:182
+msgid "Your comment has yet to be approved."
+msgstr "Ваш комментарий еще не утвержден."
+
+#: inc/helpers.php:171
+msgid "F d, Y"
+msgstr "F d, Y"
+
+#: inc/helpers.php:122
+msgid "Pingback:"
+msgstr "Уведомление:"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: functions.php:155 inc/customizer/settings/settings-blog.php:433
+#: inc/customizer/settings/settings-blog.php:774
+#: inc/customizer/settings/settings-general.php:30
+#: inc/integration/edd/edd-customizer-settings.php:33
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:51
+#: inc/options.php:36 inc/quick-edit.php:121
+#: inc/settings/metaboxes/customizer.php:37
+msgid "Sidebar"
+msgstr "Боковая панель"
+
+#: functions.php:123
+msgid "Pre Header Right"
+msgstr "Область над шапкой справа"
+
+#: functions.php:122
+msgid "Pre Header Left"
+msgstr "Область над шапкой слева"
+
+#: functions.php:111
+msgid "Mobile Menu"
+msgstr "Меню для мобильных"
+
+#: functions.php:110
+msgid "Main Menu"
+msgstr "Главное меню"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: comments.php:52
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+#: comments.php:51
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+#: comments.php:43
+msgid "Reply"
+msgstr "Ответить"
+
+#: comments.php:33 inc/helpers.php:1244
+msgid "<span>%</span> Comments"
+msgstr "<span>%</span> комментариев"
+
+#: comments.php:32
+msgid "<span>One</span> Comment"
+msgstr "<span>Один</span> комментарий"
+
+#: comments.php:31 inc/helpers.php:1242
+msgid "<span>No</span> Comments"
+msgstr "<span>Нет</span> комментариев"
+
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:862
+msgid "Category"
+msgstr "Рубрика"
+
+#: assets/kirki/upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr "Важное уведомление об обновлении:"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:184
+msgid "Ultra-Bold 900 Italic"
+msgstr "Ultra-Bold 900 Italic"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:182
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:183
+msgid "Ultra-Bold 900"
+msgstr "Ultra-Bold 900"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:181
+msgid "Extra-Bold 800 Italic"
+msgstr "Extra-Bold 800 Italic"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:179
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:180
+msgid "Extra-Bold 800"
+msgstr "Extra-Bold 800"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:178
+msgid "Bold 700 Italic"
+msgstr "Bold 700 Italic"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:177
+msgid "Bold 700"
+msgstr "Bold 700"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:176
+msgid "Semi-Bold 600 Italic"
+msgstr "Semi-Bold 600 Italic"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:174
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:175
+msgid "Semi-Bold 600"
+msgstr "Semi-Bold 600"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:173
+msgid "Medium 500 Italic"
+msgstr "Medium 500 Italic"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:172
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:171
+msgid "Normal 400 Italic"
+msgstr "Normal 400 Italic"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:169
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:170
+msgid "Normal 400"
+msgstr "Normal 400"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:168
+msgid "Book 300 Italic"
+msgstr "Book 300 Italic"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:167
+msgid "Book 300"
+msgstr "Book 300"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:166
+msgid "Light 200 Italic"
+msgstr "Light 200 Italic"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:165
+msgid "Light 200"
+msgstr "Light 200"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:164
+msgid "Ultra-Light 100 Italic"
+msgstr "Ultra-Light 100 Italic"
+
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:162
+#: assets/kirki/kirki-packages/module-webfonts/src/Webfonts/Fonts.php:163
+msgid "Ultra-Light 100"
+msgstr "Ultra-Light 100"
+
+#. translators: The title.
+#: assets/kirki/kirki-packages/module-sections/src/Section_Types/Nested.php:65
+msgid "Customizing &#9656; %s"
+msgstr "Настройка &#9656; %s"
+
+#: assets/kirki/kirki-packages/module-sections/src/Section_Types/Nested.php:62
+msgid "Customizing"
+msgstr "Настройка"
+
+#: assets/kirki/kirki-packages/compatibility/src/deprecated/functions.php:20
+msgid "%1$s or %2$s"
+msgstr "%1$s или %2$s"
+
+#: assets/kirki/kirki-packages/compatibility/src/Kirki.php:191
+msgid "Kirki fields should not be added on customize_register. Please add them directly, or on init."
+msgstr "Поля Kirki не должны добавляться в customize_register. Добавьте их напрямую или в init."
+
+#: assets/kirki/kirki-packages/compatibility/src/Init.php:206
+msgid "We detected you're using Kirki\\Compatibility\\Init::get_variables(). Please use \\Kirki\\Util\\Util::get_variables() instead."
+msgstr "Мы обнаружили, что вы используете Kirki_Init::get_variables(). Пожалуйста, используйте Kirki_Util::get_variables()."
+
+#. translators: The field ID where the error occurs.
+#: assets/kirki/kirki-packages/compatibility/src/Field.php:514
+#: assets/kirki/kirki-packages/compatibility/src/Field.php:525
+#: assets/kirki/kirki-packages/module-css/src/CSS.php:133
+#: assets/kirki/kirki-packages/module-css/src/CSS.php:144
+#: assets/kirki/kirki-packages/module-postmessage/src/Postmessage.php:69
+msgid "\"output\" invalid format in field %s. The \"output\" argument should be defined as an array of arrays."
+msgstr "Неверный формат \"output\" в поле%s. Аргумент \"output\" должен быть определен как массив в массиве."
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: assets/kirki/kirki-packages/compatibility/src/Field.php:388
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr "\"partial_refresh\" неверная запись в поле %s"
+
+#. translators: %1$s represents the field ID where the error occurs. %2$s is
+#. the URL in the documentation site.
+#: assets/kirki/kirki-packages/compatibility/src/Field.php:272
+msgid "Config not defined for field %1$s - See %2$s for details on how to properly add fields."
+msgstr "Конфигурация не определена для поля %1$s. Подробности о правильном добавлении полей см. в %2$s."
+
+#. translators: %s represents the field ID where the error occurs.
+#: assets/kirki/kirki-packages/compatibility/src/Field.php:261
+msgid "Typo found in field %s - setting instead of settings."
+msgstr "Опечатка найдена в поле %s - настройка вместо настроек."
+
+#: inc/customizer/settings/settings-general.php:329
+#: inc/customizer/settings/settings-header.php:502
+#: inc/customizer/settings/settings-header.php:647
+#: inc/customizer/settings/settings-header.php:1180
+#: inc/customizer/settings/settings-typography.php:146
+#: inc/integration/edd/edd-customizer-settings.php:125
+#: inc/integration/edd/edd-customizer-settings.php:185
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:125
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:185
+msgid "Color"
+msgstr "Цвет"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:427
+msgid "Margin Bottom"
+msgstr "Внешний отступ снизу"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:422
+msgid "Margin Top"
+msgstr "Внешний отступ сверху"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:384
+msgid "Line Through"
+msgstr "Перечеркнутый"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:385
+msgid "Overline"
+msgstr "Черта сверху"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:383
+msgid "Underline"
+msgstr "Подчеркнутый"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:379
+msgid "Text Decoration"
+msgstr "Оформление текста"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:350
+msgid "Initial"
+msgstr "Исходный"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:365
+msgid "Lowercase"
+msgstr "Все строчные"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:364
+msgid "Uppercase"
+msgstr "Все заглавные"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:363
+msgid "Capitalize"
+msgstr "Первые заглавные"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:362
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:382
+#: inc/customizer/settings/settings-footer.php:58
+#: inc/customizer/settings/settings-footer.php:83
+#: inc/customizer/settings/settings-footer.php:163
+#: inc/customizer/settings/settings-header.php:112
+#: inc/customizer/settings/settings-header.php:137
+#: inc/customizer/settings/settings-header.php:217
+msgid "None"
+msgstr "Нет"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:359
+msgid "Text Transform"
+msgstr "Преобразование текста"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:354
+msgid "Justify"
+msgstr "По ширине"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:347
+msgid "Text Align"
+msgstr "Выравнивание текста"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:274
+#: inc/customizer/settings/settings-typography.php:116
+#: inc/customizer/settings/settings-typography.php:218
+#: inc/customizer/settings/settings-typography.php:261
+#: inc/customizer/settings/settings-typography.php:296
+#: inc/customizer/settings/settings-typography.php:349
+#: inc/customizer/settings/settings-typography.php:403
+#: inc/customizer/settings/settings-typography.php:456
+#: inc/customizer/settings/settings-typography.php:509
+#: inc/customizer/settings/settings-typography.php:562
+#: inc/customizer/settings/settings-typography.php:615
+#: inc/customizer/settings/settings-typography.php:668
+#: inc/customizer/settings/settings-typography.php:721
+msgid "Font Family"
+msgstr "Семейство шрифтов"
+
+#: assets/kirki/kirki-packages/control-checkbox/src/Control/Checkbox_Switch.php:80
+msgid "Off"
+msgstr "Откл"
+
+#: assets/kirki/kirki-packages/control-checkbox/src/Control/Checkbox_Switch.php:79
+msgid "On"
+msgstr "Вкл"
+
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:486
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:488
+msgid "Change File"
+msgstr "Изменить файл"
+
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:486
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:490
+msgid "Add File"
+msgstr "Добавить файл"
+
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:454
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:456
+msgid "Change Image"
+msgstr "Изменить изображение"
+
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:454
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:458
+msgid "Add Image"
+msgstr "Добавить изображение"
+
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:443
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:448
+msgid "No Image Selected"
+msgstr "Изображение не выбрано"
+
+#. translators: %s represents the number of rows we're limiting the repeater to
+#. allow.
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:275
+msgid "Limit: %s rows"
+msgstr "Лимит: %s строк"
+
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:139
+msgid "Select a Page"
+msgstr "Выбрать страницу"
+
+#. translators: %s represents the label of the row.
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:104
+msgid "Add new %s"
+msgstr "Добавить новый %s"
+
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:95
+msgid "row"
+msgstr "строка"
+
+#: assets/kirki/kirki-packages/control-image/src/Field/Image.php:117
+msgid "Choose image"
+msgstr "Выбор изображения"
+
+#: assets/kirki/kirki-packages/control-image/src/Control/Image.php:82
+#: assets/kirki/kirki-packages/control-image/src/Field/Image.php:115
+#: assets/kirki/kirki-packages/control-image/dist/control.js:1
+#: assets/kirki/kirki-packages/control-image/src/control.js:100
+#: assets/kirki/kirki-packages/control-image/dist/control.js:100
+msgid "No image selected"
+msgstr "Изображение не выбрано"
+
+#: assets/kirki/kirki-packages/control-image/src/Field/Image.php:112
+msgid "Change image"
+msgstr "Изменить изображение"
+
+#: assets/kirki/kirki-packages/control-image/src/Control/Image.php:89
+#: assets/kirki/kirki-packages/control-image/src/Field/Image.php:111
+#: assets/kirki/kirki-packages/control-image/src/Field/Image.php:116
+msgid "Select image"
+msgstr "Выбрать изображение"
+
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:72
+#: inc/customizer/settings/settings-general.php:391
+msgid "Width"
+msgstr "Ширина"
+
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:71
+msgid "Spacing"
+msgstr "Интервал"
+
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:73
+#: inc/customizer/settings/settings-footer.php:239
+#: inc/customizer/settings/settings-header.php:310
+#: inc/customizer/settings/settings-header.php:1309
+msgid "Height"
+msgstr "Высота"
+
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:70
+msgid "Size"
+msgstr "Размер"
+
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:69
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:352
+msgid "Center"
+msgstr "По центру"
+
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:68
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:353
+#: inc/customizer/settings/settings-blog.php:440
+#: inc/customizer/settings/settings-blog.php:781
+#: inc/customizer/settings/settings-general.php:362
+#: inc/integration/edd/edd-customizer-settings.php:51
+#: inc/integration/edd/edd-customizer-settings.php:68
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:560
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:576
+msgid "Right"
+msgstr "Справа"
+
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:67
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:351
+#: inc/customizer/settings/settings-blog.php:441
+#: inc/customizer/settings/settings-blog.php:782
+#: inc/customizer/settings/settings-general.php:363
+#: inc/customizer/settings/settings-header.php:819
+#: inc/integration/edd/edd-customizer-settings.php:52
+#: inc/integration/edd/edd-customizer-settings.php:69
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:561
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:577
+msgid "Left"
+msgstr "Слева"
+
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:66
+msgid "Bottom"
+msgstr "Снизу"
+
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:65
+msgid "Top"
+msgstr "Сверху"
+
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:64
+msgid "Word Spacing"
+msgstr "Расстояние между словами"
+
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:63
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:407
+msgid "Letter Spacing"
+msgstr "Расстояние между буквами"
+
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:62
+msgid "Font Style"
+msgstr "Стиль шрифта"
+
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:61
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:402
+msgid "Line Height"
+msgstr "Высота строки"
+
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:60
+msgid "Font Weight"
+msgstr "Толщина шрифта"
+
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:59
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:323
+#: inc/customizer/settings/settings-blog.php:383
+#: inc/customizer/settings/settings-blog.php:680
+#: inc/customizer/settings/settings-blog.php:983
+#: inc/customizer/settings/settings-footer.php:347
+#: inc/customizer/settings/settings-header.php:418
+#: inc/customizer/settings/settings-header.php:541
+#: inc/customizer/settings/settings-header.php:671
+#: inc/customizer/settings/settings-header.php:977
+#: inc/customizer/settings/settings-header.php:1151
+#: inc/customizer/settings/settings-header.php:1555
+#: inc/customizer/settings/settings-header.php:1704
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:371
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:516
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:1008
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:1217
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: assets/kirki/kirki-packages/control-dimension/src/Control/Dimension.php:67
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:74
+msgid "Invalid Value"
+msgstr "Неверное значение"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:882
+msgid "Google Fonts"
+msgstr "Шрифты Google"
+
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:877
+msgid "Standard Fonts"
+msgstr "Стандартные шрифты"
+
+#: assets/kirki/kirki-packages/control-image/src/Control/Image.php:87
+#: assets/kirki/kirki-packages/control-image/src/Field/Image.php:113
+#: assets/kirki/kirki-packages/field-typography/src/Field/Typography.php:852
+#: inc/customizer/settings/settings-blog.php:527
+#: inc/customizer/settings/settings-blog.php:542
+#: inc/customizer/settings/settings-blog.php:891
+#: inc/customizer/settings/settings-header.php:1231
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:403
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:701
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:883
+msgid "Default"
+msgstr "По умолчанию"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:228
+msgid "Fixed"
+msgstr "Зафиксировать"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:227
+msgid "Scroll"
+msgstr "Прокручивать"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:222
+msgid "Background Attachment"
+msgstr "Привязка фона"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:196
+msgid "Auto"
+msgstr "Авто"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:195
+msgid "Contain"
+msgstr "Заполнить"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:194
+msgid "Cover"
+msgstr "Перекрыть"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:190
+msgid "Background Size"
+msgstr "Размер фона"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:161
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:58
+msgid "Center Bottom"
+msgstr "Центр внизу"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:160
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:57
+msgid "Center Center"
+msgstr "Центр в центре"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:159
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:56
+msgid "Center Top"
+msgstr "Центр вверху"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:164
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:55
+msgid "Right Bottom"
+msgstr "Справа внизу"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:163
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:54
+msgid "Right Center"
+msgstr "Справа в центре"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:162
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:53
+msgid "Right Top"
+msgstr "Справа сверху"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:158
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:52
+msgid "Left Bottom"
+msgstr "Слева внизу"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:157
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:51
+msgid "Left Center"
+msgstr "Слева в центре"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:156
+#: assets/kirki/kirki-packages/field-dimensions/src/Dimensions.php:50
+msgid "Left Top"
+msgstr "Слева сверху"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:152
+msgid "Background Position"
+msgstr "Позиция фона"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:126
+msgid "Repeat Vertically"
+msgstr "Повторять по вертикали"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:125
+msgid "Repeat Horizontally"
+msgstr "Повторять по горизонтали"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:124
+msgid "Repeat All"
+msgstr "Повторять везде"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:123
+msgid "No Repeat"
+msgstr "Не повторять"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:119
+msgid "Background Repeat"
+msgstr "Повторение фона"
+
+#: assets/kirki/kirki-packages/control-image/src/Control/Image.php:85
+#: assets/kirki/kirki-packages/control-image/src/Field/Image.php:114
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:453
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:485
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:510
+msgid "Remove"
+msgstr "Удалить"
+
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:475
+#: assets/kirki/kirki-packages/control-repeater/src/Control/Repeater.php:480
+msgid "No File Selected"
+msgstr "Файл не выбран"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:103
+msgid "Background Image"
+msgstr "Фоновое изображение"
+
+#: assets/kirki/kirki-packages/field-background/src/Background.php:84
+#: inc/customizer/settings/settings-blog.php:288
+#: inc/customizer/settings/settings-blog.php:623
+#: inc/customizer/settings/settings-blog.php:950
+#: inc/customizer/settings/settings-footer.php:263
+#: inc/customizer/settings/settings-general.php:182
+#: inc/customizer/settings/settings-general.php:450
+#: inc/customizer/settings/settings-general.php:660
+#: inc/customizer/settings/settings-general.php:759
+#: inc/customizer/settings/settings-general.php:822
+#: inc/customizer/settings/settings-general.php:1101
+#: inc/customizer/settings/settings-header.php:334
+#: inc/customizer/settings/settings-header.php:935
+#: inc/customizer/settings/settings-header.php:1097
+#: inc/customizer/settings/settings-header.php:1326
+#: inc/customizer/settings/settings-header.php:1472
+#: inc/customizer/settings/settings-header.php:1630
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:412
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:1032
+#: inc/integration/woocommerce/woocommerce-customizer-settings.php:1176
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: inc/helpers.php:1039
+msgid "Next &rarr;"
+msgstr "Далее &rarr;"
+
+#: inc/helpers.php:1038
+msgid "&larr; Previous"
+msgstr "&larr; Назад"
+
+#: inc/template-parts/article-none.php:18
+msgid "Something went wrong."
+msgstr "Что-то пошло не так."
+
+#: inc/template-parts/article-none.php:13
+msgid "Oops, this article couldn't be found!"
+msgstr "Ой, к сожалению, эта статья не может быть найдена!"
+
+#: inc/customizer/settings/settings-general.php:479
+#: inc/template-parts/404.php:31
+msgid "Oops! We're sorry, this page couldn't be found!"
+msgstr "Ой! К сожалению, эта страница не может быть найдена!"
+
+#: inc/customizer/settings/settings-general.php:468
+#: inc/template-parts/404.php:27
+msgid "404 - This page couldn't be found."
+msgstr "Ошибка 404 - Страница не найдена."
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://mapsteps.com"
+msgstr "https://mapsteps.com"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "David Vongries"
+msgstr "David Vongries"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://wp-pagebuilderframework.com"
+msgstr "https://wp-pagebuilderframework.com"

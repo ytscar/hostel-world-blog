@@ -1,0 +1,550 @@
+# Translation of Plugins - Error Log Monitor - Stable (latest release) in Korean
+# This file is distributed under the same license as the Plugins - Error Log Monitor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-22 13:16:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - Error Log Monitor - Stable (latest release)\n"
+
+#: Elm/DashboardWidget.php:1008
+msgctxt "button title"
+msgid "Clear Ignored Messages"
+msgstr "무시한 안내문 지우기"
+
+#: Elm/DashboardWidget.php:1003
+msgctxt "progress text when clearing ignored messages"
+msgid "Processing..."
+msgstr "처리 중..."
+
+#: Elm/DashboardWidget.php:1051
+msgctxt "action link: mark an error as not fixed"
+msgid "Unmark"
+msgstr "표시 해제하기"
+
+#: Elm/DashboardWidget.php:1031
+msgid "No messages have been marked as fixed."
+msgstr "수정한 것으로 표시한 안내문이 없어요."
+
+#: Elm/DashboardWidget.php:1024
+msgctxt "table heading"
+msgid "Marked as fixed"
+msgstr "수정한 것으로 표시했어요"
+
+#: Elm/DashboardWidget.php:296
+msgctxt "action link"
+msgid "Mark as fixed"
+msgstr "수정한 것으로 표시하기"
+
+#: Elm/DashboardWidget.php:292
+msgid "Mark the error as fixed and hide it. If this error happens again in the future, it will become visible again."
+msgstr "오류를 수정한 것으로 표시하고 숨겨요. 이 오류가 다시 일어나면, 다시 보이게 되요."
+
+#: Elm/SetupWizard.php:231
+msgid ""
+"Also, find the line %1$s and change it to %2$s. This code enables \"debug\" mode in WordPress. \n"
+"\t\t\t\tThis is makes it possible to log everything including PHP notices and other minor errors. \n"
+"\t\t\t\tIf debugging is disabled, WordPress will automatically change error reporting settings to log \n"
+"\t\t\t\tonly fatal errors and warnings."
+msgstr ""
+"또한, %1$s행을 찾아 %2$s(으)로 바꿔요. 이 코드는 워드프레스에서 “디버그” 모드를 활성화해요. \n"
+"\t\t\t\tPHP 안내와 다른 소소한 오류를 포함하는 모든 것을 기록하도록 해요. \n"
+"\t\t\t\t활성해제되었으면, 워드프레스는 자동으로 오류 보고 설정을 치명적인 오류와 경고만 \n"
+"\t\t\t\t기록하도록 바꾸게 될 거에요."
+
+#: Elm/SetupWizard.php:205
+msgid ""
+"Change the file permissions to allow PHP to write to the file. This step will vary depending on \n"
+"\t\t\t\tthe server configuration. If you're unsure what permissions to use, try using the same settings as\n"
+"\t\t\t\tfor the files in %s, or refer to the documentation provided by your hosting provider."
+msgstr ""
+"파일 권한을 PHP가 파일을 기록할 수 있게 변경해요. 이 단계는 서버 구성에 따라 \n"
+"\t\t\t\t달라져요. 사용하는 권한이 무엇인지 확실하지 않으면, %s에 있는 파일과 같이\n"
+"\t\t\t\t사용하거나, 호스팅 업체가 제공하는 문서를 참조하여 시도해요."
+
+#: Elm/SetupWizard.php:214
+msgid "Changing the PHP Configuration"
+msgstr "PHP 구성 바꾸는 중"
+
+#: Elm/SetupWizard.php:143
+msgid "Checking configuration..."
+msgstr "구성 확인 중..."
+
+#: Elm/SetupWizard.php:181
+msgid "Configure PHP to write all errors to that file."
+msgstr "그 파일에 모든 오류를 기록하도록 PHP를 구성해요."
+
+#: Elm/SetupWizard.php:317
+msgid "Could not create a log file in directory <code>%s</code>."
+msgstr "<code>%s</code> 디렉토리에 기록 파일을 만들 수 없어요."
+
+#: Elm/SetupWizard.php:306
+msgid "Could not find a suitable location for the log file."
+msgstr "기록 파일에 대한 알맞는 위치를 찾을 수 없어요."
+
+#: Elm/SetupWizard.php:180
+msgid "Create a log file."
+msgstr "기록 파일을 만들어요."
+
+#: Elm/SetupWizard.php:196
+msgid ""
+"Create an empty text file and upload it to your selected directory. The file name doesn't matter. \n"
+"\t\t\t\tHere are some suggestions: %s"
+msgstr ""
+"빈 문서 파일을 만들고 선택한 디렉토리에 올려요. 파일 이름은 상관 없어요. \n"
+"\t\t\t\t여기 몇 가지를 제안해요: %s"
+
+#: Elm/SetupWizard.php:184
+msgid "Creating a Log File"
+msgstr "기록 파일을 만드는 중"
+
+#: Elm/SetupWizard.php:92
+msgid "Creating a log file..."
+msgstr "기록 파일 만드는 중..."
+
+#. translators: A link to English-language documentation about editing
+#. wp-config.php.
+#: Elm/SetupWizard.php:123
+msgid "Documentation: %s"
+msgstr "문서: %s"
+
+#: Elm/SetupWizard.php:48
+msgid "Error Log Monitor setup"
+msgstr "오류 기록 감시기 설정"
+
+#: Elm/SetupWizard.php:186
+msgid ""
+"First, decide where you want to put the log file on your server. \n"
+"\t\t\tFor security purposes, it should usually be in a directory that can't be accessed by site visitors \n"
+"\t\t\tand non-admin users. For example, you could create a \"php-logs\" directory above the web root and \n"
+"\t\t\tplace the file there."
+msgstr ""
+"먼저, 기록 파일을 서버 어디에 두기를 원하는 지 결정해요. \n"
+"\t\t\t보안 목적으로, 보통 사이트 방문자와 관리자 아닌 사용자가 접근할 수 없는 \n"
+"\t\t\t디렉토리여야 해요. 예를 들면, 웹루트 위에 “php-logs” 디렉토리를 만들고 \n"
+"\t\t\t그 파일을 거기 둬요."
+
+#: Elm/SetupWizard.php:173
+msgid "Manual Configuration Instructions"
+msgstr "직접 구성 지침"
+
+#: Elm/SetupWizard.php:244
+msgid "More information about WP_DEBUG."
+msgstr "WP_DEBUG에 대한 더 자세한 정보에요."
+
+#: Elm/SetupWizard.php:217
+msgid "Next, please add this code to %1$s and replace the placeholder %2$s with the actual path to the new log file:"
+msgstr "다음으로, 이 코드를 %1$s에 넣고 자리표시자 %2$s(을)를 새 기록 파일의 실제 경로로 바꿔요:"
+
+#: Elm/SetupWizard.php:98
+msgid "Please add this code to your %s and then click \"Done\":"
+msgstr "%s에 이 코드를 넣고 “완료”를 누르시기 바래요:"
+
+#: Elm/SetupWizard.php:161
+msgid "Please follow the manual configuration instructions instead."
+msgstr "대신 직접 구성 지침을 따르시기 바래요."
+
+#: Elm/SetupWizard.php:110
+msgid "Recommended: To log all types of errors instead of only fatal errors and warnings, also find the line %1$s and change it to %2$s."
+msgstr "추천: 치명적인 오류와 경고를 기록하는 대신 모든 유형의 오류를 기록하려면, %1$s행을 찾고 %2$s(으)로 변경하세요."
+
+#: Elm/SetupWizard.php:149
+msgid "Setup complete!"
+msgstr "설정을 완료했어요!"
+
+#: Elm/SetupWizard.php:327
+msgid "The log file already exists but it is not writable: <code>%s</code>."
+msgstr "기록 파일이 이미 있지만 기록할 수 없어요: <code>%s</code>."
+
+#: Elm/SetupWizard.php:389
+msgid "The log file will be empty at first. This is normal. When any PHP errors happen, they should show up in the log."
+msgstr "기록 파일은 처음에는 비어 있어요. 이게 일반적이에요. 어떤 PHP 오류가 생기면, 기록에 보이게 될 거에요."
+
+#: Elm/SetupWizard.php:176
+msgid "To get started you need to do two things:"
+msgstr "시작하려면 2가지를 해야해요:"
+
+#: Elm/SetupWizard.php:54
+msgid "To start logging errors you'll need to make a few changes to the WordPress configuration."
+msgstr "오류 기록을 시작하면 워드프레스 구성에서 몇 가지를 변경할 필요가 있어요."
+
+#: Elm/SetupWizard.php:62
+msgid "Use Recommended Settings"
+msgstr "추천 설정 사용"
+
+#: Elm/SetupWizard.php:248
+msgid ""
+"When that's done, please go to the Dashboard. You should see a message like \n"
+"\t\t\t\"Log is empty\" in the \"PHP Error Log\" widget. This is normal - the log will stay empty \n"
+"\t\t\tuntil an error actually happens."
+msgstr ""
+"다 했으면, 알림판으로 가요. “PHP 오류 기록” 위젯에 “기록이 비었어요”와 같은 \n"
+"\t\t\t안내문을 보게 되요. 이게 일반적이고 실제로 오류가 생길 때까지 오류는 \n"
+"\t\t\t비어있을 거에요."
+
+#: Elm/SetupWizard.php:130
+msgctxt "setup wizard button"
+msgid "Done"
+msgstr "완료"
+
+#: Elm/SetupWizard.php:82
+msgctxt "setup wizard button"
+msgid "Hide Manual Instructions"
+msgstr "직접 지침 숨기기"
+
+#: Elm/SetupWizard.php:73
+msgctxt "setup wizard button"
+msgid "Manual Configuration"
+msgstr "직접 구성"
+
+#: Elm/SetupWizard.php:157
+msgctxt "setup wizard error prefix"
+msgid "There was an error:"
+msgstr "오류가 있어요:"
+
+#: Elm/DashboardWidget.php:193 Elm/DashboardWidget.php:1354
+msgctxt "a link to Pro version information"
+msgid "Details"
+msgstr "자세히"
+
+#: Elm/DashboardWidget.php:646
+msgid ""
+"By default, only fatal errors and warnings will be logged. To also log notices\n"
+"                and other messages, enable the <code>WP_DEBUG</code> option by adding this code:"
+msgstr ""
+"기본적으로, 치명적인 오류와 경고만 기록될 거에요. 또한 안내와 \n"
+"                다른 안내문을 기록하려면, 다음의 코드를 넣어 <code>WP_DEBUG</code> 선택지를 활성화하세요:"
+
+#: Elm/DashboardWidget.php:865
+msgid "Every 2 minutes"
+msgstr "매 2분"
+
+#: Elm/DashboardWidget.php:866
+msgid "Every 5 minutes"
+msgstr "매 5분"
+
+#: Elm/DashboardWidget.php:1337
+msgctxt "Freemius account link"
+msgid "Account"
+msgstr "계정"
+
+#: Elm/DashboardWidget.php:877
+msgid "How often to check the log for new messages:"
+msgstr "얼마나 자주 새 안내문에 대한 기록을 확인하나요:"
+
+#: Elm/DashboardWidget.php:679
+msgid "Sorry, you are not allowed to change these settings."
+msgstr "죄송해요, 이 설정을 바꾸도로 허용되지 않았네요."
+
+#: Elm/DashboardWidget.php:449
+msgid "Stack Trace"
+msgstr "스택 추적"
+
+#: Elm/DashboardWidget.php:1362
+msgid "Upgrade to Pro"
+msgstr "프로로 승격하기"
+
+#: Elm/DashboardWidget.php:187
+msgid "Upgrade to Pro for more detailed logs and a summary view."
+msgstr "더 자세한 기록과 요약 보기를 위해 프로로 승격하세요."
+
+#: Elm/DashboardWidget.php:199
+msgid "View Pricing"
+msgstr "가격 보기"
+
+#: Elm/DashboardWidget.php:205
+msgctxt "a link that hides the \"Upgrade to Pro\" notice"
+msgid "Hide"
+msgstr "Hide"
+
+#: Elm/DashboardWidget.php:505
+msgctxt "show hidden stack trace items"
+msgid "Show %d more"
+msgstr "%d개 더 보기"
+
+#: Elm/DashboardWidget.php:1087
+msgctxt "the heading of the upgrade-to-pro section in widget settings"
+msgid "Pro Version"
+msgstr "프로판"
+
+#: Elm/DashboardWidget.php:857
+msgctxt "tooltip for the email field"
+msgid "You can enter multiple emails by separating them with a comma."
+msgstr "쉼표로 구분하여 여러 이메일을 입력할 수 있어요."
+
+#: Elm/DashboardWidget.php:944
+msgid "Dashboard widget filter"
+msgstr "알림판 위젯 거르미"
+
+#: Elm/DashboardWidget.php:966
+msgid "Email notification filter"
+msgstr "이메일 알림 거르미"
+
+#: Elm/DashboardWidget.php:989
+msgid "Ignored messages"
+msgstr "무시된 안내문"
+
+#: Elm/DashboardWidget.php:307
+msgid "Ignored messages stay in the log file but they don't show up in the widget and don't generate email notifications."
+msgstr "무시된 안내문이 기록 파일에 있으나 위젯에서 보이지 않고 이메일 알림을 만들지 않아요."
+
+#: Elm/DashboardWidget.php:996
+msgid "There are no ignored messages."
+msgstr "무시된 안내문이 없어요."
+
+#: Elm/DashboardWidget.php:822
+msgid "Widget layout:"
+msgstr "위젯 배치:"
+
+#: Elm/DashboardWidget.php:311
+msgctxt "action link"
+msgid "Ignore"
+msgstr "무시"
+
+#: Elm/DashboardWidget.php:1017
+msgctxt "action link"
+msgid "Unignore"
+msgstr "무시해제"
+
+#: Elm/DashboardWidget.php:941
+msgctxt "configuration section heading"
+msgid "Filters"
+msgstr "거르미"
+
+#: Elm/DashboardWidget.php:798
+msgctxt "configuration section heading"
+msgid "General"
+msgstr "일반"
+
+#: Elm/DashboardWidget.php:840
+msgctxt "configuration section heading"
+msgid "Notifications"
+msgstr "알림"
+
+#: Elm/DashboardWidget.php:825
+msgctxt "widget layout option"
+msgid "List"
+msgstr "목록"
+
+#: Elm/DashboardWidget.php:824
+msgctxt "widget layout option"
+msgid "Table"
+msgstr "표"
+
+#: Elm/SeverityFilter.php:117
+msgid "%d entry was filtered out."
+msgid_plural "%d entries were filtered out."
+msgstr[0] "%d개의 항목이 걸려졌어요."
+
+#: Elm/DashboardWidget.php:980
+msgid "Notify only about selected types"
+msgstr "선택된 유형에 대해서만 알리기"
+
+#: Elm/DashboardWidget.php:973
+msgid "Same as the dashboard widget"
+msgstr "알림판 위젯과 같게"
+
+#: Elm/DashboardWidget.php:951
+msgid "Show all messages"
+msgstr "모든 안내문 보이기"
+
+#: Elm/DashboardWidget.php:958
+msgid "Show only selected types"
+msgstr "선택된 유형만 보이기"
+
+#: Elm/DashboardWidget.php:240
+msgid "There are no recent log entries that match the filter settings."
+msgstr "거름 설정과 일치하는 최신 기록 항목이 없어요."
+
+#: Elm/DashboardWidget.php:1173
+msgctxt "error type"
+msgid "Other"
+msgstr "기타"
+
+#: Elm/DashboardWidget.php:662
+msgid "For reference, the full path of the WordPress directory is:<br>%s"
+msgstr "참고로 워드프레스 디렉토리의 전체 경로는:<br>%s"
+
+#. translators: 1: File size limit, 2: Site URL
+#: Elm/Plugin.php:565
+msgid "PHP error log file size has exceeded %1$s on %2$s"
+msgstr "%2$s에 있는 %1$s(이)가 PHP 오류 기록 파일 크기를 넘겼어요"
+
+#: Elm/DashboardWidget.php:913
+msgid "Send an email notification when the log file size exceeds this limit:"
+msgstr "기록 파일 크기가 다음의 제한을 넘기면 이메일 알림을 보내요:"
+
+#. translators: 1: Site URL, 2: Log file name, 3: Log file size
+#: Elm/Plugin.php:571
+msgid ""
+"Site URL: %1$s\n"
+"Log file: %2$s\n"
+"Size: %3$s\n"
+msgstr ""
+"사이트 URL: %1$s\n"
+"기록 파일: %2$s\n"
+"크기: %3$s\n"
+
+#. translators: Dashboard widget name
+#: Elm/DashboardWidget.php:81
+msgid "PHP Error Log"
+msgstr "PHP 오류 기록"
+
+#. Description of the plugin
+#: plugin.php
+msgid "Adds a Dashboard widget that displays the last X lines from your PHP error log, and can also send you email notifications about newly logged errors."
+msgstr "PHP 오류 기록의 최근 X행을 보여주는 알림판 위젯이 추가하고, 새로 기록된 오류에 대한 이메일 알림을 보낼 수도 있어요."
+
+#: Elm/DashboardWidget.php:152
+msgid "Are you sure you want to clear the error log?"
+msgstr "오류 기록을 정리하기 원하시는게 확실한가요?"
+
+#: Elm/DashboardWidget.php:153
+msgid "Clear Log"
+msgstr "기록 지우기"
+
+#: Elm/ReverseLineIterator.php:80
+msgid "Could not open the log file \"%s\"."
+msgstr "기록 파일 “%s”(을)를 열 수 없어요."
+
+#: Elm/DashboardWidget.php:871
+msgid "Daily"
+msgstr "매 일"
+
+#. Plugin Name of the plugin
+#: plugin.php
+msgid "Error Log Monitor"
+msgstr "오류 기록 감시자"
+
+#: Elm/PhpErrorLog.php:31
+msgid "Error log filename is not set."
+msgstr "오류 기록 파일이름을 설정하지 않았어요."
+
+#: Elm/PhpErrorLog.php:26
+msgid "Error logging is disabled."
+msgstr "오류 기록을 활성해제했어요."
+
+#: Elm/DashboardWidget.php:867
+msgid "Every 10 minutes"
+msgstr "매 10분"
+
+#: Elm/DashboardWidget.php:868
+msgid "Every 15 minutes"
+msgstr "매 15분"
+
+#: Elm/DashboardWidget.php:869
+msgid "Every 30 minutes"
+msgstr "매 30분"
+
+#: Elm/DashboardWidget.php:870
+msgid "Hourly"
+msgstr "매 시간"
+
+#: Elm/DashboardWidget.php:893
+msgid "How often to send email (max):"
+msgstr "얼마나 자주 이메일을 보내나요 (최대):"
+
+#. Author of the plugin
+#: plugin.php
+msgid "Janis Elsts"
+msgstr "제니스 엘스츠"
+
+#: Elm/DashboardWidget.php:133
+msgid "Log cleared."
+msgstr "기록이 정리되었어요."
+
+#. translators: 1: Log file name, 2: Log file size
+#: Elm/DashboardWidget.php:142
+msgid "Log file: %1$s (%2$s)"
+msgstr "기록 파일: %1$s (%2$s)"
+
+#. translators: 1: Site URL, 2: Number of log entries, 3: Log file name
+#: Elm/Plugin.php:238
+msgid ""
+"New PHP errors have been logged on %1$s\n"
+"Here are the last %2$d entries from %3$s:\n"
+"\n"
+msgstr ""
+"새 PHP 오류가 %1$s에 기록되었어요\n"
+"여기에 %3$s의 %2$d개의 항목이 있어요:\n"
+"\n"
+
+#: Elm/DashboardWidget.php:803
+msgid "Number of entries to show:"
+msgstr "보여줄 항목의 수:"
+
+#: Elm/Plugin.php:182
+msgid "PHP errors logged on %s"
+msgstr "PHP 오류가 %s에 기록되었어요"
+
+#: Elm/DashboardWidget.php:855
+msgid "Periodically email logged errors to:"
+msgstr "다음으로 기록된 오류를 정기적으로 이메일:"
+
+#: Elm/DashboardWidget.php:819
+msgid "Reverse line order (most recent on top)"
+msgstr "줄 순서 뒤집기 (가장 최근이 위쪽)"
+
+#. translators: Links to English-language articles about configuring error
+#. logging.
+#: Elm/DashboardWidget.php:670
+msgid "See also: %s"
+msgstr "이것도 보세요: %s"
+
+#: scb/AdminPage.php:514
+msgid "Settings"
+msgstr "설정"
+
+#: scb/AdminPage.php:257
+msgid "Settings <strong>saved</strong>."
+msgstr "설정이 <strong>저장되었어요</strong>."
+
+#: Elm/DashboardWidget.php:812
+msgid "Strip WordPress root directory from log messages"
+msgstr "기록 안내문에서 워드프레스 루트 디렉토리 벗기기"
+
+#: Elm/PhpErrorLog.php:37
+msgid "The current error_log value <code>%s</code> is not supported. Please change it to an absolute path."
+msgstr "현재의 error_log 값인 <code>%s</code>(을)를 지원하지 않아요. 절대 경로를 변경하시기 바래요."
+
+#: Elm/PhpErrorLog.php:54
+msgid "The log file <code>%s</code> does not exist or is inaccessible."
+msgstr "기록 파일 <code>%s</code>(이)가 존재하지 않거나 접근할 수 없어요."
+
+#: Elm/PhpErrorLog.php:46
+msgid "The log file <code>%s</code> exists, but is not accessible. Please check file permissions."
+msgstr "기록 파일 <code>%s</code>(이)가 있지만, 접근할 수 없어요. 파일 권한을 확인하시기 바래요."
+
+#: Elm/DashboardWidget.php:245
+msgid "The log file is empty."
+msgstr "기록 파일이 비었어요."
+
+#: Elm/DashboardWidget.php:634
+msgid ""
+"To enable error logging, create an empty file named \"php-errors.log\".\n"
+"\t\t\tPlace it in a directory that is not publicly accessible (preferably outside\n"
+"\t\t\tyour web root) and ensure it is writable by the web server.\n"
+"\t\t\tThen add the following code to <code>wp-config.php</code>:"
+msgstr ""
+"오류 기록을 활성화하면, “php-errors.log”라는 이름의 빈 파일이 만들어져요.\n"
+"\t\t\t공개 접근이 안 되는 디렉토리에 놓으시고(웹 루트 바깥이요)\n"
+"\t\t\t웹 서버에 의해 기록될 수 있는지 확인하세요.\n"
+"\t\t\t그런 다음 <code>wp-config.php</code>에 다음의 코드를 넣으세요:"
+
+#: Elm/DashboardWidget.php:872
+msgid "Weekly"
+msgstr "매 주"
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "http://w-shadow.com/"
+msgstr "http://w-shadow.com/"
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "http://w-shadow.com/blog/2012/07/25/error-log-monitor-plugin/"
+msgstr "http://w-shadow.com/blog/2012/07/25/error-log-monitor-plugin/"

@@ -1,0 +1,209 @@
+# Translation of Plugins - Duplicate Page - Development (trunk) in Korean
+# This file is distributed under the same license as the Plugins - Duplicate Page - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-09-22 15:06:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - Duplicate Page - Development (trunk)\n"
+
+#: duplicatepage.php:131
+msgid "Unauthorized Access."
+msgstr "승인되지 않은 접근."
+
+#: inc/admin-settings.php:85
+msgid "Save Changes"
+msgstr "변경사항 저장"
+
+#: inc/admin-settings.php:13
+msgid "<div class=\"saving-txt\"><strong>Saving Please wait...</strong></div>"
+msgstr "<div class=\"saving-txt\"><strong>저장 중... 잠시만요...</strong></div>"
+
+#: duplicatepage.php:357
+msgid "Never"
+msgstr "절대로"
+
+#: duplicatepage.php:357
+msgid "Not interested"
+msgstr "관심 없습니다"
+
+#: duplicatepage.php:357
+msgid "Rate Us"
+msgstr "평가하기"
+
+#: duplicatepage.php:357
+msgid "Rate us now"
+msgstr "지금 평가하기"
+
+#: duplicatepage.php:357
+msgid "Later"
+msgstr "나중에"
+
+#: duplicatepage.php:357
+msgid "Remind me later"
+msgstr "나중에 알려주세요"
+
+#: duplicatepage.php:357
+msgid "We love and care about you. Our team is putting maximum efforts to provide you the best functionalities. It would be highly appreciable if you could spend a couple of seconds to give a Nice Review to the plugin to appreciate our efforts. So we can work hard to provide new features regularly :)"
+msgstr "저희는 여러분을 사랑하고 아끼고 있습니다. 저희 팀은 최고의 기능을 제공하기 위해 최대한의 노력을 기울이고 있습니다. 몇 초만 시간을 내어 플러그인에 좋은 리뷰를 남겨주시면 저희의 노력을 높이 평가해 주시면 감사하겠습니다. 그래야 새로운 기능을 정기적으로 제공하기 위해 열심히 노력할 수 있습니다 :)"
+
+#: duplicatepage.php:357
+msgid "close"
+msgstr "닫기"
+
+#: duplicatepage.php:136
+msgid "Security check issue, Please try again."
+msgstr "보안 확인 문제입니다. 다시 시도하세요."
+
+#: duplicatepage.php:244
+msgid "Error! Post creation failed, could not find original post: "
+msgstr "오류! 게시물 작성에 실패했습니다. 원본 게시물을 찾을 수 없습니다: "
+
+#: duplicatepage.php:155
+msgid "No post to duplicate has been supplied!"
+msgstr "복제할 게시물이 없습니다!"
+
+#: duplicatepage.php:78
+msgid "Donate Now"
+msgstr "지금 기부하세요"
+
+#: inc/admin-settings.php:49
+msgid "All Editors"
+msgstr "모든 편집자"
+
+#: duplicatepage.php:261 duplicatepage.php:277 duplicatepage.php:301
+msgid "Duplicate this as "
+msgstr "이것을 다음과 같이 복제 "
+
+#: inc/admin-settings.php:53
+msgid "Please select which editor you are using.<strong> Default: </strong> Classic Editor"
+msgstr "사용 중인 편집기를 선택하세요.<strong> 기본값: </strong> 클래식 편집기"
+
+#: inc/admin-settings.php:51
+msgid "Gutenberg Editor"
+msgstr "구텐베르크 편집기"
+
+#: inc/admin-settings.php:50
+msgid "Classic Editor"
+msgstr "고전 편집기"
+
+#: inc/admin-settings.php:46
+msgid "Choose Editor"
+msgstr "편집기 선택"
+
+#: duplicatepage.php:328
+msgid "Duplicate This as "
+msgstr "이것을 다음과 같이 복제 "
+
+#: inc/admin-settings.php:63
+msgid "Pending"
+msgstr "대기 중"
+
+#: inc/admin-settings.php:62
+msgid "Private"
+msgstr "비공개"
+
+#: inc/admin-settings.php:61
+msgid "Publish"
+msgstr "공개"
+
+#: inc/admin-settings.php:60
+msgid "Draft"
+msgstr "임시글"
+
+#. Author URI of the plugin
+#: duplicatepage.php
+msgid "https://profiles.wordpress.org/mndpsingh287/"
+msgstr "https://profiles.wordpress.org/mndpsingh287/"
+
+#. Author of the plugin
+#: duplicatepage.php
+msgid "mndpsingh287"
+msgstr "mndpsingh287"
+
+#. Description of the plugin
+#: duplicatepage.php
+msgid "Duplicate Posts, Pages and Custom Posts using single click."
+msgstr "한 번의 클릭으로 게시물, 페이지 및 사용자 지정 게시물을 복제합니다."
+
+#. Plugin URI of the plugin
+#: duplicatepage.php
+msgid "https://wordpress.org/plugins/duplicate-page/"
+msgstr "https://wordpress.org/plugins/duplicate-page/"
+
+#: duplicatepage.php:261 duplicatepage.php:277 duplicatepage.php:300
+msgid "Duplicate This"
+msgstr "복제"
+
+#. Plugin Name of the plugin
+#: duplicatepage.php duplicatepage.php:91 duplicatepage.php:357
+msgid "Duplicate Page"
+msgstr "Duplicate Page"
+
+#: duplicatepage.php:78
+msgid "Donate"
+msgstr "기부"
+
+#: duplicatepage.php:77
+msgid "Settings"
+msgstr "설정"
+
+#: inc/admin-settings.php:81
+msgid "Add a suffix for duplicate or clone post as Copy, Clone etc. It will show after title."
+msgstr "복사, 복제 등으로 복제 또는 복제 게시물에 대한 접미사를 추가합니다. 제목 뒤에 표시됩니다."
+
+#: inc/admin-settings.php:78
+msgid "Duplicate Post Suffix"
+msgstr "페이지 복제 접미사"
+
+#: inc/admin-settings.php:74
+msgid "Please select any post redirection, redirect you to selected after click on duplicate this link.<strong> Default: </strong>To All Posts List"
+msgstr "게시물 리디렉션을 선택하면 이 링크 복제를 클릭한 후 선택한 곳으로 리디렉션됩니다.<strong> 기본값: </strong>모든 글 목록으로"
+
+#: inc/admin-settings.php:72
+msgid "To Duplicate Edit Screen"
+msgstr "복제 게시물의 편집 화면으로"
+
+#: inc/admin-settings.php:71
+msgid "To All Posts List"
+msgstr "모든 게시물 목록으로"
+
+#: inc/admin-settings.php:69
+msgid "Redirect to after click on <strong>Duplicate This Link</strong>"
+msgstr "<strong>복제 링크</strong>를 클릭한 후 리다이렉트"
+
+#: inc/admin-settings.php:65
+msgid "Please select any post status you want to assign for duplicate post.<strong> Default: </strong> Draft"
+msgstr "중복 글에 할당할 글 상태를 선택하세요.<strong> 기본값: </strong> 초안"
+
+#: inc/admin-settings.php:57
+msgid "Duplicate Post Status"
+msgstr "글 상태 복제"
+
+#: inc/admin-settings.php:34
+msgid ""
+"<div class=\"error settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"  <p><strong>Settings not saved.</strong></p><button class=\"notice-dismiss button-custom-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Dismiss this notice</span></button></div>"
+msgstr ""
+"<div class=\"error settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"  <p><strong>설정이 저장되지 않았습니다</strong></p><button class=\"notice-dismiss button-custom-dismiss\" type=\"button\"><span class=\"screen-reader-text\">이 알림을 해제합니다</span></button></div>"
+
+#: inc/admin-settings.php:31
+msgid ""
+"<div class=\"updated settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"    <p><strong>Settings saved.</strong></p><button class=\"notice-dismiss button-custom-dismiss\" type=\"button\"><span class=\"screen-reader-text\">Dismiss this notice</span></button></div>"
+msgstr ""
+"<div class=\"updated settings-error notice is-dismissible\" id=\"setting-error-settings_updated\"> \n"
+"    <p><strong>설정이 저장되었습니다.</strong></p><button class=\"notice-dismiss button-custom-dismiss\" type=\"button\"><span class=\"screen-reader-text\">이 알림을 해제합니다</span></button></div>"
+
+#: inc/admin-settings.php:9
+msgid "Buy PRO"
+msgstr "프로 구매"
+
+#: inc/admin-settings.php:9
+msgid "Duplicate Page Settings "
+msgstr "Duplicate Page 설정 "

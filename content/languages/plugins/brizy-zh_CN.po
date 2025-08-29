@@ -1,0 +1,4399 @@
+# Translation of Plugins - Brizy &#8211; Page Builder - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - Brizy &#8211; Page Builder - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-23 12:11:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - Brizy &#8211; Page Builder - Stable (latest release)\n"
+
+#: compatibilities/brizy-pro-compatibility.php:28
+msgid "%s PRO IS NOT RUNNING."
+msgstr "%s PRO 未运行。"
+
+#: admin/main.php:535
+msgid "Heads up, Please backup before upgrade!"
+msgstr "注意，请在升级前备份！"
+
+#: compatibilities/brizy-pro-compatibility.php:29
+msgid "Please update %s PRO to the latest version."
+msgstr "请将%s PRO 更新到最新版本。"
+
+#. translators: %1$s Link open tag, %2$s: Link close tag.
+#: admin/main.php:541
+msgid "The latest update includes some substantial changes across different areas of the plugin. We highly recommend you %1$sbackup your site before upgrading%2$s, and make sure you first update in a staging environment"
+msgstr "最新的更新包括插件不同区域的一些重大更改。我们强烈建议您在升级前%1$s备份您的网站%2$s并确保您首先在暂存环境中更新"
+
+#: admin/views/settings/tools.php:18
+msgid "<strong>Important:</strong> It is strongly recommended that you <a target=\"_blank\" href=\"%s\">backup your database</a> before using Replace URL."
+msgstr "<strong>重要:</strong>强烈建议你在使用替换 URL 之前<a target=\"_blank\" href=\"%s\">备份你的数据库</a> ."
+
+#: admin/views/settings/tools.php:34
+msgid "Enter your old and new URLs for your WordPress installation, to update all %s data (Relevant for domain transfers or move to 'HTTPS')."
+msgstr "输入WordPress安装的旧网址和新网址，以更新所有%s数据（与域转移相关或移至“HTTPS”）。"
+
+#: admin/views/settings/tools.php:11 admin/views/settings/tools.php:16
+#: admin/views/settings/tools.php:30
+msgid "Replace URL"
+msgstr "替换URL"
+
+#: public/editor-build/270-wp/texts.php:1180
+msgid "Specific Product"
+msgstr "特定产品"
+
+#: admin/settings.php:552
+msgid "The old and new URLs must be different"
+msgstr "新旧网址必须不同"
+
+#: admin/settings.php:556
+msgid "The old and new URLs must be valid URLs"
+msgstr "旧网址和新网址必须是有效的网址"
+
+#: admin/settings.php:599
+msgid "The replacement was successful"
+msgstr "替换成功"
+
+#: admin/settings.php:119 admin/settings.php:120
+#: admin/views/settings/tools.php:7
+msgid "Tools"
+msgstr "工具"
+
+#: admin/views/settings/tools.php:23
+msgid "Update Site Address (URL)"
+msgstr "更新站点地址 (URL)"
+
+#: admin/settings.php:543
+msgid "You must be an administrator running a replace URL session"
+msgstr "您必须是运行替换 URL 会话的管理员"
+
+#: public/editor-build/270-wp/texts.php:56
+msgid "0 Selected"
+msgstr "0 已选择"
+
+#: public/editor-build/270-wp/texts.php:57
+msgid "0-10"
+msgstr "0-10"
+
+#: public/editor-build/270-wp/texts.php:58
+msgid "0-5"
+msgstr "0-5"
+
+#: public/editor-build/270-wp/texts.php:60
+msgid "3D Tilt"
+msgstr "3D倾斜"
+
+#: public/editor-build/270-wp/texts.php:170
+msgid "Artwork"
+msgstr "艺术品"
+
+#: public/editor-build/270-wp/texts.php:175
+msgid "Attention"
+msgstr "注意"
+
+#: public/editor-build/270-wp/texts.php:207
+msgid "Basic"
+msgstr "基本"
+
+#: public/editor-build/270-wp/texts.php:213
+msgid "Big"
+msgstr "大"
+
+#: public/editor-build/270-wp/texts.php:215
+msgid "Blending Mode"
+msgstr "混合模式"
+
+#: public/editor-build/270-wp/texts.php:222
+msgid "Blur"
+msgstr "模糊"
+
+#: public/editor-build/270-wp/texts.php:283
+msgid "Center"
+msgstr "居中"
+
+#: public/editor-build/270-wp/texts.php:305
+msgid "Color Burn"
+msgstr "颜色加深"
+
+#: public/editor-build/270-wp/texts.php:306
+msgid "Color Dodge"
+msgstr "颜色减淡"
+
+#: public/editor-build/270-wp/texts.php:317
+msgid "Contain"
+msgstr "平铺"
+
+#: public/editor-build/270-wp/texts.php:320
+msgid "Content Padding"
+msgstr "内容填充"
+
+#: public/editor-build/270-wp/texts.php:345
+msgid "Country Code"
+msgstr "国家代码"
+
+#: public/editor-build/270-wp/texts.php:366
+msgid "Darken"
+msgstr "变黑"
+
+#: public/editor-build/270-wp/texts.php:373
+msgid "Default font (can’t be deleted)"
+msgstr "默认字体（无法删除）"
+
+#: public/editor-build/270-wp/texts.php:386
+msgid "Difference"
+msgstr "差异"
+
+#: public/editor-build/270-wp/texts.php:387
+msgid "Direct"
+msgstr "直接"
+
+#: public/editor-build/270-wp/texts.php:388
+msgid "Direction"
+msgstr "方向"
+
+#: public/editor-build/270-wp/texts.php:392
+msgid "Display"
+msgstr "显示"
+
+#: public/editor-build/270-wp/texts.php:404
+msgid "Down"
+msgstr "下"
+
+#: public/editor-build/270-wp/texts.php:421
+msgid "Effects"
+msgstr "效果"
+
+#: public/editor-build/270-wp/texts.php:445
+msgid "Entrance"
+msgstr "进入"
+
+#: public/editor-build/270-wp/texts.php:457
+msgid "Example [gallery id='123' size='medium']"
+msgstr "示例 [图库 id='123' 大小 ='中']"
+
+#: public/editor-build/270-wp/texts.php:462
+msgid "Exclusion"
+msgstr "排除"
+
+#: public/editor-build/270-wp/texts.php:478
+msgid "Fade"
+msgstr "褪色"
+
+#: public/editor-build/270-wp/texts.php:513
+msgid "Flag"
+msgstr "旗帜"
+
+#: public/editor-build/270-wp/texts.php:514
+msgid "Flags"
+msgstr "标志"
+
+#: public/editor-build/270-wp/texts.php:535
+msgid "Full Name"
+msgstr "全名"
+
+#: public/editor-build/270-wp/texts.php:541
+msgid "Gap"
+msgstr "间隙"
+
+#: public/editor-build/270-wp/texts.php:590
+msgid "Horizontal"
+msgstr "水平"
+
+#: public/editor-build/270-wp/texts.php:604
+msgid "Icon Styles"
+msgstr "图标样式"
+
+#: public/editor-build/270-wp/texts.php:614
+msgid "If you need to have multiple emails you can separate them by commas"
+msgstr "如果您需要拥有多封电子邮件，可以用逗号分隔它们"
+
+#: public/editor-build/270-wp/texts.php:626
+msgid "In"
+msgstr "在"
+
+#: public/editor-build/270-wp/texts.php:673
+msgid "Label Bg"
+msgstr "标签 背景"
+
+#: public/editor-build/270-wp/texts.php:677
+msgid "Languages"
+msgstr "语言"
+
+#: public/editor-build/270-wp/texts.php:688
+msgid "Level"
+msgstr "级别"
+
+#: public/editor-build/270-wp/texts.php:691
+msgid "Lighten"
+msgstr "减轻"
+
+#: public/editor-build/270-wp/texts.php:718
+msgid "Luminosity"
+msgstr "光度"
+
+#: public/editor-build/270-wp/texts.php:785
+msgid "MouseTrack"
+msgstr "鼠标跟踪"
+
+#: public/editor-build/270-wp/texts.php:787
+msgid "Move down"
+msgstr "下移"
+
+#: public/editor-build/270-wp/texts.php:790
+msgid "Move up"
+msgstr "上移"
+
+#: public/editor-build/270-wp/texts.php:791
+msgid "Multi-Language"
+msgstr "多语言"
+
+#: public/editor-build/270-wp/texts.php:793
+msgid "Multiply"
+msgstr "乘"
+
+#: public/editor-build/270-wp/texts.php:843
+msgid "Opposite"
+msgstr "对面"
+
+#: public/editor-build/270-wp/texts.php:852
+msgid "Out"
+msgstr "退出"
+
+#: public/editor-build/270-wp/texts.php:890
+msgid "Play Counts"
+msgstr "播放速度"
+
+#: public/editor-build/270-wp/texts.php:973
+msgid "Rating scale"
+msgstr "评级量表"
+
+#: public/editor-build/270-wp/texts.php:996
+msgid "Repeat"
+msgstr "是否重复"
+
+#: public/editor-build/270-wp/texts.php:1000
+msgid "Replay Animation"
+msgstr "重播动画"
+
+#: public/editor-build/270-wp/texts.php:1057
+msgid "Saturation"
+msgstr "饱和"
+
+#: public/editor-build/270-wp/texts.php:1065
+msgid "Scale"
+msgstr "规模"
+
+#: public/editor-build/270-wp/texts.php:1066
+msgid "Screen"
+msgstr "屏幕"
+
+#: public/editor-build/270-wp/texts.php:1067
+msgid "Scroll"
+msgstr "滚动"
+
+#: public/editor-build/270-wp/texts.php:1110
+msgid "Shopping Bag"
+msgstr "购物包"
+
+#: public/editor-build/270-wp/texts.php:1120
+msgid "Show If Language"
+msgstr "显示如果语言"
+
+#: public/editor-build/270-wp/texts.php:1124
+msgid "Show Original image"
+msgstr "显示原始图像"
+
+#: public/editor-build/270-wp/texts.php:1199
+msgid "Stroke"
+msgstr "描边"
+
+#: public/editor-build/270-wp/texts.php:1243
+msgid "Text Shadow"
+msgstr "文字阴影"
+
+#: public/editor-build/270-wp/texts.php:1280
+msgid "Title Padding"
+msgstr "标题内边距"
+
+#: public/editor-build/270-wp/texts.php:1291
+msgid "Translation"
+msgstr "翻译"
+
+#: public/editor-build/270-wp/texts.php:1292
+msgid "Transparency"
+msgstr "透明度"
+
+#: public/editor-build/270-wp/texts.php:1334
+msgid "Up"
+msgstr "向上"
+
+#: public/editor-build/270-wp/texts.php:1339
+msgid "Upgrade to PRO to use this"
+msgstr "升级到 PRO 以使用此"
+
+#: public/editor-build/270-wp/texts.php:1369
+msgid "Value Bg"
+msgstr "值 背景"
+
+#: public/editor-build/270-wp/texts.php:1415
+msgid "X"
+msgstr "X"
+
+#: public/editor-build/270-wp/texts.php:1416
+msgid "Y"
+msgstr "Y"
+
+#: public/editor-build/270-wp/texts.php:1437
+msgid "element"
+msgstr "元素"
+
+#: public/main.php:204
+msgid "Edit %s with %s"
+msgstr "使用%s编辑%s"
+
+#: public/editor-build/270-wp/texts.php:1450
+msgid "story"
+msgstr "故事"
+
+#: public/editor-build/270-wp/texts.php:1448
+msgid "required"
+msgstr "必填"
+
+#: public/editor-build/270-wp/texts.php:1447
+msgid "remove this element"
+msgstr "删除这个元素"
+
+#: public/editor-build/270-wp/texts.php:1444
+msgid "layouts"
+msgstr "布局"
+
+#: public/editor-build/270-wp/texts.php:1443
+msgid "layout"
+msgstr "布局"
+
+#: public/editor-build/270-wp/texts.php:1441
+msgid "is already editing project"
+msgstr "已经在编辑项目了"
+
+#: public/editor-build/270-wp/texts.php:1440
+msgid "in your WordPress admin"
+msgstr "在你的WordPress管理"
+
+#: public/editor-build/270-wp/texts.php:1438
+msgid "here"
+msgstr "这里"
+
+#: public/editor-build/270-wp/texts.php:1431
+msgid "Your link is not correct"
+msgstr "你的链接不正确"
+
+#: public/editor-build/270-wp/texts.php:1430
+msgid "Your block was saved without screenshot, browser is not compatible"
+msgstr "你的模块在没有截图的情况下保存，浏览器不兼容"
+
+#: public/editor-build/270-wp/texts.php:1429
+msgid "Your Plugin version is incompatible with Account version, please update plugin"
+msgstr "你的插件版本与账户版本不兼容，请更新插件"
+
+#: public/editor-build/270-wp/texts.php:1427
+msgid "You must specify a title"
+msgstr "你必须指定一个标题"
+
+#: public/editor-build/270-wp/texts.php:1425
+msgid "You must be have one font added"
+msgstr "你必须添加一个字体"
+
+#: public/editor-build/270-wp/texts.php:1424
+msgid "You have successfully connect the form with"
+msgstr "你已经成功将表格对接"
+
+#: public/editor-build/270-wp/texts.php:1423
+msgid "You can’t make changes"
+msgstr "你不可以做出更改"
+
+#: public/editor-build/270-wp/texts.php:1422
+msgid "You can't add it again"
+msgstr "你不可以再次添加它"
+
+#: public/editor-build/270-wp/texts.php:1417
+msgid "YOUR PAGE IS READY TO PUBLISH!"
+msgstr "你的页面已经准备好发布了！"
+
+#: public/editor-build/270-wp/texts.php:1394
+msgid "When Finished"
+msgstr "完成时"
+
+#: public/editor-build/270-wp/texts.php:1389
+msgid "WHERE DO YOU WANT TO DISPLAY IT?"
+msgstr "你想在哪里展示它？"
+
+#: public/editor-build/270-wp/texts.php:1388
+msgid "WHAT WILL TRIGGER THE POPUP TO OPEN"
+msgstr "什么会触发打开弹出窗口"
+
+#: public/editor-build/270-wp/texts.php:1387
+msgid "Volume"
+msgstr "音量"
+
+#: public/editor-build/270-wp/texts.php:1385
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: public/editor-build/270-wp/texts.php:1378
+msgid "Vertical Offset"
+msgstr "垂直偏移"
+
+#: public/editor-build/270-wp/texts.php:1377
+msgid "Vertical Align"
+msgstr "垂直对齐"
+
+#: public/editor-build/270-wp/texts.php:1376
+msgid "Vertical"
+msgstr "垂直"
+
+#: public/editor-build/270-wp/texts.php:1374
+msgid "Verification process failed, please make sure you have done the following three things and try again in a few minutes."
+msgstr "验证失败，请确保你已经做了以下三件事然后几分钟后再试。"
+
+#: public/editor-build/270-wp/texts.php:1372
+msgid "Variations"
+msgstr "变量"
+
+#: public/editor-build/270-wp/texts.php:1370
+msgid "Values"
+msgstr "数值"
+
+#: public/editor-build/270-wp/texts.php:1368
+msgid "Value"
+msgstr "数值"
+
+#: public/editor-build/270-wp/texts.php:1365
+msgid "Users"
+msgstr "用户"
+
+#: public/editor-build/270-wp/texts.php:1364
+msgid "Username"
+msgstr "用户名"
+
+#: public/editor-build/270-wp/texts.php:1360
+msgid "Use Small Header"
+msgstr "使用小标题"
+
+#: public/editor-build/270-wp/texts.php:1352
+msgid "Upsell Tags"
+msgstr "追加销售标签"
+
+#: public/editor-build/270-wp/texts.php:1351
+msgid "Upsell Pagination"
+msgstr "追加销售分页"
+
+#: editor/editor/editor.php:2165 public/editor-build/270-wp/texts.php:1350
+msgid "Upsell"
+msgstr "追加销售"
+
+#: public/editor-build/270-wp/texts.php:1344
+msgid "Upgrade to PRO to use this story"
+msgstr "升级到专业版来使用该故事"
+
+#: public/editor-build/270-wp/texts.php:1343
+msgid "Upgrade to PRO to use this layout"
+msgstr "升级到专业版来使用该布局"
+
+#: public/editor-build/270-wp/texts.php:1342
+msgid "Upgrade to PRO to use this integration"
+msgstr "升级到专业版来使用该对接工具"
+
+#: public/editor-build/270-wp/texts.php:1341
+msgid "Upgrade to PRO to use this element"
+msgstr "升级到专业版来使用该元素"
+
+#: public/editor-build/270-wp/texts.php:1340
+msgid "Upgrade to PRO to use this block"
+msgstr "升级到专业版来使用该模块"
+
+#: public/editor-build/270-wp/texts.php:1329
+msgid "Undo"
+msgstr "撤销"
+
+#: public/editor-build/270-wp/texts.php:1328
+msgid "Underline"
+msgstr "下划线"
+
+#: public/editor-build/270-wp/texts.php:1326
+msgid "Unable to insert layout. Please try again or contact support"
+msgstr "不能插入布局。请重试或联系客服"
+
+#: public/editor-build/270-wp/texts.php:1325
+msgid "Unable to insert block. Please try again or contact support"
+msgstr "不能插入模块。请重试或联系客服"
+
+#: public/editor-build/270-wp/texts.php:1321
+msgid "USE CUSTOM TEMPLATE"
+msgstr "使用自定义模板"
+
+#: public/editor-build/270-wp/texts.php:1312
+msgid "UPLOAD FONT"
+msgstr "上传字体"
+
+#: public/editor-build/270-wp/texts.php:1311
+msgid "UPLOAD"
+msgstr "上传"
+
+#: public/editor-build/270-wp/texts.php:1309
+msgid "Type to search"
+msgstr "输入以搜索"
+
+#: public/editor-build/270-wp/texts.php:1308
+msgid "Type to Search ..."
+msgstr "输入以搜索……"
+
+#: public/editor-build/270-wp/texts.php:1306
+msgid "Type"
+msgstr "输入"
+
+#: public/editor-build/270-wp/texts.php:1302
+msgid "Try Again"
+msgstr "重试"
+
+#: public/editor-build/270-wp/texts.php:1295
+msgid "Triggers"
+msgstr "触发"
+
+#: public/editor-build/270-wp/texts.php:1294
+msgid "Trigger Popup Only Once"
+msgstr "只触发弹出窗口一次"
+
+#: public/editor-build/270-wp/texts.php:1288
+msgid "Total"
+msgstr "总计"
+
+#: public/editor-build/270-wp/texts.php:1284
+msgid "Top"
+msgstr "顶部"
+
+#: public/editor-build/270-wp/texts.php:1283
+msgid "Toggle Menu"
+msgstr "切换菜单"
+
+#: public/editor-build/270-wp/texts.php:1282
+msgid "To Dashboard"
+msgstr "前往控制面板"
+
+#: public/editor-build/270-wp/texts.php:1281
+msgid "Titles"
+msgstr "标题"
+
+#: public/editor-build/270-wp/texts.php:1278
+msgid "Tip: You can browse the Google font library"
+msgstr "你可以浏览谷歌字体库"
+
+#: public/editor-build/270-wp/texts.php:1277
+msgid "Tip: Use these shortcodes to populate your template"
+msgstr "使用这些短代码来填充你的模板"
+
+#: public/editor-build/270-wp/texts.php:1275
+msgid "Timer"
+msgstr "计时器"
+
+#: public/editor-build/270-wp/texts.php:1274
+msgid "Timeline Labels"
+msgstr "时间线标签"
+
+#: public/editor-build/270-wp/texts.php:1273
+msgid "Timeline Items"
+msgstr "时间线项目"
+
+#: editor/editor/editor.php:2071 public/editor-build/270-wp/texts.php:1272
+msgid "Timeline"
+msgstr "时间线"
+
+#: public/editor-build/270-wp/texts.php:1270
+msgid "Time"
+msgstr "时间"
+
+#: public/editor-build/270-wp/texts.php:1265
+msgid "This page needs a refresh. You’ve probably updated this page (or another page) in a different tab or browser."
+msgstr "该页面需要刷新。你可能在其它的标签页或浏览器更新了该页面（或其它页面）。"
+
+#: public/editor-build/270-wp/texts.php:1257
+msgid "This is Lottie .json URL. Get more from LottieFiles.com."
+msgstr "这是Lottie .json URL。从LottieFiles.com获取更多。"
+
+#: public/editor-build/270-wp/texts.php:1253
+msgid "There are no choices"
+msgstr "这里没有选项"
+
+#: public/editor-build/270-wp/texts.php:1252
+msgid "Theme"
+msgstr "主题"
+
+#: public/editor-build/270-wp/texts.php:1250
+msgid "The integration is not responding, please try again or verify the account credentials"
+msgstr "对接无响应，请重试或验证账户信息"
+
+#: public/editor-build/270-wp/texts.php:1248
+msgid "The email address format is not valid"
+msgstr "邮箱地址格式无效"
+
+#: public/editor-build/270-wp/texts.php:1247
+msgid "The element you have selected doesn't have more settings"
+msgstr "你选择的元素没有更多设置"
+
+#: public/editor-build/270-wp/texts.php:1240
+msgid "Tel"
+msgstr "电话"
+
+#: public/editor-build/270-wp/texts.php:1239
+msgid "Target URL"
+msgstr "目标URL"
+
+#: public/editor-build/270-wp/texts.php:1238
+msgid "Take over failed please refresh the page"
+msgstr "接管失败请刷新页面"
+
+#: public/editor-build/270-wp/texts.php:1237
+msgid "Take over"
+msgstr "接管"
+
+#: public/editor-build/270-wp/texts.php:1235
+msgid "Tags"
+msgstr "标签"
+
+#: public/editor-build/270-wp/texts.php:1230
+msgid "Table Sidebar"
+msgstr "表格侧边栏"
+
+#: public/editor-build/270-wp/texts.php:1229
+msgid "Table Head"
+msgstr "表格顶部"
+
+#: editor/editor/editor.php:2069 public/editor-build/270-wp/texts.php:1228
+msgid "Table"
+msgstr "表格"
+
+#: public/editor-build/270-wp/texts.php:1226
+msgid "TTF File"
+msgstr "TTF文件"
+
+#: public/editor-build/270-wp/texts.php:1224
+msgid "Sync Now"
+msgstr "立即同步"
+
+#: public/editor-build/270-wp/texts.php:1227
+msgid "Tab"
+msgstr "选项卡"
+
+#: editor/editor/editor.php:2075 public/editor-build/270-wp/texts.php:1223
+msgid "Switcher"
+msgstr "切换"
+
+#: public/editor-build/270-wp/texts.php:1222
+msgid "Switch to desktop to add popup"
+msgstr "切换到桌面以添加弹出窗口"
+
+#: public/editor-build/270-wp/texts.php:1220
+msgid "Switch to Draft"
+msgstr "切换到草稿"
+
+#: public/editor-build/270-wp/texts.php:1216
+msgid "Suffix"
+msgstr "后缀"
+
+#: public/editor-build/270-wp/texts.php:1214
+msgid "Subtotal"
+msgstr "小计"
+
+#: public/editor-build/270-wp/texts.php:1204
+msgid "Subject"
+msgstr "标题"
+
+#: public/editor-build/270-wp/texts.php:1203
+msgid "Sub Title"
+msgstr "副标题"
+
+#: public/editor-build/270-wp/texts.php:1201
+msgid "Styles"
+msgstr "样式"
+
+#: public/editor-build/270-wp/texts.php:1198
+msgid "Strike"
+msgstr "删除线"
+
+#: public/editor-build/270-wp/texts.php:1197
+msgid "Story"
+msgstr "故事"
+
+#: editor/editor/editor.php:2148 public/editor-build/270-wp/texts.php:1194
+msgid "Stock"
+msgstr "库存"
+
+#: public/editor-build/270-wp/texts.php:1193
+msgid "Sticky"
+msgstr "置顶"
+
+#: public/editor-build/270-wp/texts.php:1191
+msgid "Static"
+msgstr "静态"
+
+#: public/editor-build/270-wp/texts.php:1188
+msgid "Stars"
+msgstr "星级"
+
+#: public/editor-build/270-wp/texts.php:1183
+msgid "Specify an end time (in seconds)"
+msgstr "指定结束时间（以秒为单位）"
+
+#: public/editor-build/270-wp/texts.php:1182
+msgid "Specify a start time (in seconds)"
+msgstr "指定开始时间（以秒为单位）"
+
+#: public/editor-build/270-wp/texts.php:1181
+msgid "Specific User"
+msgstr "指定用户"
+
+#: public/editor-build/270-wp/texts.php:1172
+msgid "Source"
+msgstr "源"
+
+#: public/editor-build/270-wp/texts.php:1161
+msgid "Some integrations are available only in PRO"
+msgstr "某些对接工具仅可在专业版使用"
+
+#: public/editor-build/270-wp/texts.php:1152
+msgid "Slides"
+msgstr "幻灯片"
+
+#: public/editor-build/270-wp/texts.php:1149
+msgid "Slide"
+msgstr "幻灯片"
+
+#: public/editor-build/270-wp/texts.php:1148
+msgid "Skip"
+msgstr "跳过"
+
+#: public/editor-build/270-wp/texts.php:1147
+msgid "Skin 4"
+msgstr "皮肤4"
+
+#: public/editor-build/270-wp/texts.php:1146
+msgid "Skin 3"
+msgstr "皮肤3"
+
+#: public/editor-build/270-wp/texts.php:1145
+msgid "Skin 2"
+msgstr "皮肤2"
+
+#: public/editor-build/270-wp/texts.php:1144
+msgid "Skin 1"
+msgstr "皮肤1"
+
+#: public/editor-build/270-wp/texts.php:1143
+msgid "Skin"
+msgstr "皮肤"
+
+#: public/editor-build/270-wp/texts.php:1133
+msgid "Show to"
+msgstr "展示给"
+
+#: public/editor-build/270-wp/texts.php:1130
+msgid "Show message"
+msgstr "显示消息"
+
+#: public/editor-build/270-wp/texts.php:1127
+msgid "Show Social Context"
+msgstr "显示社会背景"
+
+#: public/editor-build/270-wp/texts.php:1122
+msgid "Show Meta Data"
+msgstr "显示元数据"
+
+#: public/editor-build/270-wp/texts.php:1119
+msgid "Show Hidden Elements"
+msgstr "显示隐藏元素"
+
+#: public/editor-build/270-wp/texts.php:1117
+msgid "Show Friend's Faces"
+msgstr "显示朋友面部"
+
+#: public/editor-build/270-wp/texts.php:1116
+msgid "Show Button Counter"
+msgstr "显示按钮计数器"
+
+#: public/editor-build/270-wp/texts.php:1114
+msgid "Shortname"
+msgstr "短名称"
+
+#: editor/editor/editor.php:2017 public/editor-build/270-wp/texts.php:1113
+msgid "Shortcuts"
+msgstr "快捷键"
+
+#: public/editor-build/270-wp/texts.php:1109
+msgid "Shop Products"
+msgstr "商城产品"
+
+#: public/editor-build/270-wp/texts.php:1108
+msgid "Shop Pages"
+msgstr "商城页面"
+
+#: public/editor-build/270-wp/texts.php:1107
+msgid "Shop Categories"
+msgstr "商城分类"
+
+#: public/editor-build/270-wp/texts.php:1106
+msgid "Shop Cart"
+msgstr "购物车"
+
+#: public/editor-build/270-wp/texts.php:1103
+msgid "Shape"
+msgstr "形状"
+
+#: public/editor-build/270-wp/texts.php:1101
+msgid "Shadow"
+msgstr "阴影"
+
+#: public/editor-build/270-wp/texts.php:1091
+msgid "Separator"
+msgstr "分隔线"
+
+#: public/editor-build/270-wp/texts.php:1090
+msgid "Semi Bold"
+msgstr "半粗体"
+
+#: public/editor-build/270-wp/texts.php:1088
+msgid "Select tags"
+msgstr "选择标签"
+
+#: public/editor-build/270-wp/texts.php:1087
+msgid "Select an element on the page to display more settings"
+msgstr "从该页面上选择一个元素以显示更多设置"
+
+#: public/editor-build/270-wp/texts.php:1081
+msgid "Select a menu from the element options"
+msgstr "从元素选项中选择菜单"
+
+#: public/editor-build/270-wp/texts.php:1080
+msgid "Select a Menu"
+msgstr "选择一个菜单"
+
+#: public/editor-build/270-wp/texts.php:1077
+msgid "Select Parent Element"
+msgstr "选择父元素"
+
+#: public/editor-build/270-wp/texts.php:1075
+msgid "Section"
+msgstr "模块"
+
+#: public/editor-build/270-wp/texts.php:1074
+msgid "Seconds"
+msgstr "秒"
+
+#: public/editor-build/270-wp/texts.php:1073
+msgid "Search element"
+msgstr "搜索元素"
+
+#: public/editor-build/270-wp/texts.php:1068
+msgid "Scroll Page Behind"
+msgstr "将页面滚动到后面"
+
+#: public/editor-build/270-wp/texts.php:1064
+msgid "Saving"
+msgstr "保存"
+
+#: public/editor-build/270-wp/texts.php:1063
+msgid "Saved Popups"
+msgstr "保存的弹出窗口"
+
+#: public/editor-build/270-wp/texts.php:1062
+msgid "Saved Library is syncing to your Account"
+msgstr "保存的库正在同步到您的帐户"
+
+#: public/editor-build/270-wp/texts.php:1060
+msgid "Save Layout"
+msgstr "保存布局"
+
+#: public/editor-build/270-wp/texts.php:1059
+msgid "Save Draft"
+msgstr "保存草稿"
+
+#: public/editor-build/270-wp/texts.php:1056
+msgid "Same Page"
+msgstr "相同页面"
+
+#: public/editor-build/270-wp/texts.php:1055
+msgid "Sale"
+msgstr "销售"
+
+#: public/editor-build/270-wp/texts.php:1053
+msgid "START BUILDING YOUR POPUP"
+msgstr "开始构建弹出窗口"
+
+#: public/editor-build/270-wp/texts.php:1047
+msgid "SELECT LIST"
+msgstr "选择列表"
+
+#: public/editor-build/270-wp/texts.php:1045
+msgid "SELECT ACCOUNT"
+msgstr "选择帐户"
+
+#: public/editor-build/270-wp/texts.php:1042
+msgid "Rows"
+msgstr "行"
+
+#: public/editor-build/270-wp/texts.php:1038
+msgid "Rotate"
+msgstr "旋转"
+
+#: public/editor-build/270-wp/texts.php:1034
+msgid "Right"
+msgstr "右"
+
+#: public/editor-build/270-wp/texts.php:1010
+msgid "Review"
+msgstr "评论"
+
+#: public/editor-build/270-wp/texts.php:1009
+msgid "Reverse Columns"
+msgstr "反转列"
+
+#: public/editor-build/270-wp/texts.php:1008
+msgid "Reverse"
+msgstr "反向"
+
+#: public/editor-build/270-wp/texts.php:1004
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: public/editor-build/270-wp/texts.php:1002
+msgid "Reply-To"
+msgstr "回复至"
+
+#: public/editor-build/270-wp/texts.php:1001
+msgid "Reply"
+msgstr "回复"
+
+#: public/editor-build/270-wp/texts.php:999
+msgid "Replace global styling"
+msgstr "替换全局样式"
+
+#: public/editor-build/270-wp/texts.php:994
+msgid "Renderer"
+msgstr "渲染"
+
+#: public/editor-build/270-wp/texts.php:992
+msgid "Remember me"
+msgstr "记住我"
+
+#: public/editor-build/270-wp/texts.php:991
+msgid "Related Products Tags"
+msgstr "相关产品标签"
+
+#: public/editor-build/270-wp/texts.php:990
+msgid "Related Products Pagination"
+msgstr "相关产品分页"
+
+#: public/editor-build/270-wp/texts.php:989
+msgid "Related Products"
+msgstr "相关产品"
+
+#: public/editor-build/270-wp/texts.php:987
+msgid "Register Info"
+msgstr "注册信息"
+
+#: public/editor-build/270-wp/texts.php:986
+msgid "Register"
+msgstr "注册"
+
+#: public/editor-build/270-wp/texts.php:985
+msgid "Refresh"
+msgstr "刷新"
+
+#: public/editor-build/270-wp/texts.php:983
+msgid "Redo"
+msgstr "重做"
+
+#: public/editor-build/270-wp/texts.php:982
+msgid "Redirect After Logout"
+msgstr "注销后重定向"
+
+#: public/editor-build/270-wp/texts.php:981
+msgid "Redirect After Login"
+msgstr "登录后重定向"
+
+#: public/editor-build/270-wp/texts.php:979
+msgid "Recommend"
+msgstr "推荐"
+
+#: public/editor-build/270-wp/texts.php:975
+msgid "ReCAPTCHA"
+msgstr "验证码"
+
+#: public/editor-build/270-wp/texts.php:969
+msgid "Radio"
+msgstr "单选"
+
+#: public/editor-build/270-wp/texts.php:968
+msgid "Radial"
+msgstr "径向"
+
+#: public/editor-build/270-wp/texts.php:967
+msgid "Query Source"
+msgstr "查询来源"
+
+#: public/editor-build/270-wp/texts.php:965
+msgid "Quantity"
+msgstr "数量"
+
+#: public/editor-build/270-wp/texts.php:960
+msgid "Publish Page"
+msgstr "发布页面"
+
+#: public/editor-build/270-wp/texts.php:958
+msgid "Protected Page"
+msgstr "受保护页面"
+
+#: public/editor-build/270-wp/texts.php:957
+msgid "Protected Form"
+msgstr "受保护的表单"
+
+#: public/editor-build/270-wp/texts.php:955
+msgid "Products Tags"
+msgstr "产品标签"
+
+#: public/editor-build/270-wp/texts.php:954
+msgid "Products Pagination"
+msgstr "产品分页"
+
+#: public/editor-build/270-wp/texts.php:949
+msgid "Product Title"
+msgstr "产品名称"
+
+#: public/editor-build/270-wp/texts.php:948
+msgid "Product Thumbnail"
+msgstr "产品缩略图"
+
+#: public/editor-build/270-wp/texts.php:947
+msgid "Product Stock"
+msgstr "产品库存"
+
+#: public/editor-build/270-wp/texts.php:944
+msgid "Product Review"
+msgstr "商品评价"
+
+#: public/editor-build/270-wp/texts.php:943
+msgid "Product Rating"
+msgstr "产品评分"
+
+#: public/editor-build/270-wp/texts.php:942
+msgid "Product Price"
+msgstr "产品价格"
+
+#: public/editor-build/270-wp/texts.php:938
+msgid "Product Meta"
+msgstr "产品Meta"
+
+#: public/editor-build/270-wp/texts.php:934
+msgid "Product Gallery"
+msgstr "产品图库"
+
+#: public/editor-build/270-wp/texts.php:933
+msgid "Product Excerpt"
+msgstr "商品摘录"
+
+#: public/editor-build/270-wp/texts.php:932
+msgid "Product Content"
+msgstr "产品内容"
+
+#: public/editor-build/270-wp/texts.php:931
+msgid "Product Breadcrumbs"
+msgstr "产品面包屑"
+
+#: public/editor-build/270-wp/texts.php:930
+msgid "Product Attributes"
+msgstr "产品属性"
+
+#: editor/editor/editor.php:2136 public/editor-build/270-wp/texts.php:926
+msgid "Price"
+msgstr "价格"
+
+#: public/editor-build/270-wp/texts.php:920
+msgid "Press the button above to add popup"
+msgstr "按上面的按钮添加弹出窗口"
+
+#: public/editor-build/270-wp/texts.php:918
+msgid "Prefix"
+msgstr "前缀"
+
+#: public/editor-build/270-wp/texts.php:914
+msgid "Posts Tags"
+msgstr "帖子标签"
+
+#: public/editor-build/270-wp/texts.php:913
+msgid "Posts Pagination"
+msgstr "文章分页"
+
+#: public/editor-build/270-wp/texts.php:910
+msgid "Post info"
+msgstr "文章信息"
+
+#: public/editor-build/270-wp/texts.php:908
+msgid "Post Title"
+msgstr "文章标题"
+
+#: public/editor-build/270-wp/texts.php:906
+msgid "Post Navigation"
+msgstr "文章导航"
+
+#: public/editor-build/270-wp/texts.php:905
+msgid "Post Info"
+msgstr "文章信息"
+
+#: public/editor-build/270-wp/texts.php:904
+msgid "Post Excerpt"
+msgstr "文章摘录"
+
+#: public/editor-build/270-wp/texts.php:903
+msgid "Post Content"
+msgstr "文章内容"
+
+#: public/editor-build/270-wp/texts.php:900
+msgid "Port"
+msgstr "端口"
+
+#: public/editor-build/270-wp/texts.php:898
+msgid "Popup Close Icon"
+msgstr "弹窗关闭图标"
+
+#: public/editor-build/270-wp/texts.php:897
+msgid "Popup"
+msgstr "弹窗"
+
+#: public/editor-build/270-wp/texts.php:894
+msgid "Playlist Items"
+msgstr "播放列表项目"
+
+#: editor/editor/editor.php:2066 public/editor-build/270-wp/texts.php:893
+msgid "Playlist"
+msgstr "播放列表"
+
+#: public/editor-build/270-wp/texts.php:888
+msgid "Plain"
+msgstr "扁平"
+
+#: public/editor-build/270-wp/texts.php:887
+msgid "Placeholder"
+msgstr "占位符"
+
+#: public/editor-build/270-wp/texts.php:885
+msgid "Phone Number"
+msgstr "电话号码"
+
+#: public/editor-build/270-wp/texts.php:882
+msgid "Percent"
+msgstr "百分比"
+
+#: public/editor-build/270-wp/texts.php:879
+msgid "Paste Styles"
+msgstr "粘贴样式"
+
+#: public/editor-build/270-wp/texts.php:878
+msgid "Paste Style"
+msgstr "粘贴样式"
+
+#: public/editor-build/270-wp/texts.php:877
+msgid "Paste"
+msgstr "粘贴"
+
+#: public/editor-build/270-wp/texts.php:876
+msgid "Password and confirm password is not the same"
+msgstr "密码和确认密码不一样"
+
+#: public/editor-build/270-wp/texts.php:875
+msgid "Password"
+msgstr "密码"
+
+#: public/editor-build/270-wp/texts.php:867
+msgid "Pagination"
+msgstr "分页"
+
+#: public/editor-build/270-wp/texts.php:865
+msgid "Page title"
+msgstr "页面标题"
+
+#: public/editor-build/270-wp/texts.php:864
+msgid "Page Title"
+msgstr "页面标题"
+
+#: public/editor-build/270-wp/texts.php:863
+msgid "Page Template"
+msgstr "页面模板"
+
+#: public/editor-build/270-wp/texts.php:858
+msgid "Overlay "
+msgstr "叠加 "
+
+#: public/editor-build/270-wp/texts.php:850
+msgid "Orientation"
+msgstr "方向"
+
+#: public/editor-build/270-wp/texts.php:842
+msgid "Open in Lightbox"
+msgstr "在灯箱中打开"
+
+#: public/editor-build/270-wp/texts.php:839
+msgid "On Hover"
+msgstr "悬停时"
+
+#: public/editor-build/270-wp/texts.php:838
+msgid "On Click"
+msgstr "点击"
+
+#: public/editor-build/270-wp/texts.php:837
+msgid "Offset"
+msgstr "偏移"
+
+#: public/editor-build/270-wp/texts.php:835
+msgid "Number of posts"
+msgstr "文章数量"
+
+#: public/editor-build/270-wp/texts.php:824
+msgid "Nothing here, please refine your search."
+msgstr "这里什么都没有，请改进你的搜索。"
+
+#: public/editor-build/270-wp/texts.php:823
+msgid "Nothing here yet, save a popup first."
+msgstr "这里还没有，先保存一个弹出窗口。"
+
+#: public/editor-build/270-wp/texts.php:822
+msgid "Nothing here yet, save a layout first."
+msgstr "这里还没有，先保存布局。"
+
+#: public/editor-build/270-wp/texts.php:821
+msgid "Nothing here yet, save a block first."
+msgstr "这里还没有，先保存一个块。"
+
+#: public/editor-build/270-wp/texts.php:820
+msgid "Nothing here yet, make a global popup first."
+msgstr "这里还没有，先做一个全局弹出窗口。"
+
+#: public/editor-build/270-wp/texts.php:819
+msgid "Nothing here yet, make a global block first."
+msgstr "这里还没有，先做一个全局块。"
+
+#: public/editor-build/270-wp/texts.php:818
+msgid "Nothing Found"
+msgstr "什么都没找到"
+
+#: public/editor-build/270-wp/texts.php:816
+msgid "Not Required"
+msgstr "不需要"
+
+#: public/editor-build/270-wp/texts.php:813
+msgid "No results"
+msgstr "没有结果"
+
+#: public/editor-build/270-wp/texts.php:810
+msgid "No matches found"
+msgstr "找不到匹配项"
+
+#: public/editor-build/270-wp/texts.php:802
+msgid "Need help"
+msgstr "需要帮助"
+
+#: public/editor-build/270-wp/texts.php:800
+msgid "Nav"
+msgstr "导航"
+
+#: public/editor-build/270-wp/texts.php:799
+msgid "Native HTML5"
+msgstr "原生HTML5"
+
+#: public/editor-build/270-wp/texts.php:796
+msgid "N/A"
+msgstr "N/A"
+
+#: public/editor-build/270-wp/texts.php:794
+msgid "Muted"
+msgstr "静音"
+
+#: public/editor-build/270-wp/texts.php:792
+msgid "Multiple Selection"
+msgstr "多重选择"
+
+#: public/editor-build/270-wp/texts.php:789
+msgid "Move right"
+msgstr "向右移动"
+
+#: public/editor-build/270-wp/texts.php:788
+msgid "Move left"
+msgstr "向左移动"
+
+#: public/editor-build/270-wp/texts.php:766
+msgid "Minimal"
+msgstr "最小"
+
+#: public/editor-build/270-wp/texts.php:765
+msgid "Min Time"
+msgstr "最短时间"
+
+#: public/editor-build/270-wp/texts.php:764
+msgid "Min Date"
+msgstr "最小日期"
+
+#: public/editor-build/270-wp/texts.php:763
+msgid "Min"
+msgstr "最小"
+
+#: public/editor-build/270-wp/texts.php:758
+msgid "Meta Data"
+msgstr "元数据"
+
+#: editor/editor/editor.php:2153 public/editor-build/270-wp/texts.php:757
+msgid "Meta"
+msgstr "Meta"
+
+#: public/editor-build/270-wp/texts.php:756
+msgid "Messages"
+msgstr "消息"
+
+#: public/editor-build/270-wp/texts.php:752
+msgid "Menu order"
+msgstr "菜单顺序"
+
+#: public/editor-build/270-wp/texts.php:750
+msgid "Menu Items"
+msgstr "菜单项"
+
+#: public/editor-build/270-wp/texts.php:748
+msgid "Mention"
+msgstr "提及"
+
+#: public/editor-build/270-wp/texts.php:747
+msgid "Membership"
+msgstr "会员资格"
+
+#: public/editor-build/270-wp/texts.php:746
+msgid "Mega Menu"
+msgstr "超级菜单"
+
+#: public/editor-build/270-wp/texts.php:741
+msgid "Medium"
+msgstr "中等"
+
+#: public/editor-build/270-wp/texts.php:737
+msgid "Max. File Size"
+msgstr "最大文件大小限制"
+
+#: public/editor-build/270-wp/texts.php:736
+msgid "Max Time"
+msgstr "最长时间"
+
+#: public/editor-build/270-wp/texts.php:735
+msgid "Max Date"
+msgstr "最大日期"
+
+#: public/editor-build/270-wp/texts.php:734
+msgid "Max"
+msgstr "最大"
+
+#: public/editor-build/270-wp/texts.php:732
+msgid "Mask"
+msgstr "遮罩"
+
+#: public/editor-build/270-wp/texts.php:725
+msgid "Manual"
+msgstr "手动"
+
+#: public/editor-build/270-wp/texts.php:723
+msgid "Make it Nofollow"
+msgstr "Make it Nofollow"
+
+#: public/editor-build/270-wp/texts.php:722
+msgid "Make it Hamburger"
+msgstr "制作汉堡菜单"
+
+#: public/editor-build/270-wp/texts.php:719
+msgid "Main"
+msgstr "主要"
+
+#: editor/editor/editor.php:2078 public/editor-build/270-wp/texts.php:715
+msgid "Lottie"
+msgstr "Lottie"
+
+#: public/editor-build/270-wp/texts.php:714
+msgid "Lost Password"
+msgstr "忘记密码"
+
+#: public/editor-build/270-wp/texts.php:711
+msgid "Logout"
+msgstr "注销"
+
+#: public/editor-build/270-wp/texts.php:710
+msgid "Login"
+msgstr "登录"
+
+#: public/editor-build/270-wp/texts.php:709
+msgid "Locked"
+msgstr "锁定"
+
+#: public/editor-build/270-wp/texts.php:705
+msgid "Lists are empty. Please add a new list and try again."
+msgstr "列表为空。请添加新列表，然后重试。"
+
+#: editor/editor/editor.php:1966 public/editor-build/270-wp/texts.php:702
+msgid "Links"
+msgstr "链接"
+
+#: public/editor-build/270-wp/texts.php:697
+msgid "Linear"
+msgstr "线性"
+
+#: public/editor-build/270-wp/texts.php:692
+msgid "Like"
+msgstr "喜欢"
+
+#: public/editor-build/270-wp/texts.php:689
+msgid "Light"
+msgstr "浅色"
+
+#: public/editor-build/270-wp/texts.php:686
+msgid "Left"
+msgstr "左"
+
+#: public/editor-build/270-wp/texts.php:683
+msgid "Layouts"
+msgstr "布局"
+
+#: public/editor-build/270-wp/texts.php:681
+msgid "Lateral"
+msgstr "侧部"
+
+#: public/editor-build/270-wp/texts.php:680
+msgid "Last Name"
+msgstr "姓"
+
+#: public/editor-build/270-wp/texts.php:668
+msgid "Keyboard Shortcuts"
+msgstr "键盘快捷键"
+
+#: public/editor-build/270-wp/texts.php:664
+msgid "Item"
+msgstr "项目"
+
+#: public/editor-build/270-wp/texts.php:659
+msgid "Invalid api data"
+msgstr "无效api数据"
+
+#: public/editor-build/270-wp/texts.php:657
+msgid "Intro"
+msgstr "简介"
+
+#: public/editor-build/270-wp/texts.php:645
+msgid "Inputted a valid site key"
+msgstr "已输入有效的站点密钥"
+
+#: public/editor-build/270-wp/texts.php:644
+msgid "Input"
+msgstr "输入"
+
+#: public/editor-build/270-wp/texts.php:643
+msgid "Inline"
+msgstr "内联"
+
+#: editor/editor/editor.php:2104 public/editor-build/270-wp/texts.php:640
+msgid "Info"
+msgstr "信息"
+
+#: public/editor-build/270-wp/texts.php:635
+msgid "Incorrect username or password"
+msgstr "用户名或密码错误"
+
+#: public/editor-build/270-wp/texts.php:634
+msgid "Incorrect"
+msgstr "错误"
+
+#: public/editor-build/270-wp/texts.php:632
+msgid "Include Share Button"
+msgstr "包括共享按钮"
+
+#: public/editor-build/270-wp/texts.php:630
+msgid "Include Full Post"
+msgstr "包括全文"
+
+#: public/editor-build/270-wp/texts.php:624
+msgid "Import This Story"
+msgstr "导入此布局"
+
+#: public/editor-build/270-wp/texts.php:623
+msgid "Import This Layout"
+msgstr "导入此布局"
+
+#: public/editor-build/270-wp/texts.php:622
+msgid "Import New Popup"
+msgstr "导入新弹出窗口"
+
+#: public/editor-build/270-wp/texts.php:621
+msgid "Import New Layout"
+msgstr "导入新布局"
+
+#: public/editor-build/270-wp/texts.php:620
+msgid "Import New Block"
+msgstr "导入新块"
+
+#: public/editor-client/build/texts.php:45
+msgid "Image file is too large."
+msgstr "上传的文件太大。"
+
+#: public/editor-build/270-wp/texts.php:618
+msgid "Image Test"
+msgstr "图像测试"
+
+#: public/editor-build/270-wp/texts.php:615
+msgid "If you need to increase max upload size please contact your hosting."
+msgstr "如果您需要增加最大上传大小，请与您的主机联系。"
+
+#: public/editor-build/270-wp/texts.php:605
+msgid "Icons"
+msgstr "图标"
+
+#: public/editor-build/270-wp/texts.php:595
+msgid "Hours"
+msgstr "小时"
+
+#: public/editor-build/270-wp/texts.php:593
+msgid "Host"
+msgstr "主机"
+
+#: public/editor-build/270-wp/texts.php:592
+msgid "Horizontal Offset"
+msgstr "水平偏移"
+
+#: public/editor-build/270-wp/texts.php:591
+msgid "Horizontal Align"
+msgstr "水平对齐"
+
+#: public/editor-build/270-wp/texts.php:587
+msgid "Hide Hidden Elements"
+msgstr "隐藏隐藏元素"
+
+#: public/editor-build/270-wp/texts.php:586
+msgid "Hide Cover Photo"
+msgstr "隐藏封面照片"
+
+#: public/editor-build/270-wp/texts.php:584
+msgid "Hide"
+msgstr "隐藏"
+
+#: public/editor-build/270-wp/texts.php:583
+msgid "Hidden"
+msgstr "隐藏"
+
+#: public/editor-build/270-wp/texts.php:575
+msgid "Header"
+msgstr "页眉"
+
+#: public/editor-build/270-wp/texts.php:574
+msgid "Head"
+msgstr "头部"
+
+#: public/editor-build/270-wp/texts.php:572
+msgid "Handle"
+msgstr "处理"
+
+#: public/editor-build/270-wp/texts.php:555
+msgid "Group"
+msgstr "组"
+
+#: public/editor-build/270-wp/texts.php:550
+msgid "Global Popups"
+msgstr "全局弹出窗口"
+
+#: public/editor-build/270-wp/texts.php:549
+msgid "Global Blocks"
+msgstr "全局内容块"
+
+#: public/editor-build/270-wp/texts.php:546
+msgid "Get a PRO plan"
+msgstr "获取专业计划"
+
+#: public/editor-build/270-wp/texts.php:540
+msgid "Gallery Tags"
+msgstr "画廊标签"
+
+#: editor/editor/editor.php:2059 editor/editor/editor.php:2140
+#: public/editor-build/270-wp/texts.php:539
+msgid "Gallery"
+msgstr "画廊"
+
+#: public/editor-build/270-wp/texts.php:537
+msgid "Full name"
+msgstr "全名"
+
+#: public/editor-build/270-wp/texts.php:536
+msgid "Full Screen"
+msgstr "全屏"
+
+#: public/editor-build/270-wp/texts.php:532
+msgid "From Name"
+msgstr "发件人名字"
+
+#: public/editor-build/270-wp/texts.php:531
+msgid "From Email"
+msgstr "从电子邮件"
+
+#: public/editor-build/270-wp/texts.php:528
+msgid "Forms"
+msgstr "表单"
+
+#: public/editor-build/270-wp/texts.php:526
+msgid "Form Fields"
+msgstr "表单字段"
+
+#: editor/editor/editor.php:1967 public/editor-build/270-wp/texts.php:523
+msgid "Fonts"
+msgstr "字体"
+
+#: public/editor-build/270-wp/texts.php:522
+msgid "Font weight"
+msgstr "字体粗细"
+
+#: public/editor-build/270-wp/texts.php:521
+msgid "Font name"
+msgstr "字体名称"
+
+#: public/editor-build/270-wp/texts.php:519
+msgid "Font Name is Required"
+msgstr "字体名称为必填项"
+
+#: public/editor-build/270-wp/texts.php:518
+msgid "Followers"
+msgstr "关注者"
+
+#: public/editor-build/270-wp/texts.php:517
+msgid "Follow"
+msgstr "关注"
+
+#: public/editor-build/270-wp/texts.php:510
+msgid "First Name"
+msgstr "名字"
+
+#: public/editor-build/270-wp/texts.php:507
+msgid "Filters"
+msgstr "过滤器"
+
+#: public/editor-build/270-wp/texts.php:496
+msgid "File"
+msgstr "文件"
+
+#: public/editor-build/270-wp/texts.php:495
+msgid "Fields are empty. Please add fields and try again."
+msgstr "字段为空。请添加字段，然后重试。"
+
+#: public/editor-build/270-wp/texts.php:494
+msgid "Fields are empty"
+msgstr "字段为空"
+
+#: public/editor-build/270-wp/texts.php:489
+msgid "Features"
+msgstr "特征"
+
+#: editor/editor/editor.php:2099 public/editor-build/270-wp/texts.php:487
+msgid "Featured Image"
+msgstr "特色图片"
+
+#: public/editor-build/270-wp/texts.php:484
+msgid "Failed to upload file. Please upload a valid JPG, PNG, SVG or GIF image."
+msgstr "无法上传文件。请上传有效的 JPG、PNG、SVG 或 GIF 图像。"
+
+#: public/editor-client/build/texts.php:36
+msgid "Failed to update page"
+msgstr "无法更新页面"
+
+#: public/editor-build/270-wp/texts.php:483
+msgid "Failed to reset password"
+msgstr "重置密码失败"
+
+#: public/editor-build/270-wp/texts.php:480
+msgid "Failed to fetch api data"
+msgstr "无法获取 api 数据"
+
+#: public/editor-build/270-wp/texts.php:477
+msgid "Facebook Page"
+msgstr "Facebook页面"
+
+#: public/editor-build/270-wp/texts.php:476
+msgid "Facebook Group"
+msgstr "Facebook群组"
+
+#: public/editor-build/270-wp/texts.php:475
+msgid "Facebook Embed"
+msgstr "Facebook嵌入"
+
+#: public/editor-build/270-wp/texts.php:474
+msgid "Facebook Button"
+msgstr "Facebook按钮"
+
+#: editor/editor/editor.php:2084 public/editor-build/270-wp/texts.php:473
+msgid "Facebook"
+msgstr "Facebook"
+
+#: public/editor-build/270-wp/texts.php:472
+msgid "FORM FIELDS"
+msgstr "窗体字段"
+
+#: public/editor-build/270-wp/texts.php:471
+msgid "FONT VARIATION"
+msgstr "字体变化"
+
+#: public/editor-build/270-wp/texts.php:470
+msgid "FIELDS"
+msgstr "字段"
+
+#: public/editor-build/270-wp/texts.php:468
+msgid "Extra Light"
+msgstr "超细"
+
+#: public/editor-build/270-wp/texts.php:466
+msgid "Extra Bold"
+msgstr "特粗"
+
+#: public/editor-build/270-wp/texts.php:465
+msgid "Export All Popups"
+msgstr "导出所有弹出窗口"
+
+#: public/editor-build/270-wp/texts.php:464
+msgid "Export All Layouts"
+msgstr "导出所有布局"
+
+#: public/editor-build/270-wp/texts.php:463
+msgid "Export All Blocks"
+msgstr "导出所有块"
+
+#: editor/editor/editor.php:2103 public/editor-build/270-wp/texts.php:458
+msgid "Excerpt"
+msgstr "摘要"
+
+#: public/editor-build/270-wp/texts.php:456
+msgid "Events"
+msgstr "活动"
+
+#: public/editor-build/270-wp/texts.php:448
+msgid "Established a stable internet connection"
+msgstr "建立稳定的互联网连接"
+
+#: public/editor-build/270-wp/texts.php:444
+msgid "Enter the allowed file types, separated by a comma (jpg, gif, pdf, etc)."
+msgstr "输入允许的文件类型，以逗号分隔（jpg，gif，pdf等）。"
+
+#: public/editor-build/270-wp/texts.php:439
+msgid "Encryption"
+msgstr "加密"
+
+#: public/editor-build/270-wp/texts.php:438
+msgid "Enable tags"
+msgstr "启用标签"
+
+#: public/editor-build/270-wp/texts.php:437
+msgid "Enable on Tablet"
+msgstr "在平板上启用"
+
+#: public/editor-build/270-wp/texts.php:435
+msgid "Enable Tags"
+msgstr "启用标签"
+
+#: public/editor-build/270-wp/texts.php:429
+msgid "Email to recover password cannot be empty"
+msgstr "用于恢复密码的电子邮件不能为空"
+
+#: public/editor-build/270-wp/texts.php:428
+msgid "Email confirmation to join the list"
+msgstr "电子邮件确认加入列表"
+
+#: public/editor-build/270-wp/texts.php:427
+msgid "Email To"
+msgstr "发邮件给"
+
+#: public/editor-build/270-wp/texts.php:422
+msgid "Elements"
+msgstr "元素"
+
+#: public/editor-build/270-wp/texts.php:419
+msgid "Edit"
+msgstr "编辑"
+
+#: public/editor-build/270-wp/texts.php:418
+msgid "EOT File"
+msgstr "EOT文件"
+
+#: editor/editor/editor.php:1993 public/editor-build/270-wp/texts.php:417
+msgid "Dynamic Content"
+msgstr "动态内容"
+
+#: public/editor-build/270-wp/texts.php:414
+msgid "Duplicate Account"
+msgstr "重复账户"
+
+#: public/editor-build/270-wp/texts.php:412
+msgid "Drawer Position"
+msgstr "抽屉位置"
+
+#: public/editor-build/270-wp/texts.php:409
+msgid "Download this block"
+msgstr "下载此块"
+
+#: public/editor-build/270-wp/texts.php:401
+msgid "Done"
+msgstr "完成"
+
+#: public/editor-build/270-wp/texts.php:400
+msgid "Don't have tags"
+msgstr "没有标签"
+
+#: public/editor-build/270-wp/texts.php:399
+msgid "Don't have items"
+msgstr "没有物品"
+
+#: public/editor-build/270-wp/texts.php:398
+msgid "Dividers"
+msgstr "分隔线"
+
+#: public/editor-build/270-wp/texts.php:397
+msgid "Disqus"
+msgstr "Disqus"
+
+#: public/editor-build/270-wp/texts.php:393
+msgid "Display Close Button"
+msgstr "显示关闭按钮"
+
+#: public/editor-build/270-wp/texts.php:391
+msgid "Disconnect"
+msgstr "断开连接"
+
+#: public/editor-build/270-wp/texts.php:390
+msgid "Disable on Tablet"
+msgstr "在平板电脑上禁用"
+
+#: public/editor-build/270-wp/texts.php:380
+msgid "Deselected the “Verify the origin of reCAPTCHA solutions” checkbox within your Google account."
+msgstr "已取消选中 Google 帐户中的“验证 reCAPTCHA 解决方案的来源”注记格。"
+
+#: public/editor-build/270-wp/texts.php:372
+msgid "Default Roles"
+msgstr "默认角色"
+
+#: public/editor-build/270-wp/texts.php:370
+msgid "Days"
+msgstr "天"
+
+#: public/editor-build/270-wp/texts.php:365
+msgid "Dark"
+msgstr "暗色"
+
+#: public/editor-build/270-wp/texts.php:364
+msgid "DELETE"
+msgstr "删除"
+
+#: public/editor-build/270-wp/texts.php:362
+msgid "Custom Video"
+msgstr "自定义视频"
+
+#: public/editor-build/270-wp/texts.php:361
+msgid "Custom Text"
+msgstr "自定义文本"
+
+#: public/editor-build/270-wp/texts.php:359
+msgid "Custom Page"
+msgstr "自定义页面"
+
+#: public/editor-build/270-wp/texts.php:357
+msgid "Custom CSS"
+msgstr "自定义CSS"
+
+#: public/editor-build/270-wp/texts.php:356
+msgid "Custom Attributes"
+msgstr "自定义属性"
+
+#: public/editor-build/270-wp/texts.php:354
+msgid "Current Page"
+msgstr "当前页"
+
+#: public/editor-build/270-wp/texts.php:352
+msgid "Create your own"
+msgstr "创建你自己的"
+
+#: public/editor-build/270-wp/texts.php:351
+msgid "Create a new list"
+msgstr "创建一个新的列表"
+
+#: public/editor-build/270-wp/texts.php:350
+msgid "Create a menu"
+msgstr "创建菜单"
+
+#: public/editor-build/270-wp/texts.php:349
+msgid "Create Account & Connect"
+msgstr "创建帐户和连接"
+
+#: public/editor-build/270-wp/texts.php:348
+msgid "Create"
+msgstr "创建"
+
+#: public/editor-build/270-wp/texts.php:341
+msgid "Could not switch to draft"
+msgstr "无法切换到草稿"
+
+#: public/editor-build/270-wp/texts.php:340
+msgid "Could not save layout"
+msgstr "无法保存布局"
+
+#: public/editor-build/270-wp/texts.php:339
+msgid "Could not publish or save page"
+msgstr "无法发布或保存页面"
+
+#: public/editor-build/270-wp/texts.php:337
+msgid "Could not download Saved block"
+msgstr "无法下载已保存的块"
+
+#: public/editor-build/270-wp/texts.php:336
+msgid "Could not download Saved Popup"
+msgstr "无法下载保存的弹出窗口"
+
+#: public/editor-build/270-wp/texts.php:335
+msgid "Could not download Saved Layout"
+msgstr "无法下载保存的布局"
+
+#: public/editor-build/270-wp/texts.php:334
+msgid "Could not Create Saved Popup"
+msgstr "无法创建保存的弹出窗口"
+
+#: public/editor-build/270-wp/texts.php:333
+msgid "Could not Create Saved Block"
+msgstr "无法创建保存的块"
+
+#: public/editor-build/270-wp/texts.php:332
+msgid "Could not Create Global Popup"
+msgstr "无法创建全局弹出窗口"
+
+#: public/editor-build/270-wp/texts.php:331
+msgid "Could not Create Global Block"
+msgstr "无法创建全局块"
+
+#: public/editor-build/270-wp/texts.php:328
+msgid "Copy"
+msgstr "复制"
+
+#: public/editor-build/270-wp/texts.php:323
+msgid "Continue"
+msgstr "继续"
+
+#: public/editor-build/270-wp/texts.php:322
+msgid "Context Type"
+msgstr "上下文类型"
+
+#: public/editor-build/270-wp/texts.php:321
+msgid "Context"
+msgstr "上下文"
+
+#: public/editor-build/270-wp/texts.php:319
+msgid "Content Gap"
+msgstr "内容间距"
+
+#: public/editor-build/270-wp/texts.php:316
+msgid "Connect a new account"
+msgstr "连接新帐户"
+
+#: public/editor-build/270-wp/texts.php:315
+msgid "Connect"
+msgstr "连接"
+
+#: public/editor-build/270-wp/texts.php:313
+msgid "Conditions"
+msgstr "条件"
+
+#: editor/editor/editor.php:2089 public/editor-build/270-wp/texts.php:312
+msgid "Comments"
+msgstr "评论"
+
+#: public/editor-build/270-wp/texts.php:717
+msgid "Lottie Link"
+msgstr "Lottie链接"
+
+#: public/editor-build/270-wp/texts.php:716
+msgid "Lottie File"
+msgstr "Lottie文件"
+
+#: public/editor-build/270-wp/texts.php:1189
+msgid "Stars Bg"
+msgstr "星级背景"
+
+#: public/editor-build/270-wp/texts.php:1442
+msgid "is currently working on this page. Do you want to take over"
+msgstr "目前正在为这个页面工作。你是否想接管"
+
+#: public/editor-build/270-wp/texts.php:1327
+msgid "Unable to insert popup. Please try again or contact support"
+msgstr "不能插入弹窗。请重试或联系客服"
+
+#: editor/editor/editor.php:2087 public/editor-build/270-wp/texts.php:1304
+msgid "Twitter"
+msgstr "Twitter"
+
+#: public/editor-build/270-wp/texts.php:1384
+msgid "View as"
+msgstr "查看为"
+
+#: public/editor-build/270-wp/texts.php:1332
+msgid "Unsuccessful sync"
+msgstr "同步失败"
+
+#: public/editor-build/270-wp/texts.php:1331
+msgid "Unlocked"
+msgstr "已解锁"
+
+#: public/editor-build/270-wp/texts.php:1303
+msgid "Tweet"
+msgstr "Tweet"
+
+#: public/editor-build/270-wp/texts.php:1269
+msgid "Thumbs"
+msgstr "拇指"
+
+#: public/editor-build/270-wp/texts.php:1390
+msgid "WOFF File"
+msgstr "WOFF文件"
+
+#: public/editor-build/270-wp/texts.php:1391
+msgid "WOFF2 File"
+msgstr "WOFF2文件"
+
+#: public/editor-build/270-wp/texts.php:1412
+msgid "WordPress"
+msgstr "WordPress"
+
+#: public/editor-build/270-wp/texts.php:661
+msgid "It's a sample"
+msgstr "这是个样本"
+
+#: public/editor-build/270-wp/texts.php:1231
+msgid "Tablet"
+msgstr "平板"
+
+#: public/editor-build/270-wp/texts.php:654
+msgid "Inset"
+msgstr "内阴影"
+
+#: public/editor-build/270-wp/texts.php:855
+msgid "Outset"
+msgstr "外阴影"
+
+#: public/editor-build/270-wp/texts.php:598
+msgid "Hover Transition"
+msgstr "悬停过渡"
+
+#: public/editor-build/270-wp/texts.php:1160
+msgid "Solid"
+msgstr "纯色"
+
+#: public/editor-build/270-wp/texts.php:554
+msgid "Gradient"
+msgstr "渐变"
+
+#: public/editor-build/270-wp/texts.php:310
+msgid "Comment"
+msgstr "评论"
+
+#: public/editor-build/270-wp/texts.php:304
+msgid "Color"
+msgstr "颜色"
+
+#: public/editor-build/270-wp/texts.php:302
+msgid "Collapsible"
+msgstr "可折叠"
+
+#: public/editor-build/270-wp/texts.php:300
+msgid "Collaborate"
+msgstr "合作"
+
+#: public/editor-build/270-wp/texts.php:298
+msgid "Cloud"
+msgstr "云"
+
+#: public/editor-build/270-wp/texts.php:297
+msgid "Close Popup"
+msgstr "关闭弹出窗口"
+
+#: public/editor-build/270-wp/texts.php:296
+msgid "Close"
+msgstr "关"
+
+#: public/editor-build/270-wp/texts.php:295
+msgid "Click Outside to Close"
+msgstr "单击“外部”以关闭"
+
+#: public/editor-build/270-wp/texts.php:294
+msgid "Clear Layout"
+msgstr "清除布局"
+
+#: public/editor-build/270-wp/texts.php:293
+msgid "Clear"
+msgstr "清除"
+
+#: public/editor-build/270-wp/texts.php:292
+msgid "Classic"
+msgstr "经典"
+
+#: public/editor-build/270-wp/texts.php:288
+msgid "Checkbox"
+msgstr "复选框"
+
+#: public/editor-build/270-wp/texts.php:287
+msgid "Check your email address"
+msgstr "检查您的电子邮件地址"
+
+#: public/editor-build/270-wp/texts.php:282
+msgid "Cc"
+msgstr "抄送"
+
+#: public/editor-build/270-wp/texts.php:279
+msgid "Categories Tags"
+msgstr "分类和标签"
+
+#: public/editor-build/270-wp/texts.php:278
+msgid "Categories Pagination"
+msgstr "分类目录 分页"
+
+#: public/editor-build/270-wp/texts.php:275
+msgid "Cart Settings"
+msgstr "购物车设置"
+
+#: public/editor-build/270-wp/texts.php:273
+msgid "Cart Items"
+msgstr "购物车项目"
+
+#: editor/editor/editor.php:2061 public/editor-build/270-wp/texts.php:269
+msgid "Carousel"
+msgstr "轮播"
+
+#: public/editor-build/270-wp/texts.php:267
+msgid "Captions"
+msgstr "字幕"
+
+#: public/editor-build/270-wp/texts.php:266
+msgid "Cancel"
+msgstr "取消"
+
+#: public/editor-build/270-wp/texts.php:263
+msgid "CSS ID"
+msgstr "CSS ID"
+
+#: public/editor-build/270-wp/texts.php:261
+msgid "CREATE LIST"
+msgstr "创建列表"
+
+#: public/editor-build/270-wp/texts.php:260
+msgid "CMS"
+msgstr "CMS"
+
+#: public/editor-build/270-wp/texts.php:255
+msgid "Buttons"
+msgstr "按钮"
+
+#: public/editor-build/270-wp/texts.php:247
+msgid "Button Size"
+msgstr "按钮大小"
+
+#: public/editor-build/270-wp/texts.php:244
+msgid "Business Hour"
+msgstr "营业时间"
+
+#: public/editor-build/270-wp/texts.php:240
+msgid "Bubble"
+msgstr "气泡"
+
+#: public/editor-build/270-wp/texts.php:239
+msgid "Bub. Bg"
+msgstr "Bub. Bg"
+
+#: public/editor-build/270-wp/texts.php:238
+msgid "Bub."
+msgstr "Bub."
+
+#: editor/editor/editor.php:2106 public/editor-build/270-wp/texts.php:235
+msgid "Breadcrumbs"
+msgstr "面包屑"
+
+#: public/editor-build/270-wp/texts.php:234
+msgid "Branding"
+msgstr "品牌"
+
+#: public/editor-build/270-wp/texts.php:226
+msgid "Bottom"
+msgstr "底部"
+
+#: editor/editor/editor.php:1945 public/editor-build/270-wp/texts.php:221
+msgid "Blocks"
+msgstr "区块"
+
+#: public/editor-build/270-wp/texts.php:220
+msgid "Block will be synchronized"
+msgstr "块将被同步"
+
+#: public/editor-build/270-wp/texts.php:219
+msgid "Block is synchronized"
+msgstr "块已同步"
+
+#: public/editor-build/270-wp/texts.php:218
+msgid "Block conditions are available only in PRO"
+msgstr "仅在PRO中可用"
+
+#: public/editor-build/270-wp/texts.php:217
+msgid "Block Name"
+msgstr "模块名称"
+
+#: public/editor-build/270-wp/texts.php:214
+msgid "Black"
+msgstr "黑色"
+
+#: public/editor-build/270-wp/texts.php:212
+msgid "Bg Star"
+msgstr "Bg Star"
+
+#: public/editor-build/270-wp/texts.php:210
+msgid "Bg"
+msgstr "背景"
+
+#: public/editor-build/270-wp/texts.php:209
+msgid "Between"
+msgstr "之间"
+
+#: public/editor-build/270-wp/texts.php:208
+msgid "Bcc"
+msgstr "密件抄送"
+
+#: public/editor-build/270-wp/texts.php:190
+msgid "Back to Login"
+msgstr "返回登录"
+
+#: public/editor-build/270-wp/texts.php:189
+msgid "Back to Layouts"
+msgstr "返回布局"
+
+#: public/editor-build/270-wp/texts.php:186
+msgid "Back"
+msgstr "返回"
+
+#: public/editor-build/270-wp/texts.php:185
+msgid "Avatar"
+msgstr "头像"
+
+#: public/editor-build/270-wp/texts.php:184
+msgid "Autoplay"
+msgstr "自动播放"
+
+#: public/editor-build/270-wp/texts.php:183
+msgid "AutoPlay"
+msgstr "自动播放"
+
+#: public/editor-build/270-wp/texts.php:178
+msgid "Authentication"
+msgstr "认证"
+
+#: editor/editor/editor.php:2034 public/editor-build/270-wp/texts.php:177
+msgid "Audio"
+msgstr "音频"
+
+#: editor/editor/editor.php:2161 public/editor-build/270-wp/texts.php:176
+msgid "Attributes"
+msgstr "属性"
+
+#: public/editor-build/270-wp/texts.php:172
+msgid "Aside"
+msgstr "侧边"
+
+#: public/editor-build/270-wp/texts.php:169
+msgid "Article"
+msgstr "文章"
+
+#: public/editor-build/270-wp/texts.php:168
+msgid "Arrows Spacing"
+msgstr "箭头间距"
+
+#: public/editor-build/270-wp/texts.php:164
+msgid "Arrangement"
+msgstr "排列"
+
+#: public/editor-build/270-wp/texts.php:162
+msgid "Archives"
+msgstr "汇总页"
+
+#: public/editor-build/270-wp/texts.php:152
+msgid "Alt Title"
+msgstr "提示标题"
+
+#: public/editor-build/270-wp/texts.php:151
+msgid "Allowed File Types"
+msgstr "允许的文件类型"
+
+#: public/editor-build/270-wp/texts.php:149
+msgid "All fields marked with an asterisk ( * ) must be mapped."
+msgstr "必须映射所有标有星号（*）的字段。"
+
+#: public/editor-build/270-wp/texts.php:148
+msgid "All fields marked with an asterisk ( * ) must be completed."
+msgstr "所有标有星号 （ * ） 的字段都必须填写。"
+
+#: public/editor-build/270-wp/texts.php:147
+msgid "All fields cannot be empty"
+msgstr "所有字段都不能为空"
+
+#: public/editor-build/270-wp/texts.php:144
+msgid "Aligned Right"
+msgstr "右对齐"
+
+#: public/editor-build/270-wp/texts.php:143
+msgid "Aligned Left"
+msgstr "左对齐"
+
+#: public/editor-build/270-wp/texts.php:135
+msgid "Additionals"
+msgstr "附加部分"
+
+#: public/editor-build/270-wp/texts.php:129
+msgid "Add new trigger condition"
+msgstr "添加新的触发条件"
+
+#: public/editor-build/270-wp/texts.php:127
+msgid "Add new font variation"
+msgstr "添加新的字体变量"
+
+#: public/editor-build/270-wp/texts.php:126
+msgid "Add new display condition"
+msgstr "添加新的显示条件"
+
+#: public/editor-build/270-wp/texts.php:123
+msgid "Add To Cart"
+msgstr "添加到购物车"
+
+#: public/editor-build/270-wp/texts.php:121
+msgid "Add Shopify Elements"
+msgstr "添加 Shopify 元素"
+
+#: public/editor-build/270-wp/texts.php:119
+msgid "Add New Font"
+msgstr "添加新字体"
+
+#: public/editor-build/270-wp/texts.php:117
+msgid "Add New Block / Layout"
+msgstr "添加新块/布局"
+
+#: public/editor-build/270-wp/texts.php:114
+msgid "Add Font"
+msgstr "添加字体"
+
+#: public/editor-build/270-wp/texts.php:106
+msgid "Active"
+msgstr "激活"
+
+#: public/editor-build/270-wp/texts.php:105
+msgid "Activate Tab"
+msgstr "激活选项卡"
+
+#: public/editor-build/270-wp/texts.php:104
+msgid "Action"
+msgstr "行动号召"
+
+#: public/editor-build/270-wp/texts.php:103
+msgid "Accounts are empty. Please connect a new account and try again."
+msgstr "帐户为空。请连接新帐户，然后重试。"
+
+#: public/editor-build/270-wp/texts.php:102
+msgid "Accordion Tags"
+msgstr "折叠面板标签"
+
+#: public/editor-build/270-wp/texts.php:101
+msgid "Accordion Items"
+msgstr "折叠面板项目"
+
+#: public/editor-build/270-wp/texts.php:99
+msgid "Access your Library in any WP install by connecting your Account"
+msgstr "通过连接您的帐户在任何WP安装中访问您的库"
+
+#: public/editor-build/270-wp/texts.php:63
+msgid "ADD GOOGLE FONT"
+msgstr "添加谷歌字体"
+
+#: public/editor-build/270-wp/texts.php:62
+msgid "ADD FONT VARIATION"
+msgstr "添加字体变量"
+
+#: public/editor-build/270-wp/texts.php:61
+msgid "? (%s)"
+msgstr "?(%s)"
+
+#: public/editor-build/270-wp/texts.php:26
+msgid "+ 6:00 (Nur-Sultan)"
+msgstr "+ 6：00 （努尔-苏尔坦）"
+
+#: public/editor-build/270-wp/texts.php:6
+msgid "%s Selected"
+msgstr "%s 已选择"
+
+#: maintenance-mode.php:117
+msgid "Edit Page"
+msgstr "编辑页面"
+
+#: maintenance-mode.php:110
+msgid "Maintenance Mode ON"
+msgstr "开启维护模式"
+
+#: import/parsers/simplexml.php:26 import/parsers/simplexml.php:34
+msgid "There was an error when reading this WXR file"
+msgstr "读取此WXR文件时出错"
+
+#: import/parsers/regex.php:95 import/parsers/simplexml.php:38
+#: import/parsers/simplexml.php:43 import/parsers/xml.php:69
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "这似乎不是一个WXR文件，失踪/无效WXR版本号"
+
+#: import/parser.php:51
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr "详情见上图。导入程序现在将再次尝试使用不同的解析器…"
+
+#: import/main.php:101
+msgid "Template imported successfully."
+msgstr "已成功导入模板。"
+
+#: import/main.php:90
+msgid "Invalid demo id. Please contact our support."
+msgstr "演示 ID 无效。请联系我们的支持人员。"
+
+#: import/main.php:68
+msgid "Deletes your current content"
+msgstr "删除当前内容"
+
+#: import/main.php:67
+msgid "Choose this option if you want to start fresh and delete your current content. A backup is advisable, there is no turning back from this."
+msgstr "如果要重新开始并删除当前内容，请选择此选项。建议进行备份，这不会有任何回头路可走。"
+
+#: import/main.php:66
+msgid "Delete existing content"
+msgstr "删除现有内容"
+
+#: import/main.php:65
+msgid "Install Template"
+msgstr "安装模板"
+
+#: import/main.php:64
+msgid "Choose this option if you want to keep your current content. If you are using %s, some of the global options might overlap."
+msgstr "如果要保留当前内容，请选择此选项。如果使用%s，则某些全局选项可能会重叠。"
+
+#: import/main.php:63
+msgid "Keep existing content"
+msgstr "保留现有内容"
+
+#: import/main.php:62
+msgid "Please don’t close this window until the installation is finished. This might take up to a couple of minutes (five min, usually less)."
+msgstr "在安装完成之前，请不要关闭此窗口。这可能需要几分钟（五分钟，通常更短）。"
+
+#: import/main.php:61
+msgid "Installing Starter Template"
+msgstr "安装初学者模板"
+
+#: import/main.php:60
+msgid "Thank You!"
+msgstr "谢谢！"
+
+#: import/main.php:58
+msgid "Template Successfully Installed"
+msgstr "模板已成功安装"
+
+#: import/main.php:57
+msgid "Ok"
+msgstr "确定"
+
+#: import/main.php:56
+msgid "Bad news, your starter template was not installed. Something went wrong and we couldn’t do it. Please contact us."
+msgstr "坏消息，您的初学者模板未安装。出了点问题，我们做不到。请与我们联系。"
+
+#: import/main.php:55 public/editor-build/270-wp/texts.php:1162
+#: public/editor-client/build/texts.php:50
+msgid "Something went wrong"
+msgstr "出了些问题"
+
+#: editor/editor/editor.php:2097 import/main.php:52
+#: public/editor-build/270-wp/texts.php:1071
+msgid "Search"
+msgstr "搜索"
+
+#: import/main.php:51
+msgid "Pro"
+msgstr "专业版"
+
+#: import/main.php:50
+msgid "Free"
+msgstr "免费"
+
+#: import/main.php:49
+msgid "Install"
+msgstr "安装"
+
+#: import/main.php:48
+msgid "Live Preview"
+msgstr "实时预览"
+
+#: import/main.php:47 public/editor-build/270-wp/texts.php:145
+msgid "All"
+msgstr "全部"
+
+#: import/importer.php:719
+msgid "The uploaded file could not be moved"
+msgstr "上传的文件无法移动"
+
+#: import/importer.php:678
+msgid "Invalid file type"
+msgstr "无效的文件类型"
+
+#: import/importer.php:607
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "菜单项由于无效菜单节点跳过：%s"
+
+#: import/importer.php:601
+msgid "Menu item skipped due to missing menu slug."
+msgstr "由于缺少菜单辅助信息，因此跳过了菜单项。"
+
+#: import/importer.php:459
+msgid "Failed to import %s %s. Error: %s"
+msgstr "无法导入%s %s。错误：%s"
+
+#: import/importer.php:423
+msgid "Failed to import %s \"%s\". Error: %s"
+msgstr "无法导入%s“%s”。错误：%s"
+
+#: import/importer.php:326
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "无法导入 &#8220;%s&#8221;：无效的帖子类型%s"
+
+#: import/importer.php:236
+msgid "Failed to import %s %s"
+msgstr "无法导入 %s %s"
+
+#: import/importer.php:184
+msgid "Failed to import post tag %s"
+msgstr "无法导入帖子标签%s"
+
+#: import/importer.php:142
+msgid "Failed to import category %s"
+msgstr "无法导入类别%s"
+
+#: editor/zip/archiver.php:188
+msgid "Unsupported zip file version"
+msgstr "不支持的 zip 文件版本"
+
+#: editor/zip/archiver.php:183
+msgid "Unsupported object found in zip file"
+msgstr "在 zip 文件中找到不受支持的对象"
+
+#: editor/zip/archiver.php:127
+msgid "Unable to find the archive."
+msgstr "找不到存档。"
+
+#: editor/zip/archiver.php:73
+msgid "Failed to create archive."
+msgstr "无法创建存档。"
+
+#: editor/zip/archiver.php:36
+msgid "Please install/enable php zip extension. Contact your hosting company for more info and help."
+msgstr "请安装/启用 php zip 扩展名。请联系您的托管公司以获取更多信息和帮助。"
+
+#: editor/rest-extend.php:27
+msgid "Brizy attached media"
+msgstr "Brizy附加媒体"
+
+#: editor/project.php:96
+msgid "Brizy Project."
+msgstr "Brizy项目"
+
+#: editor/block-screenshot-api.php:81
+msgid "Invalid image content"
+msgstr "无效的图像内容"
+
+#: editor/block-screenshot-api.php:71
+msgid "Invalid uid string"
+msgstr "无效的 uid 字符串"
+
+#: editor/block-screenshot-api.php:61
+msgid "Bad request"
+msgstr "错误的请求"
+
+#: editor/auto-save-aware.php:42
+msgid "There is nothing to save. The autosave and the post content are the same."
+msgstr "没有什么可以节省的。 自动保存和帖子内容是相同的。"
+
+#: editor.php:634
+msgid "Original"
+msgstr "原始的"
+
+#: editor.php:314
+msgid " Template"
+msgstr " 模板"
+
+#: content/providers/free-provider.php:186
+msgid "Please set a valid product"
+msgstr "请设置有效的产品"
+
+#: content/providers/free-provider.php:141
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s 评论"
+
+#: brizy.php:92
+msgid "%1$s failed to start. Please contact the support <a href=\"%s\">here</a>."
+msgstr "%1$s 无法启动。请 <a href=\"%s\">在此处</a>联系支持人员。"
+
+#: system-checks.php:37
+msgid "%1$s requires PHP version 5.6+, you currently running PHP %2$s. <b>%3$s IS NOT RUNNING.</b>"
+msgstr "%1$s 需要 PHP 版本 5.6+，您当前运行的是 PHP %2$s。 <b>%3$s 未运行。</b>"
+
+#: admin/views/settings/maintenance.php:66
+msgid "Whitelisted IP Addresses"
+msgstr "白名单的IP地址"
+
+#: admin/views/settings/maintenance.php:60
+msgid "You have no pages. Please %s create %s one."
+msgstr "您没有页面。请%s创建%s一个。"
+
+#: admin/views/settings/maintenance.php:54
+msgid "Select a page"
+msgstr "选择一个页面"
+
+#: admin/views/settings/maintenance.php:49
+msgid "Choose a Page"
+msgstr "选择一个页面"
+
+#: admin/views/settings/maintenance.php:22
+msgid "Who Can Access"
+msgstr "谁可以访问"
+
+#: admin/views/settings/maintenance.php:16
+msgid "Maintenance"
+msgstr "维护"
+
+#: admin/views/settings/maintenance.php:15
+msgid "Coming Soon"
+msgstr "即将推出"
+
+#: admin/views/settings/maintenance.php:14
+msgid "Disabled"
+msgstr "已停用"
+
+#: admin/views/settings/maintenance.php:10
+msgid "Choose Mode"
+msgstr "选择模式"
+
+#: admin/views/settings/general.php:43
+msgid "Enable JSON uploads"
+msgstr "启用 JSON 上传"
+
+#: admin/views/settings/general.php:27
+msgid "Enable SVG uploads"
+msgstr "启用 SVG 上传"
+
+#: admin/views/notice.php:14
+msgid "Dismiss this notice"
+msgstr "关闭此通知"
+
+#: admin/views/membership/checklist.php:12
+#: admin/views/settings/maintenance.php:33
+#: public/editor-build/270-wp/texts.php:1035
+msgid "Roles"
+msgstr "角色"
+
+#: admin/views/dashboard.php:23
+msgid "Go PRO"
+msgstr "升级到专业版"
+
+#: admin/views/dashboard.php:17 public/editor-build/270-wp/texts.php:582
+msgid "Help"
+msgstr "帮助"
+
+#: admin/views/dashboard.php:12
+msgid "Blog"
+msgstr "博客"
+
+#: admin/views/dashboard-posts.php:4
+msgid "Recently Edited"
+msgstr "最近编辑"
+
+#: admin/views/dashboard-news.php:20
+msgid "No News"
+msgstr "暂无新闻"
+
+#: admin/views/dashboard-news.php:10
+msgid "New"
+msgstr "新的"
+
+#: admin/views/dashboard-news.php:4
+msgid "News & Updates"
+msgstr "新闻与更新"
+
+#: admin/views/button.php:19 compatibilities/gutenberg.php:84
+msgid "Back to WordPress Editor"
+msgstr "返回 WordPress 编辑器"
+
+#: admin/templates.php:845 admin/templates.php:865
+msgid "Invalid data version."
+msgstr "无效的数据版本。"
+
+#: admin/templates.php:838
+msgid "Unable to get the rule validator for this post type."
+msgstr "无法获取此帖子类型的规则验证程序。"
+
+#: admin/templates.php:282
+msgid "Unable to show the rule box."
+msgstr "无法显示规则框。"
+
+#: admin/templates.php:250 public/editor-build/270-wp/texts.php:394
+msgid "Display Conditions"
+msgstr "显示条件"
+
+#: admin/templates.php:222
+msgid "templates"
+msgstr "模板"
+
+#: admin/templates.php:213
+msgid "No Templates found in Trash."
+msgstr "回收站未找到模板。"
+
+#: admin/templates.php:212
+msgid "No Templates found."
+msgstr "没有发现模板。"
+
+#: admin/templates.php:211
+msgid "Parent Templates:"
+msgstr "父级模版："
+
+#: admin/templates.php:210
+msgid "Search Templates"
+msgstr "搜索模板"
+
+#: admin/templates.php:209
+msgid "Templates"
+msgstr "模板"
+
+#: admin/templates.php:207
+msgid "Edit Template"
+msgstr "编辑模板"
+
+#: admin/templates.php:206
+msgid "New Template"
+msgstr "新模板"
+
+#: admin/templates.php:205
+msgid "Add New Template"
+msgstr "添加新模板"
+
+#: admin/templates.php:203
+msgctxt "add new on admin bar"
+msgid "Template"
+msgstr "模板"
+
+#: admin/templates.php:202
+msgctxt "admin menu"
+msgid "Templates"
+msgstr "模板"
+
+#: admin/templates.php:201
+msgctxt "post type singular name"
+msgid "Template"
+msgstr "模板"
+
+#: admin/templates.php:200
+msgctxt "post type general name"
+msgid "Templates"
+msgstr "模板"
+
+#: admin/templates.php:188
+msgid "Preview Template"
+msgstr "预览模板"
+
+#: admin/templates.php:179 admin/templates.php:208
+msgid "View Template"
+msgstr "查看模板"
+
+#: admin/templates.php:173
+msgid "Template draft updated."
+msgstr "模板草稿已更新。"
+
+#: admin/templates.php:169
+msgid "Template scheduled for: <strong>%1$s</strong>."
+msgstr "计划用于的模板： <strong>%1$s</strong>。"
+
+#: admin/templates.php:167
+msgid "Template submitted."
+msgstr "模板已提交。"
+
+#: admin/templates.php:166
+msgid "Template saved."
+msgstr "模板已保存."
+
+#: admin/templates.php:165
+msgid "Template published."
+msgstr "模板发布。"
+
+#: admin/templates.php:162
+msgid "Template restored to revision from %s"
+msgstr "模板从%s恢复到修订版"
+
+#: admin/templates.php:156 admin/templates.php:159
+msgid "Template updated."
+msgstr "模板更新。"
+
+#: admin/templates.php:126
+msgid "Product Archive"
+msgstr "产品归档"
+
+#: admin/templates.php:120 editor/editor/editor.php:2115
+#: public/editor-build/270-wp/texts.php:161
+msgid "Archive"
+msgstr "存档"
+
+#: admin/templates.php:119
+msgid "Single"
+msgstr "单个"
+
+#: admin/stories/main.php:126
+msgid "Preview Story"
+msgstr "预览故事"
+
+#: admin/stories/main.php:111
+msgid "Story draft updated."
+msgstr "故事草案更新。"
+
+#. translators: Publish box date format, see http://php.net/date
+#: admin/stories/main.php:109 admin/templates.php:171
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: admin/stories/main.php:107
+msgid "Story scheduled for: <strong>%1$s</strong>."
+msgstr "计划的模板：<strong> %1$s </strong>。"
+
+#: admin/stories/main.php:105
+msgid "Story submitted."
+msgstr "提交的故事。"
+
+#: admin/stories/main.php:104
+msgid "Story saved."
+msgstr "故事已保存。"
+
+#: admin/stories/main.php:103
+msgid "Story published."
+msgstr "故事发表。"
+
+#: admin/stories/main.php:100
+msgid "Story restored to revision from %s"
+msgstr "故事从 %s恢复到修订版"
+
+#: admin/stories/main.php:96 admin/templates.php:158
+msgid "Custom field deleted."
+msgstr "自定义字段已删除。"
+
+#: admin/stories/main.php:95 admin/templates.php:157
+msgid "Custom field updated."
+msgstr "自定义字段更新。"
+
+#: admin/stories/main.php:94 admin/stories/main.php:97
+msgid "Story updated."
+msgstr "故事更新。"
+
+#: admin/stories/main.php:60 public/editor-build/270-wp/texts.php:1449
+msgid "stories"
+msgstr "故事"
+
+#: admin/stories/main.php:52
+msgid "No Stories found in Trash."
+msgstr "在垃圾桶中找不到Stories。"
+
+#: admin/stories/main.php:49
+msgid "Search Stories"
+msgstr "搜索故事"
+
+#: admin/stories/main.php:48 public/editor-build/270-wp/texts.php:1196
+msgid "Stories"
+msgstr "故事"
+
+#: admin/stories/main.php:47 admin/stories/main.php:117
+msgid "View Story"
+msgstr "查看故事"
+
+#: admin/stories/main.php:46
+msgid "Edit Story"
+msgstr "编辑故事"
+
+#: admin/stories/main.php:45
+msgid "New Story"
+msgstr "新连载"
+
+#: admin/stories/main.php:43 admin/stories/main.php:44
+msgid "Add New Story"
+msgstr "添加新故事"
+
+#: admin/stories/main.php:41
+msgctxt "admin menu"
+msgid "Stories"
+msgstr "故事"
+
+#: admin/stories/main.php:39
+msgctxt "post type general name"
+msgid "Stories"
+msgstr "故事"
+
+#: admin/settings.php:183
+msgid "Maintenance Mode"
+msgstr "维护模式"
+
+#: admin/settings.php:177
+msgid "Role Manager"
+msgstr "角色管理"
+
+#: admin/settings.php:171
+msgid "General"
+msgstr "常规"
+
+#: admin/settings.php:142
+msgid "Get Help"
+msgstr "获取帮助"
+
+#: admin/rules/api.php:560
+msgid "Any child of"
+msgstr "任何子"
+
+#: admin/rules/api.php:544
+msgid "Specific"
+msgstr "特定"
+
+#: admin/rules/api.php:481
+msgid "From any child of"
+msgstr "从任何一个子"
+
+#: admin/rules/api.php:463
+msgid "From"
+msgstr "从"
+
+#: admin/popups/main.php:110
+msgid "View Popup"
+msgstr "查看弹窗"
+
+#: admin/popups/main.php:109
+msgid "Edit Popup"
+msgstr "编辑弹窗"
+
+#: admin/popups/main.php:108
+msgid "New Popup"
+msgstr "新的弹窗"
+
+#: admin/popups/main.php:107
+msgid "Add New Popup"
+msgstr "新增弹窗"
+
+#: admin/popups/main.php:105
+msgctxt "add new on admin bar"
+msgid "Popup"
+msgstr "弹窗"
+
+#: admin/popups/main.php:103
+msgctxt "post type singular name"
+msgid "Popup"
+msgstr "弹窗"
+
+#: admin/settings.php:312
+msgid "No Access"
+msgstr "无法访问"
+
+#: admin/membership/membership.php:89
+msgid "View Page As %s"
+msgstr "以%s方式查看页面"
+
+#: admin/membership/membership.php:79
+msgid "View Page By Roles"
+msgstr "按角色查看页面"
+
+#: admin/membership/membership.php:72 admin/views/settings/maintenance.php:26
+msgid "Logged In"
+msgstr "登录"
+
+#: admin/main.php:312
+msgid "Skip & Deactivate"
+msgstr "跳过与禁用"
+
+#: admin/main.php:311
+msgid "Submit & Deactivate"
+msgstr "提交与禁用"
+
+#: admin/main.php:252 admin/settings.php:159 import/main.php:54
+msgid "Go Pro"
+msgstr "获取专业版"
+
+#: admin/main.php:88
+msgid "Edit or Update Image"
+msgstr "编辑或更新图像"
+
+#: admin/layouts/main.php:43
+msgid "Layout."
+msgstr "布局。"
+
+#: admin/layouts/main.php:35
+msgctxt "post type general name"
+msgid "Layouts"
+msgstr "布局"
+
+#: admin/layouts/api.php:82
+msgid "There are no layouts to be archived"
+msgstr "没有要存档的布局"
+
+#: admin/form-entries.php:345
+msgid "No Leads found in Trash."
+msgstr "在回收站中找不到任何线索。"
+
+#: admin/form-entries.php:343
+msgid "Parent Leads:"
+msgstr "父引导:"
+
+#: admin/form-entries.php:342
+msgid "Search Leads"
+msgstr "搜索引导"
+
+#: admin/form-entries.php:340
+msgid "View Lead"
+msgstr "查看项目"
+
+#: admin/form-entries.php:339
+msgid "Edit Lead"
+msgstr "编辑项目"
+
+#: admin/form-entries.php:338
+msgid "New Lead"
+msgstr "新项目"
+
+#: admin/form-entries.php:334
+msgctxt "admin menu"
+msgid "Leads"
+msgstr "潜在客户"
+
+#: admin/form-entries.php:332
+msgctxt "post type general name"
+msgid "Leads"
+msgstr "潜在客户"
+
+#: admin/form-entries.php:200
+msgid "Export to .csv"
+msgstr "导出CSV"
+
+#: admin/form-entries.php:143
+msgid "Disable"
+msgstr "禁用"
+
+#: admin/form-entries.php:120 admin/form-entries.php:341
+#: admin/form-entries.php:353
+msgid "Leads"
+msgstr "潜在客户"
+
+#: admin/fonts/main.php:105
+msgid "font"
+msgstr "字体"
+
+#: admin/fonts/main.php:97
+msgctxt "post type general name"
+msgid "Fonts"
+msgstr "字体"
+
+#: admin/feedback.php:146
+msgid "If you have a moment, please share why you are deactivating Brizy:"
+msgstr "如果您有时间，请分享您停用 Brizy 的原因："
+
+#: admin/feedback.php:142
+msgid "Quick Feedback"
+msgstr "快速反馈"
+
+#: admin/feedback.php:133
+msgid "Please share the reason"
+msgstr "请分享原因"
+
+#: admin/feedback.php:132
+msgid "Other"
+msgstr "其他"
+
+#: admin/feedback.php:129
+msgid "Wait! Don't deactivate Brizy. You have to activate both Brizy and Brizy Pro in order for the plugin to work."
+msgstr "等！不要停用brizy。您必须同时激活 Brizy 和 Brizy Pro，以便插件正常工作。"
+
+#: admin/feedback.php:127
+msgid "I have Brizy Pro"
+msgstr "我有Brizy Pro"
+
+#: admin/feedback.php:123
+msgid "It's a temporary deactivation"
+msgstr "这是暂时的失活"
+
+#: admin/feedback.php:119
+msgid "I couldn't get the plugin to work"
+msgstr "我无法让插件工作"
+
+#: admin/feedback.php:116
+msgid "Please share which plugin"
+msgstr "请分享哪个插件"
+
+#: admin/feedback.php:115
+msgid "I found a better plugin"
+msgstr "我找到了一个更好的插件"
+
+#: admin/feedback.php:111
+msgid "I no longer need the plugin"
+msgstr "我不再需要插件"
+
+#: admin/feedback.php:44
+msgid "I already did"
+msgstr "我已经做了"
+
+#: admin/feedback.php:40
+msgid "Nope, maybe later"
+msgstr "不,以后再说"
+
+#: admin/feedback.php:36
+msgid "Ok, you deserve it"
+msgstr "好的，你应得的"
+
+#: admin/feedback.php:32
+msgid "Could you please do us a BIG favor and give it a 5-star rating on WordPress? This would boost our motivation and help other users make a comfortable decision while choosing the Brizy plugin."
+msgstr "你能不能帮我们一个大忙，在WordPress上给它一个五星级的评价？这将提高我们的积极性，并帮助其他用户在选择Brizy插件时做出一个舒适的决定。"
+
+#: admin/feedback.php:30
+msgid "Hello! Seems like you are using Brizy to build your website - Thanks a lot!"
+msgstr "你好！似乎您正在使用Brizy来构建您的网站 - 非常感谢！"
+
+#: admin/dashboard-widget.php:94
+msgid "%1$s failed to extract the latest news. Please contact our %2$ssupport%3$s."
+msgstr "%1$s未能提取最新消息。请联系我们的%2$s支持%3$s。"
+
+#: admin/dashboard-widget.php:76
+msgid "There is no body in the remote server response."
+msgstr "远程服务器响应中没有正文。"
+
+#: admin/dashboard-widget.php:38
+msgid "%s Overview"
+msgstr "%s 概述"
+
+#: admin/cloud/cron.php:56
+msgid "Once in 5 minutes"
+msgstr "5分钟一次"
+
+#: admin/blocks/api.php:154
+msgid "Invalid block file"
+msgstr "无效的块文件"
+
+#: admin/blocks/main.php:108 admin/blocks/main.php:130
+msgid "global block."
+msgstr "全局模块。"
+
+#: admin/blocks/main.php:100
+msgctxt "post type general name"
+msgid "Global blocks"
+msgstr "全局模块"
+
+#: admin/form-entries.php:335
+msgctxt "add new on admin bar"
+msgid "Lead"
+msgstr "潜在客户"
+
+#: admin/form-entries.php:337
+msgid "Add New Lead"
+msgstr "添加新潜在客户"
+
+#: admin/form-entries.php:333
+msgctxt "post type singular name"
+msgid "Lead"
+msgstr "潜在客户"
+
+#: admin/form-entries.php:61
+msgid "Leads details"
+msgstr "潜在客户详情"
+
+#: admin/blocks/main.php:122
+msgctxt "brizy"
+msgid "Saved blocks"
+msgstr "已保存的模块"
+
+#: admin/settings.php:315
+msgid "Full Access"
+msgstr "完全访问"
+
+#: admin/main.php:423 admin/views/button.php:25 admin/views/button.php:44
+#: compatibilities/gutenberg.php:92 compatibilities/gutenberg.php:106
+msgid "Edit with %s"
+msgstr "用%s编辑"
+
+#: admin/popups/main.php:116
+msgid "Popup attributes:"
+msgstr "弹窗属性："
+
+#: admin/popups/main.php:115
+msgid "No Popups found in Trash."
+msgstr "回收站中找不到弹窗。"
+
+#: admin/popups/main.php:114
+msgid "No Popups found."
+msgstr "找不到弹窗。"
+
+#: admin/popups/main.php:113
+msgid "Parent Popups:"
+msgstr "父级弹窗:"
+
+#: admin/popups/main.php:111 admin/popups/main.php:125
+#: public/editor-build/270-wp/texts.php:899
+msgid "Popups"
+msgstr "弹窗"
+
+#: admin/popups/main.php:104
+msgctxt "admin menu"
+msgid "Popups"
+msgstr "弹窗"
+
+#: admin/popups/main.php:102
+msgctxt "post type general name"
+msgid "Popups"
+msgstr "弹窗"
+
+#: admin/popups/main.php:112
+msgid "Search Popups"
+msgstr "搜索弹窗"
+
+#: admin/stories/main.php:50
+msgid "Parent Stories:"
+msgstr "父级故事："
+
+#: admin/stories/main.php:42
+msgctxt "add new on admin bar"
+msgid "Story"
+msgstr "故事"
+
+#: admin/stories/main.php:40
+msgctxt "post type singular name"
+msgid "Story"
+msgstr "故事"
+
+#: import/main.php:34 import/main.php:35
+msgid "Starter Templates"
+msgstr "初始模板"
+
+#: public/editor-build/270-wp/texts.php:237
+msgid "Btn Color"
+msgstr "按钮颜色"
+
+#: public/editor-build/270-wp/texts.php:236
+msgid "Btn Bg"
+msgstr "按钮背景"
+
+#: admin/blocks/api.php:189
+msgid "Invalid zip file provided"
+msgstr "提供的压缩文件无效"
+
+#: public/editor-build/270-wp/texts.php:98
+msgid "APPS"
+msgstr "APPS"
+
+#: public/editor-build/270-wp/texts.php:191
+msgid "Back to Stories"
+msgstr "返回故事"
+
+#: admin/stories/main.php:51
+msgid "No Stories found."
+msgstr "未找到故事。"
+
+#: admin/form-entries.php:344
+msgid "No Leads found."
+msgstr "没有发现潜在客户。"
+
+#: public/editor-build/270-wp/texts.php:1446
+msgid "or"
+msgstr "或"
+
+#: public/editor-build/270-wp/texts.php:1445
+msgid "open an issue"
+msgstr "开放一个问题"
+
+#: public/editor-build/270-wp/texts.php:1419
+msgid "You can"
+msgstr "您可以"
+
+#: public/editor-build/270-wp/texts.php:155
+msgid "An error happened while trying to display this element"
+msgstr "尝试显示此元素时发生错误"
+
+#: public/editor-build/270-wp/texts.php:1061
+msgid "Saved"
+msgstr "已保存"
+
+#: public/editor-build/270-wp/texts.php:1058
+msgid "Save"
+msgstr "保存"
+
+#: public/editor-build/270-wp/texts.php:721
+msgid "Make it Global"
+msgstr "全局状态"
+
+#: public/editor-build/270-wp/texts.php:216
+msgid "Block"
+msgstr "块"
+
+#: public/editor-build/270-wp/texts.php:501
+msgid "Filter By"
+msgstr "过滤"
+
+#: public/editor-build/270-wp/texts.php:755
+msgid "Message sent"
+msgstr "消息已发送"
+
+#: public/editor-build/270-wp/texts.php:446
+msgid "Error"
+msgstr "错误"
+
+#: import/main.php:53 public/editor-build/270-wp/texts.php:146
+msgid "All Categories"
+msgstr "所有分类"
+
+#: public/editor-build/270-wp/texts.php:1293
+msgid "Trash"
+msgstr "垃圾箱"
+
+#: public/editor-build/270-wp/texts.php:410
+msgid "Draft"
+msgstr "草稿"
+
+#: public/editor-build/270-wp/texts.php:179
+msgid "Author"
+msgstr "作者"
+
+#: public/editor-build/270-wp/texts.php:902
+msgid "Post"
+msgstr "文章"
+
+#: public/editor-build/270-wp/texts.php:601
+msgid "ID"
+msgstr "ID"
+
+#: editor/editor/editor.php:904 editor/editor/editor.php:911
+#: public/editor-build/270-wp/texts.php:970
+msgid "Random"
+msgstr "随机"
+
+#: public/editor-build/270-wp/texts.php:896
+msgid "Popularity"
+msgstr "受欢迎程度"
+
+#: editor/editor/editor.php:2064 editor/editor/editor.php:2157
+#: public/editor-build/270-wp/texts.php:972
+msgid "Rating"
+msgstr "评分"
+
+#: public/editor-build/270-wp/texts.php:862
+msgid "Page"
+msgstr "页"
+
+#: public/editor-build/270-wp/texts.php:1153
+msgid "Slug"
+msgstr "别名"
+
+#: public/editor-build/270-wp/texts.php:682
+msgid "Layout"
+msgstr "布局"
+
+#: public/editor-build/270-wp/texts.php:889
+msgid "Play"
+msgstr "播放"
+
+#: public/editor-build/270-wp/texts.php:346
+msgid "Cover"
+msgstr "封面"
+
+#: public/editor-build/270-wp/texts.php:324
+msgid "Controls"
+msgstr "控件"
+
+#: public/editor-build/270-wp/texts.php:423
+msgid "Email"
+msgstr "电子邮件"
+
+#: public/editor-build/270-wp/texts.php:1003
+msgid "Required"
+msgstr "必填"
+
+#: public/editor-build/270-wp/texts.php:552
+msgid "Go to"
+msgstr "去"
+
+#: public/editor-build/270-wp/texts.php:980
+msgid "Redirect"
+msgstr "重定向"
+
+#: public/editor-build/270-wp/texts.php:1215
+msgid "Success"
+msgstr "成功"
+
+#: public/editor-build/270-wp/texts.php:753
+msgid "Message"
+msgstr "消息"
+
+#: public/editor-build/270-wp/texts.php:1044
+msgid "Russian"
+msgstr "俄语"
+
+#: public/editor-build/270-wp/texts.php:416
+msgid "Dutch"
+msgstr "荷兰语"
+
+#: public/editor-build/270-wp/texts.php:662
+msgid "Italian"
+msgstr "意大利语"
+
+#: public/editor-build/270-wp/texts.php:529
+msgid "French"
+msgstr "法语"
+
+#: public/editor-build/270-wp/texts.php:441
+msgid "English"
+msgstr "英语"
+
+#: public/editor-build/270-wp/texts.php:676
+msgid "Language"
+msgstr "语言"
+
+#: public/editor-build/270-wp/texts.php:594
+msgid "Hour"
+msgstr "时"
+
+#: public/editor-build/270-wp/texts.php:663
+msgid "Italic"
+msgstr "斜体"
+
+#: public/editor-build/270-wp/texts.php:224
+msgid "Bold"
+msgstr "粗体"
+
+#: public/editor-build/270-wp/texts.php:1139
+msgid "Size"
+msgstr "尺寸"
+
+#: public/editor-build/270-wp/texts.php:901
+msgid "Position"
+msgstr "位置"
+
+#: editor/editor/editor.php:2132 public/editor-build/270-wp/texts.php:318
+msgid "Content"
+msgstr "内容"
+
+#: public/editor-build/270-wp/texts.php:377
+msgid "Delete"
+msgstr "删除"
+
+#: public/editor-build/270-wp/texts.php:225
+msgid "Border"
+msgstr "边框"
+
+#: public/editor-build/270-wp/texts.php:307
+msgid "Colors"
+msgstr "颜色"
+
+#: public/editor-build/270-wp/texts.php:713
+msgid "Loop"
+msgstr "循环"
+
+#: public/editor-build/270-wp/texts.php:869
+msgid "Parallax"
+msgstr "视差"
+
+#: admin/views/settings/maintenance.php:27
+#: public/editor-build/270-wp/texts.php:355
+msgid "Custom"
+msgstr "自定义"
+
+#: public/editor-build/270-wp/texts.php:581
+msgid "Height"
+msgstr "高度"
+
+#: public/editor-build/270-wp/texts.php:854
+msgid "Outline"
+msgstr "轮廓"
+
+#: public/editor-build/270-wp/texts.php:1185
+msgid "Square"
+msgstr "实心方块"
+
+#: public/editor-build/270-wp/texts.php:801
+msgid "Navigation"
+msgstr "导航"
+
+#: public/editor-build/270-wp/texts.php:1151
+msgid "Slider"
+msgstr "幻灯"
+
+#: public/editor-build/270-wp/texts.php:138
+msgid "Advanced"
+msgstr "高级"
+
+#: public/editor-build/270-wp/texts.php:783
+msgid "More"
+msgstr "更多"
+
+#: editor/editor/editor.php:2058 public/editor-build/270-wp/texts.php:749
+msgid "Menu"
+msgstr "菜单"
+
+#: editor/editor/editor.php:2119 public/editor-build/270-wp/texts.php:952
+msgid "Products"
+msgstr "产品"
+
+#: editor/editor/editor.php:2128 public/editor-build/270-wp/texts.php:866
+msgid "Pages"
+msgstr "页面"
+
+#: editor/editor/editor.php:2124 public/editor-build/270-wp/texts.php:276
+msgid "Categories"
+msgstr "分类"
+
+#: public/editor-build/270-wp/texts.php:1041
+msgid "Row"
+msgstr "行"
+
+#: editor/editor/editor.php:2051 public/editor-build/270-wp/texts.php:956
+msgid "Progress"
+msgstr "进度"
+
+#: editor/editor/editor.php:2049 public/editor-build/270-wp/texts.php:1233
+msgid "Tabs"
+msgstr "选项卡"
+
+#: public/editor-build/270-wp/texts.php:525
+msgid "Form"
+msgstr "表单"
+
+#: editor/editor/editor.php:2033 public/editor-build/270-wp/texts.php:616
+msgid "Image"
+msgstr "图像"
+
+#: editor/editor/editor.php:2032 public/editor-build/270-wp/texts.php:602
+msgid "Icon"
+msgstr "图标"
+
+#: public/editor-build/270-wp/texts.php:871
+msgid "Parent"
+msgstr "父级"
+
+#: public/editor-build/270-wp/texts.php:781
+msgid "Modified"
+msgstr "修改"
+
+#: public/editor-build/270-wp/texts.php:761
+msgid "Meta Value"
+msgstr "元数据值"
+
+#: public/editor-build/270-wp/texts.php:760
+msgid "Meta Key"
+msgstr "元数键"
+
+#: public/editor-build/270-wp/texts.php:642
+msgid "Inherit"
+msgstr "继承"
+
+#: public/editor-build/270-wp/texts.php:182
+msgid "Auto-Draft"
+msgstr "自动草稿"
+
+#: public/editor-build/270-wp/texts.php:928
+msgid "Private"
+msgstr "私有"
+
+#: public/editor-build/270-wp/texts.php:881
+msgid "Pending"
+msgstr "待定"
+
+#: public/editor-build/270-wp/texts.php:538
+msgid "Future"
+msgstr "未来"
+
+#: public/editor-build/270-wp/texts.php:1192
+msgid "Status"
+msgstr "状态"
+
+#: public/editor-build/270-wp/texts.php:459
+msgid "Exclude"
+msgstr "排除"
+
+#: public/editor-build/270-wp/texts.php:629
+msgid "Include"
+msgstr "包括"
+
+#: public/editor-build/270-wp/texts.php:280
+msgid "Category"
+msgstr "分类目录"
+
+#: public/editor-build/270-wp/texts.php:909
+msgid "Post Type"
+msgstr "文章类型"
+
+#: public/editor-build/270-wp/texts.php:751
+msgid "Menu Order"
+msgstr "菜单顺序"
+
+#: editor/editor/editor.php:902 editor/editor/editor.php:909
+#: editor/editor/editor.php:2102 public/editor-build/270-wp/texts.php:1279
+msgid "Title"
+msgstr "标题"
+
+#: public/editor-build/270-wp/texts.php:500
+msgid "Filter"
+msgstr "过滤"
+
+#: public/editor-build/270-wp/texts.php:848
+msgid "Order Tracking"
+msgstr "订单跟踪"
+
+#: public/editor-build/270-wp/texts.php:795
+msgid "My Account"
+msgstr "我的帐户"
+
+#: public/editor-build/270-wp/texts.php:289
+msgid "Checkout"
+msgstr "结帐"
+
+#: editor/editor/editor.php:2122 public/editor-build/270-wp/texts.php:271
+msgid "Cart"
+msgstr "购物车"
+
+#: public/editor-build/270-wp/texts.php:342
+msgid "Count"
+msgstr "计数"
+
+#: public/editor-build/270-wp/texts.php:379
+msgid "Description"
+msgstr "描述"
+
+#: public/editor-build/270-wp/texts.php:797
+msgid "Name"
+msgstr "名称"
+
+#: public/editor-build/270-wp/texts.php:847
+msgid "Order By"
+msgstr "排序"
+
+#: public/editor-build/270-wp/texts.php:378
+msgid "Desc"
+msgstr "降序"
+
+#: public/editor-build/270-wp/texts.php:171
+msgid "Asc"
+msgstr "升序"
+
+#: public/editor-build/270-wp/texts.php:846
+msgid "Order"
+msgstr "排序"
+
+#: public/editor-build/270-wp/texts.php:277
+msgid "Categories Count"
+msgstr "分类计数"
+
+#: public/editor-build/270-wp/texts.php:309
+msgid "Columns"
+msgstr "列"
+
+#: public/editor-build/270-wp/texts.php:953
+msgid "Products Count"
+msgstr "产品数量"
+
+#: public/editor-build/270-wp/texts.php:936
+msgid "Product ID or SKU"
+msgstr "产品ID或SKU"
+
+#: public/editor-build/270-wp/texts.php:935
+msgid "Product ID"
+msgstr "产品ID"
+
+#: public/editor-build/270-wp/texts.php:966
+msgid "Query"
+msgstr "查询"
+
+#: public/editor-build/270-wp/texts.php:524
+msgid "Footer"
+msgstr "注脚"
+
+#: public/editor-build/270-wp/texts.php:974
+msgid "Ratio"
+msgstr "比率"
+
+#: public/editor-build/270-wp/texts.php:1171
+msgid "SoundCloud Link"
+msgstr "SoundCloud链接"
+
+#: public/editor-build/270-wp/texts.php:1170
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: public/editor-build/270-wp/texts.php:883
+msgid "Percentage"
+msgstr "百分比"
+
+#: public/editor-build/270-wp/texts.php:600
+msgid "Hue"
+msgstr "色调"
+
+#: public/editor-build/270-wp/texts.php:1200
+msgid "Style"
+msgstr "样式"
+
+#: public/editor-build/270-wp/texts.php:1076
+msgid "Select"
+msgstr "选择"
+
+#: public/editor-build/270-wp/texts.php:868
+msgid "Paragraph"
+msgstr "段落"
+
+#: public/editor-build/270-wp/texts.php:831
+msgid "Number"
+msgstr "数字"
+
+#: public/editor-build/270-wp/texts.php:754
+msgid "Message not sent"
+msgstr "消息未发送"
+
+#: public/editor-build/270-wp/texts.php:672
+msgid "Label"
+msgstr "标示"
+
+#: public/editor-build/270-wp/texts.php:493
+msgid "Field Type"
+msgstr "字段类型"
+
+#: public/editor-build/270-wp/texts.php:492
+msgid "Field"
+msgstr "字段"
+
+#: public/editor-build/270-wp/texts.php:440
+msgid "End"
+msgstr "结束"
+
+#: public/editor-build/270-wp/texts.php:1190
+msgid "Start"
+msgstr "开始"
+
+#: public/editor-build/270-wp/texts.php:1176
+msgid "Spanish"
+msgstr "西班牙语"
+
+#: public/editor-build/270-wp/texts.php:545
+msgid "German"
+msgstr "德语"
+
+#: public/editor-build/270-wp/texts.php:11
+msgid "+ 12:00 (Auckland)"
+msgstr "+ 12:00（奥克兰）"
+
+#: public/editor-build/270-wp/texts.php:10
+msgid "+ 11:00 (Ponape)"
+msgstr "+ 11:00（波纳佩）"
+
+#: public/editor-build/270-wp/texts.php:34
+msgid "+ 9:00 (Tokyo, Seoul)"
+msgstr "+ 9:00（东京，首尔）"
+
+#: public/editor-build/270-wp/texts.php:31
+msgid "+ 8:00 (Singapore, Beijing)"
+msgstr "+ 8:00（新加坡，北京）"
+
+#: public/editor-build/270-wp/texts.php:29
+msgid "+ 7:00 (Bangkok, Jakarta)"
+msgstr "+ 7:00（曼谷，雅加达）"
+
+#: public/editor-build/270-wp/texts.php:22
+msgid "+ 5:00 (Yekaterinburg)"
+msgstr "+ 5:00（叶卡捷琳堡）"
+
+#: public/editor-build/270-wp/texts.php:20
+msgid "+ 4:00 (Dubai, Baku)"
+msgstr "+ 4:00（迪拜，巴库）"
+
+#: public/editor-build/270-wp/texts.php:18
+msgid "+ 3:00 (Moscow, Baghdad)"
+msgstr "+ 3:00（莫斯科，巴格达）"
+
+#: public/editor-build/270-wp/texts.php:16
+msgid "+ 2:00 (Athens, Istanbul)"
+msgstr "+ 2:00（雅典，伊斯坦布尔）"
+
+#: public/editor-build/270-wp/texts.php:14
+msgid "+ 1:00 (Berlin, Paris)"
+msgstr "+ 1:00（柏林，巴黎）"
+
+#: public/editor-build/270-wp/texts.php:59
+msgid "00:00 (London, Dublin)"
+msgstr "00:00（伦敦，都柏林）"
+
+#: public/editor-build/270-wp/texts.php:40
+msgid "- 1:00 (Cape Verde)"
+msgstr "-  1:00（佛得角）"
+
+#: public/editor-build/270-wp/texts.php:41
+msgid "- 2:00 (Noronha)"
+msgstr "-  2:00（迪诺罗尼亚）"
+
+#: public/editor-build/270-wp/texts.php:43
+msgid "- 3:00 (Brasilia, Santiago)"
+msgstr "-  3:00（巴西利亚，圣地亚哥）"
+
+#: public/editor-build/270-wp/texts.php:46
+msgid "- 4:00 (Halifax, Manaus)"
+msgstr "-  4:00（哈利法克斯，马瑙斯）"
+
+#: public/editor-build/270-wp/texts.php:49
+msgid "- 5:00 (New York, Miami)"
+msgstr "-  5:00（纽约，迈阿密）"
+
+#: public/editor-build/270-wp/texts.php:50
+msgid "- 6:00 (Chicago, Dallas)"
+msgstr "-  6:00（芝加哥，达拉斯）"
+
+#: public/editor-build/270-wp/texts.php:51
+msgid "- 7:00 (Denver, Phoenix)"
+msgstr "-  7:00（丹佛，凤凰城）"
+
+#: public/editor-build/270-wp/texts.php:52
+msgid "- 8:00 (Los Angeles)"
+msgstr "-  8:00（洛杉矶）"
+
+#: public/editor-build/270-wp/texts.php:53
+msgid "- 9:00 (Anchorage)"
+msgstr "-  9:00（安克雷奇）"
+
+#: public/editor-build/270-wp/texts.php:36
+msgid "- 10:00 (Honolulu, Papeete)"
+msgstr "-  10:00（檀香山，帕皮提）"
+
+#: public/editor-build/270-wp/texts.php:38
+msgid "- 11:00 (Niue)"
+msgstr "-  11:00（纽埃）"
+
+#: public/editor-build/270-wp/texts.php:1271
+msgid "Time Zone"
+msgstr "时区"
+
+#: public/editor-build/270-wp/texts.php:768
+msgid "Minutes"
+msgstr "分钟"
+
+#: admin/form-entries.php:62 editor/editor/editor.php:903
+#: editor/editor/editor.php:910 public/editor-build/270-wp/texts.php:368
+msgid "Date"
+msgstr "日期"
+
+#: public/editor-build/270-wp/texts.php:596
+msgid "Hover"
+msgstr "悬停"
+
+#: public/editor-build/270-wp/texts.php:815
+msgid "Normal"
+msgstr "正常"
+
+#: public/editor-build/270-wp/texts.php:1175
+msgid "Spacing"
+msgstr "间距"
+
+#: public/editor-build/270-wp/texts.php:498
+msgid "Fill"
+msgstr "填充"
+
+#: public/editor-build/270-wp/texts.php:329
+msgid "Corner"
+msgstr "角"
+
+#: public/editor-build/270-wp/texts.php:841
+msgid "Open In New Tab"
+msgstr "在新标签页中打开"
+
+#: public/editor-build/270-wp/texts.php:701
+msgid "Link to"
+msgstr "链接到"
+
+#: public/editor-build/270-wp/texts.php:698
+msgid "Link"
+msgstr "链接"
+
+#: public/editor-build/270-wp/texts.php:420
+msgid "Editable Text"
+msgstr "可编辑"
+
+#: public/editor-build/270-wp/texts.php:570
+msgid "H6"
+msgstr "H6"
+
+#: public/editor-build/270-wp/texts.php:569
+msgid "H5"
+msgstr "H5"
+
+#: public/editor-build/270-wp/texts.php:568
+msgid "H4"
+msgstr "H4"
+
+#: public/editor-build/270-wp/texts.php:567
+msgid "H3"
+msgstr "H3"
+
+#: public/editor-build/270-wp/texts.php:566
+msgid "H2"
+msgstr "H2"
+
+#: public/editor-build/270-wp/texts.php:565
+msgid "H1"
+msgstr "H1"
+
+#: public/editor-build/270-wp/texts.php:859
+msgid "P"
+msgstr "P"
+
+#: public/editor-build/270-wp/texts.php:571
+msgid "HTML Tag"
+msgstr "HTML标签"
+
+#: public/editor-build/270-wp/texts.php:543
+msgid "Gap Below"
+msgstr "下面的差距"
+
+#: public/editor-build/270-wp/texts.php:542
+msgid "Gap Above"
+msgstr "上面的差距"
+
+#: public/editor-build/270-wp/texts.php:703
+msgid "List"
+msgstr "订阅组"
+
+#: public/editor-build/270-wp/texts.php:1310
+msgid "Typography"
+msgstr "排版"
+
+#: public/editor-build/270-wp/texts.php:141
+msgid "Align"
+msgstr "对齐"
+
+#: public/editor-build/270-wp/texts.php:666
+msgid "JackInTheBox"
+msgstr "JackInTheBox"
+
+#: public/editor-build/270-wp/texts.php:667
+msgid "Jello"
+msgstr "Jello"
+
+#: public/editor-build/270-wp/texts.php:1409
+msgid "Wobble"
+msgstr "Wobble"
+
+#: public/editor-build/270-wp/texts.php:1234
+msgid "Tada"
+msgstr "Tada"
+
+#: public/editor-build/270-wp/texts.php:1219
+msgid "Swing"
+msgstr "Swing"
+
+#: public/editor-build/270-wp/texts.php:1102
+msgid "Shake"
+msgstr "Shake"
+
+#: public/editor-build/270-wp/texts.php:961
+msgid "Pulse"
+msgstr "Pulse"
+
+#: public/editor-build/270-wp/texts.php:515
+msgid "Flash"
+msgstr "Flash"
+
+#: public/editor-build/270-wp/texts.php:230
+msgid "Bounce"
+msgstr "Bounce"
+
+#: public/editor-build/270-wp/texts.php:376
+msgid "Delay"
+msgstr "延迟"
+
+#: public/editor-build/270-wp/texts.php:415
+msgid "Duration"
+msgstr "持续时间"
+
+#: public/editor-build/270-wp/texts.php:857
+msgid "Overlay"
+msgstr "覆盖"
+
+#: public/editor-build/270-wp/texts.php:1434
+msgid "Zoom"
+msgstr "缩放"
+
+#: public/editor-build/270-wp/texts.php:442
+msgid "Enter address"
+msgstr "输入地址"
+
+#: public/editor-build/270-wp/texts.php:136
+msgid "Address"
+msgstr "地址"
+
+#: public/editor-build/270-wp/texts.php:1313
+msgid "URL"
+msgstr "URL"
+
+#: public/editor-build/270-wp/texts.php:156
+msgid "Animated"
+msgstr "动画"
+
+#: public/editor-build/270-wp/texts.php:512
+msgid "Fixed"
+msgstr "固定"
+
+#: public/editor-build/270-wp/texts.php:211
+msgid "Bg Size"
+msgstr "背景大小"
+
+#: public/editor-build/270-wp/texts.php:192
+msgid "Background"
+msgstr "背景"
+
+#: public/editor-build/270-wp/texts.php:1435
+msgid "component"
+msgstr "元件"
+
+#: public/editor-build/270-wp/texts.php:338
+msgid "Could not find"
+msgstr "找不到"
+
+#: public/editor-build/270-wp/texts.php:770
+msgid "Missing Element"
+msgstr "缺少元素"
+
+#: public/editor-build/270-wp/texts.php:533
+msgid "Full"
+msgstr "全部"
+
+#: public/editor-build/270-wp/texts.php:180
+msgid "Auto"
+msgstr "自动"
+
+#: public/editor-build/270-wp/texts.php:233
+msgid "Boxed"
+msgstr "盒装"
+
+#: public/editor-build/270-wp/texts.php:1404
+msgid "Width"
+msgstr "宽度"
+
+#: public/editor-build/270-wp/texts.php:534
+msgid "Full Height"
+msgstr "全高"
+
+#: public/editor-build/270-wp/texts.php:1040
+msgid "Round"
+msgstr "圆形"
+
+#: public/editor-build/270-wp/texts.php:1236
+msgid "Tail"
+msgstr "尾端"
+
+#: public/editor-build/270-wp/texts.php:580
+msgid "Heavy"
+msgstr "特粗"
+
+#: public/editor-build/270-wp/texts.php:1254
+msgid "Thin"
+msgstr "细"
+
+#: public/editor-build/270-wp/texts.php:167
+msgid "Arrows"
+msgstr "箭头"
+
+#: public/editor-build/270-wp/texts.php:385
+msgid "Diamond"
+msgstr "钻石"
+
+#: public/editor-build/270-wp/texts.php:291
+msgid "Circle"
+msgstr "圆形"
+
+#: public/editor-build/270-wp/texts.php:814
+#: public/editor-client/build/texts.php:49
+msgid "None"
+msgstr "无"
+
+#: public/editor-build/270-wp/texts.php:403
+msgid "Dots"
+msgstr "点"
+
+#: public/editor-build/270-wp/texts.php:1184
+msgid "Speed"
+msgstr "速度"
+
+#: public/editor-build/270-wp/texts.php:724
+msgid "Make it a Slider"
+msgstr "把它变成滑块"
+
+#: public/editor-build/270-wp/texts.php:1433
+msgid "Z-index"
+msgstr "Z-index"
+
+#: public/editor-build/270-wp/texts.php:436
+msgid "Enable on Mobile"
+msgstr "在手机上启用"
+
+#: public/editor-build/270-wp/texts.php:389
+msgid "Disable on Mobile"
+msgstr "在手机上禁用"
+
+#: public/editor-build/270-wp/texts.php:1131
+msgid "Show on Desktop"
+msgstr "在桌面上显示"
+
+#: public/editor-build/270-wp/texts.php:784
+msgid "More Settings"
+msgstr "更多设置"
+
+#: public/editor-build/270-wp/texts.php:959
+msgid "Publish"
+msgstr "发布"
+
+#: public/editor-build/270-wp/texts.php:1338
+msgid "Update"
+msgstr "更新"
+
+#: public/editor-build/270-wp/texts.php:778
+msgid "Mobile"
+msgstr "手机"
+
+#: public/editor-build/270-wp/texts.php:381
+msgid "Desktop"
+msgstr "桌面"
+
+#: public/editor-build/270-wp/texts.php:780
+msgid "Mobile view"
+msgstr "手机视图"
+
+#: public/editor-build/270-wp/texts.php:803
+msgid "New Style #%s"
+msgstr "新样式 #%s"
+
+#: public/editor-build/270-wp/texts.php:128
+msgid "Add new option"
+msgstr "添加新选项"
+
+#: public/editor-build/270-wp/texts.php:1202
+msgid "Styling"
+msgstr "样式"
+
+#: public/editor-build/270-wp/texts.php:411
+msgid "Drag to reorder"
+msgstr "拖动重新排序"
+
+#: editor/editor/editor.php:1959 public/editor-build/270-wp/texts.php:995
+msgid "Reorder Blocks"
+msgstr "重新排序块"
+
+#: editor/editor/editor.php:2110 public/editor-build/270-wp/texts.php:1136
+msgid "Sidebar"
+msgstr "边栏"
+
+#: editor/editor/editor.php:2109 public/editor-build/270-wp/texts.php:912
+msgid "Posts"
+msgstr "文章"
+
+#: editor/editor/editor.php:2112 public/editor-build/270-wp/texts.php:1112
+msgid "Shortcode"
+msgstr "短代码"
+
+#: admin/templates.php:125 public/editor-build/270-wp/texts.php:929
+msgid "Product"
+msgstr "产品"
+
+#: editor/editor/editor.php:2144 public/editor-build/270-wp/texts.php:131
+msgid "Add to cart"
+msgstr "添加到购物车"
+
+#: editor/editor/editor.php:2055 public/editor-build/270-wp/texts.php:100
+msgid "Accordion"
+msgstr "手风琴"
+
+#: editor/editor/editor.php:2046 public/editor-build/270-wp/texts.php:343
+msgid "Countdown"
+msgstr "倒计时"
+
+#: editor/editor/editor.php:2044 public/editor-build/270-wp/texts.php:344
+msgid "Counter"
+msgstr "计数器"
+
+#: editor/editor/editor.php:2041 public/editor-build/270-wp/texts.php:603
+msgid "Icon Box"
+msgstr "图标框"
+
+#: editor/editor/editor.php:2039 public/editor-build/270-wp/texts.php:430
+msgid "Embed"
+msgstr "嵌入"
+
+#: editor/editor/editor.php:2038 public/editor-build/270-wp/texts.php:726
+msgid "Map"
+msgstr "地图"
+
+#: editor/editor/editor.php:2037 public/editor-build/270-wp/texts.php:695
+msgid "Line"
+msgstr "线"
+
+#: editor/editor/editor.php:2036 public/editor-build/270-wp/texts.php:1174
+msgid "Spacer"
+msgstr "间隔"
+
+#: editor/editor/editor.php:2035 public/editor-build/270-wp/texts.php:1379
+msgid "Video"
+msgstr "视频"
+
+#: editor/editor/editor.php:2031 public/editor-build/270-wp/texts.php:245
+msgid "Button"
+msgstr "按钮"
+
+#: editor/editor/editor.php:2030 public/editor-build/270-wp/texts.php:1241
+msgid "Text"
+msgstr "文本"
+
+#: public/editor-build/270-wp/texts.php:113
+msgid "Add Elements"
+msgstr "添加元素"
+
+#: public/editor-build/270-wp/texts.php:921
+msgid "Press the button to add blocks"
+msgstr "按按钮添加块"
+
+#: public/editor-build/270-wp/texts.php:124
+msgid "Add a new block"
+msgstr "添加一个新块"
+
+#: public/editor-build/270-wp/texts.php:1221
+msgid "Switch to desktop to add blocks"
+msgstr "切换到桌面以添加块"
+
+#: public/editor-build/270-wp/texts.php:1054
+msgid "SWITCH TO DESKTOP"
+msgstr "切换到桌面"
+
+#: public/editor-build/270-wp/texts.php:919
+msgid "Press the button above to add blocks"
+msgstr "按上面的按钮添加块"
+
+#: public/editor-build/270-wp/texts.php:1052
+msgid "START BUILDING YOUR PAGE"
+msgstr "开始构建您的页面"
+
+#: public/editor-build/270-wp/texts.php:516
+msgid "Flip"
+msgstr "翻转"
+
+#: editor/editor/editor.php:905 editor/editor/editor.php:912
+#: public/editor-build/270-wp/texts.php:311
+msgid "Comment Count"
+msgstr "评论计数"
+
+#: public/editor-build/270-wp/texts.php:7
+msgid "+ 10:00 (Sydney, Melbourne)"
+msgstr "+ 10:00（悉尼，墨尔本）"
+
+#: public/editor-build/270-wp/texts.php:118
+msgid "Add New Column"
+msgstr "添加新列"
+
+#: public/editor-build/270-wp/texts.php:880
+msgid "Paste your HTML code here..."
+msgstr "将你的HTML代码粘贴在这里..."
+
+#: public/editor-build/270-wp/texts.php:308
+msgid "Column"
+msgstr "列"
+
+#: admin/form-entries.php:336 admin/popups/main.php:106 admin/templates.php:204
+#: public/editor-build/270-wp/texts.php:116
+msgid "Add New"
+msgstr "新增"
+
+#: public/editor-build/270-wp/texts.php:413
+msgid "Duplicate"
+msgstr "创建副本"
+
+#: public/editor-build/270-wp/texts.php:1393
+msgid "Weight"
+msgstr "粗细"
+
+#: public/editor-build/270-wp/texts.php:205
+msgid "Bar"
+msgstr "条形"
+
+#: public/editor-build/270-wp/texts.php:861
+msgid "Padding"
+msgstr "内边距"
+
+#: public/editor-build/270-wp/texts.php:727
+msgid "Margin"
+msgstr "外边距"
+
+#: public/editor-build/270-wp/texts.php:262
+msgid "CSS Class"
+msgstr "CSS Class"
+
+#: public/editor-build/270-wp/texts.php:696
+msgid "Line Hgt."
+msgstr "行高"
+
+#: public/editor-build/270-wp/texts.php:687
+msgid "Letter Sp."
+msgstr "字间距"
+
+#: public/editor-build/270-wp/texts.php:551
+msgid "Go Back"
+msgstr "返回"
+
+#: public/editor-build/270-wp/texts.php:922
+msgid "Preview"
+msgstr "预览"
+
+#: admin/membership/membership.php:64 editor/post.php:655
+#: public/editor-build/270-wp/texts.php:371
+msgid "Default"
+msgstr "默认"
+
+#: admin/views/settings/general.php:62 admin/views/settings/maintenance.php:76
+#: admin/views/settings/roles.php:26
+msgid "Save Changes"
+msgstr "保存变化"
+
+#: admin/main.php:244 admin/settings.php:109 admin/settings.php:110
+#: public/editor-build/270-wp/texts.php:1100
+msgid "Settings"
+msgstr "设置"
+
+#. Author of the plugin
+msgid "Brizy.io"
+msgstr "Brizy.io"
+
+#. Description of the plugin
+msgid "A free drag & drop front-end page builder to help you create WordPress pages lightning fast. It's easy with Brizy."
+msgstr "一个免费的拖放前端页面构建器，可帮助您快速创建WordPress页面。 Brizy是很容易使用。"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://brizy.io/"
+msgstr "https://brizy.io/"
+
+#. Plugin Name of the plugin
+msgid "Brizy"
+msgstr "Brizy"
+
+#: admin/main.php:479
+msgid "Auto Draft"
+msgstr "自动草稿"

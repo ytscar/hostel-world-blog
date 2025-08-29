@@ -1,0 +1,385 @@
+# Translation of Plugins - DeepL API translation plugin - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - DeepL API translation plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-08-22 10:29:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - DeepL API translation plugin - Stable (latest release)\n"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:204
+msgid "Post title"
+msgstr "Заголовок записи"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:210
+msgid "Post excerpt"
+msgstr "Отрывок записи"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:216
+msgid "Post content"
+msgstr "Содержимое записи"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:200
+msgid "Translation by default"
+msgstr "Перевод по умолчанию"
+
+#: settings/wp-improved-settings.class.php:173
+msgid "Unable to submit this form, please refresh and try again."
+msgstr "Не удалось отправить форму, обновите страницу и попробуйте ещё раз."
+
+#: settings/wp-improved-settings-api.class.php:726
+msgid "Delete"
+msgstr "Удалить"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:163
+msgid "default"
+msgstr "по-умолчанию"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:229
+msgid "Default"
+msgstr "По умолчанию:"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:164
+msgid "formal"
+msgstr "formal"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:165
+msgid "informal"
+msgstr "informal"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:246
+#: settings/wp-improved-settings-wpdeepl.class.php:257
+msgid "Formality level : %s"
+msgstr "Уровень формальности: %s"
+
+#: modules/deepl-translate-post.php:274
+msgid "Nothing to update"
+msgstr "Ничего не обновлять"
+
+#: settings/wp-improved-settings.class.php:543
+msgid "Server information"
+msgstr "Информация о сервере"
+
+#: modules/deepl-translate-post.php:7
+msgid "This post has been translated."
+msgstr "Эта запись была переведена."
+
+#: modules/deepl-translate-post.php:11
+msgid "The translation has failed. See logs for details"
+msgstr "Перевод не удался. См. журнал для получения подробностей."
+
+#: modules/deepl-translate-post.php:279
+msgid "Translation error"
+msgstr "Ошибка перевода"
+
+#: settings/wp-improved-settings-api.class.php:1103
+msgid "Before you can upload your import file, you will need to fix the following error:"
+msgstr "Перед загрузкой файла исправьте следующую ошибку:"
+
+#: settings/wp-improved-settings-api.class.php:1112
+msgid "Choose a file from your computer:"
+msgstr "Выберете файл с компьютера:"
+
+#: settings/wp-improved-settings-api.class.php:1112
+msgid "Maximum size: %s"
+msgstr "Максимальный размер: %s"
+
+#: settings/wp-improved-settings-api.class.php:1119
+msgid "Upload file and import"
+msgstr "Загрузить файл и импортировать"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:319
+msgid "'Side' = metabox on the side column, 'Normal' = on the main column"
+msgstr "'Side' = метабокс в боковом столбце, 'Normal' = в основном столбце"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:330
+msgid "Position of the metabox in the column"
+msgstr "Позиция метабокса в столбце"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:146
+msgid "Pick a plan on <a href=\"https://www.deepl.com/pro-account/plan\">%s</a>"
+msgstr "Выберите план на <a href=\"https://www.deepl.com/pro-account/plan\">%s</a>"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:141
+msgid "API Server"
+msgstr "API Server"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:297
+msgid "Select which post types you want the metabox to appear on. To duplicate posts in different languages (as a starting point for translation), it might be useful to use the \"Duplicate post\" feature of Polylang Pro, or a \"Duplicate post\" plugin."
+msgstr "Выберите типы постов, в которых будет отображаться метабокс. Для дублирования постов на разных языках (в качестве отправной точки для перевода) может быть полезно использовать функцию \"Дублировать пост\" в Polylang Pro или плагин \"Дублировать пост\"."
+
+#: settings/wp-improved-settings-wpdeepl.class.php:190
+msgid "Displayed languages"
+msgstr "Отображаемые языки"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:225
+msgid "Formality level"
+msgstr "Уровень формальности"
+
+#: deepl-configuration.class.php:321
+msgid "Show these target languages in bulk menu"
+msgstr "Показать эти целевые языки в основном меню"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:134
+msgid "<a target=\"_blank\" href=\"%s\">Create a DeepL Pro account here</a>. Get your <a target=\"_blank\" href=\"%s\">API key there</a>"
+msgstr "<a target=\"_blank\" href=\"%s\">Создайте учетную запись DeepL Pro здесь</a>. Получите <a target=\"_blank\" href=\"%s\">ключ API здесь</a>"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:361
+msgid "Delete logs from previous months"
+msgstr "Удалить журналы предыдущих месяцев."
+
+#: settings/wp-improved-settings.class.php:616
+msgid "Fichier '%s' pour %s"
+msgstr "Файл '%s' для %s"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:311
+msgid "Metabox context"
+msgstr "Контекст метабокса"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:323
+msgid "Metabox priority"
+msgstr "Приоритет метабокса"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:110
+msgid "Maintenance"
+msgstr "Обслуживание"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:344
+msgid "Minimal"
+msgstr "Минимально"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:345
+msgid "Full"
+msgstr "Полный"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:336
+msgid "Logging"
+msgstr "Журналирование"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:340
+msgid "Log level"
+msgstr "Уровень ведения журнала"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:343
+msgid "None"
+msgstr "Отсутствует"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:36
+msgid "DeepL settings"
+msgstr "Настройки DeepL"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:73
+msgid "The DeepL plugin is not fully configured yet: <ul>%s</ul>"
+msgstr "Плагин DeepL еще не полностью настроен: <ul>%s</ul>"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:94
+msgid "Credentials"
+msgstr "Учетные данные"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:98
+#: settings/wp-improved-settings-wpdeepl.class.php:169
+msgid "Translation"
+msgstr "Перевод"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:106
+msgid "Integration"
+msgstr "Интеграция"
+
+#: settings/wp-improved-settings-api.class.php:1076
+msgid "Select all"
+msgstr "Выбрать всё"
+
+#: settings/wp-improved-settings-api.class.php:1076
+msgid "Select none"
+msgstr "Отменить выбор"
+
+#: settings/wp-improved-settings.class.php:192
+msgid "Settings saved."
+msgstr "Найстройки сохранены"
+
+#: settings/wp-improved-settings.class.php:472
+msgid "Update"
+msgstr "Обновление"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:65
+msgid "<li><a href=\"%s\">%s</a></li>"
+msgstr "<li><a href=\"%s\">%s</a></li>"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:78
+msgid "<a href=\"%s\">Please provide required informations</a>"
+msgstr "<a href=\"%s\">Предоставьте необходимую информацию</a>"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:125
+msgid "DeepL credentials"
+msgstr "Учетные данные DeepL"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:173
+msgid "Default target language"
+msgstr "Целевой язык по умолчанию"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:292
+msgid "Metabox should be displayed on:"
+msgstr "Метабокс должен отображаться на:"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:288
+msgid "Metabox"
+msgstr "Метабокс"
+
+#: settings/wp-improved-settings.class.php:245
+#: settings/wp-improved-settings.class.php:460
+#: settings/wp-improved-settings.class.php:517
+msgid "Attention, fonction non définie %s"
+msgstr "Внимание, неопределенная функция %s."
+
+#: wpdeepl.php:95
+msgid "Error loading WPDeepL"
+msgstr "Ошибка загрузки WPDeepL"
+
+#: wpdeepl.php:123
+msgid "Settings"
+msgstr "Параметры"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:130
+msgid "API Key"
+msgstr "API-ключ"
+
+#: admin/deepl-metabox.php:52
+msgid "Please save or publish the post first"
+msgstr "Пожалуйста, сначала сохраните или опубликуйте запись."
+
+#: deepl-configuration.class.php:30
+msgid "Free API plan (https://api-free.deepl.com)"
+msgstr "Бесплатный план API (https://api-free.deepl.com)"
+
+#: client/deeplapi-functions.php:70
+msgid "Did you select the right server ? If yes, check your plan on <a href=\"%s\">DeepL Pro website</a>. \"DeepL API\" should be included in it."
+msgstr "Вы выбрали правильный сервер? Если да, проверьте ваш тарифный план на <a href=\"%s\">сайте DeepL Pro</a>. \"DeepL API\" должен быть включен в него."
+
+#: client/deeplapi-functions.php:68
+msgid "No response from the server"
+msgstr "Нет ответа от сервера"
+
+#: deepl-configuration.class.php:26
+msgid "Regular paid API Plan (https://api.deepl.com/v2/)"
+msgstr "Платный план API (https://api.deepl.com/v2/)"
+
+#: deepl-configuration.class.php:317
+msgid "Content types"
+msgstr "Типы содержимого"
+
+#: deepl-configuration.class.php:320
+msgid "Target languages for bulk actions"
+msgstr "Целевые языки для массовых действий"
+
+#: deepl-configuration.class.php:314
+msgid "Translate to %s"
+msgstr "Перевести на %s"
+
+#: deepl-configuration.class.php:315
+msgid "Translated %d posts."
+msgstr "Переведено %d записей."
+
+#: deepl-configuration.class.php:316
+msgid "Bulk translate"
+msgstr "Массовый перевод"
+
+#: deepl-configuration.class.php:318
+msgid "Translate contents"
+msgstr "Перевести содержимое"
+
+#: deepl-configuration.class.php:319
+msgid "Select which kind of content you want to be able to translate"
+msgstr "Выберите, какой тип контента вы хотите иметь возможность переводить"
+
+#: client/deeplapi-functions.php:13
+msgid "Target language '%s' not valid"
+msgstr "Целевой язык '%s' недействителен"
+
+#: admin/deepl-admin-functions.php:94
+msgid "Clear logs"
+msgstr "Очистить журналы"
+
+#: admin/deepl-admin-functions.php:149
+msgid "Logs"
+msgstr "Журналы"
+
+#: admin/deepl-admin-functions.php:105
+msgid "Log files deleted"
+msgstr "Файлы журнала удалены"
+
+#: admin/deepl-admin-functions.php:160
+msgid "File '%s' for %s"
+msgstr "Файл '%s' для %s"
+
+#: admin/deepl-admin-functions.php:176
+msgid "No log files"
+msgstr "Нет файлов журнала"
+
+#. Description of the plugin
+#: wpdeepl.php
+msgid "Get DeepL translation magic right inside your WordPress editor (with a paid DeepL Pro account)"
+msgstr "Получите магию перевода DeepL прямо в редакторе WordPress (при наличии платного аккаунта DeepL Pro)"
+
+#. Author of the plugin
+#: wpdeepl.php
+msgid "Fluenx"
+msgstr "Fluenx"
+
+#. Author URI of the plugin
+#: wpdeepl.php
+msgid "https://www.fluenx.com/"
+msgstr "https://www.fluenx.com/"
+
+#: client/deeplapi-functions.php:64
+msgid "Request done in: %f milliseconds"
+msgstr "Запрос выполнен за: %f мсек."
+
+#: admin/deepl-admin-functions.php:84
+msgid "Dont't translate"
+msgstr "Не переводить"
+
+#: admin/deepl-admin-functions.php:47
+msgid "Automatic"
+msgstr "Автоматически"
+
+#. Plugin Name of the plugin
+#: wpdeepl.php
+msgid "DeepL for WordPress : translation plugin"
+msgstr "DeepL for WordPress : translation plugin"
+
+#: client/deeplapi-functions.php:60
+msgid "%s characters remaining"
+msgstr "Осталось %s символов"
+
+#: client/deeplapi-functions.php:47
+msgid "Usage"
+msgstr "Использование"
+
+#: admin/deepl-metabox.php:119
+msgid "Translate"
+msgstr "Перевести"
+
+#: admin/deepl-metabox.php:21
+#: settings/wp-improved-settings-wpdeepl.class.php:40
+msgid "DeepL translation"
+msgstr "Перевод DeepL"
+
+#: client/deeplapi-functions.php:62
+msgid "%s / %s characters translated"
+msgstr "%s / %s символов переведено"
+
+#: deepl-configuration.class.php:213
+msgid "Replace content"
+msgstr "Заменить содержимое"
+
+#: deepl-configuration.class.php:214
+msgid "Append to content"
+msgstr "Добавить к содержимому"
+
+#: admin/deepl-metabox.php:116
+msgid "Translating to"
+msgstr "Перевод на"

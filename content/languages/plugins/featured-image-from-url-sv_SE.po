@@ -1,0 +1,1389 @@
+# Translation of Plugins - Featured Image from URL (FIFU) - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Featured Image from URL (FIFU) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-03-20 14:40:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Featured Image from URL (FIFU) - Stable (latest release)\n"
+
+#: admin/strings.php:142
+msgid "Pages"
+msgstr "Sidor"
+
+#: admin/strings.php:154
+msgid "Reset"
+msgstr "Återställ"
+
+#: admin/strings.php:1063
+msgid "Registered sizes"
+msgstr "Registrerade storlekar"
+
+#: admin/strings.php:2487
+msgid "Search"
+msgstr "Sök"
+
+#: admin/strings.php:2281
+msgid "Filter results"
+msgstr "Filtrera resultat"
+
+#: admin/strings.php:1066
+msgid "FIFU CDN"
+msgstr "FIFU CDN"
+
+#: admin/strings.php:854
+msgid "Size"
+msgstr "Storlek"
+
+#: admin/strings.php:1081
+msgid "use your site's domain"
+msgstr "använd din webbplats domän"
+
+#: admin/strings.php:1060
+msgid "Optimize"
+msgstr "Optimera"
+
+#: admin/strings.php:130
+msgid "Data"
+msgstr "Data"
+
+#: admin/strings.php:127
+msgid "Type"
+msgstr "Typ"
+
+#: admin/strings.php:34
+msgid "Please wait 1 minute..."
+msgstr "Vänta 1 minut …"
+
+#: admin/strings.php:1078
+msgid "optimize images with FIFU CDN"
+msgstr "optimera bilder med FIFU CDN"
+
+#: admin/strings.php:2373
+msgid "Automatic delete"
+msgstr "Automatisk borttagning"
+
+#: admin/strings.php:2492
+msgid "Update payment method"
+msgstr "Uppdatera betalningsmetod"
+
+#: admin/strings.php:1234 admin/strings.php:1558 admin/strings.php:1847
+#: admin/strings.php:1899 admin/strings.php:1966
+msgid "ASIN"
+msgstr "ASIN"
+
+#: admin/strings.php:817
+msgid "Secret key"
+msgstr "Hemlig nyckel"
+
+#: admin/strings.php:814
+msgid "Access key"
+msgstr "Åtkomstnyckel"
+
+#: admin/strings.php:151
+msgid "Error"
+msgstr "Fel"
+
+#: admin/strings.php:148
+msgid "Saved"
+msgstr "Sparat"
+
+#: admin/strings.php:145
+msgid "Saving"
+msgstr "Sparar"
+
+#: admin/strings.php:281
+msgid "Renew or upgrade"
+msgstr "Förnya eller uppgradera"
+
+#: admin/strings.php:229
+msgid "Your license key is invalid."
+msgstr "Din licensnyckel är ogiltig."
+
+#: admin/strings.php:226
+msgid "Your license key has expired."
+msgstr "Din licensnyckel har löpt ut."
+
+#: admin/strings.php:223
+msgid "Your license key was successfully registered."
+msgstr "Din licensnyckel har registrerats."
+
+#: admin/strings.php:2709
+msgid "Your license key has expired. Please renew or upgrade it to continue receiving updates and support."
+msgstr "Din licensnyckel har löpt ut. Förnya eller uppgradera den för att fortsätta få uppdateringar och support."
+
+#: admin/strings.php:235
+msgid "Please renew or upgrade it to continue receiving updates and support."
+msgstr "Förnya eller uppgradera den för att fortsätta få uppdateringar och support."
+
+#: admin/strings.php:232
+msgid "FIFU is now fully activated, and all features are unlocked."
+msgstr "FIFU är nu helt aktiverad och alla funktioner är upplåsta."
+
+#: admin/strings.php:26
+msgid "License Key Expired"
+msgstr "Licensnyckel löpt ut"
+
+#: admin/strings.php:1706 admin/strings.php:1771
+msgid "Alternative text"
+msgstr "Alternativ text"
+
+#: admin/strings.php:1075
+msgid "optimize secondary images"
+msgstr "optimera sekundära bilder"
+
+#: admin/strings.php:1072
+msgid "optimize featured images"
+msgstr "optimera utvalda bilder"
+
+#: admin/strings.php:1216
+msgid "Product image + gallery"
+msgstr "Produktbild + galleri"
+
+#: admin/strings.php:954
+msgid "remove duplicated media"
+msgstr "ta bort duplicerade media"
+
+#: admin/strings.php:951
+msgid "add missing media"
+msgstr "lägg till saknad media"
+
+#: admin/strings.php:269
+msgid "Audio"
+msgstr "Ljud"
+
+#: admin/strings.php:364
+msgid "Optimized Images"
+msgstr "Optimerade bilder"
+
+#: admin/strings.php:1489
+msgid "FIFU product gallery"
+msgstr "FIFU produktgalleri"
+
+#: admin/strings.php:1006
+msgid "Skip URLs containing these keywords:"
+msgstr "Hoppa över URL:er inkluderande dessa nyckelord:"
+
+#: admin/strings.php:1501
+msgid "Custom content"
+msgstr "Anpassat innehåll"
+
+#: admin/strings.php:304
+msgid "Auto set featured image from ISBN"
+msgstr "Ställ in utvald bild automatiskt från ISBN"
+
+#: admin/strings.php:361
+msgid "Debug Mode"
+msgstr "Felsökningsläge"
+
+#: admin/strings.php:2543
+msgid "The developer will respond within 8 hours."
+msgstr "Utvecklaren kommer svara inom 8 timmar."
+
+#: admin/strings.php:379
+msgid "Taxonomy Image"
+msgstr "Taxonomibild"
+
+#: admin/strings.php:88
+msgid "size"
+msgstr "storlek"
+
+#: admin/strings.php:1655
+msgid "Address where you received the license key"
+msgstr "Adress där du fick licensnyckeln"
+
+#: admin/strings.php:124 admin/strings.php:2071
+msgid "Name"
+msgstr "Namn"
+
+#: admin/strings.php:2068
+msgid "Variations"
+msgstr "Varianter"
+
+#: admin/strings.php:1452
+msgid "background video"
+msgstr "bakgrundsvideo"
+
+#: admin/strings.php:206
+msgid "YouTube"
+msgstr "YouTube"
+
+#: admin/strings.php:203
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: admin/strings.php:188
+msgid "Available for"
+msgstr "Tillgänglig för"
+
+#: admin/strings.php:1444
+msgid "Start videos without audio."
+msgstr "Starta videoklipp utan ljud."
+
+#: admin/strings.php:1471
+msgid "move to left"
+msgstr "flytta till vänster"
+
+#: admin/strings.php:897
+msgid "Portrait"
+msgstr "Stående"
+
+#: admin/strings.php:894
+msgid "Landscape"
+msgstr "Liggande"
+
+#: admin/strings.php:777
+msgid "Wide"
+msgstr "Bred"
+
+#: admin/strings.php:774
+msgid "Tall"
+msgstr "Lång"
+
+#: admin/strings.php:771
+msgid "Square"
+msgstr "Fyrkant"
+
+#: admin/strings.php:768 admin/strings.php:891 admin/strings.php:1015
+msgid "All"
+msgstr "Alla"
+
+#: admin/strings.php:2129
+msgid "Empty"
+msgstr "Tom"
+
+#: admin/strings.php:744
+msgid "Images found"
+msgstr "Bilder hittades"
+
+#: admin/strings.php:762
+msgid "Free to share and use"
+msgstr "Gratis att dela och använda"
+
+#: admin/strings.php:756
+msgid "All licenses"
+msgstr "Alla licenser"
+
+#: admin/strings.php:759
+msgid "Public domain"
+msgstr "Offentlig domän"
+
+#: admin/strings.php:738
+msgid "Commercial usage"
+msgstr "Kommersiell användning"
+
+#: admin/strings.php:765
+msgid "Free to share and use commercially"
+msgstr "Gratis att dela och använda kommersiellt"
+
+#: admin/strings.php:747
+msgid "Varies"
+msgstr "Varierar"
+
+#: admin/strings.php:741
+msgid "Credit needed"
+msgstr "Kredit behövs"
+
+#: admin/strings.php:2476
+msgid "Date"
+msgstr "Datum"
+
+#: admin/strings.php:2461
+msgid "Post ID"
+msgstr "Inläggs-ID"
+
+#: admin/strings.php:2444
+msgid "Please enter your email"
+msgstr "Ange din e-post."
+
+#: admin/strings.php:2429
+msgid "Enter your email"
+msgstr "Ange din e-post"
+
+#: admin/strings.php:2426
+msgid "Site"
+msgstr "Webbplats"
+
+#: admin/strings.php:2301
+msgid "Smart cropping"
+msgstr "Smart beskärning"
+
+#: admin/strings.php:2278
+msgid "featured media"
+msgstr "utvald media"
+
+#: admin/strings.php:2179
+msgid "Payment and billing information"
+msgstr "Betalnings- och faktureringsinformation"
+
+#: admin/strings.php:2082
+msgid "Set featured video with URL"
+msgstr "Ställ in utvalt videoklipp med URL"
+
+#: admin/strings.php:2079
+msgid "Set featured image with URL"
+msgstr "Ställ in utvald bild med URL"
+
+#: admin/strings.php:1919
+msgid "Powered by FIFU plugin"
+msgstr "Drivs med tillägget FIFU"
+
+#: admin/strings.php:1861
+msgid "Please wait..."
+msgstr "Vänta …"
+
+#: admin/strings.php:1721
+msgid "Set frame as thumbnail"
+msgstr "Ställ in ram som miniatyr"
+
+#: admin/strings.php:1584
+msgid "Importing variable products"
+msgstr "Importerar variabla produkter"
+
+#: admin/strings.php:1183 admin/strings.php:1204
+msgid "WordPress post"
+msgstr "WordPress-inlägg"
+
+#: admin/strings.php:726
+msgid "Limit the search to one or more specific sites."
+msgstr "Begränsa sökningen till en eller flera specifika webbplatser."
+
+#: admin/strings.php:673
+msgid "Only save images from specific domains."
+msgstr "Spara endast bilder från specifika domäner."
+
+#: admin/strings.php:635
+msgid "Reset FIFU settings to the default values."
+msgstr "Återställ FIFU-inställningarna till standardvärdena."
+
+#: admin/strings.php:289 admin/strings.php:2588
+msgid "Technical support"
+msgstr "Teknisk support"
+
+#: admin/strings.php:183
+msgid "on mobile phone"
+msgstr "på mobiltelefon"
+
+#: admin/strings.php:103
+msgid "PRO"
+msgstr "PRO"
+
+#: admin/strings.php:65
+msgid "Note"
+msgstr "Observera"
+
+#: admin/strings.php:1753
+msgid "Use screenshot"
+msgstr "Använd skärmdump"
+
+#: admin/strings.php:518
+msgid "1. Right-click on me now"
+msgstr "1. Högerklicka på mig nu"
+
+#: admin/strings.php:2692
+msgid "Watch later"
+msgstr "Titta senare"
+
+#: admin/strings.php:2669
+msgid "try again later"
+msgstr "försök igen senare"
+
+#: admin/strings.php:2607 admin/strings.php:2638
+msgid "Featured Image"
+msgstr "Utvald bild"
+
+#: admin/strings.php:2497 admin/strings.php:2500
+msgid "Close account"
+msgstr "Stäng konto"
+
+#: admin/strings.php:2275
+msgid "gallery"
+msgstr "galleri"
+
+#: admin/strings.php:2269
+msgid "category"
+msgstr "kategori"
+
+#: admin/strings.php:753 admin/strings.php:2266
+msgid "No"
+msgstr "Nej"
+
+#: admin/strings.php:750 admin/strings.php:2263
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/strings.php:2260
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: admin/strings.php:2254
+msgid "link"
+msgstr "länk"
+
+#: admin/strings.php:2251
+msgid "upload"
+msgstr "ladda upp"
+
+#: admin/strings.php:2248
+msgid "delete"
+msgstr "ta bort"
+
+#: admin/strings.php:2233
+msgid "No data available"
+msgstr "Ingen data tillgänglig"
+
+#: admin/strings.php:2230
+msgid "No posts available"
+msgstr "Inga inlägg tillgängliga"
+
+#: admin/strings.php:2156
+msgid "Loading..."
+msgstr "Laddar in …"
+
+#: admin/strings.php:2153
+msgid "Loading more..."
+msgstr "Laddar in fler …"
+
+#: admin/strings.php:2006
+msgid "Columns"
+msgstr "Kolumner"
+
+#: admin/strings.php:2003
+msgid "Rows"
+msgstr "Rader"
+
+#: admin/strings.php:1838
+msgid "Audio URL"
+msgstr "Ljud-URL"
+
+#: admin/strings.php:1812
+msgid "Subscribe now"
+msgstr "Prenumerera nu"
+
+#: admin/strings.php:112
+msgid "Local"
+msgstr "Lokal"
+
+#: admin/strings.php:109
+msgid "no"
+msgstr "nej"
+
+#: admin/strings.php:106
+msgid "yes"
+msgstr "ja"
+
+#: admin/strings.php:42
+msgid "Copy to clipboard"
+msgstr "Kopiera till urklipp"
+
+#: admin/strings.php:2479
+msgid "Number of images"
+msgstr "Antal bilder"
+
+#: admin/strings.php:2473
+msgid "Gallery images"
+msgstr "Galleribilder"
+
+#: admin/strings.php:2455
+msgid "Post title"
+msgstr "Inläggsrubrik"
+
+#: admin/strings.php:20
+msgid "Upgrade to <b>PRO</b>"
+msgstr "Uppgradera till <b>PRO</b>"
+
+#: admin/strings.php:2635
+msgid "Field Add-on"
+msgstr "Fältutökningar"
+
+#: admin/strings.php:2625
+msgid "Requires FIFU PRO"
+msgstr "Kräver FIFU PRO"
+
+#: admin/strings.php:2467
+msgid "Upload date"
+msgstr "Uppladdningsdatum"
+
+#: admin/strings.php:2464
+msgid "Image location"
+msgstr "Bildplats"
+
+#: admin/strings.php:2458
+msgid "Post date"
+msgstr "Inläggsdatum"
+
+#: admin/strings.php:2242
+msgid "load more"
+msgstr "ladda mer"
+
+#: admin/strings.php:2227
+msgid "No images available"
+msgstr "Inga bilder tillgängliga"
+
+#: admin/strings.php:2236
+msgid "select all"
+msgstr "välj alla"
+
+#: admin/strings.php:1850
+msgid "Embed code"
+msgstr "Bädda in kod"
+
+#: admin/strings.php:1841
+msgid "Web page URL"
+msgstr "Webbsidans URL"
+
+#: admin/strings.php:2222
+msgid "Not connected"
+msgstr "Inte ansluten"
+
+#: admin/strings.php:2219
+msgid "Connected"
+msgstr "Ansluten"
+
+#: admin/strings.php:2594
+msgid "Are you enjoying FIFU? Please give it a 5-star rating!"
+msgstr "Gillar du FIFU? Ge det ett 5-stjärnigt betyg!"
+
+#: admin/strings.php:2591
+msgid "Upgrade to <b>PRO</b> for €29.90"
+msgstr "Uppgradera till <b>PRO</b> för 29,90 €"
+
+#: admin/strings.php:495
+msgid "Changes have no effect"
+msgstr "Ändringar har ingen effekt"
+
+#: admin/strings.php:157 admin/strings.php:2101
+msgid "Save"
+msgstr "Spara"
+
+#: admin/strings.php:1575
+msgid "Importing..."
+msgstr "Importerar …"
+
+#: admin/strings.php:965
+msgid "Hide"
+msgstr "Dölj"
+
+#: admin/strings.php:2104
+msgid "Clear"
+msgstr "Rensa"
+
+#: admin/strings.php:627
+msgid "Action"
+msgstr "Åtgärd"
+
+#: admin/strings.php:603
+msgid "Create a post"
+msgstr "Skapa ett inlägg"
+
+#: admin/strings.php:574
+msgid "Product video"
+msgstr "Produktvideo"
+
+#: admin/strings.php:874
+msgid "set gallery images and videos"
+msgstr "ställ in galleribilder och videoklipp"
+
+#: admin/strings.php:630
+msgid "Command example"
+msgstr "Kommandoexempel"
+
+#: admin/strings.php:597 admin/strings.php:1162
+msgid "FIFU custom fields"
+msgstr "FIFU anpassade fält"
+
+#: admin/strings.php:594
+msgid "FIFU commands"
+msgstr "FIFU-kommandon"
+
+#: admin/strings.php:1911
+msgid "Custom popup"
+msgstr "Anpassad popup"
+
+#: admin/strings.php:337
+msgid "Custom Popup"
+msgstr "Anpassad popup"
+
+#: admin/strings.php:415
+msgid "Watch Later"
+msgstr "Titta senare"
+
+#: admin/strings.php:1345
+msgid "Quick buy"
+msgstr "Snabbköp"
+
+#: admin/strings.php:439
+msgid "Quick Buy"
+msgstr "Snabbköp"
+
+#: admin/strings.php:2362
+msgid "Automatic upload"
+msgstr "Automatisk uppladdning"
+
+#: admin/strings.php:2531
+msgid "Deactivate"
+msgstr "Inaktivera"
+
+#: admin/strings.php:1623
+msgid "Custom Fields"
+msgstr "Anpassade fält"
+
+#: admin/strings.php:1617
+msgid "Images"
+msgstr "Bilder"
+
+#: admin/strings.php:1599
+msgid "For"
+msgstr "För"
+
+#: admin/strings.php:2558
+msgid "I didn't understand how it works..."
+msgstr "Jag förstod inte hur det fungerar …"
+
+#: admin/strings.php:2561
+msgid "Others..."
+msgstr "Annat …"
+
+#: admin/strings.php:2555
+msgid "I wish it worked with my local images..."
+msgstr "Jag önskar att det fungerade med mina lokala bilder …"
+
+#: admin/strings.php:2540
+msgid "Why are you deactivating FIFU?"
+msgstr "Varför inaktiverar du FIFU?"
+
+#: admin/strings.php:2537
+msgid "If it's a temporary deactivation"
+msgstr "Det är en temporär inaktivering"
+
+#: admin/strings.php:1281
+msgid "Displays the product gallery"
+msgstr "Visar produktgalleriet"
+
+#: admin/strings.php:1272
+msgid "Required parameters"
+msgstr "Obligatoriska parametrar"
+
+#: admin/strings.php:1257
+msgid "Display media"
+msgstr "Visa media"
+
+#: admin/strings.php:702 admin/strings.php:991
+msgid "Source filter"
+msgstr "Källfilter"
+
+#: admin/strings.php:693
+msgid "Size filter"
+msgstr "Storleksfilter"
+
+#: admin/strings.php:1363
+msgid "Custom field name (optional)"
+msgstr "Anpassat fältnamn (valfritt)"
+
+#: admin/strings.php:1384
+msgid "Video files"
+msgstr "Videofiler"
+
+#: admin/strings.php:1351
+msgid "Disclaimer"
+msgstr "Ansvarsfriskrivning"
+
+#: admin/strings.php:1348
+msgid "Text button"
+msgstr "Textknapp"
+
+#: admin/strings.php:1357
+msgid "Buy now (optional)"
+msgstr "Köp nu (valfritt)"
+
+#: admin/strings.php:1360
+msgid "Disclaimer (optional)"
+msgstr "Ansvarsfriskrivning (valfritt)"
+
+#: admin/strings.php:358
+msgid "Featured Audio"
+msgstr "Utvalt ljud"
+
+#: admin/strings.php:1794 admin/strings.php:1905
+msgid "Featured audio"
+msgstr "Utvalt ljud"
+
+#: admin/strings.php:1495
+msgid "Videos before images"
+msgstr "Videoklipp före bilder"
+
+#: admin/strings.php:180
+msgid "on desktop"
+msgstr "på stationär dator"
+
+#: admin/strings.php:1325
+msgid "Vertical mode"
+msgstr "Vertikalt läge"
+
+#: admin/strings.php:2076
+msgid "Quick edit"
+msgstr "Snabbredigera"
+
+#: admin/strings.php:2173 admin/strings.php:2211
+msgid "Account"
+msgstr "Konto"
+
+#: admin/strings.php:1908
+msgid "Page redirection"
+msgstr "Sidomdirigering"
+
+#: admin/strings.php:340
+msgid "Page Redirection"
+msgstr "Sidomdirigering"
+
+#: admin/strings.php:2395
+msgid "End date"
+msgstr "Slutdatum"
+
+#: admin/strings.php:2392
+msgid "Start date"
+msgstr "Startdatum"
+
+#: admin/strings.php:2401
+msgid "Current cost"
+msgstr "Nuvarande kostnad"
+
+#: admin/strings.php:2398
+msgid "Daily average of stored images"
+msgstr "Dagligt genomsnitt av lagrade bilder"
+
+#: admin/strings.php:2389
+msgid "Current 30-day period"
+msgstr "Nuvarande 30-dagarsperiod"
+
+#: admin/strings.php:2205
+msgid "Local images"
+msgstr "Lokala bilder"
+
+#: admin/strings.php:2199
+msgid "Upload"
+msgstr "Ladda upp"
+
+#: admin/strings.php:2191
+msgid "Billing"
+msgstr "Fakturering"
+
+#: admin/strings.php:2182
+msgid "Upload to Cloud"
+msgstr "Ladda upp till moln"
+
+#: admin/strings.php:2354
+msgid "Total price"
+msgstr "Totalt pris"
+
+#: admin/strings.php:2351
+msgid "Price per image"
+msgstr "Pris per bild"
+
+#: admin/strings.php:2342
+msgid "Number of days"
+msgstr "Antal dagar"
+
+#: admin/strings.php:2327
+msgid "Quantity of images"
+msgstr "Antal bilder"
+
+#: admin/strings.php:2295
+msgid "Images processed in the cloud"
+msgstr "Bilder bearbetade i molnet"
+
+#: admin/strings.php:2292
+msgid "Images load much faster"
+msgstr "Bilder laddas mycket snabbare"
+
+#: admin/strings.php:2289
+msgid "Never lose an image again"
+msgstr "Förlora aldrig en bild igen"
+
+#: admin/strings.php:2298
+msgid "Pay per stored image"
+msgstr "Betala per lagrad bild"
+
+#: admin/strings.php:2202 admin/strings.php:2257
+msgid "Delete"
+msgstr "Ta bort"
+
+#: admin/strings.php:2196
+msgid "Welcome"
+msgstr "Välkommen"
+
+#: admin/strings.php:2185
+msgid "Delete from Cloud"
+msgstr "Ta bort från moln"
+
+#: admin/strings.php:2447
+msgid "Sign up"
+msgstr "Registrera dig"
+
+#: admin/strings.php:2170
+msgid "Pricing"
+msgstr "Priser"
+
+#: admin/strings.php:11 admin/strings.php:284
+msgid "Cloud"
+msgstr "Moln"
+
+#: admin/strings.php:1492
+msgid "Adaptive height"
+msgstr "Adaptiv höjd"
+
+#: admin/strings.php:667
+msgid "Private proxy"
+msgstr "Privat proxy"
+
+#: admin/strings.php:658
+msgid "Proxy"
+msgstr "Proxy"
+
+#: admin/strings.php:652
+msgid "Main"
+msgstr "Huvud"
+
+#: admin/strings.php:788 admin/strings.php:802 admin/strings.php:834
+#: admin/strings.php:851 admin/strings.php:871 admin/strings.php:1354
+msgid "Custom field"
+msgstr "Anpassat fält"
+
+#: admin/strings.php:322
+msgid "Disable right-click"
+msgstr "Inaktivera högerklick"
+
+#: admin/strings.php:902
+msgid "Disable right-click on all images."
+msgstr "Inaktivera högerklick på alla bilder."
+
+#: admin/strings.php:2132
+msgid "More"
+msgstr "Mer"
+
+#: admin/strings.php:1608 admin/strings.php:2123
+msgid "Examples"
+msgstr "Exempel"
+
+#: admin/strings.php:2096 admin/strings.php:2126
+msgid "Keywords"
+msgstr "Nyckelord"
+
+#: admin/strings.php:2022
+msgid "Product gallery"
+msgstr "Produktgalleri"
+
+#: admin/strings.php:1269
+msgid "Optional parameters"
+msgstr "Valfria parametrar"
+
+#: admin/strings.php:1266 admin/strings.php:1602
+msgid "Description"
+msgstr "Beskrivning"
+
+#: admin/strings.php:699
+msgid "Post types"
+msgstr "Inläggstyper"
+
+#: admin/strings.php:2036
+msgid "Displays the product gallery."
+msgstr "Visar produktgalleriet."
+
+#: admin/strings.php:2019
+msgid "Featured grid"
+msgstr "Utvalt rutnät"
+
+#: admin/strings.php:2016
+msgid "Featured media"
+msgstr "Utvald media"
+
+#: admin/strings.php:1593
+msgid "XML"
+msgstr "XML"
+
+#: admin/strings.php:1605
+msgid "Import template"
+msgstr "Importera mall"
+
+#: admin/strings.php:1319
+msgid "Display images at the same height"
+msgstr "Visa bilder på samma höjd"
+
+#: admin/strings.php:139
+msgid "Crop"
+msgstr "Beskär"
+
+#: admin/strings.php:136
+msgid "Height"
+msgstr "Höjd"
+
+#: admin/strings.php:433 admin/strings.php:1661
+msgid "Activation"
+msgstr "Aktivering"
+
+#: admin/strings.php:1337
+msgid "Next button"
+msgstr "Nästa knapp"
+
+#: admin/strings.php:1340
+msgid "Image URL (optional)"
+msgstr "Bild-URL (valfritt)"
+
+#: admin/strings.php:68 admin/strings.php:263
+msgid "Developers"
+msgstr "Utvecklare"
+
+#: admin/strings.php:298
+msgid "Save in the Media Library"
+msgstr "Spara i mediebiblioteket"
+
+#: admin/strings.php:1768 admin/strings.php:1928 admin/strings.php:2107
+msgid "Upload to media library"
+msgstr "Ladda upp till mediabiblioteket"
+
+#: admin/strings.php:97
+msgid "Fields"
+msgstr "Fält"
+
+#: admin/strings.php:94
+msgid "Function"
+msgstr "Funktion"
+
+#: admin/strings.php:621
+msgid "Command"
+msgstr "Kommando"
+
+#: admin/strings.php:618
+msgid "Option"
+msgstr "Alternativ"
+
+#: admin/strings.php:615
+msgid "Feature"
+msgstr "Funktion"
+
+#: admin/strings.php:612 admin/strings.php:1596
+msgid "Section"
+msgstr "Sektion"
+
+#: admin/strings.php:609
+msgid "Tab"
+msgstr "Flik"
+
+#: admin/strings.php:600
+msgid "WP-CLI"
+msgstr "WP-CLI"
+
+#: admin/strings.php:624
+msgid "e.g. (args)"
+msgstr "t.ex. (args)"
+
+#: admin/strings.php:1231 admin/strings.php:1555 admin/strings.php:1844
+#: admin/strings.php:1896 admin/strings.php:1963
+msgid "ISBN"
+msgstr "ISBN"
+
+#: admin/strings.php:257
+msgid "Automatic"
+msgstr "Automatisk"
+
+#. Plugin Name of the plugin
+#: featured-image-from-url.php
+msgid "Featured Image from URL (FIFU)"
+msgstr "Utvald bild från URL (FIFU)"
+
+#: admin/strings.php:1313
+msgid "Show thumbnail gallery"
+msgstr "Visa miniatyrgalleri"
+
+#: admin/strings.php:696
+msgid "Blocklist"
+msgstr "Blockeringslista"
+
+#: admin/strings.php:714
+msgid "minimum height (px)"
+msgstr "minsta höjd (px)"
+
+#: admin/strings.php:732
+msgid "Filter"
+msgstr "Filtrera"
+
+#: admin/strings.php:1534
+msgid "Featured image URL"
+msgstr "Utvald bild-URL"
+
+#: admin/api.php:1271
+msgid "Private"
+msgstr "Privat"
+
+#: admin/strings.php:580 admin/strings.php:1881 admin/strings.php:2062
+msgid "Video gallery"
+msgstr "Videogalleri"
+
+#: admin/strings.php:577 admin/strings.php:1875 admin/strings.php:2059
+#: admin/strings.php:2574
+msgid "Image gallery"
+msgstr "Bildgalleri"
+
+#: admin/strings.php:1715
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+#: admin/strings.php:1701
+msgid "Remove"
+msgstr "Ta bort"
+
+#: admin/strings.php:1652 admin/strings.php:2423
+msgid "Email"
+msgstr "E-post"
+
+#: admin/strings.php:1578
+msgid "FAQ"
+msgstr "Vanliga frågor"
+
+#: admin/strings.php:1249
+msgid "WooCommerce REST API"
+msgstr "WooCommerce REST API"
+
+#: admin/strings.php:1246
+msgid "WordPress REST API"
+msgstr "WordPress REST API"
+
+#: admin/strings.php:1243 admin/strings.php:1531
+msgid "Key"
+msgstr "Nyckel"
+
+#: admin/strings.php:254 admin/strings.php:1009 admin/strings.php:1210
+#: admin/strings.php:2452
+msgid "Image"
+msgstr "Bild"
+
+#: admin/strings.php:1207
+msgid "Custom post type"
+msgstr "Anpassad inläggstyp"
+
+#: admin/strings.php:1192
+msgid "Product category"
+msgstr "Produktkategori"
+
+#: admin/strings.php:1189 admin/strings.php:2065
+msgid "Product"
+msgstr "Produkt"
+
+#: admin/strings.php:1186 admin/strings.php:1664
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: admin/strings.php:1171
+msgid "variable product"
+msgstr "variabel produkt"
+
+#: admin/strings.php:1168
+msgid "product category"
+msgstr "produktkategori"
+
+#: admin/strings.php:1525
+msgid "Custom fields"
+msgstr "Anpassade fält"
+
+#: admin/strings.php:1159
+msgid "Endpoints"
+msgstr "Ändpunkter"
+
+#: admin/strings.php:638
+msgid "reset settings"
+msgstr "återställ inställningar"
+
+#: admin/strings.php:450
+msgid "status"
+msgstr "status"
+
+#: admin/strings.php:447
+msgid "with this"
+msgstr "med detta"
+
+#: admin/strings.php:430
+msgid "Add-On"
+msgstr "Utökning"
+
+#: admin/strings.php:409
+msgid "Background Video"
+msgstr "Bakgrundsvideo"
+
+#: admin/strings.php:355
+msgid "Delete All URLs"
+msgstr "Ta bort alla URL:er"
+
+#: admin/strings.php:1295
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: admin/strings.php:295
+msgid "Reset Settings"
+msgstr "Återställ inställningar"
+
+#: admin/strings.php:292
+msgid "Getting started"
+msgstr "Komma igång"
+
+#: admin/strings.php:23 admin/strings.php:278 admin/strings.php:1658
+msgid "License key"
+msgstr "Licensnyckel"
+
+#: admin/strings.php:14 admin/strings.php:121 admin/strings.php:275
+msgid "Troubleshooting"
+msgstr "Felsökning"
+
+#: admin/strings.php:272 admin/strings.php:1012 admin/strings.php:1222
+msgid "Video"
+msgstr "Video"
+
+#: admin/strings.php:1263
+msgid "Shortcode"
+msgstr "Kortkod"
+
+#: admin/strings.php:260
+msgid "Metadata"
+msgstr "Metadata"
+
+#: admin/strings.php:251
+msgid "Admin"
+msgstr "Admin"
+
+#: admin/strings.php:248
+msgid "Help"
+msgstr "Hjälp"
+
+#: admin/strings.php:565 admin/strings.php:1381 admin/strings.php:1734
+#: admin/strings.php:1791 admin/strings.php:1878 admin/strings.php:1890
+#: admin/strings.php:2050 admin/strings.php:2619
+msgid "Featured video"
+msgstr "Utvald video"
+
+#: admin/strings.php:1718 admin/strings.php:1745 admin/strings.php:1867
+#: admin/strings.php:2093 admin/strings.php:2622 admin/strings.php:2650
+msgid "Video URL"
+msgstr "Video-URL"
+
+#: admin/strings.php:1522
+msgid "Importing products..."
+msgstr "Importerar produkter …"
+
+#: admin/strings.php:1213
+msgid "Image title"
+msgstr "Bildrubrik"
+
+#: admin/strings.php:1165
+msgid "Creating your first product"
+msgstr "Skapar din första produkt"
+
+#: admin/strings.php:1052
+msgid "delete all your URLs now"
+msgstr "ta bort alla dina URL:er nu"
+
+#: admin/strings.php:382 admin/strings.php:2616 admin/strings.php:2644
+msgid "Featured Video"
+msgstr "Utvald video"
+
+#: admin/strings.php:1528 admin/strings.php:1581
+msgid "CSV example"
+msgstr "CSV-exempel"
+
+#: admin/strings.php:427
+msgid "Import"
+msgstr "Importera"
+
+#: admin/strings.php:400
+msgid "Autoplay"
+msgstr "Spela upp automatiskt"
+
+#: admin/strings.php:391
+msgid "Minimum Width"
+msgstr "Minsta bredd"
+
+#: admin/strings.php:388
+msgid "Play Button"
+msgstr "Uppspelningsknapp"
+
+#: admin/strings.php:385
+msgid "Video Thumbnail"
+msgstr "Video-miniatyr"
+
+#: admin/strings.php:1415
+msgid "Hide from grid"
+msgstr "Dölj från rutnät"
+
+#: admin/strings.php:1310
+msgid "Show gallery on click"
+msgstr "Visa galleri vid klick"
+
+#: admin/strings.php:1301
+msgid "Pause autoplay on hover"
+msgstr "Pausa automatisk uppspelning vid hovring"
+
+#: admin/strings.php:1195
+msgid "Product variation"
+msgstr "Produktvariant"
+
+#: admin/strings.php:1756
+msgid "Image URL or Keywords"
+msgstr "Bild-URL eller nyckelord"
+
+#: admin/strings.php:1316
+msgid "Show counter"
+msgstr "Visa räknare"
+
+#: admin/strings.php:1726
+msgid "Ratio"
+msgstr "Förhållande"
+
+#: admin/strings.php:530
+msgid "Right click me!"
+msgstr "Högerklicka på mig!"
+
+#: admin/strings.php:524
+msgid "3. Paste it here:"
+msgstr "3. Klistra in det här:"
+
+#: admin/strings.php:334
+msgid "Hide Featured Media"
+msgstr "Dölj utvald media"
+
+#: admin/strings.php:328
+msgid "Default Featured Image"
+msgstr "Utvald standardbild"
+
+#: admin/strings.php:711
+msgid "minimum width (px)"
+msgstr "minsta bredd (px)"
+
+#: admin/strings.php:1174
+msgid "product variation"
+msgstr "produktvariant"
+
+#: admin/strings.php:349
+msgid "Clear Metadata"
+msgstr "Rensa metadata"
+
+#: admin/strings.php:76
+msgid "mode"
+msgstr "läge"
+
+#: admin/strings.php:73
+msgid "color"
+msgstr "färg"
+
+#: admin/strings.php:62
+msgid "Result"
+msgstr "Resultat"
+
+#: admin/strings.php:56
+msgid "Example"
+msgstr "Exempel"
+
+#: admin/strings.php:53
+msgid "Tip"
+msgstr "Tips"
+
+#: admin/strings.php:50
+msgid "Requirement"
+msgstr "Krav"
+
+#: admin/strings.php:47
+msgid "Important"
+msgstr "Viktigt"
+
+#: admin/strings.php:1712 admin/strings.php:1748 admin/strings.php:1780
+msgid "OK"
+msgstr "OK"
+
+#: admin/strings.php:39
+msgid "Submit"
+msgstr "Skicka"
+
+#: admin/strings.php:59 admin/strings.php:1729
+msgid "e.g.:"
+msgstr "t.ex.:"
+
+#: admin/strings.php:91
+msgid "zoom"
+msgstr "zoom"
+
+#: admin/strings.php:85
+msgid "z-index"
+msgstr "z-index"
+
+#: admin/strings.php:82
+msgid "lightbox"
+msgstr "lightbox"
+
+#: admin/strings.php:79
+msgid "inline"
+msgstr "inline"
+
+#: admin/strings.php:162
+msgid "on page"
+msgstr "på sida"
+
+#: admin/strings.php:133
+msgid "Width"
+msgstr "Bredd"
+
+#: admin/strings.php:545 admin/strings.php:562 admin/strings.php:1737
+#: admin/strings.php:1887 admin/strings.php:2047 admin/strings.php:2470
+#: admin/strings.php:2610 admin/strings.php:2679
+msgid "Featured image"
+msgstr "Utvald bild"
+
+#: admin/strings.php:571 admin/strings.php:1872 admin/strings.php:2571
+msgid "Product image"
+msgstr "Produktbild"
+
+#: admin/strings.php:17 admin/strings.php:118
+msgid "Status"
+msgstr "Status"
+
+#: admin/strings.php:8 admin/strings.php:2000 admin/strings.php:2597
+msgid "Settings"
+msgstr "Inställningar"
+
+#: admin/strings.php:1925
+msgid "Gallery Image (URL)"
+msgstr "Galleribild (URL)"
+
+#: admin/strings.php:937 admin/strings.php:1709 admin/strings.php:1777
+#: admin/strings.php:1864 admin/strings.php:1922 admin/strings.php:2090
+#: admin/strings.php:2135 admin/strings.php:2484 admin/strings.php:2578
+#: admin/strings.php:2613 admin/strings.php:2647 admin/strings.php:2682
+msgid "Image URL"
+msgstr "Bild-URL"
+
+#: admin/strings.php:1916
+msgid "Product Image (URL)"
+msgstr "Produktbild (URL)"
+
+#. Author of the plugin
+#: featured-image-from-url.php
+msgid "fifu.app"
+msgstr "fifu.app"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: featured-image-from-url.php
+msgid "https://fifu.app/"
+msgstr "https://fifu.app/"
+
+#: admin/strings.php:31 admin/strings.php:243
+msgid "Please wait a few seconds..."
+msgstr "Vänta några sekunder …"
+
+#: admin/strings.php:1945
+msgid "Featured video (URL)"
+msgstr "Utvald video (URL)"
+
+#: admin/strings.php:1939
+msgid "Featured image (URL)"
+msgstr "Utvald bild (URL)"

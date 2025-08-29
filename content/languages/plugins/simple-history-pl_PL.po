@@ -1,0 +1,4488 @@
+# Translation of Plugins - Simple History – Track, Log, and Audit WordPress Changes - Stable (latest release) in Polish
+# This file is distributed under the same license as the Plugins - Simple History – Track, Log, and Audit WordPress Changes - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-08-25 07:59:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: pl\n"
+"Project-Id-Version: Plugins - Simple History – Track, Log, and Audit WordPress Changes - Stable (latest release)\n"
+
+#. translators: 1: URL to history page, 2: link style attribute including
+#. style=""
+#: templates/email-summary-report.php:190
+msgid "<a href=\"%1$s\" %2$s>View the Simple History event log</a> on your website for a detailed history of changes and activities."
+msgstr "<a href=\"%1$s\" %2$s>Wyświetl dziennik zdarzeń prostej historii</a> w swojej witrynie internetowej, aby uzyskać szczegółową listę zmian i działań."
+
+#: loggers/class-core-files-logger.php:41
+msgctxt "Core Files Logger: search"
+msgid "Core Files Modifications"
+msgstr "Modyfikacje plików WordPressa"
+
+#: loggers/class-core-files-logger.php:37
+msgid "Could not check WordPress core files integrity: {error_message}"
+msgstr "Nie można sprawdzić integralności plików WordPressa: {error_message}."
+
+#: loggers/class-core-files-logger.php:36
+msgid "Verified integrity restored for {file_count} WordPress core files"
+msgstr "Przywrócono zweryfikowaną integralność dla {file_count} podstawowych plików WordPressa"
+
+#: loggers/class-core-files-logger.php:35
+msgid "Detected modifications to {file_count} WordPress core files"
+msgstr "Wykryto modyfikacje pliku {file_count} podstawowych plików WordPressa"
+
+#: loggers/class-core-files-logger.php:31
+msgid "Core Files Logger"
+msgstr "Rejestrator zmian w plikach WordPressa"
+
+#: inc/services/class-simple-history-updates.php:84
+msgid "New features in this version"
+msgstr "Nowe funkcje w tej wersji"
+
+#: inc/services/class-email-report-service.php:445
+msgid "Enable email reports"
+msgstr "Włącz wysyłanie raportów na adres e-mail"
+
+#: inc/services/class-email-report-service.php:268
+msgid "Email Reports"
+msgstr "Raporty e-mail"
+
+#: dropins/class-sidebar-add-ons-dropin.php:198
+msgid "Pin important log entries to the top of the log for easy access."
+msgstr "Przypnij ważne wpisy dziennika na górze, aby mieć do nich łatwy dostęp."
+
+#: dropins/class-sidebar-add-ons-dropin.php:191
+msgid "Sticky events"
+msgstr "Przypięte zdarzenia"
+
+#: loggers/class-core-files-logger.php:322
+msgid "Additional files"
+msgstr "Dodatkowe pliki"
+
+#: loggers/class-core-files-logger.php:301
+msgid "File missing"
+msgstr "Brakuje pliku"
+
+#: loggers/class-core-files-logger.php:299
+msgid "File unreadable"
+msgstr "Brak możliwości odczytania pliku"
+
+#: loggers/class-core-files-logger.php:297
+msgid "Hash mismatch"
+msgstr "Niedopasowanie skrótu"
+
+#: loggers/class-core-files-logger.php:289
+msgid "Missing file restored"
+msgstr "Przywrócono brakujący plik"
+
+#: loggers/class-core-files-logger.php:287
+msgid "File readability restored"
+msgstr "Przywrócono możliwość odczytania pliku"
+
+#: loggers/class-core-files-logger.php:285
+msgid "Hash mismatch fixed"
+msgstr "Naprawiono niedopasowanie skrótu"
+
+#: loggers/class-core-files-logger.php:265
+msgid "Modified Core Files"
+msgstr "Zmodyfikowane pliki WordPressa"
+
+#: loggers/class-core-files-logger.php:263
+msgid "Restored Core Files"
+msgstr "Przywrócone pliki WordPressa"
+
+#: inc/services/class-simple-history-updates.php:37
+#: inc/services/class-simple-history-updates.php:66
+msgid "What's new in this version"
+msgstr "Co nowego w tej wersji"
+
+#. translators: %s: parameter name
+#: inc/class-wp-rest-events-controller.php:1125
+msgid "%s must be a string or array of strings"
+msgstr "%s musi być ciągiem znaków lub tablicą ciągów znaków"
+
+#. translators: %1$s: parameter name, %2$s: list of valid values
+#: inc/class-wp-rest-events-controller.php:1105
+#: inc/class-wp-rest-events-controller.php:1116
+msgid "%1$s is not one of %2$s"
+msgstr "%1$s nie zawiera się w %2$s"
+
+#: inc/class-wp-rest-events-controller.php:460
+msgid "Return ungrouped events without occasions grouping."
+msgstr "Zwróć niezgrupowane zdarzenia bez grupowania po przyczynie."
+
+#: inc/class-log-initiators.php:76 inc/class-log-initiators.php:101
+msgid "WordPress user"
+msgstr "Użytkownik WordPressa"
+
+#: templates/email-summary-report.php:392
+msgid "View Activity Log"
+msgstr "Wyświetl dziennik aktywności"
+
+#: templates/email-summary-report.php:374
+msgid "Updates completed"
+msgstr "Zakończono aktualizowanie"
+
+#: templates/email-summary-report.php:301
+msgid "Updates"
+msgstr "Aktualizacje"
+
+#: templates/email-summary-report.php:293
+msgid "Posts created"
+msgstr "Utworzono wpis"
+
+#: templates/email-summary-report.php:286
+msgid "Posts and Pages"
+msgstr "Wpisy i strony"
+
+#: templates/email-summary-report.php:233
+msgid "Activity by day"
+msgstr "Aktywność według dnia"
+
+#: templates/email-summary-report.php:206
+msgid "Website"
+msgstr "Witryna internetowa"
+
+#: templates/email-summary-report.php:174
+msgid "Here's a summary of what happened on your website last week."
+msgstr "Podsumowanie tego, co działo się w witrynie w zeszłym tygodniu."
+
+#: templates/email-summary-report.php:42
+msgid "Website Activity Summary"
+msgstr "Podsumowanie aktywności w witrynie"
+
+#: inc/services/class-licences-settings-page.php:199
+msgid "How to install an add-on"
+msgstr "Jak zainstalować dodatek"
+
+#: inc/services/class-licences-settings-page.php:193
+msgid "If you have bought an add-on then install and activate the add-on and then return here to enter the license key."
+msgstr "Jeśli kupiłeś dodatek, zainstaluj go i włącz, a następnie wróć tutaj, aby wprowadzić klucz licencyjny."
+
+#: inc/services/class-licences-settings-page.php:190
+msgid "No add-ons activated."
+msgstr "Nie włączono żadnych dodatków."
+
+#: inc/services/class-email-report-service.php:320
+msgid "Preview"
+msgstr "Podgląd"
+
+#. translators: %s: Site name.
+#: inc/services/class-email-report-service.php:181
+msgid "Weekly Activity Summary for %s"
+msgstr "Tygodniowe podsumowanie aktywności dla %s"
+
+#: inc/class-wp-rest-events-controller.php:1079
+msgid "Failed to unstick event."
+msgstr "Nie udało się odpiąć zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:1050
+msgid "Failed to stick event."
+msgstr "Nie udało się przypiąć zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:1042
+#: inc/class-wp-rest-events-controller.php:1071
+msgid "Event not found."
+msgstr "Nie znaleziono zdarzenia."
+
+#: templates/email-summary-report.php:438
+msgid "Learn how to unsubscribe/stop receiving emails"
+msgstr "Dowiedz się, jak zrezygnować z subskrypcji/przestać otrzymywać wiadomości e-mail"
+
+#: templates/email-summary-report.php:436
+msgid "This email was auto-generated and sent from www.simple-history.com."
+msgstr "Wiadomość e-mail została wygenerowana automatycznie i wysłana z adresu www.simple-history.com."
+
+#: templates/email-summary-report.php:433
+msgid "You're receiving this email because your email address was entered in the WordPress admin settings for Simple History."
+msgstr "Otrzymujesz tę wiadomość e-mail, ponieważ twój adres e-mail został wprowadzony w ustawieniach administratora WordPressa we wtyczce Prosta Historia."
+
+#: templates/email-summary-report.php:412
+msgid "Learn More About Premium"
+msgstr "Dowiedz się więcej o wersji premium"
+
+#: templates/email-summary-report.php:407
+msgid "Simple History Premium includes detailed activity breakdowns, user insights, security monitoring, and weekly trends."
+msgstr "Prosta Historia Premium zawiera szczegółowe zestawienia aktywności, wgląd w użytkowników, monitorowanie bezpieczeństwa i tygodniowe trendy."
+
+#: templates/email-summary-report.php:404
+msgid "Want More Insights?"
+msgstr "Chcesz uzyskać więcej informacji?"
+
+#: templates/email-summary-report.php:223
+msgid "Events this week"
+msgstr "Zdarzenia w tym tygodniu"
+
+#: templates/email-summary-report.php:163
+msgid "Website weekly activity summary"
+msgstr "Cotygodniowe podsumowanie aktywności w witrynie"
+
+#. translators: 1: number of events, 2: day of the week
+#: templates/email-summary-report.php:132
+msgid "%1$d events last week • %2$s was the busiest day"
+msgstr "%1$d wydarzeń w tym tygodniu — %2$s był najbardziej pracowitym dniem"
+
+#: templates/email-summary-report.php:128
+msgid "No activity"
+msgstr "Brak aktywności"
+
+#: inc/services/class-email-report-service.php:469
+msgid "Enter one email address per line."
+msgstr "Wpisz po jednym adresie e-mail w każdym wierszu."
+
+#. translators: %s: Current user's email address.
+#: inc/services/class-email-report-service.php:356
+msgid "Send test email to %s"
+msgstr "Wyślij testową wiadomość e-mail do %s"
+
+#: inc/services/class-email-report-service.php:349
+msgid "Show email preview"
+msgstr "Pokaż podgląd wiadomości e-mail"
+
+#: inc/services/class-email-report-service.php:331
+msgid "Configure automatic email reports with website statistics. Reports are sent every Monday morning."
+msgstr "Skonfiguruj automatyczne raporty e-mail ze statystykami witryny. Raporty są wysyłane w każdy poniedziałek rano."
+
+#: inc/services/class-email-report-service.php:312
+msgid "Recipients"
+msgstr "Odbiorcy"
+
+#: inc/services/class-email-report-service.php:233
+#: inc/services/class-email-report-service.php:373
+msgid "Failed to send test email."
+msgstr "Nie udało się wysłać testowej wiadomości e-mail."
+
+#. translators: %s: Email address
+#: inc/services/class-email-report-service.php:225
+msgid "Test email sent successfully to %s."
+msgstr "Wysłano testową wiadomość e-mail na adres %s."
+
+#. translators: 1: start date, 2: end date
+#: inc/services/class-email-report-service.php:123
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: inc/class-wp-rest-stats-controller.php:607
+msgid "Detailed stats."
+msgstr "Szczegółowe statystyki."
+
+#: inc/class-wp-rest-stats-controller.php:603
+msgid "Summary of stats."
+msgstr "Podsumowanie statystyk."
+
+#: inc/class-wp-rest-stats-controller.php:597
+msgid "End date as Unix timestamp."
+msgstr "Data zakończenia jako uniksowy znacznik czasu."
+
+#: inc/class-wp-rest-stats-controller.php:593
+msgid "Start date as Unix timestamp."
+msgstr "Data rozpoczęcia jako uniksowy znacznik czasu."
+
+#: inc/class-wp-rest-stats-controller.php:589
+msgid "Date range for the stats."
+msgstr "Zakres dat dla statystyk."
+
+#: inc/class-wp-rest-stats-controller.php:217
+msgid "Whether to include detailed stats."
+msgstr "Czy dołączyć w szczegółowych statystykach."
+
+#: inc/class-wp-rest-stats-controller.php:203
+msgid "End date as Unix timestamp. If not provided, defaults to end of today."
+msgstr "Data zakończenia jako uniksowy znacznik czasu. Jeśli nie podano, domyślnie jest to dziś do końca dnia."
+
+#: inc/class-wp-rest-stats-controller.php:197
+msgid "Start date as Unix timestamp. If not provided, defaults to 28 days ago."
+msgstr "Data rozpoczęcia jako uniksowy znacznik czasu. Jeśli nie podano, domyślnie 28 dni temu."
+
+#: inc/class-wp-rest-stats-controller.php:180
+msgid "Sorry, you are not allowed to view stats."
+msgstr "Brak uprawnień do przeglądania statystyk."
+
+#: inc/services/class-stats-service.php:49
+msgctxt "dashboard menu name"
+msgid "History Insights"
+msgstr "Spostrzeżenia dotyczące historii"
+
+#: inc/services/class-stats-service.php:48
+msgctxt "dashboard title name"
+msgid "History Insights - Simple History"
+msgstr "Spostrzeżenia dotyczące historii - Prosta historia"
+
+#. translators: 1 is number of events, 2 is description of when the plugin was
+#. installed.
+#: dropins/class-sidebar-stats-dropin.php:410
+msgid "A total of <b>%1$s events</b> have been logged since Simple History was installed."
+msgstr "Od momentu zainstalowania wtyczki Prosta Historia zarejestrowano łącznie <b>%1$s zdarzeń</b>."
+
+#: dropins/class-sidebar-stats-dropin.php:398
+msgid "Only administrators can see user names and avatars."
+msgstr "Tylko administratorzy mogą zobaczyć nazwy użytkowników i awatary."
+
+#: dropins/class-sidebar-stats-dropin.php:397
+msgid "Most active users in last 28 days"
+msgstr "Najbardziej aktywni użytkownicy w ciągu ostatnich 28 dni"
+
+#: dropins/class-sidebar-stats-dropin.php:384
+msgid "Last 28 days"
+msgstr "Ostatnie 28 dni"
+
+#: dropins/class-sidebar-stats-dropin.php:374
+#: dropins/class-sidebar-stats-dropin.php:380
+#: dropins/class-sidebar-stats-dropin.php:386
+msgid "event"
+msgid_plural "events"
+msgstr[0] "zdarzenie"
+msgstr[1] "zdarzenia"
+msgstr[2] "zdarzeń"
+
+#: dropins/class-sidebar-stats-dropin.php:372 build/index.js:10
+msgid "Today"
+msgstr "Dziś"
+
+#: dropins/class-sidebar-stats-dropin.php:180
+msgid "Daily activity over last 28 days"
+msgstr "Dzienna aktywność w ciągu ostatnich 28 dni"
+
+#. translators: %s date of oldest event.
+#: templates/settings-tab-debug.php:175
+msgctxt "debug dropin"
+msgid "Oldest event is from %1$s and has id %2$s."
+msgstr "Najstarsze zdarzenie pochodzi z %1$s i ma identyfikator %2$s."
+
+#: inc/class-wp-rest-events-controller.php:1013
+msgid "Sorry, you are not allowed to update events."
+msgstr "Brak uprawnień do aktualizacji zdarzeń."
+
+#: inc/class-wp-rest-events-controller.php:576
+msgid "Whether the event is sticky and appended to the result set."
+msgstr "Czy zdarzenie jest przypięte i dołączone do zestawu wyników."
+
+#: inc/class-wp-rest-events-controller.php:572
+msgid "Whether the event is sticky."
+msgstr "Czy zdarzenie jest przypięte."
+
+#: inc/class-wp-rest-events-controller.php:436
+msgid "Only return sticky events."
+msgstr "Zwracaj tylko przypięte zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:430
+msgid "Include sticky events in the result set."
+msgstr "Uwzględnij zdarzenia przypięte w wynikach."
+
+#: inc/class-export.php:207
+msgctxt "CSV export header"
+msgid "Occasions"
+msgstr "Okazje"
+
+#: inc/class-export.php:206
+msgctxt "CSV export header"
+msgid "Details"
+msgstr "Szczegóły"
+
+#: inc/class-export.php:205
+msgctxt "CSV export header"
+msgid "Header Message"
+msgstr "Nagłówek komunikatu"
+
+#: inc/class-export.php:204
+msgctxt "CSV export header"
+msgid "User Roles"
+msgstr "Role użytkownika"
+
+#: inc/class-export.php:203
+msgctxt "CSV export header"
+msgid "User Login"
+msgstr "Login użytkownika"
+
+#: inc/class-export.php:202
+msgctxt "CSV export header"
+msgid "User Email"
+msgstr "Adres e-mail użytkownika"
+
+#: inc/class-export.php:201
+msgctxt "CSV export header"
+msgid "Message Key"
+msgstr "Klucz wiadomości"
+
+#: inc/class-export.php:200
+msgctxt "CSV export header"
+msgid "Initiator"
+msgstr "Inicjator"
+
+#: inc/class-export.php:199
+msgctxt "CSV export header"
+msgid "Level"
+msgstr "Poziom"
+
+#: inc/class-export.php:198
+msgctxt "CSV export header"
+msgid "Logger"
+msgstr "Rejestrator"
+
+#: inc/class-export.php:197
+msgctxt "CSV export header"
+msgid "Date (local)"
+msgstr "Data (lokalna)"
+
+#: inc/class-export.php:196
+msgctxt "CSV export header"
+msgid "Date (UTC)"
+msgstr "Data (UTC)"
+
+#: dropins/class-export-dropin.php:149
+msgctxt "Export dropin: include headers"
+msgid "Include headers"
+msgstr "Uwzględnij nagłówki"
+
+#: inc/class-events-stats.php:473 inc/services/class-stats-service.php:267
+#: templates/email-summary-report.php:244
+msgid "Saturday"
+msgstr "Sobota"
+
+#: inc/class-events-stats.php:472 inc/services/class-stats-service.php:266
+#: templates/email-summary-report.php:243
+msgid "Friday"
+msgstr "Piątek"
+
+#: inc/class-events-stats.php:471 inc/services/class-stats-service.php:265
+#: templates/email-summary-report.php:242
+msgid "Thursday"
+msgstr "Czwartek"
+
+#: inc/class-events-stats.php:470 inc/services/class-stats-service.php:264
+#: templates/email-summary-report.php:241
+msgid "Wednesday"
+msgstr "Środa"
+
+#: inc/class-events-stats.php:469 inc/services/class-stats-service.php:263
+#: templates/email-summary-report.php:240
+msgid "Tuesday"
+msgstr "Wtorek"
+
+#: inc/class-events-stats.php:468 inc/services/class-stats-service.php:262
+#: templates/email-summary-report.php:239
+msgid "Monday"
+msgstr "Poniedziałek"
+
+#: inc/class-events-stats.php:467 inc/services/class-stats-service.php:261
+#: templates/email-summary-report.php:245
+msgid "Sunday"
+msgstr "Niedziela"
+
+#: inc/services/class-stats-service.php:269
+msgid "Events"
+msgstr "Zdarzenia"
+
+#: inc/class-stats-view.php:805
+msgctxt "stats section title"
+msgid "Activity calendar"
+msgstr "Kalendarz aktywności"
+
+#: inc/class-stats-view.php:781
+msgctxt "stats section title"
+msgid "Peak activity days"
+msgstr "Dni największej aktywności"
+
+#: inc/class-stats-view.php:776
+msgctxt "stats section title"
+msgid "Peak activity times"
+msgstr "Godziny największej aktywności"
+
+#: inc/class-stats-view.php:748
+msgctxt "stats section title"
+msgid "Media"
+msgstr "Media"
+
+#: inc/class-stats-view.php:738
+msgid "Edits"
+msgstr "Zmiany"
+
+#: inc/class-stats-view.php:734
+msgid "Uploads"
+msgstr "Przesłane pliki"
+
+#: inc/class-stats-view.php:721
+msgctxt "stats section title"
+msgid "Posts & pages activity"
+msgstr "Aktywność wpisów i stron"
+
+#: inc/class-stats-view.php:711
+msgid "Trashed"
+msgstr "W koszu"
+
+#: inc/class-stats-view.php:707
+msgid "Updated"
+msgstr "Zaktualizowano"
+
+#: inc/class-stats-view.php:703
+msgid "Created"
+msgstr "Utworzono"
+
+#: inc/class-stats-view.php:690
+msgctxt "stats section title"
+msgid "User profile activity"
+msgstr "Aktywność profilu użytkownika"
+
+#: inc/class-stats-view.php:684
+msgid "Removed users"
+msgstr "Usunięci użytkownicy"
+
+#: inc/class-stats-view.php:680
+msgid "Added users"
+msgstr "Dodani użytkownicy"
+
+#: inc/class-stats-view.php:676
+msgid "Profile updates"
+msgstr "Aktualizacje profilu"
+
+#: inc/class-stats-view.php:672 templates/email-summary-report.php:328
+msgid "Failed logins"
+msgstr "Nieudane logowanie"
+
+#: inc/class-stats-view.php:668 templates/email-summary-report.php:320
+msgid "Successful logins"
+msgstr "Udane logowania"
+
+#: inc/class-stats-view.php:649 inc/class-stats-view.php:742
+msgid "Deletions"
+msgstr "Usunięcia"
+
+#: inc/class-stats-view.php:645 templates/email-summary-report.php:358
+msgid "Deactivations"
+msgstr "Wyłączenia"
+
+#: inc/class-stats-view.php:641
+msgid "Updates done"
+msgstr "Wykonane aktualizacje"
+
+#: inc/class-stats-view.php:637
+msgid "Updates found"
+msgstr "Znalezione aktualizacje"
+
+#: inc/class-stats-view.php:633 templates/email-summary-report.php:350
+msgid "Activations"
+msgstr "Włączenia"
+
+#: inc/class-stats-view.php:629
+msgid "Installations"
+msgstr "Instalacje"
+
+#: inc/class-stats-view.php:550
+msgid "Outside selected date range"
+msgstr "Poza wybranym zakresem dat"
+
+#. translators: %d: number of events
+#: inc/class-stats-view.php:549
+msgid "%d event"
+msgid_plural "%d events"
+msgstr[0] "%d wydarzenie"
+msgstr[1] "%d wydarzenia"
+msgstr[2] "%d wydarzeń"
+
+#: inc/class-stats-view.php:516
+msgid "Sat"
+msgstr "Sobota"
+
+#: inc/class-stats-view.php:515
+msgid "Fri"
+msgstr "Piątek"
+
+#: inc/class-stats-view.php:514
+msgid "Thu"
+msgstr "Czwartek"
+
+#: inc/class-stats-view.php:513
+msgid "Wed"
+msgstr "Środa"
+
+#: inc/class-stats-view.php:512
+msgid "Tue"
+msgstr "Wtorek"
+
+#: inc/class-stats-view.php:511
+msgid "Mon"
+msgstr "Poniedziałek"
+
+#: inc/class-stats-view.php:510
+msgid "Sun"
+msgstr "Niedziela"
+
+#: inc/class-stats-view.php:461 inc/class-stats-view.php:603
+msgid "View more details"
+msgstr "Wyświetl szczegóły"
+
+#: inc/class-stats-view.php:411
+msgctxt "stats table header"
+msgid "Events"
+msgstr "Zdarzenia"
+
+#: inc/class-stats-view.php:410
+msgctxt "stats table header"
+msgid "User"
+msgstr "Użytkownik"
+
+#: inc/class-stats-view.php:343
+msgctxt "stats table header"
+msgid "Number of events"
+msgstr "Liczba zdarzeń"
+
+#: inc/class-stats-view.php:342
+msgctxt "stats table header"
+msgid "Post"
+msgstr "Wpis"
+
+#: inc/class-stats-view.php:315
+msgctxt "stats section title"
+msgid "Most edited posts and pages"
+msgstr "Najczęściej edytowane wpisy i strony"
+
+#: inc/class-stats-view.php:294
+msgid "No users are currently logged in."
+msgstr "Aktualnie nikt nie jest zalogowany."
+
+#. translators: %s: IP address
+#: inc/class-stats-view.php:275
+msgid "IP: %s"
+msgstr "Adres IP: %s"
+
+#. translators: %s: session expiration date and time
+#: inc/class-stats-view.php:264
+msgid "Expires: %s"
+msgstr "Wygasa: %s"
+
+#. translators: %s: login date and time
+#: inc/class-stats-view.php:253
+msgid "Login: %s"
+msgstr "Logowanie: %s"
+
+#. translators: %d: number of active sessions
+#: inc/class-stats-view.php:238
+msgid "%d active session"
+msgid_plural "%d active sessions"
+msgstr[0] "%d aktywna sesja"
+msgstr[1] "%d aktywne sesje"
+msgstr[2] "%d aktywnych sesji"
+
+#: inc/class-stats-view.php:213
+msgctxt "stats section title"
+msgid "Currently Logged In Users"
+msgstr "Zalogowani użytkownicy"
+
+#: inc/class-stats-view.php:178
+msgid "Activity by date"
+msgstr "Aktywność według daty"
+
+#: inc/class-stats-view.php:160
+msgid "Media actions"
+msgstr "Działania związane z plikami"
+
+#: inc/class-stats-view.php:156
+msgid "Plugin actions"
+msgstr "Działania związane z wtyczkami"
+
+#: inc/class-stats-view.php:152
+msgid "Content actions"
+msgstr "Działania związane z treścią"
+
+#: inc/class-stats-view.php:148
+msgid "User profile actions"
+msgstr "Działania związane z profilem użytkownika"
+
+#: inc/class-stats-view.php:136
+msgid "Users with most events"
+msgstr "Użytkownicy z największą liczbą zdarzeń"
+
+#: inc/class-stats-view.php:131
+msgid "Total users"
+msgstr "Wszystkich użytkowników"
+
+#: inc/class-stats-view.php:126
+msgid "Total events"
+msgstr "Wszystkich zdarzeń"
+
+#: templates/settings-tab-help.php:105
+msgctxt "help page section title"
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+#: templates/settings-tab-help.php:81
+msgctxt "help page section title"
+msgid "Support"
+msgstr "Pomoc techniczna"
+
+#: templates/settings-tab-help.php:69
+msgid "Get help and support"
+msgstr "Uzyskaj pomoc i wsparcie"
+
+#: inc/services/class-review-reminder-service.php:110
+msgid "I already did!"
+msgstr "Już zrobione!"
+
+#: inc/services/class-review-reminder-service.php:109
+msgid "Maybe Later"
+msgstr "Może później"
+
+#: inc/services/class-review-reminder-service.php:108
+msgid "Sure, you're worth it"
+msgstr "Jasne, warto"
+
+#. translators: %s: number of logged events
+#: inc/services/class-review-reminder-service.php:99
+msgid "Thank you for using Simple History! You've logged over %s events - that's awesome! If you find this plugin useful, would you mind taking a moment to rate it on WordPress.org? It really helps to keep the plugin growing and improving."
+msgstr "Dziękujemy za korzystanie z wtyczki Prosta Historia! Zarejestrowano ponad %s zdarzeń - to niesamowite! Jeśli uważasz, że ta wtyczka jest przydatna, czy możesz poświęcić chwilę, aby ocenić ją na WordPress.org? To naprawdę pomaga w rozwoju i ulepszaniu wtyczki."
+
+#: inc/services/class-admin-page-premium-promo.php:77
+msgid "Simple History add-ons give you more features to your WordPress site."
+msgstr "Dodatki do wtyczki Prosta Historia zapewniają więcej funkcji."
+
+#: inc/services/class-admin-page-premium-promo.php:65
+msgid "Get more features with Simple History Premium"
+msgstr "Uzyskaj więcej funkcji dzięki wersji premium"
+
+#: inc/services/class-admin-page-premium-promo.php:46
+msgctxt "settings menu name"
+msgid "Upgrade to Premium for more features"
+msgstr "Uaktualnij do wersji premium, aby uzyskać więcej funkcji"
+
+#: inc/services/class-admin-page-premium-promo.php:40
+msgctxt "settings menu name"
+msgid "Get Premium"
+msgstr "Przejdź na wersji premium"
+
+#: inc/services/class-admin-page-premium-promo.php:31
+msgctxt "promo upsell page title"
+msgid "Get more features with Simple History add-ons"
+msgstr "Uzyskaj więcej funkcji dzięki dodatkom do wtyczki Prosta Historia"
+
+#: dropins/class-settings-debug-tab-dropin.php:106
+#: dropins/class-settings-debug-tab-dropin.php:129
+msgctxt "dashboard title name"
+msgid "Debug"
+msgstr "Debugowanie"
+
+#: dropins/class-settings-debug-tab-dropin.php:97
+msgctxt "dashboard title name"
+msgid "Help & Support"
+msgstr "Pomoc i wsparcie"
+
+#: dropins/class-settings-debug-tab-dropin.php:84
+#: dropins/class-settings-debug-tab-dropin.php:117
+msgctxt "dashboard title name"
+msgid "Support"
+msgstr "Pomoc techniczna"
+
+#: dropins/class-settings-debug-tab-dropin.php:83
+#: dropins/class-settings-debug-tab-dropin.php:116
+msgctxt "settings menu name"
+msgid "Support"
+msgstr "Pomoc techniczna"
+
+#: dropins/class-settings-debug-tab-dropin.php:43
+#: dropins/class-settings-debug-tab-dropin.php:96
+msgctxt "settings menu name"
+msgid "Help & Support"
+msgstr "Pomoc i wsparcie"
+
+#: dropins/class-settings-debug-tab-dropin.php:41
+msgctxt "dashboard title name"
+msgid "Simple History Help & Support"
+msgstr "Pomoc i wsparcie wtyczki Prosta Historia"
+
+#: inc/services/class-setup-settings-page.php:322
+msgid "Top of main menu"
+msgstr "Początek menu głównego"
+
+#: inc/services/class-setup-settings-page.php:268
+msgid "History menu position"
+msgstr "Pozycja menu wtyczki"
+
+#: inc/services/class-setup-settings-page.php:186
+msgid "General settings"
+msgstr "Ustawienia ogólne"
+
+#: inc/services/class-setup-settings-page.php:150
+msgctxt "settings menu name"
+msgid "Simple History"
+msgstr "Prosta Historia"
+
+#: dropins/class-sidebar-stats-dropin.php:415
+msgid "Since install or since the install of version 5.20 if you were already using the plugin before then."
+msgstr "Od momentu instalacji lub od momentu instalacji wersji 5.20, jeśli korzystano z wtyczki już wcześniej."
+
+#: dropins/class-sidebar-add-ons-dropin.php:215
+msgid "Allow only specified users to see Simple History in the WordPress admin."
+msgstr "Zezwalaj tylko określonym użytkownikom na wyświetlanie Prostej Historii w panelu administracyjnym WordPress."
+
+#: dropins/class-sidebar-add-ons-dropin.php:194
+msgid "New!"
+msgstr "Nowość!"
+
+#: dropins/class-sidebar-add-ons-dropin.php:212
+msgid "Stealth Mode"
+msgstr "Tryb niewidzialności"
+
+#: dropins/class-settings-debug-tab-dropin.php:105
+#: dropins/class-settings-debug-tab-dropin.php:128
+msgctxt "settings menu name"
+msgid "Debug"
+msgstr "Tryb debugowania"
+
+#: dropins/class-export-dropin.php:49 dropins/class-export-dropin.php:55
+msgctxt "settings menu name"
+msgid "Export"
+msgstr "Eksport"
+
+#: templates/settings-tab-debug.php:212
+msgctxt "debug dropin"
+msgid "Allowed email addresses:"
+msgstr "Dozwolone adresy e-mail:"
+
+#: templates/settings-tab-debug.php:209
+msgctxt "debug dropin"
+msgid "Partial Stealth Mode is enabled."
+msgstr "Włączono częściowy tryb niewidzialności."
+
+#: templates/settings-tab-debug.php:206
+msgctxt "debug dropin"
+msgid "Stealth Mode"
+msgstr "Tryb niewidzialności"
+
+#. translators: %d number of emails.
+#: templates/settings-tab-debug.php:201
+msgctxt "debug dropin"
+msgid "And %d more."
+msgstr "I %d więcej."
+
+#: inc/services/wp-cli-commands/class-wp-cli-stealth-mode-command.php:38
+msgid "Partial Stealth Mode"
+msgstr "Tryb częściowej niewidzialności"
+
+#: inc/services/wp-cli-commands/class-wp-cli-stealth-mode-command.php:35
+#: inc/services/wp-cli-commands/class-wp-cli-stealth-mode-command.php:39
+msgid "Disabled"
+msgstr "Wyłączono"
+
+#: inc/services/wp-cli-commands/class-wp-cli-stealth-mode-command.php:35
+#: inc/services/wp-cli-commands/class-wp-cli-stealth-mode-command.php:39
+msgid "Enabled"
+msgstr "Włączono"
+
+#: inc/services/wp-cli-commands/class-wp-cli-stealth-mode-command.php:34
+msgid "Full Stealth Mode"
+msgstr "Pełny tryb niewidzialności"
+
+#: dropins/class-sidebar-dropin.php:71
+msgctxt "Sidebar box"
+msgid "Need help?"
+msgstr "Potrzebna pomoc?"
+
+#: dropins/class-sidebar-dropin.php:26
+msgctxt "Sidebar box"
+msgid "We're continually working to improve Simple History, adding new features to make it even more useful for you. If you'd like to support our efforts, consider making a contribution. 🙌"
+msgstr "Nieustannie pracujemy nad ulepszeniem wtyczki Prosta Historia, dodając nowe funkcje, aby uczynić ją jeszcze bardziej użyteczną. Jeśli chcesz wesprzeć nasze wysiłki, rozważ dokonanie wpłaty. 🙌"
+
+#: dropins/class-sidebar-dropin.php:24
+msgctxt "Sidebar box"
+msgid "Support our work"
+msgstr "Wesprzyj naszą pracę"
+
+#. translators: 1 is a link to webpage with info about how to modify number of
+#. days to keep the log
+#: loggers/class-simple-history-logger.php:180
+msgid "<a href=\"%1$s\">Set number of days the log is kept.</a>"
+msgstr "<a href=\"%1$s\">Ustaw liczbę dni przechowywania dziennika.</a>."
+
+#: inc/services/class-setup-settings-page.php:144
+msgctxt "settings menu name"
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: inc/services/class-setup-settings-page.php:133
+msgctxt "settings title name"
+msgid "Simple History Settings"
+msgstr "Prosta Historia — ustawienia"
+
+#: inc/services/class-admin-pages.php:52
+msgctxt "dashboard menu name"
+msgid "Event Log"
+msgstr "Dziennik zdarzeń"
+
+#: inc/services/class-admin-pages.php:51
+msgctxt "dashboard title name"
+msgid "Event Log - Simple History"
+msgstr "Dziennik zdarzeń — prosta historia"
+
+#: inc/services/class-admin-pages.php:37
+msgctxt "dashboard title name"
+msgid "History"
+msgstr "Oś czasu"
+
+#: dropins/class-sidebar-add-ons-dropin.php:160
+msgid "Only $29 for 5 sites!"
+msgstr "Tylko 29 USD za 5 witryn!"
+
+#: dropins/class-sidebar-add-ons-dropin.php:271
+msgid "Buy WooCommerce Logger"
+msgstr "Kup logowanie dla WooCommerce"
+
+#: dropins/class-sidebar-add-ons-dropin.php:266
+msgid "Email templates updates"
+msgstr "Aktualizacje szablonów wiadomości e-mail"
+
+#: dropins/class-sidebar-add-ons-dropin.php:265
+msgid "WooCommerce settings adjustments"
+msgstr "Dostosowanie ustawień WooCommerce"
+
+#: dropins/class-sidebar-add-ons-dropin.php:264
+msgid "Coupon changes"
+msgstr "Zmiany w kuponach"
+
+#: dropins/class-sidebar-add-ons-dropin.php:263
+msgid "Product modifications"
+msgstr "Modyfikacje produktu"
+
+#: dropins/class-sidebar-add-ons-dropin.php:262
+msgid "Order edits"
+msgstr "Edycja zamówienia"
+
+#: loggers/class-user-logger.php:1154
+msgctxt "User logger"
+msgid "Checked"
+msgstr "Zaznaczone"
+
+#: loggers/class-user-logger.php:1145
+msgctxt "User logger"
+msgid "Send notification"
+msgstr "Wyślij powiadomienie"
+
+#. translators: 1 is a link to webpage with info about how to modify number of
+#. days to keep the log
+#: loggers/class-simple-history-logger.php:186
+msgid "<a href=\"%1$s\" target=\"_blank\" class=\"sh-ExternalLink\">Get Premium to set number of days the log is kept.</a>"
+msgstr "<a href=\"%1$s\" target=\"_blank\" class=\"sh-ExternalLink\">Uzyskaj premium, aby ustawić liczbę dni przechowywania dziennika.</a>"
+
+#. translators: %d is the event ID
+#: inc/services/wp-cli-commands/class-wp-cli-get-command.php:64
+msgid "No event found with ID %1$d."
+msgstr "Nie znaleziono zdarzenia o identyfikatorze %1$d."
+
+#. translators: %d: number of rows deleted
+#: inc/services/wp-cli-commands/class-wp-cli-db-command.php:44
+msgid "Removed %1$d rows."
+msgstr "Usunięto %1$d wierszy."
+
+#: inc/services/wp-cli-commands/class-wp-cli-db-command.php:35
+msgid "Are you sure you want to clear all logged items?"
+msgstr "Czy chcesz wyczyścić cały dziennik?"
+
+#: inc/services/class-setup-settings-page.php:525
+msgid "Upgrade to Simple History Premium to set this to any number of days."
+msgstr "Uaktualnij do wersji premium, aby ustawić liczbę dni."
+
+#: dropins/class-sidebar-add-ons-dropin.php:151
+msgid "Great for developers who need to debug issues and for site owners who want to understand what's happening behind the scenes."
+msgstr "Świetne rozwiązanie dla programistów, którzy muszą debugować problemy i dla właścicieli witryn, którzy chcą zrozumieć, co dzieje się za kulisami."
+
+#: dropins/class-sidebar-add-ons-dropin.php:148
+msgid "WP cron jobs"
+msgstr "Zadania WP cron"
+
+#: dropins/class-sidebar-add-ons-dropin.php:147
+msgid "REST API activity"
+msgstr "Aktywność REST API"
+
+#: dropins/class-sidebar-add-ons-dropin.php:146
+msgid "HTTP API requests"
+msgstr "Żądania API HTTP"
+
+#: dropins/class-sidebar-add-ons-dropin.php:145
+msgid "Email sending"
+msgstr "Wysyłanie wiadomości e-mail"
+
+#. translators: %d number of logged events.
+#: templates/settings-tab-debug.php:161
+msgctxt "debug dropin"
+msgid "%1$s logged events since %2$s."
+msgstr "%1$s zdarzeń od %2$s."
+
+#: templates/settings-tab-debug.php:153
+msgctxt "debug dropin"
+msgid "Could not find the date when the plugin was installed."
+msgstr "Brak daty zainstalowania wtyczki."
+
+#: templates/settings-tab-debug.php:149
+msgctxt "debug dropin"
+msgid "Total number of logged events"
+msgstr "Całkowita liczba zarejestrowanych zdarzeń"
+
+#: inc/services/class-setup-settings-page.php:386
+msgid "in the admin bar"
+msgstr "na pasku administratora"
+
+#: templates/email-summary-report.php:371 build/index-admin-bar.js:6
+#: build/index-gutenberg.js:6 build/index.js:8
+msgid "WordPress"
+msgstr "WordPress"
+
+#: dropins/class-sidebar-stats-dropin.php:378 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgid "Last 7 days"
+msgstr "Ostatnie 7 dni"
+
+#: dropins/class-sidebar-add-ons-dropin.php:182 build/index.js:1
+msgid "Premium"
+msgstr "Premium"
+
+#: inc/class-wp-rest-searchoptions-controller.php:136
+#: inc/class-wp-rest-searchoptions-controller.php:145
+msgid "Sorry, you are not allowed to search users."
+msgstr "Brak uprawnienia do wyszukiwania użytkowników."
+
+#: inc/class-wp-rest-searchoptions-controller.php:98
+msgid "Sorry, you are not allowed to search options."
+msgstr "Brak uprawnienia do wyszukiwania opcji."
+
+#: inc/class-wp-rest-searchoptions-controller.php:77
+msgid "Please provide a search query."
+msgstr "Podaj zapytanie wyszukiwania."
+
+#: inc/class-wp-rest-events-controller.php:568
+msgid "The permalink of the event."
+msgstr "Bezpośredni odnośnik do zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:564
+msgid "The context of the event."
+msgstr "Kontekst zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:560
+msgid "The subsequent occasions count of the event."
+msgstr "Kolejne okazje liczą się w zdarzeniu."
+
+#: inc/class-wp-rest-events-controller.php:556
+msgid "The occasions ID of the event."
+msgstr "Identyfikator okazji zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:552
+msgid "The IP addresses of the event."
+msgstr "Adresy IP zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:548
+msgid "Details of the initiator."
+msgstr "Szczegóły inicjatora."
+
+#: inc/class-wp-rest-events-controller.php:544
+msgid "The initiator of the event."
+msgstr "Inicjator zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:540
+msgid "The log level of the event."
+msgstr "Poziom zdarzenia w dzienniku logowania."
+
+#: inc/class-wp-rest-events-controller.php:536
+msgid "The message key of the event."
+msgstr "Klucz wiadomości zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:532
+msgid "The via of the event."
+msgstr "Droga zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:528
+msgid "The logger of the event."
+msgstr "Rejestrator zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:524
+msgid "The uninterpolated message of the event."
+msgstr "Nieprzetworzona wiadomość zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:520
+msgid "The details of the event."
+msgstr "Szczegóły zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:516
+msgid "The details of the event, with possible markup applied."
+msgstr "Szczegóły zdarzenia z ewentualnym zastosowaniem znaczników."
+
+#: inc/class-wp-rest-events-controller.php:512
+msgid "The interpolated message of the event, with possible markup applied."
+msgstr "Zinterpolowana wiadomość zdarzenia, z ewentualnym zastosowaniem znaczników."
+
+#: inc/class-wp-rest-events-controller.php:508
+msgid "The interpolated message of the event."
+msgstr "Zinterpolowana wiadomość zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:503
+msgid "URL to the event."
+msgstr "Adres URL do zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:498
+msgid "The date the event was added, as GMT."
+msgstr "Data dodania zdarzenia, jako GMT."
+
+#: inc/class-wp-rest-events-controller.php:493
+msgid "The date the event was added, in the site's timezone."
+msgstr "Data dodania zdarzenia w strefie czasowej witryny."
+
+#: inc/class-wp-rest-events-controller.php:425
+msgid "Offset the result set by a specific number of items."
+msgstr "Przesuń wyniki o określoną liczbę pozycji."
+
+#: inc/class-wp-rest-events-controller.php:420
+msgid "Limit result set to rows with user id."
+msgstr "Ogranicz wyniki do wierszy z identyfikatorem użytkownika."
+
+#: inc/class-wp-rest-events-controller.php:412
+msgid "Limit result set to rows with user ids."
+msgstr "Ogranicz wyniki do wierszy z identyfikatorami użytkowników."
+
+#: inc/class-wp-rest-events-controller.php:403
+msgid "Limit result set to rows with messages. Format: LoggerSlug:message."
+msgstr "Ogranicz wyniki do wierszy z wiadomościami. Format: LoggerSlug:message."
+
+#: inc/class-wp-rest-events-controller.php:395
+msgid "Limit result set to rows with loggers."
+msgstr "Ogranicz wyniki do wierszy z rejestratorami."
+
+#: inc/class-wp-rest-events-controller.php:386
+msgid "Limit result set to rows with log levels."
+msgstr "Ogranicz wyniki do wierszy z poziomami dziennika."
+
+#: inc/class-wp-rest-events-controller.php:377
+msgid "Limit result set to rows with date within this range. Format: Y-m."
+msgstr "Ogranicz wyniki do wierszy z datą w podanym zakresie. Format: Y-m."
+
+#: inc/class-wp-rest-events-controller.php:361
+#: inc/class-wp-rest-events-controller.php:370
+msgid "Limit result set to rows with date within this range."
+msgstr "Ogranicz wyniki do wierszy z datą w podanym zakresie."
+
+#: inc/class-wp-rest-events-controller.php:334
+msgid "Limit result set to rows with date less than or equal to this unix timestamp."
+msgstr "Ogranicz wyniki do wierszy z datą mniejszą lub równą temu znacznikowi czasu Unix."
+
+#: inc/class-wp-rest-events-controller.php:327
+msgid "Limit result set to rows with date greater than or equal to this unix timestamp."
+msgstr "Ogranicz wyniki do wierszy z datą większą lub równą temu znacznikowi czasu Unix."
+
+#: inc/class-wp-rest-events-controller.php:321
+msgid "Limit result set to rows with id greater than this, i.e. more recent than since_id."
+msgstr "Ogranicz wyniki do wierszy z identyfikatorem większym niż ten, czyli bardziej aktualnym niż since_id."
+
+#: inc/class-wp-rest-events-controller.php:314
+msgid "Limit result set to rows with id equal or lower than this."
+msgstr "Ogranicz wyniki do wierszy z identyfikatorem równym lub niższym niż ten."
+
+#: inc/class-wp-rest-events-controller.php:303
+msgid "Limit result set to specific IDs."
+msgstr "Ogranicz wyniki do określonych identyfikatorów."
+
+#: inc/class-wp-rest-events-controller.php:296
+msgid "Current page of the collection."
+msgstr "Aktualna strona z kolekcji."
+
+#: inc/class-wp-rest-events-controller.php:288
+#: inc/class-wp-rest-stats-controller.php:209
+msgid "Maximum number of items to be returned in result set."
+msgstr "Maksymalna liczba elementów, do zwrócenia w wynikach."
+
+#: inc/class-wp-rest-events-controller.php:283
+msgid "The max number of occasions to return."
+msgstr "Maksymalna liczba okazji do zwrócenia."
+
+#: inc/class-wp-rest-events-controller.php:278
+msgid "The number of occasions to get."
+msgstr "Liczba okazji do pobrania."
+
+#: inc/class-wp-rest-events-controller.php:273
+msgid "Limit result set to rows with occasionsID equal to this."
+msgstr "Ogranicz wyniki do wierszy z identyfikatorem okazji równym temu."
+
+#: inc/class-wp-rest-events-controller.php:268
+msgid "Limit result set to rows with id lower than this."
+msgstr "Ogranicz wyniki do wierszy z identyfikatorem niższym niż ten."
+
+#: inc/class-wp-rest-events-controller.php:261
+#: inc/class-wp-rest-events-controller.php:488
+msgid "Type of result to return."
+msgstr "Rodzaj zwracanego wyniku."
+
+#: inc/class-wp-rest-events-controller.php:208
+msgid "Sorry, you are not allowed to view this event."
+msgstr "Brak uprawnień do zobaczenia tego zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:198
+#: inc/class-wp-rest-events-controller.php:1022
+msgid "Invalid event ID."
+msgstr "Nieprawidłowy identyfikator zdarzenia."
+
+#: inc/class-wp-rest-events-controller.php:189
+#: inc/class-wp-rest-events-controller.php:598
+#: inc/class-wp-rest-searchoptions-controller.php:117
+msgid "Sorry, you are not allowed to view events."
+msgstr "Brak uprawnień do przeglądania zdarzeń."
+
+#: inc/class-wp-rest-events-controller.php:110
+#: inc/class-wp-rest-events-controller.php:130
+#: inc/class-wp-rest-events-controller.php:149
+#: inc/class-wp-rest-events-controller.php:484
+msgid "Unique identifier for the event."
+msgstr "Unikatowy identyfikator zdarzenia."
+
+#: dropins/class-experimental-features-dropin.php:72
+msgid "Please note that these features may not work as expected and could change or be removed in future updates."
+msgstr "Pamiętaj, że funkcje te mogą nie działać zgodnie z oczekiwaniami i mogą zostać zmienione lub usunięte w przyszłych aktualizacjach."
+
+#: dropins/class-experimental-features-dropin.php:66
+msgid "Try out upcoming features that are still in testing."
+msgstr "Wypróbuj nadchodzące funkcje, które wciąż są w fazie testów."
+
+#: dropins/class-experimental-features-dropin.php:61
+msgid "Enable experimental features"
+msgstr "Włącz funkcje eksperymentalne"
+
+#: dropins/class-experimental-features-dropin.php:45
+msgid "Experimental features"
+msgstr "Funkcje eksperymentalne"
+
+#: templates/settings-tab-debug.php:536
+msgctxt "debug dropin"
+msgid "Drop-in filename"
+msgstr "Nazwa pliku zamiennika"
+
+#: templates/settings-tab-debug.php:535
+msgctxt "debug dropin"
+msgid "Drop-in name"
+msgstr "Nazwa zamiennika"
+
+#: templates/settings-tab-debug.php:524
+msgctxt "debug dropin"
+msgid "No drop-ins found."
+msgstr "Nie znaleziono żadnych zamienników."
+
+#: templates/settings-tab-debug.php:521
+msgctxt "debug dropin"
+msgid "As returned from get_dropins()."
+msgstr "Jak zwrócone z get_dropins()."
+
+#: templates/settings-tab-debug.php:519
+msgctxt "debug dropin"
+msgid "WordPress drop-ins"
+msgstr "WordPress zamienniki"
+
+#. translators: %1$s database engine name, %2$s database engine version.
+#: templates/settings-tab-debug.php:75
+msgid "Database engine used to perform queries: <code>%1$s</code>."
+msgstr "Silnik bazy danych używany do wykonywania zapytań: <code>%1$s</code>."
+
+#: templates/settings-tab-debug.php:70
+msgctxt "debug dropin"
+msgid "Database engine"
+msgstr "Silnik bazy danych"
+
+#: templates/settings-tab-debug.php:68
+msgctxt "debug dropin"
+msgid "Database"
+msgstr "Baza danych"
+
+#: loggers/class-plugin-logger.php:108
+msgctxt "Plugin failed to update in bulk"
+msgid "Failed to update plugin \"{plugin_name}\""
+msgstr "Nie udała się aktualizacja wtyczki „{plugin_name}”"
+
+#: loggers/class-options-logger.php:841 loggers/class-options-logger.php:845
+msgid "Off"
+msgstr "Wyłączono"
+
+#: loggers/class-options-logger.php:840 loggers/class-options-logger.php:846
+msgid "On"
+msgstr "Włączono"
+
+#: loggers/class-options-logger.php:734 loggers/class-options-logger.php:736
+msgid "Excerpt"
+msgstr "Zajawka"
+
+#: loggers/class-options-logger.php:733 loggers/class-options-logger.php:737
+msgid "Full text"
+msgstr "Treść"
+
+#: loggers/class-options-logger.php:323
+msgid "Updated setting \"{option_translated}\" on the <a href=\"{option_page_link}\">{option_page_translated}</a>"
+msgstr "Zaktualizowano ustawienie „{option_translated}” na <a href=\"{option_page_link}\">{option_page_translated}</a>."
+
+#: loggers/class-options-logger.php:204
+msgid "Tag base"
+msgstr "Baza odnośnika tagu"
+
+#: loggers/class-options-logger.php:203
+msgid "Category base"
+msgstr "Baza odnośnika kategorii"
+
+#: loggers/class-options-logger.php:202
+msgid "Custom Structure"
+msgstr "Własny format"
+
+#: loggers/class-options-logger.php:200
+msgid "Permalink Settings Page"
+msgstr "Strona ustawienia bezpośrednich odnośników"
+
+#: loggers/class-options-logger.php:199
+msgid "Permalinks"
+msgstr "Bezpośrednie odnośniki"
+
+#: loggers/class-options-logger.php:193
+msgid "Organize my uploads into month- and year-based folders"
+msgstr "Porządkuj wysyłane pliki w katalogi z numerami miesięcy i lat w nazwach"
+
+#: loggers/class-options-logger.php:191
+msgid "Large size height"
+msgstr "Wysokość dużego rozmiaru"
+
+#: loggers/class-options-logger.php:190
+msgid "Large size width"
+msgstr "Szerokość dużego rozmiaru"
+
+#: loggers/class-options-logger.php:189
+msgid "Medium size height"
+msgstr "Wysokość średniego rozmiaru"
+
+#: loggers/class-options-logger.php:188
+msgid "Medium size width"
+msgstr "Szerokość średniego rozmiaru"
+
+#: loggers/class-options-logger.php:187
+msgid "Crop thumbnail to exact dimensions"
+msgstr "Przytnij miniaturkę do określonych wymiarów"
+
+#: loggers/class-options-logger.php:186
+msgid "Thumbnail size height"
+msgstr "Wysokość miniaturki"
+
+#: loggers/class-options-logger.php:185
+msgid "Thumbnail size width"
+msgstr "Szerokość miniaturki"
+
+#: loggers/class-options-logger.php:183
+msgid "Media Settings Page"
+msgstr "Strona ustawień mediów"
+
+#: loggers/class-options-logger.php:182
+msgid "Media"
+msgstr "Multimedia"
+
+#: loggers/class-options-logger.php:178
+msgid "Default Avatar"
+msgstr "Domyślny awatar"
+
+#: loggers/class-options-logger.php:177
+msgid "Maximum Rating"
+msgstr "Maksymalna ocena"
+
+#: loggers/class-options-logger.php:174
+msgid "Show Avatars"
+msgstr "Wyświetlaj awatary"
+
+#: loggers/class-options-logger.php:170
+msgid "Email me whenever a comment is held for moderation"
+msgstr "Wyślij wiadomość e-mail za każdym razem, gdy komentarz zostanie zatrzymany do moderacji"
+
+#: loggers/class-options-logger.php:165 loggers/class-options-logger.php:168
+msgid "Email me whenever anyone posts a comment"
+msgstr "Wyślij wiadomość e-mail za każdym razem, gdy ktoś opublikuje komentarz"
+
+#: loggers/class-options-logger.php:162
+msgid "Comment must be manually approved"
+msgstr "Komentarze muszą zostać zatwierdzone ręcznie"
+
+#: loggers/class-options-logger.php:160 loggers/class-options-logger.php:161
+msgid "Disallowed Comment Keys"
+msgstr "Słowa niedozwolone w komentarzach"
+
+#: loggers/class-options-logger.php:159
+msgid "Comment Moderation"
+msgstr "Moderacja komentarzy"
+
+#: loggers/class-options-logger.php:158
+msgid "Hold a comment in the queue if it contains"
+msgstr "Zatrzymaj komentarz w kolejce, jeśli zawiera"
+
+#: loggers/class-options-logger.php:157 loggers/class-options-logger.php:163
+msgid "Comment author must have a previously approved comment"
+msgstr "Inny komentarz tego samego autora musi zostać wcześniej zatwierdzony"
+
+#: loggers/class-options-logger.php:156
+msgid "Comments order"
+msgstr "Kolejność komentarzy"
+
+#: loggers/class-options-logger.php:155
+msgid "Comments should be displayed with the"
+msgstr "Komentarze powinny być wyświetlane z"
+
+#: loggers/class-options-logger.php:154
+msgid "Top level comments per page"
+msgstr "Komentarze najwyższego poziomu na stronę"
+
+#: loggers/class-options-logger.php:151
+msgid "Break comments into pages"
+msgstr "Stronicuj komentarze"
+
+#: loggers/class-options-logger.php:149
+msgid "Max depth for threaded comments"
+msgstr "Maksymalne zagnieżdżenie komentarzy w wątku"
+
+#: loggers/class-options-logger.php:146
+msgid "Enable threaded (nested) comments"
+msgstr "Włącz komentowanie zagnieżdżone"
+
+#: loggers/class-options-logger.php:142
+msgid "Show comments cookies opt-in checkbox"
+msgstr "Pokaż pole wyboru zgody na pliki ciasteczek komentarzy"
+
+#: loggers/class-options-logger.php:140
+msgid "Days before comments are closed"
+msgstr "Dni przed zamknięciem komentarzy"
+
+#: loggers/class-options-logger.php:137
+msgid "Automatically close comments on posts older than"
+msgstr "Automatycznie wyłączaj możliwość komentowania wpisów starszych niż"
+
+#: loggers/class-options-logger.php:133
+msgid "Users must be registered and logged in to comment"
+msgstr "Użytkownicy muszą być zarejestrowani i zalogowani, aby móc komentować"
+
+#: loggers/class-options-logger.php:129
+msgid "Comment author must fill out name and email"
+msgstr "Komentujący musi wprowadzić swój podpis i adres e-mail"
+
+#: loggers/class-options-logger.php:126
+msgid "Default article visibility"
+msgstr "Domyślna widoczność artykułu"
+
+#: loggers/class-options-logger.php:124
+msgid "Discussion Settings Page"
+msgstr "Strona ustawień dyskusji"
+
+#: loggers/class-options-logger.php:123
+msgid "Discussion"
+msgstr "Dyskusja"
+
+#: loggers/class-options-logger.php:117
+msgid "Discourage search engines from indexing this site"
+msgstr "Proś wyszukiwarki o nieindeksowanie tej witryny"
+
+#: loggers/class-options-logger.php:115
+msgid "Posts page"
+msgstr "Strona z wpisami"
+
+#: loggers/class-options-logger.php:114
+msgid "Front page"
+msgstr "Strona główna"
+
+#: loggers/class-options-logger.php:113
+msgid "Front page displays"
+msgstr "Strona główna wyświetla"
+
+#: loggers/class-options-logger.php:112
+msgid "For each article in a feed, show"
+msgstr "W kanałach nowości wyświetlaj"
+
+#: loggers/class-options-logger.php:111
+msgid "Syndication feeds show the most recent"
+msgstr "Kanały nowości wyświetlają ostatnie"
+
+#: loggers/class-options-logger.php:110
+msgid "Blog pages show at most"
+msgstr "Strony blogu wyświetlają maksymalnie"
+
+#: loggers/class-options-logger.php:108
+msgid "Reading Settings Page"
+msgstr "Strona ustawień czytania"
+
+#: loggers/class-options-logger.php:107
+msgid "Reading"
+msgstr "Czytanie"
+
+#: loggers/class-options-logger.php:103
+msgid "Update Services"
+msgstr "Usługi aktualizacji"
+
+#: loggers/class-options-logger.php:102 loggers/class-options-logger.php:127
+msgid "Allow people to submit comments on new posts"
+msgstr "Zezwól na komentowanie nowych wpisów"
+
+#: loggers/class-options-logger.php:101
+msgid "Allow link notifications from other blogs (pingbacks and trackbacks)"
+msgstr "Zezwól innym blogom na informowanie o umieszczeniu odnośnika do tej witryny (pingbacki i trackbacki)"
+
+#: loggers/class-options-logger.php:98
+msgid "Attempt to notify any blogs linked to from the article"
+msgstr "Spróbuj powiadomić wszystkie blogi, do których odnośniki zostały umieszczone w artykule"
+
+#: loggers/class-options-logger.php:96
+msgid "Default Mail Server Port"
+msgstr "Domyślny port serwera poczty"
+
+#: loggers/class-options-logger.php:95
+msgid "Password"
+msgstr "Hasło"
+
+#: loggers/class-options-logger.php:94
+msgid "Login Name"
+msgstr "Nazwa użytkownika"
+
+#: loggers/class-options-logger.php:93
+msgid "Mail Server"
+msgstr "Serwer pocztowy"
+
+#: loggers/class-options-logger.php:92
+msgid "Post via Email settings (legacy)"
+msgstr "Ustawienia wysyłki e-mail (starsze)"
+
+#: loggers/class-options-logger.php:91
+msgid "Default Post Format"
+msgstr "Domyślny format wpisu"
+
+#: loggers/class-options-logger.php:90
+msgid "Default Post Category"
+msgstr "Domyślna kategoria wpisów"
+
+#: loggers/class-options-logger.php:88
+msgid "Writing Settings Page"
+msgstr "Strona ustawień pisania"
+
+#: loggers/class-options-logger.php:87
+msgid "Writing"
+msgstr "Pisanie"
+
+#: loggers/class-options-logger.php:83
+msgid "Site Language"
+msgstr "Język witryny"
+
+#: loggers/class-options-logger.php:82
+msgid "Week Starts On"
+msgstr "Pierwszy dzień tygodnia"
+
+#: loggers/class-options-logger.php:81
+msgid "Time Format"
+msgstr "Format czasu"
+
+#: loggers/class-options-logger.php:80
+msgid "Date Format"
+msgstr "Format daty"
+
+#: loggers/class-options-logger.php:79
+msgid "Timezone"
+msgstr "Strefa czasowa"
+
+#: loggers/class-options-logger.php:78
+msgid "New User Default Role"
+msgstr "Domyślna rola nowych użytkowników"
+
+#: loggers/class-options-logger.php:75
+msgid "Anyone can register"
+msgstr "Każdy może się zarejestrować"
+
+#: loggers/class-options-logger.php:73
+msgid "New Email Address"
+msgstr "Nowy adres e-mail"
+
+#: loggers/class-options-logger.php:72
+msgid "Administration Email Address"
+msgstr "Adres e-mail administratora"
+
+#: loggers/class-options-logger.php:71
+msgid "Site Icon"
+msgstr "Ikonka witryny"
+
+#: loggers/class-options-logger.php:70
+msgid "Tagline"
+msgstr "Slogan"
+
+#: loggers/class-options-logger.php:69
+msgid "Site Title"
+msgstr "Tytuł witryny"
+
+#: loggers/class-options-logger.php:68
+msgid "Site Address (URL)"
+msgstr "Adres witryny (URL)"
+
+#: loggers/class-options-logger.php:67
+msgid "WordPress Address (URL)"
+msgstr "Adres WordPressa (URL)"
+
+#: loggers/class-options-logger.php:65
+msgid "General Settings Page"
+msgstr "Strona ustawień ogólnych"
+
+#: loggers/class-options-logger.php:25
+msgid "Updated setting \"{option}\" on the \"{option_page}\" settings page"
+msgstr "Zaktualizowano wartość „{option}” na stronie ustawień „{option_page}”."
+
+#: loggers/class-media-logger.php:300
+msgid "Slug"
+msgstr "Uproszczona nazwa"
+
+#: loggers/class-media-logger.php:292
+msgid "Caption"
+msgstr "Podpis"
+
+#: loggers/class-media-logger.php:288
+msgid "Alternative text"
+msgstr "Tekst alternatywny"
+
+#: loggers/class-media-logger.php:279
+msgid "Changed values"
+msgstr "Zmienione wartości"
+
+#: loggers/class-media-logger.php:34
+msgid "Edited attachment \"{attachment_title}\""
+msgstr "Edytowany załącznik „{attachment_title}”"
+
+#: loggers/class-core-updates-logger.php:27
+msgid "Switched to automatic updates for maintenance and security releases of WordPress only"
+msgstr "Przełączono na automatyczne aktualizacje tylko dla wydań z poprawkami błędów w zabezpieczeniach i konserwacji WordPressa"
+
+#: loggers/class-core-updates-logger.php:26
+msgid "Enabled automatic updates for all new versions of WordPress"
+msgstr "Włączono automatyczne aktualizacje dla wszystkich nowych wersji WordPressa"
+
+#: inc/class-simple-history.php:1011
+msgid "Limit logged login attempts"
+msgstr "Ogranicz liczbę prób logowania"
+
+#: inc/class-simple-history.php:993 inc/class-simple-history.php:1002
+#: build/index.js:8
+msgid "Configure failed login attempts"
+msgstr "Skonfiguruj nieudane próby logowania"
+
+#. translators: %s: error message
+#: inc/class-log-query.php:159 inc/class-log-query.php:409
+msgid "Error when performing query: %s"
+msgstr "Błąd podczas wykonywania zapytania: %s"
+
+#: dropins/class-action-links-dropin.php:50
+msgid "Go to Simple History"
+msgstr "Przejdź do wtyczki Prosta Historia"
+
+#: loggers/class-simple-history-logger.php:228
+msgid "Detective Mode enabled"
+msgstr "Tryb detektywa włączony"
+
+#: dropins/class-detective-mode-dropin.php:89
+msgid "Read more about detective mode"
+msgstr "Dowiedz się więcej o trybie detektywa"
+
+#: dropins/class-detective-mode-dropin.php:84
+msgid "While particularly useful for developers and administrators seeking to understand complex interactions or resolve issues, please note that enabling this feature may increase the volume of logged data."
+msgstr "Chociaż jest to szczególnie przydatne dla programistów i administratorów, którzy chcą zrozumieć złożone interakcje lub rozwiązać problemy, pamiętaj, że włączenie może zwiększyć ilość rejestrowanych danych."
+
+#: dropins/class-detective-mode-dropin.php:75
+msgid "When enabled, Detective Mode captures in-depth data for each event, including the current <code>$_GET</code>, <code>$_POST</code> values, the current filter name, and much more."
+msgstr "Po włączeniu, tryb detektywa zbiera szczegółowe dane dla każdego zdarzenia, w tym bieżące wartości <code>$_GET</code>, <code>$_POST</code>, bieżącą nazwę filtra i wiele więcej."
+
+#: dropins/class-detective-mode-dropin.php:69
+msgid "Enable detective mode"
+msgstr "Włącz tryb detektywa"
+
+#: dropins/class-detective-mode-dropin.php:53
+msgid "Detective mode"
+msgstr "Tryb detektywa"
+
+#: loggers/class-user-logger.php:77
+msgctxt "A role is removed from a user"
+msgid "Removed role(s) \"{roles}\" from user \"{edited_user_login}\""
+msgstr "Usunięto rolę (role) „{roles}” użytkownika „{edited_user_login}”."
+
+#: loggers/class-user-logger.php:72
+msgctxt "A role is added to a user"
+msgid "Added role(s) \"{roles}\" to user \"{edited_user_login}\""
+msgstr "Dodano rolę „{roles}” użytkownika „{edited_user_login}”."
+
+#: loggers/class-user-logger.php:1215
+msgid "Role removed"
+msgstr "Usunięto rolę"
+
+#: loggers/class-user-logger.php:1202
+msgid "Role added"
+msgstr "Dodano rolę"
+
+#. translators: %s is the slug of the sub tab
+#: inc/services/class-setup-settings-page.php:682
+msgid "Function not found for sub tab \"%1$s\"."
+msgstr "Nie znaleziono funkcji dla podzakładki „%1$s”."
+
+#: loggers/class-post-logger.php:1571
+msgid "Removed term"
+msgid_plural "Removed terms"
+msgstr[0] "Usunięta taksonomia"
+msgstr[1] "Usunięte taksonomie"
+msgstr[2] "Usuniętych taksonomii"
+
+#: loggers/class-post-logger.php:1564
+msgid "Added term"
+msgid_plural "Added terms"
+msgstr[0] "Dodana taksonomia"
+msgstr[1] "Dodane taksonomie"
+msgstr[2] "Dodanych taksonomii"
+
+#. translators: 1 %s is a link to the add-ons page
+#: inc/services/class-setup-database.php:429
+msgid "Extend Simple History with more features using <a href=\"%1$s\" target=\"_blank\">add-ons</a>."
+msgstr "Rozszerz Prostą Historię o więcej możliwości za pomocą <a href=\"%1$s\" target=\"_blank\">dodatków</a>."
+
+#: inc/services/class-setup-database.php:421
+msgid "If you have multiple users working on this website, you'll find Simple History especially useful . It logs events from all users, providing a centralized view of what's happening. This makes it easy for you to see and understand the activities of other users on the same website."
+msgstr "Jeśli masz wielu użytkowników pracujących nad witryną, szczególnie przydatna okaże się funkcja prostej historii. Rejestruje zdarzenia od wszystkich użytkowników, zapewniając scentralizowany widok tego, co się dzieje. Dzięki temu można łatwo zobaczyć i zrozumieć działania innych użytkowników."
+
+#: inc/services/class-setup-database.php:415
+msgid "As your users work on this site, this feed will contain information about their actions. Page edits, attachment uploads, plugin updates, user logins, site settings changes, and much more will show up in this log."
+msgstr "Gdy użytkownicy pracują w witrynie, kanał będzie zawierał informacje o ich działaniach. Edycje treści, przesyłanie załączników, aktualizacje wtyczek, logowania użytkowników, zmiany ustawień witryny i wiele innych będą tu wyświetlane."
+
+#: inc/services/class-setup-database.php:409
+msgid "Simple History has been successfully installed on your WordPress site and is active and ready to log important changes on your website"
+msgstr "Prosta Wtyczka Historia została zainstalowana w twoim WordPressie, jest włączona i gotowa do rejestrowania zmian w witrynie"
+
+#: inc/services/class-plugin-list-info.php:44
+msgid "Add licence key to enable updates"
+msgstr "Dodaj klucz licencyjny, aby włączyć aktualizacje"
+
+#: inc/services/class-licences-settings-page.php:297
+msgid "Enter license key..."
+msgstr "Wpisz klucz licencji..."
+
+#: inc/services/class-licences-settings-page.php:228
+msgid "On multisite installations you enter the licence keys on the main site."
+msgstr "W instalacjach wielowitrynowych wpisujesz klucze licencyjne na głównej witrynie."
+
+#. translators: 1: link start tag, 2: link end tag
+#: inc/services/class-licences-settings-page.php:403
+msgid "Manage subscriptions and billing for your add-ons at the %1$sCustomer portal%2$s."
+msgstr "Zarządzaj subskrypcjami i rozliczeniami dodatków w %1$sportalu użytkowników%2$s."
+
+#. translators: 1: link start tag, 2: link end tag
+#: inc/services/class-licences-settings-page.php:392
+msgid "Manage licences and download your add-ons at the %1$sMy orders%2$s page."
+msgstr "Zarządzaj licencjami i pobieraj dodatki na stronie %1$sMoje zamówienia%2$s."
+
+#. translators: 1: link to plus plugins page, 2: link text
+#: inc/services/class-licences-settings-page.php:154
+msgid "Don't have any add-ons yet? Visit <a href=\"%1$s\" class=\"sh-ExternalLink\" target=\"_blank\">%2$s</a> to see available add-ons."
+msgstr "Nie masz jeszcze żadnych dodatków? Odwiedź <a href=\"%1$s\" class=\"sh-ExternalLink\" target=\"_blank\">%2$s</a>, aby zobaczyć dostępne dodatki."
+
+#: inc/services/class-licences-settings-page.php:131
+msgid "Sites and Billing"
+msgstr "Witryny i rozliczenia"
+
+#: inc/services/class-licences-settings-page.php:114
+msgid "License information for add-ons"
+msgstr "Informacje o licencji dla dodatków"
+
+#: inc/services/class-dashboard-widget.php:41
+msgid "Settings & Tools"
+msgstr "Ustawienia i narzędzia"
+
+#: inc/class-helpers.php:843
+msgid "Add-ons"
+msgstr "Dodatki"
+
+#: templates/settings-tab-debug.php:435
+msgctxt "debug dropin"
+msgid "Disabled"
+msgstr "Wyłączono"
+
+#: templates/settings-tab-debug.php:435
+msgctxt "debug dropin"
+msgid "Enabled"
+msgstr "Włączono"
+
+#: templates/settings-tab-debug.php:383
+msgctxt "debug dropin"
+msgid "Status"
+msgstr "Status"
+
+#: inc/services/class-setup-settings-page.php:277
+msgid "Items per page"
+msgstr "Elementów na stronę"
+
+#: inc/services/class-licences-settings-page.php:308
+msgid "License key is <strong>active</strong>. "
+msgstr "Klucz licencyjny jest <strong>aktywny</strong>. "
+
+#: inc/services/class-licences-settings-page.php:333
+msgid "No license found."
+msgstr "Nie znaleziono licencji."
+
+#: inc/services/class-licences-settings-page.php:144
+msgid "Enter your license key(s) to activate and retrieve updates for your add-on plugins."
+msgstr "Wpisz klucz licencyjny, aby włączyć i pobrać aktualizacje dla twoich dodatkowych wtyczek."
+
+#: inc/services/class-licences-settings-page.php:122
+msgid "License Keys"
+msgstr "Klucze licencyjne"
+
+#: inc/services/class-licences-settings-page.php:89
+#: inc/services/class-licences-settings-page.php:90
+msgid "Licences"
+msgstr "Licencje"
+
+#: inc/class-addon-plugin.php:150 inc/class-addon-plugin.php:159
+#: build/index.js:16
+msgid "Unknown error"
+msgstr "Nieznany błąd"
+
+#: dropins/class-export-dropin.php:120
+msgid "Export history"
+msgstr "Export historii"
+
+#. translators: 1 is a link to PayPal, 2 is a link to GitHub sponsors.
+#: dropins/class-donate-dropin.php:130
+msgid "If you find Simple History useful please <a href=\"%1$s\" target=\"_blank\" class=\"sh-ExternalLink\">donate using PayPal</a> or <a href=\"%2$s\" target=\"_blank\" class=\"sh-ExternalLink\">become a GitHub sponsor</a>."
+msgstr "Jeśli uważasz wtyczką „Prosta Historia” za przydatną, <a href=\"%1$s\" target=\"_blank\" class=\"sh-ExternalLink\">przekaż darowiznę za pomocą PayPal</a> lub <a href=\"%2$s\" target=\"_blank\" class=\"sh-ExternalLink\">zostań sponsorem na GitHubie</a>."
+
+#: dropins/class-donate-dropin.php:100
+msgctxt "donate settings headline"
+msgid "Support development"
+msgstr "Wspomóż rozwój"
+
+#: templates/settings-tab-debug.php:481
+msgctxt "debug dropin"
+msgid "As returned from get_plugins()."
+msgstr "Jak zwrócone z get_plugins()."
+
+#. translators: %d number of dropins loaded.
+#: templates/settings-tab-debug.php:271
+msgctxt "debug dropin"
+msgid "%1$d dropins loaded."
+msgstr "Załadowano %1$d dropins."
+
+#: templates/settings-tab-debug.php:266
+msgctxt "debug dropin"
+msgid "Dropins"
+msgstr "Dropins"
+
+#: templates/settings-tab-debug.php:243 templates/settings-tab-debug.php:287
+msgctxt "debug dropin"
+msgid "Namespaced name"
+msgstr "Nazwa w przestrzeni nazw"
+
+#: templates/settings-tab-debug.php:242 templates/settings-tab-debug.php:286
+msgctxt "debug dropin"
+msgid "Short name"
+msgstr "Krótka nazwa"
+
+#. translators: %d number of dropins loaded.
+#: templates/settings-tab-debug.php:227
+msgctxt "debug dropin"
+msgid "%1$d services loaded."
+msgstr "Załadowano %1$d usług."
+
+#: templates/settings-tab-debug.php:222
+msgctxt "debug dropin"
+msgid "Services"
+msgstr "Usługi"
+
+#: templates/settings-tab-debug.php:106
+msgctxt "debug dropin"
+msgid "No tables found."
+msgstr "Nie znaleziono żadnych tabel."
+
+#. translators: %s table name.
+#: templates/settings-tab-debug.php:48
+msgctxt "debug dropin"
+msgid "Required table \"%s\" does not exist."
+msgstr "Nie istnieje wymagana tabela: „%s”."
+
+#: loggers/class-simple-history-logger.php:34
+msgctxt "Logger: SimpleHistoryLogger"
+msgid "Removed {num_rows} events that were older than {days} days"
+msgstr "Usunięto {num_rows} zdarzeń starszych niż {days} dni."
+
+#. translators: 1 is a link to the WordPress.org plugin review page for Simple
+#. History.
+#: dropins/class-donate-dropin.php:62
+msgid "Consider giving Simple History <a href=\"%1$s\" target=\"_blank\">a nice review at WordPress.org</a> if you find it useful."
+msgstr "Rozważ wystawienie wtyczce „Prosta Historia” <a href=\"%1$s\" target=\"_blank\">miłej recenzji na WordPress.org</a>, jeśli uznasz ją za przydatną."
+
+#: loggers/class-simple-history-logger.php:232
+msgid "Changed items"
+msgstr "Zmienione elementy"
+
+#: loggers/class-simple-history-logger.php:33
+msgctxt "Logger: SimpleHistoryLogger"
+msgid "Cleared the log for Simple History ({num_rows_deleted} rows were removed)"
+msgstr "Wyczyszczono dziennik wtyczki Prosta Historia (usunięto {num_rows_deleted} wierszy)"
+
+#: loggers/class-simple-history-logger.php:32
+msgctxt "Logger: SimpleHistoryLogger"
+msgid "Regenerated RSS feed secret"
+msgstr "Zregenerowany tajny kanał RSS"
+
+#: loggers/class-simple-history-logger.php:31
+msgctxt "Logger: SimpleHistoryLogger"
+msgid "Modified settings"
+msgstr "Zmodyfikowane ustawienia"
+
+#: loggers/class-simple-history-logger.php:28
+msgid "Logs changes made on the Simple History settings page."
+msgstr "Rejestruje zmiany dokonane na stronie ustawień wtyczki."
+
+#: loggers/class-simple-history-logger.php:27
+msgctxt "Logger: SimpleHistoryLogger"
+msgid "Using plugin Simple History"
+msgstr "Korzystanie z wtyczki Prosta Historia"
+
+#: loggers/class-simple-history-logger.php:26
+msgctxt "Logger: SimpleHistoryLogger"
+msgid "Simple History Logger"
+msgstr "Prosty rejestrator historii"
+
+#: inc/services/class-setup-settings-page.php:185
+#: inc/services/class-setup-settings-page.php:207
+#: loggers/class-options-logger.php:64
+msgid "General"
+msgstr "Ogólne"
+
+#. translators: %s is a link to the documentation
+#: dropins/class-rss-dropin.php:487
+msgid "Query parameters can be used to control what to include in the feed. <a href=\"%1$s\" class=\"sh-ExternalLink\" target=\"_blank\">View documentation</a>."
+msgstr "Parametry zapytania mogą być używane do kontrolowania tego, co ma być zawarte w feedzie. <a href=\"%1$s\" class=\"sh-ExternalLink\" target=\"_blank\">Wyświetl dokumentację</a>."
+
+#: loggers/class-simple-history-logger.php:224
+msgid "RSS feed enabled"
+msgstr "Kanał RSS włączony"
+
+#: loggers/class-simple-history-logger.php:220
+msgid "Items on dashboard"
+msgstr "Elementy na kokpicie"
+
+#: loggers/class-simple-history-logger.php:216
+msgid "Items on page"
+msgstr "Elementy na stronie"
+
+#: loggers/class-simple-history-logger.php:212
+msgid "Show as a page"
+msgstr "Pokaż jako stronę"
+
+#: loggers/class-simple-history-logger.php:208
+msgid "Show on dashboard"
+msgstr "Pokaż na kokpicie"
+
+#. translators: %s post title with link.
+#: loggers/class-options-logger.php:504 loggers/class-options-logger.php:529
+msgid "Page %s"
+msgstr "Strona %s"
+
+#: loggers/class-privacy-logger.php:48
+msgctxt "Logger: Privacy"
+msgid "Marked personal data erasure request as complete for \"{user_email}\""
+msgstr "Oznaczono żądanie usunięcia danych osobowych jako kompletne dla \"{user_email}\"."
+
+#: loggers/class-privacy-logger.php:44
+msgctxt "Logger: Privacy"
+msgid "Marked personal data export request as complete for \"{request_email}\""
+msgstr "Oznaczono żądanie eksportu danych osobowych jako kompletne dla \"{request_email}\"."
+
+#: loggers/class-plugin-redirection-logger.php:40
+msgctxt "Logger: Redirection"
+msgid "Edited redirection group \"{prev_group_name}\""
+msgstr "Edytowana grupa przekierowań \"{prev_group_name}\""
+
+#. translators: 1: dropin class name.
+#: inc/services/class-dropins-loader.php:59
+msgid "A dropin was not found. Classname was \"%1$s\"."
+msgstr "Nie znaleziono dropina. Nazwa klasy to „%1$s”."
+
+#. translators: 1: logger slug.
+#: inc/services/class-loggers-loader.php:141
+msgid "Logger %1$s is missing a name."
+msgstr "Rejestrator %1$s nie ma nazwy."
+
+#: inc/services/class-loggers-loader.php:130
+msgid "A logger is missing a slug."
+msgstr "Rejestratorowi brakuje uproszczonej nazwy."
+
+#. translators: 1: logger slug, 2: logger name.
+#: inc/services/class-loggers-loader.php:118
+msgid "A logger slug can be max 30 chars long. Slug %1$s of logger %2$s is to long."
+msgstr "Uproszczona nazwa rejestratora może mieć maksymalnie 30 znaków. Uproszczona nazwa %1$s rejestratora %2$s jest zbyt długa."
+
+#: dropins/class-donate-dropin.php:87
+msgid "Become a GitHub sponsor"
+msgstr "Zostań sponsorem na GitHubie"
+
+#: dropins/class-donate-dropin.php:82
+msgid "Donate using PayPal"
+msgstr "Przekaż darowiznę za pomocą PayPal"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:35
+msgctxt "PluginWPCrontrolLogger"
+msgid "Resumed the \"{event_hook}\" cron event hook"
+msgstr "Wznowiono hak zdarzeń cron „{event_hook}”."
+
+#: loggers/class-plugin-wp-crontrol-logger.php:34
+msgctxt "PluginWPCrontrolLogger"
+msgid "Paused the \"{event_hook}\" cron event hook"
+msgstr "Wstrzymano hak zdarzenia cron „{event_hook}”."
+
+#: inc/class-stats-view.php:715
+msgid "Deleted"
+msgstr "Usunięto"
+
+#: loggers/class-media-logger.php:296 build/index-admin-bar.js:4
+#: build/index-gutenberg.js:4 build/index.js:6
+msgid "Description"
+msgstr "Opis"
+
+#: loggers/class-theme-logger.php:30
+msgid "Logs theme edits"
+msgstr "Zmiany motywu"
+
+#: loggers/class-theme-logger.php:29
+msgid "Theme Logger"
+msgstr "Logowanie motywu"
+
+#: loggers/class-post-logger.php:33
+msgid "Logs the creation and modification of posts and pages"
+msgstr "Rejest tworzenia i modyfikacji wpisów i stron"
+
+#: loggers/class-post-logger.php:32
+msgid "Post Logger"
+msgstr "Logowanie wpisów"
+
+#: loggers/class-plugin-logger.php:55
+msgid "Logs plugin installs, uninstalls and updates"
+msgstr "Rejestr instalacji, dezinstalacji i aktualizacji wtyczek"
+
+#: loggers/class-plugin-logger.php:54
+msgid "Plugin Logger"
+msgstr "Logowanie wtyczek"
+
+#: loggers/class-options-logger.php:22
+msgid "Logs updates to WordPress settings"
+msgstr "Rejestruje aktualizacji ustawień WordPressa"
+
+#: loggers/class-options-logger.php:21
+msgid "Options Logger"
+msgstr "Logowanie opcji"
+
+#: loggers/class-menu-logger.php:23
+msgid "Logs menu edits"
+msgstr "Rejestruje edycje menu"
+
+#: loggers/class-menu-logger.php:22
+msgid "Menu Logger"
+msgstr "Rejestrator menu"
+
+#: loggers/class-simple-logger.php:27
+msgid "The built in logger for Simple History"
+msgstr "Rejestrator wbudowany w Prostą Historię"
+
+#: loggers/class-core-updates-logger.php:20
+msgid "Logs the update of WordPress (manual and automatic updates)"
+msgstr "Rejestruje aktualizacje WordPressa (ręczne i automatyczne aktualizacje)"
+
+#: loggers/class-core-updates-logger.php:19
+msgid "Core Updates Logger"
+msgstr "Rejestrator aktualizacji WordPressa"
+
+#: loggers/class-comments-logger.php:24
+msgid "Logs comments, and modifications to them"
+msgstr "Rejestruje komentarze i ich modyfikacje"
+
+#: loggers/class-comments-logger.php:23
+msgid "Comments Logger"
+msgstr "Rejestrator komentarzy"
+
+#: loggers/class-categories-logger.php:22
+msgid "Logs changes to categories, tags, and taxonomies"
+msgstr "Rejestruje zmiany w kategoriach, tagach i taksonomiach"
+
+#: loggers/class-plugin-redirection-logger.php:28
+msgctxt "Logger: Redirection"
+msgid "Logs edits in the Redirection plugin"
+msgstr "Rejestruje zmiany we wtyczce Przekierowanie"
+
+#: loggers/class-plugin-redirection-logger.php:27
+msgctxt "Logger: Redirection"
+msgid "Plugin: Redirection Logger"
+msgstr "Wtyczka: Rejestrator Przekierowań"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:22
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Plugin: Limit Login Attempts Logger"
+msgstr "Wtyczka: Rejestrator limitu prób logowania"
+
+#: loggers/class-plugin-duplicate-post-logger.php:25
+msgctxt "Logger: Plugin Duplicate Post"
+msgid "Plugin: Duplicate Posts Logger"
+msgstr "Wtyczka: rejestrator powielonych wpisów"
+
+#: loggers/class-plugin-beaver-builder-logger.php:19
+msgctxt "Logger: Plugin Beaver Builder"
+msgid "Plugin: Beaver Builder Logger"
+msgstr "Wtyczka: Beaver Builder Logger"
+
+#: loggers/class-plugin-acf-logger.php:53
+msgctxt "Logger: Plugin ACF"
+msgid "Plugin: Advanced Custom Fields Logger"
+msgstr "Wtyczka: Advanced Custom Fields Logger"
+
+#: loggers/class-file-edits-logger.php:21
+msgid "Logs edits to theme and plugin files"
+msgstr "Rejestruje zmiany w plikach motywów i wtyczek"
+
+#: loggers/class-file-edits-logger.php:20
+msgctxt "Logger: FileEditsLogger"
+msgid "File edits Logger"
+msgstr "Rejestrator edycji plików"
+
+#: loggers/class-translations-logger.php:24
+msgctxt "Logger: Translations"
+msgid "Translation Logger"
+msgstr "Rejestrator tłumaczeń"
+
+#: loggers/class-privacy-logger.php:34
+msgctxt "Logger: privacy"
+msgid "Privacy Logger"
+msgstr "Rejestrator prywatności"
+
+#: loggers/class-plugin-jetpack-logger.php:24
+msgctxt "Logger: Jetpack"
+msgid "Plugin: Jetpack Logger"
+msgstr "Wtyczka: Rejestrator Jetpack"
+
+#: loggers/class-available-updates-logger.php:25
+msgid "Logs found updates to WordPress, plugins, and themes"
+msgstr "Rejestruje znalezione aktualizacje WordPressa, wtyczek i motywów."
+
+#: loggers/class-available-updates-logger.php:23
+msgctxt "AvailableUpdatesLogger"
+msgid "Available Updates Logger"
+msgstr "Rejestrator dostępnych aktualizacji"
+
+#: loggers/class-user-logger.php:1085 loggers/class-user-logger.php:1092
+msgid "Site Default"
+msgstr "Domyślny dla witryny"
+
+#: loggers/class-user-logger.php:1029
+msgctxt "User logger"
+msgid "Language"
+msgstr "Język"
+
+#: loggers/class-user-logger.php:1026
+msgctxt "User logger"
+msgid "Don't show"
+msgstr "Nie pokazuj"
+
+#: loggers/class-user-logger.php:1025
+msgctxt "User logger"
+msgid "Show"
+msgstr "Pokazuj"
+
+#: loggers/class-user-logger.php:1023
+msgctxt "User logger"
+msgid "Toolbar"
+msgstr "Pasek narzędzi"
+
+#: loggers/class-user-logger.php:1011 loggers/class-user-logger.php:1020
+msgctxt "User logger"
+msgid "Disable"
+msgstr "Wyłącz"
+
+#: loggers/class-user-logger.php:1010 loggers/class-user-logger.php:1019
+msgctxt "User logger"
+msgid "Enable"
+msgstr "Włącz"
+
+#: loggers/class-user-logger.php:134
+msgctxt "User logger: search"
+msgid "User application password deletion"
+msgstr "Usunięto hasło aplikacji użytkownika"
+
+#: loggers/class-user-logger.php:131
+msgctxt "User logger: search"
+msgid "User application password created"
+msgstr "Utworzono hasło aplikacji użytkownika"
+
+#: loggers/class-user-logger.php:125
+msgctxt "User logger: search"
+msgid "User role changes"
+msgstr "Zmieniono role użytkownika"
+
+#: loggers/class-user-logger.php:92
+msgctxt "User revoke application password"
+msgid "Revoked application password \"{application_password_name}\" for user \"{edited_user_login}\""
+msgstr "Unieważniono hasło aplikacji „{application_password_name}” użytkownika „{edited_user_login}”."
+
+#: loggers/class-user-logger.php:87
+msgctxt "User add new application password"
+msgid "Added application password \"{application_password_name}\" for user \"{edited_user_login}\""
+msgstr "Dodano hasło aplikacji „{application_password_name}” użytkownika „{edited_user_login}”."
+
+#: loggers/class-user-logger.php:67
+msgctxt "User updates the role for a user"
+msgid "Changed role for user \"{edited_user_login}\" to \"{new_role}\" from \"{old_role}\""
+msgstr "Zmieniono rolę  użytkownika „{edited_user_login}” z „{old_role}” na „{new_role}”."
+
+#: loggers/class-user-logger.php:82
+msgctxt "User clicks confirm admin email on admin email confirm screen"
+msgid "Verified that administration email for website is correct"
+msgstr "Zweryfikowano poprawność adresu e-mail administratora witryny"
+
+#: loggers/class-theme-logger.php:35
+msgid "Deleted theme \"{theme_name}\""
+msgstr "Usunięto motyw „{theme_name}”"
+
+#: loggers/class-theme-logger.php:34
+msgid "Installed theme \"{theme_name}\" by {theme_author}"
+msgstr "Zainstalowano motyw „{theme_name}” stworzony przez „{theme_author}”."
+
+#: loggers/class-media-logger.php:161
+msgid "Uploaded {post_type} <a href=\"{edit_link}\">\"{attachment_title}\"</a> to {attachment_parent_post_type} \"{attachment_parent_title}\""
+msgstr "Przesłano {post_type} <a href=\"{edit_link}\">\"{attachment_title}\"</a> do {attachment_parent_post_type} \"{attachment_parent_title}\""
+
+#: loggers/class-media-logger.php:158
+msgid "Uploaded {post_type} <a href=\"{edit_link}\">\"{attachment_title}\"</a> to {attachment_parent_post_type} <a href=\"{attachment_parent_edit_link}\">\"{attachment_parent_title}\"</a>"
+msgstr "Przesłano {post_type} <a href=\"{edit_link}\">\"{attachment_title}\"</a> do {attachment_parent_post_type}. <a href=\"{attachment_parent_edit_link}\">\"{attachment_parent_title}\"</a>."
+
+#: loggers/class-media-logger.php:30
+msgid "Logs media uploads and edits"
+msgstr "Rejestruje przesyłanie i edycję multimediów"
+
+#: loggers/class-media-logger.php:29
+msgid "Media/Attachments Logger"
+msgstr "Rejestrator mediów/załączników"
+
+#. translators: %s list of links to ipinfo.io with IP:s as link labels.
+#: loggers/class-logger.php:586
+msgid "IP Addresses %1$s"
+msgstr "Adresy IP %1$s"
+
+#. translators: %s link to ipinfo.io with first IP as link label.
+#: loggers/class-logger.php:558
+msgid "IP Address %1$s"
+msgstr "Adres IP %1$s"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:461
+msgctxt "PluginWPCrontrolLogger"
+msgid "Display Name"
+msgstr "Wyświetlana nazwa"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:453
+msgctxt "PluginWPCrontrolLogger"
+msgid "Interval"
+msgstr "Interwał"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:445
+msgctxt "PluginWPCrontrolLogger"
+msgid "Name"
+msgstr "Nazwa"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:409
+#: loggers/class-plugin-wp-crontrol-logger.php:416
+msgctxt "PluginWPCrontrolLogger"
+msgid "Recurrence"
+msgstr "Powtarzalność"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:389
+#: loggers/class-plugin-wp-crontrol-logger.php:396
+msgctxt "PluginWPCrontrolLogger"
+msgid "Next Run"
+msgstr "Następne uruchomienie"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:364
+#: loggers/class-plugin-wp-crontrol-logger.php:376
+msgctxt "PluginWPCrontrolLogger"
+msgid "Arguments"
+msgstr "Argumenty"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:350
+msgctxt "PluginWPCrontrolLogger"
+msgid "Hook"
+msgstr "Zaczep"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:89
+#: loggers/class-plugin-wp-crontrol-logger.php:150
+#: loggers/class-plugin-wp-crontrol-logger.php:248
+#: loggers/class-plugin-wp-crontrol-logger.php:258
+#: loggers/class-plugin-wp-crontrol-logger.php:372
+msgctxt "PluginWPCrontrolLogger"
+msgid "None"
+msgstr "Brak"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:38
+msgctxt "PluginWPCrontrolLogger"
+msgid "Deleted cron schedule \"{schedule_name}\""
+msgstr "Skasowano wywołanie crona „{schedule_name}”"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:37
+msgctxt "PluginWPCrontrolLogger"
+msgid "Added cron schedule \"{schedule_name}\""
+msgstr "Dodano wywołanie crona „{schedule_name}”"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:36
+msgctxt "PluginWPCrontrolLogger"
+msgid "Edited cron event \"{event_hook}\""
+msgstr "Zmieniono wywołanie crona „{event_hook}”"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:33
+msgctxt "PluginWPCrontrolLogger"
+msgid "Deleted all \"{event_hook}\" cron events"
+msgstr "Skasowano wszystkie zdarzenia cron „{event_hook}”"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:32
+msgctxt "PluginWPCrontrolLogger"
+msgid "Deleted cron event \"{event_hook}\""
+msgstr "Skasowano zdarzenie cron „{event_hook}”"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:31
+msgctxt "PluginWPCrontrolLogger"
+msgid "Manually ran cron event \"{event_hook}\""
+msgstr "Ręcznie uruchomiono zdarzenie cron „{event_hook}”"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:30
+msgctxt "PluginWPCrontrolLogger"
+msgid "Added cron event \"{event_hook}\""
+msgstr "Dodano zdarzenie cron „{event_hook}”"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:27
+msgctxt "PluginWPCrontrolLogger"
+msgid "Using plugin WP Crontrol"
+msgstr "Użycie wtyczki WP Crontrol"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:26
+msgctxt "PluginWPCrontrolLogger"
+msgid "Logs management of cron events"
+msgstr "Zarządzanie dziennikiem zdarzeń cron"
+
+#: loggers/class-plugin-wp-crontrol-logger.php:25
+msgctxt "PluginWPCrontrolLogger"
+msgid "Plugin: WP Crontrol Logger"
+msgstr "Wtyczka: WP Crontrol Logger"
+
+#: loggers/class-plugin-logger.php:126
+msgctxt "Plugin was enabled for auto-updates"
+msgid "Disabled auto-updates for plugin \"{plugin_name}\""
+msgstr "Wyłączono automatyczną aktualizację wtyczki „{plugin_name}”"
+
+#: loggers/class-plugin-logger.php:121
+msgctxt "Plugin was enabled for auto-updates"
+msgid "Enabled auto-updates for plugin \"{plugin_name}\""
+msgstr "Włączono automatyczną aktualizację wtyczki „{plugin_name}”"
+
+#: loggers/class-plugin-beaver-builder-logger.php:44
+msgid "Beaver Builder settings saved"
+msgstr "Ustawenia Beaver Buildera zostały zapisane"
+
+#: loggers/class-plugin-beaver-builder-logger.php:40
+msgid "Draft \"{layout_name}\" updated"
+msgstr "Szkic „{layout_name}” został zaktualizowany"
+
+#: loggers/class-plugin-beaver-builder-logger.php:36
+msgid "Template \"{layout_name}\" updated"
+msgstr "Szablon „{layout_name}” został zaktualizowany"
+
+#: loggers/class-plugin-beaver-builder-logger.php:32
+msgid "Layout \"{layout_name}\" updated"
+msgstr "Układ „{layout_name}” został zaktualizowany"
+
+#: loggers/class-plugin-beaver-builder-logger.php:25
+msgctxt "Logger: Plugin Beaver Builder"
+msgid "Using plugin Beaver Builder"
+msgstr "Użycie wtyczki Beaver Builder"
+
+#: loggers/class-plugin-beaver-builder-logger.php:20
+msgctxt "Logger: Plugin Beaver Builder"
+msgid "Logs various things in Beaver Builder"
+msgstr "Logowanie związane z wtyczką Beaver Builder"
+
+#: inc/services/class-setup-database.php:364
+msgid "Welcome to Simple History! This is the event history feed. It will contain events that this plugin has logged."
+msgstr "Witaj w Prostych Historiach! To jest kanał historii zdarzeń. Zawiera on zdarzenia zarejestrowane przez wtyczkę."
+
+#: loggers/class-categories-logger.php:39
+msgctxt "Category logger: search"
+msgid "Term edited"
+msgstr "Edytowano taksonomię"
+
+#: loggers/class-categories-logger.php:36
+msgctxt "Category logger: search"
+msgid "Term deleted"
+msgstr "Usunięto taksonomię"
+
+#: loggers/class-categories-logger.php:33
+msgctxt "Category logger: search"
+msgid "Term created"
+msgstr "Stworzono taksonomię"
+
+#: loggers/class-categories-logger.php:31
+msgctxt "Category logger: search"
+msgid "All category activity"
+msgstr "Wszystkie kategorie aktywności"
+
+#: loggers/class-categories-logger.php:30
+msgctxt "Categories logger: search"
+msgid "Categories"
+msgstr "Kategorie"
+
+#: templates/settings-tab-debug.php:511
+msgctxt "debug dropin"
+msgid "No"
+msgstr "Nie"
+
+#: templates/settings-tab-debug.php:511
+msgctxt "debug dropin"
+msgid "Yes"
+msgstr "Tak"
+
+#: templates/settings-tab-debug.php:479
+msgctxt "debug dropin"
+msgid "Plugins"
+msgstr "Wtyczki"
+
+#: templates/settings-tab-debug.php:432
+msgctxt "debug dropin"
+msgid "No message strings"
+msgstr "Brak wiadomości"
+
+#: templates/settings-tab-debug.php:87
+msgctxt "debug dropin"
+msgid "Database size"
+msgstr "Rozmiar bazy danych"
+
+#: loggers/class-translations-logger.php:28
+msgctxt "Logger: Translations"
+msgid "Updated translations for \"{name}\" ({language})"
+msgstr "Zaktualizowano tłumaczenia dla „{name}” ({language})"
+
+#: loggers/class-translations-logger.php:25
+msgctxt "Logger: Translations"
+msgid "Log WordPress translation related things"
+msgstr "Logowanie rzeczy związanych z tłumaczeniami"
+
+#: loggers/class-plugin-jetpack-logger.php:30
+msgctxt "Logger: Jetpack"
+msgid "Deactivated Jetpack module \"{module_name}\""
+msgstr "Wyłączono moduł Jetpacka „{module_name}”"
+
+#: loggers/class-plugin-jetpack-logger.php:29
+msgctxt "Logger: Jetpack"
+msgid "Activated Jetpack module \"{module_name}\""
+msgstr "Włączono moduł Jetpacka „{module_name}”"
+
+#: loggers/class-plugin-jetpack-logger.php:27
+msgctxt "Logger: Jetpack"
+msgid "Using plugin Jetpack"
+msgstr "Użycie wtyczki Jetpack"
+
+#: loggers/class-plugin-jetpack-logger.php:25
+msgctxt "Logger: Jetpack"
+msgid "Log Jetpack settings changes"
+msgstr "Logowanie związane z wtyczką Jetpack"
+
+#: loggers/class-privacy-logger.php:49
+msgctxt "Logger: Privacy"
+msgid "Removed personal data removal request for \"{user_email}\""
+msgstr "Usunięte dane osobiste na żądanie „{user_email}”"
+
+#: loggers/class-privacy-logger.php:50
+msgctxt "Logger: Privacy"
+msgid "Erased personal data for \"{user_email}\""
+msgstr "Usunięto dane osobiste „{user_email}”"
+
+#: loggers/class-privacy-logger.php:47
+msgctxt "Logger: Privacy"
+msgid "Confirmed personal data erasure request for \"{user_email}\""
+msgstr "Potwierdzono żądanie usunięcia danych użytkownika „{user_email}”"
+
+#: loggers/class-privacy-logger.php:46
+msgctxt "Logger: Privacy"
+msgid "Added personal data erasure request for \"{user_email}\""
+msgstr "Wysłano żądanie usunięcia danych użytkownika „{user_email}”"
+
+#: loggers/class-privacy-logger.php:45
+msgctxt "Logger: Privacy"
+msgid "Removed data export request for \"{user_email}\""
+msgstr "Usunięto żądane eksportu danych przez „{user_email}”"
+
+#: loggers/class-privacy-logger.php:43
+msgctxt "Logger: Privacy"
+msgid "Confirmed personal data export request for \"{user_email}\""
+msgstr "Potwierdzono żądane eksportu danych przez „{user_email}”"
+
+#: loggers/class-privacy-logger.php:42
+msgctxt "Logger: Privacy"
+msgid "Sent email with personal data export download info for user \"{user_email}\""
+msgstr "Wysłano e-mail z informacjami o pobieraniu eksportu danych osobistych użytkownika „{user_email}”"
+
+#: loggers/class-privacy-logger.php:41
+msgctxt "Logger: Privacy"
+msgid "Downloaded personal data export file for user \"{user_email}\""
+msgstr "Pobrano wyeksportowane dane użytkownika „{user_email}”"
+
+#: loggers/class-privacy-logger.php:40
+msgctxt "Logger: Privacy"
+msgid "Requested a personal privacy data export for user \"{user_email}\""
+msgstr "Zażądano eksport danych osobistych dla użytkownika „{user_email}”"
+
+#: loggers/class-privacy-logger.php:39
+msgctxt "Logger: Privacy"
+msgid "Set privacy page to page \"{new_post_title}\""
+msgstr "Ustawiono stronę polityki prywatności na „{new_post_title}”"
+
+#: loggers/class-privacy-logger.php:38
+msgctxt "Logger: Privacy"
+msgid "Created a new privacy page \"{new_post_title}\""
+msgstr "Utworzono stronę polityki prywatności: „{new_post_title}”"
+
+#: loggers/class-privacy-logger.php:35
+msgctxt "Logger: Privacy"
+msgid "Log WordPress privacy related things"
+msgstr "Loguj informacje związane ze stroną z polityką prywatności"
+
+#: loggers/class-plugin-redirection-logger.php:418
+msgctxt "Logger: Redirection"
+msgid "Target"
+msgstr "Cel"
+
+#: loggers/class-plugin-redirection-logger.php:401
+msgctxt "Logger: Redirection"
+msgid "Source URL"
+msgstr "Źródłowy adres URL"
+
+#: loggers/class-plugin-redirection-logger.php:43
+msgctxt "Logger: Redirection"
+msgid "Deleted {items_count} redirection group(s)"
+msgstr "Skasowano {items_count} grupę/y przekierowań"
+
+#: loggers/class-plugin-redirection-logger.php:42
+msgctxt "Logger: Redirection"
+msgid "Disabled {items_count} redirection group(s)"
+msgstr "Wyłączono {items_count} grupę/y przekierowań"
+
+#: loggers/class-plugin-redirection-logger.php:41
+msgctxt "Logger: Redirection"
+msgid "Enabled {items_count} redirection group(s)"
+msgstr "Włączono {items_count} grupę/y przekierowań"
+
+#: loggers/class-plugin-redirection-logger.php:39
+msgctxt "Logger: Redirection"
+msgid "Added redirection group \"{group_name}\""
+msgstr "Dodano grupę przekierowań „{group_name}”"
+
+#: loggers/class-plugin-redirection-logger.php:37
+msgctxt "Logger: Redirection"
+msgid "Updated redirection options"
+msgstr "Zaktualizowane opcje przekierowań"
+
+#: loggers/class-categories-logger.php:266
+msgctxt "Categories logger: detailed plain text output for edited term"
+msgid "Edited term <a href=\"{term_edit_link}\">\"{to_term_name}\"</a> in taxonomy <a href=\"{tax_edit_link}\">\"{toTermTaxonomySlugOrName}\"</a>"
+msgstr "Edytowano termin <a href=\"{term_edit_link}\">„{to_term_name}”</a> w taksonomii <a href=\"{tax_edit_link}\">„{toTermTaxonomySlugOrName}”</a>"
+
+#: loggers/class-categories-logger.php:260
+msgctxt "Categories logger: detailed plain text output for deleted term"
+msgid "Deleted term \"{term_name}\" from taxonomy <a href=\"{tax_edit_link}\">\"{termTaxonomySlugOrName}\"</a>"
+msgstr "Usunięto termin \"{term_name}\" z taksonomii <a href=\"{tax_edit_link}\">\"{termTaxonomySlugOrName}\"</a>"
+
+#: loggers/class-categories-logger.php:254
+msgctxt "Categories logger: detailed plain text output for created term"
+msgid "Added term <a href=\"{term_edit_link}\">\"{term_name}\"</a> in taxonomy <a href=\"{tax_edit_link}\">\"{termTaxonomySlugOrName}\"</a>"
+msgstr "Dodano termin <a href=\"{term_edit_link}\">„{term_name}”</a> w taksonomii <a href=\"{tax_edit_link}\">„{termTaxonomySlugOrName}”</a>"
+
+#: loggers/class-plugin-acf-logger.php:772
+msgctxt "Logger: Plugin ACF"
+msgid "Modified field"
+msgstr "Zmodyfikowane pola"
+
+#. translators: %1$s is the label name.
+#: loggers/class-plugin-acf-logger.php:740
+msgctxt "Logger: Plugin ACF"
+msgid "Label: %1$s"
+msgstr "Etykieta: %1$s"
+
+#: loggers/class-plugin-acf-logger.php:727
+msgctxt "Logger: Plugin ACF"
+msgid "Type: "
+msgstr "Typ: "
+
+#: loggers/class-plugin-acf-logger.php:724
+msgctxt "Logger: Plugin ACF"
+msgid "Label: "
+msgstr "Etykieta: "
+
+#: loggers/class-plugin-acf-logger.php:721
+msgctxt "Logger: Plugin ACF"
+msgid "Key: "
+msgstr "Klucz: "
+
+#: loggers/class-plugin-acf-logger.php:718
+msgctxt "Logger: Plugin ACF"
+msgid "Parent: "
+msgstr "Rodzic: "
+
+#: loggers/class-plugin-acf-logger.php:715
+msgctxt "Logger: Plugin ACF"
+msgid "Name: "
+msgstr "Nazwa: "
+
+#: loggers/class-plugin-acf-logger.php:703
+msgctxt "Logger: Plugin ACF"
+msgid "Added field"
+msgid_plural "Added fields"
+msgstr[0] "Dodaj pole"
+msgstr[1] "Dodaj pola"
+msgstr[2] "Dodaj pola"
+
+#: loggers/class-plugin-acf-logger.php:674
+msgctxt "Logger: Plugin ACF"
+msgid "Deleted field"
+msgid_plural "Deleted fields"
+msgstr[0] "Usuń pole"
+msgstr[1] "Usuń pola"
+msgstr[2] "Usuń pola"
+
+#: loggers/class-plugin-acf-logger.php:644
+msgctxt "Logger: Plugin ACF"
+msgid "Hide on screen"
+msgstr "Ukryj na ekranie"
+
+#: loggers/class-plugin-acf-logger.php:631
+msgctxt "Logger: Plugin ACF"
+msgid "Unchecked"
+msgstr "Niezaznaczone"
+
+#: loggers/class-plugin-acf-logger.php:623
+msgctxt "Logger: Plugin ACF"
+msgid "Checked"
+msgstr "Zaznaczone"
+
+#: loggers/class-plugin-acf-logger.php:591
+msgctxt "Logger: Plugin ACF"
+msgid "Style"
+msgstr "Styl"
+
+#: loggers/class-plugin-acf-logger.php:588
+msgctxt "Logger: Plugin ACF"
+msgid "Active"
+msgstr "Włączono"
+
+#: loggers/class-plugin-acf-logger.php:585
+msgctxt "Logger: Plugin ACF"
+msgid "Position"
+msgstr "Pozycja"
+
+#: loggers/class-plugin-acf-logger.php:582
+msgctxt "Logger: Plugin ACF"
+msgid "Menu order"
+msgstr "Kolejność w menu"
+
+#: loggers/class-plugin-acf-logger.php:579
+msgctxt "Logger: Plugin ACF"
+msgid "Description"
+msgstr "Opis"
+
+#: loggers/class-plugin-acf-logger.php:576
+msgctxt "Logger: Plugin ACF"
+msgid "Label placement"
+msgstr "Położenie etykiety"
+
+#: loggers/class-plugin-acf-logger.php:573
+msgctxt "Logger: Plugin ACF"
+msgid "Instruction placement"
+msgstr "Umieszczenie instrukcji"
+
+#: loggers/class-plugin-acf-logger.php:55
+msgctxt "Logger: Plugin ACF"
+msgid "Using plugin ACF"
+msgstr "Użycie wtyczki ACF"
+
+#: loggers/class-plugin-acf-logger.php:54
+msgctxt "Logger: Plugin ACF"
+msgid "Logs ACF stuff"
+msgstr "Logi związane z ACF"
+
+#: loggers/class-post-logger.php:1686
+msgid "Featured image"
+msgstr "Obrazek wyróżniający"
+
+#. translators: 1: WordPress version
+#: inc/oldversions.php:31
+msgid "Simple History requires WordPress version 6.3 or higher (you have version %s)."
+msgstr "Wtyczka Prosta Historia wymaga WordPress 6.3 lub nowszego (używasz wersji %s)."
+
+#: loggers/class-plugin-logger.php:115
+msgctxt "Plugin was disabled because of an error"
+msgid "Deactivated plugin \"{plugin_slug}\" because of an error (\"{deactivation_reason}\")."
+msgstr "Z powodu błędu  („{deactivation_reason}”) wyłączono wtyczkę „{plugin_slug}”."
+
+#: loggers/class-file-edits-logger.php:194
+msgid "File contents"
+msgstr "Zawartość pliku"
+
+#: loggers/class-file-edits-logger.php:32
+msgctxt "Plugin logger: file edits"
+msgid "Edited theme files"
+msgstr "Edytowane plików motywu"
+
+#: loggers/class-file-edits-logger.php:30
+msgctxt "Plugin logger: file edits"
+msgid "All file edits"
+msgstr "Wszystkie edytowane pliki"
+
+#: loggers/class-file-edits-logger.php:29
+msgctxt "Plugin logger: file edits"
+msgid "Edited theme and plugin files"
+msgstr "Edytowane plików motywu i wtyczek"
+
+#: loggers/class-file-edits-logger.php:25
+msgid "Edited file \"{file_name}\" in plugin \"{plugin_name}\""
+msgstr "Edytowany plik „{file_name}” we wtyczce „{plugin_name}”"
+
+#: loggers/class-file-edits-logger.php:24
+msgid "Edited file \"{file_name}\" in theme \"{theme_name}\""
+msgstr "Edytowany plik „{file_name}” w motywie „{theme_name}”"
+
+#: inc/services/wp-cli-commands/class-wp-cli-list-command.php:182
+msgid "Error: parameter \"count\" must be a number"
+msgstr "Błąd: parameter „count” musi być liczbą"
+
+#: templates/settings-tab-debug.php:495
+msgctxt "debug dropin"
+msgid "Active"
+msgstr "Włączono"
+
+#: templates/settings-tab-debug.php:494
+msgctxt "debug dropin"
+msgid "Plugin file path"
+msgstr "Ścieżka pliku wtyczki"
+
+#: templates/settings-tab-debug.php:493
+msgctxt "debug dropin"
+msgid "Plugin name"
+msgstr "Nazwa wtyczki"
+
+#: loggers/class-plugin-duplicate-post-logger.php:118
+msgctxt "Logger: Plugin Duplicate Post"
+msgid "Cloned {duplicated_post_post_type_singular_name} <a href=\"{duplicated_post_edit_link}\">\"{duplicated_post_title}\"</a> to <a href=\"{new_post_edit_link}\">a new {duplicated_post_post_type_singular_name}</a>"
+msgstr "Powielono {duplicated_post_post_type_singular_name} <a href=\"{duplicated_post_edit_link}\">„{duplicated_post_title}”</a> jako <a href=\"{new_post_edit_link}\">{duplicated_post_post_type_singular_name}</a>"
+
+#: loggers/class-plugin-duplicate-post-logger.php:34
+msgctxt "Logger: Plugin Duplicate Post"
+msgid "Cloned \"{duplicated_post_title}\" to a new post"
+msgstr "Powielono wpis „{duplicated_post_title}”"
+
+#: loggers/class-plugin-duplicate-post-logger.php:31
+msgctxt "Logger: Plugin Duplicate Post"
+msgid "Using plugin Yoast Duplicate Post"
+msgstr "Korzystanie z wtyczki Yoast Duplicate Post"
+
+#: loggers/class-plugin-duplicate-post-logger.php:26
+msgctxt "Logger: Plugin Duplicate Post"
+msgid "Logs posts and pages cloned using plugin Duplicate Post"
+msgstr "Loguj powielenia wpisów i stron za pomocą wtyczki Duplicate Post"
+
+#: inc/services/class-setup-settings-page.php:454
+msgid "Number of items per page on the dashboard"
+msgstr "Liczba elementów na stronie w kokpicie"
+
+#: inc/services/class-setup-settings-page.php:408
+msgid "Number of items per page on the log page"
+msgstr "Liczba elementów na stronie logów"
+
+#: loggers/class-plugin-redirection-logger.php:38
+msgctxt "Logger: Redirection"
+msgid "Removed all redirection options and deactivated plugin"
+msgstr "Usunięto wszystkie opcje przekierowania i dezaktywowano wtyczkę"
+
+#: loggers/class-plugin-redirection-logger.php:36
+msgctxt "Logger: Redirection"
+msgid "Deleted redirection for {items_count} URL(s)"
+msgstr "Usunięto przekierowania {items_count} URL(i)"
+
+#: loggers/class-plugin-redirection-logger.php:35
+msgctxt "Logger: Redirection"
+msgid "Disabled redirection for {items_count} URL(s)"
+msgstr "Wyłączono przekierowania {items_count} URL(i)"
+
+#: loggers/class-plugin-redirection-logger.php:34
+msgctxt "Logger: Redirection"
+msgid "Enabled redirection for {items_count} URL(s)"
+msgstr "Włączono przekierowania {items_count} URL(i)"
+
+#: loggers/class-plugin-redirection-logger.php:33
+msgctxt "Logger: Redirection"
+msgid "Edited redirection for URL \"{prev_source_url}\""
+msgstr "Zmieniono przekierowanie adresu „{prev_source_url}”"
+
+#: loggers/class-plugin-redirection-logger.php:32
+msgctxt "Logger: Redirection"
+msgid "Added a redirection for URL \"{source_url}\""
+msgstr "Dodano przekierowanie dla adresu „{source_url}”"
+
+#: loggers/class-plugin-redirection-logger.php:29
+msgctxt "Logger: Redirection"
+msgid "In plugin Redirection"
+msgstr "We wtyczce Redirection"
+
+#: loggers/class-available-updates-logger.php:300
+msgid "View all updates"
+msgstr "Zobacz wszystkie aktualizacje"
+
+#: loggers/class-available-updates-logger.php:290
+msgid "Installed version"
+msgstr "Zainstalowana wersja"
+
+#: loggers/class-available-updates-logger.php:286
+msgid "Available version"
+msgstr "Dostępna wersja"
+
+#: loggers/class-available-updates-logger.php:43
+msgctxt "Plugin logger: updates found"
+msgid "Theme updates found"
+msgstr "Znaleziono aktualizację motywu"
+
+#: loggers/class-available-updates-logger.php:40
+msgctxt "Plugin logger: updates found"
+msgid "Plugin updates found"
+msgstr "Znaleziono aktualizację wtyczki"
+
+#: loggers/class-available-updates-logger.php:37
+msgctxt "Plugin logger: updates found"
+msgid "WordPress updates found"
+msgstr "Znaleziono aktualizację WordPressa"
+
+#: loggers/class-available-updates-logger.php:35
+msgctxt "Plugin logger: updates found"
+msgid "All found updates"
+msgstr "Wszystkie znalezione aktualizacje"
+
+#: loggers/class-available-updates-logger.php:34
+msgctxt "Plugin logger: updates found"
+msgid "WordPress and plugins updates found"
+msgstr "Znaleziono aktualizacje WordPressa i wtyczek"
+
+#: loggers/class-available-updates-logger.php:30
+msgid "Found an update to theme \"{theme_name}\""
+msgstr "Znaleziono aktualizację motywu „{theme_name}”"
+
+#: loggers/class-available-updates-logger.php:29
+msgid "Found an update to plugin \"{plugin_name}\""
+msgstr "Znaleziono aktualizację wtyczki „{plugin_name}”"
+
+#: loggers/class-available-updates-logger.php:28
+msgid "Found an update to WordPress"
+msgstr "Znaleziono aktualizację WordPressa"
+
+#: loggers/class-theme-logger.php:55
+msgctxt "Theme logger: search"
+msgid "Installed themes"
+msgstr "Zainstalowane motywy"
+
+#: loggers/class-theme-logger.php:52
+msgctxt "Theme logger: search"
+msgid "Deleted themes"
+msgstr "Usunięte motywy"
+
+#: loggers/class-theme-logger.php:49
+msgctxt "Theme logger: search"
+msgid "Updated themes"
+msgstr "Zaktualizowane motywy"
+
+#: loggers/class-theme-logger.php:36
+msgid "Updated theme \"{theme_name}\""
+msgstr "Zaktualizowano motyw „{theme_name}”"
+
+#: loggers/class-plugin-logger.php:89
+msgctxt "Plugin update failed"
+msgid "Failed to update plugin \"{plugin_name}\""
+msgstr "Nie udała się aktualizacja wtyczki „{plugin_name}”"
+
+#. translators: %s time the IP was blocked, e.g. 2 hours.
+#: loggers/class-plugin-limit-login-attempts-logger.php:217
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "IP was blocked for %s"
+msgstr "Adres IP został zablokowany na %1$s"
+
+#. translators: %d number of minutes.
+#: loggers/class-plugin-limit-login-attempts-logger.php:210
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuta"
+msgstr[1] "%d minuty"
+msgstr[2] "%d minut"
+
+#. translators: %d number of hours.
+#: loggers/class-plugin-limit-login-attempts-logger.php:204
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d godzina"
+msgstr[1] "%d godziny"
+msgstr[2] "%d godzin"
+
+#. translators: 1: number of login attempts, 2: number of lockouts, 3: IP that
+#. caused lockout.
+#: loggers/class-plugin-limit-login-attempts-logger.php:193
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "%1$d failed login attempts (%2$d lockout(s)) from IP: %3$s"
+msgstr "%1$d nieudanych prób logowania (%2$d blokad) z IP: %3$s"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:33
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Updated options"
+msgstr "Zaktualizowano opcje"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:32
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Cleared current lockouts"
+msgstr "Wyczyszczono aktualne blokady"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:31
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Reset lockout count"
+msgstr "Zresetowano licznik blokad"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:30
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Cleared IP log"
+msgstr "Wyczyszczono log IP"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:29
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Was locked out because too many failed login attempts"
+msgstr "Zostało zablokowane z powodu wielu, nieudanych prób zalogowania się"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:28
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Failed login attempt from whitelisted IP"
+msgstr "Nieudana próba logowania z IP z białej listy"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:24
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Using plugin Limit Login Attempts"
+msgstr "Użycie wtyczki Limit Login Attempts"
+
+#: loggers/class-plugin-limit-login-attempts-logger.php:23
+msgctxt "Logger: Plugin Limit Login Attempts"
+msgid "Logs failed login attempts, lockouts, and configuration changes made in the plugin Limit Login Attempts"
+msgstr "Rejestruje nieudane próby logowania, blokady i zmiany konfiguracji wprowadzone we wtyczce Limit Login Attempts"
+
+#. translators: %d number of message strings.
+#: templates/settings-tab-debug.php:415
+msgctxt "debug dropin"
+msgid "%1$s message strings"
+msgstr "%1$s wiadomości"
+
+#: templates/settings-tab-debug.php:382
+msgctxt "debug dropin"
+msgid "Rows count"
+msgstr "Liczba wierszy"
+
+#: templates/settings-tab-debug.php:381
+msgctxt "debug dropin"
+msgid "Capability"
+msgstr "Uprawnienia"
+
+#: templates/settings-tab-debug.php:380
+msgctxt "debug dropin"
+msgid "Messages"
+msgstr "Wiadomości"
+
+#: templates/settings-tab-debug.php:379
+msgctxt "debug dropin"
+msgid "Description"
+msgstr "Opis"
+
+#: templates/settings-tab-debug.php:378
+msgctxt "debug dropin"
+msgid "Slug"
+msgstr "Uproszczona nazwa"
+
+#: templates/settings-tab-debug.php:377
+msgctxt "debug dropin"
+msgid "Logger name"
+msgstr "Nazwa loggera"
+
+#. translators: %d number of loggers.
+#: templates/settings-tab-debug.php:357
+msgctxt "debug dropin"
+msgid "Listing %1$d loggers, ordered by rows count in database."
+msgstr "Lista %1$d rejestratorów, uporządkowanych według liczby wierszy w bazie danych."
+
+#: templates/settings-tab-debug.php:351
+msgctxt "debug dropin"
+msgid "Loggers"
+msgstr "Rejestratory"
+
+#. translators: %d number of rows.
+#: templates/settings-tab-debug.php:142
+msgctxt "debug dropin"
+msgid "Total %s rows, when grouped by occasion id."
+msgstr "Łącznie %s wierszy, pogrupowanych według identyfikatora."
+
+#. translators: %s number of rows.
+#: templates/settings-tab-debug.php:114
+msgctxt "debug dropin"
+msgid "%s rows"
+msgstr "%s wierszy"
+
+#. translators: %s size in mb.
+#: templates/settings-tab-debug.php:111
+msgctxt "debug dropin"
+msgid "%s MB"
+msgstr "%s MB"
+
+#: templates/settings-tab-debug.php:101
+msgctxt "debug dropin"
+msgid "Rows"
+msgstr "Wiersze"
+
+#: templates/settings-tab-debug.php:100
+msgctxt "debug dropin"
+msgid "Size"
+msgstr "Rozmiar"
+
+#: templates/settings-tab-debug.php:99
+msgctxt "debug dropin"
+msgid "Table name"
+msgstr "Nazwa tabeli"
+
+#: loggers/class-options-logger.php:407
+msgid "&hellip;"
+msgstr "&hellip;"
+
+#: templates/settings-tab-debug.php:57
+msgid "Debug"
+msgstr "Debugowanie"
+
+#: loggers/class-options-logger.php:513 loggers/class-options-logger.php:539
+msgid "Your latest posts"
+msgstr "Twoje najnowsze wpisy"
+
+#: inc/services/class-network-menu-items.php:125
+msgctxt "Admin bar name"
+msgid "View History"
+msgstr "Zobacz historię"
+
+#: inc/services/class-network-menu-items.php:71
+msgctxt "Admin bar network name"
+msgid "View History"
+msgstr "Zobacz historię"
+
+#: loggers/class-user-logger.php:1126
+msgctxt "User logger"
+msgid "Changed"
+msgstr "Zmieniono"
+
+#: loggers/class-user-logger.php:1125
+msgctxt "User logger"
+msgid "Password"
+msgstr "Hasło"
+
+#: loggers/class-user-logger.php:1133
+msgctxt "User logger"
+msgid "Role"
+msgstr "Rola"
+
+#: loggers/class-user-logger.php:1047 loggers/class-user-logger.php:1142
+msgctxt "User logger"
+msgid "Website"
+msgstr "Witryna internetowa"
+
+#: loggers/class-user-logger.php:1041
+msgctxt "User logger"
+msgid "Display name"
+msgstr "Wyświetlana nazwa"
+
+#: loggers/class-user-logger.php:1044
+msgctxt "User logger"
+msgid "Email"
+msgstr "Email"
+
+#: loggers/class-user-logger.php:1059
+msgctxt "User logger"
+msgid "Jabber / Google Talk "
+msgstr "Jabber / Google Talk "
+
+#: loggers/class-user-logger.php:1056
+msgctxt "User logger"
+msgid "Yahoo IM"
+msgstr "Yahoo IM"
+
+#: loggers/class-user-logger.php:1053
+msgctxt "User logger"
+msgid "AIM"
+msgstr "AIM"
+
+#: loggers/class-user-logger.php:1014
+msgctxt "User logger"
+msgid "Colour scheme"
+msgstr "Schemat kolorystyczny"
+
+#: loggers/class-user-logger.php:1017
+msgctxt "User logger"
+msgid "Keyboard shortcuts"
+msgstr "Skróty klawiaturowe"
+
+#: loggers/class-user-logger.php:1008
+msgctxt "User logger"
+msgid "Visual editor"
+msgstr "Edytor wizualny"
+
+#: loggers/class-user-logger.php:1050
+msgctxt "User logger"
+msgid "Description"
+msgstr "Opis"
+
+#: loggers/class-user-logger.php:1038
+msgctxt "User logger"
+msgid "Nickname"
+msgstr "Pseudonim"
+
+#: loggers/class-user-logger.php:1035 loggers/class-user-logger.php:1139
+msgctxt "User logger"
+msgid "Last name"
+msgstr "Nazwisko"
+
+#: loggers/class-user-logger.php:1032 loggers/class-user-logger.php:1136
+msgctxt "User logger"
+msgid "First name"
+msgstr "Imię"
+
+#: loggers/class-user-logger.php:739
+msgid "Created user <a href=\"{edit_profile_link}\">{created_user_login} ({created_user_email})</a> with role {created_user_role}"
+msgstr "Utworzono użytkownika <a href=\"{edit_profile_link}\">{created_user_login} ({created_user_email})</a> z rolą {created_user_role}"
+
+#: loggers/class-plugin-user-switching-logger.php:26
+msgctxt "PluginUserSwitchingLogger"
+msgid "Using plugin User Switching"
+msgstr "Użycie wtyczki User Switching"
+
+#: loggers/class-plugin-enable-media-replace-logger.php:25
+msgctxt "PluginUserSwitchingLogger"
+msgid "Using plugin Enable Media Replace"
+msgstr "Użycie wtyczki Enable Media Replace"
+
+#. translators: 1 is a link to the support forum.
+#: dropins/class-sidebar-dropin.php:74
+msgctxt "Sidebar box"
+msgid "<a href=\"%1$s\">Visit the support forum</a> if you need help or have questions."
+msgstr "Jeżeli masz pytania, <a href=\"%1$s\">odwiedź forum wsparcia</a>."
+
+#: loggers/class-user-logger.php:36
+msgid "Failed to login with username \"{failed_username}\" (username does not exist)"
+msgstr "Nie powiodło się logowanie „{failed_username}” (użytkownik nie istnieje)"
+
+#: loggers/class-user-logger.php:32
+msgid "Failed to login with username \"{login}\" (incorrect password entered)"
+msgstr "Nie powiodło się logowanie „{login}” (wprowadzono błędne hasło)"
+
+#: loggers/class-user-logger.php:29
+msgid "Logs user logins, logouts, and failed logins"
+msgstr "Rejestruje logowania, wylogowania i nieudane logowania"
+
+#: loggers/class-user-logger.php:28
+msgid "User Logger"
+msgstr "User Logger"
+
+#: loggers/class-categories-logger.php:26
+msgid "Edited term \"{to_term_name}\" in taxonomy \"{to_term_taxonomy}\""
+msgstr "Zmieniono termin „{to_term_name}” w taksonomii „{to_term_taxonomy}”"
+
+#: loggers/class-categories-logger.php:25
+msgid "Deleted term \"{term_name}\" from taxonomy \"{term_taxonomy}\""
+msgstr "Usunięto termin „{term_name}” w taksonomii „{term_taxonomy}”"
+
+#: loggers/class-categories-logger.php:24
+msgid "Added term \"{term_name}\" in taxonomy \"{term_taxonomy}\""
+msgstr "Dodano termin „{term_name}” w taksonomii „{term_taxonomy}”"
+
+#: loggers/class-categories-logger.php:21
+msgid "Categories Logger"
+msgstr "Kategorie rejestratora"
+
+#: loggers/class-user-logger.php:53
+msgid "Requested a password reset link for user with login '{user_login}' and email '{user_email}'"
+msgstr "Wysłano e-mail z linkiem do zresetowania hasła dla użytkownika '{user_login}' na adres '{user_email}'"
+
+#: loggers/class-user-logger.php:52
+msgid "Reset their password"
+msgstr "Zresetował hasło"
+
+#. translators: 1: local time string, 2: GMT time string.
+#: loggers/class-logger.php:429
+msgid "%1$s local time %3$s (%2$s GMT time)"
+msgstr "%1$s czas lokalny %3$s (%2$s GMT time)"
+
+#: dropins/class-rss-dropin.php:171
+msgid "Enable RSS feed"
+msgstr "Włącz kanał RSS"
+
+#: dropins/class-rss-dropin.php:85
+#: inc/services/class-email-report-service.php:304
+msgid "Enable"
+msgstr "Włącz"
+
+#: loggers/class-core-updates-logger.php:25
+msgid "WordPress database version updated to {new_version} from {prev_version}"
+msgstr "Zaktualizowano bazę WordPressa z {prev_version} do {new_version}"
+
+#. Author URI of the plugin
+#: index.php
+msgid "https://simple-history.com/"
+msgstr "https://simple-history.com/"
+
+#. Author of the plugin
+#: index.php
+msgid "Pär Thernström"
+msgstr "Pär Thernström"
+
+#. Description of the plugin
+#: index.php
+msgid "Plugin that logs various things that occur in WordPress and then presents those events in a very nice GUI."
+msgstr "Wtyczka, która rejestruje zdarzenia występujące w WordPressie, a następnie prezentuje je w przyjazny sposób."
+
+#. Plugin URI of the plugin
+#: index.php
+msgid "https://simple-history.com"
+msgstr "https://simple-history.com"
+
+#: templates/email-summary-report.php:313 build/index.js:13
+msgid "Users"
+msgstr "Użytkownicy"
+
+#: dropins/class-sidebar-stats-dropin.php:223
+msgctxt "stats: date in rows per day chart"
+msgid "M j"
+msgstr "j F"
+
+#: loggers/class-user-logger.php:729
+msgid "Edited the profile for user <a href=\"{edit_profile_link}\">{edited_user_login} ({edited_user_email})</a>"
+msgstr "Edytowano profil użytkownika <a href=\"{edit_profile_link}\">{edited_user_login} ({edited_user_email})</a>"
+
+#: loggers/class-user-logger.php:723
+msgid "Edited your profile"
+msgstr "Edycja Twojego profilu"
+
+#: loggers/class-user-logger.php:717
+msgid "Edited <a href=\"{edit_profile_link}\">their profile</a>"
+msgstr "Edytowano <a href=\"{edit_profile_link}\">profil użytkownika</a>"
+
+#: loggers/class-user-logger.php:715
+msgid "Edited <a href=\"{edit_profile_link}\">your profile</a>"
+msgstr "Edytowano <a href=\"{edit_profile_link}\">swój profil</a>"
+
+#: loggers/class-user-logger.php:128
+msgctxt "User logger: search"
+msgid "User deletions"
+msgstr "Usunięcie użytkowników"
+
+#: loggers/class-user-logger.php:122
+msgctxt "User logger: search"
+msgid "User profile updates"
+msgstr "Aktualizacje profilów użytkowników"
+
+#: loggers/class-user-logger.php:119
+msgctxt "User logger: search"
+msgid "Created users"
+msgstr "Dodanie użytkowników"
+
+#: loggers/class-user-logger.php:116
+msgctxt "User logger: search"
+msgid "User logouts"
+msgstr "Wylogowania"
+
+#: loggers/class-user-logger.php:112
+msgctxt "User logger: search"
+msgid "Failed user logins"
+msgstr "Nieudane logowania"
+
+#: loggers/class-user-logger.php:108
+msgctxt "User logger: search"
+msgid "Successful user logins"
+msgstr "Udane logowania"
+
+#: loggers/class-user-logger.php:106
+msgctxt "User logger: search"
+msgid "All user activity"
+msgstr "Aktywność użytkowniów"
+
+#: loggers/class-user-logger.php:105
+msgctxt "User logger: search"
+msgid "Users"
+msgstr "Użytkownicy"
+
+#: loggers/class-user-logger.php:62
+msgctxt "User destroys all login sessions for a user"
+msgid "Logged out \"{user_display_name}\" from all sessions"
+msgstr "Wylogowano użytkownika „{user_display_name}” z pozostałch sesji"
+
+#: loggers/class-user-logger.php:57
+msgctxt "User destroys other login sessions for themself"
+msgid "Logged out from all other sessions"
+msgstr "Wylogowano z pozostałych sesji"
+
+#: loggers/class-user-logger.php:51
+msgid "Deleted user {deleted_user_login} ({deleted_user_email})"
+msgstr "Usunięto użytkonika {deleted_user_login} ({deleted_user_email})"
+
+#: loggers/class-user-logger.php:47
+msgid "Created user {created_user_login} ({created_user_email}) with role {created_user_role}"
+msgstr "Utworzono użytkonika {created_user_login} ({created_user_email}) z rolą {created_user_role}"
+
+#: loggers/class-user-logger.php:43
+msgid "Edited the profile for user \"{edited_user_login}\" ({edited_user_email})"
+msgstr "Edytowano profil użytkownika {edited_user_login} ({edited_user_email})"
+
+#: loggers/class-user-logger.php:42
+msgid "Logged out"
+msgstr "Wylogowano"
+
+#: loggers/class-user-logger.php:41
+msgid "Unknown user logged in"
+msgstr "Zalogował się nieznany użytkownik"
+
+#: loggers/class-user-logger.php:40
+msgid "Logged in"
+msgstr "Zalogowano"
+
+#: loggers/class-theme-logger.php:457
+msgid "Section"
+msgstr "Sekcja"
+
+#: loggers/class-theme-logger.php:76
+msgctxt "Theme logger: search"
+msgid "Background of themes changed"
+msgstr "Zmiany tła motywów"
+
+#: loggers/class-theme-logger.php:73
+msgctxt "Theme logger: search"
+msgid "Edited widgets"
+msgstr "Edycje widżetów"
+
+#: loggers/class-theme-logger.php:70
+msgctxt "Theme logger: search"
+msgid "Changed widgets order"
+msgstr "Zmiana kolejności widżetów"
+
+#: loggers/class-theme-logger.php:67
+msgctxt "Theme logger: search"
+msgid "Removed widgets"
+msgstr "Usunięcie widżetów"
+
+#: loggers/class-theme-logger.php:64
+msgctxt "Theme logger: search"
+msgid "Added widgets"
+msgstr "Dodanie widżetów"
+
+#: loggers/class-theme-logger.php:61
+msgctxt "Theme logger: search"
+msgid "Changed appearance of themes"
+msgstr "Zmiany wyglądu motywów"
+
+#: loggers/class-theme-logger.php:58
+msgctxt "Theme logger: search"
+msgid "Switched themes"
+msgstr "Zmiany motywów"
+
+#: loggers/class-theme-logger.php:47
+msgctxt "Theme logger: search"
+msgid "All theme activity"
+msgstr "Wszystkie aktywności związane z motywami"
+
+#: loggers/class-theme-logger.php:46
+msgctxt "Theme logger: search"
+msgid "Themes & Widgets"
+msgstr "Motywy i Widżety"
+
+#: loggers/class-theme-logger.php:42
+msgid "Changed settings for the theme custom background"
+msgstr "Zmieniono ustawienia dotyczące tła motywu"
+
+#: loggers/class-theme-logger.php:41
+msgid "Changed widget \"{widget_id_base}\" in sidebar \"{sidebar_id}\""
+msgstr "Zmienono widżet „{widget_id_base}” w panelu bocznym „{sidebar_id}”"
+
+#: loggers/class-theme-logger.php:40
+msgid "Changed widget order \"{widget_id_base}\" in sidebar \"{sidebar_id}\""
+msgstr "Zmienino kolejność widżetu „{widget_id_base}” w panelu bocznym „{sidebar_id}”"
+
+#: loggers/class-theme-logger.php:39
+msgid "Added widget \"{widget_id_base}\" to sidebar \"{sidebar_id}\""
+msgstr "Dodano widżet „{widget_id_base}” do panelu bocznego „{sidebar_id}”"
+
+#: loggers/class-theme-logger.php:38
+msgid "Removed widget \"{widget_id_base}\" from sidebar \"{sidebar_id}\""
+msgstr "Usunięto widżet „{widget_id_base}” z panelu bocznego „{sidebar_id}”"
+
+#: loggers/class-theme-logger.php:37
+msgid "Customized theme appearance \"{setting_id}\""
+msgstr "Zmieniono ustawienia motywu „{setting_id}”"
+
+#: loggers/class-theme-logger.php:33
+msgid "Switched theme to \"{theme_name}\" from \"{prev_theme_name}\""
+msgstr "Przełączono motyw z „{theme_name}” na „{prev_theme_name}”"
+
+#: loggers/class-post-logger.php:1381
+msgid "Custom fields"
+msgstr "Własne pola"
+
+#: loggers/class-post-logger.php:1316
+msgid "Template"
+msgstr "Szablon"
+
+#: loggers/class-post-logger.php:1310
+msgid "Changed from \"{prev_page_template_name}\" to \"{new_page_template_name}\""
+msgstr "Zmieniono z „{prev_page_template_name}” na „{new_page_template_name}”"
+
+#: loggers/class-post-logger.php:1305
+msgid "Changed from {prev_page_template} to {new_page_template}"
+msgstr "Zmieniono z {prev_page_template} na {new_page_template}"
+
+#: loggers/class-post-logger.php:1273
+msgid "Changed from {prev_user_display_name} ({prev_user_email}) to {new_user_display_name} ({new_user_email})"
+msgstr "Zmieniono z {prev_user_display_name} ({prev_user_email}) na {new_user_display_name} ({new_user_email})"
+
+#: loggers/class-post-logger.php:1265
+msgid "Author"
+msgstr "Autor"
+
+#: loggers/class-post-logger.php:1239
+msgid "Comment status"
+msgstr "Status komentarza"
+
+#: loggers/class-post-logger.php:1226
+msgid "Permalink"
+msgstr "Bezpośredni odnośnik"
+
+#: loggers/class-post-logger.php:1212
+msgid "Publish date"
+msgstr "Data publikacji"
+
+#: loggers/class-post-logger.php:1200
+msgid "Status"
+msgstr "Status"
+
+#: loggers/class-post-logger.php:1188
+msgid "Content"
+msgstr "Treść"
+
+#: loggers/class-media-logger.php:284 loggers/class-post-logger.php:1176
+msgid "Title"
+msgstr "Tytuł"
+
+#: loggers/class-post-logger.php:1121
+msgid "Moved {post_type} <a href=\"{edit_link}\">\"{post_title}\"</a> to the trash"
+msgstr "Przeniesiono {post_type} <a href=\"{edit_link}\">„{post_title}”</a> do Kosza"
+
+#: loggers/class-post-logger.php:1118
+msgid "Created {post_type} <a href=\"{edit_link}\">\"{post_title}\"</a>"
+msgstr "Utworzono {post_type} <a href=\"{edit_link}\">„{post_title}”</a>"
+
+#: loggers/class-post-logger.php:1114
+msgid "Updated {post_type} <a href=\"{edit_link}\">\"{post_title}\"</a>"
+msgstr "Zaktualizowano {post_type} <a href=\"{edit_link}\">„{post_title}”</a>"
+
+#: loggers/class-post-logger.php:51
+msgctxt "Post logger: search"
+msgid "Posts restored"
+msgstr "Przywrócenie wpisów z Kosza"
+
+#: loggers/class-post-logger.php:50
+msgctxt "Post logger: search"
+msgid "Posts deleted"
+msgstr "Usunięcie wpisów"
+
+#: loggers/class-post-logger.php:49
+msgctxt "Post logger: search"
+msgid "Posts trashed"
+msgstr "Przeniesienie wpisów do Kosza"
+
+#: loggers/class-post-logger.php:48
+msgctxt "Post logger: search"
+msgid "Posts updated"
+msgstr "Aktualizacja wpisów"
+
+#: loggers/class-post-logger.php:47
+msgctxt "Post logger: search"
+msgid "Posts created"
+msgstr "Dodanie wpisów"
+
+#: loggers/class-post-logger.php:45
+msgctxt "Post logger: search"
+msgid "All posts & pages activity"
+msgstr "Aktywność we wpisach i stronach"
+
+#: loggers/class-post-logger.php:44
+msgctxt "Post logger: search"
+msgid "Posts & Pages"
+msgstr "Wpisy i Strony"
+
+#: loggers/class-post-logger.php:40
+msgid "Moved {post_type} \"{post_title}\" to the trash"
+msgstr "Przeniesiono {post_type} „{post_title}” do Kosza"
+
+#: loggers/class-post-logger.php:39 loggers/class-post-logger.php:1116
+msgid "Deleted {post_type} \"{post_title}\""
+msgstr "Usunięto {post_type} „{post_title}”"
+
+#: loggers/class-post-logger.php:38
+msgid "Restored {post_type} \"{post_title}\" from trash"
+msgstr "Przywrócono {post_type} „{post_title}” z Kosza"
+
+#: loggers/class-post-logger.php:37
+msgid "Updated {post_type} \"{post_title}\""
+msgstr "Zaktualizowano {post_type} „{post_title}”"
+
+#: loggers/class-post-logger.php:36
+msgid "Created {post_type} \"{post_title}\""
+msgstr "Utworzono {post_type} „{post_title}”"
+
+#: loggers/class-plugin-logger.php:1315
+msgctxt "plugin logger: plugin info thickbox title"
+msgid "View changelog"
+msgstr "Zobacz log zmian"
+
+#: loggers/class-plugin-logger.php:1311
+msgctxt "plugin logger: plugin info thickbox title"
+msgid "View plugin info"
+msgstr "Zobacz informację o wtyczce"
+
+#: loggers/class-plugin-logger.php:1280 loggers/class-plugin-logger.php:1291
+#: loggers/class-plugin-logger.php:1368
+msgctxt "plugin logger: plugin info thickbox title view all info"
+msgid "View plugin info"
+msgstr "Zobacz informację o wtyczce"
+
+#: loggers/class-plugin-logger.php:1238
+msgid "Uploaded ZIP archive"
+msgstr "Dodane archiwum ZIP"
+
+#: loggers/class-plugin-logger.php:1236
+msgid "WordPress Plugin Repository"
+msgstr "Katalog wtyczek WordPressa"
+
+#: loggers/class-plugin-logger.php:1172
+msgctxt "plugin logger - detailed output url"
+msgid "URL"
+msgstr "Adres URL"
+
+#: loggers/class-plugin-logger.php:1171
+msgctxt "plugin logger - detailed output author"
+msgid "Author"
+msgstr "Autor"
+
+#: loggers/class-plugin-logger.php:1170
+msgctxt "plugin logger - detailed output version"
+msgid "Version"
+msgstr "Wersja"
+
+#: loggers/class-plugin-logger.php:1169
+msgctxt "plugin logger - detailed output install source"
+msgid "Source file name"
+msgstr "Nazwa pliku źródłowego"
+
+#: loggers/class-plugin-logger.php:1168
+msgctxt "plugin logger - detailed output install source"
+msgid "Source"
+msgstr "Źródło"
+
+#: loggers/class-plugin-logger.php:1167
+msgctxt "plugin logger - detailed output"
+msgid "Description"
+msgstr "Opis"
+
+#. translators: %1$s is a link to the repo, %2$s is the repo name.
+#: loggers/class-plugin-logger.php:665
+msgid "Viewing <code>readme</code> from repository <code><a target=\"_blank\" href=\"%1$s\">%2$s</a></code>."
+msgstr "Oglądano <code>readme</code> z repozytorium <code><a target=\"_blank\" href=\"%1$s\">%2$s</a></code>."
+
+#: loggers/class-plugin-logger.php:636 loggers/class-plugin-logger.php:641
+msgid "Could not find GitHub repository."
+msgstr "Nie znaleziono repozytorium na GitHubie."
+
+#: loggers/class-plugin-logger.php:630
+msgid "You don't have access to this page."
+msgstr "Przepraszamy, nie masz dostępu do tej strony."
+
+#: loggers/class-plugin-logger.php:159
+msgctxt "Plugin logger: search"
+msgid "Deleted plugins"
+msgstr "Usunięcie wtyczek"
+
+#: loggers/class-file-edits-logger.php:35
+msgctxt "Plugin logger: file edits"
+msgid "Edited plugin files"
+msgstr "Edytowane pliki wtyczki"
+
+#: loggers/class-plugin-logger.php:155
+msgctxt "Plugin logger: search"
+msgid "Failed plugin updates"
+msgstr "Nieudane zaktualizowanie wtyczek"
+
+#: loggers/class-plugin-logger.php:151
+msgctxt "Plugin logger: search"
+msgid "Updated plugins"
+msgstr "Zaktualizowanie wtyczek"
+
+#: loggers/class-plugin-logger.php:148
+msgctxt "Plugin logger: search"
+msgid "Failed plugin installs"
+msgstr "Nieudane instalacje wtyczek"
+
+#: loggers/class-plugin-logger.php:145
+msgctxt "Plugin logger: search"
+msgid "Installed plugins"
+msgstr "Instalacje wtyczek"
+
+#: loggers/class-plugin-logger.php:141
+msgctxt "Plugin logger: search"
+msgid "Deactivated plugins"
+msgstr "Wyłączenie wtyczkek"
+
+#: loggers/class-plugin-logger.php:138
+msgctxt "Plugin logger: search"
+msgid "Activated plugins"
+msgstr "Załączenie wtyczek"
+
+#: loggers/class-plugin-logger.php:136
+msgctxt "Plugin logger: search"
+msgid "All plugin activity"
+msgstr "Cała aktywność wtyczek"
+
+#: loggers/class-plugin-logger.php:135
+msgctxt "Plugin logger: search"
+msgid "Plugins"
+msgstr "Wtyczki"
+
+#: loggers/class-plugin-logger.php:102
+msgctxt "Plugin was updated in bulk"
+msgid "Updated plugin \"{plugin_name}\" to {plugin_version} from {plugin_prev_version}"
+msgstr "Zaktualizowano wtyczkę „{plugin_name}” z wersji {plugin_prev_version} do {plugin_version}"
+
+#: loggers/class-plugin-logger.php:95
+msgctxt "Plugin files was deleted"
+msgid "Deleted plugin \"{plugin_name}\""
+msgstr "Usunięto wtyczkę „{plugin_name}”"
+
+#: loggers/class-plugin-logger.php:83
+msgctxt "Plugin was updated"
+msgid "Updated plugin \"{plugin_name}\" to version {plugin_version} from {plugin_prev_version}"
+msgstr "Zaktualizowano wtyczkę „{plugin_name}” z wersji {plugin_prev_version} do {plugin_version}"
+
+#: loggers/class-plugin-logger.php:77
+msgctxt "Plugin failed to install"
+msgid "Failed to install plugin \"{plugin_name}\""
+msgstr "Nie udało się zainstalować wtyczki „{plugin_name}”"
+
+#: loggers/class-plugin-logger.php:71
+msgctxt "Plugin was installed"
+msgid "Installed plugin \"{plugin_name}\""
+msgstr "Zainstalowano wtyczkę „{plugin_name}”"
+
+#: loggers/class-plugin-logger.php:65
+msgctxt "Plugin was non-silently deactivated by a user"
+msgid "Deactivated plugin \"{plugin_name}\""
+msgstr "Wyłączono wtyczkę „{plugin_name}”"
+
+#: loggers/class-plugin-logger.php:59
+msgctxt "Plugin was non-silently activated by a user"
+msgid "Activated plugin \"{plugin_name}\""
+msgstr "Włączono wtyczkę „{plugin_name}”"
+
+#: loggers/class-options-logger.php:386 loggers/class-options-logger.php:526
+#: loggers/class-options-logger.php:538 loggers/class-options-logger.php:649
+#: loggers/class-options-logger.php:711 loggers/class-options-logger.php:748
+#: loggers/class-options-logger.php:860 loggers/class-theme-logger.php:503
+msgid "Old value"
+msgstr "Stara wartość"
+
+#: loggers/class-options-logger.php:380 loggers/class-options-logger.php:501
+#: loggers/class-options-logger.php:512 loggers/class-options-logger.php:657
+#: loggers/class-options-logger.php:705 loggers/class-options-logger.php:742
+#: loggers/class-options-logger.php:854 loggers/class-theme-logger.php:491
+msgid "New value"
+msgstr "Nowa wartość"
+
+#: loggers/class-options-logger.php:31
+msgctxt "Options logger: search"
+msgid "Changed options"
+msgstr "Zmiana opcji"
+
+#: loggers/class-options-logger.php:29
+msgctxt "Options logger: search"
+msgid "Options"
+msgstr "Ustawienia"
+
+#. translators: Number of menu items removed.
+#: loggers/class-menu-logger.php:254
+msgctxt "menu logger"
+msgid "%1$s menu item removed"
+msgid_plural "%1$s menu items removed"
+msgstr[0] "%1$s element menu został usunięty"
+msgstr[1] "%1$s elementy menu zostały usunięte"
+msgstr[2] "%1$s elementów menu zostało usuniętych"
+
+#. translators: Number of menu items added.
+#: loggers/class-menu-logger.php:247
+msgctxt "menu logger"
+msgid "%1$s menu item added"
+msgid_plural "%1$s menu items added"
+msgstr[0] "%1$s element menu został dodany"
+msgstr[1] "%1$s elementy menu zostały dodane"
+msgstr[2] "%1$s elementów menu zostało dodanych"
+
+#: loggers/class-menu-logger.php:45
+msgctxt "Menu updates logger: search"
+msgid "Deleted menus"
+msgstr "Usunięcie menu"
+
+#: loggers/class-menu-logger.php:40
+msgctxt "Menu updates logger: search"
+msgid "Edited menus"
+msgstr "Edytowanie menu"
+
+#: loggers/class-menu-logger.php:37
+msgctxt "Menu updates logger: search"
+msgid "Created menus"
+msgstr "Utworzenie menu"
+
+#: loggers/class-menu-logger.php:35
+msgctxt "Menu updates logger: search"
+msgid "All menu activity"
+msgstr "Cała aktywność w menu"
+
+#: loggers/class-menu-logger.php:34
+msgctxt "Menu logger: search"
+msgid "Menus"
+msgstr "Menu"
+
+#: loggers/class-menu-logger.php:30
+msgid "Updated menu locations"
+msgstr "Zaktualizowano pozycję menu"
+
+#: loggers/class-menu-logger.php:29
+msgid "Edited a menu item"
+msgstr "Edytowano element menu"
+
+#: loggers/class-menu-logger.php:28
+msgid "Deleted menu \"{menu_name}\""
+msgstr "Usunięto menu „{menu_name}”"
+
+#: loggers/class-menu-logger.php:27
+msgid "Edited menu \"{menu_name}\""
+msgstr "Edytowano menu „{menu_name}”"
+
+#: loggers/class-menu-logger.php:26
+msgid "Created menu \"{menu_name}\""
+msgstr "Utworzono menu „{menu_name}”"
+
+#: loggers/class-media-logger.php:264
+msgid "{full_image_width} × {full_image_height}"
+msgstr "{full_image_width} × {full_image_height}"
+
+#: loggers/class-media-logger.php:261
+msgid "{attachment_filetype_extension}"
+msgstr "{attachment_filetype_extension}"
+
+#: loggers/class-media-logger.php:260
+msgid "{attachment_size_format}"
+msgstr "{attachment_size_format}"
+
+#: loggers/class-media-logger.php:252
+msgid "{attachment_thumb}"
+msgstr "{attachment_thumb}"
+
+#: loggers/class-media-logger.php:164
+msgid "Uploaded {post_type} <a href=\"{edit_link}\">\"{attachment_title}\"</a>"
+msgstr "Zaktualizowano {post_type} <a href=\"{edit_link}\">„{attachment_title}”</a>"
+
+#: loggers/class-media-logger.php:144
+msgid "Edited attachment <a href=\"{edit_link}\">\"{attachment_title}\"</a>"
+msgstr "Edytowano plik <a href=\"{edit_link}\">„{attachment_title}”</a>"
+
+#: loggers/class-media-logger.php:48
+msgctxt "Media logger: search"
+msgid "Deleted media"
+msgstr "Usunięcie medium"
+
+#: loggers/class-media-logger.php:45
+msgctxt "Media logger: search"
+msgid "Updated media"
+msgstr "Zaktualizowanie medium"
+
+#: loggers/class-media-logger.php:42
+msgctxt "Media logger: search"
+msgid "Added media"
+msgstr "Dodanie medium"
+
+#: loggers/class-media-logger.php:40
+msgctxt "Media logger: search"
+msgid "All media activity"
+msgstr "Cała aktywność w plikach multimedialnych"
+
+#: loggers/class-media-logger.php:39
+msgctxt "Media logger: search"
+msgid "Media"
+msgstr "Media"
+
+#: loggers/class-media-logger.php:35
+msgid "Deleted {post_type} \"{attachment_title}\" (\"{attachment_filename}\")"
+msgstr "Usunięto {post_type} „{attachment_title}” („{attachment_filename}”)"
+
+#: loggers/class-media-logger.php:33
+msgid "Created {post_type} \"{attachment_title}\""
+msgstr "Utworzono {post_type} „{attachment_title}”"
+
+#. translators: %s last modified date and time in human time diff-format
+#: inc/class-events-stats.php:666 loggers/class-logger.php:415
+msgid "%1$s ago"
+msgstr "%1$s temu"
+
+#. translators: Date format for log row header, see http://php.net/date
+#: loggers/class-logger.php:401
+msgid "M j, Y \\a\\t G:i"
+msgstr "Y-m-d \\o H:i"
+
+#: inc/class-log-initiators.php:83 inc/class-log-initiators.php:105
+#: loggers/class-logger.php:292
+msgctxt "Event header output, when initiator is unknown"
+msgid "Other"
+msgstr "Inne"
+
+#: inc/class-log-initiators.php:80 inc/class-log-initiators.php:102
+#: loggers/class-logger.php:284 build/index-admin-bar.js:6
+#: build/index-gutenberg.js:6 build/index.js:8
+msgid "Anonymous web user"
+msgstr "Użytkownik anonimowy"
+
+#. translators: 1: user id, 2: user email address, 3: user account name.
+#: inc/class-log-initiators.php:69 loggers/class-logger.php:260
+msgid "Deleted user (had id %1$s, email %2$s, login %3$s)"
+msgstr "Usunięto użytkownika  (id: %1$s, e-mail: %2$s, login: %3$s)"
+
+#: loggers/class-logger.php:247
+msgctxt "header output when initiator is the currently logged in user"
+msgid "You"
+msgstr "Ty"
+
+#: loggers/class-export-logger.php:31
+msgctxt "Export logger: search"
+msgid "Created exports"
+msgstr "Utworzenie plików eksportu"
+
+#: loggers/class-export-logger.php:29
+msgctxt "Export logger: search"
+msgid "Export"
+msgstr "Eksport"
+
+#: loggers/class-export-logger.php:25
+msgid "Created XML export"
+msgstr "Utworzono plik eksportu XML"
+
+#: loggers/class-export-logger.php:22
+msgid "Logs updates to WordPress export"
+msgstr "Rejestruje aktualizacje"
+
+#: loggers/class-export-logger.php:21
+msgid "Export Logger"
+msgstr "Eksport dziennika zdarzeń"
+
+#: loggers/class-core-updates-logger.php:33
+msgctxt "User logger: search"
+msgid "WordPress core updates"
+msgstr "Aktualizacje WordPressa"
+
+#: loggers/class-core-updates-logger.php:31
+msgctxt "User logger: search"
+msgid "WordPress Core"
+msgstr "WordPress"
+
+#: loggers/class-core-updates-logger.php:24
+msgid "WordPress auto-updated to {new_version} from {prev_version}"
+msgstr "Automatyczna aktualizacja WordPressa z {prev_version} do {new_version}"
+
+#: loggers/class-core-updates-logger.php:23
+msgid "Updated WordPress to {new_version} from {prev_version}"
+msgstr "Zaktualizowano WordPressa z {prev_version} do {new_version}"
+
+#: loggers/class-comments-logger.php:732
+msgctxt "comments logger - edit comment"
+msgid "View/Edit"
+msgstr "Zobacz/Edytuj"
+
+#: loggers/class-comments-logger.php:678
+msgid "Comment"
+msgstr "Komentarz"
+
+#: loggers/class-comments-logger.php:676
+msgid "Pingback"
+msgstr "Pingback"
+
+#: loggers/class-comments-logger.php:674
+msgid "Trackback"
+msgstr "Trackback"
+
+#: loggers/class-comments-logger.php:663
+msgid "Pending"
+msgstr "Oczekujące"
+
+#: loggers/class-comments-logger.php:661
+msgid "Approved"
+msgstr "Zatwierdzono"
+
+#: loggers/class-comments-logger.php:659
+msgid "Spam"
+msgstr "Spam"
+
+#: loggers/class-comments-logger.php:619
+msgctxt "comments logger - detailed output content"
+msgid "Comment"
+msgstr "Komentarz"
+
+#: loggers/class-comments-logger.php:599 loggers/class-comments-logger.php:608
+msgctxt "comments logger - detailed output content"
+msgid "Content"
+msgstr "Treść"
+
+#: loggers/class-comments-logger.php:598 loggers/class-comments-logger.php:607
+#: loggers/class-comments-logger.php:618
+msgctxt "comments logger - detailed output email"
+msgid "Email"
+msgstr "E-mail"
+
+#: loggers/class-comments-logger.php:597 loggers/class-comments-logger.php:606
+#: loggers/class-comments-logger.php:617
+msgctxt "comments logger - detailed output author"
+msgid "Name"
+msgstr "Imię"
+
+#: loggers/class-comments-logger.php:596 loggers/class-comments-logger.php:605
+#: loggers/class-comments-logger.php:616
+msgctxt "comments logger - detailed output comment status"
+msgid "Status"
+msgstr "Status"
+
+#: loggers/class-comments-logger.php:238
+msgctxt "Comments logger: search"
+msgid "Deleted comments"
+msgstr "Usunięcie komentarzy"
+
+#: loggers/class-comments-logger.php:233
+msgctxt "Comments logger: search"
+msgid "Untrashed comments"
+msgstr "Przywrócenie komentarzy z Kosza"
+
+#: loggers/class-comments-logger.php:228
+msgctxt "Comments logger: search"
+msgid "Trashed comments"
+msgstr "Przeniesienie komentarzy do Kosza"
+
+#: loggers/class-comments-logger.php:223
+msgctxt "Comments logger: search"
+msgid "Comments status changed to spam"
+msgstr "Oznaczenie komentarzy jako spam"
+
+#: loggers/class-comments-logger.php:218
+msgctxt "Comments logger: search"
+msgid "Held comments"
+msgstr "Wstrzymanie komentarzy"
+
+#: loggers/class-comments-logger.php:213
+msgctxt "Comments logger: search"
+msgid "Approved comments"
+msgstr "Zatwierdzone komentarze"
+
+#: loggers/class-comments-logger.php:208
+msgctxt "Comments logger: search"
+msgid "Edited comments"
+msgstr "Edytowanie komentarzy"
+
+#: loggers/class-comments-logger.php:200
+msgctxt "Comments logger: search"
+msgid "Added comments"
+msgstr "Dodanie komentarzy"
+
+#: loggers/class-comments-logger.php:198
+msgctxt "Comments logger: search"
+msgid "All comments activity"
+msgstr "Wszystkie aktywności związane z komentarzami"
+
+#: loggers/class-comments-logger.php:197
+msgctxt "Comments logger: search"
+msgid "Comments"
+msgstr "Komentarze"
+
+#: loggers/class-comments-logger.php:186
+msgctxt "A pingback was edited"
+msgid "Edited a pingback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Edytowano pingback do „{comment_post_title}” dodany przez {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:180
+msgctxt "A pingback was deleted"
+msgid "Deleted a pingback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Usunięto pingback do „{comment_post_title}” dodany przez {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:174
+msgctxt "A pingback was restored from the trash"
+msgid "Restored a pingback to \"{comment_post_title}\" by {comment_author} ({comment_author_email}) from the trash"
+msgstr "Przywrócono z Kosza pingback do „{comment_post_title}” dodany przez {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:168
+msgctxt "A pingback was marked moved to the trash"
+msgid "Trashed a pingback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Przeniesiono do Kosza pingback do „{comment_post_title}” dodany przez {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:162
+msgctxt "A pingback was marked as spam"
+msgid "Marked a pingback to post \"{comment_post_title}\" as spam"
+msgstr "Pingback do wpisu „{comment_post_title}” oznaczono jako spam"
+
+#: loggers/class-comments-logger.php:156
+msgctxt "A pingback was was unapproved"
+msgid "Unapproved a pingback to \"{comment_post_title}\" by \"{comment_author}\" ({comment_author_email})"
+msgstr "Odrzucono pingback do „{comment_post_title}” dodany przez „{comment_author}” ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:150
+msgctxt "A pingback was approved"
+msgid "Approved a pingback to \"{comment_post_title}\" by \"{comment_author}\"\" ({comment_author_email})"
+msgstr "Zatwierdzono pingback do „{comment_post_title}” dodany przez „{comment_author}” ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:144
+msgctxt "A pingback was added to the database by a logged in user"
+msgid "Added a pingback to {comment_post_type} \"{comment_post_title}\""
+msgstr "Dodano pingback do {comment_post_type} „{comment_post_title}”"
+
+#: loggers/class-comments-logger.php:138
+msgctxt "A trackback was added to the database by a non-logged in internet user"
+msgid "Added a pingback to {comment_post_type} \"{comment_post_title}\""
+msgstr "Dodano pingback do {comment_post_type} „{comment_post_title}”"
+
+#: loggers/class-comments-logger.php:131
+msgctxt "A trackback was edited"
+msgid "Edited a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Edytowano trackback do „{comment_post_title}” dodany przez {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:125
+msgctxt "A trackback was deleted"
+msgid "Deleted a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Usunięto trackback do „{comment_post_title}” dodany przez {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:119
+msgctxt "A trackback was restored from the trash"
+msgid "Restored a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email}) from the trash"
+msgstr "Przywrócono z Kosza trackback do „{comment_post_title}” dodany przez {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:113
+msgctxt "A trackback was marked moved to the trash"
+msgid "Trashed a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Przeniesiono do Kosza trackback do „{comment_post_title}” dodany przez {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:107
+msgctxt "A trackback was marked as spam"
+msgid "Marked a trackback to post \"{comment_post_title}\" as spam"
+msgstr "Trackback dodany do „{comment_post_title}” oznaczono jako spam"
+
+#: loggers/class-comments-logger.php:101
+msgctxt "A trackback was was unapproved"
+msgid "Unapproved a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Odrzucono trackback do „{comment_post_title}” dodany przez {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:95
+msgctxt "A trackback was approved"
+msgid "Approved a trackback to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Zatwierdzono trackback do „{comment_post_title}” dodany przez {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:89
+msgctxt "A trackback was added to the database by a logged in user"
+msgid "Added a trackback to {comment_post_type} \"{comment_post_title}\""
+msgstr "Dodano trackback do {comment_post_type} „{comment_post_title}”"
+
+#: loggers/class-comments-logger.php:83
+msgctxt "A trackback was added to the database by a non-logged in internet user"
+msgid "Added a trackback to {comment_post_type} \"{comment_post_title}\""
+msgstr "Dodano trackback do {comment_post_type} „{comment_post_title}”"
+
+#: loggers/class-comments-logger.php:76
+msgctxt "A comment was edited"
+msgid "Edited a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Edytowano komentarz dodany do „{comment_post_title}” przez {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:70
+msgctxt "A comment was deleted"
+msgid "Deleted a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Usunięto komentarz dodany do „{comment_post_title}” przez {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:64
+msgctxt "A comment was restored from the trash"
+msgid "Restored a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email}) from the trash"
+msgstr "Przywrócono z Kosza komentarz dodany do „{comment_post_title}” przez {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:58
+msgctxt "A comment was marked moved to the trash"
+msgid "Trashed a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Komentarz dodany do „{comment_post_title}” przez {comment_author} ({comment_author_email}) przeniesiono do Kosza"
+
+#: loggers/class-comments-logger.php:52
+msgctxt "A comment was marked as spam"
+msgid "Marked a comment to post \"{comment_post_title}\" as spam"
+msgstr "Komentarz dodany do „{comment_post_title}” oznaczono jako spam"
+
+#: loggers/class-comments-logger.php:46
+msgctxt "A comment was was unapproved"
+msgid "Unapproved a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Odrzucono komentarz „{comment_post_title}” dodany przez {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:40
+msgctxt "A comment was approved"
+msgid "Approved a comment to \"{comment_post_title}\" by {comment_author} ({comment_author_email})"
+msgstr "Zatwierdzono komentarz dla „{comment_post_title}” dodany przez {comment_author} ({comment_author_email})"
+
+#: loggers/class-comments-logger.php:34
+msgctxt "A comment was added to the database by a logged in user"
+msgid "Added a comment to {comment_post_type} \"{comment_post_title}\""
+msgstr "Dodano komentarz do {comment_post_type} „{comment_post_title}”"
+
+#: loggers/class-comments-logger.php:28
+msgctxt "A comment was added to the database by a non-logged in internet user"
+msgid "Added a comment to {comment_post_type} \"{comment_post_title}\""
+msgstr "Dodano komentarz do {comment_post_type} „{comment_post_title}”"
+
+#: loggers/class-plugin-user-switching-logger.php:32
+msgctxt "PluginUserSwitchingLogger"
+msgid "Switched off user \"{user_login}\""
+msgstr "Przełączono z użytkownika „{user_login}”"
+
+#: loggers/class-plugin-user-switching-logger.php:31
+msgctxt "PluginUserSwitchingLogger"
+msgid "Switched back to user \"{user_login_to}\""
+msgstr "Powrócono do użytkownika „{user_login_to}”"
+
+#: loggers/class-plugin-user-switching-logger.php:30
+msgctxt "PluginUserSwitchingLogger"
+msgid "Switched back to user \"{user_login_to}\" from user \"{user_login_from}\""
+msgstr "Powrócono do użytkownika „{user_login_to}” z „{user_login_from}”"
+
+#: loggers/class-plugin-user-switching-logger.php:29
+msgctxt "PluginUserSwitchingLogger"
+msgid "Switched to user \"{user_login_to}\" from user \"{user_login_from}\""
+msgstr "Przełączono się na użytkownika „{user_login_to}” z „{user_login_from}”"
+
+#: loggers/class-plugin-user-switching-logger.php:25
+msgctxt "PluginUserSwitchingLogger"
+msgid "Logs user switches"
+msgstr "Rejestrowanie przełączenia użytkownika"
+
+#: loggers/class-plugin-user-switching-logger.php:24
+msgctxt "PluginUserSwitchingLogger"
+msgid "Plugin: User Switching Logger"
+msgstr "Wtyczka: Rejestrator dla wtyczki User Switching"
+
+#: loggers/class-plugin-enable-media-replace-logger.php:28
+msgctxt "PluginEnableMediaReplaceLogger"
+msgid "Replaced attachment \"{prev_attachment_title}\" with new attachment \"{new_attachment_title}\""
+msgstr "Zastąpiono plik „{prev_attachment_title}” nowym „{new_attachment_title}”"
+
+#: loggers/class-plugin-enable-media-replace-logger.php:24
+msgctxt "PluginEnableMediaReplaceLogger"
+msgid "Logs media updates made with the Enable Media Replace Plugin"
+msgstr "Rejestr zmian plików wykonanych wtyczką Enable Media Replace"
+
+#: loggers/class-plugin-enable-media-replace-logger.php:23
+msgctxt "PluginEnableMediaReplaceLogger"
+msgid "Plugin: Enable Media Replace Logger"
+msgstr "Wtyczka: Rejestruj zmiany wtyczki Media Replace"
+
+#. translators: 1: PHP version
+#: inc/oldversions.php:16
+msgid "Simple History is a great plugin, but to use it your server must have at least PHP 7.4 installed (you have version %s)."
+msgstr "Wtyczka Prosta Historia do prawidłowego działania wymaga serwera z obsługą PHP co najmniej 7.4 (używasz %s)."
+
+#: inc/class-log-levels.php:92 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Debug"
+msgstr "Debugowanie"
+
+#: inc/class-log-levels.php:88 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Info"
+msgstr "Informacja"
+
+#: inc/class-log-levels.php:84 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Notice"
+msgstr "Powiadomienie"
+
+#: inc/class-log-levels.php:80 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Warning"
+msgstr "Ostrzeżenie"
+
+#: inc/class-log-levels.php:76 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Error"
+msgstr "Błąd"
+
+#: inc/class-log-levels.php:72 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Critical"
+msgstr "Błąd krytyczny"
+
+#: inc/class-log-levels.php:68 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Alert"
+msgstr "Ostrzeżenie"
+
+#: inc/class-log-levels.php:64 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index.js:1
+msgctxt "Log level in gui"
+msgid "Emergency"
+msgstr "Wypadek"
+
+#: inc/class-log-levels.php:59
+msgctxt "Log level in gui"
+msgid "debug"
+msgstr "debug"
+
+#: inc/class-log-levels.php:55
+msgctxt "Log level in gui"
+msgid "info"
+msgstr "informacja"
+
+#: inc/class-log-levels.php:51
+msgctxt "Log level in gui"
+msgid "notice"
+msgstr "powiadomienie"
+
+#: inc/class-log-levels.php:47
+msgctxt "Log level in gui"
+msgid "warning"
+msgstr "ostrzeżenie"
+
+#: inc/class-log-levels.php:43
+msgctxt "Log level in gui"
+msgid "error"
+msgstr "błąd"
+
+#: inc/class-log-levels.php:39
+msgctxt "Log level in gui"
+msgid "critical"
+msgstr "błąd krytyczny"
+
+#: inc/class-log-levels.php:35
+msgctxt "Log level in gui"
+msgid "alert"
+msgstr "ostrzeżenie"
+
+#: inc/class-log-levels.php:31
+msgctxt "Log level in gui"
+msgid "emergency"
+msgstr "awaria"
+
+#: inc/class-simple-history.php:1065
+msgid "This is potentially useful meta data that a logger has saved."
+msgstr "Potencjalnie przydatne meta dane, zarejestrowane w dzienniku."
+
+#: inc/class-simple-history.php:1062
+msgid "Context data"
+msgstr "Dane kontekstowe"
+
+#. translators: %1$s is number of similar events.
+#. translators: %s: number of similar events
+#: inc/class-simple-history.php:972 build/index.js:10
+msgid "Showing %1$s more"
+msgstr "Pokazuję %1$s więcej"
+
+#: inc/class-simple-history.php:966 build/index-admin-bar.js:1
+#: build/index-gutenberg.js:1 build/index-gutenberg.js:6 build/index.js:1
+#: build/index.js:9
+msgid "Loading…"
+msgstr "Wczytywanie…"
+
+#. translators: %1$s is number of similar events.
+#. translators: %s: number of similar events
+#: inc/class-simple-history.php:960 build/index.js:9
+msgid "+%1$s similar event"
+msgid_plural "+%1$s similar events"
+msgstr[0] "+%1$s podobne zdarzenie"
+msgstr[1] "+%1$s podobne zdarzenia"
+msgstr[2] "+%1$s podobnych zdarzeń"
+
+#: inc/services/class-setup-settings-page.php:533
+msgid "Clear log now"
+msgstr "Wyczyść zdarzenia"
+
+#: inc/services/class-setup-settings-page.php:515
+msgid "Items in the database are kept forever."
+msgstr "Zdarzenia nigdy nie będą usuwane z bazy danych."
+
+#. translators: %1$s is number of days.
+#: inc/services/class-setup-settings-page.php:510
+msgid "Items in the database are automatically removed after %1$s days."
+msgstr "Zdarzenia będą usuwane automatycznie z bazy danych po %1$s dniach."
+
+#: inc/services/class-setup-settings-page.php:367
+msgid "on the dashboard"
+msgstr "jako widget w Kokpicie"
+
+#: inc/services/class-setup-settings-page.php:293
+msgid "Clear log"
+msgstr "Wyczyść historię"
+
+#: inc/services/class-setup-settings-page.php:260
+msgid "Show history"
+msgstr "Pokaż zdarzenia"
+
+#: inc/services/class-setup-settings-page.php:745
+msgid "Cleared database"
+msgstr "Wyczyść bazę danych"
+
+#: inc/services/class-admin-pages.php:38
+msgctxt "dashboard menu name"
+msgid "Simple History"
+msgstr "Prosta Historia"
+
+#: inc/services/class-scripts-and-templates.php:81
+msgid "Remove all log items?"
+msgstr "Czy na pewno chcesz usunąć wszystkie zdarzenia z bazy danych?"
+
+#. Plugin Name of the plugin
+#: index.php inc/services/class-dashboard-widget.php:48
+#: templates/email-summary-report.php:147
+msgid "Simple History"
+msgstr "Prosta Historia"
+
+#: inc/services/class-plugin-list-link.php:45
+#: inc/services/class-setup-settings-page.php:172
+#: inc/services/class-setup-settings-page.php:173 build/index-admin-bar.js:6
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: inc/services/class-api.php:39
+msgctxt "API: not enough arguments passed"
+msgid "Not enough args specified"
+msgstr "Określono za mało argumentów"
+
+#: loggers/class-logger.php:396
+msgid "Just now"
+msgstr "Teraz"
+
+#: dropins/class-sidebar-dropin.php:49
+msgctxt "Sidebar box"
+msgid "A good review will help new users find this plugin. And it will make the plugin author very happy :)"
+msgstr "Dobra recenzja może pomóc nowym użytkownikom w znalezieniu tej wtyczki. No i bardzo ucieszy jej autora :)"
+
+#. translators: 1 is a link to the review page.
+#: dropins/class-sidebar-dropin.php:45
+msgctxt "Sidebar box"
+msgid "If you like Simple History then please <a href=\"%1$s\">give it a nice review over at wordpress.org</a>."
+msgstr "Jeżeli lubisz wtyczkę Prosta Historia, to proszę <a href=\"%1$s\">napisz dobrą recenzję na wordpress.org</a>."
+
+#: dropins/class-sidebar-dropin.php:41
+msgctxt "Sidebar box"
+msgid "Review this plugin if you like it"
+msgstr "Oceń wtyczkę"
+
+#: dropins/class-sidebar-dropin.php:27
+msgctxt "Sidebar box"
+msgid "Donate to support development"
+msgstr "Przekaż datek na rozwój"
+
+#: inc/class-stats-view.php:655 templates/email-summary-report.php:343
+msgid "Plugins"
+msgstr "Wtyczki"
+
+#: dropins/class-rss-dropin.php:554
+msgid "Simple History has a RSS feed which you can subscribe to and receive log updates. Make sure you only share the feed with people you trust, since it can contain sensitive or confidential information."
+msgstr "Wtyczka Prosta Historia udostępnia kanał RSS, który możesz zasubskrybować i w ten sposób otrzymywać powiadomienia o zdarzeniach. Upewnij się, adres tego kanału znają tylko zaufane osoby, ponieważ może on zawierać dane poufne."
+
+#: dropins/class-rss-dropin.php:523
+msgid "Generate new address"
+msgstr "Utwórz nowy adres URL"
+
+#: dropins/class-rss-dropin.php:516
+msgid "You can generate a new address for the RSS feed. This is useful if you think that the address has fallen into the wrong hands."
+msgstr "Możesz wygenerować nowy adres kanału RSS. Ta opcja jest przydatna, jeśli poprzednii link wpadł w niepowołane ręce."
+
+#: dropins/class-rss-dropin.php:441
+msgid "Your RSS secret for Simple History RSS feed is wrong. Please see WordPress settings for current link to the RSS feed."
+msgstr "Twój sekretny link z dostępem do kanału RSS Prosta Historia jest błędny. Przejdź do ustawień WordPressa, żeby zobaczyć aktualny adres tego kanału."
+
+#: dropins/class-rss-dropin.php:439
+msgid "Wrong RSS secret"
+msgstr "Błędny klucz kanału RSS"
+
+#. translators: %1$s is the number of times this log has been repeated.
+#: dropins/class-rss-dropin.php:400
+msgid "+%1$s occasion"
+msgid_plural "+%1$s occasions"
+msgstr[0] "+ 1 wystąpienie"
+msgstr[1] "+ %1$s wystąpienia"
+msgstr[2] "+ %1$s wystąpień"
+
+#. translators: %s is the severity level of the log.
+#: dropins/class-rss-dropin.php:338
+msgid "Severity level: %1$s"
+msgstr "Poziom ważności: %1$s"
+
+#. translators: %s blog name
+#: dropins/class-rss-dropin.php:239
+msgid "WordPress History for %s"
+msgstr "Historia WordPressa dla %s"
+
+#. translators: %s blog name
+#: dropins/class-rss-dropin.php:233
+msgid "History for %s"
+msgstr "Historia dla %s"
+
+#: dropins/class-rss-dropin.php:121
+msgid "Created new secret RSS address"
+msgstr "Utworzono nowy sekretny link do kanału RSS"
+
+#: dropins/class-rss-dropin.php:105
+msgid "Regenerate"
+msgstr "Odnów"
+
+#: dropins/class-rss-dropin.php:96
+msgid "Address"
+msgstr "Adres"
+
+#: dropins/class-rss-dropin.php:72
+msgctxt "rss settings headline"
+msgid "RSS feed"
+msgstr "Kanał RSS"
+
+#: dropins/class-export-dropin.php:169
+msgctxt "Export dropin: submit button"
+msgid "Download Export File"
+msgstr "Pobierz plik eksportu"
+
+#: dropins/class-export-dropin.php:142
+msgctxt "Export dropin: export format"
+msgid "CSV"
+msgstr "CSV"
+
+#: dropins/class-export-dropin.php:156
+msgctxt "Export dropin: export format"
+msgid "JSON"
+msgstr "JSON"
+
+#: dropins/class-export-dropin.php:136
+msgctxt "Export dropin: format"
+msgid "Choose format to export to"
+msgstr "Wybierz format pliku eksportu"
+
+#: dropins/class-export-dropin.php:131
+msgctxt "Export dropin: introtext"
+msgid "The export function will export the full history."
+msgstr "Eksport będzie zawieraał pełną historię."

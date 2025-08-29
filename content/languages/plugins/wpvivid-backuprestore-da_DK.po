@@ -1,0 +1,3015 @@
+# Translation of Plugins - Migration, Backup, Staging – WPvivid Backup &amp; Migration - Stable (latest release) in Danish
+# This file is distributed under the same license as the Plugins - Migration, Backup, Staging – WPvivid Backup &amp; Migration - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-04-01 06:59:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - Migration, Backup, Staging – WPvivid Backup &amp; Migration - Stable (latest release)\n"
+
+#: admin/partials/wpvivid-settings-page-display.php:734
+msgid "This mode allows fine-tuning of backup parameters. Incorrect configuration can lead to backup failures. It is recommended to use only with specific guidance from our support team."
+msgstr "Denne tilstand tillader finjustering af backup-parametre. Forkert konfiguration kan føre til sikkerhedskopieringsfejl. Det anbefales kun at bruge med specifik vejledning fra vores supportteam."
+
+#: admin/partials/wpvivid-settings-page-display.php:728
+msgid "This mode uses more server resources to reduce backup time, but is only recommended for dedicated servers. If backups time out or get stuck, consider Mid or Low mode. Backups are split into 4GB chunks."
+msgstr "Denne tilstand bruger flere serverressourcer for at reducere backuptiden, men anbefales kun til dedikerede servere. Hvis sikkerhedskopiering får timeout eller går i stå, skal du overveje Mid eller Low-tilstand. Sikkerhedskopier er opdelt i 4GB enheder."
+
+#: admin/partials/wpvivid-settings-page-display.php:722
+msgid "This mode offers a good balance between backup speed and resource usage. It's suitable for most web hosting environments."
+msgstr "Denne tilstand giver en god balance mellem backuphastighed og ressourceforbrug. Det er velegnet til de fleste webhostingmiljøer."
+
+#: admin/partials/wpvivid-settings-page-display.php:716
+msgid "Use this default setting for minimal server resource usage, but expect longer backup times. Best for shared hosting or limited resources. Backups are split into 200MB chunks."
+msgstr "Brug denne standardindstilling for at minimere brug af serverressourcer, men forvent længere backup-tider. Bedst til delt hosting eller begrænsede ressourcer. Sikkerhedskopier er opdelt i 200 MB enheder."
+
+#: admin/partials/wpvivid-settings-page-display.php:711
+msgid "Backup performance mode."
+msgstr "Backup ydeevne tilstand."
+
+#: admin/partials/wpvivid-settings-page-display.php:150
+msgid "Back up symlink folders. Including symlink folders may cause backup/migration failure. Uncheck this option unless you know how symlink folders work."
+msgstr "Sikkerhedskopiér symlink-mapper. Inkludering af symlink-mapper kan forårsage fejl i sikkerhedskopieringen eller migreringen. Fjern markeringen af denne mulighed, medmindre du ved, hvordan symlink-mapper fungerer."
+
+#. Author of the plugin
+#: wpvivid-backuprestore.php
+msgid "WPvivid Backup & Migration"
+msgstr "WPvivid Backup & Migration"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2404
+msgid "Try our AVIF and WebP conversion tool, it's free"
+msgstr "Prøv vores værktøj til konvertering af AVIF og WebP, det er gratis"
+
+#: admin/partials/wpvivid-settings-page-display.php:693
+msgid "Backup compression method."
+msgstr "Komprimeringsmetode til sikkerhedskopiering."
+
+#: admin/class-wpvivid-admin.php:219
+msgid " for higher task success rate."
+msgstr " for højere opgavesuccesrate."
+
+#: admin/class-wpvivid-admin.php:218
+msgid "Adjust Advanced Settings"
+msgstr "Tilpas avanceret indstillinger"
+
+#: admin/class-wpvivid-admin.php:217
+msgid "Adjust"
+msgstr "Tilpas"
+
+#: admin/class-wpvivid-admin.php:212
+msgid " for faster solutions."
+msgstr " for hurtigere løsninger."
+
+#: admin/class-wpvivid-admin.php:211
+msgid "Troubleshooting page"
+msgstr "Fejlfindings side"
+
+#: admin/class-wpvivid-admin.php:210
+msgid "Read"
+msgstr "Læs"
+
+#: admin/class-wpvivid-admin.php:199
+msgid "review will motivate us a lot."
+msgstr "en anmeldelse vil motivere os meget."
+
+#: admin/class-wpvivid-admin.php:196
+msgid "Like the plugin? A"
+msgstr "Kan du lide plugin'et? A"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:850
+msgid "Exclude images by folder path"
+msgstr "Ekskluder billeder efter mappesti"
+
+#: includes/class-wpvivid.php:5824
+msgid "The value of 'Maximum size of sql file to be imported per request for restoration' can't be empty."
+msgstr "Værdien af \"Maksimal størrelse på sql-fil, der skal importeres pr. anmodning om gendannelse\" må ikke være tom."
+
+#: includes/class-wpvivid.php:5817
+msgid "The value of 'Maximum rows of data to be processed per request for restoration' can't be empty."
+msgstr "Værdien af \"Maksimum rækker med data, der skal behandles pr. anmodning om gendannelse\" må ikke være tom."
+
+#: includes/class-wpvivid.php:5810
+msgid "The value of 'Split a sql file every this size' can't be empty."
+msgstr "Værdien af 'Opdel en sql-fil i alle disse størrelser' må ikke være tom."
+
+#: includes/class-wpvivid.php:5803
+msgid "The value of 'The number of files compressed to the backup zip each time' can't be empty."
+msgstr "Værdien af 'Antallet af filer, der komprimeres til sikkerhedskopi-zip'en hver gang', må ikke være tom."
+
+#: includes/class-wpvivid-interface-mainwp.php:189
+#: includes/new_backup/class-wpvivid-backup2.php:351
+#: includes/new_backup/class-wpvivid-backup2.php:383
+#: includes/new_backup/class-wpvivid-backup2.php:467
+#: includes/new_backup/class-wpvivid-backup2.php:1722
+msgid "We detected that there is already a running backup task. Please wait until it completes then try again."
+msgstr "Vi opdagede, at der allerede er en kørende sikkerhedskopi-opgave. Vent, indtil det er færdigt, og prøv derefter igen."
+
+#: includes/class-wpvivid-function-realize.php:49
+msgid "The backup is not responding for a while, do you want to force cancel it?"
+msgstr "Sikkerhedskopien reagerer ikke i et stykke tid, vil du tvinge den til at annullere?"
+
+#: admin/partials/wpvivid-settings-page-display.php:798
+msgid "Specify the number of files to be extracted per request. The lower the number is, the slower the restoration, but the lower the chance of a timeout error or restore failure."
+msgstr "Angiv antallet af filer, der skal udpakkes pr. anmodning. Jo lavere tallet er, jo langsommere er gendannelsen, men jo lavere er chancen for en timeoutfejl eller gendannelsesfejl."
+
+#: admin/partials/wpvivid-settings-page-display.php:796
+msgid "Extract files by index for restoration"
+msgstr "Udpak filer efter indeks til gendannelse"
+
+#: admin/partials/wpvivid-settings-page-display.php:821
+msgid "Maximum rows of data to be processed per request."
+msgstr "Maksimum rækker af data, der skal behandles pr. anmodning."
+
+#: admin/partials/wpvivid-settings-page-display.php:818
+msgid "Maximum size of sql file to be imported per request for restoration"
+msgstr "Maksimal størrelse på sql-fil, der skal importeres pr. anmodning om gendannelse"
+
+#: admin/partials/wpvivid-settings-page-display.php:816
+msgid "The smaller it is, the slower the restoration will be, but the lower the chance of a timeout error."
+msgstr "Jo mindre det er, jo langsommere vil genskabelsen være, men jo lavere er chancen for en timeout-fejl."
+
+#: admin/partials/wpvivid-settings-page-display.php:813
+msgid "Maximum rows of data to be processed per request for restoration"
+msgstr "Maksimum rækker af data, der skal behandles pr. anmodning om gendannelse"
+
+#: admin/partials/wpvivid-settings-page-display.php:766
+msgid "Some web hosting providers limit large zip files (e.g. 200MB), and therefore splitting your backup into many parts is an ideal way to avoid hitting the limitation if you are running a big website. Please try to adjust the value if you are encountering backup errors. If you use a value of 0 MB, any backup files won't be split."
+msgstr "Nogle webhostingudbydere begrænser store zip-filer (f.eks. 200 MB), og derfor er opdeling af din sikkerhedskopi i mange dele en ideel måde at undgå at ramme begrænsningen, hvis du kører et stort websted. Prøv at justere værdien, hvis du støder på sikkerhedskopieringsfejl. Hvis du bruger en værdi på 0 MB, opdeles eventuelle sikkerhedskopifiler ikke."
+
+#: admin/partials/wpvivid-settings-page-display.php:765
+msgid "MB"
+msgstr "MB"
+
+#: admin/partials/wpvivid-settings-page-display.php:763
+msgid "Split a sql file every this size"
+msgstr "Opdel en sql-fil i hver denne størrelse"
+
+#: admin/partials/wpvivid-settings-page-display.php:761
+msgid "When taking a backup, the plugin will compress this number of files to the backup zip each time. The default value is 500. The lower the value, the longer time the backup will take, but the higher the backup success rate. If you encounter a backup timeout issue, try to decrease this value."
+msgstr "Når du tager en sikkerhedskopi, vil plugin'et komprimere dette antal filer til backup-zip hver gang. Standardværdien er 500. Jo lavere værdien er, jo længere tid tager sikkerhedskopieringen, men jo højere er succesraten for backup. Hvis du støder på et backup-timeoutproblem, så prøv at reducere denne værdi."
+
+#: admin/partials/wpvivid-settings-page-display.php:760
+msgid "Files"
+msgstr "Filer"
+
+#: admin/partials/wpvivid-settings-page-display.php:758
+msgid "The number of files compressed to the backup zip each time"
+msgstr "Antallet af filer der komprimeret til sikkerhedskopi-zip hver gang"
+
+#: admin/partials/wpvivid-settings-page-display.php:704
+msgid "PclZip is a much slower but more stable zip method that is included in every WordPress install. WPvivid will automatically switch to PclZip if the ZIP extension is not installed within your PHP."
+msgstr "PclZip er en meget langsommere, men mere stabil zip-metode, der er inkluderet i hver WordPress-installation. WPvivid skifter automatisk til PclZip, hvis ZIP-udvidelsen ikke er installeret i din PHP."
+
+#: admin/partials/wpvivid-settings-page-display.php:698
+msgid "ZipArchive has a better flexibility which provides a higher backup success rate and speed. WPvivid Backup Plugin uses ZipArchive method by default. Using this method requires the ZIP extension to be installed within your PHP."
+msgstr "ZipArchive har en bedre fleksibilitet, som giver en højere sikkerhedskopi succesrate og hastighed. Det er også standard zip-metoden, som WPvivid Backup Pro bruger. Brug af denne metode kræver, at ZIP-udvidelsen installeres i din PHP."
+
+#: admin/class-wpvivid-admin.php:1716
+msgid "Unlimited domains"
+msgstr "Ubegrænset domæner"
+
+#: includes/snapshot/class-wpvivid-snapshots-list.php:41
+msgid "Comment"
+msgstr "Kommentar"
+
+#: includes/snapshot/class-wpvivid-snapshots-list.php:40
+msgid "Prefix"
+msgstr "Præfiks"
+
+#: includes/snapshot/class-wpvivid-snapshots-list.php:39
+msgid "Type"
+msgstr "Type"
+
+#: includes/snapshot/class-wpvivid-snapshots-list.php:38
+msgid "Time"
+msgstr "Tid"
+
+#: includes/snapshot/class-wpvivid-snapshots-list.php:37
+msgid "cb"
+msgstr "cb"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1606
+msgid "If you need any help with our plugin, start a thread on the plugin support forum and we will respond shortly."
+msgstr "Hvis du har brug for hjælp til vores plugin, skal du starte en tråd på plugin-supportforummet, og vi svarer snart."
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1562
+#: includes/snapshot/class-wpvivid-snapshot.php:1604
+msgid "Get Support on Forum"
+msgstr "Få support på Forum"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1551
+#: includes/snapshot/class-wpvivid-snapshot.php:1592
+msgid "Restore Database Snapshots"
+msgstr "Gendan øjebliksbillede af database"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1548
+#: includes/snapshot/class-wpvivid-snapshot.php:1587
+msgid "Create Database Snapshots"
+msgstr "Opret øjebliksbillede af database"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1580
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1050
+msgid "Are you sure to delete the selected snapshots? These snapshots will be deleted permanently."
+msgstr "Er du sikker på at slette de valgte øjebliksbilleder? Disse øjebliksbilleder slettes permanent."
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1000
+msgid "Are you sure you want to delete this snapshot?"
+msgstr "Er du sikker på, at du vil slette dette øjebliksbillede?"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:905
+msgid "Are you sure you want to restore this snapshot?"
+msgstr "Er du sikker på, at du vil gendanne dette øjebliksbillede?"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:80
+msgid "Database Snapshots"
+msgstr "Database øjebliksbilleder"
+
+#: admin/class-wpvivid-admin.php:1727
+msgid "See Plans"
+msgstr "Se planer"
+
+#: includes/customclass/class-wpvivid-dropbox.php:685
+msgid "To add Dropbox, please get Dropbox authentication first. Once authenticated, you will be redirected to this page, then you can add storage information and save it."
+msgstr "Hvis du vil tilføje Dropbox, skal du først få en Dropbox-godkendelse. Når du er godkendt, bliver du omdirigeret til denne side, så kan du tilføje lageroplysninger og gemme dem."
+
+#: admin/partials/wpvivid-settings-page-display.php:353
+msgid "Junk Size:"
+msgstr "Størrelse på junk-filer:"
+
+#: admin/partials/wpvivid-settings-page-display.php:346
+msgid "Backup Cache Size:"
+msgstr "Cache størrelse på sikkerhedskopi:"
+
+#: admin/partials/wpvivid-settings-page-display.php:339
+msgid "Logs Size:"
+msgstr "Størrelse på logfiler:"
+
+#: admin/partials/wpvivid-settings-page-display.php:332
+msgid "Backup Size:"
+msgstr "Størrelse på sikkerhedskopi:"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1754
+msgid "lsolated Folder Path: "
+msgstr "Sti til mappe for isolerede billeder: "
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1751
+msgid "This tab displays the isolated images and their locations. You can choose to restore or delete specific isolated images."
+msgstr "Denne fane viser de isolerede billeder og deres placering. Du kan vælge at gendanne eller slette specifikke isolerede billeder."
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1118
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1761
+msgid "All Folders"
+msgstr "Alle mapper"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1116
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1130
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1759
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1770
+msgid "Search"
+msgstr "Søg"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1080
+msgid "Clicking the 'Scan' button to find unused images in your media folder. Currently it only scans JPG and PNG images."
+msgstr "Klik på knappen 'Scan' for at finde ubrugte billeder i din mediemappe. I øjeblikket scanner den kun JPG- og PNG-billeder."
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1074
+msgid "Media path: "
+msgstr "Sti til medie filer: "
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1070
+msgid "In the tab, you can scan your media folder (uploads) to find unused images and isolate specific or all unused images."
+msgstr "I fanen kan du scanne din mediemappe (uploads) for at finde ubrugte billeder og isolere specifikke eller alle ubrugte billeder."
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1027
+msgid "Isolated Media"
+msgstr "Isolerede medier"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1026
+msgid "Scan Media"
+msgstr "Scan medier"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:766
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:804
+msgid "Restoring images..."
+msgstr "Gendannelse af billeder..."
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:760
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:798
+msgid "Delete all images"
+msgstr "Slet alle billeder"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:759
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:797
+msgid "Delete selected images"
+msgstr "Slet valgte billeder"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:758
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:796
+msgid "Restore all images"
+msgstr "Gendan alle billeder"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:757
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:795
+msgid "Restore selected images"
+msgstr "Gendan valgte billeder"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:351
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:378
+msgid "Isolating images..."
+msgstr "Isolering af billeder..."
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:347
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:374
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:762
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:800
+msgid "Apply"
+msgstr "Anvend"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:345
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:372
+msgid "Isolate all images"
+msgstr "Isolere alle billeder"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:344
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:371
+msgid "Isolate selected images"
+msgstr "Isolere valgte billeder"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:343
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:370
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:756
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:794
+msgid "Bulk Actions"
+msgstr "Massehandling"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:341
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:368
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:754
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:792
+msgid "Select bulk action"
+msgstr "Vælg massehandling"
+
+#: includes/staging/class-wpvivid-staging-setting.php:204
+#: includes/staging/class-wpvivid-staging-setting.php:383
+msgid "With this option checked, all staging sites you have created will be retained when the plugin is deleted, just in case you still need them later. The sites will show up again after the plugin is reinstalled."
+msgstr "Når denne mulighed er markeret, bevares alle staging websteder, du har oprettet, når plugin'et slettes, hvis du stadig har brug for dem senere. Webstederne vises igen, når plugin'et geninstalleres."
+
+#: includes/staging/class-wpvivid-staging-setting.php:193
+#: includes/staging/class-wpvivid-staging-setting.php:372
+msgid "When checked, this option allows you to keep the current permalink structure when you create a staging site or push a staging site to live."
+msgstr "Når denne indstilling er markeret, kan du beholde den aktuelle permalink struktur, når du opretter et staging websted eller sætter et staging websted til live websted."
+
+#: includes/staging/class-wpvivid-staging-setting.php:182
+#: includes/staging/class-wpvivid-staging-setting.php:361
+msgid "When the option is checked, anyone will be able to visit the staging site without the need to login. Uncheck it to request a login to visit the staging site."
+msgstr "Når indstillingen er markeret, vil alle være i stand til at besøge staging webstedet uden at skulle logge ind. Fjern markeringen af det for at anmode om et login for at besøge staging webstedet."
+
+#: includes/staging/class-wpvivid-staging-list-ui-display.php:1147
+msgid "Are you sure to restart this staging site?"
+msgstr "Er du sikker på at genstarte dette staging websted?"
+
+#: includes/staging/class-wpvivid-staging-list-ui-display.php:1120
+msgid "Are you sure to delete this staging site?"
+msgstr "Er du sikker på at slette dette staging websted?"
+
+#: includes/staging/class-wpvivid-staging-create-ui-display.php:382
+#: includes/staging/class-wpvivid-staging-create-ui-display.php:391
+#: includes/staging/class-wpvivid-staging-create-ui-display.php:400
+msgid "Click OK to start creating the staging site."
+msgstr "Klik på OK for at begynde at oprette et staging websted."
+
+#: includes/staging/class-wpvivid-fresh-install-create-ui-display.php:568
+msgid "Click OK to start creating fresh WordPress install."
+msgstr "Klik på OK for at begynde at oprette ny WordPress-installation."
+
+#: includes/customclass/class-wpvivid-ftpclass.php:390
+msgid "Warning: Root directory is forbidden to set to '/'."
+msgstr "Advarsel: Rodmappen er forbudt at angive som '/'."
+
+#: includes/customclass/class-wpvivid-dropbox.php:506
+#: includes/customclass/class-wpvivid-one-drive.php:217
+msgid "Authentication is done, please continue to enter the storage information, then click 'Add Now' button to save it."
+msgstr "Godkendelse er udført, fortsæt med at indtaste lageroplysningerne, og klik derefter på knappen 'Tilføj nu' for at gemme den."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2473
+#: admin/partials/wpvivid-schedule-page-display.php:201
+#: includes/class-wpvivid.php:7091
+msgid "Add a storage"
+msgstr "Tilføj et lager"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:72
+#: includes/class-wpvivid.php:7030
+msgid "Remove the remote storage"
+msgstr "Fjern fjernlageret"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:70
+#: includes/class-wpvivid.php:7028
+msgid "Edit the remote storage"
+msgstr "Rediger fjernlageret"
+
+#: includes/class-wpvivid.php:6851 includes/class-wpvivid.php:6987
+msgid "Delete the backup"
+msgstr "Slet sikkerhedskopien"
+
+#: includes/class-wpvivid.php:6808
+msgid "Click the button to complete website restore or migration"
+msgstr "Klik på knappen for at fuldføre gendannelse eller overføring af websted"
+
+#: includes/class-wpvivid.php:6733 includes/class-wpvivid.php:6874
+msgid "Uploaded Backup: "
+msgstr "Uploadet sikkerhedskopi: "
+
+#: includes/class-wpvivid.php:5404
+msgid "You have successfully changed your default remote storage."
+msgstr "Du har ændret dit standard fjernlager korrekt."
+
+#: includes/class-wpvivid-public-interface.php:32
+msgid "Manual"
+msgstr "Manuel"
+
+#: includes/class-wpvivid-migrate.php:1339
+msgid "Clone then Transfer"
+msgstr "Klon derefter Overførsel"
+
+#: includes/class-wpvivid-migrate.php:1043
+#: includes/class-wpvivid-migrate.php:1181
+msgid "Save"
+msgstr "Gem"
+
+#: includes/class-wpvivid-migrate.php:721
+#: includes/new_backup/class-wpvivid-backup2.php:1599
+msgid "The key has expired."
+msgstr "Nøglen er udløbet."
+
+#: includes/class-wpvivid-migrate.php:714
+#: includes/new_backup/class-wpvivid-backup2.php:1591
+msgid "The key is invalid."
+msgstr "Nøglen er ugyldig."
+
+#: includes/class-wpvivid-migrate.php:702
+#: includes/new_backup/class-wpvivid-backup2.php:1577
+msgid "A key is required."
+msgstr "Der kræves en nøgle."
+
+#: includes/class-wpvivid-migrate.php:469
+msgid "24 hours"
+msgstr "24 timer"
+
+#: includes/class-wpvivid-migrate.php:468
+msgid "8 hours"
+msgstr "8 timer"
+
+#: includes/class-wpvivid-migrate.php:467
+msgid "2 hours"
+msgstr "2 timer"
+
+#: includes/class-wpvivid-exporter.php:584
+msgid "Reset Filters"
+msgstr "Nulstil filtre"
+
+#: includes/class-wpvivid-export-import.php:1982
+msgid "Please select an existing author to start importing."
+msgstr "Vælg en eksisterende forfatter for at begynde at importere."
+
+#: includes/class-wpvivid-export-import.php:1937
+msgid "Import failed."
+msgstr "Importen mislykkedes."
+
+#: includes/class-wpvivid-export-import.php:1931
+msgid "Import completed successfully."
+msgstr "Importen er fuldført."
+
+#: includes/class-wpvivid-export-import.php:1830
+msgid "Are you sure you want to delete all the exported files in the /ImportandExport folder? All the export files in the folder will be permanently deleted."
+msgstr "Er du sikker på, at du vil slette alle de eksporterede filer i /ImportandExport mappen? Alle de eksporterede filer i mappen slettes permanent."
+
+#: includes/class-wpvivid-export-import.php:624
+msgid "Show Pages"
+msgstr "Vis sider"
+
+#: includes/class-wpvivid-export-import.php:624
+msgid "Show Posts"
+msgstr "Vis indlæg"
+
+#: includes/class-wpvivid-export-import.php:321
+msgid "You can not use word 'wpvivid' to comment the post."
+msgstr "Du kan ikke bruge ordet 'wpvivid' som bemærkning til posten."
+
+#: admin/partials/wpvivid-settings-page-display.php:750
+#: admin/partials/wpvivid-settings-page-display.php:805
+msgid "Seconds"
+msgstr "Sekunder"
+
+#: admin/partials/wpvivid-settings-page-display.php:410
+msgid "The selected item(s) will be permanently deleted. Are you sure you want to continue?"
+msgstr "Den eller de valgte elementer slettes permanent. Er du sikker på, at du vil fortsætte?"
+
+#: admin/partials/wpvivid-settings-page-display.php:208
+msgid "Out of date backups have been removed."
+msgstr "Forældede sikkerhedskopier er blevet fjernet."
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:225
+msgid "Deleting a remote storage will make it unavailable until it is added again. Are you sure to continue?"
+msgstr "Sletning af et fjernlager vil gøre det utilgængeligt, indtil det tilføjes igen. Er du sikker på at fortsætte?"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1541
+#: admin/partials/wpvivid-backup-restore-page-display.php:1704
+msgid "Restore failed."
+msgstr "Gendannelse mislykkedes."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1464
+msgid "Are you sure to continue?"
+msgstr "Er du sikker på at fortsætte?"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:761
+#: includes/class-wpvivid.php:6836 includes/class-wpvivid.php:6972
+msgid "Prepare to download the backup"
+msgstr "Forbereder download af sikkerhedskopien"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:58
+msgid "Downloaded Size: "
+msgstr "Downloadet størrelse: "
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:58
+msgid "Retriving (remote storage to web server)"
+msgstr "Henter (fjernlager til webserver)"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:53
+#: admin/partials/wpvivid-backup-restore-page-display.php:70
+#: admin/partials/wpvivid-backup-restore-page-display.php:79
+#: includes/class-wpvivid.php:2816 includes/class-wpvivid.php:2830
+msgid "Prepare to Download"
+msgstr "Forbereder download"
+
+#: admin/class-wpvivid-admin.php:1466
+msgid "Send succeeded."
+msgstr "Afsendelse lykkedes."
+
+#: admin/class-wpvivid-admin.php:1351
+msgid "VPS hosting"
+msgstr "VPS-hosting"
+
+#: admin/class-wpvivid-admin.php:1350
+msgid "share hosting"
+msgstr "delt webhosting"
+
+#: admin/class-wpvivid-admin.php:697 admin/class-wpvivid-admin.php:715
+msgid "Already Done"
+msgstr "Allerede gjort"
+
+#: admin/class-wpvivid-admin.php:698 admin/class-wpvivid-admin.php:716
+msgid "Never"
+msgstr "Aldrig"
+
+#: admin/class-wpvivid-admin.php:696 admin/class-wpvivid-admin.php:714
+msgid "Maybe Later"
+msgstr "Måske senere"
+
+#: admin/class-wpvivid-admin.php:695 admin/class-wpvivid-admin.php:713
+msgid "Rate Us"
+msgstr "Bedøm os"
+
+#: includes/staging/class-wpvivid-staging-setting.php:159
+#: includes/staging/class-wpvivid-staging-setting.php:338
+msgid "Retrying"
+msgstr "Prøver igen"
+
+#: admin/partials/wpvivid-schedule-page-display.php:163
+#: includes/class-wpvivid.php:7120
+msgid "Send backups to remote storage (You can choose whether to keep the backup in localhost after it is uploaded to cloud storage in Settings.)"
+msgstr "Send sikkerhedskopier til fjernlager (Du kan vælge, om du vil beholde sikkerhedskopien i localhost, når den er uploadet til skylager i Indstillinger.)"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1083
+msgid "Are you sure to remove the selected backups? These backups will be deleted permanently."
+msgstr "Er du sikker på at fjerne de valgte sikkerhedskopier? Disse sikkerhedskopier slettes permanent."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1031
+msgid "Are you sure to remove this backup? This backup will be deleted permanently."
+msgstr "Er du sikker på at fjerne denne sikkerhedskopi? Denne sikkerhedskopi slettes permanent."
+
+#: includes/customclass/class-wpvivid-one-drive.php:411
+msgid "Click to get Microsoft authentication."
+msgstr "Klik for at få Microsoft-godkendelse."
+
+#: includes/customclass/class-wpvivid-one-drive.php:399
+msgid "To add OneDrive, please get Microsoft authentication first. Once authenticated, you will be redirected to this page, then you can add storage information and save it"
+msgstr "For at tilføje OneDrive skal du først få en Microsoft-godkendelse. Når du er godkendt, bliver du omdirigeret til denne side, så kan du tilføje lageroplysninger og gemme dem"
+
+#: includes/customclass/class-wpvivid-google-drive.php:427
+msgid "Click to get Google authentication."
+msgstr "Klik for at få Google-godkendelse."
+
+#: includes/customclass/class-wpvivid-google-drive.php:415
+msgid "To add Google Drive, please get Google authentication first. Once authenticated, you will be redirected to this page, then you can add storage information and save it"
+msgstr "For at tilføje Google Drev skal du først få en Google-godkendelse. Når du er godkendt, bliver du omdirigeret til denne side, så kan du tilføje lageroplysninger og gemme dem"
+
+#: includes/customclass/class-wpvivid-dropbox.php:722
+msgid "To add Dropbox, please get Dropbox authentication first. Once authenticated, you will be redirected to this page, then you can add storage information and save it"
+msgstr "Hvis du vil tilføje Dropbox, skal du først få en Dropbox-godkendelse. Når du er godkendt, bliver du omdirigeret til denne side, så kan du tilføje lageroplysninger og gemme dem"
+
+#: includes/customclass/class-wpvivid-dropbox.php:697
+msgid "Click to get Dropbox authentication."
+msgstr "Klik for at få Dropbox-godkendelse."
+
+#: includes/customclass/class-wpvivid-dropbox.php:571
+#: includes/customclass/class-wpvivid-google-drive.php:298
+#: includes/customclass/class-wpvivid-one-drive.php:282
+msgid "Click the button to add the storage."
+msgstr "Klik på knappen for at tilføje lageret."
+
+#: includes/customclass/class-wpvivid-dropbox.php:566
+#: includes/customclass/class-wpvivid-google-drive.php:293
+#: includes/customclass/class-wpvivid-one-drive.php:277
+msgid "Add Now"
+msgstr "Tilføj nu"
+
+#: includes/class-wpvivid.php:5920 includes/class-wpvivid.php:5925
+msgid "The value of 'Delay Between Requests' can't be empty."
+msgstr "Værdien af \"Forsinkelse mellem anmodninger\" skal udfyldes."
+
+#: includes/class-wpvivid.php:5909 includes/class-wpvivid.php:5914
+msgid "The value of 'PHP Scripts Execution Timeout' can't be empty."
+msgstr "Værdien af 'PHP Scripts udførsels timeout' skal udfyldes."
+
+#: includes/class-wpvivid.php:5898 includes/class-wpvivid.php:5903
+msgid "The value of 'Staging Memory Limit' can't be empty."
+msgstr "Værdien af 'Staging-hukommelsesgrænse' skal udfyldes."
+
+#: includes/class-wpvivid.php:5887 includes/class-wpvivid.php:5892
+msgid "The value of 'Max File Size' can't be empty."
+msgstr "Værdien af 'Maks. filstørrelse' skal udfyldes."
+
+#: includes/class-wpvivid.php:5876 includes/class-wpvivid.php:5881
+msgid "The value of 'File Copy Count' can't be empty."
+msgstr "Værdien af 'Fil kopi antal' kan ikke være tom."
+
+#: includes/class-wpvivid.php:5865 includes/class-wpvivid.php:5870
+msgid "The value of 'DB Replace Count' can't be empty."
+msgstr "Værdien af 'DB erstat antal' kan ikke være tom."
+
+#: includes/class-wpvivid.php:5854 includes/class-wpvivid.php:5859
+msgid "The value of 'DB Copy Count' can't be empty."
+msgstr "Værdien af 'DB kopi antal' kan ikke være tom."
+
+#: includes/class-wpvivid.php:5841 includes/class-wpvivid.php:5846
+msgid "The value of 'Media Files Quantity Processed Per Request' can't be empty."
+msgstr "Værdien af 'Antal medie filer, der er behandlet pr. anmodning' skal udfyldes."
+
+#: includes/class-wpvivid.php:5830 includes/class-wpvivid.php:5835
+msgid "The value of 'Posts Quantity Processed Per Request' can't be empty."
+msgstr "Værdien af 'Antal indlæg, der er behandlet pr. anmodning' skal udfyldes."
+
+#: includes/class-wpvivid.php:5791 includes/class-wpvivid.php:5796
+msgid "The value of 'Chunk Size' can't be empty."
+msgstr "Værdien af 'Styk størrelse' skal udfyldes."
+
+#: includes/class-wpvivid.php:5780 includes/class-wpvivid.php:5785
+msgid "The value of 'PHP memory limit for restoration' can't be empty."
+msgstr "Værdien af 'PHP-hukommelsesgrænse til gendannelse' skal udfyldes."
+
+#: includes/class-wpvivid.php:5769 includes/class-wpvivid.php:5774
+msgid "The value of 'PHP memory limit for backup' can't be empty."
+msgstr "Værdien af 'PHP-hukommelsesgrænse for sikkerhedskopiering' skal udfyldes."
+
+#: includes/class-wpvivid.php:5758 includes/class-wpvivid.php:5763
+msgid "The value of 'PHP scripts execution timeout for restore' can't be empty."
+msgstr "Værdien af 'PHP-scripts udførelsestimeout for gendannelse' skal udfyldes."
+
+#: includes/class-wpvivid.php:5744 includes/class-wpvivid.php:5751
+msgid "The value of 'PHP scripts execution timeout for backup' can't be empty."
+msgstr "Værdien af 'PHP-scripts udførelsestimeout for sikkerhedskopiering' skal udfyldes."
+
+#: includes/class-wpvivid.php:5731 includes/class-wpvivid.php:5738
+msgid "The value of 'Exclude files which are larger than' can't be empty."
+msgstr "Værdien af 'Ekskluder filer, der er større end' skal udfyldes."
+
+#: includes/class-wpvivid.php:5717 includes/class-wpvivid.php:5725
+msgid "The value of 'Compress file every' can't be empty."
+msgstr "Værdien af 'Komprimer fil hvert' skal udfyldes."
+
+#: includes/class-wpvivid-export-import.php:1622
+msgid "Back"
+msgstr "Tilbage"
+
+#: admin/class-wpvivid-admin.php:825
+msgid "Because Dropbox has upgraded their API on September 30, 2021, the new API is no longer compatible with the previous app's settings. Please re-add your Dropbox storage to ensure that it works properly."
+msgstr "Da Dropbox har opgraderet deres API den 30. september 2021, er den nye API ikke længere kompatibel med den tidligere apps indstillinger. Tilføj din Dropbox-lagerplads igen for at sikre, at den fungerer korrekt."
+
+#: admin/class-wpvivid-admin.php:896
+msgid "In order to execute the scheduled backups properly, please set the DISABLE_WP_CRON constant to false. If you are using an external cron system, simply click 'X' to dismiss this message."
+msgstr "For at udføre de planlagte sikkerhedskopier korrekt skal du indstille DISABLE_WP_CRON konstanten til falsk. Hvis du bruger et eksternt cron-system, skal du blot klikke på 'X' for at afvise denne meddelelse."
+
+#: includes/class-wpvivid-migrate.php:1428
+msgid "<strong>Tips: </strong>Some web hosts may restrict the connection between the two sites, so you may get a 403 error or unstable connection issue when performing auto migration. In that case, it is recommended to manually transfer the site."
+msgstr "<strong>Tips: </strong> Nogle webhosts kan begrænse forbindelsen mellem de to websteder, så du kan få en 403-fejl eller ustabil forbindelsesproblem, når du udfører automatisk overførelse. I så fald anbefales det at overføre webstedet manuelt."
+
+#: includes/staging/class-wpvivid-staging.php:252
+#: includes/staging/class-wpvivid-staging.php:265
+msgid "Staging"
+msgstr "Staging"
+
+#: includes/staging/class-wpvivid-staging.php:100
+msgid "Create A Fresh WordPress Install"
+msgstr "Opret en ny WordPress-installation"
+
+#: includes/staging/class-wpvivid-staging.php:99
+msgid "Create A Staging Site"
+msgstr "Opret et staging websted"
+
+#: includes/staging/class-wpvivid-staging-ui-display.php:1302
+msgid "WPvivid Plugins - Staging"
+msgstr "WPvivid Plugins - Staging"
+
+#: includes/staging/class-wpvivid-staging-sites-list.php:352
+#: includes/staging/class-wpvivid-staging-sites-list.php:723
+msgid "Subsite Description"
+msgstr "Beskrivelse af underordnet websted"
+
+#: includes/staging/class-wpvivid-staging-sites-list.php:351
+#: includes/staging/class-wpvivid-staging-sites-list.php:722
+msgid "Subsite Title"
+msgstr "Websteds titel på underordnede websted"
+
+#: includes/staging/class-wpvivid-staging-sites-list.php:350
+msgid "Subsite Tables/Folders"
+msgstr "Tabeller/mapper på underordnede websted"
+
+#: includes/staging/class-wpvivid-staging-sites-list.php:349
+#: includes/staging/class-wpvivid-staging-sites-list.php:720
+msgid "Subsite URL"
+msgstr "URL-adresse til underordnet websted"
+
+#: includes/staging/class-wpvivid-staging-setting.php:199
+#: includes/staging/class-wpvivid-staging-setting.php:378
+msgid "Keep staging sites when deleting the plugin"
+msgstr "Behold staging websteder efter plugin'et er slettet"
+
+#: includes/staging/class-wpvivid-staging-setting.php:188
+#: includes/staging/class-wpvivid-staging-setting.php:367
+msgid "Keep permalink when transferring website"
+msgstr "Behold permalink, når du overføre et websted"
+
+#: includes/staging/class-wpvivid-staging-setting.php:177
+#: includes/staging/class-wpvivid-staging-setting.php:356
+msgid "Anyone can visit the staging site"
+msgstr "Alle kan besøge staging webstedet"
+
+#: includes/staging/class-wpvivid-staging-setting.php:171
+#: includes/staging/class-wpvivid-staging-setting.php:350
+msgid " times when encountering a time-out error"
+msgstr " tidsangivelse, hvor der opstår en timeout-fejl"
+
+#: includes/staging/class-wpvivid-staging-setting.php:155
+#: includes/staging/class-wpvivid-staging-setting.php:334
+msgid "A lower value will help speed up the process of creating a staging site. However, if your server has a limit on the number of requests, a higher value is recommended."
+msgstr "En lavere værdi hjælper med at fremskynde processen med at oprette et staging websted. Men hvis din server har en grænse for antallet af anmodninger, anbefales en højere værdi."
+
+#: includes/staging/class-wpvivid-staging-setting.php:149
+#: includes/staging/class-wpvivid-staging-setting.php:328
+msgid "Delay Between Requests"
+msgstr "Forsinkelse mellem anmodninger"
+
+#: includes/staging/class-wpvivid-staging-setting.php:144
+#: includes/staging/class-wpvivid-staging-setting.php:323
+msgid ""
+"The time-out is not your server PHP time-out. With the execution time exhausted, our plugin will shut down the progress of \n"
+"                creating a staging site. If the progress  encounters a time-out, that means you have a medium or large sized website. Please try to \n"
+"                scale the value bigger."
+msgstr ""
+"Timeout er ikke din server PHP timeout. Når udførelsestiden er opbrugt, lukker vores plugin fremskridtene med \n"
+"                oprettelse af et staging websted. Hvis fremskridtene støder på en timeout, betyder det, at du har et medium eller stort websted. Prøv at \n"
+"                skalere værdien større."
+
+#: includes/staging/class-wpvivid-staging-setting.php:138
+#: includes/staging/class-wpvivid-staging-setting.php:317
+msgid "PHP Script Execution Timeout"
+msgstr "PHP Script Execution timeout"
+
+#: includes/staging/class-wpvivid-staging-setting.php:133
+#: includes/staging/class-wpvivid-staging-setting.php:312
+msgid ""
+"Adjust this value to apply for a temporary PHP memory limit for the plugin to create a staging site. \n"
+"                We set this value to 256M by default. Increase the value if you encounter a memory exhausted error. Note: some \n"
+"                web hosting providers may not support this."
+msgstr ""
+"Juster denne værdi for at angive en midlertidig PHP-hukommelsesgrænse for plugin'et for at oprette et staging websted. \n"
+"                Vi indstiller denne værdi til 256M som standard. Forøg værdien, hvis du støder på en hukommelses begrænsning. Bemærk: nogle \n"
+"                webhosting udbydere understøtter muligvis ikke dette."
+
+#: includes/staging/class-wpvivid-staging-setting.php:127
+#: includes/staging/class-wpvivid-staging-setting.php:306
+msgid "Staging Memory Limit"
+msgstr "Staging Hukommelsesgrænse"
+
+#: includes/staging/class-wpvivid-staging-setting.php:124
+#: includes/staging/class-wpvivid-staging-setting.php:303
+msgid "Maximum size of the files copied to a staging site. All files larger than this value will be ignored. If you set the value of 0 MB, all files will be copied to a staging site."
+msgstr "Maksimal størrelse på de filer, der kopieres til et staging websted. Alle filer, der er større end denne værdi, ignoreres. Hvis du indstiller værdien på 0 MB, kopieres alle filer til staging webstedet."
+
+#: includes/staging/class-wpvivid-staging-setting.php:118
+#: includes/staging/class-wpvivid-staging-setting.php:297
+msgid "Max File Size"
+msgstr "Maks. filstørrelse"
+
+#: includes/staging/class-wpvivid-staging-setting.php:114
+#: includes/staging/class-wpvivid-staging-setting.php:293
+msgid ""
+"Number of files to copy that will be copied within one ajax request. The higher value makes the file copy process faster. \n"
+"                Please try a high value to find out the highest possible value. If you encounter timeout errors, try lower values until no more errors occur."
+msgstr ""
+"Antal filer, der skal kopieres, og som kopieres inden for en ajax-anmodning. Den højere værdi gør fil kopieringsprocessen hurtigere. \n"
+"                Prøv en høj værdi for at finde ud af den højest mulige værdi. Hvis du støder på timeoutfejl, kan du prøve lavere værdier, indtil der ikke opstår flere fejl."
+
+#: includes/staging/class-wpvivid-staging-setting.php:108
+#: includes/staging/class-wpvivid-staging-setting.php:287
+msgid "File Copy Count"
+msgstr "Fil kopi antal"
+
+#: includes/staging/class-wpvivid-staging-setting.php:104
+#: includes/staging/class-wpvivid-staging-setting.php:283
+msgid ""
+"Number of DB rows, that are processed within one ajax query. The higher value makes the DB replacement process faster. \n"
+"                If timeout erros occur, decrease the value because this process consumes a lot of memory."
+msgstr ""
+"Antal DB-rækker, der behandles inden for en ajax-forespørgsel. Den højere værdi gør DB-udskiftningsprocessen hurtigere. \n"
+"                Hvis timeoutfejl opstår, skal du reducere værdien, fordi denne proces bruger meget hukommelse."
+
+#: includes/staging/class-wpvivid-staging-setting.php:98
+#: includes/staging/class-wpvivid-staging-setting.php:277
+msgid "DB Replace Count"
+msgstr "DB erstatning antal"
+
+#: includes/staging/class-wpvivid-staging-setting.php:93
+#: includes/staging/class-wpvivid-staging-setting.php:272
+msgid ""
+"Number of DB rows, that are copied within one ajax query. The higher value makes the database copy process faster. \n"
+"                Please try a high value to find out the highest possible value. If you encounter timeout errors, try lower values until no \n"
+"                more errors occur."
+msgstr ""
+"Antal af DB-rækker, der kopieres inden for en ajax-forespørgsel. Den højere værdi gør databasekopieringsprocessen hurtigere. \n"
+"                Prøv en høj værdi for at finde ud af den højest mulige værdi. Hvis du støder på timeoutfejl, kan du prøve lavere værdier indtil \n"
+"                der ikke opstår flere fejl."
+
+#: includes/staging/class-wpvivid-staging-setting.php:87
+#: includes/staging/class-wpvivid-staging-setting.php:266
+msgid "DB Copy Count"
+msgstr "DB kopi antal"
+
+#: includes/staging/class-wpvivid-staging-setting.php:29
+msgid "Staging Settings"
+msgstr "Staging indstillinger"
+
+#: includes/staging/class-wpvivid-staging-log-page.php:313
+msgid "Staging Logs"
+msgstr "Staging logfiler"
+
+#: includes/staging/class-wpvivid-staging-log-page.php:28
+msgid "Action\t"
+msgstr "Handling\t"
+
+#: includes/staging/class-wpvivid-staging-log-page.php:27
+msgid "Log File Name\t"
+msgstr "Logfil navn\t"
+
+#: admin/class-wpvivid-admin.php:1102
+msgid "Backup Logs"
+msgstr "Sikkerhedskopiering af logfiler"
+
+#: admin/class-wpvivid-admin.php:1708
+msgid "Up to 50 domains"
+msgstr "Op til 50 domæner"
+
+#: admin/class-wpvivid-admin.php:1700
+msgid "Up to 10 domains"
+msgstr "Op til 10 domæner"
+
+#: admin/class-wpvivid-admin.php:1692
+msgid "2 domains"
+msgstr "2 domæner"
+
+#: admin/class-wpvivid-admin.php:1689
+msgid "Roles & Capabilities"
+msgstr "Roller og egenskaber"
+
+#: admin/class-wpvivid-admin.php:1688
+msgid "White Label"
+msgstr "White Label"
+
+#: admin/class-wpvivid-admin.php:1687
+msgid "Staging Pro"
+msgstr "Staging Pro"
+
+#: admin/class-wpvivid-admin.php:1686
+msgid "Mulitsite Support"
+msgstr "Multisite understøttelse"
+
+#: admin/class-wpvivid-admin.php:1685
+msgid "Backup & Migration Pro"
+msgstr "Backup & Migration Pro"
+
+#: admin/class-wpvivid-admin.php:1684
+msgid "Domains"
+msgstr "Domæner"
+
+#: admin/class-wpvivid-admin.php:1677
+msgid "Small Business"
+msgstr "Små virksomheder"
+
+#: admin/class-wpvivid-admin.php:1675
+msgid "Blogger"
+msgstr "Blogger"
+
+#: admin/class-wpvivid-admin.php:1674
+msgid "Features"
+msgstr "Funktioner"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:49
+msgid "File not found"
+msgstr "Fil blev ikke fundet"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:45
+#: admin/partials/wpvivid-backup-restore-page-display.php:53
+#: admin/partials/wpvivid-backup-restore-page-display.php:58
+#: admin/partials/wpvivid-backup-restore-page-display.php:70
+#: admin/partials/wpvivid-backup-restore-page-display.php:79
+#: includes/class-wpvivid.php:2816 includes/class-wpvivid.php:2821
+#: includes/class-wpvivid.php:2830
+msgid "File Size: "
+msgstr "Fil størrelse: "
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:32
+msgid "File"
+msgstr "Fil"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2651
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2743
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2799
+msgid "Total Folders:"
+msgstr "Mapper i alt:"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2394
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2563
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2655
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2747
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2803
+msgid "Scanned:"
+msgstr "Scannet:"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2390
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:2559
+msgid "Total Posts:"
+msgstr "Indlæg i alt:"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1101
+msgid "Please don't refresh the page while running a scan."
+msgstr "Opdater ikke siden, mens du kører en scanning."
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1076
+msgid "Scan"
+msgstr "Scan"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1013
+msgid "WPvivid Image Cleaner"
+msgstr "WPvivid Image Cleaner"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:935
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:948
+msgid "Image Cleaner"
+msgstr "Image Cleaner"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:55
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:463
+msgid "Size"
+msgstr "Størrelse"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:53
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:461
+msgid "Path"
+msgstr "Sti"
+
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:52
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:460
+msgid "Thumbnail"
+msgstr "Miniaturebillede"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:847
+msgid "Set how many media files to process per request. The value should be set depending on your server performance and the recommended value is 100."
+msgstr "Angiv, hvor mange mediefiler der skal behandles pr. anmodning. Værdien skal indstilles afhængigt af serverens ydeevne, og den anbefalede værdi er 100."
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:842
+msgid "Media Files Quantity Processed Per Request"
+msgstr "Antal mediefiler, der behandles pr. anmodning"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:840
+msgid "Set how many posts to process per request. The value should be set depending on your server performance and the recommended value is 20."
+msgstr "Angiv, hvor mange indlæg der skal behandles pr. anmodning. Værdien skal indstilles afhængigt af serverens ydeevne, og den anbefalede værdi er 20."
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:835
+msgid "Posts Quantity Processed Per Request"
+msgstr "Antal indlæg, der behandles pr. anmodning"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:830
+msgid "With this option checked, when the image is deleted, the corresponding image url in the database that is not used anywhere on your website will also be deleted."
+msgstr "Når denne indstilling er markeret, slettes også den tilsvarende billed-url i databasen, der ikke bruges nogen steder på dit websted."
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:826
+msgid "Delete Image URL"
+msgstr "Slet billed-URL"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:821
+msgid "Checking this option will speed up your scans but may produce lower accuracy."
+msgstr "Hvis du markerer denne indstilling, fremskyndes dine scanninger, men det kan give lavere nøjagtighed."
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:817
+msgid "Enable Quick Scan"
+msgstr "Aktivér hurtig scanning"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:743
+msgid "Media Cleaner Settings"
+msgstr "Media Cleaner indstillinger"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:382
+msgid "Post Type"
+msgstr "Indlægs type"
+
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:50
+msgid "File Regex"
+msgstr "Filer regulært udtryk"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2871
+msgid "Tip:"
+msgstr "Tips:"
+
+#: includes/class-wpvivid.php:7319
+msgid "Please enter a valid email address."
+msgstr "Indtast venligst en gyldig e-mail adresse."
+
+#: includes/class-wpvivid.php:7314
+msgid "User's email address is required."
+msgstr "Brugerens e-mail adresse er påkrævet."
+
+#: admin/partials/wpvivid-schedule-page-display.php:159
+#: includes/class-wpvivid.php:7116
+msgid "Save backups on localhost (web server)"
+msgstr "Gem sikkerhedskopier på localhost (webserver)"
+
+#: includes/class-wpvivid.php:6825
+msgid "Type:"
+msgstr "Type:"
+
+#: includes/class-wpvivid.php:6125
+msgid "Invalid email address"
+msgstr "Ugyldig e-mail adresse"
+
+#: includes/class-wpvivid.php:6097
+msgid "The selected file is not the setting file for WPvivid. Please upload the right file."
+msgstr "Den valgte fil er ikke indstillingsfilen for WPvivid. Upload venligst den rigtige fil."
+
+#: includes/class-wpvivid.php:5960 includes/class-wpvivid.php:5964
+msgid "The pdo_mysql extension is not detected. Please install the extension first or choose wpdb option for Database connection method."
+msgstr "Den pdo_mysql udvidelse registreres ikke. Installer udvidelsen først, eller vælg wpdb-indstilling til database forbindelses metode."
+
+#: includes/class-wpvivid.php:5951
+msgid "An email address is required."
+msgstr "En e-mail adresse er påkrævet."
+
+#: includes/class-wpvivid.php:5934 includes/class-wpvivid.php:5941
+msgid "The local storage path is required."
+msgstr "Sti til det lokale lager er påkrævet."
+
+#: includes/class-wpvivid.php:5375
+msgid "Choose one storage from the list to be the default storage."
+msgstr "Vælg et lager fra listen som skal være standard lageret."
+
+#: includes/class-wpvivid.php:5181
+msgid "The selected junk files have been deleted."
+msgstr "De valgte uønskede filer er blevet slettet."
+
+#: includes/class-wpvivid.php:5107
+msgid "Choose at least one type of junk files for deleting."
+msgstr "Vælg mindst én type uønskede filer til sletning."
+
+#: includes/class-wpvivid.php:4692
+msgid "Getting backup directory failed. Please try again later."
+msgstr "Hentning af sikkerhedskopi-mappen mislykkedes. Prøv igen senere."
+
+#: includes/class-wpvivid.php:4444 includes/class-wpvivid.php:4453
+#: includes/class-wpvivid.php:4476 includes/class-wpvivid.php:4487
+msgid "Last Backup: "
+msgstr "Seneste sikkerhedskopi: "
+
+#: includes/class-wpvivid.php:4431 includes/class-wpvivid.php:4441
+#: includes/class-wpvivid.php:4453 includes/class-wpvivid.php:4487
+msgid "The last backup message not found."
+msgstr "Den seneste sikkerhedskopi-meddelelse blev ikke fundet."
+
+#: includes/class-wpvivid.php:4305
+msgid "The restore file not found. Please verify the file exists."
+msgstr "Gendannelsesfilen blev ikke fundet. Kontroller, at filen findes."
+
+#: includes/class-wpvivid.php:4251
+msgid "restore failed error unknown"
+msgstr "gendannelse mislykkedes på grund af ukendt fejl"
+
+#: includes/class-wpvivid.php:3345
+msgid "Failed to get the remote storage information. Please try again later."
+msgstr "Kunne ikke få oplysninger om fjernlager. Prøv igen senere."
+
+#: includes/class-wpvivid.php:3311
+msgid "Failed to delete the remote storage, can not retrieve the storage infomation. Please try again."
+msgstr "Kunne ikke slette fjernlageret, da lageroplysningerne ikke kunne hentes. Prøv igen."
+
+#: includes/class-wpvivid.php:3253
+#: includes/customclass/class-wpvivid-dropbox.php:883
+#: includes/customclass/class-wpvivid-google-drive.php:1305
+#: includes/customclass/class-wpvivid-one-drive.php:1622
+msgid "You have successfully added a remote storage."
+msgstr "Du har tilføjet et fjernlager."
+
+#: includes/class-wpvivid.php:3137
+msgid "Unable to delete the locked backup. Please unlock it first and try again."
+msgstr "Kan ikke slette den låste sikkerhedskopi. Lås den først op, og prøv igen."
+
+#: includes/class-wpvivid.php:3127
+msgid "Retrieving the backup(s) information failed while deleting the selected backup(s). Please try again later."
+msgstr "Hentning af sikkerhedskopieringsoplysningerne mislykkedes under sletning af den eller de valgte sikkerhedskopier. Prøv igen senere."
+
+#: includes/class-wpvivid.php:1922 includes/class-wpvivid.php:2048
+#: includes/new_backup/class-wpvivid-backup2.php:919
+#: includes/new_backup/class-wpvivid-backup2.php:1325
+msgid "Task timed out."
+msgstr "Opgaven fik timeout."
+
+#: includes/class-wpvivid.php:1741 includes/class-wpvivid.php:1763
+#: includes/class-wpvivid.php:1789 includes/class-wpvivid.php:1914
+#: includes/class-wpvivid.php:2040
+#: includes/new_backup/class-wpvivid-backup2.php:910
+#: includes/new_backup/class-wpvivid-backup2.php:1317
+msgid "Too many resumption attempts."
+msgstr "For mange forsøg på gentagelse."
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:267
+#: admin/partials/wpvivid-schedule-page-display.php:293
+#: includes/class-wpvivid-interface-mainwp.php:143
+#: includes/class-wpvivid.php:643 includes/class-wpvivid.php:5986
+#: includes/new_backup/class-wpvivid-backup2.php:114
+msgid "There is no default remote storage configured. Please set it up first."
+msgstr "Der er ikke konfigureret noget standard fjernlager. Angiv et først."
+
+#: includes/class-wpvivid-interface-mainwp.php:126
+#: includes/class-wpvivid-interface-mainwp.php:133
+#: includes/class-wpvivid.php:623 includes/class-wpvivid.php:632
+#: includes/new_backup/class-wpvivid-backup2.php:95
+#: includes/new_backup/class-wpvivid-backup2.php:103
+msgid "Choose at least one storage location for backups."
+msgstr "Vælg mindst én lagerplacering til sikkerhedskopier."
+
+#: includes/class-wpvivid-interface-mainwp.php:119
+#: includes/class-wpvivid.php:609 includes/class-wpvivid.php:617
+#: includes/new_backup/class-wpvivid-backup2.php:87
+msgid "A backup type is required."
+msgstr "Der kræves en sikkerhedskopieringstype."
+
+#: includes/class-wpvivid-schedule.php:282
+#: includes/class-wpvivid-schedule.php:296
+msgid "Creating scheduled tasks failed. Please try again later."
+msgstr "Oprettelse af planlagte opgaver mislykkedes. Prøv igen senere."
+
+#: admin/partials/wpvivid-schedule-page-display.php:65
+#: includes/class-wpvivid-schedule.php:91
+msgid "12Hours"
+msgstr "12 timer"
+
+#: admin/partials/wpvivid-schedule-page-display.php:77
+#: includes/class-wpvivid-schedule.php:58
+#: includes/class-wpvivid-schedule.php:103
+msgid "Monthly"
+msgstr "Månedligt"
+
+#: admin/partials/wpvivid-schedule-page-display.php:74
+#: includes/class-wpvivid-schedule.php:52
+#: includes/class-wpvivid-schedule.php:100
+msgid "Fortnightly"
+msgstr "Hver 14. dag"
+
+#: admin/partials/wpvivid-schedule-page-display.php:71
+#: includes/class-wpvivid-schedule.php:46
+#: includes/class-wpvivid-schedule.php:97
+msgid "Weekly"
+msgstr "Ugentlig"
+
+#: admin/partials/wpvivid-schedule-page-display.php:68
+#: includes/class-wpvivid-schedule.php:40
+#: includes/class-wpvivid-schedule.php:94
+msgid "Daily"
+msgstr "Daglig"
+
+#: includes/class-wpvivid-schedule.php:34
+msgid "12 Hours"
+msgstr "12 timer"
+
+#: includes/class-wpvivid-export-import.php:1619
+msgid "With this option checked, Pages/posts already existing will be overwritten with the updated ones in an import."
+msgstr "Når denne indstilling er markeret, overskrives sider/indlæg, der allerede findes, med de opdaterede i en import."
+
+#: includes/class-wpvivid-export-import.php:1615
+msgid "Overwrite existing pages"
+msgstr "Overskriv eksisterende sider"
+
+#: includes/class-wpvivid-export-import.php:1611
+msgid "Import Setting"
+msgstr "Import indstillinger"
+
+#: includes/class-wpvivid-export-import.php:1609
+msgid "- Select -"
+msgstr "- Vælg -"
+
+#: includes/class-wpvivid-export-import.php:1608
+msgid "Select an existing author:"
+msgstr "Vælg en eksisterende forfatter:"
+
+#: includes/class-wpvivid-export-import.php:1606
+msgid "Assign author"
+msgstr "Tildel forfatter"
+
+#: includes/class-wpvivid-export-import.php:1603
+msgid "The importing file info"
+msgstr "Oplysninger om importeret filer"
+
+#: includes/class-wpvivid-export-import.php:1599
+msgid "Scan Uploaded Exports"
+msgstr "Scan uploadede eksport-filer"
+
+#: includes/class-wpvivid-export-import.php:1595
+msgid "Upload and Import"
+msgstr "Upload og importér"
+
+#: includes/class-wpvivid-export-import.php:1594
+msgid "Choose an export from your computer to import: "
+msgstr "Vælg en eksporteret fil fra din computer for at importere: "
+
+#: includes/class-wpvivid-export-import.php:1589
+#: includes/class-wpvivid-export-import.php:1842
+#: includes/class-wpvivid-export-import.php:2140
+msgid "Delete Exported Files In Folder"
+msgstr "Slet eksporterede filer i mappen"
+
+#: includes/class-wpvivid-export-import.php:1579
+msgid "To properly display the imported content, please make sure that the importing and exporting sites have the same environment, for example, same theme or pages built with the same page builder."
+msgstr "Hvis du vil have vist det importerede indhold korrekt, skal du sørge for, at import- og eksport webstederne har det samme miljø, f.eks. samme tema eller sider, der er bygget med den samme sidebygger."
+
+#: includes/class-wpvivid-export-import.php:1573
+msgid "Import posts or pages with images in bulk."
+msgstr "Importér indlæg eller sider med billeder på én gang."
+
+#: includes/class-wpvivid-export-import.php:1547
+msgid "File not found. Please retry again."
+msgstr "Filen blev ikke fundet. Prøv igen."
+
+#: includes/class-wpvivid-export-import.php:1539
+msgid "File size not match. please retry again."
+msgstr "Filstørrelsen stemmer ikke overens. prøv venligst igen."
+
+#: includes/class-wpvivid-export-import.php:1419
+msgid "Task time out."
+msgstr "Timeout for opgaven."
+
+#: includes/class-wpvivid-export-import.php:1385
+msgid "Export error:"
+msgstr "Fejl ved eksport:"
+
+#: includes/class-wpvivid-export-import.php:1360
+msgid "The export task is not responding."
+msgstr "Eksportopgaven svarer ikke."
+
+#: includes/class-wpvivid-export-import.php:1348
+msgid "Ready to export. Progress: 0%, running time: 0second."
+msgstr "Klar til eksport. Fremskridt: 0%, tid: 0 sekund."
+
+#: includes/class-wpvivid-export-import.php:1188
+msgid "Error occurred while parsing the request data. Please try to run export task again."
+msgstr "Der opstod fejl under udførelsen af anmodningsdataene. Prøv at køre eksportopgaven igen."
+
+#: includes/class-wpvivid-export-import.php:1150
+msgid "Empty post id"
+msgstr "Tomt indlægs-id"
+
+#: includes/class-wpvivid-export-import.php:817
+msgid "Export and Download"
+msgstr "Eksportér og download"
+
+#: includes/class-wpvivid-export-import.php:808
+msgid "Sample:"
+msgstr "Prøve:"
+
+#: includes/class-wpvivid-export-import.php:804
+msgid "Only letters (except for wpvivid) and numbers are allowed."
+msgstr "Kun bogstaver (undtagen wpvivid) og tal er tilladt."
+
+#: includes/class-wpvivid-export-import.php:800
+msgid "Comment the export: "
+msgstr "Bemærkning til eksport: "
+
+#: includes/class-wpvivid-export-import.php:795
+msgid "Comment the export (optional)"
+msgstr "Bemærkning til eksport (valgfrit)"
+
+#: includes/class-wpvivid-export-import.php:709
+#: includes/class-wpvivid-export-import.php:730
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Vælg &mdash;"
+
+#: includes/class-wpvivid-export-import.php:686
+msgid "All Authors"
+msgstr "Alle forfattere"
+
+#: includes/class-wpvivid-export-import.php:656
+msgid "All Categories"
+msgstr "Alle kategorier"
+
+#: includes/class-wpvivid-export-import.php:637
+msgid "Filter Posts/Pages"
+msgstr "Filtrér indlæg/sider"
+
+#: includes/class-wpvivid-export-import.php:629
+msgid "Choose what to export"
+msgstr "Vælg, hvad der skal eksporteres"
+
+#: includes/class-wpvivid-export-import.php:158
+#: includes/class-wpvivid-export-import.php:181
+msgid "Next Step"
+msgstr "Næste trin"
+
+#: includes/class-wpvivid-export-import.php:153
+msgid "More post types coming soon..."
+msgstr "Flere indlægstyper kommer snart..."
+
+#: includes/class-wpvivid-export-import.php:150
+msgid "Page"
+msgstr "Side"
+
+#: includes/class-wpvivid-export-import.php:147
+msgid "Post"
+msgstr "Indlæg"
+
+#: includes/class-wpvivid-export-import.php:141
+msgid "Choose post type"
+msgstr "Vælg indlægstype"
+
+#: includes/class-wpvivid-export-import.php:125
+msgid "Try to select fewer items when you are facing a shortage of server resources (typically presented as a timeout error)."
+msgstr "Prøv at vælge færre elementer, når du står over for mangel på serverressourcer (typisk præsenteret som en timeout-fejl)."
+
+#: includes/class-wpvivid-export-import.php:125
+#: includes/class-wpvivid-export-import.php:1578
+msgid "Note:"
+msgstr "Bemærk:"
+
+#: includes/class-wpvivid-export-import.php:124
+msgid "This will contain all of your posts, pages, comments, terms and images (original images, featured images and thumbnails)."
+msgstr "Dette vil indeholde alle dine indlæg, sider, kommentarer, termologier og billeder (originale billeder, fremhævede billeder og miniaturebilleder)."
+
+#: includes/class-wpvivid-export-import.php:121
+#: includes/class-wpvivid-export-import.php:1575
+msgid "Learn more"
+msgstr "Lær mere"
+
+#: includes/class-wpvivid-export-import.php:119
+msgid "Export posts or pages with images in bulk."
+msgstr "Eksportér indlæg eller sider med billeder på én gang."
+
+#: includes/class-wpvivid-export-import.php:65
+#: includes/class-wpvivid-export-import.php:78
+msgid "Export & Import"
+msgstr "Eksport & Import"
+
+#: includes/class-wpvivid-exporter.php:248
+msgid "Last Modified"
+msgstr "Sidst ændret"
+
+#: includes/class-wpvivid-exporter.php:245
+msgid "Scheduled"
+msgstr "Planlagt"
+
+#: includes/class-wpvivid-exporter.php:243
+msgid "Missed schedule"
+msgstr "Misset tidsplan"
+
+#: includes/class-wpvivid-exporter.php:240
+msgid "Published"
+msgstr "Udgivet"
+
+#: includes/class-wpvivid-exporter.php:223
+msgid "Unpublished"
+msgstr "Ikke udgivet"
+
+#: includes/class-wpvivid-exporter.php:108
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: includes/class-wpvivid-exporter.php:76
+msgid "Author"
+msgstr "Forfatter"
+
+#: includes/class-wpvivid-exporter.php:73
+msgctxt "column name"
+msgid "Title"
+msgstr "Overskrift"
+
+#: includes/class-wpvivid-migrate.php:1619
+msgid "Note: The files you want to upload must be a backup created by WPvivid backup plugin. Make sure that uploading every part of a backup to the directory if the backup is split into many parts"
+msgstr "Bemærk: De filer, du vil uploade, skal være en sikkerhedskopi oprettet af WPvivid sikkerhedskopi plugin'et. Sørg for at uploade alle dele af en sikkerhedskopi til biblioteket, hvis sikkerhedskopien er opdelt i mange dele"
+
+#: includes/class-wpvivid-migrate.php:1606
+msgid "Upload"
+msgstr "Upload"
+
+#: includes/class-wpvivid-migrate.php:1546
+msgid "Transfer succeeded. Please scan the backup list on the destination site to display the backup, then restore the backup."
+msgstr "Overførslen lykkedes. Scan venligst listen over sikkerhedskopier på destinationswebstedet for at få vist sikkerhedskopien, og gendan derefter sikkerhedskopien."
+
+#: includes/class-wpvivid-migrate.php:1455
+#: includes/class-wpvivid-migrate.php:1479
+msgid "Choose what to migrate"
+msgstr "Vælg, hvad du vil overføre"
+
+#: includes/class-wpvivid-migrate.php:446
+#: includes/class-wpvivid-migrate.php:1434
+msgid "3. Once done, the backup appears in backups list. Then, restore the backup."
+msgstr "3. Når du er færdig, vises sikkerhedskopien på listen over sikkerhedskopier. Gendan derefter sikkerhedskopien."
+
+#: includes/class-wpvivid-migrate.php:444
+#: includes/class-wpvivid-migrate.php:1432
+msgid "2.1 Upload the backup to the upload section of WPvivid backup plugin in destination site."
+msgstr "2.1 Upload sikkerhedskopien til upload afsnittet af WPvivid sikkerhedskopi plugin'et på destinationswebstedet."
+
+#: includes/class-wpvivid-migrate.php:443
+#: includes/class-wpvivid-migrate.php:1431
+msgid "2. Upload the backup to destination site. There are two ways available to use:"
+msgstr "2. Upload sikkerhedskopien til destinationswebstedet. Der er to tilgængelige måder at bruge:"
+
+#: includes/class-wpvivid-migrate.php:442
+#: includes/class-wpvivid-migrate.php:1430
+msgid "1. Download a backup in backups list to your computer."
+msgstr "1. Download en sikkerhedskopi fra listen over sikkerhedskopier til din computer."
+
+#: includes/class-wpvivid-migrate.php:441
+#: includes/class-wpvivid-migrate.php:1429
+msgid "How to migrate Wordpress site manually to a new domain(site) with WPvivid backup plugin?"
+msgstr "Hvordan overføres et WordPress-websted manuelt til et nyt domæne (websted) med WPvivid sikkerheds-plugin?"
+
+#: includes/class-wpvivid-migrate.php:1422
+msgid "2. Please migrate website with the manual way when using <strong>Local by Flywheel</strong> environment."
+msgstr "2. Overfør venligst webstedet på den manuelle måde, når du bruger <strong>Local by Flywheel</strong> miljøet."
+
+#: includes/class-wpvivid-migrate.php:1421
+msgid "1. In order to successfully complete the migration, you'd better deactivate <a href=\"https://wpvivid.com/best-redirect-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">301 redirect plugin</a>, <a href=\"https://wpvivid.com/8-best-wordpress-firewall-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">firewall and security plugin</a>, and <a href=\"https://wpvivid.com/best-free-wordpress-caching-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">caching plugin</a> (if they exist) before transferring website."
+msgstr "1. For at fuldføre overførelsen skal du deaktivere <a href=\"https://wpvivid.com/best-redirect-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">301 omdirigeringsplugin</a>, <a href=\"https://wpvivid.com/8-best-wordpress-firewall-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">firewall og sikkerhedsplugin</a> og <a href=\"https://wpvivid.com/best-free-wordpress-caching-plugins.html\" target=\"_blank\" style=\"text-decoration: none;\">caching-plugin</a> (hvis de findes), før du overfører webstedet."
+
+#: includes/class-wpvivid-migrate.php:429
+#: includes/class-wpvivid-migrate.php:1420
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:772
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:810
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:1100
+msgid "Note: "
+msgstr "Bemærk: "
+
+#: includes/class-wpvivid-migrate.php:416
+#: includes/class-wpvivid-migrate.php:1323
+msgid "Choose the content you want to transfer"
+msgstr "Vælg det indhold, du vil overføre"
+
+#: includes/class-wpvivid-migrate.php:392
+#: includes/class-wpvivid-migrate.php:1313
+msgid "The feature can help you transfer a Wordpress site to a new domain(site). It would be a convenient way to migrate your WP site from dev environment to live server or from old server to the new."
+msgstr "Funktionen kan hjælpe dig med at overføre et WordPress-websted til et nyt domæne (websted). Det ville være en bekvem måde at overføre dit WP-websted fra et udvikler-miljø til en live server eller fra gammel server til den nye."
+
+#: admin/class-wpvivid-admin.php:282
+msgid "3. Go back to this page and paste the key in key box below. Lastly, click Save button."
+msgstr "3. Gå tilbage til denne side og indsæt nøglen i nøgleboksen nedenfor. Til sidst skal du klikke på Gem knappen."
+
+#: admin/class-wpvivid-admin.php:281
+msgid "2. Generate a key by clicking Generate button and copy it."
+msgstr "2. Generer en nøgle ved at klikke på knappen Generer og kopier den."
+
+#: admin/class-wpvivid-admin.php:280
+msgid "1. Visit Key tab page of WPvivid backup plugin of destination site."
+msgstr "1. Besøg Nøgle fanen af WPvivid sikkerhedskopi plugin'et af destinationswebstedet."
+
+#: includes/class-wpvivid-migrate.php:1040
+#: includes/class-wpvivid-migrate.php:1178
+msgid "How to get a site key?"
+msgstr "Hvordan får man en webstedsnøgle?"
+
+#: includes/class-wpvivid-migrate.php:1040
+#: includes/class-wpvivid-migrate.php:1178
+msgid "Please paste the key below."
+msgstr "Indsæt venligst nøglen nedenfor."
+
+#: includes/class-wpvivid-export-import.php:1157
+#: includes/class-wpvivid-export-import.php:1198
+#: includes/class-wpvivid-interface-mainwp.php:157
+#: includes/class-wpvivid-migrate.php:773 includes/class-wpvivid.php:707
+#: includes/class-wpvivid.php:1050 includes/class-wpvivid.php:1355
+#: includes/new_backup/class-wpvivid-backup2.php:129
+#: includes/new_backup/class-wpvivid-backup2.php:1656
+msgid "A task is already running. Please wait until the running task is complete, and try again."
+msgstr "En opgave kører allerede. Vent, indtil den kørende opgave er fuldført, og prøv igen."
+
+#: includes/class-wpvivid-migrate.php:474
+msgid "Generate"
+msgstr "Generer"
+
+#: includes/class-wpvivid-migrate.php:472
+msgid "Tips: For security reason, please choose an appropriate expiration time for the key."
+msgstr "Tips: Af sikkerhedsmæssige årsager skal du vælge en passende udløbstid for nøglen."
+
+#: includes/class-wpvivid-migrate.php:465
+msgid "The key will expire in "
+msgstr "Nøglen udløber om "
+
+#: includes/class-wpvivid-migrate.php:463
+msgid "In order to allow another site to send a backup to this site, please generate a key below. Once the key is generated, this site is ready to receive a backup from another site. Then, please copy and paste the key in sending site and save it."
+msgstr "For at tillade et andet websted at sende en sikkerhedskopi til dette websted, skal du generere en nøgle nedenfor. Når nøglen er genereret, er dette websted klar til at modtage en sikkerhedskopi fra et andet websted. Derefter skal du kopiere og indsætte nøglen på afsendelsesstedet og gemme den."
+
+#: includes/class-wpvivid-migrate.php:59
+msgid "Key"
+msgstr "Nøgle"
+
+#: includes/class-wpvivid-migrate.php:52
+msgid "Auto-Migration"
+msgstr "Automatisk overførsel"
+
+#: includes/class-wpvivid-mail-report.php:1110 includes/class-wpvivid.php:6133
+msgid "Unable to send email. Please check the configuration of email server."
+msgstr "Kunne ikke sende e-mail. Kontroller venligst konfigurationen af e-mail server."
+
+#. translators: %s: directory path
+#: includes/staging/class-wpvivid-staging.php:2494
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "Mappen kunne ikke oprettes %s. Er dens overordnede mappe skrivbar på serveren?"
+
+#: includes/class-wpvivid-function-realize.php:161
+#: includes/class-wpvivid-function-realize.php:173
+#: includes/class-wpvivid-function-realize.php:190
+#: includes/class-wpvivid.php:758 includes/class-wpvivid.php:824
+#: includes/class-wpvivid.php:885 includes/class-wpvivid.php:6526
+#: includes/staging/class-wpvivid-staging-log-page.php:857
+#: includes/staging/class-wpvivid-staging-log-page.php:867
+#: includes/staging/class-wpvivid-staging-log-page.php:1068
+#: includes/staging/class-wpvivid-staging-log-page.php:1082
+msgid "The log not found."
+msgstr "Logfilen blev ikke fundet."
+
+#: includes/class-wpvivid-function-realize.php:156
+#: includes/class-wpvivid-function-realize.php:184
+#: includes/class-wpvivid.php:750 includes/class-wpvivid.php:876
+msgid "Retrieving the backup information failed while showing log. Please try again later."
+msgstr "Hentning af oplysningerne om sikkerhedskopien mislykkedes mens filloggen vises. Prøv igen senere."
+
+#: includes/class-wpvivid-interface-mainwp.php:333
+#: includes/class-wpvivid-public-interface.php:195
+#: includes/class-wpvivid.php:785 includes/class-wpvivid.php:815
+#: includes/class-wpvivid.php:910 includes/class-wpvivid.php:6551
+#: includes/staging/class-wpvivid-staging-log-page.php:892
+#: includes/staging/class-wpvivid-staging-log-page.php:1145
+msgid "Reading the log failed. Please try again."
+msgstr "Læsning af logfilen mislykkedes. Prøv igen."
+
+#: includes/class-wpvivid-interface-mainwp.php:271
+#: includes/class-wpvivid-interface-mainwp.php:342
+#: includes/class-wpvivid-interface-mainwp.php:395
+#: includes/class-wpvivid-public-interface.php:174
+#: includes/class-wpvivid-public-interface.php:204
+#: includes/class-wpvivid-public-interface.php:233
+#: includes/class-wpvivid.php:768 includes/class-wpvivid.php:833
+#: includes/class-wpvivid.php:894 includes/class-wpvivid.php:6535
+#: includes/staging/class-wpvivid-staging-log-page.php:876
+msgid "Unable to open the log file."
+msgstr "Kan ikke åbne logfilen."
+
+#: includes/class-wpvivid-interface-mainwp.php:182
+#: includes/class-wpvivid-migrate.php:824 includes/class-wpvivid.php:698
+msgid "Error occurred while parsing the request data. Please try to run backup again."
+msgstr "Der opstod fejl under udførelsen af anmodningsdataene. Prøv at udføre sikkerhedskopiering igen."
+
+#: includes/customclass/class-wpvivid-sftpclass.php:148
+msgid "Click the button to connect to SFTP server and add it to the storage list below."
+msgstr "Klik på knappen for at oprette forbindelse til SFTP-serveren og tilføje den til lagerlisten nedenfor."
+
+#: includes/customclass/class-wpvivid-sftpclass.php:121
+#: includes/customclass/class-wpvivid-sftpclass.php:236
+msgid "Enter an absolute path and a custom subdirectory (optional) for holding the backups of current website. For example, /var/customfolder/"
+msgstr "Indtast en absolut sti og en brugerdefineret undermappe (valgfri) til opbevaring af sikkerhedskopier af det aktuelle websted. For eksempel /var/minmappe/"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:116
+#: includes/customclass/class-wpvivid-sftpclass.php:231
+msgid "Absolute path must exist(e.g. /var)"
+msgstr "Absolut sti skal eksistere (f.eks. /var)"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:109
+#: includes/customclass/class-wpvivid-sftpclass.php:224
+msgid "Enter the server port."
+msgstr "Indtast serverporten."
+
+#: includes/customclass/class-wpvivid-sftpclass.php:104
+#: includes/customclass/class-wpvivid-sftpclass.php:219
+msgid "Port"
+msgstr "Port"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:97
+#: includes/customclass/class-wpvivid-sftpclass.php:212
+msgid "Enter the user password."
+msgstr "Indtast bruger adgangskoden."
+
+#: includes/customclass/class-wpvivid-sftpclass.php:92
+#: includes/customclass/class-wpvivid-sftpclass.php:207
+msgid "User Password"
+msgstr "Bruger adgangskode"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:85
+#: includes/customclass/class-wpvivid-sftpclass.php:200
+msgid "Enter the user name."
+msgstr "Indtast brugernavnet."
+
+#: includes/customclass/class-wpvivid-sftpclass.php:80
+#: includes/customclass/class-wpvivid-sftpclass.php:195
+msgid "User Name"
+msgstr "Brugernavn"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:73
+#: includes/customclass/class-wpvivid-sftpclass.php:188
+msgid "Enter the server address."
+msgstr "Indtast serve adressen."
+
+#: includes/customclass/class-wpvivid-sftpclass.php:68
+#: includes/customclass/class-wpvivid-sftpclass.php:183
+msgid "Server Address"
+msgstr "Server adresse"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:56
+#: includes/customclass/class-wpvivid-sftpclass.php:171
+msgid "Enter a unique alias: e.g. SFTP-001"
+msgstr "Indtast et entydigt alias: f.eks. SFTP-001"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:48
+#: includes/customclass/class-wpvivid-sftpclass.php:163
+msgid "Enter Your SFTP Account"
+msgstr "Angiv din SFTP-konto"
+
+#: includes/customclass/class-wpvivid-sftpclass.php:38
+msgid "SFTP"
+msgstr "SFTP"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:187
+msgid "The simplexml extension is not detected. Please install the extension first."
+msgstr "Simplexml-udvidelsen registreres ikke. Installer udvidelsen først."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:178
+msgid "Click the button to connect to Amazon S3 storage and add it to the storage list below."
+msgstr "Klik på knappen for at oprette forbindelse til Amazon S3-lageret og tilføje det til lagerlisten nedenfor."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:165
+#: includes/customclass/class-wpvivid-amazons3-plus.php:289
+msgid "Check the option to use Amazon S3 server-side encryption to protect data."
+msgstr "Markere muligheden for, at bruge Amazon S3-kryptering på server-siden til at beskytte data."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:159
+#: includes/customclass/class-wpvivid-amazons3-plus.php:283
+msgid "Server-side encryption."
+msgstr "Server-side kryptering."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:151
+#: includes/customclass/class-wpvivid-amazons3-plus.php:275
+msgid "Check the option to use Amazon S3 Standard-Infrequent Access (S3 Standard-IA) storage class for data transfer."
+msgstr "Markere muligheden for at bruge Amazon S3 Standard-Infrequent Access (S3 Standard-IA) lagerklasse til dataoverførsel."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:145
+#: includes/customclass/class-wpvivid-amazons3-plus.php:269
+msgid "Storage class: Standard (infrequent access)."
+msgstr "Opbevaringsklasse: Standard (infrequent acces)."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:123
+#: includes/customclass/class-wpvivid-amazons3-plus.php:261
+msgid "Customize the directory where you want to store backups within the Bucket."
+msgstr "Tilpas den mappe, hvor du vil gemme sikkerhedskopier i Bucket."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:111
+#: includes/customclass/class-wpvivid-amazons3-plus.php:249
+msgid "Enter an existed Bucket to create a custom backup storage directory."
+msgstr "Indtast en eksisterende Bucket for at oprette en brugerdefineret sikkerhedskopi-lagermappe."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:106
+#: includes/customclass/class-wpvivid-amazons3-plus.php:244
+msgid "Amazon S3 Bucket Name(e.g. test)"
+msgstr "Amazon S3 Bucket navn (f.eks. test)"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:99
+#: includes/customclass/class-wpvivid-amazons3-plus.php:237
+msgid "How to get an Amazon S3 secret key."
+msgstr "Sådan får du en Amazon S3 hemmelig nøgle."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:99
+#: includes/customclass/class-wpvivid-amazons3-plus.php:237
+msgid "Enter your Amazon S3 secret key."
+msgstr "Indtast din Amazon S3 hemmelige nøgle."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:94
+#: includes/customclass/class-wpvivid-amazons3-plus.php:232
+msgid "Amazon S3 secret key"
+msgstr "Amazon S3 hemmelig nøgle"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:87
+#: includes/customclass/class-wpvivid-amazons3-plus.php:225
+msgid "How to get an AmazonS3 access key."
+msgstr "Sådan får du en AmazonS3-adgangsnøgle."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:87
+#: includes/customclass/class-wpvivid-amazons3-plus.php:225
+msgid "Enter your Amazon S3 access key."
+msgstr "Indtast din Amazon S3-adgangsnøgle."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:82
+#: includes/customclass/class-wpvivid-amazons3-plus.php:220
+msgid "Amazon S3 access key"
+msgstr "Amazon S3 adgangsnøgle"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:70
+#: includes/customclass/class-wpvivid-amazons3-plus.php:208
+msgid "Enter a unique alias: e.g. Amazon S3-001"
+msgstr "Indtast et unikt alias: f.eks. Amazon S3-001"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:62
+#: includes/customclass/class-wpvivid-amazons3-plus.php:200
+msgid "Enter Your Amazon S3 Account"
+msgstr "Angiv din Amazon S3-konto"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:44
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: includes/customclass/class-wpvivid-one-drive.php:406
+msgid "Authenticate with Microsoft OneDrive"
+msgstr "Godkend med Microsoft OneDrive"
+
+#: includes/customclass/class-wpvivid-one-drive.php:227
+#: includes/customclass/class-wpvivid-one-drive.php:443
+msgid "Enter a unique alias: e.g. OneDrive-001"
+msgstr "Indtast et entydigt alias: f.eks. OneDrive-001"
+
+#: includes/customclass/class-wpvivid-one-drive.php:220
+#: includes/customclass/class-wpvivid-one-drive.php:436
+msgid "Enter Your Microsoft OneDrive Information"
+msgstr "Angiv dine Microsoft OneDrive-oplysninger"
+
+#: includes/customclass/class-wpvivid-one-drive.php:200
+msgid "Microsoft OneDrive"
+msgstr "Microsoft OneDrive"
+
+#: includes/customclass/class-wpvivid-one-drive.php:136
+#: includes/customclass/class-wpvivid-one-drive.php:187
+msgid "You have authenticated the Microsoft OneDrive account as your remote storage."
+msgstr "Du har godkendt Microsoft OneDrive-kontoen som dit fjernlager."
+
+#: includes/customclass/class-wpvivid-google-drive.php:422
+msgid "Authenticate with Google Drive"
+msgstr "Godkend med Google Drev"
+
+#: includes/customclass/class-wpvivid-google-drive.php:243
+#: includes/customclass/class-wpvivid-google-drive.php:460
+msgid "Enter a unique alias: e.g. Google Drive-001"
+msgstr "Indtast et unikt alias: f.eks. Google Drev-001"
+
+#: includes/customclass/class-wpvivid-google-drive.php:236
+#: includes/customclass/class-wpvivid-google-drive.php:453
+msgid "Enter Your Google Drive Information"
+msgstr "Angiv dine Google Drev-oplysninger"
+
+#: includes/customclass/class-wpvivid-google-drive.php:216
+msgid "Google Drive"
+msgstr "Google Drev"
+
+#: includes/customclass/class-wpvivid-google-drive.php:148
+#: includes/customclass/class-wpvivid-google-drive.php:203
+msgid "You have authenticated the Google Drive account as your remote storage."
+msgstr "Du har godkendt Google Drev-kontoen som dit fjernlager."
+
+#: includes/customclass/class-wpvivid-google-drive.php:113
+msgid "Authentication failed, the format of the client_secrets.json file is incorrect. Please delete and re-install the plugin to recreate the file."
+msgstr "Godkendelse mislykkedes, formatet på filen client_secrets.json er forkert. Slet og geninstaller plugin'et for at genskabe filen."
+
+#: includes/customclass/class-wpvivid-google-drive.php:109
+msgid "Authentication failed, the client_secrets.json file is missing. Please make sure the client_secrets.json file is in wpvivid-backuprestore\\includes\\customclass directory."
+msgstr "Godkendelse mislykkedes, filen client_secrets.json mangler. Sørg for, at filen client_secrets.json er i wpvivid-backuprestore\\includes\\customclass-mappen."
+
+#: includes/customclass/class-wpvivid-s3compat.php:522
+msgid "Click the button to connect to DigitalOcean Spaces storage and add it to the storage list below."
+msgstr "Klik på knappen for at oprette forbindelse til DigitalOcean Spaces-lageret og tilføje det til lagerlisten nedenfor."
+
+#: includes/customclass/class-wpvivid-s3compat.php:495
+#: includes/customclass/class-wpvivid-s3compat.php:610
+msgid "Enter the DigitalOcean Endpoint for the storage"
+msgstr "Indtast DigitalOcean-slutpunktet for lageret"
+
+#: includes/customclass/class-wpvivid-s3compat.php:490
+#: includes/customclass/class-wpvivid-s3compat.php:605
+msgid "region.digitaloceanspaces.com"
+msgstr "region.digitaloceanspaces.com"
+
+#: includes/customclass/class-wpvivid-s3compat.php:483
+#: includes/customclass/class-wpvivid-s3compat.php:598
+msgid "Customize the directory where you want to store backups within the Space."
+msgstr "Tilpas den mappe, hvor du vil gemme sikkerhedskopier i Space."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:118
+#: includes/customclass/class-wpvivid-amazons3-plus.php:256
+#: includes/customclass/class-wpvivid-s3compat.php:478
+#: includes/customclass/class-wpvivid-s3compat.php:593
+msgid "Custom Path"
+msgstr "Brugerdefineret sti"
+
+#: includes/customclass/class-wpvivid-s3compat.php:471
+#: includes/customclass/class-wpvivid-s3compat.php:586
+msgid "Enter an existed Space to create a custom backup storage directory."
+msgstr "Indtast et eksisterende Space for at oprette en brugerdefineret lagermappe til sikkerhedskopi."
+
+#: includes/customclass/class-wpvivid-s3compat.php:466
+#: includes/customclass/class-wpvivid-s3compat.php:581
+msgid "Space Name(e.g. test)"
+msgstr "Space navn (f.eks. test)"
+
+#: includes/customclass/class-wpvivid-s3compat.php:459
+#: includes/customclass/class-wpvivid-s3compat.php:574
+msgid "Enter your DigitalOcean Spaces secret key"
+msgstr "Indtast din hemmelige DigitalOcean Spaces-nøgle"
+
+#: includes/customclass/class-wpvivid-s3compat.php:454
+#: includes/customclass/class-wpvivid-s3compat.php:569
+msgid "DigitalOcean Spaces secret key"
+msgstr "DigitalOcean Spaces hemmelige nøgle"
+
+#: includes/customclass/class-wpvivid-s3compat.php:447
+#: includes/customclass/class-wpvivid-s3compat.php:562
+msgid "Enter your DigitalOcean Spaces access key"
+msgstr "Indtast din DigitalOcean Spaces-adgangsnøgle"
+
+#: includes/customclass/class-wpvivid-s3compat.php:442
+#: includes/customclass/class-wpvivid-s3compat.php:557
+msgid "DigitalOcean Spaces access key"
+msgstr "DigitalOcean Spaces adgangsnøgle"
+
+#: includes/customclass/class-wpvivid-s3compat.php:430
+#: includes/customclass/class-wpvivid-s3compat.php:545
+msgid "Enter a unique alias: e.g. DOS-001"
+msgstr "Angiv et entydigt alias: f.eks. DOS-001"
+
+#: includes/customclass/class-wpvivid-s3compat.php:422
+#: includes/customclass/class-wpvivid-s3compat.php:537
+msgid "Enter Your DigitalOcean Spaces Account"
+msgstr "Angiv din DigitalOcean Spaces-konto"
+
+#: includes/customclass/class-wpvivid-s3compat.php:413
+msgid "DigitalOcean Spaces"
+msgstr "DigitalOcean Spaces"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:158
+msgid "Click the button to connect to FTP server and add it to the storage list below."
+msgstr "Klik på knappen for at oprette forbindelse til FTP-serveren og tilføje den til lagerlisten nedenfor."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:173
+#: includes/customclass/class-wpvivid-ftpclass.php:153
+#: includes/customclass/class-wpvivid-s3compat.php:517
+#: includes/customclass/class-wpvivid-sftpclass.php:143
+msgid "Test and Add"
+msgstr "Test og tilføj"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:145
+#: includes/customclass/class-wpvivid-ftpclass.php:246
+msgid "Uncheck the option to use FTP active mode when transferring files. Make sure the FTP server you are configuring supports the active FTP mode."
+msgstr "Fjern markeringen af muligheden for at bruge FTP-aktiv tilstand, når du overfører filer. Sørg for, at den FTP-server, du konfigurerer, understøtter den aktive FTP-tilstand."
+
+#: includes/customclass/class-wpvivid-ftpclass.php:139
+#: includes/customclass/class-wpvivid-ftpclass.php:240
+msgid "Uncheck this to enable FTP active mode."
+msgstr "Fjern markeringen af dette for at aktivere FTP-aktiv tilstand."
+
+#: includes/customclass/class-wpvivid-ftpclass.php:117
+#: includes/customclass/class-wpvivid-ftpclass.php:232
+msgid "Enter an absolute path and a custom subdirectory (optional) for holding the backups of current website. For example, /home/username/customfolder"
+msgstr "Indtast en absolut sti og en brugerdefineret undermappe (valgfri) til opbevaring af sikkerhedskopier af det aktuelle websted. For eksempel /home/brugernavn/minmappe"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:112
+#: includes/customclass/class-wpvivid-ftpclass.php:227
+msgid "Absolute path must exist(e.g. /home/username)"
+msgstr "Absolut sti skal eksistere (f.eks. /home/brugernavn)"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:105
+#: includes/customclass/class-wpvivid-ftpclass.php:220
+msgid "Enter the FTP server password."
+msgstr "Indtast FTP-server adgangskoden."
+
+#: includes/customclass/class-wpvivid-ftpclass.php:100
+#: includes/customclass/class-wpvivid-ftpclass.php:215
+msgid "FTP password"
+msgstr "FTP-adgangskode"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:93
+#: includes/customclass/class-wpvivid-ftpclass.php:208
+msgid "Enter your FTP server user name."
+msgstr "Indtast dit FTP-server brugernavn."
+
+#: includes/customclass/class-wpvivid-ftpclass.php:88
+#: includes/customclass/class-wpvivid-ftpclass.php:203
+msgid "FTP login"
+msgstr "FTP-adgang"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:81
+msgid "Pro feature: Change the FTP default port number"
+msgstr "Pro-funktion: Skift FTP-standard port-nummeret"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:69
+#: includes/customclass/class-wpvivid-ftpclass.php:196
+msgid "Enter the FTP server."
+msgstr "Indtast FTP-serveren."
+
+#: includes/customclass/class-wpvivid-ftpclass.php:64
+#: includes/customclass/class-wpvivid-ftpclass.php:191
+msgid "FTP server (server's port 21)"
+msgstr "FTP-server (serverens port 21)"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:52
+#: includes/customclass/class-wpvivid-ftpclass.php:179
+msgid "Enter an unique alias: e.g. FTP-001"
+msgstr "Angiv et entydigt alias: f.eks. FTP-001"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:45
+#: includes/customclass/class-wpvivid-ftpclass.php:172
+msgid "Enter Your FTP Account"
+msgstr "Angiv din FTP-konto"
+
+#: includes/customclass/class-wpvivid-ftpclass.php:36
+msgid "FTP"
+msgstr "FTP"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:302
+#: includes/customclass/class-wpvivid-dropbox.php:746
+#: includes/customclass/class-wpvivid-ftpclass.php:259
+#: includes/customclass/class-wpvivid-google-drive.php:477
+#: includes/customclass/class-wpvivid-one-drive.php:460
+#: includes/customclass/class-wpvivid-s3compat.php:623
+#: includes/customclass/class-wpvivid-sftpclass.php:249
+msgid "Click the button to save the changes."
+msgstr "Klik på knappen for at gemme ændringerne."
+
+#: includes/customclass/class-wpvivid-dropbox.php:692
+msgid "Authenticate with Dropbox"
+msgstr "Godkend med Dropbox"
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:137
+#: includes/customclass/class-wpvivid-dropbox.php:559
+#: includes/customclass/class-wpvivid-ftpclass.php:131
+#: includes/customclass/class-wpvivid-google-drive.php:286
+#: includes/customclass/class-wpvivid-one-drive.php:270
+#: includes/customclass/class-wpvivid-s3compat.php:509
+#: includes/customclass/class-wpvivid-sftpclass.php:135
+msgid "Once checked, all this sites backups sent to a remote storage destination will be uploaded to this storage by default."
+msgstr "Hvis markeret, uploades alle sikkerhedskopier af disse websteder, der sendes til en fjernlagringsdestination, som standard til dette lager."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:131
+#: includes/customclass/class-wpvivid-dropbox.php:553
+#: includes/customclass/class-wpvivid-ftpclass.php:125
+#: includes/customclass/class-wpvivid-google-drive.php:280
+#: includes/customclass/class-wpvivid-one-drive.php:264
+#: includes/customclass/class-wpvivid-s3compat.php:503
+#: includes/customclass/class-wpvivid-sftpclass.php:129
+msgid "Set as the default remote storage."
+msgstr "Indstil som standard fjernlager."
+
+#: includes/customclass/class-wpvivid-dropbox.php:545
+#: includes/customclass/class-wpvivid-google-drive.php:272
+#: includes/customclass/class-wpvivid-one-drive.php:256
+msgid "Pro feature: Create a directory for storing the backups of the site"
+msgstr "Pro-funktion: Opret en mappe til lagring af sikkerhedskopier af webstedet"
+
+#: includes/customclass/class-wpvivid-dropbox.php:533
+#: includes/customclass/class-wpvivid-google-drive.php:260
+#: includes/customclass/class-wpvivid-one-drive.php:244
+msgid "All backups will be uploaded to this directory."
+msgstr "Alle sikkerhedskopier uploades til denne mappe."
+
+#: includes/customclass/class-wpvivid-amazons3-plus.php:75
+#: includes/customclass/class-wpvivid-amazons3-plus.php:213
+#: includes/customclass/class-wpvivid-dropbox.php:521
+#: includes/customclass/class-wpvivid-dropbox.php:734
+#: includes/customclass/class-wpvivid-ftpclass.php:57
+#: includes/customclass/class-wpvivid-ftpclass.php:184
+#: includes/customclass/class-wpvivid-google-drive.php:248
+#: includes/customclass/class-wpvivid-google-drive.php:465
+#: includes/customclass/class-wpvivid-one-drive.php:232
+#: includes/customclass/class-wpvivid-one-drive.php:448
+#: includes/customclass/class-wpvivid-s3compat.php:435
+#: includes/customclass/class-wpvivid-s3compat.php:550
+#: includes/customclass/class-wpvivid-sftpclass.php:61
+#: includes/customclass/class-wpvivid-sftpclass.php:176
+msgid "A name to help you identify the storage if you have multiple remote storage connected."
+msgstr "Et navn, der hjælper dig med at identificere lageret, hvis du har tilsluttet flere fjernlagre."
+
+#: includes/customclass/class-wpvivid-dropbox.php:516
+#: includes/customclass/class-wpvivid-dropbox.php:729
+msgid "Enter a unique alias: e.g. Dropbox-001"
+msgstr "Angiv et entydigt alias: f.eks. Dropbox-001"
+
+#: includes/customclass/class-wpvivid-dropbox.php:509
+msgid "Enter Your Dropbox Information"
+msgstr "Indtast dine Dropbox-oplysninger"
+
+#: includes/customclass/class-wpvivid-dropbox.php:489
+msgid "Dropbox"
+msgstr "DropBox"
+
+#: includes/customclass/class-wpvivid-dropbox.php:429
+#: includes/customclass/class-wpvivid-dropbox.php:477
+msgid "You have authenticated the Dropbox account as your remote storage."
+msgstr "Du har godkendt Dropbox-kontoen som dit fjernlager."
+
+#: includes/class-wpvivid-backup.php:1164
+#: includes/class-wpvivid-backup.php:1181
+#: includes/class-wpvivid-function-realize.php:56
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2790
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2810
+msgid "The backup will be canceled after backing up the current chunk ends."
+msgstr "Sikkerhedskopien annulleres efter sikkerhedskopiering af den aktuelle del slutter."
+
+#: includes/class-wpvivid-backup.php:1145
+#: includes/class-wpvivid-backup.php:1158
+#: includes/class-wpvivid-export-import.php:1352
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2771
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2784
+msgid "running time: "
+msgstr "kørselstid: "
+
+#: includes/class-wpvivid-backup.php:1145
+#: includes/class-wpvivid-backup.php:1158
+#: includes/class-wpvivid-export-import.php:1352
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2771
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2784
+msgid "Progress: "
+msgstr "Fremskridt: "
+
+#: includes/class-wpvivid-backup.php:1110
+#: includes/new_backup/class-wpvivid-backup-task_2.php:2735
+msgid "Ready to backup. Progress: 0%, running time: 0second."
+msgstr "Klar til sikkerhedskopiering. Fremskridt: 0%, kørselstid: 0 sekund."
+
+#: includes/class-wpvivid-importer.php:1898
+#: includes/class-wpvivid-importer.php:1903
+#: includes/class-wpvivid-importer.php:2128
+#: includes/class-wpvivid-importer.php:2324
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "Dette synes ikke at være en WXR fil, mangler/ugyldigt WXR versionsnummer"
+
+#: includes/class-wpvivid-importer.php:1850
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr "Detaljer er vist ovenfor. Importøren vil nu forsøge igen med en anden parser ..."
+
+#: includes/class-wpvivid-importer.php:1849
+#: includes/class-wpvivid-importer.php:1886
+#: includes/class-wpvivid-importer.php:1894
+msgid "There was an error when reading this WXR file"
+msgstr "Der opstod en fejl ved læsning denne WXR fil"
+
+#: includes/class-wpvivid-importer.php:1709
+msgid "Invalid file type"
+msgstr "Ugyldig filtype"
+
+#: includes/class-wpvivid-importer.php:1696
+msgid "Fetching attachments is not enabled"
+msgstr "Hentning af vedhæftede filer er ikke aktiveret"
+
+#: includes/class-wpvivid-importer.php:1648
+#: includes/class-wpvivid-importer.php:1749
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "Beklager, denne filtype er ikke tilladt af sikkerhedsmæssige årsager."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:265
+#: includes/class-wpvivid-exporter.php:545
+#: includes/class-wpvivid-importer.php:315
+#: includes/snapshot/class-wpvivid-snapshots-list.php:261
+#: includes/staging/class-wpvivid-staging-log-page.php:248
+#: includes/staging/class-wpvivid-staging-sites-list.php:599
+#: includes/staging/class-wpvivid-staging-sites-list.php:970
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:240
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:572
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:304
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:714
+msgid "Last page"
+msgstr "Sidste side"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:255
+#: includes/class-wpvivid-exporter.php:535
+#: includes/class-wpvivid-importer.php:305
+#: includes/snapshot/class-wpvivid-snapshots-list.php:251
+#: includes/staging/class-wpvivid-staging-log-page.php:238
+#: includes/staging/class-wpvivid-staging-sites-list.php:589
+#: includes/staging/class-wpvivid-staging-sites-list.php:960
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:230
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:562
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:294
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:704
+msgid "Next page"
+msgstr "Næste side"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:247
+#: includes/class-wpvivid-exporter.php:527
+#: includes/class-wpvivid-importer.php:297
+#: includes/snapshot/class-wpvivid-snapshots-list.php:243
+#: includes/staging/class-wpvivid-staging-log-page.php:230
+#: includes/staging/class-wpvivid-staging-sites-list.php:581
+#: includes/staging/class-wpvivid-staging-sites-list.php:952
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:222
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:554
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:286
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:696
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s af %2$s"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:237
+#: admin/partials/wpvivid-backup-restore-page-display.php:241
+#: includes/class-wpvivid-exporter.php:517
+#: includes/class-wpvivid-exporter.php:521
+#: includes/class-wpvivid-importer.php:287
+#: includes/class-wpvivid-importer.php:291
+#: includes/snapshot/class-wpvivid-snapshots-list.php:233
+#: includes/snapshot/class-wpvivid-snapshots-list.php:237
+#: includes/staging/class-wpvivid-staging-log-page.php:220
+#: includes/staging/class-wpvivid-staging-log-page.php:224
+#: includes/staging/class-wpvivid-staging-sites-list.php:571
+#: includes/staging/class-wpvivid-staging-sites-list.php:575
+#: includes/staging/class-wpvivid-staging-sites-list.php:942
+#: includes/staging/class-wpvivid-staging-sites-list.php:946
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:212
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:216
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:544
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:548
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:276
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:280
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:686
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:690
+msgid "Current Page"
+msgstr "Nuværende side"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:230
+#: includes/class-wpvivid-exporter.php:510
+#: includes/class-wpvivid-importer.php:280
+#: includes/snapshot/class-wpvivid-snapshots-list.php:226
+#: includes/staging/class-wpvivid-staging-log-page.php:213
+#: includes/staging/class-wpvivid-staging-sites-list.php:564
+#: includes/staging/class-wpvivid-staging-sites-list.php:935
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:205
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:537
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:269
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:679
+msgid "Previous page"
+msgstr "Forrige side"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:219
+#: includes/class-wpvivid-exporter.php:499
+#: includes/class-wpvivid-importer.php:269
+#: includes/snapshot/class-wpvivid-snapshots-list.php:215
+#: includes/staging/class-wpvivid-staging-log-page.php:202
+#: includes/staging/class-wpvivid-staging-sites-list.php:553
+#: includes/staging/class-wpvivid-staging-sites-list.php:924
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:194
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:526
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:258
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:668
+msgid "First page"
+msgstr "Første side"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:188
+#: includes/class-wpvivid-exporter.php:463
+#: includes/class-wpvivid-importer.php:233
+#: includes/snapshot/class-wpvivid-snapshots-list.php:184
+#: includes/staging/class-wpvivid-staging-log-page.php:171
+#: includes/staging/class-wpvivid-staging-sites-list.php:522
+#: includes/staging/class-wpvivid-staging-sites-list.php:893
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:163
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:495
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:227
+#: includes/upload-cleaner/class-wpvivid-uploads-cleaner.php:637
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s element"
+msgstr[1] "%s produkter"
+
+#: includes/class-wpvivid-importer.php:130 includes/class-wpvivid.php:6931
+msgid "Type: "
+msgstr "Type: "
+
+#: includes/class-wpvivid-importer.php:51
+msgid "Media Files Size"
+msgstr "Størrelse på mediefiler"
+
+#: includes/class-wpvivid-importer.php:50
+msgid "Count"
+msgstr "Antal"
+
+#: includes/class-wpvivid-importer.php:49
+msgid "Post Types"
+msgstr "Indholdstyper"
+
+#: includes/class-wpvivid-importer.php:48
+msgid "File Name"
+msgstr "Filnavn"
+
+#: includes/class-wpvivid-backup-uploader.php:761
+msgid "Select Files"
+msgstr "Vælg filer"
+
+#: includes/class-wpvivid-backup-uploader.php:760
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr "eller"
+
+#: includes/class-wpvivid-backup-uploader.php:759
+msgid "Drop files here"
+msgstr "Slip filer her"
+
+#: includes/class-wpvivid-backup-uploader.php:701
+msgid "Scan uploaded backup or received backup"
+msgstr "Scan uploadet sikkerhedskopier eller modtagende sikkerhedskopier"
+
+#: includes/class-wpvivid-backup-uploader.php:698
+msgid "Tips: Click the button below to scan all uploaded or received backups in directory"
+msgstr "Tips: Klik på knappen nedenfor for at scanne alle uploadede eller modtagne sikkerhedskopier i biblioteket"
+
+#: admin/partials/wpvivid-admin-display.php:62
+msgid "Warning: There is no default remote storage available for the scheduled backups, please set up it first."
+msgstr "Advarsel: Der er ingen standard fjernlagring tilgængelig for de planlagte sikkerhedskopier, så du skal først konfigurere den."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2894
+msgid "Next Backup: "
+msgstr "Næste sikkerhedskopi: "
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2892
+msgid "Server Time: "
+msgstr "Server tid: "
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2890
+msgid "Schedule Status: "
+msgstr "Tidsplan status: "
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2888
+msgid "Backup Schedule"
+msgstr "Tidsplan for sikkerhedskopiering"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2871
+msgid "The settings are only for manual backup, which won't affect schedule settings."
+msgstr "Indstillingerne er kun til manuel sikkerhedskopiering, hvilket ikke påvirker tidsplanindstillingerne."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2490
+msgid "This backup can only be deleted manually"
+msgstr "Denne sikkerhedskopi kan kun slettes manuelt"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2485
+msgid "Backup Now"
+msgstr "Sikkerhedskopier nu"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2441
+msgid "Send Backup to Remote Storage:"
+msgstr "Send sikkerhedskopi til fjernlager:"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2437
+msgid "Save Backups to Local"
+msgstr "Gem sikkerhedskopier til din computer"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2409
+msgid "rename directory"
+msgstr "omdøb mappe"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2407
+msgid "Local Storage Directory:"
+msgstr "Lokal lagermappe:"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2402
+msgid "Back Up Manually"
+msgstr "Sikkerhedskopier manuelt"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2311
+#: includes/class-wpvivid-migrate.php:405
+#: includes/class-wpvivid-migrate.php:1538
+msgid "Cancel"
+msgstr "Annuller"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2305
+#: includes/class-wpvivid-migrate.php:1532 includes/class-wpvivid.php:4574
+#: includes/new_backup/class-wpvivid-backup2.php:1022
+#: includes/new_backup/class-wpvivid-backup2.php:1116
+msgid "Network Connection:"
+msgstr "Netværksforbindelse:"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2302
+#: includes/class-wpvivid-migrate.php:1529 includes/class-wpvivid.php:4571
+#: includes/new_backup/class-wpvivid-backup2.php:1019
+#: includes/new_backup/class-wpvivid-backup2.php:1113
+msgid "Speed:"
+msgstr "Hastighed:"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2301
+#: includes/class-wpvivid-migrate.php:1528 includes/class-wpvivid.php:4570
+#: includes/new_backup/class-wpvivid-backup2.php:1018
+#: includes/new_backup/class-wpvivid-backup2.php:1112
+msgid "Uploaded:"
+msgstr "Uploadet:"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1190
+msgid "The backup is stored on the remote storage, click on the button to download it to localhost."
+msgstr "Sikkerhedskopien er gemt på fjernlageret, klik på knappen for at downloade den til din localhost."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1189
+msgid "Retrieve the backup to localhost"
+msgstr "Hent sikkerhedskopien til din localhost"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1185
+msgid "Restore function will replace the current site's themes, plugins, uploads, database and/or other content directories with the existing equivalents in the selected backup."
+msgstr "Gendannelsesfunktionen erstatter det aktuelle websteds temaer, plugins, uploads, database og/eller andre indholdsmapper med de eksisterende ækvivalenter i den valgte sikkerhedskopi."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1184
+msgid "Please do not close the page or switch to other pages when a restore task is running, as it could trigger some unexpected errors."
+msgstr "Luk ikke siden eller skift til andre sider, når en gendannelsesopgave kører, da det kan udløse nogle uventede fejl."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1183
+msgid "Restore backup from:"
+msgstr "Gendan sikkerhedskopi fra:"
+
+#: admin/class-wpvivid-admin.php:279
+msgid "Step Three: Click 'Restore' button"
+msgstr "Trin tre: Klik på 'Gendan' knappen"
+
+#: admin/class-wpvivid-admin.php:278
+msgid "Step Two: Choose an option to complete restore, if any"
+msgstr "Trin to: Vælg en mulighed for at fuldføre gendannelse, hvis nogen"
+
+#: admin/class-wpvivid-admin.php:277
+msgid "Step One: In the backup list, click the 'Restore' button on the backup you want to restore. This will bring up the restore tab"
+msgstr "Trin et: På listen over sikkerhedskopier, skal du klikke på knappen 'Gendan' på den sikkerhedskopi, du vil gendanne. Dette åbner gendannelsesfanen"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1080
+#: admin/partials/wpvivid-backup-restore-page-display.php:2694
+msgid "This request might delete the backup being downloaded, are you sure you want to continue?"
+msgstr "Denne anmodning kan slette den sikkerhedskopi, der downloades, er du sikker på, at du vil fortsætte?"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1075
+#: includes/class-wpvivid-export-import.php:395
+#: includes/snapshot/class-wpvivid-snapshot.php:1046
+msgid "Please select at least one item."
+msgstr "Vælg mindst ét element."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1036
+msgid "This request will delete the backup being downloaded, are you sure you want to continue?"
+msgstr "Denne anmodning sletter den sikkerhedskopi, der downloades, er du sikker på, at du vil fortsætte?"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:1027
+msgid "This backup is locked, are you sure to remove it? This backup will be deleted permanently from your hosting (localhost) and remote storages."
+msgstr "Denne sikkerhedskopi er låst, så er du sikker på at du vil fjerne den? Denne sikkerhedskopi slettes permanent fra din hosting (localhost) og fjernlagre."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:506
+msgid "Delete the selected backups"
+msgstr "Slet de valgte sikkerhedskopier"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:495
+#: includes/class-wpvivid-migrate.php:1064
+#: includes/class-wpvivid-migrate.php:1202
+msgid "Delete"
+msgstr "Slet"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:492
+msgid "Storage"
+msgstr "Diskplads"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:491
+msgid "Backup"
+msgstr "Sikkerhedskopiering"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:444
+#: admin/partials/wpvivid-backup-restore-page-display.php:494
+#: admin/partials/wpvivid-backup-restore-page-display.php:1187
+#: includes/class-wpvivid.php:6845 includes/class-wpvivid.php:6981
+msgid "Restore"
+msgstr "Genskab"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:426
+msgid "Backups"
+msgstr "Sikkerhedskopier"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:411
+#: admin/partials/wpvivid-backup-restore-page-display.php:479
+msgid "How to restore your website from a backup(scheduled, manual, uploaded and received backup)"
+msgstr "Sådan gendannes dit websted fra en sikkerhedskopi (planlagt, manuel, uploadet og modtaget sikkerhedskopi)"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:405
+#: admin/partials/wpvivid-backup-restore-page-display.php:473
+msgid "->If backups are stored in web server, the plugin will list all relevant files immediately."
+msgstr "->Hvis sikkerhedskopier gemmes på webserveren, viser plugin'et alle relevante filer med det samme."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:404
+#: admin/partials/wpvivid-backup-restore-page-display.php:472
+msgid "->If backups are stored in remote storage, our plugin will retrieve the backup to your web server first. This may take a little time depending on the size of backup files. Please be patient. Then you can download them to your PC."
+msgstr "->Hvis sikkerhedskopier gemmes i fjernlager, henter vores plugin først sikkerhedskopien til din webserver. Dette kan tage lidt tid afhængigt af størrelsen på sikkerhedskopifilerne. Vær tålmodig. Derefter kan du downloade dem til din pc."
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:402
+#: admin/partials/wpvivid-backup-restore-page-display.php:470
+msgid "About backup download"
+msgstr "Om download af sikkerhedskopi"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:36
+#: admin/partials/wpvivid-remote-storage-page-display.php:369
+#: includes/snapshot/class-wpvivid-snapshots-list.php:42
+msgid "Actions"
+msgstr "Handlinger"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:35
+#: admin/partials/wpvivid-remote-storage-page-display.php:368
+msgid "Remote Storage Alias"
+msgstr "Fjernlager alias"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:34
+#: admin/partials/wpvivid-remote-storage-page-display.php:367
+msgid "Storage Provider"
+msgstr "Udbyder af opbevaringslager"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:26
+#: admin/partials/wpvivid-remote-storage-page-display.php:359
+msgid "Please choose one storage to save your backups (remote storage)"
+msgstr "Vælg et opbevaringslager for at gemme dine sikkerhedskopier (fjernlagring)"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:14
+#: admin/partials/wpvivid-remote-storage-page-display.php:352
+msgid "Storage Edit"
+msgstr "Rediger opbevaringslager"
+
+#: admin/partials/wpvivid-remote-storage-page-display.php:6
+#: admin/partials/wpvivid-remote-storage-page-display.php:350
+msgid "Storages"
+msgstr "Portallagre"
+
+#: admin/partials/wpvivid-settings-page-display.php:841
+msgid "Advanced Settings"
+msgstr "Avancerede indstillinger"
+
+#: admin/partials/wpvivid-settings-page-display.php:835
+msgid "General Settings"
+msgstr "Generelle indstillinger"
+
+#: admin/partials/wpvivid-settings-page-display.php:771
+msgid "e.g. if you choose a chunk size of 2MB, a 8MB file will use 4 chunks. Decreasing this value will break the ISP's transmission limit, for example:512KB"
+msgstr "f.eks. hvis du vælger en chunk-størrelse på 2MB, vil en 8MB-fil bruge 4 chunks. Reduktion af denne værdi vil bryde internetudbyderens transmissionsgrænse, for eksempel: 512KB"
+
+#: admin/partials/wpvivid-settings-page-display.php:768
+msgid "Chunk Size"
+msgstr "Styk størrelse"
+
+#: admin/partials/wpvivid-settings-page-display.php:811
+msgid "Adjust this value to apply for a temporary PHP memory limit for WPvivid backup plugin in restore process. We set this value to 256M by default. Increase the value if you encounter a memory exhausted error. Note: some web hosting providers may not support this."
+msgstr "Juster denne værdi for at sætte en midlertidig PHP-hukommelsesgrænse for WPvivid sikkerhedskopi-plugin i gendannelsesprocessen. Vi indstiller denne værdi til 256M som standard. Forøg værdien, hvis du støder på fejl i hukommelses grænsen. Bemærk: nogle webhosting udbydere understøtter muligvis ikke dette."
+
+#: admin/partials/wpvivid-settings-page-display.php:808
+msgid "PHP Memory Limit for restoration"
+msgstr "PHP Memory Limit grænse til gendannelse"
+
+#: admin/partials/wpvivid-settings-page-display.php:756
+msgid "Adjust this value to apply for a temporary PHP memory limit for WPvivid backup plugin to run a backup. We set this value to 256M by default. Increase the value if you encounter a memory exhausted error. Note: some web hosting providers may not support this."
+msgstr "Juster denne værdi for at sætte en midlertidig PHP-hukommelsesgrænse for WPvivid sikkerhedskopi-plugin til at udføre en sikkerhedskopi. Vi indstiller denne værdi til 256M som standard. Forøg værdien, hvis du støder på en fejl i hukommelse grænsen. Bemærk: nogle webhosting udbydere understøtter muligvis ikke dette."
+
+#: admin/partials/wpvivid-settings-page-display.php:753
+msgid "PHP Memory Limit for backup"
+msgstr "PHP Memory Limit grænse til sikkerhedskopiering"
+
+#: admin/partials/wpvivid-settings-page-display.php:806
+msgid "The time-out is not your server PHP time-out. With the execution time exhausted, our plugin will shut the process of restore down. If the progress of restore encounters a time-out, that means you have a medium or large sized website, please try to scale the value bigger."
+msgstr "Timeout er ikke din server PHP timeout. Når udførelsestiden er opbrugt, lukker vores plugin gendannelsesprocessen ned. Hvis gendannelsesforløbet støder på en timeout, betyder det, at du har et medium eller stort websted og du skal prøve at angive en større værdi."
+
+#: admin/partials/wpvivid-settings-page-display.php:803
+msgid "PHP script execution timeout for restore"
+msgstr "Timeout for udførelse af PHP-script til gendannelse"
+
+#: admin/partials/wpvivid-settings-page-display.php:751
+msgid "The time-out is not your server PHP time-out. With the execution time exhausted, our plugin will shut the process of backup down. If the progress of backup encounters a time-out, that means you have a medium or large sized website, please try to scale the value bigger."
+msgstr "Timeout er ikke din server PHP timeout. Når udførelsestiden er opbrugt, lukker vores plugin processen med sikkerhedskopiering ned. Hvis status for sikkerhedskopiering støder på en timeout, betyder det, at du har et medium eller stort websted og du skal prøve at angive en større værdi."
+
+#: admin/partials/wpvivid-settings-page-display.php:748
+msgid "PHP script execution timeout for backup"
+msgstr "Timeout for udførelse af PHP-script til sikkerhedskopiering"
+
+#: admin/partials/wpvivid-settings-page-display.php:746
+msgid "Using the option will ignore the file larger than the certain size in MB when backing up, '0' (zero) means unlimited."
+msgstr "Ved brug af indstillingen ignoreres filen, der er større end den bestemte størrelse i MB, når du sikkerhedskopierer, '0' (nul) betyder ubegrænset."
+
+#: admin/partials/wpvivid-settings-page-display.php:743
+msgid "Exclude the files which are larger than"
+msgstr "Ekskluder de filer, der er større end"
+
+#: admin/partials/wpvivid-settings-page-display.php:741
+msgid "Some web hosting providers limit large zip files (e.g. 200MB), and therefore splitting your backup into many parts is an ideal way to avoid hitting the limitation if you are running a big website.  Please try to adjust the value if you are encountering backup errors. When you set a value of 0MB, backups will be split every 4GB."
+msgstr "Nogle webhosting-udbydere begrænser store zip-filer (f.eks. 200 MB), og derfor er opdeling af din sikkerhedskopi i mange dele en ideel måde at undgå at ramme begrænsningen, hvis du kører et stort websted.  Prøv at justere værdien, hvis du støder på fejl i sikkerhedskopieringen. Hvis du bruger en værdi på 0 MB, opdeles sikkerhedskopierne i filer af 4GB."
+
+#: admin/partials/wpvivid-settings-page-display.php:738
+msgid "Compress Files Every"
+msgstr "Komprimer filer hver"
+
+#: admin/partials/wpvivid-settings-page-display.php:687
+msgid "It is recommended to choose PDO option if pdo_mysql extension is installed on your server, which lets you backup and restore your site faster."
+msgstr "Det anbefales at vælge BOB-indstilling, hvis pdo_mysql udvidelse er installeret på din server, hvilket giver dig mulighed for at sikkerhedskopiere og gendanne dit websted hurtigere."
+
+#: admin/partials/wpvivid-settings-page-display.php:681
+msgid "WPDB option has a better compatibility, but the speed of backup and restore is slower."
+msgstr "WPDB-indstillingen har en bedre kompatibilitet, men hastigheden på sikkerhedskopiering og gendannelse er langsommere."
+
+#: admin/partials/wpvivid-settings-page-display.php:676
+msgid "Database access method."
+msgstr "Metode til database adgang."
+
+#: admin/partials/wpvivid-settings-page-display.php:470
+msgid "Importing the json file can help you set WPvivid's configuration on another wordpress site quickly."
+msgstr "Import af json-filen kan hjælpe dig med at indstille WPvivid's konfigurationen på et andet WordPress-websted hurtigt."
+
+#: admin/partials/wpvivid-settings-page-display.php:469
+#: includes/class-wpvivid-export-import.php:1621
+#: includes/class-wpvivid-importer.php:158
+msgid "Import"
+msgstr "Importer"
+
+#: admin/partials/wpvivid-settings-page-display.php:465
+msgid "Click 'Export' button to save WPvivid settings on your local computer."
+msgstr "Klik på knappen 'Eksporter' for at gemme WPvivid-indstillinger på din lokale computer."
+
+#: admin/partials/wpvivid-settings-page-display.php:464
+msgid "Export"
+msgstr "Eksporter"
+
+#: admin/partials/wpvivid-settings-page-display.php:358
+msgid "Empty"
+msgstr "Tom"
+
+#: admin/partials/wpvivid-settings-page-display.php:334
+msgid "Calculate Sizes"
+msgstr "Beregn størrelser"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:2300
+#: admin/partials/wpvivid-settings-page-display.php:330
+#: includes/class-wpvivid-migrate.php:1527 includes/class-wpvivid.php:4569
+#: includes/new_backup/class-wpvivid-backup2.php:1017
+#: includes/new_backup/class-wpvivid-backup2.php:1111
+msgid "Total Size:"
+msgstr "Samlet størrelse:"
+
+#: admin/partials/wpvivid-settings-page-display.php:326
+msgid "Web-server disk space in use by WPvivid"
+msgstr "Webserver diskplads i brug af WPvivid"
+
+#: admin/partials/wpvivid-settings-page-display.php:279
+msgid "Pro feature: Add another email address to get report"
+msgstr "Pro-funktion: Tilføj endnu en e-mail adresse som skal modtage en rapport"
+
+#: admin/partials/wpvivid-settings-page-display.php:275
+msgid "Only send an email notification when a backup fails"
+msgstr "Send kun en e-mail besked, når en sikkerhedskopi mislykkes"
+
+#: admin/partials/wpvivid-settings-page-display.php:271
+msgid "Always send an email notification when a backup is complete"
+msgstr "Send altid en e-mail besked, når en sikkerhedskopi er færdig"
+
+#: admin/partials/wpvivid-settings-page-display.php:266
+msgid "Test Email"
+msgstr "Test e-mail"
+
+#: admin/partials/wpvivid-settings-page-display.php:252
+msgid "Enable email report"
+msgstr "Aktivér e-mail rapport"
+
+#: admin/partials/wpvivid-settings-page-display.php:187
+msgid "The action is irreversible! It will remove all backups are out-of-date (including local web server and remote storage) if they exist."
+msgstr "Handlingen kan ikke fortrydes! Dette fjerner alle sikkerhedskopier, der er forældede (inklusive lokal webserver og fjernlagring), hvis de findes."
+
+#: admin/partials/wpvivid-settings-page-display.php:186
+msgid "Remove"
+msgstr "Fjern"
+
+#: admin/partials/wpvivid-settings-page-display.php:174
+msgid "Remote Storage Directory:"
+msgstr "Fjernlager-bibliotek:"
+
+#: admin/partials/wpvivid-settings-page-display.php:173
+msgid "Web Server Directory:"
+msgstr "Webserver-bibliotek:"
+
+#: admin/partials/wpvivid-settings-page-display.php:169
+msgid "Remove out-of-date backups"
+msgstr "Fjern forældede sikkerhedskopier"
+
+#: admin/partials/wpvivid-settings-page-display.php:164
+msgid "Display domain(url) of current site in backup name. (e.g. domain_wpvivid-5ceb938b6dca9_2019-05-27-07-36_backup_all.zip)"
+msgstr "Vis domæne (url) for det aktuelle websted i sikkerhedskopiens navn. (f.eks. domain_wpvivid-5ceb938b6dca9_2019-05-27-07-36_backup_all.zip)"
+
+#: admin/partials/wpvivid-settings-page-display.php:159
+msgid "Local storage directory:"
+msgstr "Lokal lagermappe:"
+
+#: admin/partials/wpvivid-settings-page-display.php:157
+msgid "Name your folder, this folder must be writable for creating backup files."
+msgstr "Navngiv din mappe, denne mappe skal der kunne skrives til for at oprette sikkerhedskopi-filerne."
+
+#: admin/partials/wpvivid-settings-page-display.php:155
+msgid "Backup Folder"
+msgstr "Sikkerhedskopi mappe"
+
+#: admin/partials/wpvivid-settings-page-display.php:138
+msgid "Keep storing the backups in localhost after uploading to remote storage"
+msgstr "Fortsæt med at gemme sikkerhedskopierne i localhost efter upload til fjernlager"
+
+#: admin/partials/wpvivid-settings-page-display.php:132
+msgid "Merge all the backup files into single package when a backup completes. This will save great disk spaces, though takes longer time. We recommended you check the option especially on sites with insufficient server resources."
+msgstr "Sammenflet alle sikkerhedskopifilerne til en enkelt pakke, når en sikkerhedskopi er færdig. Dette sparer store diskpladser, men tager længere tid. Vi anbefaler, at du tjekker indstillingen, især på websteder med utilstrækkelige server ressourcer."
+
+#: admin/partials/wpvivid-settings-page-display.php:126
+msgid "Show WPvivid backup plugin on top admin bar"
+msgstr "Vis WPvivid sikkerhedskopi-plugin øverste i admin panelet"
+
+#: admin/partials/wpvivid-settings-page-display.php:120
+msgid "Calculate the size of files, folder and database before backing up"
+msgstr "Beregn størrelsen på filer, mapper og database, før du sikkerhedskopierer"
+
+#: admin/partials/wpvivid-settings-page-display.php:115
+msgid "Pro feature: Retain more backups"
+msgstr "Pro-funktion: Bevar flere sikkerhedskopier"
+
+#: admin/partials/wpvivid-settings-page-display.php:115
+msgid "backups retained"
+msgstr "sikkerhedskopier bevares"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:362
+#: admin/partials/wpvivid-schedule-page-display.php:87
+#: admin/partials/wpvivid-schedule-page-display.php:124
+#: includes/class-wpvivid-schedule.php:113
+msgid "Custom"
+msgstr "Tilpasset"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:357
+#: admin/partials/wpvivid-schedule-page-display.php:118
+#: includes/class-wpvivid-migrate.php:1450
+#: includes/class-wpvivid-migrate.php:1474
+msgid "Only Database"
+msgstr "Kun database"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:353
+#: admin/partials/wpvivid-schedule-page-display.php:113
+#: includes/class-wpvivid-migrate.php:1446
+#: includes/class-wpvivid-migrate.php:1470
+msgid "WordPress Files (Exclude Database)"
+msgstr "WordPress-filer (ekskluder database)"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:349
+#: admin/partials/wpvivid-schedule-page-display.php:108
+#: includes/class-wpvivid-migrate.php:1442
+#: includes/class-wpvivid-migrate.php:1466
+msgid "Database + Files (WordPress Files)"
+msgstr "Database + filer (WordPress-filer)"
+
+#: admin/partials/wpvivid-schedule-page-display.php:48
+msgid "Being subjected to mechanisms of PHP, a scheduled backup task for your site will be triggered only when the site receives at least a visit at any page."
+msgstr "Da den er udsat for PHP-mekanismer, vil en planlagt sikkerhedskopi-opgave til dit websted kun blive udløst, når webstedet modtager mindst et besøg på en hvilken som helst side."
+
+#: admin/partials/wpvivid-schedule-page-display.php:208
+msgid "+ Add another schedule"
+msgstr "+ Tilføj en anden tidsplan"
+
+#: admin/partials/wpvivid-schedule-page-display.php:171
+msgid "Highlighted icon illuminates that you have choosed a remote storage to store backups"
+msgstr "Det fremhævede ikon viser, at du har valgt et fjernlager til at gemme sikkerhedskopier"
+
+#: admin/partials/wpvivid-schedule-page-display.php:32
+msgid "Advanced Schedule"
+msgstr "Avanceret tidsplan"
+
+#: admin/partials/wpvivid-backup-restore-page-display.php:365
+#: admin/partials/wpvivid-schedule-page-display.php:24
+#: admin/partials/wpvivid-schedule-page-display.php:36
+#: admin/partials/wpvivid-schedule-page-display.php:91
+#: admin/partials/wpvivid-schedule-page-display.php:128
+#: admin/partials/wpvivid-schedule-page-display.php:211
+#: includes/class-wpvivid-migrate.php:1458
+#: includes/class-wpvivid-migrate.php:1482
+#: includes/class-wpvivid-schedule.php:117
+msgid "Pro feature: learn more"
+msgstr "Pro-funktion: Få mere at vide"
+
+#: admin/partials/wpvivid-schedule-page-display.php:20
+msgid "Enable Incremental Backup"
+msgstr "Aktivér trinvis sikkerhedskopiering"
+
+#: admin/partials/wpvivid-schedule-page-display.php:15
+msgid "Enable backup schedule"
+msgstr "Aktivér tidsplan for sikkerhedskopiering"
+
+#: admin/partials/wpvivid-schedule-page-display.php:7
+msgid "Schedule Settings"
+msgstr "Planlæg Indstillinger"
+
+#: includes/snapshot/class-wpvivid-snapshot.php:1558
+#: includes/snapshot/class-wpvivid-snapshot.php:1598
+msgid "Support"
+msgstr "Support"
+
+#: admin/class-wpvivid-admin.php:1678
+msgid "Ultimate"
+msgstr "Ultimative"
+
+#: admin/class-wpvivid-admin.php:1676
+msgid "Freelancer"
+msgstr "Freelancer"
+
+#: admin/class-wpvivid-admin.php:1650
+msgid "5. Set up remote storage for child sites in bulk (for WPvivid Backup Pro only)"
+msgstr "5. Konfigurer fjernlagring til underordnede websteder på én gang (kun til WPvivid Backup Pro)"
+
+#: admin/class-wpvivid-admin.php:1645
+msgid "4. Install, claim and update WPvivid Backup Pro for child sites in bulk"
+msgstr "4. Installer, gør krav på og opdater WPvivid Backup Pro til underordnede websteder på én gang"
+
+#: admin/class-wpvivid-admin.php:1640
+msgid "3. Set WPvivid Backup Free and Pro settings for all child sites"
+msgstr "3. Angiv WPvivid Backup Gratis og Pro-indstillinger for alle underordnede websteder"
+
+#: admin/class-wpvivid-admin.php:1636
+msgid "2. Set backup schedules for all child sites"
+msgstr "2. Angiv planer for sikkerhedskopier af alle underordnede websteder"
+
+#: admin/class-wpvivid-admin.php:1633
+msgid "1. Create and download backups for a specific child site"
+msgstr "1. Opret og download sikkerhedskopier for et bestemt underordnet websted"
+
+#: admin/class-wpvivid-admin.php:1630
+msgid "Download WPvivid Backup for MainWP"
+msgstr "Download WPvivid Backup til MainWP"
+
+#: admin/class-wpvivid-admin.php:1627
+msgid "If you are a MainWP user, you can set up and control WPvivid Backup Free and Pro for every child site directly from your MainWP dashboard, using our WPvivid Backup for MainWP extension."
+msgstr "Hvis du er MainWP-bruger, kan du konfigurere og kontrollere WPvivid Backup Gratis og Pro for hvert underordnet websted direkte fra dit MainWP-kontrolpanel ved hjælp af vores WPvivid Backup til MainWP-udvidelse."
+
+#: admin/class-wpvivid-admin.php:1519
+#: includes/staging/class-wpvivid-staging-log-page.php:352
+msgid " Next page > "
+msgstr " Næste side > "
+
+#: admin/class-wpvivid-admin.php:1508
+#: includes/staging/class-wpvivid-staging-log-page.php:341
+msgid " < Pre page "
+msgstr " < Forrige side "
+
+#: admin/class-wpvivid-admin.php:1498 includes/class-wpvivid-importer.php:52
+#: includes/staging/class-wpvivid-staging-log-page.php:331
+msgid "Action"
+msgstr "Handling"
+
+#: admin/class-wpvivid-admin.php:1497
+#: includes/staging/class-wpvivid-staging-log-page.php:330
+msgid "Log File Name"
+msgstr "Logfil navn"
+
+#: admin/class-wpvivid-admin.php:1496
+#: includes/staging/class-wpvivid-staging-log-page.php:26
+#: includes/staging/class-wpvivid-staging-log-page.php:329
+msgid "Log Type"
+msgstr "Log-type"
+
+#: admin/class-wpvivid-admin.php:1495 includes/class-wpvivid-exporter.php:110
+#: includes/staging/class-wpvivid-staging-log-page.php:25
+#: includes/staging/class-wpvivid-staging-log-page.php:328
+msgid "Date"
+msgstr "Dato"
+
+#: admin/class-wpvivid-admin.php:1382
+msgid "Website Info Value"
+msgstr "Websted-info værdi"
+
+#: admin/class-wpvivid-admin.php:1381
+msgid "Website Info Key"
+msgstr "Websted-info nøgle"
+
+#: admin/class-wpvivid-admin.php:1377
+#: admin/partials/wpvivid-backup-restore-page-display.php:45
+#: admin/partials/wpvivid-backup-restore-page-display.php:455
+#: admin/partials/wpvivid-backup-restore-page-display.php:493
+#: includes/class-wpvivid.php:2821 includes/class-wpvivid.php:6837
+#: includes/class-wpvivid.php:6973
+#: includes/staging/class-wpvivid-staging-log-page.php:29
+msgid "Download"
+msgstr "Download"
+
+#: admin/class-wpvivid-admin.php:1374
+msgid "If you didn’t configure SMTP on your site, click the button below to download the relevant information (website info and error logs) to your PC when you are encountering some errors. Sending the files to us will help us diagnose what happened."
+msgstr "Hvis du ikke har konfigureret SMTP på dit website, skal du klikke på knappen nedenfor for at downloade de relevante oplysninger (webstedsoplysninger og fejlfindings-logfiler) til din pc, når du støder på nogle fejl. At sende filerne til os hjælper os med at diagnosticere, hvad der skete."
+
+#: admin/class-wpvivid-admin.php:1374
+msgid "Method 2."
+msgstr "Metode 2."
+
+#: admin/class-wpvivid-admin.php:1370
+msgid "Send Debug Information to Us"
+msgstr "Send fejlfindings oplysninger til os"
+
+#: admin/class-wpvivid-admin.php:1367
+msgid "Please describe your problem here."
+msgstr "Beskriv dit problem her."
+
+#: admin/class-wpvivid-admin.php:1358
+msgid "My web hosting provider is:"
+msgstr "Min webhosting udbyder er:"
+
+#: admin/class-wpvivid-admin.php:1346
+msgid "I am using:"
+msgstr "Jeg bruger:"
+
+#: admin/class-wpvivid-admin.php:1341
+msgid "Your email:"
+msgstr "Din e-mail:"
+
+#: admin/class-wpvivid-admin.php:1340
+msgid "WPvivid support email:"
+msgstr "WPvivid support e-mail:"
+
+#: admin/class-wpvivid-admin.php:1337
+msgid "If you have configured SMTP on your site, enter your email address and click the button below to send us the relevant information (website info and errors logs) when you are encountering errors. This will help us figure out what happened. Once the issue is resolved, we will inform you by your email address."
+msgstr "Hvis du har konfigureret SMTP på dit websted, skal du indtaste din e-mailadresse og klikke på knappen nedenfor for at sende os de relevante oplysninger (webstedsoplysninger og fejlfindings-logfiler), når du støder på fejl. Dette vil hjælpe os med at finde ud af, hvad der skete. Når problemet er løst, informerer vi dig via din e-mailadresse."
+
+#: admin/class-wpvivid-admin.php:1337
+msgid "Method 1."
+msgstr "Metode 1."
+
+#: admin/class-wpvivid-admin.php:1335
+msgid "There are two ways available to send us the debug information. The first one is recommended."
+msgstr "Der er to måder at sende os fejlfindingsoplysningerne på. Den første anbefales."
+
+#: admin/class-wpvivid-admin.php:1172 admin/class-wpvivid-admin.php:1259
+#: admin/partials/wpvivid-remote-storage-page-display.php:80
+#: admin/partials/wpvivid-remote-storage-page-display.php:377
+#: includes/customclass/class-wpvivid-amazons3-plus.php:297
+#: includes/customclass/class-wpvivid-dropbox.php:741
+#: includes/customclass/class-wpvivid-ftpclass.php:254
+#: includes/customclass/class-wpvivid-google-drive.php:472
+#: includes/customclass/class-wpvivid-one-drive.php:455
+#: includes/customclass/class-wpvivid-s3compat.php:618
+#: includes/customclass/class-wpvivid-sftpclass.php:244
+#: includes/upload-cleaner/class-wpvivid-upload-cleaner-setting.php:763
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: admin/class-wpvivid-admin.php:1130
+msgid "Premium"
+msgstr "Premium"
+
+#: admin/class-wpvivid-admin.php:1120
+msgid "MainWP"
+msgstr "MainWP"
+
+#: admin/class-wpvivid-admin.php:1109
+#: admin/partials/wpvivid-backup-restore-page-display.php:433
+#: admin/partials/wpvivid-backup-restore-page-display.php:2312
+#: includes/class-wpvivid.php:6826 includes/class-wpvivid.php:6932
+msgid "Log"
+msgstr "Log"
+
+#: admin/class-wpvivid-admin.php:1304
+msgid "Logs"
+msgstr "Logfiler"
+
+#: admin/class-wpvivid-admin.php:1096
+msgid "Debug"
+msgstr "Fejlfinding"
+
+#: admin/class-wpvivid-admin.php:1084
+msgid "Remote Storage"
+msgstr "Fjernlager"
+
+#: admin/class-wpvivid-admin.php:1078
+msgid "Schedule"
+msgstr "Tidsplan"
+
+#: admin/class-wpvivid-admin.php:889
+msgid "Class PclZip is not detected. Please update or reinstall your WordPress."
+msgstr "Class PclZip registreres ikke. Opdater eller geninstaller din WordPress."
+
+#: admin/class-wpvivid-admin.php:752
+msgid "As Amazon S3 and DigitalOcean Space have upgraded their connection methods, please delete the previous connections and re-add your Amazon S3/DigitalOcean Space accounts to make sure the connections work."
+msgstr "Da Amazon S3 og DigitalOcean Space har opgraderet deres forbindelsesmetoder, skal du slette de tidligere forbindelser og tilføje dine Amazon S3/DigitalOcean Space-konti igen for at sikre, at forbindelserne fungerer."
+
+#: admin/class-wpvivid-admin.php:608
+#: admin/partials/wpvivid-backup-restore-page-display.php:1642
+#: admin/partials/wpvivid-backup-restore-page-display.php:1655
+#: admin/partials/wpvivid-backup-restore-page-display.php:1666
+msgid "Restore completed successfully."
+msgstr "Gendannelse afsluttet med succes."
+
+#: admin/class-wpvivid-admin.php:602
+msgid "Cheers! WPvivid Backup plugin has restored successfully your website. If you found WPvivid Backup plugin helpful, a 5-star rating would be highly appreciated, which motivates us to keep providing new features."
+msgstr "Hej! WPvivid Backup plugin har gendannet med dit websted korrekt. Hvis du fandt WPvivid Backup-plugin nyttigt, ville en 5-stjernet vurdering blive meget værdsat, hvilket motiverer os til at fortsætte med at levere nye funktioner."
+
+#: admin/class-wpvivid-admin.php:586
+msgid "Migration is complete and htaccess file is replaced. In order to successfully complete the migration, you'd better reinstall 301 redirect plugin, firewall and security plugin, and caching plugin if they exist."
+msgstr "Overførelsen er fuldført, og htaccess-filen er erstattet. For at fuldføre overførelsen korrekt, må du hellere geninstallere 301 omdirigeringsplugin, firewall og sikkerhedsplugin og caching-plugin, hvis de findes."
+
+#: admin/class-wpvivid-admin.php:276
+msgid "Calculating the size of files, folder and database timed out. If you continue to receive this error, please go to the plugin settings, uncheck 'Calculate the size of files, folder and database before backing up', save changes, then try again."
+msgstr "Beregning af størrelsen på filer, mappe og database fik timeout. Hvis du fortsætter med at modtage denne fejl, skal du gå til plugin-indstillingerne, fjerne markeringen af 'Beregn størrelsen på filer, mappe og database, før du sikkerhedskopierer', gem ændringer og prøv derefter igen."
+
+#: admin/class-wpvivid-admin.php:275
+msgid "Warning: The alias already exists in storage list."
+msgstr "Advarsel: Aliasset findes allerede på lagerlisten."
+
+#: admin/class-wpvivid-admin.php:274
+#: includes/customclass/class-wpvivid-ftpclass.php:302
+#: includes/customclass/class-wpvivid-ftpclass.php:310
+msgid "Warning: An alias for remote storage is required."
+msgstr "Advarsel: Der kræves et alias for fjernlager."
+
+#: admin/class-wpvivid-admin.php:273
+msgid "Error:"
+msgstr "Fejl:"
+
+#: admin/class-wpvivid-admin.php:272
+msgid "Warning:"
+msgstr "Advarsel:"
+
+#: admin/class-wpvivid-admin.php:234
+msgid "Migrate WordPress"
+msgstr "Overfør WordPress"
+
+#: admin/class-wpvivid-admin.php:233
+msgid "Restore Your Site from a Backup"
+msgstr "Gendan dit websted fra en sikkerhedskopi"
+
+#: admin/class-wpvivid-admin.php:232
+msgid "Create a Manual Backup"
+msgstr "Opret en manuel sikkerhedskopi"
+
+#: admin/class-wpvivid-admin.php:231
+msgid "WPvivid Backup Settings"
+msgstr "WPvivid Sikkerhedskopi indstillinger"
+
+#: admin/class-wpvivid-admin.php:227
+#: includes/staging/class-wpvivid-staging.php:95
+msgid "How-to"
+msgstr "Vejledninger"
+
+#: admin/class-wpvivid-admin.php:204
+#: includes/snapshot/class-wpvivid-snapshot.php:1543
+#: includes/staging/class-wpvivid-staging.php:83
+msgid "Troubleshooting"
+msgstr "Fejlfinding"
+
+#: admin/class-wpvivid-admin.php:189
+#: includes/snapshot/class-wpvivid-snapshot.php:1536
+#: includes/staging/class-wpvivid-staging.php:76
+msgid "ChangeLog"
+msgstr "Ændringslog"
+
+#: admin/class-wpvivid-admin.php:186
+#: includes/snapshot/class-wpvivid-snapshot.php:1533
+#: includes/staging/class-wpvivid-staging.php:73
+msgid "Current Version: "
+msgstr "Nuværende version: "
+
+#: admin/class-wpvivid-admin.php:169 admin/class-wpvivid-admin.php:518
+#: admin/class-wpvivid-admin.php:524 admin/class-wpvivid-admin.php:533
+#: admin/class-wpvivid-admin.php:539 admin/class-wpvivid-admin.php:1090
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: admin/class-wpvivid-admin.php:146 admin/class-wpvivid-admin.php:160
+#: admin/class-wpvivid-admin.php:1072
+msgid "Backup & Restore"
+msgstr "Sikkerhedskopiering og gendannelse"
+
+#. Author URI of the plugin
+#: wpvivid-backuprestore.php
+msgid "https://wpvivid.com"
+msgstr "https://wpvivid.com"
+
+#. Description of the plugin
+#: wpvivid-backuprestore.php
+msgid "Clone or copy WP sites then move or migrate them to new host (new domain), schedule backups, transfer backups to leading remote storage. All in one."
+msgstr "Klon eller kopier WP-websteder, flyt eller overfør dem derefter til ny vært (nyt domæne), planlæg sikkerhedskopier, overfør sikkerhedskopier til førende tjenester af fjernlagring. Alt i ét."
+
+#. Plugin Name of the plugin
+#: wpvivid-backuprestore.php admin/partials/wpvivid-admin-display.php:47
+#: includes/class-wpvivid-export-import.php:94
+msgid "WPvivid Backup Plugin"
+msgstr "WPvivid Backup Plugin"

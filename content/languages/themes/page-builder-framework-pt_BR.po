@@ -1,0 +1,1992 @@
+# Translation of Themes - Page Builder Framework in Portuguese (Brazil)
+# This file is distributed under the same license as the Themes - Page Builder Framework package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-14 13:15:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Themes - Page Builder Framework\n"
+
+#. Description of the theme
+msgid "Page Builder Framework is a super fast, lightweight (less than 50kb on the frontend) and highly customizible WordPress theme made to work with all page builders such as Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, Thrive Architect, Brizy and more. It can be daunting to look for the perfect theme to pair with the page builder you love. Page Builder Framework is the only theme that has been specifically created for Page Builders. It has been written from ground up with SEO in mind, is 100% Gutenberg compatible and follows the latest web standards (HTML5 and schema.org markup). With its minimalistic approach and lots of customization options in the WordPress customizer, it enables you to build almost any type of website such as a Blog, Portfolio website, Agency website or WooCommerce storefront. Agency owners and Developers love Page Builder Framework for its flexibility and extendability when it comes to building outstanding client websites. If you’re not a coder, don’t worry! With endless options in the WordPress customizer it’s the perfect fit for users at any skill level. Are you using a Page Builder and still looking for the perfect theme? Look no further."
+msgstr "O Page Builder Framework é um tema WordPress super rápido, leve (menos de 50kb no frontend) e altamente personalizável feito para trabalhar com todos os construtores de páginas como Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, Thrive Architect e muito mais. Pode ser difícil procurar o tema perfeito para combinar com o criador de páginas que você adora. O Page Builder Framework é o único tema criado especificamente para construtores de páginas. Ele foi escrito desde o início com o SEO em mente e segue os mais recentes padrões da web (marcação HTML5 e schema.org). Com sua abordagem minimalista e muitas opções de personalização no personalizador WordPress, ele permite que você crie praticamente qualquer tipo de site, como um blog, site de portfólio, site de agência ou loja WooCommerce. Os proprietários e desenvolvedores de agências adoram o Page Builder Framework por sua flexibilidade e extensibilidade quando se trata de criar sites de clientes excelentes. Se você não é um programador, não se preocupe! Com opções infinitas no personalizador do WordPress, ele é perfeito para usuários em qualquer nível de habilidade. Você está usando um Page Builder e ainda está procurando o tema perfeito? Não procure mais."
+
+#. Theme Name of the theme
+#: inc/template-parts/footer.php:21
+msgid "Page Builder Framework"
+msgstr "Page Builder Framework"
+
+#: inc/settings/metaboxes/customizer.php:98
+msgid "Customize"
+msgstr "Personalize"
+
+#: inc/settings/activation-notice.php:24
+msgid "Thank you for choosing Page Builder Framework! Please visit the theme settings page to get started."
+msgstr "Grato por escolher o Page Builder Framework! Visite a página de configurações do tema para iniciar."
+
+#: inc/settings/activation-notice.php:21
+msgid "Welcome to Page Builder Framework!"
+msgstr "Boas-vindas ao Page Builder Framework!"
+
+#: inc/customizer/wpbf-kirki.php:4059
+msgid "Menu Item Settings"
+msgstr "Configurações do item de menu"
+
+#: inc/theme-settings.php:80
+msgid "Activation notice has been dismissed"
+msgstr "Dispensar aviso de ativação"
+
+#: inc/theme-settings.php:76
+msgid "Invalid Token"
+msgstr "Token inválido"
+
+#: inc/theme-settings.php:72
+msgid "Invalid Request"
+msgstr "Solicitação inválida"
+
+#: inc/theme-settings.php:20
+msgid "Theme Settings"
+msgstr "Configurações do tema"
+
+#: inc/customizer/wpbf-kirki.php:1591
+msgid "Boxed Layout"
+msgstr "Layout em caixa"
+
+#: inc/customizer/wpbf-kirki.php:731
+msgid "Excerpt Indicator"
+msgstr "Indicador de resumo"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:44
+#: inc/integration/edd/wpbf-kirki-edd.php:26
+msgid "Cart Menu Item"
+msgstr "Item de menu do carrinho"
+
+#: inc/customizer/wpbf-kirki.php:3022
+msgid "Pre Header Width"
+msgstr "Largura do pré cabeçalho"
+
+#: inc/customizer/wpbf-kirki.php:2418 inc/customizer/wpbf-kirki.php:2541
+#: inc/customizer/wpbf-kirki.php:2592 inc/customizer/wpbf-kirki.php:2642
+#: inc/customizer/wpbf-kirki.php:2692 inc/customizer/wpbf-kirki.php:2742
+#: inc/customizer/wpbf-kirki.php:2792 inc/customizer/wpbf-kirki.php:2842
+#: inc/customizer/wpbf-kirki.php:3686 inc/customizer/wpbf-kirki.php:3864
+#: inc/customizer/wpbf-kirki.php:4182 inc/customizer/wpbf-kirki.php:4309
+#: inc/customizer/wpbf-kirki.php:4621 inc/customizer/wpbf-kirki.php:4640
+#: inc/settings/metaboxes/premium.php:104
+#: inc/settings/metaboxes/recommended.php:99
+msgid "Learn More"
+msgstr "Saiba mais"
+
+#: inc/customizer/wpbf-kirki.php:2417 inc/customizer/wpbf-kirki.php:2540
+#: inc/customizer/wpbf-kirki.php:2591 inc/customizer/wpbf-kirki.php:2641
+#: inc/customizer/wpbf-kirki.php:2691 inc/customizer/wpbf-kirki.php:2741
+#: inc/customizer/wpbf-kirki.php:2791 inc/customizer/wpbf-kirki.php:2841
+#: inc/customizer/wpbf-kirki.php:3685 inc/customizer/wpbf-kirki.php:3863
+#: inc/customizer/wpbf-kirki.php:4181 inc/customizer/wpbf-kirki.php:4308
+#: inc/customizer/wpbf-kirki.php:4620 inc/customizer/wpbf-kirki.php:4639
+msgid "Premium Features available"
+msgstr "Recursos premium disponíveis"
+
+#: inc/customizer/wpbf-kirki.php:3170
+msgid "Mobile Logo"
+msgstr "Logo dispositivo móvel"
+
+#: inc/customizer/wpbf-kirki.php:356
+msgid "Post"
+msgstr "Post"
+
+#: inc/integration/elementor-pro.php:167
+msgid "After Sidebar"
+msgstr "Depois da barra lateral"
+
+#: inc/integration/elementor-pro.php:158
+msgid "Before Sidebar"
+msgstr "Antes da barra lateral"
+
+#: inc/integration/elementor-pro.php:149
+msgid "After Post"
+msgstr "Depois do post"
+
+#: inc/integration/elementor-pro.php:140
+msgid "Before Post"
+msgstr "Antes do post"
+
+#: inc/integration/elementor-pro.php:131
+msgid "After Footer"
+msgstr "Depois do rodapé"
+
+#: inc/integration/elementor-pro.php:122
+msgid "Before Footer"
+msgstr "Antes do rodapé"
+
+#: inc/integration/elementor-pro.php:58
+msgid "After Header"
+msgstr "Depois do cabeçalho"
+
+#: inc/integration/elementor-pro.php:49
+msgid "Before Header"
+msgstr "Antes do cabeçalho"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:439
+msgid "List"
+msgstr "Lista"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:1064
+msgid "Enable AJAX add to cart button"
+msgstr "Ativar AJAX no botão adicionar ao carrinho "
+
+#: assets/kirki/core/class-kirki-init.php:369
+msgid "Don't show this again"
+msgstr "Não mostrar isso novamente"
+
+#: assets/kirki/core/class-kirki-init.php:368
+msgid "Install Plugin"
+msgstr "Instalar plugin"
+
+#: assets/kirki/core/class-kirki-init.php:365
+msgid "Your theme uses a Font Awesome field for icons. To avoid issues with missing icons on your frontend we recommend you install the official Font Awesome plugin."
+msgstr "Seu tema usa um campo Font Awesome para ícones. Para evitar problemas com ícones ausentes na sua interface, recomendamos que você instale o plugin oficial do Font Awesome."
+
+#: inc/customizer/wpbf-kirki.php:673
+msgid "Author Avatar"
+msgstr "Avatar de autor"
+
+#: inc/customizer/wpbf-kirki.php:644
+msgid "Date"
+msgstr "Data"
+
+#: inc/customizer/wpbf-kirki.php:469
+msgid "Below Header"
+msgstr "Abaixo do cabeçalho"
+
+#: inc/integration/elementor-pro.php:68 inc/customizer/wpbf-kirki.php:468
+msgid "Before Content"
+msgstr "Antes do conteúdo"
+
+#: inc/customizer/wpbf-kirki.php:320
+msgid "Pagination"
+msgstr "Paginação"
+
+#: inc/customizer/wpbf-kirki.php:1224
+msgid "Image Beside Post Layout Settings"
+msgstr "Imagem ao lado das configurações de layout de post"
+
+#: inc/customizer/wpbf-kirki.php:1077 inc/customizer/wpbf-kirki.php:1402
+msgid "Stretch Featured Image"
+msgstr "Esticar imagem destacada"
+
+#: inc/helpers.php:290
+msgid "Scroll to Top"
+msgstr "Rolar para o topo"
+
+#: inc/customizer/wpbf-kirki.php:3194
+msgid "Logo Width"
+msgstr "Largura da logo"
+
+#: inc/customizer/wpbf-kirki.php:4446
+msgid "Powered by [theme_author]"
+msgstr "Desenvolvido por [theme_author]"
+
+#: inc/customizer/wpbf-kirki.php:4385
+msgid "&copy; [year] - [blogname] | All rights reserved"
+msgstr "&cópia; [ano] - [nomedoblog] | Todos os direitos reservados"
+
+#: inc/customizer/wpbf-kirki.php:3334
+msgid "Display Tagline on Mobile"
+msgstr "Exibir descrição no dispositivo móvel"
+
+#: inc/customizer/wpbf-kirki.php:2476
+msgid "Tagline Font Settings"
+msgstr "Configurações de fonte da descrição"
+
+#: inc/customizer/wpbf-kirki.php:2435
+msgid "Title Font Settings"
+msgstr "Configurações de fonte do título"
+
+#: inc/customizer/wpbf-kirki.php:2016
+msgid "Gap"
+msgstr "Espaço"
+
+#: inc/customizer/wpbf-kirki.php:1870
+msgid "Show after (px)"
+msgstr "Mostrar depois (px)"
+
+#: inc/customizer/wpbf-kirki.php:1378
+msgid "Post Title"
+msgstr "Título do post"
+
+#: inc/customizer/wpbf-kirki.php:1377
+msgid "Previous/Next Post"
+msgstr "Post anterior/próximo "
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:471
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:827
+#: inc/customizer/wpbf-kirki.php:1261
+msgid "Image Width"
+msgstr "Largura de imagem"
+
+#: inc/customizer/wpbf-kirki.php:1115
+msgid "Space Between"
+msgstr "Espaço entre"
+
+#: inc/customizer/wpbf-kirki.php:1068 inc/customizer/wpbf-kirki.php:1393
+msgid "Plain"
+msgstr "Simples"
+
+#: inc/customizer/wpbf-kirki.php:1062 inc/customizer/wpbf-kirki.php:1387
+msgid "Style"
+msgstr "Estilo"
+
+#: inc/customizer/wpbf-kirki.php:949
+msgid "Remove Prefix"
+msgstr "Remover prefixo"
+
+#: inc/customizer/wpbf-kirki.php:793
+msgid "Categories Title"
+msgstr "Título de categoria"
+
+#: inc/customizer/wpbf-kirki.php:484 inc/customizer/wpbf-kirki.php:654
+msgid "Separator"
+msgstr "Sepador"
+
+#: inc/customizer/wpbf-kirki.php:337
+msgid "Search Results"
+msgstr "Resultados de pesquisa"
+
+#: inc/customizer/wpbf-kirki.php:333
+msgid "Blog / Archive"
+msgstr "Blog / arquivo"
+
+#: inc/customizer/wpbf-kirki.php:204
+msgid "Site Title / Tagline"
+msgstr "Título / descrição do site"
+
+#: inc/theme-mods.php:129
+msgid "Search Toggle"
+msgstr "Alternar pesquisar"
+
+#: inc/integration/edd/edd-functions.php:75
+msgid "Easy Digital Downloads Product Page Sidebar"
+msgstr "Barra lateral de página do produto Easy Digital Downloads"
+
+#: inc/integration/edd/edd-functions.php:64
+msgid "Easy Digital Downloads Sidebar"
+msgstr "Barra lateral Easy Digital Downloads"
+
+#: inc/integration/edd/wpbf-kirki-edd.php:81
+msgid "Display Menu Item only on EDD related pages"
+msgstr "Exibir item de menu somente em páginas relacionadas a EDD"
+
+#: inc/integration/edd/wpbf-kirki-edd.php:19
+msgid "Easy Digital Downloads"
+msgstr "Easy Digital Downloads"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:1150
+msgid "Error Notice"
+msgstr "Aviso de erro"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:1137
+msgid "Success Notice"
+msgstr "Aviso de sucesso"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:1124
+msgid "Info Notice"
+msgstr "Aviso de informação"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:1111
+msgid "Store Notice"
+msgstr "Aviso de loja"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:122
+msgid "Turn the Search Menu Item into a Product Search"
+msgstr "Transforme o item do menu de pesquisa em uma pesquisa de produtos"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:121
+msgid "Product Search"
+msgstr "Pesquisa de produto"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:65
+msgid "Notices"
+msgstr "Avisos"
+
+#: inc/integration/woocommerce/woocommerce-functions.php:536
+#: inc/integration/edd/edd-functions.php:174
+msgid "Items in Cart"
+msgstr "Itens no carrinho"
+
+#: inc/helpers.php:767
+msgid "<span>1</span> Comment"
+msgstr "<span>1</span> Comentário"
+
+#: inc/helpers.php:961 inc/template-parts/navigation/menu-off-canvas.php:34
+#: inc/template-parts/navigation/menu-off-canvas-left.php:28
+#: inc/template-parts/navigation/menu-mobile-hamburger.php:28
+#: inc/template-parts/navigation/menu-full-screen.php:30
+#: inc/template-parts/navigation/menu-mobile-off-canvas.php:32
+msgid "Menu Toggle"
+msgstr "Alternância menu "
+
+#: inc/template-parts/navigation/menu-off-canvas.php:33
+#: inc/template-parts/navigation/menu-centered.php:23
+#: inc/template-parts/navigation/menu-left.php:21
+#: inc/template-parts/navigation/menu-right.php:27
+#: inc/template-parts/navigation/menu-stacked-advanced.php:37
+#: inc/template-parts/navigation/menu-off-canvas-left.php:27
+#: inc/template-parts/navigation/menu-full-screen.php:29
+#: inc/template-parts/navigation/menu-stacked.php:19
+#: inc/settings/metaboxes/customizer.php:21
+msgid "Site Navigation"
+msgstr "Navegação no site"
+
+#: inc/options.php:113
+msgid "Page Title"
+msgstr "Título da página"
+
+#: inc/options.php:109
+msgid "Disable Elements"
+msgstr "Desativar elementos"
+
+#: inc/options.php:106
+msgid "Contained"
+msgstr "Contido"
+
+#: comments.php:42 comments.php:43
+msgid "Comments Navigation"
+msgstr "Navegação de comentários "
+
+#: searchform.php:22
+msgid "Search for:"
+msgstr "Procurar:"
+
+#: inc/customizer/wpbf-kirki.php:4035
+msgid "Icon Size"
+msgstr "Tamanho de ícone"
+
+#: inc/customizer/wpbf-kirki.php:3456
+msgid "Custom \"title\" Tag"
+msgstr "Tag \"title\" personalizado"
+
+#: inc/customizer/wpbf-kirki.php:3439
+msgid "Custom \"alt\" Tag"
+msgstr "Tag \"alt\" personalizado"
+
+#: inc/customizer/wpbf-kirki.php:2196
+msgid "Primary Font Color"
+msgstr "Cor de fonte primária"
+
+#: inc/customizer/wpbf-kirki.php:2170
+msgid "Primary Background Color"
+msgstr "Cor de fundo primária"
+
+#: inc/customizer/wpbf-kirki.php:1526
+msgid "Search Form"
+msgstr "Formulário de pesquisa"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:111
+msgid "Display Menu Item only on WooCommerce related pages"
+msgstr "Exibir item de menu somente em páginas relacionadas ao WooCommerce"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:110
+#: inc/integration/edd/wpbf-kirki-edd.php:80
+msgid "Hide from non-Shop Pages"
+msgstr "Ocultar de páginas que não são loja"
+
+#: inc/customizer/wpbf-kirki.php:2066
+msgid "Widget Padding"
+msgstr "Espaçamento de widget"
+
+#: inc/customizer/wpbf-kirki.php:4473
+msgid "Footer Width"
+msgstr "Largura do rodapé"
+
+#: inc/customizer/wpbf-kirki.php:3831
+msgid "Sub Menu Separator"
+msgstr "Separador do submenu"
+
+#: inc/customizer/wpbf-kirki.php:941
+msgid "Headline"
+msgstr "Cabeçalho"
+
+#: inc/integration/gutenberg/gutenberg.php:71
+msgid "XXL"
+msgstr "XXL"
+
+#: inc/integration/gutenberg/gutenberg.php:70
+msgid "extra"
+msgstr "extra"
+
+#: inc/integration/gutenberg/gutenberg.php:64
+msgid "XL"
+msgstr "XL"
+
+#: inc/integration/gutenberg/gutenberg.php:63
+msgid "larger"
+msgstr "maior"
+
+#: inc/integration/gutenberg/gutenberg.php:57
+msgid "L"
+msgstr "L"
+
+#: inc/integration/gutenberg/gutenberg.php:56
+msgid "large"
+msgstr "grande"
+
+#: inc/integration/gutenberg/gutenberg.php:50
+msgid "M"
+msgstr "M"
+
+#: inc/integration/gutenberg/gutenberg.php:49
+msgid "regular"
+msgstr "regular"
+
+#: inc/integration/gutenberg/gutenberg.php:43
+msgid "S"
+msgstr "S"
+
+#: inc/integration/gutenberg/gutenberg.php:42
+msgid "small"
+msgstr "pequeno"
+
+#: inc/integration/gutenberg/gutenberg.php:36
+msgid "XS"
+msgstr "XS"
+
+#: inc/integration/gutenberg/gutenberg.php:35
+msgid "tiny"
+msgstr "muito pequeno"
+
+#: inc/helpers.php:734
+msgid "View all posts by %s"
+msgstr "Ver todos os post por %s"
+
+#: inc/customizer/wpbf-kirki.php:447
+msgid "Pages"
+msgstr "Páginas"
+
+#: inc/customizer/wpbf-kirki.php:283 inc/customizer/wpbf-kirki.php:446
+msgid "404 Page"
+msgstr "Página 404"
+
+#: inc/customizer/wpbf-kirki.php:445
+msgid "Search Page"
+msgstr "Página de pesquisa"
+
+#: inc/customizer/wpbf-kirki.php:444
+msgid "Single"
+msgstr "Único"
+
+#: inc/customizer/wpbf-kirki.php:442
+msgid "Front Page"
+msgstr "Página inicial"
+
+#: inc/customizer/wpbf-kirki.php:436
+msgid "Display Breadcrumbs on"
+msgstr "Exibir caminho de navegação no"
+
+#: inc/customizer/wpbf-kirki.php:290 inc/customizer/wpbf-kirki.php:426
+msgid "Breadcrumbs"
+msgstr "Caminho de navegação"
+
+#: inc/customizer/wpbf-kirki.php:297 inc/settings/metaboxes/customizer.php:53
+msgid "Theme Buttons"
+msgstr "Botões do tema"
+
+#: inc/customizer/wpbf-kirki.php:179 inc/settings/metaboxes/customizer.php:41
+msgid "Blog"
+msgstr "Blog"
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: inc/breadcrumbs.php:377
+msgid "Week %s"
+msgstr "Semana %s"
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: inc/breadcrumbs.php:375
+msgid "Minute %s"
+msgstr "Minuto %s"
+
+#. Translators: %s is the page number.
+#: inc/breadcrumbs.php:373
+msgid "Comment Page %s"
+msgstr "Página de comentários %s"
+
+#. Translators: %s is the page number.
+#: inc/breadcrumbs.php:371
+msgid "Page %s"
+msgstr "Página %s"
+
+#. Translators: %s is the search query.
+#: inc/breadcrumbs.php:369
+msgid "Search results for: %s"
+msgstr "Resultados da pesquisa para: %s"
+
+#: inc/customizer/wpbf-kirki.php:443 inc/breadcrumbs.php:367
+msgid "Archives"
+msgstr "Arquivos"
+
+#: inc/breadcrumbs.php:366
+msgid "404 Not Found"
+msgstr "404 não encontrado"
+
+#: inc/breadcrumbs.php:365
+msgid "Home"
+msgstr "Inicio"
+
+#: inc/breadcrumbs.php:364
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "Caminho de navegação"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:976
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:1025
+#: inc/customizer/wpbf-kirki.php:840 inc/customizer/wpbf-kirki.php:880
+msgid "Active"
+msgstr "Ativo"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:926
+msgid "Modern"
+msgstr "Moderno"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:919
+msgid "Tabs Layout"
+msgstr "Layout de aba"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:843
+msgid "Summary Separator"
+msgstr "Separador de resumo"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:716
+msgid "Out of Stock Notice"
+msgstr "Aviso de falta de estoque"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:676
+msgid "Price Font Size"
+msgstr "Tamanho da fonte de preço"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:637
+#: inc/customizer/wpbf-kirki.php:1192 inc/customizer/wpbf-kirki.php:1471
+msgid "Title Font Size"
+msgstr "Tamanho da fonte do título"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:541
+#: inc/customizer/wpbf-kirki.php:510 inc/customizer/wpbf-kirki.php:1847
+msgid "Alignment"
+msgstr "Alinhamento"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:526
+msgid "Square"
+msgstr "Quadrado"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:525
+msgid "Round"
+msgstr "Redondo"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:422
+msgid "Short Description"
+msgstr "Descrição curta"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:421
+msgid "Add to Cart Button"
+msgstr "Botão adicionar ao carrinho"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:420
+msgid "Price"
+msgstr "Preço"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:419
+msgid "Rating"
+msgstr "Classificação"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:408
+msgid "Structure"
+msgstr "Estrutura"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:373
+msgid "Grid Gap"
+msgstr "Espaçamento da grade"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:356
+msgid "Products per Row"
+msgstr "Produtos por linha"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:317
+msgid "Hide Breadcrumbs"
+msgstr "Ocultar caminho de navegação"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:261
+#: inc/integration/edd/wpbf-kirki-edd.php:220
+msgid "Count"
+msgstr "Contagem"
+
+#: inc/customizer/wpbf-kirki.php:1934 inc/customizer/wpbf-kirki.php:3968
+msgid "Icon Color"
+msgstr "Cor do ícone"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:202
+#: inc/integration/edd/wpbf-kirki-edd.php:161
+msgid "Adds a Cart Icon to your Mobile Navigation"
+msgstr "Adiciona um ícone de carrinho para sua navegação no dispositivo móvel"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:201
+#: inc/integration/edd/wpbf-kirki-edd.php:160
+msgid "Visibility (Mobile)"
+msgstr "Visibilidade (dispositivo móvel)"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:142
+#: inc/integration/edd/wpbf-kirki-edd.php:101
+msgid "Adds a Cart Icon to your Main Navigation"
+msgstr "Adiciona um ícone de carrinho à sua navegação principal"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:141
+#: inc/integration/edd/wpbf-kirki-edd.php:100
+msgid "Visibility (Desktop)"
+msgstr "Visibilidade (Desktop)"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:28
+msgid "Shop Page"
+msgstr "Página da loja"
+
+#: inc/integration/woocommerce/woocommerce-functions.php:520
+#: inc/integration/woocommerce/woocommerce-functions.php:529
+#: inc/integration/edd/edd-functions.php:158
+#: inc/integration/edd/edd-functions.php:167
+msgid "Shopping Cart"
+msgstr "Carrinho de compras"
+
+#: inc/integration/woocommerce/woocommerce-functions.php:357
+msgid "Out of stock"
+msgstr "Fora de estoque"
+
+#: inc/customizer/wpbf-kirki.php:3501
+msgid "Logo Container Width (Mobile)"
+msgstr "Largura do contêiner da logo (dispositivo móvel)"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:286
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:799
+#: inc/customizer/wpbf-kirki.php:928 inc/customizer/wpbf-kirki.php:1288
+msgid "Custom Content Width"
+msgstr "Largura personalizado do conteúdo"
+
+#: inc/settings/metaboxes/customizer.php:45
+msgid "Post Layout"
+msgstr "Layout de post"
+
+#: inc/template-parts/blog/blog-readmore.php:19
+msgid "Read more"
+msgstr "Leia mais"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:1083
+msgid "Side by Side"
+msgstr "Lado a lado"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:448
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:811
+#: inc/customizer/wpbf-kirki.php:1239
+msgid "Image Alignment"
+msgstr "Alinhamento de Imagem"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:511
+msgid "Inside"
+msgstr "Lado de dentro"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:510
+msgid "Outside"
+msgstr "Lado de fora"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:503
+msgid "Sale Badge"
+msgstr "Emblema de venda"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:391
+#: inc/customizer/wpbf-kirki.php:1133
+msgid "Content Alignment"
+msgstr "Alinhamento de Conteúdo"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:337
+msgid "Hide Ordering"
+msgstr "Ocultar pedidos"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:327
+msgid "Hide Result Count"
+msgstr "Ocultar contagem de resultado"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:51
+msgid "Product Page"
+msgstr "Página do produto"
+
+#: assets/kirki/controls/php/class-kirki-control-base.php:139
+msgid "Default Browser Font-Family"
+msgstr "Navegador padrão da família de fonte"
+
+#: assets/kirki/controls/php/class-kirki-control-base.php:138
+msgid "CSS Defaults"
+msgstr "Padrão css"
+
+#: searchform.php:23
+msgid "Search &hellip;"
+msgstr "Pesquisar &hellip;"
+
+#: inc/customizer/wpbf-kirki.php:4137
+msgid "Divider Color"
+msgstr "Cor do Divisor"
+
+#: inc/customizer/wpbf-kirki.php:2562
+msgid "The settings below will apply to all headlines if not configured separately."
+msgstr "As configurações abaixo serão aplicadas a todos os títulos, se não forem configurados separadamente."
+
+#: sidebar.php:28
+msgid "Add Widgets"
+msgstr "Adicionar widget"
+
+#: sidebar.php:27
+msgid "Your Sidebar Widgets will appear here."
+msgstr "Seus widget barra lateral aparecerão aqui  "
+
+#: inc/integration/woocommerce/woocommerce-functions.php:79
+msgid "WooCommerce Product Page Sidebar"
+msgstr "Página do produto WooCommerce barra lateral"
+
+#: inc/integration/woocommerce/woocommerce-functions.php:68
+msgid "WooCommerce Sidebar"
+msgstr "WooCommerce área de widgtes"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:92
+#: inc/integration/edd/wpbf-kirki-edd.php:61
+msgid "Product Page Sidebar"
+msgstr "Página do produto barra lateral"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:76
+#: inc/integration/edd/wpbf-kirki-edd.php:44
+msgid "Shop Page Sidebar"
+msgstr "Barra lateral da página da loja"
+
+#: inc/customizer/wpbf-kirki.php:4151 inc/customizer/wpbf-kirki.php:4279
+msgid "Sub Menu Arrow Color"
+msgstr "Cor da seta do submenu"
+
+#: inc/customizer/wpbf-kirki.php:3485 inc/customizer/wpbf-kirki.php:3502
+msgid "Defines the space in % the logo area takes in the navigation"
+msgstr "Define o espaço em % a área da logo leva na navegação"
+
+#: inc/customizer/wpbf-kirki.php:3484
+msgid "Logo Container Width"
+msgstr "Largura do Contêiner da Logo"
+
+#: inc/customizer/wpbf-kirki.php:2809
+msgid "H6 Settings"
+msgstr "configurações H6"
+
+#: inc/customizer/wpbf-kirki.php:2759
+msgid "H5 Settings"
+msgstr "configurações H5"
+
+#: inc/customizer/wpbf-kirki.php:2709
+msgid "H4 Settings"
+msgstr "Configurações H4"
+
+#: inc/customizer/wpbf-kirki.php:2659
+msgid "H3 Settings"
+msgstr "Configurações H3"
+
+#: inc/customizer/wpbf-kirki.php:2609
+msgid "H2 Settings"
+msgstr "configurações H2"
+
+#: inc/customizer/wpbf-kirki.php:2558
+msgid "H1 Settings"
+msgstr "configurações H1"
+
+#: inc/customizer/wpbf-kirki.php:2508
+msgid "Menu Font Settings"
+msgstr "Configurações de fonte do menu"
+
+#: inc/customizer/wpbf-kirki.php:2355 inc/customizer/wpbf-kirki.php:2445
+#: inc/customizer/wpbf-kirki.php:2486 inc/customizer/wpbf-kirki.php:2518
+#: inc/customizer/wpbf-kirki.php:2569 inc/customizer/wpbf-kirki.php:2619
+#: inc/customizer/wpbf-kirki.php:2669 inc/customizer/wpbf-kirki.php:2719
+#: inc/customizer/wpbf-kirki.php:2769 inc/customizer/wpbf-kirki.php:2819
+msgid "Font"
+msgstr "Fonte"
+
+#: inc/customizer/wpbf-kirki.php:2345
+msgid "Font Settings"
+msgstr "Configurações de fonte"
+
+#: inc/customizer/wpbf-kirki.php:2303
+msgid "Primary Border Color"
+msgstr "Cor da Borda Primária"
+
+#: inc/customizer/wpbf-kirki.php:2247
+msgid "Border Width"
+msgstr "Largura da Borda"
+
+#: inc/customizer/wpbf-kirki.php:894 inc/customizer/wpbf-kirki.php:1975
+#: inc/customizer/wpbf-kirki.php:2231 inc/customizer/wpbf-kirki.php:4007
+msgid "Border Radius"
+msgstr "Raio da Borda"
+
+#: inc/customizer/wpbf-kirki.php:462
+msgid "Position"
+msgstr "Posição"
+
+#: inc/customizer/wpbf-kirki.php:260
+msgid "H6"
+msgstr "H6"
+
+#: inc/customizer/wpbf-kirki.php:253
+msgid "H5"
+msgstr "H5"
+
+#: inc/customizer/wpbf-kirki.php:246
+msgid "H4"
+msgstr "H4"
+
+#: inc/customizer/wpbf-kirki.php:239
+msgid "H3"
+msgstr "H3"
+
+#: inc/customizer/wpbf-kirki.php:232
+msgid "H2"
+msgstr "H2"
+
+#: inc/customizer/wpbf-kirki.php:225
+msgid "H1"
+msgstr "H1"
+
+#: inc/customizer/wpbf-kirki.php:185 inc/settings/metaboxes/customizer.php:49
+msgid "Typography"
+msgstr "Tipografia"
+
+#: functions.php:104
+msgid "Footer Right"
+msgstr "Rodapé à direita"
+
+#: functions.php:103
+msgid "Footer Left"
+msgstr "Rodapé à esquerda"
+
+#: inc/helpers.php:540
+msgid "Next Post &rarr;"
+msgstr "Próximo Post &rarr;"
+
+#: inc/helpers.php:539
+msgid "&larr; Previous Post"
+msgstr "&larr; Post Anterior"
+
+#: searchform.php:23
+msgid "Press enter to search"
+msgstr "Pressione enter para pesquisar"
+
+#. translators: Search query
+#: inc/helpers.php:426
+msgid "Search Results for: %s"
+msgstr "Buscar resultados para: %s"
+
+#: inc/comments.php:63
+msgid "Edit"
+msgstr "Editar"
+
+#: inc/template-parts/single/single-tags.php:18
+#: inc/template-parts/blog/blog-tags.php:18
+msgid "Tags:"
+msgstr "Tags:"
+
+#: inc/helpers.php:752
+msgid "Posted on"
+msgstr "Postado em"
+
+#: inc/template-parts/single/single-categories.php:20
+#: inc/template-parts/blog/blog-categories.php:20
+msgid "Filed under:"
+msgstr "Arquivado em:"
+
+#: inc/template-parts/blog-layouts/default.php:49
+#: inc/template-parts/blog-layouts/grid.php:51
+#: inc/template-parts/blog-layouts/beside.php:63 page.php:44
+#: page-sidebar.php:44 single.php:69
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: inc/options.php:161
+msgid "Left Sidebar"
+msgstr "Barra lateral esquerda"
+
+#: inc/options.php:156
+msgid "Right Sidebar"
+msgstr "Barra lateral direita"
+
+#: inc/options.php:101
+msgid "Full Width"
+msgstr "Largura completa"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:307
+msgid "Hide Page Title"
+msgstr "Ocultar o título da página"
+
+#: inc/options.php:34
+msgid "Template Settings"
+msgstr "Configurações de modelo"
+
+#: inc/misc.php:27 inc/misc.php:39 inc/misc.php:66 inc/misc.php:78
+#: inc/misc.php:103 inc/misc.php:109
+msgid "Add Menu"
+msgstr "Adicionar Menu"
+
+#: inc/customizer/wpbf-kirki.php:2263
+msgid "Border Color"
+msgstr "Cor da Borda"
+
+#: inc/customizer/wpbf-kirki.php:3988
+msgid "Hamburger Icon Color"
+msgstr "Cor do ícone de hambúrguer"
+
+#: inc/customizer/wpbf-kirki.php:3890
+msgid "Hamburger"
+msgstr "hambúrguer"
+
+#: inc/customizer/wpbf-kirki.php:3705
+msgid "Sub Menu Alignment"
+msgstr "Alinhamento do submenu"
+
+#: inc/customizer/wpbf-kirki.php:3599
+msgid "Menu Item Spacing"
+msgstr "Espaçamento de item de menu"
+
+#: inc/customizer/wpbf-kirki.php:3583
+msgid "Menu Height"
+msgstr "Altura do menu"
+
+#: inc/customizer/wpbf-kirki.php:3566 inc/customizer/wpbf-kirki.php:3907
+msgid "Search Icon"
+msgstr "Ícone de pesquisa"
+
+#: inc/customizer/wpbf-kirki.php:3538
+msgid "Stacked"
+msgstr "Empilhado"
+
+#: inc/customizer/wpbf-kirki.php:3537
+msgid "Centered"
+msgstr "Centrado"
+
+#: inc/customizer/wpbf-kirki.php:3535
+msgid "Right (default)"
+msgstr "Direita (padrão)"
+
+#: inc/template-parts/navigation/menu-mobile-default.php:26
+#: inc/customizer/wpbf-kirki.php:211 inc/customizer/wpbf-kirki.php:2892
+#: inc/customizer/wpbf-kirki.php:2953 inc/customizer/wpbf-kirki.php:3529
+#: inc/customizer/wpbf-kirki.php:3883 inc/customizer/wpbf-kirki.php:4359
+#: inc/customizer/wpbf-kirki.php:4420
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/customizer/wpbf-kirki.php:3554
+msgid "Navigation Width"
+msgstr "Largura de Navegação"
+
+#: inc/customizer/wpbf-kirki.php:3308
+msgid "Display Tagline"
+msgstr "Exibir tagline"
+
+#: inc/customizer/wpbf-kirki.php:3429
+msgid "Custom Logo URL"
+msgstr "URL da logo personalizado"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:608
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:654
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:693
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:752
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:880
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:997
+#: inc/customizer/wpbf-kirki.php:565 inc/customizer/wpbf-kirki.php:853
+#: inc/customizer/wpbf-kirki.php:2135 inc/customizer/wpbf-kirki.php:3085
+#: inc/customizer/wpbf-kirki.php:3642 inc/customizer/wpbf-kirki.php:3793
+#: inc/customizer/wpbf-kirki.php:4114 inc/customizer/wpbf-kirki.php:4243
+#: inc/customizer/wpbf-kirki.php:4536
+msgid "Font Color"
+msgstr "Cor da Fonte"
+
+#: inc/template-parts/pre-header.php:17 inc/customizer/wpbf-kirki.php:2946
+#: inc/customizer/wpbf-kirki.php:2979 inc/customizer/wpbf-kirki.php:4413
+msgid "Column 2"
+msgstr "Coluna 2"
+
+#: inc/template-parts/pre-header.php:16 inc/customizer/wpbf-kirki.php:2885
+#: inc/customizer/wpbf-kirki.php:2918 inc/customizer/wpbf-kirki.php:4352
+msgid "Column 1"
+msgstr "Coluna 1"
+
+#: inc/customizer/wpbf-kirki.php:2868 inc/customizer/wpbf-kirki.php:4335
+msgid "Two Columns"
+msgstr "Duas colunas"
+
+#: inc/customizer/wpbf-kirki.php:2867 inc/customizer/wpbf-kirki.php:4334
+msgid "One Column"
+msgstr "Uma coluna"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:955
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:1011
+#: inc/customizer/wpbf-kirki.php:605 inc/customizer/wpbf-kirki.php:827
+#: inc/customizer/wpbf-kirki.php:866 inc/customizer/wpbf-kirki.php:1181
+#: inc/customizer/wpbf-kirki.php:1913 inc/customizer/wpbf-kirki.php:1955
+#: inc/customizer/wpbf-kirki.php:2122 inc/customizer/wpbf-kirki.php:2148
+#: inc/customizer/wpbf-kirki.php:2183 inc/customizer/wpbf-kirki.php:2209
+#: inc/customizer/wpbf-kirki.php:2283 inc/customizer/wpbf-kirki.php:2323
+#: inc/customizer/wpbf-kirki.php:2403 inc/customizer/wpbf-kirki.php:3125
+#: inc/customizer/wpbf-kirki.php:3247 inc/customizer/wpbf-kirki.php:3655
+#: inc/customizer/wpbf-kirki.php:3779 inc/customizer/wpbf-kirki.php:3803
+#: inc/customizer/wpbf-kirki.php:4100 inc/customizer/wpbf-kirki.php:4124
+#: inc/customizer/wpbf-kirki.php:4230 inc/customizer/wpbf-kirki.php:4253
+#: inc/customizer/wpbf-kirki.php:4576
+msgid "Hover"
+msgstr "Hover(passar o mouse)"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:383
+#: inc/customizer/wpbf-kirki.php:2027
+msgid "Collapse"
+msgstr "Colapso"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:379
+#: inc/customizer/wpbf-kirki.php:2026
+msgid "Small"
+msgstr "Pequeno"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:380
+#: inc/customizer/wpbf-kirki.php:2025
+msgid "Medium"
+msgstr "Médio"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:381
+#: inc/customizer/wpbf-kirki.php:2024
+msgid "Large"
+msgstr "Grande"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:382
+#: inc/customizer/wpbf-kirki.php:2023
+msgid "xLarge"
+msgstr "xgrande"
+
+#: inc/customizer/wpbf-kirki.php:2022
+msgid "Divider"
+msgstr "Divisor"
+
+#: inc/customizer/wpbf-kirki.php:1837
+msgid "Select if you would like to display a scroll to top arrow"
+msgstr "Selecione se você deseja exibir uma rolagem para a seta superior"
+
+#: inc/customizer/wpbf-kirki.php:304 inc/customizer/wpbf-kirki.php:1836
+msgid "ScrollTop"
+msgstr "ScrollTop(Mover para o Topo)"
+
+#: inc/customizer/wpbf-kirki.php:1782
+msgid "Vertical"
+msgstr "Vertical"
+
+#: inc/customizer/wpbf-kirki.php:1755
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: inc/customizer/wpbf-kirki.php:1728
+msgid "Spread"
+msgstr "Espalhado"
+
+#: inc/customizer/wpbf-kirki.php:1701
+msgid "Blur"
+msgstr "Borrão"
+
+#: inc/customizer/wpbf-kirki.php:1684
+msgid "Box Shadow"
+msgstr "Sombra da caixa"
+
+#: inc/customizer/wpbf-kirki.php:1601
+msgid "Margin"
+msgstr "Margem"
+
+#: inc/customizer/wpbf-kirki.php:1069 inc/customizer/wpbf-kirki.php:1394
+msgid "Boxed"
+msgstr "Em caixa"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:289
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:802
+#: inc/customizer/wpbf-kirki.php:931 inc/customizer/wpbf-kirki.php:1291
+#: inc/customizer/wpbf-kirki.php:1555 inc/customizer/wpbf-kirki.php:3023
+#: inc/customizer/wpbf-kirki.php:3555 inc/customizer/wpbf-kirki.php:4474
+msgid "Default: 1200px"
+msgstr "Padrão: 1200px"
+
+#: inc/customizer/wpbf-kirki.php:1551
+msgid "Page Width"
+msgstr "Largura da página"
+
+#: inc/helpers.php:534 inc/helpers.php:536 inc/customizer/wpbf-kirki.php:1371
+msgid "Post Navigation"
+msgstr "Navegação de post"
+
+#: inc/customizer/wpbf-kirki.php:645
+msgid "Comments"
+msgstr "Comentários"
+
+#: inc/customizer/wpbf-kirki.php:1029 inc/customizer/wpbf-kirki.php:1353
+msgid "Tags"
+msgstr "Tags"
+
+#: inc/customizer/wpbf-kirki.php:1028 inc/customizer/wpbf-kirki.php:1352
+msgid "Categories"
+msgstr "Categorias"
+
+#: inc/customizer/wpbf-kirki.php:1027 inc/customizer/wpbf-kirki.php:1351
+msgid "Read More"
+msgstr "Leia Mais"
+
+#: inc/customizer/wpbf-kirki.php:995 inc/customizer/wpbf-kirki.php:1335
+#: inc/options.php:118
+msgid "Featured Image"
+msgstr "Imagem em destaque"
+
+#: inc/customizer/wpbf-kirki.php:627 inc/customizer/wpbf-kirki.php:994
+#: inc/customizer/wpbf-kirki.php:1334
+msgid "Meta Data"
+msgstr "Metadados"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:418
+#: inc/customizer/wpbf-kirki.php:993 inc/customizer/wpbf-kirki.php:1333
+#: inc/customizer/wpbf-kirki.php:1503
+msgid "Title"
+msgstr "Título"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:84
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:100
+#: inc/integration/edd/wpbf-kirki-edd.php:53
+#: inc/integration/edd/wpbf-kirki-edd.php:70 inc/customizer/wpbf-kirki.php:968
+#: inc/customizer/wpbf-kirki.php:1308 inc/customizer/wpbf-kirki.php:2008
+#: inc/options.php:166
+msgid "No Sidebar"
+msgstr "Sem barra lateral"
+
+#: inc/integration/edd/wpbf-kirki-edd.php:50
+#: inc/integration/edd/wpbf-kirki-edd.php:67 inc/customizer/wpbf-kirki.php:965
+#: inc/customizer/wpbf-kirki.php:1305 inc/options.php:91 inc/options.php:151
+msgid "Inherit Global Settings"
+msgstr "Herdar configurações globais"
+
+#: inc/customizer/wpbf-kirki.php:1054
+msgid "Image Beside Post"
+msgstr "Imagem ao lado do post"
+
+#: inc/customizer/wpbf-kirki.php:774
+msgid "Read More Text"
+msgstr "Leia mais texto"
+
+#: inc/customizer/wpbf-kirki.php:757
+msgid "Button (Primary)"
+msgstr "Botão (primário)"
+
+#: inc/customizer/wpbf-kirki.php:756
+msgid "Button"
+msgstr "Botão"
+
+#: inc/customizer/wpbf-kirki.php:218 inc/customizer/wpbf-kirki.php:755
+#: inc/customizer/wpbf-kirki.php:1514 inc/customizer/wpbf-kirki.php:2891
+#: inc/customizer/wpbf-kirki.php:2916 inc/customizer/wpbf-kirki.php:2952
+#: inc/customizer/wpbf-kirki.php:2977 inc/customizer/wpbf-kirki.php:4358
+#: inc/customizer/wpbf-kirki.php:4383 inc/customizer/wpbf-kirki.php:4419
+#: inc/customizer/wpbf-kirki.php:4444
+msgid "Text"
+msgstr "Texto"
+
+#: inc/customizer/wpbf-kirki.php:749
+msgid "Read More Link"
+msgstr "Leia mais link"
+
+#: inc/customizer/wpbf-kirki.php:708
+msgid "By default the excerpt length is set to return 55 words."
+msgstr "Por padrão, o comprimento do trecho está definido para retornar 55 palavras."
+
+#: inc/customizer/wpbf-kirki.php:707
+msgid "Excerpt Length"
+msgstr "Comprimento de resumo"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:149
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:209
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:268
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:509
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:723
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:848
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:872
+#: inc/integration/edd/wpbf-kirki-edd.php:108
+#: inc/integration/edd/wpbf-kirki-edd.php:168
+#: inc/integration/edd/wpbf-kirki-edd.php:227 inc/customizer/wpbf-kirki.php:948
+#: inc/customizer/wpbf-kirki.php:1379 inc/customizer/wpbf-kirki.php:1542
+msgid "Hide"
+msgstr "Ocultar"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:148
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:208
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:267
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:722
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:849
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:871
+#: inc/integration/edd/wpbf-kirki-edd.php:107
+#: inc/integration/edd/wpbf-kirki-edd.php:167
+#: inc/integration/edd/wpbf-kirki-edd.php:226 inc/customizer/wpbf-kirki.php:947
+#: inc/customizer/wpbf-kirki.php:1541
+msgid "Show"
+msgstr "Mostrar"
+
+#: inc/customizer/wpbf-kirki.php:643
+msgid "Author"
+msgstr "Autor"
+
+#: inc/customizer/wpbf-kirki.php:371
+msgid "Pre Header"
+msgstr "Pré cabeçalho"
+
+#: inc/customizer/wpbf-kirki.php:392
+msgid "Mobile Navigation"
+msgstr "Navegação Móvel"
+
+#: inc/customizer/wpbf-kirki.php:385
+msgid "Sub Menu"
+msgstr "Sub Menu"
+
+#: inc/customizer/wpbf-kirki.php:378
+msgid "Navigation"
+msgstr "Navegação"
+
+#: inc/integration/lifterlms/wpbf-kirki-lifterlms.php:72
+#: inc/customizer/wpbf-kirki.php:585 inc/customizer/wpbf-kirki.php:1169
+#: inc/customizer/wpbf-kirki.php:2390 inc/customizer/wpbf-kirki.php:3105
+#: inc/customizer/wpbf-kirki.php:4556
+msgid "Accent Color"
+msgstr "Cor do acento"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:433
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:519
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:1076
+#: inc/customizer/wpbf-kirki.php:269 inc/customizer/wpbf-kirki.php:341
+#: inc/customizer/wpbf-kirki.php:360 inc/customizer/wpbf-kirki.php:1047
+#: inc/customizer/wpbf-kirki.php:2861 inc/options.php:87
+#: inc/settings/metaboxes/customizer.php:33
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/customizer/wpbf-kirki.php:197 inc/customizer/wpbf-kirki.php:1020
+#: inc/customizer/wpbf-kirki.php:1344 inc/customizer/wpbf-kirki.php:4328
+#: inc/options.php:128 inc/settings/metaboxes/customizer.php:29
+msgid "Footer"
+msgstr "Rodapé"
+
+#: inc/customizer/wpbf-kirki.php:191 inc/customizer/wpbf-kirki.php:985
+#: inc/customizer/wpbf-kirki.php:1325 inc/options.php:123
+#: inc/settings/metaboxes/customizer.php:25
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: inc/customizer/wpbf-kirki.php:173 inc/customizer/wpbf-kirki.php:313
+msgid "General"
+msgstr "Geral"
+
+#: inc/customizer/wpbf-kirki.php:156
+msgid "Get all features with the <a href=\"%1s\" target=\"_blank\">Premium Add-On</a>!"
+msgstr "Obtenha todos os recursos com o <a href=\"%1s\" target=\"_blank\">Premium Add-On</a>!"
+
+#: inc/customizer/wpbf-kirki.php:150
+msgid "Premium Features available!"
+msgstr "Recurso premium disponíveis!"
+
+#: inc/customizer/wpbf-kirki.php:86
+msgid "Background"
+msgstr "Fundo"
+
+#: inc/customizer/wpbf-kirki.php:85 inc/settings/metaboxes/customizer.php:17
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer/wpbf-kirki.php:1098 inc/customizer/wpbf-kirki.php:1434
+#: inc/customizer/wpbf-kirki.php:1562 inc/customizer/wpbf-kirki.php:1624
+#: inc/customizer/wpbf-kirki.php:3745 inc/customizer/wpbf-kirki.php:4066
+msgid "Padding"
+msgstr "Espaçamento"
+
+#: inc/comments.php:79
+msgid "Your comment has yet to be approved."
+msgstr "Seu comentário ainda não foi aprovado."
+
+#: inc/comments.php:67
+msgid "F d, Y"
+msgstr "F d, Y"
+
+#: inc/comments.php:26
+msgid "Pingback:"
+msgstr "Pingback:(pingdevolta)"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Ir para o conteúdo"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:58
+#: inc/integration/edd/wpbf-kirki-edd.php:33 inc/customizer/wpbf-kirki.php:276
+#: inc/customizer/wpbf-kirki.php:959 inc/customizer/wpbf-kirki.php:1299
+#: inc/customizer/wpbf-kirki.php:2000 inc/options.php:37
+#: inc/settings/metaboxes/customizer.php:37 functions.php:125
+msgid "Sidebar"
+msgstr "Barra Lateral"
+
+#: functions.php:93
+msgid "Pre Header Right"
+msgstr "Pre cabeçalho à direita"
+
+#: functions.php:92
+msgid "Pre Header Left"
+msgstr "Pre cabeçalho à esquerda"
+
+#: functions.php:81
+msgid "Mobile Menu"
+msgstr "Menu dispositivo móvel"
+
+#: functions.php:80
+msgid "Main Menu"
+msgstr "Menu principal"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Comentários estão fechados."
+
+#: comments.php:45
+msgid "Newer Comments &rarr;"
+msgstr "Comentários mais recentes &rarr;"
+
+#: comments.php:44
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentários mais antigos"
+
+#: comments.php:36
+msgid "Reply"
+msgstr "Resposta"
+
+#: inc/helpers.php:768 comments.php:26
+msgid "<span>%</span> Comments"
+msgstr "<span>%</span> Comentários"
+
+#: comments.php:25
+msgid "<span>One</span> Comment"
+msgstr "<span>1</span> Comentário"
+
+#: inc/helpers.php:766 comments.php:24
+msgid "<span>No</span> Comments"
+msgstr "<span>Nenhum</span> Comentário"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:417
+msgid "Category"
+msgstr "Categoria"
+
+#: assets/kirki/upgrade-notifications.php:30
+msgid "Important Upgrade Notice:"
+msgstr "Aviso importante de atualização:"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:220
+msgid "Ultra-Bold 900 Italic"
+msgstr "Ultra-Negrito 900 Itálico "
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:218
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:219
+msgid "Ultra-Bold 900"
+msgstr "Ultra-Negrito 900"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:217
+msgid "Extra-Bold 800 Italic"
+msgstr "Ultra-Negrito 800 Itálico"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:215
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:216
+msgid "Extra-Bold 800"
+msgstr "Extra-Negrito 800"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:214
+msgid "Bold 700 Italic"
+msgstr "Negrito 700 itálico"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:213
+msgid "Bold 700"
+msgstr "Negrito 700"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:212
+msgid "Semi-Bold 600 Italic"
+msgstr "Semi-negrito 600 itálico"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:210
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:211
+msgid "Semi-Bold 600"
+msgstr "Semi-negrito 600"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:209
+msgid "Medium 500 Italic"
+msgstr "Médio 500 Itálico"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:208
+msgid "Medium 500"
+msgstr "Médio 500"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:207
+msgid "Normal 400 Italic"
+msgstr "Normal 400 Itálico"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:205
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:206
+msgid "Normal 400"
+msgstr "Normal 400"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:204
+msgid "Book 300 Italic"
+msgstr "Book 300 Itálico"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:203
+msgid "Book 300"
+msgstr "Book 300"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:202
+msgid "Light 200 Italic"
+msgstr "Light 200 Itálico"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:201
+msgid "Light 200"
+msgstr "Light 200"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:200
+msgid "Ultra-Light 100 Italic"
+msgstr "Ultra-Light 100 Itálico"
+
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:198
+#: assets/kirki/modules/webfonts/class-kirki-fonts.php:199
+msgid "Ultra-Light 100"
+msgstr "Ultra-Light  100"
+
+#. translators: The title.
+#: assets/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:64
+msgid "Customizing &#9656; %s"
+msgstr "personalizar &#9656; %s"
+
+#: assets/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:61
+msgid "Customizing"
+msgstr "Personalizar"
+
+#. translators: %1$s represents the field ID where the error occurs. %2%s is
+#. buttonset/image.
+#: assets/kirki/field/class-kirki-field-radio.php:37
+msgid "Error in field %1$s. The \"mode\" argument has been deprecated since Kirki v0.8. Use the \"radio-%2$s\" type instead."
+msgstr "Erro no campo %1$s. o \"mode\" argumento foi descontinuada desde Kirki v0.8. Use o \"radio-%2$s\" digite em vez disso."
+
+#: assets/kirki/field/class-kirki-field-color.php:52
+msgid "Do not use \"alpha\" as an argument in color controls. Use \"choices[alpha]\" instead."
+msgstr "Não use \"alpha\" como um argumento em controles de cores. Usar \"choices[alpha]\" como alternativa."
+
+#: assets/kirki/deprecated/functions.php:19
+msgid "%1$s or %2$s"
+msgstr "%1$s ou %2$s"
+
+#: assets/kirki/core/class-kirki.php:237
+msgid "Kirki fields should not be added on customize_register. Please add them directly, or on init."
+msgstr "Os campos Kirki não devem ser adicionados em customize_register. Por favor, adicione-os diretamente ou no init."
+
+#: assets/kirki/core/class-kirki-init.php:289
+msgid "We detected you're using Kirki_Init::get_variables(). Please use Kirki_Util::get_variables() instead."
+msgstr "Nós detectamos que você está usando Kirki_Init::get_variables(). Por favor, useKirki_Util::get_variables() em vez."
+
+#. translators: The field ID where the error occurs.
+#: assets/kirki/core/class-kirki-field.php:498
+#: assets/kirki/core/class-kirki-field.php:509
+msgid "\"output\" invalid format in field %s. The \"output\" argument should be defined as an array of arrays."
+msgstr "\"output\" formato inválido no campo %s. o \"output\" argumento deve ser definido como uma array de arrays."
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: assets/kirki/core/class-kirki-field.php:375
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr "\"partial_refresh\" entrada inválida no campo %s"
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: assets/kirki/core/class-kirki-field.php:358
+msgid "Typo found in field %s - \"theme_mods\" vs \"theme_mod\""
+msgstr "erro digitação encontrado no campo %s - \"theme_mods\" vs \"theme_mod\""
+
+#. translators: %1$s represents the field ID where the error occurs. %2$s is
+#. the URL in the documentation site.
+#: assets/kirki/core/class-kirki-field.php:257
+#: assets/kirki/core/class-kirki-field.php:267
+msgid "Config not defined for field %1$s - See %2$s for details on how to properly add fields."
+msgstr "Configuração não definido para o campo %1$s - veja %2$s para detalhes sobre como adicionar campos corretamente."
+
+#. translators: %s represents the field ID where the error occurs.
+#: assets/kirki/core/class-kirki-field.php:248
+msgid "Typo found in field %s - setting instead of settings."
+msgstr "erro na digitação encontrado no campo %s - configuração em vez de configurações."
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:166
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:226
+#: inc/integration/edd/wpbf-kirki-edd.php:125
+#: inc/integration/edd/wpbf-kirki-edd.php:185
+#: inc/customizer/wpbf-kirki.php:1809 inc/customizer/wpbf-kirki.php:2376
+#: inc/customizer/wpbf-kirki.php:3227 inc/customizer/wpbf-kirki.php:3365
+#: inc/customizer/wpbf-kirki.php:3841
+#: assets/kirki/controls/php/class-kirki-control-typography.php:221
+msgid "Color"
+msgstr "Cor"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:213
+msgid "Margin Bottom"
+msgstr "Margem Inferior"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:205
+msgid "Margin Top"
+msgstr "Margem Superior"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:195
+msgid "Line-Through"
+msgstr "Line-Through(Linha-através)"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:194
+msgid "Overline"
+msgstr "Sobre a linha"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:193
+msgid "Underline"
+msgstr "Sublinhado"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:189
+msgid "Text Decoration"
+msgstr "Decoração de texto"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:180
+#: assets/kirki/controls/php/class-kirki-control-typography.php:196
+msgid "Initial"
+msgstr "Inicial"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:179
+msgid "Lowercase"
+msgstr "Minúsculas"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:178
+msgid "Uppercase"
+msgstr "Maiúsculas"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:177
+msgid "Capitalize"
+msgstr "Capitalizar(1º letra maiúsculas)"
+
+#: inc/customizer/wpbf-kirki.php:2866 inc/customizer/wpbf-kirki.php:2890
+#: inc/customizer/wpbf-kirki.php:2951 inc/customizer/wpbf-kirki.php:4333
+#: inc/customizer/wpbf-kirki.php:4357 inc/customizer/wpbf-kirki.php:4418
+#: assets/kirki/controls/php/class-kirki-control-typography.php:176
+#: assets/kirki/controls/php/class-kirki-control-typography.php:192
+msgid "None"
+msgstr "Nenhum"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:173
+msgid "Text Transform"
+msgstr "Transformação de Texto"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:163
+msgid "Justify"
+msgstr "Justificar"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:139
+#: assets/kirki/controls/php/class-kirki-control-typography.php:181
+#: assets/kirki/controls/php/class-kirki-control-typography.php:197
+msgid "Inherit"
+msgstr "Herdar"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:134
+msgid "Text Align"
+msgstr "Alinhamento de texto"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:93
+msgid "Variant"
+msgstr "Variante"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:87
+msgid "Backup Font"
+msgstr "Fonte de backup"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:83
+#: assets/kirki/controls/php/class-kirki-control-typography.php:88
+msgid "Select Font Family"
+msgstr "Selecione a Família de Fonte"
+
+#: assets/kirki/controls/php/class-kirki-control-typography.php:82
+msgid "Font Family"
+msgstr "Família de Fonte"
+
+#: assets/kirki/controls/php/class-kirki-control-switch.php:56
+#: assets/kirki/field/class-kirki-field-switch.php:40
+msgid "Off"
+msgstr "Desligado"
+
+#: assets/kirki/controls/php/class-kirki-control-switch.php:52
+#: assets/kirki/field/class-kirki-field-switch.php:39
+msgid "On"
+msgstr "Ligado"
+
+#: assets/kirki/controls/php/class-kirki-control-slider.php:67
+msgid "Reset"
+msgstr "redefinir"
+
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:419
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:421
+msgid "Change File"
+msgstr "Alterar arquivo"
+
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:419
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:423
+msgid "Add File"
+msgstr "Adicionar ficheiro"
+
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:387
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:389
+msgid "Change Image"
+msgstr "Alterar imagem"
+
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:387
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:391
+msgid "Add Image"
+msgstr "Adicionar imagem"
+
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:376
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:381
+msgid "No Image Selected"
+msgstr "Nenhuma imagem selecionada"
+
+#. translators: %s represents the number of rows we're limiting the repeater to
+#. allow.
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:227
+msgid "Limit: %s rows"
+msgstr "Limite: %s linhas"
+
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:121
+msgid "Select a Page"
+msgstr "Selecione uma página"
+
+#. translators: %s represents the label of the row.
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:86
+msgid "Add new %s"
+msgstr "Adicionar novo %s"
+
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:77
+msgid "row"
+msgstr "linha"
+
+#: assets/kirki/controls/views/image.php:40
+#: assets/kirki/field/class-kirki-field-image.php:53
+msgid "Choose image"
+msgstr "Escolher imagem"
+
+#: assets/kirki/controls/views/image.php:38
+#: assets/kirki/field/class-kirki-field-image.php:51
+msgid "No image selected"
+msgstr "Nenhuma imagem selecionada"
+
+#: assets/kirki/controls/views/image.php:35
+#: assets/kirki/field/class-kirki-field-image.php:48
+msgid "Change image"
+msgstr "Alterar imagem"
+
+#: assets/kirki/controls/views/image.php:34
+#: assets/kirki/controls/views/image.php:39
+#: assets/kirki/field/class-kirki-field-image.php:47
+#: assets/kirki/field/class-kirki-field-image.php:52
+msgid "Select image"
+msgstr "Selecione a imagem"
+
+#: inc/customizer/wpbf-kirki.php:2035 inc/customizer/wpbf-kirki.php:3730
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:136
+msgid "Width"
+msgstr "Largura"
+
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:135
+msgid "Spacing"
+msgstr "Espaçamento"
+
+#: inc/customizer/wpbf-kirki.php:3041 inc/customizer/wpbf-kirki.php:3932
+#: inc/customizer/wpbf-kirki.php:4492
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:137
+msgid "Height"
+msgstr "Altura"
+
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:134
+msgid "Size"
+msgstr "Tamanho"
+
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:133
+#: assets/kirki/controls/php/class-kirki-control-typography.php:151
+msgid "Center"
+msgstr "Centro"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:82
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:98
+#: inc/integration/edd/wpbf-kirki-edd.php:51
+#: inc/integration/edd/wpbf-kirki-edd.php:68 inc/customizer/wpbf-kirki.php:966
+#: inc/customizer/wpbf-kirki.php:1306 inc/customizer/wpbf-kirki.php:2006
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:132
+#: assets/kirki/controls/php/class-kirki-control-typography.php:157
+#: assets/kirki/field/class-kirki-field-spacing.php:35
+msgid "Right"
+msgstr "Direito"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:83
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:99
+#: inc/integration/edd/wpbf-kirki-edd.php:52
+#: inc/integration/edd/wpbf-kirki-edd.php:69 inc/customizer/wpbf-kirki.php:967
+#: inc/customizer/wpbf-kirki.php:1307 inc/customizer/wpbf-kirki.php:2007
+#: inc/customizer/wpbf-kirki.php:3536
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:131
+#: assets/kirki/controls/php/class-kirki-control-typography.php:145
+#: assets/kirki/field/class-kirki-field-spacing.php:34
+msgid "Left"
+msgstr "Esquerdo"
+
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:130
+#: assets/kirki/field/class-kirki-field-spacing.php:33
+msgid "Bottom"
+msgstr "Inferior"
+
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:129
+#: assets/kirki/field/class-kirki-field-spacing.php:32
+msgid "Top"
+msgstr "Superior"
+
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:128
+#: assets/kirki/controls/php/class-kirki-control-typography.php:126
+msgid "Word Spacing"
+msgstr "Espaçamento de palavras"
+
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:127
+#: assets/kirki/controls/php/class-kirki-control-typography.php:118
+msgid "Letter Spacing"
+msgstr "Espaçamento entre letras"
+
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:126
+msgid "Font Style"
+msgstr "Estilo de fonte"
+
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:125
+#: assets/kirki/controls/php/class-kirki-control-typography.php:110
+msgid "Line Height"
+msgstr "Altura da linha"
+
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:124
+msgid "Font Weight"
+msgstr "Espessura da fonte"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:563
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:772
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:893
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:1038
+#: inc/customizer/wpbf-kirki.php:909 inc/customizer/wpbf-kirki.php:1206
+#: inc/customizer/wpbf-kirki.php:1485 inc/customizer/wpbf-kirki.php:3144
+#: inc/customizer/wpbf-kirki.php:3266 inc/customizer/wpbf-kirki.php:3389
+#: inc/customizer/wpbf-kirki.php:3667 inc/customizer/wpbf-kirki.php:3815
+#: inc/customizer/wpbf-kirki.php:4163 inc/customizer/wpbf-kirki.php:4291
+#: inc/customizer/wpbf-kirki.php:4595
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:123
+#: assets/kirki/controls/php/class-kirki-control-typography.php:102
+msgid "Font Size"
+msgstr "Tamanho da fonte"
+
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:138
+#: assets/kirki/controls/php/class-kirki-control-dimension.php:41
+msgid "Invalid Value"
+msgstr "Valor inválido"
+
+#: assets/kirki/controls/php/class-kirki-control-base.php:137
+msgid "Google Fonts"
+msgstr "Google Fontes"
+
+#: assets/kirki/controls/php/class-kirki-control-base.php:136
+msgid "Standard Fonts"
+msgstr "Fontes padrão"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:438
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:925
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:1082
+#: inc/customizer/wpbf-kirki.php:1053 inc/customizer/wpbf-kirki.php:3889
+#: assets/kirki/controls/php/class-kirki-control-base.php:134
+#: assets/kirki/controls/views/image.php:36
+#: assets/kirki/field/class-kirki-field-image.php:49
+msgid "Default"
+msgstr "Padrão"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:119
+msgid "Fixed"
+msgstr "Fixo"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:116
+msgid "Scroll"
+msgstr "Rolagem"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:113
+msgid "Background Attachment"
+msgstr "Anexo de fundo"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:106
+msgid "Auto"
+msgstr "Auto"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:103
+msgid "Contain"
+msgstr "Conter"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:100
+msgid "Cover"
+msgstr "cobrir"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:97
+msgid "Background Size"
+msgstr "Tamanho do plano de fundo"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:91
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:122
+msgid "Center Bottom"
+msgstr "Centro inferior"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:90
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:121
+msgid "Center Center"
+msgstr "Centro Centro"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:89
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:120
+msgid "Center Top"
+msgstr "Centro Superior"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:88
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:119
+msgid "Right Bottom"
+msgstr "Inferior direito"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:87
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:118
+msgid "Right Center"
+msgstr "Centro Direito"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:86
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:117
+msgid "Right Top"
+msgstr "Superior direito"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:85
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:116
+msgid "Left Bottom"
+msgstr "Inferior esquerdo"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:84
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:115
+msgid "Left Center"
+msgstr "Centro Esquerdo"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:83
+#: assets/kirki/controls/php/class-kirki-control-dimensions.php:114
+msgid "Left Top"
+msgstr "Superior Esquerdo"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:81
+msgid "Background Position"
+msgstr "Posição de fundo"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:75
+msgid "Repeat Vertically"
+msgstr "Repetir verticalmente"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:74
+msgid "Repeat Horizontally"
+msgstr "Repetir Horizontalmente"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:73
+msgid "Repeat All"
+msgstr "Repetir tudo"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:72
+msgid "No Repeat"
+msgstr "Não Repetir"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:70
+msgid "Background Repeat"
+msgstr "fundo de repetição"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:63
+#: assets/kirki/controls/php/class-kirki-control-base.php:135
+msgid "Select File"
+msgstr "Selecione o arquivo"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:62
+#: assets/kirki/controls/php/class-kirki-control-base.php:133
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:386
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:418
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:443
+#: assets/kirki/controls/views/image.php:37
+#: assets/kirki/field/class-kirki-field-image.php:50
+msgid "Remove"
+msgstr "Remover"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:59
+#: assets/kirki/controls/php/class-kirki-control-base.php:132
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:408
+#: assets/kirki/controls/php/class-kirki-control-repeater.php:413
+msgid "No File Selected"
+msgstr "Nenhum arquivo selecionado"
+
+#: assets/kirki/controls/php/class-kirki-control-background.php:54
+msgid "Background Image"
+msgstr "Imagem de fundo"
+
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:587
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:731
+#: inc/integration/woocommerce/wpbf-kirki-woocommerce.php:934
+#: inc/customizer/wpbf-kirki.php:539 inc/customizer/wpbf-kirki.php:814
+#: inc/customizer/wpbf-kirki.php:1149 inc/customizer/wpbf-kirki.php:1452
+#: inc/customizer/wpbf-kirki.php:1647 inc/customizer/wpbf-kirki.php:1892
+#: inc/customizer/wpbf-kirki.php:2093 inc/customizer/wpbf-kirki.php:2109
+#: inc/customizer/wpbf-kirki.php:3064 inc/customizer/wpbf-kirki.php:3628
+#: inc/customizer/wpbf-kirki.php:3765 inc/customizer/wpbf-kirki.php:3948
+#: inc/customizer/wpbf-kirki.php:4086 inc/customizer/wpbf-kirki.php:4217
+#: inc/customizer/wpbf-kirki.php:4515
+#: assets/kirki/controls/php/class-kirki-control-background.php:48
+msgid "Background Color"
+msgstr "Cor de fundo"
+
+#: inc/helpers.php:562
+msgid "Next &rarr;"
+msgstr "Próximo &rarr;"
+
+#: inc/helpers.php:561
+msgid "&larr; Previous"
+msgstr "&larr; Anterior"
+
+#: inc/template-parts/article-none.php:18
+msgid "Something went wrong."
+msgstr "Algo deu errado."
+
+#: inc/template-parts/article-none.php:13
+msgid "Oops, this article couldn't be found!"
+msgstr "Opa, este artigo não foi encontrado!"
+
+#: inc/template-parts/404.php:31 inc/customizer/wpbf-kirki.php:1517
+msgid "Oops! We're sorry, this page couldn't be found!"
+msgstr "Opa! Desculpe, esta página não foi encontrada!"
+
+#: inc/template-parts/404.php:27 inc/customizer/wpbf-kirki.php:1506
+msgid "404 - This page couldn't be found."
+msgstr "404 - Esta página não pôde ser encontrada."
+
+#. Author URI of the theme
+msgid "https://mapsteps.com"
+msgstr "https://mapsteps.com"
+
+#. Author of the theme
+msgid "David Vongries"
+msgstr "David Vongries"
+
+#. Theme URI of the theme
+msgid "https://wp-pagebuilderframework.com"
+msgstr "https://wp-pagebuilderframework.com"

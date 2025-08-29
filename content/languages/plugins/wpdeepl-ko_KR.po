@@ -1,0 +1,409 @@
+# Translation of Plugins - DeepL API translation plugin - Stable (latest release) in Korean
+# This file is distributed under the same license as the Plugins - DeepL API translation plugin - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-08-26 05:39:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - DeepL API translation plugin - Stable (latest release)\n"
+
+#: wpdeepl.php:123
+msgid "Settings"
+msgstr "설정"
+
+#: wpdeepl.php:95
+msgid "Error loading WPDeepL"
+msgstr "WPDeepL 로드 오류"
+
+#: settings/wp-improved-settings.class.php:616
+msgid "Fichier '%s' pour %s"
+msgstr "Fichier '%s'가 %s를 붓습니다."
+
+#: settings/wp-improved-settings.class.php:543
+msgid "Server information"
+msgstr "서버 정보"
+
+#: settings/wp-improved-settings.class.php:472
+msgid "Update"
+msgstr "업데이트"
+
+#: settings/wp-improved-settings.class.php:245
+#: settings/wp-improved-settings.class.php:460
+#: settings/wp-improved-settings.class.php:517
+msgid "Attention, fonction non définie %s"
+msgstr "주의, 정의되지 않은 기능 %s"
+
+#: settings/wp-improved-settings.class.php:192
+msgid "Settings saved."
+msgstr "설정이 저장되었습니다."
+
+#: settings/wp-improved-settings.class.php:173
+msgid "Unable to submit this form, please refresh and try again."
+msgstr "이 양식을 제출할 수 없습니다. 새로고침하고 다시 시도하세요."
+
+#: settings/wp-improved-settings-wpdeepl.class.php:361
+msgid "Delete logs from previous months"
+msgstr "이전 달의 로그 삭제"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:345
+msgid "Full"
+msgstr "전체"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:344
+msgid "Minimal"
+msgstr "최소"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:343
+msgid "None"
+msgstr "없음"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:340
+msgid "Log level"
+msgstr "로그 수준"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:336
+msgid "Logging"
+msgstr "로깅"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:330
+msgid "Position of the metabox in the column"
+msgstr "열에서 메타박스의 위치"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:323
+msgid "Metabox priority"
+msgstr "메타박스 우선순위"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:319
+msgid "'Side' = metabox on the side column, 'Normal' = on the main column"
+msgstr "'Side' = 사이드 컬럼의 메타박스, 'Normal' = 메인 컬럼의 메타박스"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:311
+msgid "Metabox context"
+msgstr "메타박스 컨텍스트"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:297
+msgid "Select which post types you want the metabox to appear on. To duplicate posts in different languages (as a starting point for translation), it might be useful to use the \"Duplicate post\" feature of Polylang Pro, or a \"Duplicate post\" plugin."
+msgstr "메타박스를 표시할 게시물 유형을 선택합니다. 다른 언어로 게시물을 복제하려면(번역의 시작점으로) Polylang Pro의 \"Duplicate post\" 기능 또는 \"Duplicate post\" 플러그인을 사용하는 것이 유용할 수 있습니다."
+
+#: settings/wp-improved-settings-wpdeepl.class.php:292
+msgid "Metabox should be displayed on:"
+msgstr "메타박스는 다음에 표시되어야 합니다."
+
+#: settings/wp-improved-settings-wpdeepl.class.php:288
+msgid "Metabox"
+msgstr "메타박스"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:246
+#: settings/wp-improved-settings-wpdeepl.class.php:257
+msgid "Formality level : %s"
+msgstr "형식 수준: %s"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:229
+msgid "Default"
+msgstr "기본"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:225
+msgid "Formality level"
+msgstr "형식 수준"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:216
+msgid "Post content"
+msgstr "게시물 내용"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:210
+msgid "Post excerpt"
+msgstr "게시물 요약문"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:204
+msgid "Post title"
+msgstr "게시물 제목"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:200
+msgid "Translation by default"
+msgstr "기본 번역"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:190
+msgid "Displayed languages"
+msgstr "표시 언어"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:184
+msgid "By default, this plugin is only loaded on the admin side and never interacts with the front end. If you need to use the plugin on the front side of your website, please check this box"
+msgstr "기본적으로 이 플러그인은 관리자 측에만 로드되며 프론트 엔드와 상호 작용하지 않습니다. 웹사이트 첫 화면에서 플러그인을 사용해야 하는 경우 이 확인란을 선택해 주세요."
+
+#: settings/wp-improved-settings-wpdeepl.class.php:181
+msgid "Allow front end usage"
+msgstr "프런트엔드 사용 허용"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:173
+msgid "Default target language"
+msgstr "기본 대상 언어"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:165
+msgid "informal"
+msgstr "비공식"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:164
+msgid "formal"
+msgstr "공식"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:163
+msgid "default"
+msgstr "기본"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:146
+msgid "Pick a plan on <a href=\"https://www.deepl.com/pro-account/plan\">%s</a>"
+msgstr "<a href=\"https://www.deepl.com/pro-account/plan\">%s</a>에서 요금제 선택"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:141
+msgid "API Server"
+msgstr "API 서버"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:134
+msgid "<a target=\"_blank\" href=\"%s\">Create a DeepL Pro account here</a>. Get your <a target=\"_blank\" href=\"%s\">API key there</a>"
+msgstr "<a target=\"_blank\" href=\"%s\">여기에서 DeepL Pro 계정을 만드세요</a>. <a target=\"_blank\" href=\"%s\">API 키</a>를 받으세요."
+
+#: settings/wp-improved-settings-wpdeepl.class.php:130
+msgid "API Key"
+msgstr "API 키"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:125
+msgid "DeepL credentials"
+msgstr "DeepL 자격 증명"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:110
+msgid "Maintenance"
+msgstr "유지"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:106
+msgid "Integration"
+msgstr "완성"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:98
+#: settings/wp-improved-settings-wpdeepl.class.php:169
+msgid "Translation"
+msgstr "번역"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:94
+msgid "Credentials"
+msgstr "신임장"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:78
+msgid "<a href=\"%s\">Please provide required informations</a>"
+msgstr "<a href=\"%s\">필수 정보를 입력하세요</a>"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:73
+msgid "The DeepL plugin is not fully configured yet: <ul>%s</ul>"
+msgstr "DeepL 플러그인이 아직 완전히 구성되지 않았습니다: <ul>%s</ul>"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:65
+msgid "<li><a href=\"%s\">%s</a></li>"
+msgstr "<li><a href=\"%s\">%s</a></li>"
+
+#: settings/wp-improved-settings-wpdeepl.class.php:36
+msgid "DeepL settings"
+msgstr "DeepL 설정"
+
+#: settings/wp-improved-settings-api.class.php:1119
+msgid "Upload file and import"
+msgstr "파일 업로드 및 가져오기"
+
+#: settings/wp-improved-settings-api.class.php:1112
+msgid "Maximum size: %s"
+msgstr "최대 크기: %s"
+
+#: settings/wp-improved-settings-api.class.php:1112
+msgid "Choose a file from your computer:"
+msgstr "컴퓨터에서 파일 선택:"
+
+#: settings/wp-improved-settings-api.class.php:1103
+msgid "Before you can upload your import file, you will need to fix the following error:"
+msgstr "가져오기 파일을 업로드하기 전에 다음 오류를 수정해야 합니다."
+
+#: settings/wp-improved-settings-api.class.php:1076
+msgid "Select none"
+msgstr "선택하지 않음"
+
+#: settings/wp-improved-settings-api.class.php:1076
+msgid "Select all"
+msgstr "모두 선택"
+
+#: settings/wp-improved-settings-api.class.php:726
+msgid "Delete"
+msgstr "삭제"
+
+#: modules/deepl-translate-post.php:279
+msgid "Translation error"
+msgstr "번역 오류"
+
+#: modules/deepl-translate-post.php:274
+msgid "Nothing to update"
+msgstr "업데이트할 항목 없음"
+
+#: modules/deepl-translate-post.php:11
+msgid "The translation has failed. See logs for details"
+msgstr "번역에 실패했습니다. 자세한 내용은 로그 참조"
+
+#: modules/deepl-translate-post.php:7
+msgid "This post has been translated."
+msgstr "이 게시물은 번역되었습니다."
+
+#: deepl-configuration.class.php:321
+msgid "Show these target languages in bulk menu"
+msgstr "대량 메뉴에 이 대상 언어 표시"
+
+#: deepl-configuration.class.php:320
+msgid "Target languages for bulk actions"
+msgstr "대량 작업의 대상 언어"
+
+#: deepl-configuration.class.php:319
+msgid "Select which kind of content you want to be able to translate"
+msgstr "번역할 수 있는 콘텐츠 종류를 선택하세요."
+
+#: deepl-configuration.class.php:318
+msgid "Translate contents"
+msgstr "내용 번역"
+
+#: deepl-configuration.class.php:317
+msgid "Content types"
+msgstr "콘텐츠 유형"
+
+#: deepl-configuration.class.php:316
+msgid "Bulk translate"
+msgstr "대량 번역"
+
+#: deepl-configuration.class.php:315
+msgid "Translated %d posts."
+msgstr "게시물 %d개를 번역했습니다."
+
+#: deepl-configuration.class.php:314
+msgid "Translate to %s"
+msgstr "%s로 번역"
+
+#: deepl-configuration.class.php:214
+msgid "Append to content"
+msgstr "콘텐츠에 추가"
+
+#: deepl-configuration.class.php:213
+msgid "Replace content"
+msgstr "콘텐츠 바꾸기"
+
+#: deepl-configuration.class.php:30
+msgid "Free API plan (https://api-free.deepl.com)"
+msgstr "무료 API 플랜(https://api-free.deepl.com)"
+
+#: deepl-configuration.class.php:26
+msgid "Regular paid API Plan (https://api.deepl.com/v2/)"
+msgstr "일반 유료 API 요금제(https://api.deepl.com/v2/)"
+
+#: client/deeplapi-functions.php:70
+msgid "Did you select the right server ? If yes, check your plan on <a href=\"%s\">DeepL Pro website</a>. \"DeepL API\" should be included in it."
+msgstr "올바른 서버를 선택했습니까? 그렇다면 <a href=\"%s\">DeepL Pro 웹사이트</a>에서 요금제를 확인하세요. \"DeepL API\"가 포함되어야 합니다."
+
+#: client/deeplapi-functions.php:68
+msgid "No response from the server"
+msgstr "서버에서 응답이 없습니다"
+
+#: client/deeplapi-functions.php:64
+msgid "Request done in: %f milliseconds"
+msgstr "요청 완료 시간: %f밀리초"
+
+#: client/deeplapi-functions.php:62
+msgid "%s / %s characters translated"
+msgstr "%s / %s 문자 번역됨"
+
+#: client/deeplapi-functions.php:60
+msgid "%s characters remaining"
+msgstr "%s자 남음"
+
+#: client/deeplapi-functions.php:47
+msgid "Usage"
+msgstr "사용법"
+
+#: client/deeplapi-functions.php:13
+msgid "Target language '%s' not valid"
+msgstr "대상 언어 '%s'이(가) 유효하지 않습니다"
+
+#: admin/deepl-metabox.php:119
+msgid "Translate"
+msgstr "번역"
+
+#: admin/deepl-metabox.php:116
+msgid "Translating to"
+msgstr "번역 중"
+
+#: admin/deepl-metabox.php:52
+msgid "Please save or publish the post first"
+msgstr "게시물을 먼저 저장하거나 게시하세요."
+
+#: admin/deepl-metabox.php:21
+#: settings/wp-improved-settings-wpdeepl.class.php:40
+msgid "DeepL translation"
+msgstr "DeepL 번역"
+
+#: admin/deepl-elementor.php:43
+msgid "Style"
+msgstr "스타일"
+
+#: admin/deepl-elementor.php:27
+msgid "Info"
+msgstr "정보"
+
+#: admin/deepl-elementor.php:11
+msgid "Content"
+msgstr "콘텐츠"
+
+#: admin/deepl-admin-functions.php:176
+msgid "No log files"
+msgstr "로그 파일 없음"
+
+#: admin/deepl-admin-functions.php:160
+msgid "File '%s' for %s"
+msgstr "%s에 대한 파일 '%s'"
+
+#: admin/deepl-admin-functions.php:149
+msgid "Logs"
+msgstr "로그"
+
+#: admin/deepl-admin-functions.php:105
+msgid "Log files deleted"
+msgstr "로그 파일이 삭제됨"
+
+#: admin/deepl-admin-functions.php:94
+msgid "Clear logs"
+msgstr "로그 지우기"
+
+#: admin/deepl-admin-functions.php:84
+msgid "Dont't translate"
+msgstr "번역하지 않음"
+
+#: admin/deepl-admin-functions.php:52
+msgid "Automatic (no glossary)"
+msgstr "자동(용어집 없음)"
+
+#: admin/deepl-admin-functions.php:47
+msgid "Automatic"
+msgstr "자동"
+
+#. Author URI of the plugin
+#: wpdeepl.php
+msgid "https://www.fluenx.com/"
+msgstr "https://www.fluenx.com/"
+
+#. Author of the plugin
+#: wpdeepl.php
+msgid "Fluenx"
+msgstr "Fluenx"
+
+#. Description of the plugin
+#: wpdeepl.php
+msgid "Get DeepL translation magic right inside your WordPress editor (with a paid DeepL Pro account)"
+msgstr "워드프레스 편집기 내에서 바로 DeepL 번역 마법을 이용하세요(유료 DeepL Pro 계정 사용)."
+
+#. Plugin Name of the plugin
+#: wpdeepl.php
+msgid "DeepL for WordPress : translation plugin"
+msgstr "워드프레스용 DeepL: 번역 플러그인"

@@ -1,0 +1,5732 @@
+# Translation of Plugins - Brizy &#8211; Page Builder - Stable (latest release) in Portuguese (Portugal)
+# This file is distributed under the same license as the Plugins - Brizy &#8211; Page Builder - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-05-16 14:14:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: pt\n"
+"Project-Id-Version: Plugins - Brizy &#8211; Page Builder - Stable (latest release)\n"
+
+#: public/editor-build/282-wp/texts.php:1566
+msgid "URL of sermon detail page. If used will add a link to the heading to take the user to the sermon detail page. Requires the \"Sermon Detail\" widget to be placed on a page and that page url/slug placed in this field."
+msgstr "O URL da página de detalhes do sermão. Ao usar será adicionada uma ligação ao título para conduzir o utilizador à página de detalhes do sermão. Requer que o widget \"Detalhes do sermão\" seja incluído numa página e que o URL/slug seja adicionado neste campo."
+
+#: public/editor-build/282-wp/texts.php:1564
+msgid "URL of group detail page. If used will add a link to the heading to take the user to the group detail page. Requires the \"Group Detail\" widget to be placed on a page and that page url/slug placed in this field."
+msgstr "URL da página de detalhes do grupo. Ao usar será adicionada uma ligação ao título para conduzir o utilizador à página de detalhes do grupo. Requer que o widget \"Detalhes do grupo\" seja incluído numa página e que o URL/slug seja adicionado neste campo."
+
+#: public/editor-build/282-wp/texts.php:1563
+msgid "URL of event detail page. If used will add a link to the calendar titles to take the user to the event detail page. Requires the 'Event Detail' widget to be placed on a page and that page url/slug placed in this field."
+msgstr "URL da página de detalhes do evento. Ao usar será adicionada uma ligação aos títulos do calendário para conduzir o utilizador à página de detalhes do evento. Requer que o widget \"Detalhes do evento\" seja incluído numa página e que o URL/slug seja adicionado neste campo."
+
+#: public/editor-build/282-wp/texts.php:1503
+msgid "This should be a comma separate list of category slugs without spaces eg. if you wanted to use the categories \"Category Example 1\" and \"Category Example 2\" the list would be \"category-example-1,category-example-2\". This option removes the parent filter options."
+msgstr "Isto deverá ser uma lista das slugs das categorias, separadas por vírgulas e sem espaços. Por exemplo, se quiser usar as categorias \"Categoria exemplo 1\" e \"Categoria exemplo 2\", a lista deverá ser \"categoria-exemplo-1,categoria-exemplo-2\". Esta opção remove as opções de filtros superiores."
+
+#: public/editor-build/282-wp/texts.php:1487
+msgid "The list view default is the second position. If you change the order make sure the other view positions are updated to be unique."
+msgstr "Por omissão, a vista da lista é a segunda posição. Se alterar a ordem, actualize as posições das outras vistas para que todas sejam únicas."
+
+#: public/editor-build/282-wp/texts.php:1485
+msgid "The featured view default is the first position. If you change the order make sure the other view positions are updated to be unique."
+msgstr "Por omissão, a vista do destaque é a primeira posição. Se alterar a ordem, actualize as posições das outras vistas para que todas sejam únicas."
+
+#: public/editor-build/282-wp/texts.php:1482
+msgid "The calendar view default is the third position. If you change the order make sure the other view positions are updated to be unique."
+msgstr "Por omissão, a vista do calendário é a terceira posição. Se alterar a ordem, actualize as posições das outras vistas para que todas sejam únicas."
+
+#: public/editor-build/282-wp/texts.php:1395
+msgid "Speaker Filter"
+msgstr "Filtro de oradores"
+
+#: public/editor-build/282-wp/texts.php:1299
+msgid "Sermon Layout"
+msgstr "Layout do sermão"
+
+#: public/editor-build/282-wp/texts.php:1296
+msgid "Series Filter"
+msgstr "Filtro de séries"
+
+#: public/editor-build/282-wp/texts.php:1295
+msgid "Series"
+msgstr "Séries"
+
+#: public/editor-build/282-wp/texts.php:1273
+msgid "Search Filter"
+msgstr "Filtro de pesquisa"
+
+#: public/editor-build/282-wp/texts.php:1201
+msgid "Resource link"
+msgstr "Ligação para recurso"
+
+#: public/editor-build/282-wp/texts.php:1200
+msgid "Resource Link"
+msgstr "Ligação para recurso"
+
+#: public/editor-build/282-wp/texts.php:1103
+msgid "Preacher"
+msgstr "Pastor"
+
+#: public/editor-build/282-wp/texts.php:1056
+msgid "Passage"
+msgstr "Passagem"
+
+#: public/editor-build/282-wp/texts.php:1055
+msgid "Parent Category"
+msgstr "Categoria superior"
+
+#: public/editor-build/282-wp/texts.php:1011
+msgid "Odd Bg"
+msgstr "Fundo ímpar"
+
+#: public/editor-build/282-wp/texts.php:1008
+msgid "Number of months"
+msgstr "Número de meses"
+
+#: public/editor-build/282-wp/texts.php:948
+msgid "Months"
+msgstr "Meses"
+
+#: public/editor-build/282-wp/texts.php:933
+msgid "Missing Auth Token in config"
+msgstr "O token de autenticação está em falta na configuração"
+
+#: public/editor-build/282-wp/texts.php:891
+msgid "Meeting times"
+msgstr "Horas da reunião"
+
+#: public/editor-build/282-wp/texts.php:890
+msgid "Meeting day"
+msgstr "Dia da reunião"
+
+#: public/editor-build/282-wp/texts.php:889
+msgid "Meeting Time"
+msgstr "Hora da reunião"
+
+#: public/editor-build/282-wp/texts.php:888
+msgid "Meeting Day"
+msgstr "Dia da reunião"
+
+#: public/editor-build/282-wp/texts.php:885
+msgid "Media Links"
+msgstr "Ligações para multimédia"
+
+#: public/editor-build/282-wp/texts.php:884
+msgid "Media Corner"
+msgstr "Cantinho multimédia"
+
+#: public/editor-build/282-wp/texts.php:838
+msgid "List View"
+msgstr "Vista de lista"
+
+#: public/editor-build/282-wp/texts.php:747
+msgid "Images"
+msgstr "Imagens"
+
+#: public/editor-build/282-wp/texts.php:739
+msgid "If this is selected the Features option does not apply."
+msgstr "Se seleccionar, não se aplica a opção de funcionalidades."
+
+#: public/editor-build/282-wp/texts.php:735
+msgid "If this is selected and you would like the image to be a fallback when no video is available make sure to select \"Images\"."
+msgstr "Se seleccionar isto e quiser que a imagem seja uma alternativa caso não haja vídeo disponível, seleccione \"Imagens\"."
+
+#: public/editor-build/282-wp/texts.php:698
+msgid "Heading"
+msgstr "Título"
+
+#: public/editor-build/282-wp/texts.php:679
+msgid "Group Slider"
+msgstr "Slider do grupo"
+
+#: public/editor-build/282-wp/texts.php:677
+msgid "Group Layout"
+msgstr "Layout do grupo"
+
+#: public/editor-build/282-wp/texts.php:676
+msgid "Group Filter"
+msgstr "Filtro de grupos"
+
+#: public/editor-build/282-wp/texts.php:593
+msgid "Featured View"
+msgstr "Vista de destaques"
+
+#: public/editor-build/282-wp/texts.php:551
+msgid "Event Layout"
+msgstr "Layout do evento"
+
+#: public/editor-build/282-wp/texts.php:548
+msgid "Event Calendar"
+msgstr "Calendário do evento"
+
+#: public/editor-build/282-wp/texts.php:547
+msgid "Even Bg"
+msgstr "Fundo par"
+
+#: public/editor-build/282-wp/texts.php:468
+msgid "Detail Button"
+msgstr "Botão de detalhes"
+
+#: public/editor-build/282-wp/texts.php:457
+msgid "Defines which level 2 category for this specific filter. If selected will show the next level of categories as select options. If a Parent Category is selected above make sure to select a child category of that parent."
+msgstr "Define qual a categoria de nível 2 para este filtro específico. Ao seleccionar, será mostrado o nível seguinte de categorias como opções de selecção. Se for seleccionada uma categoria superior acima, certifique-se de seleccionar uma categoria dependente desse superior."
+
+#: public/editor-build/282-wp/texts.php:456
+msgid "Defines which level 1 category to use as a base for the layout."
+msgstr "Define qual a categoria de nível 1 para usar como base do layout."
+
+#: public/editor-build/282-wp/texts.php:347
+msgid "Childcare"
+msgstr "Cuidados infantis"
+
+#: public/editor-build/282-wp/texts.php:336
+msgid "Category Filter"
+msgstr "Filtro de categorias"
+
+#: public/editor-build/282-wp/texts.php:317
+msgid "Calendar View"
+msgstr "Vista do calendário"
+
+#: public/editor-build/282-wp/texts.php:305
+msgid "Button will display if text is entered and a detail page selected."
+msgstr "O botão será mostrado se digitar texto e seleccionar uma página de detalhes."
+
+#: public/editor-build/282-wp/texts.php:304
+msgid "Button text..."
+msgstr "Texto do botão..."
+
+#: public/editor-build/282-wp/texts.php:302
+msgid "Button name..."
+msgstr "Nome do botão..."
+
+#: public/editor-build/282-wp/texts.php:300
+msgid "Button Text..."
+msgstr "Texto do botão..."
+
+#: public/editor-build/282-wp/texts.php:299
+msgid "Button Text"
+msgstr "Texto do botão"
+
+#: public/editor-build/282-wp/texts.php:204
+msgid "Arrow"
+msgstr "Seta"
+
+#: public/editor-build/282-wp/texts.php:144
+msgid "Additional category filters require this selection. Defines which level 2 category for this specific filter. If selected will show the next level of categories as select options. If a Parent Category is selected above make sure to select a child category of that parent."
+msgstr "Os filtros adicionais de categorias requerem esta selecção. Define quais as categorias de nível 2 para este filtro específico. Se seleccionar, será mostrado o nível seguinte de categorias como opções de selecção. Se estiver seleccionada acima uma categoria superior, certifique-se de seleccionar uma categoria dependente dessa superior."
+
+#: public/editor-build/282-wp/texts.php:117
+msgid "Add Category Filter"
+msgstr "Adicionar filtro de categorias"
+
+#: brizy.php:71
+msgid "%1$s requires PHP version 5.6+, your currently running PHP %2$s. <b>%3$s IS NOT RUNNING.</b>"
+msgstr "%1$s requer o PHP 5.6 ou superior. De momento está a utilizar o PHP %2$s. <b>O %3$s NÃO ESTÁ A FUNCIONAR.</b>"
+
+#: admin/views/settings/general.php:13
+msgid "Activate %s for:"
+msgstr "Activar %s para:"
+
+#: admin/membership/membership.php:68
+msgid "Not Logged In"
+msgstr "Sem sessão iniciada"
+
+#: public/editor-build/282-wp/texts.php:187
+msgid "Amount"
+msgstr "Montante"
+
+#: public/editor-build/282-wp/texts.php:274
+msgid "Bottom Center"
+msgstr "Inferior ao centro"
+
+#: public/editor-build/282-wp/texts.php:275
+msgid "Bottom Left"
+msgstr "Inferior à esquerda"
+
+#: public/editor-build/282-wp/texts.php:276
+msgid "Bottom Right"
+msgstr "Inferior à direita"
+
+#: public/editor-build/282-wp/texts.php:339
+msgid "Center Center"
+msgstr "Centro"
+
+#: public/editor-build/282-wp/texts.php:340
+msgid "Center Left"
+msgstr "Centro à esquerda"
+
+#: public/editor-build/282-wp/texts.php:341
+msgid "Center Right"
+msgstr "Centro à direita"
+
+#: public/editor-build/282-wp/texts.php:620
+msgid "Fit"
+msgstr "Ajustar"
+
+#: public/editor-build/282-wp/texts.php:818
+msgid "Lazy Load"
+msgstr "Carregamento diferido"
+
+#: public/editor-build/282-wp/texts.php:1115
+msgid "Privacy Mode"
+msgstr "Modo de privacidade"
+
+#: public/editor-build/282-wp/texts.php:1192
+msgid "Repeat-X"
+msgstr "Repetir em X"
+
+#: public/editor-build/282-wp/texts.php:1193
+msgid "Repeat-Y"
+msgstr "Repetir em Y"
+
+#: public/editor-build/282-wp/texts.php:1391
+msgid "Space"
+msgstr "Espaço"
+
+#: public/editor-build/282-wp/texts.php:1445
+msgid "Suggested Videos"
+msgstr "Vídeos sugeridos"
+
+#: public/editor-build/282-wp/texts.php:1528
+msgid "Top Center"
+msgstr "Superior ao centro"
+
+#: public/editor-build/282-wp/texts.php:1529
+msgid "Top Left"
+msgstr "Superior à esquerda"
+
+#: public/editor-build/282-wp/texts.php:1530
+msgid "Top Right"
+msgstr "Superior à direita"
+
+#: public/editor-build/282-wp/texts.php:1598
+msgid "Upload only [ .png or .svg ]"
+msgstr "Carregar apenas [ .png ou .svg ]"
+
+#: editor/editor/editor.php:2072 public/editor-build/282-wp/texts.php:154
+msgid "Alert"
+msgstr "Alerta"
+
+#: editor/editor/editor.php:2074 public/editor-build/282-wp/texts.php:318
+msgid "Calendly"
+msgstr "Calendly"
+
+#: public/editor-build/282-wp/texts.php:481
+msgid "Display Description"
+msgstr "Mostrar descrição"
+
+#: public/editor-build/282-wp/texts.php:875
+msgid "Masonry Arrangement"
+msgstr "Apresentar em masonry"
+
+#: admin/rules/api.php:503
+msgid "All Authors"
+msgstr "Todos os autores"
+
+#: public/editor-build/282-wp/texts.php:123
+msgid "Add More"
+msgstr "Adicionar mais"
+
+#: public/editor-build/282-wp/texts.php:130
+msgid "Add To Bag"
+msgstr "Adicionar ao saco"
+
+#: public/editor-build/282-wp/texts.php:138
+msgid "Add only one item of this type on the page"
+msgstr "Adicionar apenas um item deste tipo na página"
+
+#: public/editor-build/282-wp/texts.php:145
+msgid "Additional image on hover"
+msgstr "Imagem adicional ao passar com o rato"
+
+#: public/editor-build/282-wp/texts.php:148
+msgid "Address line"
+msgstr "Linha de endereço"
+
+#: public/editor-build/282-wp/texts.php:150
+msgid "Advanced Contact Form by POWR"
+msgstr "Advanced Contact Form por POWR"
+
+#: public/editor-build/282-wp/texts.php:156
+msgid "Align Text"
+msgstr "Alinhar texto"
+
+#: public/editor-build/282-wp/texts.php:186
+msgid "Alternate Mobile"
+msgstr "Mobile alternativo"
+
+#: public/editor-build/282-wp/texts.php:196
+msgid "Appointment Booking"
+msgstr "Appointment Booking"
+
+#: public/editor-build/282-wp/texts.php:197
+msgid "Appointment Booking by Tipo"
+msgstr "Appointment Booking por Tipo"
+
+#: public/editor-build/282-wp/texts.php:205
+msgid "Arrow Position"
+msgstr "Posição das setas"
+
+#: public/editor-build/282-wp/texts.php:213
+msgid "Assets List"
+msgstr "Lista de itens"
+
+#: public/editor-build/282-wp/texts.php:223
+msgid "Auto Slide"
+msgstr "Slide automático"
+
+#: public/editor-build/282-wp/texts.php:232
+msgid "Back In Stock"
+msgstr "Em stock"
+
+#: public/editor-build/282-wp/texts.php:233
+msgid "Back in Stock"
+msgstr "Em stock"
+
+#: public/editor-build/282-wp/texts.php:238
+msgid "Badge"
+msgstr "Ícone"
+
+#: public/editor-build/282-wp/texts.php:239
+msgid "Badge - Trusted"
+msgstr "Ícone - Confiável"
+
+#: public/editor-build/282-wp/texts.php:240
+msgid "Badge Inner"
+msgstr "Interior do ícone"
+
+#: public/editor-build/282-wp/texts.php:241
+msgid "Badge Outter"
+msgstr "Exterior do ícone"
+
+#: public/editor-build/282-wp/texts.php:242
+msgid "Badge Position"
+msgstr "Posição do ícone"
+
+#: public/editor-build/282-wp/texts.php:243
+msgid "Badge Size"
+msgstr "Tamanho do ícone"
+
+#: public/editor-build/282-wp/texts.php:244
+msgid "Badge Type"
+msgstr "Tipo de ícone"
+
+#: public/editor-build/282-wp/texts.php:245
+msgid "Badge will work only if inserted in Product Details component"
+msgstr "Os ícones só funcionarão se forem inseridos no componente de detalhes do produto"
+
+#: public/editor-build/282-wp/texts.php:246
+msgid "Badges"
+msgstr "Ícones"
+
+#: public/editor-build/282-wp/texts.php:247
+msgid "Badges by Hextom"
+msgstr "Ícones por Hextom"
+
+#: public/editor-build/282-wp/texts.php:248
+msgid "Badges by Stamped"
+msgstr "Ícones por Stamped"
+
+#: public/editor-build/282-wp/texts.php:249
+msgid "Badges by Trusted"
+msgstr "Ícones por Trusted"
+
+#: public/editor-build/282-wp/texts.php:251
+msgid "Based on Reviews"
+msgstr "Com base em avaliações"
+
+#: public/editor-build/282-wp/texts.php:290
+msgid "Bundles - by Bold"
+msgstr "Bundles - por Bold"
+
+#: public/editor-build/282-wp/texts.php:291
+msgid "Bundles App"
+msgstr "Aplicação Bundle"
+
+#: public/editor-build/282-wp/texts.php:292
+msgid "Bundles by Bold"
+msgstr "Bundles por Bold"
+
+#: public/editor-build/282-wp/texts.php:297
+msgid "Button Name"
+msgstr "Nome do botão"
+
+#: public/editor-build/282-wp/texts.php:301
+msgid "Button Type"
+msgstr "Tipo de botão"
+
+#: public/editor-build/282-wp/texts.php:303
+msgid "Button text"
+msgstr "Texto do botão"
+
+#: public/editor-build/282-wp/texts.php:308
+msgid "Buy now"
+msgstr "Comprar agora"
+
+#: public/editor-build/282-wp/texts.php:322
+msgid "Card frame"
+msgstr "Moldura do cartão"
+
+#: public/editor-build/282-wp/texts.php:324
+msgid "Carousel Image"
+msgstr "Imagem do carrossel"
+
+#: public/editor-build/282-wp/texts.php:326
+msgid "Cart & Checkout"
+msgstr "Carrinho e finalização de compra"
+
+#: public/editor-build/282-wp/texts.php:328
+msgid "Cart Quantity"
+msgstr "Quantidade do carrinho"
+
+#: public/editor-build/282-wp/texts.php:362
+msgid "Code"
+msgstr "Código"
+
+#: public/editor-build/282-wp/texts.php:365
+msgid "Collapse"
+msgstr "Minimizar"
+
+#: public/editor-build/282-wp/texts.php:367
+msgid "Collection Rating will work only if inserted in Product Details component"
+msgstr "A classificação da colecção só funcionará se inserida no componente dos detalhes do produto"
+
+#: public/editor-build/282-wp/texts.php:439
+msgid "Custom Product"
+msgstr "Produto personalizado"
+
+#: public/editor-build/282-wp/texts.php:442
+msgid "Cut description"
+msgstr "Cortar descrição"
+
+#: public/editor-build/282-wp/texts.php:446
+msgid "Darken image background"
+msgstr "Escurecer fundo da imagem"
+
+#: public/editor-build/282-wp/texts.php:466
+msgid "Desktop Grid Style"
+msgstr "Estilo de grelha de desktop"
+
+#: public/editor-build/282-wp/texts.php:482
+msgid "Display Mode"
+msgstr "Modo de apresentação"
+
+#: public/editor-build/282-wp/texts.php:512
+msgid "Email Marketing"
+msgstr "Email Marketing"
+
+#: public/editor-build/282-wp/texts.php:513
+msgid "Email Marketing by Klaviyo"
+msgstr "Email Marketing por Klaviyo"
+
+#: public/editor-build/282-wp/texts.php:514
+msgid "Email Marketing by Klavyio"
+msgstr "Email Marketing por Klaviyo"
+
+#: public/editor-build/282-wp/texts.php:521
+msgid "Embed Code"
+msgstr "Incorporar código"
+
+#: public/editor-build/282-wp/texts.php:523
+msgid "Embeded Code"
+msgstr "Código incorporado"
+
+#: public/editor-build/282-wp/texts.php:527
+msgid "Enable Background Color"
+msgstr "Activar cor de fundo"
+
+#: public/editor-build/282-wp/texts.php:539
+msgid "Enter text here..."
+msgstr "Digite o texto aqui..."
+
+#: public/editor-build/282-wp/texts.php:567
+msgid "Extra Large"
+msgstr "Muito grande"
+
+#: public/editor-build/282-wp/texts.php:569
+msgid "Extra Small"
+msgstr "Muito pequeno"
+
+#: public/editor-build/282-wp/texts.php:590
+msgid "Favorites Buttons"
+msgstr "Botões de favoritos"
+
+#: public/editor-build/282-wp/texts.php:594
+msgid "Feed Tags"
+msgstr "Etiquetas de feed"
+
+#: public/editor-build/282-wp/texts.php:595
+msgid "Feed Type"
+msgstr "Tipo de feed"
+
+#: public/editor-build/282-wp/texts.php:604
+msgid "Files"
+msgstr "Ficheiros"
+
+#: public/editor-build/282-wp/texts.php:607
+msgid "Fill Empty"
+msgstr "Preenchimento vazio"
+
+#: public/editor-build/282-wp/texts.php:611
+msgid "Filter by multiple product IDs"
+msgstr "Filtrar por múltiplos ID de produtos"
+
+#: public/editor-build/282-wp/texts.php:612
+msgid "Filter by multiple review IDs"
+msgstr "Filtrar por múltiplos ID de avaliações"
+
+#: public/editor-build/282-wp/texts.php:613
+msgid "Filter by product category"
+msgstr "Filtrar por categoria de produto"
+
+#: public/editor-build/282-wp/texts.php:614
+msgid "Filter by product vendor"
+msgstr "Filtrar por vendedor de produto"
+
+#: public/editor-build/282-wp/texts.php:615
+msgid "Filter by reviews tags"
+msgstr "Filtrar por etiquetas de avaliações"
+
+#: public/editor-build/282-wp/texts.php:618
+msgid "Find your AppKey in www.yotpo.com -> Settings -> General Settings"
+msgstr "Consulte a sua AppKey em www.yotpo.com -> Settings -> General Settings"
+
+#: public/editor-build/282-wp/texts.php:630
+msgid "Font Size"
+msgstr "Tamanho do texto"
+
+#: public/editor-build/282-wp/texts.php:642
+msgid "Frequently Bought"
+msgstr "Compras frequentes"
+
+#: public/editor-build/282-wp/texts.php:659
+msgid "Gap Size"
+msgstr "Tamanho do intervalo"
+
+#: public/editor-build/282-wp/texts.php:670
+msgid "Go to Checkout"
+msgstr "Ir para finalização de compra"
+
+#: public/editor-build/282-wp/texts.php:697
+msgid "Header Customisation"
+msgstr "Personalização do cabeçalho"
+
+#: public/editor-build/282-wp/texts.php:699
+msgid "Heading Text"
+msgstr "Texto do título"
+
+#: public/editor-build/282-wp/texts.php:706
+msgid "Hide Aftership Icon"
+msgstr "Esconder ícone de AfterShip"
+
+#: public/editor-build/282-wp/texts.php:709
+msgid "Hide Load More Arrow"
+msgstr "Esconder seta de Carregar mais"
+
+#: public/editor-build/282-wp/texts.php:724
+msgid "Hover Zoom"
+msgstr "Zoom ao passar com o rato"
+
+#: public/editor-build/282-wp/texts.php:734
+msgid "If filtered results is empty, fill widget with other reviews"
+msgstr "Se o filtro não devolver nenhum resultado, preencher o widget com outras avaliações"
+
+#: public/editor-build/282-wp/texts.php:745
+msgid "Image Link Text"
+msgstr "Texto da ligação da imagem"
+
+#: public/editor-build/282-wp/texts.php:759
+msgid "Include Q & A"
+msgstr "Incluir perguntas e respostas"
+
+#: public/editor-build/282-wp/texts.php:765
+msgid "Infinite Animation"
+msgstr "Animação infinita"
+
+#: public/editor-build/282-wp/texts.php:766
+msgid "Infinite Options"
+msgstr "Opções infinitas"
+
+#: public/editor-build/282-wp/texts.php:767
+msgid "Infinite Options by ShopPad"
+msgstr "Opções infinitas por ShopPad"
+
+#: public/editor-build/282-wp/texts.php:769
+msgid "Information"
+msgstr "Informações"
+
+#: public/editor-build/282-wp/texts.php:774
+msgid "Insert AppKey"
+msgstr "Inserir AppKey"
+
+#: public/editor-build/282-wp/texts.php:775
+msgid "Insert IDs..."
+msgstr "Insira os ID..."
+
+#: public/editor-build/282-wp/texts.php:776
+msgid "Insert Text..."
+msgstr "Insira o texto..."
+
+#: public/editor-build/282-wp/texts.php:777
+msgid "Insert Title..."
+msgstr "Insira o título..."
+
+#: public/editor-build/282-wp/texts.php:778
+msgid "Insert Type..."
+msgstr "Insira o tipo..."
+
+#: public/editor-build/282-wp/texts.php:779
+msgid "Insert Types..."
+msgstr "Insira os tipos..."
+
+#: public/editor-build/282-wp/texts.php:780
+msgid "Insert Vendor..."
+msgstr "Insira o vendedor..."
+
+#: public/editor-build/282-wp/texts.php:781
+msgid "Insert only one of each type of upsell on your page!"
+msgstr "Insira apenas um aumentar vendas de cada tipo na sua página!"
+
+#: public/editor-build/282-wp/texts.php:785
+msgid "Interval"
+msgstr "Intervalo"
+
+#: public/editor-build/282-wp/texts.php:802
+msgid "Kiwi Size Chart"
+msgstr "Gráfico de tamanhos de Kiwi"
+
+#: public/editor-build/282-wp/texts.php:803
+msgid "Kiwi Size Chart & Recommender"
+msgstr "Gráfico e recomendação de tamanhos por Kiwi"
+
+#: public/editor-build/282-wp/texts.php:807
+msgid "Label Subtitle"
+msgstr "Subtítulo da legenda"
+
+#: public/editor-build/282-wp/texts.php:808
+msgid "Landing Page Link"
+msgstr "Ligação para Landing page"
+
+#: editor.php:627 public/editor-build/282-wp/texts.php:811
+msgid "Large"
+msgstr "Grande"
+
+#: public/editor-build/282-wp/texts.php:812
+msgid "Large Centered"
+msgstr "Grande centrado"
+
+#: public/editor-build/282-wp/texts.php:827
+msgid "Limit Words"
+msgstr "Limitar palavras"
+
+#: public/editor-build/282-wp/texts.php:828
+msgid "Limit the max number of words for review body"
+msgstr "Limitar o número máximo de palavras do texto da avaliação"
+
+#: public/editor-build/282-wp/texts.php:833
+msgid "Link Text"
+msgstr "Texto da ligação"
+
+#: public/editor-build/282-wp/texts.php:834
+msgid "Link To Page"
+msgstr "Ligação para a página"
+
+#: public/editor-build/282-wp/texts.php:841
+msgid "Load More On Scroll"
+msgstr "Carregar mais ao fazer scroll"
+
+#: public/editor-build/282-wp/texts.php:850
+msgid "Lookup Options"
+msgstr "Opções de pesquisa"
+
+#: public/editor-build/282-wp/texts.php:858
+msgid "Main product image"
+msgstr "Imagem principal do produto"
+
+#: public/editor-build/282-wp/texts.php:869
+msgid "Marketing"
+msgstr "Marketing"
+
+#: public/editor-build/282-wp/texts.php:870
+msgid "Marketing by Marsello"
+msgstr "Marketing por Marsello"
+
+#: public/editor-build/282-wp/texts.php:871
+msgid "Marketing by Omnisend"
+msgstr "Marketing por Omnisend"
+
+#: public/editor-build/282-wp/texts.php:872
+msgid "Marketing by Social SnowBall"
+msgstr "Marketing por Social SnowBall"
+
+#: public/editor-build/282-wp/texts.php:915
+msgid "Minimum Rating"
+msgstr "Classificação mínima"
+
+#: public/editor-build/282-wp/texts.php:944
+msgid "Mobile Grid Style"
+msgstr "Estilo de grelha em mobile"
+
+#: public/editor-build/282-wp/texts.php:967
+msgid "Name - First on Mobile"
+msgstr "Nome - Primeiro em mobile"
+
+#: public/editor-build/282-wp/texts.php:982
+msgid "No product selected"
+msgstr "Nenhum produto seleccionado"
+
+#: public/editor-build/282-wp/texts.php:998
+msgid "Notification"
+msgstr "Notificação"
+
+#: public/editor-build/282-wp/texts.php:999
+msgid "Notifications"
+msgstr "Notificações"
+
+#: public/editor-build/282-wp/texts.php:1000
+msgid "Notifications by OnVoard"
+msgstr "Notificações por OnVoard"
+
+#: public/editor-build/282-wp/texts.php:1001
+msgid "Notifications by PushOwl"
+msgstr "Notificações por PushOwl"
+
+#: public/editor-build/282-wp/texts.php:1002
+msgid "Notifications by ReferralCandy"
+msgstr "Notificações por ReferralCandy"
+
+#: public/editor-build/282-wp/texts.php:1006
+msgid "Number of Reviews"
+msgstr "Número de avaliações"
+
+#: public/editor-build/282-wp/texts.php:1007
+msgid "Number of items in stock"
+msgstr "Número de itens em stock"
+
+#: public/editor-build/282-wp/texts.php:1023
+msgid "Options"
+msgstr "Opções"
+
+#: public/editor-build/282-wp/texts.php:1024
+msgid "Options by Hulk"
+msgstr "Opções por Hulk"
+
+#: public/editor-build/282-wp/texts.php:1028
+msgid "Order Tracking by Automizely"
+msgstr "Rastreio de encomendas por Automizely"
+
+#: public/editor-build/282-wp/texts.php:1042
+msgid "POWR Form Embed code"
+msgstr "Código de incorporação de formulário POWR"
+
+#: public/editor-build/282-wp/texts.php:1053
+msgid "Parcel Panel Order Tracking"
+msgstr "Rastreio de encomendas Parcel Panel"
+
+#: public/editor-build/282-wp/texts.php:1067
+msgid "Personalizer by Zepto"
+msgstr "Personalizer por Zepto"
+
+#: public/editor-build/282-wp/texts.php:1070
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: public/editor-build/282-wp/texts.php:1092
+msgid "Post Subscription Text"
+msgstr "Texto de subscrição de conteúdo"
+
+#: public/editor-build/282-wp/texts.php:1096
+msgid "Post-display Button"
+msgstr "Botão depois de subscrever"
+
+#: public/editor-build/282-wp/texts.php:1102
+msgid "PreProduct"
+msgstr "Pré-produto"
+
+#: public/editor-build/282-wp/texts.php:1111
+msgid "Preview additional Images"
+msgstr "Pré-visualizar imagens adicionais"
+
+#: public/editor-build/282-wp/texts.php:1125
+msgid "Product IDs"
+msgstr "ID dos produtos"
+
+#: public/editor-build/282-wp/texts.php:1127
+msgid "Product Options"
+msgstr "Opções do produto"
+
+#: public/editor-build/282-wp/texts.php:1128
+msgid "Product Options by Bold"
+msgstr "Opções do produto por Bold"
+
+#: public/editor-build/282-wp/texts.php:1129
+msgid "Product Options by Hulk"
+msgstr "Opções do produto por Hulk"
+
+#: public/editor-build/282-wp/texts.php:1134
+msgid "Product Source"
+msgstr "Origem do produto"
+
+#: public/editor-build/282-wp/texts.php:1138
+msgid "Product Type"
+msgstr "Tipo de produto"
+
+#: public/editor-build/282-wp/texts.php:1139
+msgid "Product Vendor"
+msgstr "Vendedor do produto"
+
+#: public/editor-build/282-wp/texts.php:1162
+msgid "Randomize the reviews results"
+msgstr "Resultados das availações aleatórios"
+
+#: public/editor-build/282-wp/texts.php:1176
+msgid "Referral"
+msgstr "Referenciador"
+
+#: public/editor-build/282-wp/texts.php:1206
+msgid "Review IDs"
+msgstr "ID das avaliações"
+
+#: public/editor-build/282-wp/texts.php:1207
+msgid "Review Logic"
+msgstr "Lógica da avaliação"
+
+#: public/editor-build/282-wp/texts.php:1208
+msgid "Review Type"
+msgstr "Tipo de avaliação"
+
+#: public/editor-build/282-wp/texts.php:1209
+msgid "Review by AliExpress"
+msgstr "Avaliação por AliExpress"
+
+#: public/editor-build/282-wp/texts.php:1210
+msgid "Review by Growave"
+msgstr "Avaliação por Growave"
+
+#: public/editor-build/282-wp/texts.php:1211
+msgid "Review by Judge"
+msgstr "Avaliação por Judge"
+
+#: public/editor-build/282-wp/texts.php:1212
+msgid "Review by Loox"
+msgstr "Avaliação por Loox"
+
+#: public/editor-build/282-wp/texts.php:1213
+msgid "Review by Okendo"
+msgstr "Avaliação por Okendo"
+
+#: public/editor-build/282-wp/texts.php:1214
+msgid "Review by Opinew"
+msgstr "Avaliação por Opinew"
+
+#: public/editor-build/282-wp/texts.php:1215
+msgid "Review by Rivyo"
+msgstr "Avaliação por Rivyo"
+
+#: public/editor-build/282-wp/texts.php:1216
+msgid "Review by Vitals"
+msgstr "Avaliação por Vitals"
+
+#: public/editor-build/282-wp/texts.php:1218
+msgid "Reviews Limit"
+msgstr "Limite de avaliações"
+
+#: public/editor-build/282-wp/texts.php:1219
+msgid "Reviews Type"
+msgstr "Tipo de avaliações"
+
+#: public/editor-build/282-wp/texts.php:1220
+msgid "Reviews by Ali"
+msgstr "Avaliações por Ali"
+
+#: public/editor-build/282-wp/texts.php:1221
+msgid "Reviews by Areview"
+msgstr "Avaliações por Areview"
+
+#: public/editor-build/282-wp/texts.php:1222
+msgid "Reviews by Fera"
+msgstr "Avaliações por Fera"
+
+#: public/editor-build/282-wp/texts.php:1223
+msgid "Reviews by Growave"
+msgstr "Avaliações por Growave"
+
+#: public/editor-build/282-wp/texts.php:1224
+msgid "Reviews by Lai"
+msgstr "Avaliações por Lai"
+
+#: public/editor-build/282-wp/texts.php:1225
+msgid "Reviews by Stamped"
+msgstr "Avaliações por Stamped"
+
+#: public/editor-build/282-wp/texts.php:1226
+msgid "Reviews by Vitals"
+msgstr "Avaliações por Vitals"
+
+#: public/editor-build/282-wp/texts.php:1227
+msgid "Reviews with Photo"
+msgstr "Avaliações com fotografia"
+
+#: public/editor-build/282-wp/texts.php:1228
+msgid "Ribbon"
+msgstr "Faixa"
+
+#: public/editor-build/282-wp/texts.php:1244
+msgid "SMS Marketing"
+msgstr "SMS Marketing"
+
+#: public/editor-build/282-wp/texts.php:1245
+msgid "SMS Marketing by Yotpo"
+msgstr "SMS Marketing por Yotpo"
+
+#: public/editor-build/282-wp/texts.php:1246
+msgid "SMSBump's embed code"
+msgstr "Código de incorporação de SMSBump"
+
+#: public/editor-build/282-wp/texts.php:1270
+msgid "Seal Type"
+msgstr "Tipo de selo"
+
+#: public/editor-build/282-wp/texts.php:1271
+msgid "Seals"
+msgstr "Selos"
+
+#: public/editor-build/282-wp/texts.php:1280
+msgid "Select Product"
+msgstr "Seleccionar produto"
+
+#: public/editor-build/282-wp/texts.php:1281
+msgid "Select Seal"
+msgstr "Seleccionar selo"
+
+#: public/editor-build/282-wp/texts.php:1291
+msgid "Select..."
+msgstr "Seleccione..."
+
+#: public/editor-build/282-wp/texts.php:1311
+msgid "Share Buttons"
+msgstr "Botões de partilha"
+
+#: public/editor-build/282-wp/texts.php:1318
+msgid "Short Code"
+msgstr "Shortcode"
+
+#: public/editor-build/282-wp/texts.php:1323
+msgid "Show"
+msgstr "Mostrar"
+
+#: public/editor-build/282-wp/texts.php:1327
+msgid "Show Heading"
+msgstr "Mostrar título"
+
+#: public/editor-build/282-wp/texts.php:1332
+msgid "Show Navigation"
+msgstr "Mostrar navegação"
+
+#: public/editor-build/282-wp/texts.php:1334
+msgid "Show Product Image"
+msgstr "Mostrar imagem do produto"
+
+#: public/editor-build/282-wp/texts.php:1335
+msgid "Show QTY"
+msgstr "Mostrar quantidade"
+
+#: public/editor-build/282-wp/texts.php:1337
+msgid "Show Total Reviews"
+msgstr "Mostrar total de avaliações"
+
+#: public/editor-build/282-wp/texts.php:1338
+msgid "Show Total Reviews Count And Average Ratings"
+msgstr "Mostrar total de avaliações e média das classificações"
+
+#: public/editor-build/282-wp/texts.php:1342
+msgid "Show only reviews above the selected minimum rating"
+msgstr "Apenas mostrar avaliações acima da classificação mínima seleccionada"
+
+#: public/editor-build/282-wp/texts.php:1344
+msgid "Showcase"
+msgstr "Montra"
+
+#: public/editor-build/282-wp/texts.php:1361
+msgid "Slide Size"
+msgstr "Tamanho do slide"
+
+#: public/editor-build/282-wp/texts.php:1369
+msgid "Small"
+msgstr "Pequeno"
+
+#: public/editor-build/282-wp/texts.php:1370
+msgid "Snowball"
+msgstr "Bola de neve"
+
+#: public/editor-build/282-wp/texts.php:1387
+msgid "Sorting Options"
+msgstr "Opções de ordenação"
+
+#: public/editor-build/282-wp/texts.php:1396
+msgid "Special Offers"
+msgstr "Ofertas especiais"
+
+#: public/editor-build/282-wp/texts.php:1398
+msgid "Specific Category"
+msgstr "Categoria específica"
+
+#: public/editor-build/282-wp/texts.php:1409
+msgid "Stamped Reviews"
+msgstr "Avaliações com selo"
+
+#: public/editor-build/282-wp/texts.php:1410
+msgid "Star"
+msgstr "Estrela"
+
+#: public/editor-build/282-wp/texts.php:1418
+msgid "Stock Availability labels"
+msgstr "Legendas de disponibilidade de stock"
+
+#: public/editor-build/282-wp/texts.php:1435
+msgid "Subscribtion by Paywhirl"
+msgstr "Subscrição por Paywhirl"
+
+#: public/editor-build/282-wp/texts.php:1436
+msgid "Subscription by Appstle"
+msgstr "Subscrição por Appstle"
+
+#: public/editor-build/282-wp/texts.php:1437
+msgid "Subscription by Bold"
+msgstr "Subscrição por Bold"
+
+#: public/editor-build/282-wp/texts.php:1438
+msgid "Subscription by Paywhirl"
+msgstr "Subscrição por Paywhirl"
+
+#: public/editor-build/282-wp/texts.php:1439
+msgid "Subscription by Seal"
+msgstr "Subscrição por Seal"
+
+#: public/editor-build/282-wp/texts.php:1440
+msgid "Subscriptions by Recharge"
+msgstr "Subscrições por Recharge"
+
+#: public/editor-build/282-wp/texts.php:1441
+msgid "Subtitle"
+msgstr "Subtítulo"
+
+#: public/editor-build/282-wp/texts.php:1446
+msgid "Surcharge"
+msgstr "Sobretaxa"
+
+#: public/editor-build/282-wp/texts.php:1478
+msgid "Text Field"
+msgstr "Campo de texto"
+
+#: public/editor-build/282-wp/texts.php:1480
+msgid "The button's state after visitors have subscribed"
+msgstr "O estado do botão depois da subscrição dos visitantes"
+
+#: public/editor-build/282-wp/texts.php:1481
+msgid "The button's state before visitors have subscribed"
+msgstr "O estado do botão antes da subscrição dos visitantes"
+
+#: public/editor-build/282-wp/texts.php:1491
+msgid "This element should stay inside a Product Details Component"
+msgstr "Este elemento deve estar dentro do componente dos detalhes do produto"
+
+#: editor.php:625 public/editor-build/282-wp/texts.php:1505
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: public/editor-build/282-wp/texts.php:1533
+msgid "Tracking Page URL"
+msgstr "URL da página de rastreio"
+
+#: public/editor-build/282-wp/texts.php:1534
+msgid "Tracking by Omega"
+msgstr "Rastreio por Omega"
+
+#: public/editor-build/282-wp/texts.php:1543
+msgid "Trust Me Badges"
+msgstr "Ícones de indicador de confiança"
+
+#: public/editor-build/282-wp/texts.php:1544
+msgid "Trust Product Rating"
+msgstr "Classificação de produto de confiança"
+
+#: public/editor-build/282-wp/texts.php:1545
+msgid "Trust Product Review"
+msgstr "Avaliação de produto de confiança"
+
+#: public/editor-build/282-wp/texts.php:1546
+msgid "Trust Product Seals"
+msgstr "Selos de produto de confiança"
+
+#: public/editor-build/282-wp/texts.php:1547
+msgid "Trust Seals"
+msgstr "Selos de confiança"
+
+#: public/editor-build/282-wp/texts.php:1548
+msgid "Trusted's embed code"
+msgstr "Código de incorporação de indicador de confiança"
+
+#: public/editor-build/282-wp/texts.php:1552
+msgid "Two Heroes"
+msgstr "Dois destaques"
+
+#: public/editor-build/282-wp/texts.php:1578
+msgid "Unlimited Bundles"
+msgstr "Pacotes ilimitados"
+
+#: public/editor-build/282-wp/texts.php:1596
+msgid "Upload Fields"
+msgstr "Upload Fields"
+
+#: public/editor-build/282-wp/texts.php:1597
+msgid "Upload Fields by UploadKit"
+msgstr "Upload Fields por UploadKit"
+
+#: public/editor-build/282-wp/texts.php:1603
+msgid "Upsell Type"
+msgstr "Tipo de aumenta vendas"
+
+#: public/editor-build/282-wp/texts.php:1604
+msgid "Upsell by FastSimon"
+msgstr "Aumenta vendas por FastSimon"
+
+#: public/editor-build/282-wp/texts.php:1605
+msgid "Upsell by LimeSpot"
+msgstr "Aumenta vendas por LimeSpot"
+
+#: public/editor-build/282-wp/texts.php:1606
+msgid "Upsell by Wiser"
+msgstr "Aumenta vendas por Wiser"
+
+#: public/editor-build/282-wp/texts.php:1607
+msgid "Upsell by Zoorix"
+msgstr "Aumenta vendas por Zoorix"
+
+#: public/editor-build/282-wp/texts.php:1608
+msgid "Upsells"
+msgstr "Aumenta vendas"
+
+#: public/editor-build/282-wp/texts.php:1609
+msgid "Upsells by LimeSpot"
+msgstr "Aumenta vendas por LimeSpot"
+
+#: public/editor-build/282-wp/texts.php:1613
+msgid "User"
+msgstr "Utilizador"
+
+#: public/editor-build/282-wp/texts.php:1620
+msgid "VK"
+msgstr "VK"
+
+#: public/editor-build/282-wp/texts.php:1629
+msgid "Verified"
+msgstr "Verificado"
+
+#: public/editor-build/282-wp/texts.php:1634
+msgid "Video Embed Code"
+msgstr "Código de incorporação do vídeo"
+
+#: public/editor-build/282-wp/texts.php:1635
+msgid "Video Shopping"
+msgstr "Video Shopping"
+
+#: public/editor-build/282-wp/texts.php:1637
+msgid "View Favorites"
+msgstr "Ver favoritos"
+
+#: public/editor-build/282-wp/texts.php:1653
+msgid "Wholesale Price"
+msgstr "Preço para grande quantidade"
+
+#: public/editor-build/282-wp/texts.php:1654
+msgid "Wholesale Prices"
+msgstr "Preços para grandes quantidades"
+
+#: public/editor-build/282-wp/texts.php:1656
+msgid "Widget"
+msgstr "Widget"
+
+#: public/editor-build/282-wp/texts.php:1657
+msgid "Widget List"
+msgstr "Lista de widgets"
+
+#: public/editor-build/282-wp/texts.php:1658
+msgid "Widget Type"
+msgstr "Tipo de widget"
+
+#: public/editor-build/282-wp/texts.php:1659
+msgid "Widgets"
+msgstr "Widgets"
+
+#: public/editor-build/282-wp/texts.php:1660
+msgid "Widgets by AliExpress"
+msgstr "Widgets por AliExpress"
+
+#: public/editor-build/282-wp/texts.php:1661
+msgid "Widgets by PickyStory"
+msgstr "Widgets por PickyStory"
+
+#: public/editor-build/282-wp/texts.php:1664
+msgid "Wish List by Hero"
+msgstr "Favoritos por Hero"
+
+#: public/editor-build/282-wp/texts.php:1665
+msgid "WishList by Swym"
+msgstr "Favoritos por Swym"
+
+#: public/editor-build/282-wp/texts.php:1666
+msgid "Wishlist by Growave"
+msgstr "Favoritos por Growave"
+
+#: public/editor-build/282-wp/texts.php:1681
+msgid "YotPo Product Review"
+msgstr "Avaliação de produto YotPo"
+
+#: public/editor-build/282-wp/texts.php:1683
+msgid "You can add only 1 element on page"
+msgstr "Pode adicionar apenas 1 elemento na página"
+
+#: editor/editor/editor.php:2131 public/editor-build/282-wp/texts.php:1243
+msgid "SKU"
+msgstr "REF"
+
+#: editor/editor/editor.php:2149 public/editor-build/282-wp/texts.php:1217
+msgid "Reviews"
+msgstr "Avaliações"
+
+#: public/editor-build/282-wp/texts.php:1038
+msgid "Outside"
+msgstr "Fora"
+
+#: public/editor-build/282-wp/texts.php:783
+msgid "Inside"
+msgstr "Dentro"
+
+#: admin/main.php:547
+msgid "Heads up, Please backup before upgrade!"
+msgstr "Atenção, faça uma cópia de segurança antes de actualizar!"
+
+#. translators: %1$s Link open tag, %2$s: Link close tag.
+#: admin/main.php:553
+msgid "The latest update includes some substantial changes across different areas of the plugin. We highly recommend you %1$sbackup your site before upgrading%2$s, and make sure you first update in a staging environment"
+msgstr "A última actualização inclui algumas alterações substanciais em diferentes áreas do plugin. Recomendamos-lhe vivamente que %1$sfaça uma cópia de segurança do seu site antes de actualizar%2$s, e que actualize primeiro num ambiente de staging"
+
+#: compatibilities/brizy-pro-compatibility.php:28
+msgid "%s PRO IS NOT RUNNING."
+msgstr "O %s PRO NÃO ESTÁ EM EXECUÇÃO."
+
+#: compatibilities/brizy-pro-compatibility.php:29
+msgid "Please update %s PRO to the latest version."
+msgstr "Por favor actualize o %s PRO para a versão mais recente."
+
+#: admin/settings.php:119 admin/settings.php:120
+#: admin/views/settings/tools.php:7
+msgid "Tools"
+msgstr "Ferramentas"
+
+#: admin/settings.php:543
+msgid "You must be an administrator running a replace URL session"
+msgstr "Tem de ser um administrador a executar uma sessão de substituição de URL"
+
+#: admin/settings.php:552
+msgid "The old and new URLs must be different"
+msgstr "O URL antigo e o URL novo têm de ser diferentes"
+
+#: admin/settings.php:556
+msgid "The old and new URLs must be valid URLs"
+msgstr "O URL antigo e o URL novo têm de ser válidos"
+
+#: admin/settings.php:599
+msgid "The replacement was successful"
+msgstr "A substituição foi bem sucedida"
+
+#: admin/views/settings/tools.php:11 admin/views/settings/tools.php:16
+#: admin/views/settings/tools.php:30
+msgid "Replace URL"
+msgstr "Substituir URL"
+
+#: admin/views/settings/tools.php:18
+msgid "<strong>Important:</strong> It is strongly recommended that you <a target=\"_blank\" href=\"%s\">backup your database</a> before using Replace URL."
+msgstr "<strong>Importante:</strong> É altamente recomendado que <a target=\"_blank\" href=\"%s\">faça uma cópia de segurança da sua base de dados</a> antes de substituir o URL."
+
+#: admin/views/settings/tools.php:23
+msgid "Update Site Address (URL)"
+msgstr "Actualizar endereço do site (URL)"
+
+#: admin/views/settings/tools.php:34
+msgid "Enter your old and new URLs for your WordPress installation, to update all %s data (Relevant for domain transfers or move to 'HTTPS')."
+msgstr "Insira os URL da sua antiga instalação e da nova instalação WordPress, para actualizar todos os dados do %s (relevante para transferências de domínio ou ao mover para 'HTTPS')."
+
+#: public/editor-build/282-wp/texts.php:1399
+msgid "Specific Product"
+msgstr "Produto específico"
+
+#: public/editor-build/282-wp/texts.php:60
+msgid "0 Selected"
+msgstr "0 seleccionados"
+
+#: public/editor-build/282-wp/texts.php:61
+msgid "0-10"
+msgstr "0-10"
+
+#: public/editor-build/282-wp/texts.php:62
+msgid "0-5"
+msgstr "0-5"
+
+#: public/editor-build/282-wp/texts.php:64
+msgid "3D Tilt"
+msgstr "Tilt 3D"
+
+#: public/editor-build/282-wp/texts.php:209
+msgid "Artwork"
+msgstr "Obra de arte"
+
+#: public/editor-build/282-wp/texts.php:215
+msgid "Attention"
+msgstr "Atenção"
+
+#: public/editor-build/282-wp/texts.php:252
+msgid "Basic"
+msgstr "Básico"
+
+#: public/editor-build/282-wp/texts.php:259
+msgid "Big"
+msgstr "Grande"
+
+#: public/editor-build/282-wp/texts.php:262
+msgid "Blending Mode"
+msgstr "Modo de mistura"
+
+#: public/editor-build/282-wp/texts.php:269
+msgid "Blur"
+msgstr "Desfoque"
+
+#: public/editor-build/282-wp/texts.php:338
+msgid "Center"
+msgstr "Centro"
+
+#: public/editor-build/282-wp/texts.php:370
+msgid "Color Burn"
+msgstr "Cor escurecida"
+
+#: public/editor-build/282-wp/texts.php:371
+msgid "Color Dodge"
+msgstr "Colorização"
+
+#: public/editor-build/282-wp/texts.php:387
+msgid "Contain"
+msgstr "Contido"
+
+#: public/editor-build/282-wp/texts.php:390
+msgid "Content Padding"
+msgstr "Espaçamento do conteúdo"
+
+#: public/editor-build/282-wp/texts.php:418
+msgid "Country Code"
+msgstr "Código do país"
+
+#: public/editor-build/282-wp/texts.php:445
+msgid "Darken"
+msgstr "Escurecer"
+
+#: public/editor-build/282-wp/texts.php:454
+msgid "Default font (can’t be deleted)"
+msgstr "Tipo de letra por omissão (não pode ser eliminado)"
+
+#: public/editor-build/282-wp/texts.php:471
+msgid "Difference"
+msgstr "Diferença"
+
+#: public/editor-build/282-wp/texts.php:472
+msgid "Direct"
+msgstr "Direto"
+
+#: public/editor-build/282-wp/texts.php:473
+msgid "Direction"
+msgstr "Direcção"
+
+#: public/editor-build/282-wp/texts.php:478
+msgid "Display"
+msgstr "Mostrar"
+
+#: public/editor-build/282-wp/texts.php:490
+msgid "Down"
+msgstr "Para baixo"
+
+#: public/editor-build/282-wp/texts.php:509
+msgid "Effects"
+msgstr "Efeitos"
+
+#: public/editor-build/282-wp/texts.php:542
+msgid "Entrance"
+msgstr "Entrada"
+
+#: public/editor-build/282-wp/texts.php:555
+msgid "Example [gallery id='123' size='medium']"
+msgstr "Exemplo [gallery id='123' size='medium']"
+
+#: public/editor-build/282-wp/texts.php:560
+msgid "Exclusion"
+msgstr "Exclusão"
+
+#: public/editor-build/282-wp/texts.php:579
+msgid "Fade"
+msgstr "Desvanecer"
+
+#: public/editor-build/282-wp/texts.php:622
+msgid "Flag"
+msgstr "Bandeira"
+
+#: public/editor-build/282-wp/texts.php:623
+msgid "Flags"
+msgstr "Bandeiras"
+
+#: public/editor-build/282-wp/texts.php:649
+msgid "Full Name"
+msgstr "Nome completo"
+
+#: public/editor-build/282-wp/texts.php:656
+msgid "Gap"
+msgstr "Intervalo"
+
+#: public/editor-build/282-wp/texts.php:732
+msgid "Icon Styles"
+msgstr "Estilos de ícones"
+
+#: public/editor-build/282-wp/texts.php:742
+msgid "If you need to have multiple emails you can separate them by commas"
+msgstr "Se precisar de múltiplos emails pode separá-los por vírgulas"
+
+#: public/editor-build/282-wp/texts.php:806
+msgid "Label Bg"
+msgstr "Fundo da legenda"
+
+#: public/editor-build/282-wp/texts.php:810
+msgid "Languages"
+msgstr "Idiomas"
+
+#: public/editor-build/282-wp/texts.php:822
+msgid "Level"
+msgstr "Nível"
+
+#: public/editor-build/282-wp/texts.php:825
+msgid "Lighten"
+msgstr "Iluminar"
+
+#: public/editor-build/282-wp/texts.php:856
+msgid "Luminosity"
+msgstr "Luminosidade"
+
+#: public/editor-build/282-wp/texts.php:951
+msgid "MouseTrack"
+msgstr "Rastreio do rato"
+
+#: public/editor-build/282-wp/texts.php:953
+msgid "Move down"
+msgstr "Mover para baixo"
+
+#: public/editor-build/282-wp/texts.php:956
+msgid "Move up"
+msgstr "Mover para cima"
+
+#: public/editor-build/282-wp/texts.php:958
+msgid "Multi-Language"
+msgstr "Multi-idioma"
+
+#: public/editor-build/282-wp/texts.php:961
+msgid "Multiply"
+msgstr "Multiplicar"
+
+#: public/editor-build/282-wp/texts.php:1022
+msgid "Opposite"
+msgstr "Oposto"
+
+#: public/editor-build/282-wp/texts.php:1034
+msgid "Out"
+msgstr "Fora"
+
+#: public/editor-build/282-wp/texts.php:1074
+msgid "Play Counts"
+msgstr "Contagem de reproduções"
+
+#: public/editor-build/282-wp/texts.php:1164
+msgid "Rating scale"
+msgstr "Escala das avaliações"
+
+#: public/editor-build/282-wp/texts.php:1195
+msgid "Replay Animation"
+msgstr "Repetir animação"
+
+#: public/editor-build/282-wp/texts.php:1263
+msgid "Scale"
+msgstr "Redimensionar"
+
+#: public/editor-build/282-wp/texts.php:1267
+msgid "Screen"
+msgstr "Ecrã"
+
+#: public/editor-build/282-wp/texts.php:1268
+msgid "Scroll"
+msgstr "Fluido"
+
+#: public/editor-build/282-wp/texts.php:1317
+msgid "Shopping Bag"
+msgstr "Saco de compras"
+
+#: public/editor-build/282-wp/texts.php:1329
+msgid "Show If Language"
+msgstr "Mostrar para o idioma"
+
+#: public/editor-build/282-wp/texts.php:1333
+msgid "Show Original image"
+msgstr "Mostrar imagem original"
+
+#: public/editor-build/282-wp/texts.php:1348
+msgid "Sign in link"
+msgstr "Ligação de registo"
+
+#: public/editor-build/282-wp/texts.php:1423
+msgid "Stroke"
+msgstr "Espessura"
+
+#: public/editor-build/282-wp/texts.php:1479
+msgid "Text Shadow"
+msgstr "Sombra do texto"
+
+#: public/editor-build/282-wp/texts.php:1520
+msgid "Title Padding"
+msgstr "Espaçamento do título"
+
+#: public/editor-build/282-wp/texts.php:1535
+msgid "Translation"
+msgstr "Tradução"
+
+#: public/editor-build/282-wp/texts.php:1536
+msgid "Transparency"
+msgstr "Transparência"
+
+#: public/editor-build/282-wp/texts.php:1582
+msgid "Up"
+msgstr "Para cima"
+
+#: public/editor-build/282-wp/texts.php:1588
+msgid "Upgrade to PRO to use this"
+msgstr "Actualizar para Pro para usar isto"
+
+#: public/editor-build/282-wp/texts.php:1622
+msgid "Value Bg"
+msgstr "Fundo do valor"
+
+#: public/editor-build/282-wp/texts.php:1675
+msgid "X"
+msgstr "X"
+
+#: public/editor-build/282-wp/texts.php:1676
+msgid "Y"
+msgstr "Y"
+
+#: public/editor-build/282-wp/texts.php:1710
+msgid "element"
+msgstr "elemento"
+
+#: public/editor-build/282-wp/texts.php:714
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: public/editor-build/282-wp/texts.php:1191
+msgid "Repeat"
+msgstr "Repetir"
+
+#: public/editor-build/282-wp/texts.php:1254
+msgid "Saturation"
+msgstr "Saturação"
+
+#: public/editor-build/282-wp/texts.php:754
+msgid "In"
+msgstr "Em"
+
+#: public/editor-build/282-wp/texts.php:391
+msgid "Context"
+msgstr "Contexto"
+
+#: public/editor-build/282-wp/texts.php:392
+msgid "Context Type"
+msgstr "Tipo de contexto"
+
+#: public/editor-build/282-wp/texts.php:1132
+msgid "Product Review"
+msgstr "Avaliação de produto"
+
+#: public/editor-build/282-wp/texts.php:1158
+msgid "Query Source"
+msgstr "Origem da consulta"
+
+#: public/editor-build/282-wp/texts.php:1360
+msgid "Slide"
+msgstr "Slide"
+
+#: public/editor-build/282-wp/texts.php:1363
+msgid "Slides"
+msgstr "Slides"
+
+#: public/editor-build/282-wp/texts.php:1400
+msgid "Specific User"
+msgstr "Utilizador específico"
+
+#: public/editor-build/282-wp/texts.php:1592
+msgid "Upgrade to PRO to use this layout"
+msgstr "Actualize para PRO para usar este layout"
+
+#: public/editor-build/282-wp/texts.php:1590
+msgid "Upgrade to PRO to use this element"
+msgstr "Actualize para PRO para usar este elemento"
+
+#: public/editor-build/282-wp/texts.php:1589
+msgid "Upgrade to PRO to use this block"
+msgstr "Actualize para PRO para usar este bloco"
+
+#: public/editor-build/282-wp/texts.php:995
+msgid "Nothing here yet, save a layout first."
+msgstr "Ainda não há nada aqui. Guarde um layout primeiro."
+
+#: public/editor-build/282-wp/texts.php:823
+msgid "Light"
+msgstr "Leve"
+
+#: public/editor-build/282-wp/texts.php:992
+msgid "Nothing here yet, make a global block first."
+msgstr "Ainda não há nada aqui. Crie primeiro um bloco global."
+
+#: public/editor-build/282-wp/texts.php:994
+msgid "Nothing here yet, save a block first."
+msgstr "Ainda não há nada aqui. Guarde um bloco primeiro."
+
+#: editor/editor/editor.php:2069 public/editor-build/282-wp/texts.php:378
+msgid "Comments"
+msgstr "Comentários"
+
+#: public/editor-build/282-wp/texts.php:1082
+msgid "Popup"
+msgstr "Popup"
+
+#: public/editor-build/282-wp/texts.php:1462
+msgid "Tablet"
+msgstr "Tablet"
+
+#: public/editor-build/282-wp/texts.php:817
+msgid "Layouts"
+msgstr "Layouts"
+
+#: public/main.php:203
+msgid "Edit %s with %s"
+msgstr "Editar %s com %s"
+
+#: public/editor-build/282-wp/texts.php:1740
+msgid "story"
+msgstr "história"
+
+#: public/editor-build/282-wp/texts.php:1737
+msgid "remove this element"
+msgstr "remover este elemento"
+
+#: public/editor-build/282-wp/texts.php:1722
+msgid "is currently working on this page. Do you want to take over"
+msgstr "está de momento a trabalhar nesta página. Gostaria de assumir o controlo?"
+
+#: public/editor-build/282-wp/texts.php:1720
+msgid "is already editing project"
+msgstr "já está a editar o projecto"
+
+#: public/editor-build/282-wp/texts.php:1697
+msgid "Your link is not correct"
+msgstr "A sua ligação está incorrecta"
+
+#: public/editor-build/282-wp/texts.php:1696
+msgid "Your block was saved without screenshot, browser is not compatible"
+msgstr "O seu bloco foi guardado sem ecrã, o navegador não é compatível"
+
+#: public/editor-build/282-wp/texts.php:1695
+msgid "Your Plugin version is incompatible with Account version, please update plugin"
+msgstr "A sua versão do plugin é incompatível com a versão da conta. Por favor actualize o plugin"
+
+#: public/editor-build/282-wp/texts.php:1692
+msgid "You must specify a title"
+msgstr "Tem de especificar um título"
+
+#: public/editor-build/282-wp/texts.php:1687
+msgid "You can’t make changes"
+msgstr "Não pode fazer alterações"
+
+#: public/editor-build/282-wp/texts.php:1686
+msgid "You can't add it again"
+msgstr "Não pode adicionar de novo"
+
+#: public/editor-build/282-wp/texts.php:1679
+msgid "YOUR PAGE IS READY TO PUBLISH!"
+msgstr "A SUA PÁGINA ESTÁ PRONTA PARA PUBLICAR!"
+
+#: public/editor-build/282-wp/texts.php:1671
+msgid "WordPress"
+msgstr "WordPress"
+
+#: public/editor-build/282-wp/texts.php:1652
+msgid "When Finished"
+msgstr "Ao terminar"
+
+#: public/editor-build/282-wp/texts.php:1643
+msgid "WHERE DO YOU WANT TO DISPLAY IT?"
+msgstr "ONDE QUER MOSTRAR?"
+
+#: public/editor-build/282-wp/texts.php:1642
+msgid "WHAT WILL TRIGGER THE POPUP TO OPEN"
+msgstr "O QUE ACCIONA A ABERTURA DO POPUP"
+
+#: public/editor-build/282-wp/texts.php:1641
+msgid "Volume"
+msgstr "Volume"
+
+#: public/editor-build/282-wp/texts.php:1639
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: public/editor-build/282-wp/texts.php:1638
+msgid "View as"
+msgstr "Ver como"
+
+#: public/editor-build/282-wp/texts.php:1632
+msgid "Vertical Offset"
+msgstr "Offset vertical"
+
+#: public/editor-build/282-wp/texts.php:1626
+msgid "Variations"
+msgstr "Variações"
+
+#: public/editor-build/282-wp/texts.php:1623
+msgid "Values"
+msgstr "Valores"
+
+#: public/editor-build/282-wp/texts.php:1621
+msgid "Value"
+msgstr "Valor"
+
+#: public/editor-build/282-wp/texts.php:1617
+msgid "Users"
+msgstr "Utilizadores"
+
+#: public/editor-build/282-wp/texts.php:1602
+msgid "Upsell Tags"
+msgstr "Etiquetas de aumenta vendas"
+
+#: public/editor-build/282-wp/texts.php:1601
+msgid "Upsell Pagination"
+msgstr "Paginação de aumenta vendas"
+
+#: editor/editor/editor.php:2145 public/editor-build/282-wp/texts.php:1600
+msgid "Upsell"
+msgstr "Aumenta vendas"
+
+#: public/editor-build/282-wp/texts.php:1591
+msgid "Upgrade to PRO to use this integration"
+msgstr "Actualize para PRO para usar esta integração"
+
+#: public/editor-build/282-wp/texts.php:1580
+msgid "Unsuccessful sync"
+msgstr "A sincronização falhou"
+
+#: public/editor-build/282-wp/texts.php:1579
+msgid "Unlocked"
+msgstr "Desbloqueado"
+
+#: public/editor-build/282-wp/texts.php:1575
+msgid "Underline"
+msgstr "Sublinhado"
+
+#: public/editor-build/282-wp/texts.php:1574
+msgid "Unable to insert popup. Please try again or contact support"
+msgstr "Não é possível inserir o popup. Por favor tente de novo ou contacte o suporte"
+
+#: public/editor-build/282-wp/texts.php:1573
+msgid "Unable to insert layout. Please try again or contact support"
+msgstr "Não é possível inserir o layout. Por favor tente de novo ou contacte o suporte"
+
+#: public/editor-build/282-wp/texts.php:1572
+msgid "Unable to insert block. Please try again or contact support"
+msgstr "Não é possível inserir o bloco. Por favor tente de novo ou contacte o suporte"
+
+#: public/editor-build/282-wp/texts.php:1568
+msgid "USE CUSTOM TEMPLATE"
+msgstr "USAR MODELO PERSONALIZADO"
+
+#: public/editor-build/282-wp/texts.php:1555
+msgid "Type to Search ..."
+msgstr "Digite para pesquisar..."
+
+#: editor/editor/editor.php:2067 public/editor-build/282-wp/texts.php:1551
+msgid "Twitter"
+msgstr "Twitter"
+
+#: public/editor-build/282-wp/texts.php:1550
+msgid "Tweet"
+msgstr "Publicar no Twitter"
+
+#: public/editor-build/282-wp/texts.php:1542
+msgid "Triggers"
+msgstr "Accionadores"
+
+#: public/editor-build/282-wp/texts.php:1541
+msgid "Trigger Popup Only Once"
+msgstr "Mostrar o popup apenas uma vez"
+
+#: public/editor-build/282-wp/texts.php:1539
+msgid "Travel"
+msgstr "Viagem"
+
+#: public/editor-build/282-wp/texts.php:1531
+msgid "Total"
+msgstr "Total"
+
+#: public/editor-build/282-wp/texts.php:1527
+msgid "Top"
+msgstr "Topo"
+
+#: public/editor-build/282-wp/texts.php:1522
+msgid "To Dashboard"
+msgstr "Para o painel"
+
+#: public/editor-build/282-wp/texts.php:1521
+msgid "Titles"
+msgstr "Títulos"
+
+#: public/editor-build/282-wp/texts.php:1516
+msgid "Tip: Use these shortcodes to populate your template"
+msgstr "Dica: Utilize estes shortcodes para povoar o seu modelo"
+
+#: public/editor-build/282-wp/texts.php:1513
+msgid "Timer"
+msgstr "Temporizador"
+
+#: public/editor-build/282-wp/texts.php:1512
+msgid "Timeline Labels"
+msgstr "Legendas da cronologia"
+
+#: public/editor-build/282-wp/texts.php:1511
+msgid "Timeline Items"
+msgstr "Itens da cronologia"
+
+#: public/editor-build/282-wp/texts.php:1507
+msgid "Time"
+msgstr "Hora"
+
+#: public/editor-build/282-wp/texts.php:1506
+msgid "Thumbs"
+msgstr "Miniaturas"
+
+#: public/editor-build/282-wp/texts.php:1502
+msgid "This page needs a refresh. You’ve probably updated this page (or another page) in a different tab or browser."
+msgstr "Tem de actualizar esta página. Provavelmente actualizou esta página (ou outra) num separador ou navegador diferente."
+
+#: public/editor-build/282-wp/texts.php:1493
+msgid "This is Lottie .json URL. Get more from LottieFiles.com."
+msgstr "Isto é o URL do .json do Lottie. Obtenha mais em LottieFiles.com."
+
+#: public/editor-build/282-wp/texts.php:1489
+msgid "There are no choices"
+msgstr "Não há nenhuma escolha"
+
+#: public/editor-build/282-wp/texts.php:1488
+msgid "Theme"
+msgstr "Tema"
+
+#: public/editor-build/282-wp/texts.php:1486
+msgid "The integration is not responding, please try again or verify the account credentials"
+msgstr "A integração não está a responder. Por favor tente de novo ou verifique as credenciais da conta"
+
+#: public/editor-build/282-wp/texts.php:1484
+msgid "The email address format is not valid"
+msgstr "O formato do endereço de email é inválido"
+
+#: public/editor-build/282-wp/texts.php:1483
+msgid "The element you have selected doesn't have more settings"
+msgstr "O elemento seleccionado não tem mais definições"
+
+#: public/editor-build/282-wp/texts.php:1472
+msgid "Tel"
+msgstr "Telefone"
+
+#: public/editor-build/282-wp/texts.php:1469
+msgid "Take over failed please refresh the page"
+msgstr "Falhou ao assumir o controlo. Por favor actualize a página"
+
+#: public/editor-build/282-wp/texts.php:1468
+msgid "Take over"
+msgstr "Assumir controlo"
+
+#: public/editor-build/282-wp/texts.php:1466
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: public/editor-build/282-wp/texts.php:1461
+msgid "Table Sidebar"
+msgstr "Barra lateral da tabela"
+
+#: public/editor-build/282-wp/texts.php:1460
+msgid "Table Head"
+msgstr "Cabeçalho da tabela"
+
+#: public/editor-build/282-wp/texts.php:1458
+msgid "Tab"
+msgstr "Separador"
+
+#: public/editor-build/282-wp/texts.php:1452
+msgid "Sync Now"
+msgstr "Sincronizar agora"
+
+#: editor/editor/editor.php:2055 public/editor-build/282-wp/texts.php:1451
+msgid "Switcher"
+msgstr "Alternador"
+
+#: public/editor-build/282-wp/texts.php:1450
+msgid "Switch to desktop to add popup"
+msgstr "Mude para desktop para adicionar popups"
+
+#: public/editor-build/282-wp/texts.php:1448
+msgid "Switch to Draft"
+msgstr "Mudar para rascunho"
+
+#: public/editor-build/282-wp/texts.php:1444
+msgid "Suffix"
+msgstr "Sufixo"
+
+#: public/editor-build/282-wp/texts.php:1442
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: public/editor-build/282-wp/texts.php:1427
+msgid "Sub Title"
+msgstr "Subtítulo"
+
+#: public/editor-build/282-wp/texts.php:1425
+msgid "Styles"
+msgstr "Estilos"
+
+#: public/editor-build/282-wp/texts.php:1422
+msgid "Strike"
+msgstr "Rasurar"
+
+#: public/editor-build/282-wp/texts.php:1421
+msgid "Story"
+msgstr "História"
+
+#: editor/editor/editor.php:2128 public/editor-build/282-wp/texts.php:1417
+msgid "Stock"
+msgstr "Stock"
+
+#: public/editor-build/282-wp/texts.php:1412
+msgid "Stars Bg"
+msgstr "Fundo das estrelas"
+
+#: public/editor-build/282-wp/texts.php:1411
+msgid "Stars"
+msgstr "Estrelas"
+
+#: public/editor-build/282-wp/texts.php:1406
+msgid "Sport"
+msgstr "Desporto"
+
+#: public/editor-build/282-wp/texts.php:1403
+msgid "Specify an end time (in seconds)"
+msgstr "Especifique um tempo de fim (em segundos)"
+
+#: public/editor-build/282-wp/texts.php:1401
+msgid "Specify a start time (in seconds)"
+msgstr "Especifique um tempo de início (em segundos)"
+
+#: public/editor-build/282-wp/texts.php:1390
+msgid "Source"
+msgstr "Origem"
+
+#: public/editor-build/282-wp/texts.php:1359
+msgid "Skip"
+msgstr "Saltar"
+
+#: public/editor-build/282-wp/texts.php:1358
+msgid "Skin 4"
+msgstr "Aparência 4"
+
+#: public/editor-build/282-wp/texts.php:1357
+msgid "Skin 3"
+msgstr "Aparência 3"
+
+#: public/editor-build/282-wp/texts.php:1356
+msgid "Skin 2"
+msgstr "Aparência 2"
+
+#: public/editor-build/282-wp/texts.php:1355
+msgid "Skin 1"
+msgstr "Aparência 1"
+
+#: public/editor-build/282-wp/texts.php:1343
+msgid "Show to"
+msgstr "Mostrar a"
+
+#: public/editor-build/282-wp/texts.php:1339
+msgid "Show message"
+msgstr "Mostrar mensagem"
+
+#: public/editor-build/282-wp/texts.php:1328
+msgid "Show Hidden Elements"
+msgstr "Mostrar elementos escondidos"
+
+#: public/editor-build/282-wp/texts.php:1322
+msgid "Shortname"
+msgstr "Nome curto"
+
+#: public/editor-build/282-wp/texts.php:1315
+msgid "Shop Products"
+msgstr "Produtos da loja"
+
+#: public/editor-build/282-wp/texts.php:1314
+msgid "Shop Pages"
+msgstr "Páginas da loja"
+
+#: public/editor-build/282-wp/texts.php:1313
+msgid "Shop Categories"
+msgstr "Categorias da loja"
+
+#: public/editor-build/282-wp/texts.php:1312
+msgid "Shop Cart"
+msgstr "Carrinho de compras"
+
+#: public/editor-build/282-wp/texts.php:1308
+msgid "Shape"
+msgstr "Forma"
+
+#: public/editor-build/282-wp/texts.php:1294
+msgid "Separator"
+msgstr "Separador"
+
+#: public/editor-build/282-wp/texts.php:1292
+msgid "Semi Bold"
+msgstr "Seminegrito"
+
+#: public/editor-build/282-wp/texts.php:1290
+msgid "Select tags"
+msgstr "Seleccionar etiquetas"
+
+#: public/editor-build/282-wp/texts.php:1289
+msgid "Select an element on the page to display more settings"
+msgstr "Seleccione um elemento na página para mostrar mais definições"
+
+#: public/editor-build/282-wp/texts.php:1283
+msgid "Select a menu from the element options"
+msgstr "Seleccione um menu nas opções do elemento"
+
+#: public/editor-build/282-wp/texts.php:1279
+msgid "Select Parent Element"
+msgstr "Seleccionar elemento superior"
+
+#: public/editor-build/282-wp/texts.php:1276
+msgid "Section"
+msgstr "Secção"
+
+#: public/editor-build/282-wp/texts.php:1275
+msgid "Seconds"
+msgstr "Segundos"
+
+#: public/editor-build/282-wp/texts.php:1269
+msgid "Scroll Page Behind"
+msgstr "Scroll da página por trás"
+
+#: public/editor-build/282-wp/texts.php:1262
+msgid "Saving"
+msgstr "A guardar"
+
+#: public/editor-build/282-wp/texts.php:1261
+msgid "Saved Popups"
+msgstr "Popups guadados"
+
+#: public/editor-build/282-wp/texts.php:1260
+msgid "Saved Library is syncing to your Account"
+msgstr "A biblioteca guardada está a sincronizar com a sua conta"
+
+#: public/editor-build/282-wp/texts.php:1258
+msgid "Save Layout"
+msgstr "Guardar layout"
+
+#: public/editor-build/282-wp/texts.php:1257
+msgid "Save Draft"
+msgstr "Guardar rascunho"
+
+#: public/editor-build/282-wp/texts.php:1253
+msgid "Same Page"
+msgstr "Mesma página"
+
+#: public/editor-build/282-wp/texts.php:1252
+msgid "Sale"
+msgstr "Promoção"
+
+#: public/editor-build/282-wp/texts.php:1249
+msgid "START BUILDING YOUR POPUP"
+msgstr "COMECE A CRIAR O SEU POPUP"
+
+#: public/editor-build/282-wp/texts.php:1233
+msgid "Rotate"
+msgstr "Rodar"
+
+#: public/editor-build/282-wp/texts.php:1205
+msgid "Review"
+msgstr "Avaliação"
+
+#: public/editor-build/282-wp/texts.php:1203
+msgid "Reverse"
+msgstr "Inverter"
+
+#: public/editor-build/282-wp/texts.php:1199
+msgid "Reset Password"
+msgstr "Redefinir senha"
+
+#: public/editor-build/282-wp/texts.php:1197
+msgid "Reply-To"
+msgstr "Responder para"
+
+#: public/editor-build/282-wp/texts.php:1196
+msgid "Reply"
+msgstr "Responder"
+
+#: public/editor-build/282-wp/texts.php:1189
+msgid "Renderer"
+msgstr "Processador"
+
+#: public/editor-build/282-wp/texts.php:1185
+msgid "Religion"
+msgstr "Religião"
+
+#: public/editor-build/282-wp/texts.php:1184
+msgid "Related Products Tags"
+msgstr "Etiquetas dos produtos relacionados"
+
+#: public/editor-build/282-wp/texts.php:1183
+msgid "Related Products Pagination"
+msgstr "Paginação dos produtos relacionados"
+
+#: public/editor-build/282-wp/texts.php:1182
+msgid "Related Products"
+msgstr "Produtos relacionados"
+
+#: public/editor-build/282-wp/texts.php:1180
+msgid "Register Info"
+msgstr "Informação de registo"
+
+#: public/editor-build/282-wp/texts.php:1179
+msgid "Register"
+msgstr "Registar"
+
+#: public/editor-build/282-wp/texts.php:1177
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: public/editor-build/282-wp/texts.php:1173
+msgid "Redirect After Logout"
+msgstr "Redireccionar depois de terminar sessão"
+
+#: public/editor-build/282-wp/texts.php:1172
+msgid "Redirect After Login"
+msgstr "Redireccionar depois de iniciar sessão"
+
+#: public/editor-build/282-wp/texts.php:1166
+msgid "ReCAPTCHA"
+msgstr "ReCAPTCHA"
+
+#: public/editor-build/282-wp/texts.php:1160
+msgid "Radio"
+msgstr "Botão de opção"
+
+#: public/editor-build/282-wp/texts.php:1156
+msgid "Quantity"
+msgstr "Quantidade"
+
+#: public/editor-build/282-wp/texts.php:1150
+msgid "Publish Page"
+msgstr "Publicar página"
+
+#: public/editor-build/282-wp/texts.php:1148
+msgid "Protected Page"
+msgstr "Página protegida"
+
+#: public/editor-build/282-wp/texts.php:1147
+msgid "Protected Form"
+msgstr "Formulário protegido"
+
+#: public/editor-build/282-wp/texts.php:1143
+msgid "Products Tags"
+msgstr "Etiquetas dos produtos"
+
+#: public/editor-build/282-wp/texts.php:1142
+msgid "Products Pagination"
+msgstr "Paginação dos produtos"
+
+#: public/editor-build/282-wp/texts.php:1137
+msgid "Product Title"
+msgstr "Título do produto"
+
+#: public/editor-build/282-wp/texts.php:1136
+msgid "Product Thumbnail"
+msgstr "Miniatura do produto"
+
+#: public/editor-build/282-wp/texts.php:1135
+msgid "Product Stock"
+msgstr "Stock do produto"
+
+#: public/editor-build/282-wp/texts.php:1131
+msgid "Product Rating"
+msgstr "Classificação do produto"
+
+#: public/editor-build/282-wp/texts.php:1130
+msgid "Product Price"
+msgstr "Preço do produto"
+
+#: public/editor-build/282-wp/texts.php:1126
+msgid "Product Meta"
+msgstr "Metadados do produto"
+
+#: public/editor-build/282-wp/texts.php:1122
+msgid "Product Gallery"
+msgstr "Galeria do produto"
+
+#: public/editor-build/282-wp/texts.php:1121
+msgid "Product Excerpt"
+msgstr "Excerto do produto"
+
+#: public/editor-build/282-wp/texts.php:1120
+msgid "Product Content"
+msgstr "Conteúdo do produto"
+
+#: public/editor-build/282-wp/texts.php:1119
+msgid "Product Breadcrumbs"
+msgstr "Breadcrumbs do produto"
+
+#: public/editor-build/282-wp/texts.php:1118
+msgid "Product Attributes"
+msgstr "Atributos do produto"
+
+#: editor/editor/editor.php:2116 public/editor-build/282-wp/texts.php:1114
+msgid "Price"
+msgstr "Preço"
+
+#: public/editor-build/282-wp/texts.php:1106
+msgid "Press the button above to add popup"
+msgstr "Prima o botão acima para adicionar popup"
+
+#: public/editor-build/282-wp/texts.php:1104
+msgid "Prefix"
+msgstr "Prefixo"
+
+#: public/editor-build/282-wp/texts.php:1099
+msgid "Posts Tags"
+msgstr "Etiquetas de artigos"
+
+#: public/editor-build/282-wp/texts.php:1098
+msgid "Posts Pagination"
+msgstr "Navegação de conteúdos"
+
+#: public/editor-build/282-wp/texts.php:1095
+msgid "Post info"
+msgstr "Informação do artigo"
+
+#: public/editor-build/282-wp/texts.php:1093
+msgid "Post Title"
+msgstr "Título do artigo"
+
+#: public/editor-build/282-wp/texts.php:1091
+msgid "Post Navigation"
+msgstr "Navegação de conteúdos"
+
+#: public/editor-build/282-wp/texts.php:1090
+msgid "Post Info"
+msgstr "Informação do artigo"
+
+#: public/editor-build/282-wp/texts.php:1089
+msgid "Post Excerpt"
+msgstr "Excerto do artigo"
+
+#: public/editor-build/282-wp/texts.php:1088
+msgid "Post Content"
+msgstr "Conteúdo do artigo"
+
+#: public/editor-build/282-wp/texts.php:1083
+msgid "Popup Close Icon"
+msgstr "Ícone para fechar popup"
+
+#: public/editor-build/282-wp/texts.php:1078
+msgid "Playlist Items"
+msgstr "Itens da lista de reprodução"
+
+#: editor/editor/editor.php:2046 public/editor-build/282-wp/texts.php:1077
+msgid "Playlist"
+msgstr "Lista de reprodução"
+
+#: public/editor-build/282-wp/texts.php:1072
+msgid "Plain"
+msgstr "Genérica"
+
+#: public/editor-build/282-wp/texts.php:1071
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: public/editor-build/282-wp/texts.php:1068
+msgid "Phone Number"
+msgstr "Número de telefone"
+
+#: public/editor-build/282-wp/texts.php:1065
+msgid "Percent"
+msgstr "Percentagem"
+
+#: public/editor-build/282-wp/texts.php:1059
+msgid "Password and confirm password is not the same"
+msgstr "As senhas não correspondem"
+
+#: public/editor-build/282-wp/texts.php:1048
+msgid "Page title"
+msgstr "Título da página"
+
+#: public/editor-build/282-wp/texts.php:1046
+msgid "Page Title"
+msgstr "Título da página"
+
+#: public/editor-build/282-wp/texts.php:1040
+msgid "Overlay "
+msgstr "Sobreposição "
+
+#: public/editor-build/282-wp/texts.php:1030
+msgid "Orientation"
+msgstr "Orientação"
+
+#: public/editor-build/282-wp/texts.php:1014
+msgid "On Hover"
+msgstr "Ao passar com o rato"
+
+#: public/editor-build/282-wp/texts.php:1013
+msgid "On Click"
+msgstr "Ao clicar"
+
+#: public/editor-build/282-wp/texts.php:1012
+msgid "Offset"
+msgstr "Offset"
+
+#: public/editor-build/282-wp/texts.php:984
+msgid "No results"
+msgstr "Sem resultados"
+
+#: public/editor-build/282-wp/texts.php:972
+msgid "Need help"
+msgstr "Precisa de ajuda"
+
+#: public/editor-build/282-wp/texts.php:970
+msgid "Nav"
+msgstr "Nav"
+
+#: public/editor-build/282-wp/texts.php:968
+msgid "Native HTML5"
+msgstr "HTML5 nativo"
+
+#: public/editor-build/282-wp/texts.php:965
+msgid "N/A"
+msgstr "N/D"
+
+#: public/editor-build/282-wp/texts.php:963
+msgid "Muted"
+msgstr "Silenciado"
+
+#: public/editor-build/282-wp/texts.php:960
+msgid "Multiple Selection"
+msgstr "Selecção múltipla"
+
+#: public/editor-build/282-wp/texts.php:955
+msgid "Move right"
+msgstr "Mover para a direita"
+
+#: public/editor-build/282-wp/texts.php:954
+msgid "Move left"
+msgstr "Mover para a esquerda"
+
+#: public/editor-build/282-wp/texts.php:914
+msgid "Minimal"
+msgstr "Minimalista"
+
+#: public/editor-build/282-wp/texts.php:912
+msgid "Min Time"
+msgstr "Hora mínima"
+
+#: public/editor-build/282-wp/texts.php:911
+msgid "Min Date"
+msgstr "Data mínima"
+
+#: public/editor-build/282-wp/texts.php:910
+msgid "Min"
+msgstr "Min"
+
+#: public/editor-build/282-wp/texts.php:904
+msgid "Meta Data"
+msgstr "Metadados"
+
+#: editor/editor/editor.php:2133 public/editor-build/282-wp/texts.php:903
+msgid "Meta"
+msgstr "Meta"
+
+#: public/editor-build/282-wp/texts.php:896
+msgid "Menu Items"
+msgstr "Itens de menu"
+
+#: public/editor-build/282-wp/texts.php:894
+msgid "Mention"
+msgstr "Menção"
+
+#: public/editor-build/282-wp/texts.php:893
+msgid "Membership"
+msgstr "Membros"
+
+#: public/editor-build/282-wp/texts.php:892
+msgid "Mega Menu"
+msgstr "Megamenu"
+
+#: editor.php:626 public/editor-build/282-wp/texts.php:887
+msgid "Medium"
+msgstr "Médio"
+
+#: public/editor-build/282-wp/texts.php:881
+msgid "Max. File Size"
+msgstr "Tamanho máximo de ficheiro"
+
+#: public/editor-build/282-wp/texts.php:879
+msgid "Max Time"
+msgstr "Hora máxima"
+
+#: public/editor-build/282-wp/texts.php:878
+msgid "Max Date"
+msgstr "Data máxima"
+
+#: public/editor-build/282-wp/texts.php:877
+msgid "Max"
+msgstr "Max"
+
+#: public/editor-build/282-wp/texts.php:863
+msgid "Manual"
+msgstr "Manual"
+
+#: public/editor-build/282-wp/texts.php:857
+msgid "Main"
+msgstr "Principal"
+
+#: public/editor-build/282-wp/texts.php:855
+msgid "Lottie Link"
+msgstr "Ligação de Lottie"
+
+#: public/editor-build/282-wp/texts.php:854
+msgid "Lottie File"
+msgstr "Ficheiro de Lottie"
+
+#: editor/editor/editor.php:2058 public/editor-build/282-wp/texts.php:853
+msgid "Lottie"
+msgstr "Lottie"
+
+#: public/editor-build/282-wp/texts.php:852
+msgid "Lost Password"
+msgstr "Senha perdida"
+
+#: public/editor-build/282-wp/texts.php:849
+msgid "Logout"
+msgstr "Terminar sessão"
+
+#: public/editor-build/282-wp/texts.php:847
+msgid "Login"
+msgstr "Início da sessão"
+
+#: public/editor-build/282-wp/texts.php:845
+msgid "Locked"
+msgstr "Bloqueado"
+
+#: public/editor-build/282-wp/texts.php:820
+msgid "Left"
+msgstr "Esquerda"
+
+#: public/editor-build/282-wp/texts.php:815
+msgid "Lateral"
+msgstr "Lateral"
+
+#: public/editor-build/282-wp/texts.php:813
+msgid "Last Name"
+msgstr "Apelido"
+
+#: public/editor-build/282-wp/texts.php:795
+msgid "Item"
+msgstr "Item"
+
+#: public/editor-build/282-wp/texts.php:788
+msgid "Invalid api data"
+msgstr "Os dados da API são inválidos"
+
+#: public/editor-build/282-wp/texts.php:786
+msgid "Intro"
+msgstr "Introdução"
+
+#: public/editor-build/282-wp/texts.php:772
+msgid "Input"
+msgstr "Campo"
+
+#: public/editor-build/282-wp/texts.php:771
+msgid "Inline"
+msgstr "Em linha"
+
+#: editor/editor/editor.php:2084 public/editor-build/282-wp/texts.php:768
+msgid "Info"
+msgstr "Informações"
+
+#: public/editor-build/282-wp/texts.php:763
+msgid "Incorrect username or password"
+msgstr "Nome de utilizador ou senha incorrectos"
+
+#: public/editor-build/282-wp/texts.php:752
+msgid "Import This Story"
+msgstr "Importar esta história"
+
+#: public/editor-build/282-wp/texts.php:750
+msgid "Import New Popup"
+msgstr "Importar novo popup"
+
+#: public/editor-build/282-wp/texts.php:749
+msgid "Import New Layout"
+msgstr "Importar novo layout"
+
+#: public/editor-build/282-wp/texts.php:748
+msgid "Import New Block"
+msgstr "Importar novo bloco"
+
+#: public/editor-client/build/texts.php:47
+msgid "Image file is too large."
+msgstr "O ficheiro de imagem é demasiado grande."
+
+#: public/editor-build/282-wp/texts.php:746
+msgid "Image Test"
+msgstr "Teste de imagem"
+
+#: public/editor-build/282-wp/texts.php:743
+msgid "If you need to increase max upload size please contact your hosting."
+msgstr "Se precisar de aumentar o tamanho máximo de carregamento, por favor contacte o seu serviço de alojamento."
+
+#: public/editor-build/282-wp/texts.php:733
+msgid "Icons"
+msgstr "Ícones"
+
+#: public/editor-build/282-wp/texts.php:719
+msgid "Hours"
+msgstr "Horas"
+
+#: public/editor-build/282-wp/texts.php:716
+msgid "Horizontal Offset"
+msgstr "Offset horizontal"
+
+#: public/editor-build/282-wp/texts.php:708
+msgid "Hide Hidden Elements"
+msgstr "Não mostrar elementos escondidos"
+
+#: public/editor-build/282-wp/texts.php:705
+msgid "Hide"
+msgstr "Esconder"
+
+#: public/editor-build/282-wp/texts.php:704
+msgid "Hidden"
+msgstr "Escondido"
+
+#: public/editor-build/282-wp/texts.php:694
+msgid "Head"
+msgstr "Head"
+
+#: public/editor-build/282-wp/texts.php:691
+msgid "Handle"
+msgstr "Handle"
+
+#: public/editor-build/282-wp/texts.php:666
+msgid "Global Popups"
+msgstr "Popups globais"
+
+#: public/editor-build/282-wp/texts.php:662
+msgid "Get a PRO plan"
+msgstr "Obter um plano PRO"
+
+#: public/editor-build/282-wp/texts.php:655
+msgid "Gaming"
+msgstr "Jogos"
+
+#: public/editor-build/282-wp/texts.php:654
+msgid "Gallery Tags"
+msgstr "Etiquetas da galeria"
+
+#: public/editor-build/282-wp/texts.php:651
+msgid "Full name"
+msgstr "Nome completo"
+
+#: public/editor-build/282-wp/texts.php:645
+msgid "From Name"
+msgstr "Nome do remetente"
+
+#: public/editor-build/282-wp/texts.php:644
+msgid "From Email"
+msgstr "Email do remetente"
+
+#: public/editor-build/282-wp/texts.php:640
+msgid "Forms"
+msgstr "Formulários"
+
+#: public/editor-build/282-wp/texts.php:639
+msgid "Form Fields"
+msgstr "Campos do formulário"
+
+#: public/editor-build/282-wp/texts.php:634
+msgid "Food"
+msgstr "Culinária"
+
+#: public/editor-build/282-wp/texts.php:628
+msgid "Followers"
+msgstr "Seguidores"
+
+#: public/editor-build/282-wp/texts.php:627
+msgid "Follow"
+msgstr "Seguir"
+
+#: public/editor-build/282-wp/texts.php:619
+msgid "First Name"
+msgstr "Nome"
+
+#: public/editor-build/282-wp/texts.php:589
+msgid "Failed to upload file. Please upload a valid JPG, PNG, SVG or GIF image."
+msgstr "Falhou ao carregar ficheiro. Por favor carregue uma imagem válida do tipo JPG, PNG, SVG ou GIF."
+
+#: public/editor-client/build/texts.php:38
+msgid "Failed to update page"
+msgstr "Falhou ao actualizar página"
+
+#: public/editor-build/282-wp/texts.php:588
+msgid "Failed to reset password"
+msgstr "Falhou ao redefinir senha"
+
+#: public/editor-build/282-wp/texts.php:582
+msgid "Failed to fetch api data"
+msgstr "Falhou ao obter dados da API"
+
+#: editor/editor/editor.php:2064 public/editor-build/282-wp/texts.php:574
+msgid "Facebook"
+msgstr "Facebook"
+
+#: public/editor-build/282-wp/texts.php:568
+msgid "Extra Light"
+msgstr "Extra light"
+
+#: public/editor-build/282-wp/texts.php:566
+msgid "Extra Bold"
+msgstr "Extranegrito"
+
+#: public/editor-build/282-wp/texts.php:563
+msgid "Export All Popups"
+msgstr "Exportar todos os popups"
+
+#: public/editor-build/282-wp/texts.php:562
+msgid "Export All Layouts"
+msgstr "Exportar todos os layouts"
+
+#: public/editor-build/282-wp/texts.php:561
+msgid "Export All Blocks"
+msgstr "Exportar todos os blocos"
+
+#: editor/editor/editor.php:2083 public/editor-build/282-wp/texts.php:556
+msgid "Excerpt"
+msgstr "Excerto"
+
+#: public/editor-build/282-wp/texts.php:540
+msgid "Enter the allowed file types, separated by a comma (jpg, gif, pdf, etc)."
+msgstr "Digite os tipos de ficheiros permitidos, separados por vírgulas (jpg, gif, pdf, etc)."
+
+#: public/editor-build/282-wp/texts.php:531
+msgid "Enable tags"
+msgstr "Activar etiquetas"
+
+#: public/editor-build/282-wp/texts.php:528
+msgid "Enable Tags"
+msgstr "Activar etiquetas"
+
+#: public/editor-build/282-wp/texts.php:519
+msgid "Email to recover password cannot be empty"
+msgstr "O email para recuperação de senha não pode estar em branco"
+
+#: public/editor-build/282-wp/texts.php:510
+msgid "Elements"
+msgstr "Elementos"
+
+#: public/editor-build/282-wp/texts.php:508
+msgid "Education"
+msgstr "Educação"
+
+#: public/editor-build/282-wp/texts.php:495
+msgid "Download this block"
+msgstr "Descarregar este bloco"
+
+#: public/editor-build/282-wp/texts.php:486
+msgid "Don't have tags"
+msgstr "Não tem etiquetas"
+
+#: public/editor-build/282-wp/texts.php:485
+msgid "Don't have items"
+msgstr "Não tem itens"
+
+#: public/editor-build/282-wp/texts.php:483
+msgid "Disqus"
+msgstr "Disqus"
+
+#: public/editor-build/282-wp/texts.php:479
+msgid "Display Close Button"
+msgstr "Mostrar botão de fechar"
+
+#: public/editor-build/282-wp/texts.php:453
+msgid "Default Roles"
+msgstr "Papéis por omissão"
+
+#: public/editor-build/282-wp/texts.php:450
+msgid "Days"
+msgstr "Dias"
+
+#: public/editor-build/282-wp/texts.php:441
+msgid "Custom Video"
+msgstr "Vídeo personalizado"
+
+#: public/editor-build/282-wp/texts.php:440
+msgid "Custom Text"
+msgstr "Texto personalizado"
+
+#: public/editor-build/282-wp/texts.php:435
+msgid "Custom Attributes"
+msgstr "Atributos personalizados"
+
+#: public/editor-build/282-wp/texts.php:426
+msgid "Create your own"
+msgstr "Crie o seu"
+
+#: public/editor-build/282-wp/texts.php:423
+msgid "Create a menu"
+msgstr "Crie um menu"
+
+#: public/editor-build/282-wp/texts.php:422
+msgid "Create Account & Connect"
+msgstr "Crie uma conta e ligue-se"
+
+#: public/editor-build/282-wp/texts.php:414
+msgid "Could not switch to draft"
+msgstr "Não foi possível mudar para rascunho"
+
+#: public/editor-build/282-wp/texts.php:413
+msgid "Could not save layout"
+msgstr "Não foi possível guardar o layout"
+
+#: public/editor-build/282-wp/texts.php:412
+msgid "Could not publish or save page"
+msgstr "Não foi possível publicar ou guardar a página"
+
+#: public/editor-build/282-wp/texts.php:410
+msgid "Could not download Saved block"
+msgstr "Não foi possível descarregar o bloco guardado"
+
+#: public/editor-build/282-wp/texts.php:409
+msgid "Could not download Saved Popup"
+msgstr "Não foi possível descarregar o popup guardado"
+
+#: public/editor-build/282-wp/texts.php:408
+msgid "Could not download Saved Layout"
+msgstr "Não foi possível descarregar o layout guardado"
+
+#: public/editor-build/282-wp/texts.php:407
+msgid "Could not Create Saved Popup"
+msgstr "Não foi possível criar popup guardado"
+
+#: public/editor-build/282-wp/texts.php:406
+msgid "Could not Create Saved Block"
+msgstr "Não foi possível criar bloco guardado"
+
+#: public/editor-build/282-wp/texts.php:405
+msgid "Could not Create Global Popup"
+msgstr "Não foi possível criar popup global"
+
+#: public/editor-build/282-wp/texts.php:404
+msgid "Could not Create Global Block"
+msgstr "Não foi possível criar bloco global"
+
+#: public/editor-build/282-wp/texts.php:389
+msgid "Content Gap"
+msgstr "Intervalo entre conteúdos"
+
+#: public/editor-build/282-wp/texts.php:380
+msgid "Conditions"
+msgstr "Condições"
+
+#: public/editor-build/282-wp/texts.php:1738
+msgid "required"
+msgstr "obrigatório"
+
+#: public/editor-build/282-wp/texts.php:1713
+msgid "here"
+msgstr "aqui"
+
+#: public/editor-build/282-wp/texts.php:1690
+msgid "You must be have one font added"
+msgstr "Tem de adicionar um tipo de letra"
+
+#: public/editor-build/282-wp/texts.php:1689
+msgid "You have successfully connect the form with"
+msgstr "Ligou com sucesso o formulário a"
+
+#: public/editor-build/282-wp/texts.php:1648
+msgid "WOFF2 File"
+msgstr "Ficheiro WOFF2"
+
+#: public/editor-build/282-wp/texts.php:1647
+msgid "WOFF File"
+msgstr "Ficheiro WOFF"
+
+#: public/editor-build/282-wp/texts.php:1631
+msgid "Vertical Align"
+msgstr "Alinhamento vertical"
+
+#: public/editor-build/282-wp/texts.php:1630
+msgid "Vertical"
+msgstr "Vertical"
+
+#: public/editor-build/282-wp/texts.php:1628
+msgid "Verification process failed, please make sure you have done the following three things and try again in a few minutes."
+msgstr "O processo de verificação falhou. Por favor certifique-se de que fez os três procedimentos abaixo e tente de novo daqui a alguns minutos."
+
+#: public/editor-build/282-wp/texts.php:1616
+msgid "Username"
+msgstr "Nome de utilizador"
+
+#: public/editor-build/282-wp/texts.php:1593
+msgid "Upgrade to PRO to use this story"
+msgstr "Actualize para PRO para usar esta história"
+
+#: public/editor-build/282-wp/texts.php:1576
+msgid "Undo"
+msgstr "Anular"
+
+#: public/editor-build/282-wp/texts.php:1559
+msgid "UPLOAD FONT"
+msgstr "CARREGAR TIPO DE LETRA"
+
+#: public/editor-build/282-wp/texts.php:1558
+msgid "UPLOAD"
+msgstr "CARREGAR"
+
+#: public/editor-build/282-wp/texts.php:1549
+msgid "Try Again"
+msgstr "Tentar de novo"
+
+#: public/editor-build/282-wp/texts.php:1517
+msgid "Tip: You can browse the Google font library"
+msgstr "Dica: Pode pesquisar na biblioteca de tipos de letra Google"
+
+#: public/editor-build/282-wp/texts.php:1457
+msgid "TTF File"
+msgstr "Ficheiro TTF"
+
+#: public/editor-build/282-wp/texts.php:1428
+msgid "Subject"
+msgstr "Assunto"
+
+#: public/editor-build/282-wp/texts.php:1376
+msgid "Some integrations are available only in PRO"
+msgstr "Algumas integrações apenas estão disponíveis no PRO"
+
+#: public/editor-build/282-wp/texts.php:1354
+msgid "Skin"
+msgstr "Aparência"
+
+#: public/editor-build/282-wp/texts.php:1336
+msgid "Show Social Context"
+msgstr "Mostrar contexto social"
+
+#: public/editor-build/282-wp/texts.php:1331
+msgid "Show Meta Data"
+msgstr "Mostrar metadados"
+
+#: editor/editor/editor.php:1997 public/editor-build/282-wp/texts.php:1320
+msgid "Shortcuts"
+msgstr "Atalhos"
+
+#: public/editor-build/282-wp/texts.php:1274
+msgid "Search element"
+msgstr "Pesquisar elemento"
+
+#: public/editor-build/282-wp/texts.php:1242
+msgid "SELECT LIST"
+msgstr "SELECCIONAR LISTA"
+
+#: public/editor-build/282-wp/texts.php:1240
+msgid "SELECT ACCOUNT"
+msgstr "SELECCIONAR CONTA"
+
+#: public/editor-build/282-wp/texts.php:1194
+msgid "Replace global styling"
+msgstr "Substituir estilos globais"
+
+#: public/editor-build/282-wp/texts.php:1174
+msgid "Redo"
+msgstr "Refazer"
+
+#: public/editor-build/282-wp/texts.php:1085
+msgid "Port"
+msgstr "Porta"
+
+#: public/editor-build/282-wp/texts.php:1061
+msgid "Paste Style"
+msgstr "Colar estilo"
+
+#: public/editor-build/282-wp/texts.php:1058
+msgid "Password"
+msgstr "Senha"
+
+#: public/editor-build/282-wp/texts.php:1009
+msgid "Number of posts"
+msgstr "Número de conteúdos"
+
+#: public/editor-build/282-wp/texts.php:997
+msgid "Nothing here, please refine your search."
+msgstr "Não foi encontrado nada, por favor pesquise de novo."
+
+#: public/editor-build/282-wp/texts.php:991
+msgid "Nothing Found"
+msgstr "Não foi encontrado nada"
+
+#: public/editor-build/282-wp/texts.php:988
+msgid "Not Required"
+msgstr "Não é obrigatório"
+
+#: public/editor-build/282-wp/texts.php:898
+msgid "Menu order"
+msgstr "Ordem do menu"
+
+#: public/editor-build/282-wp/texts.php:873
+msgid "Mask"
+msgstr "Máscara"
+
+#: public/editor-build/282-wp/texts.php:840
+msgid "Lists are empty. Please add a new list and try again."
+msgstr "As listas estão vazias. Por favor adicione uma nova lista e tente de novo."
+
+#: editor/editor/editor.php:1946 public/editor-build/282-wp/texts.php:836
+msgid "Links"
+msgstr "Ligações"
+
+#: public/editor-build/282-wp/texts.php:801
+msgid "Keyboard Shortcuts"
+msgstr "Atalhos de teclado"
+
+#: public/editor-build/282-wp/texts.php:773
+msgid "Inputted a valid site key"
+msgstr "Inseriu uma chave de site válida"
+
+#: public/editor-build/282-wp/texts.php:762
+msgid "Incorrect"
+msgstr "Incorreto"
+
+#: public/editor-build/282-wp/texts.php:717
+msgid "Host"
+msgstr "Alojamento"
+
+#: public/editor-build/282-wp/texts.php:715
+msgid "Horizontal Align"
+msgstr "Alinhamento horizontal"
+
+#: public/editor-build/282-wp/texts.php:673
+msgid "Group"
+msgstr "Grupo"
+
+#: editor/editor/editor.php:1947 public/editor-build/282-wp/texts.php:633
+msgid "Fonts"
+msgstr "Tipos de letra"
+
+#: public/editor-build/282-wp/texts.php:632
+msgid "Font weight"
+msgstr "Peso da letra"
+
+#: public/editor-build/282-wp/texts.php:631
+msgid "Font name"
+msgstr "Nome do tipo de letra"
+
+#: public/editor-build/282-wp/texts.php:629
+msgid "Font Name is Required"
+msgstr "O nome do tipo de letra é obrigatório"
+
+#: public/editor-build/282-wp/texts.php:616
+msgid "Filters"
+msgstr "Filtros"
+
+#: public/editor-build/282-wp/texts.php:601
+msgid "File"
+msgstr "Ficheiro"
+
+#: public/editor-build/282-wp/texts.php:600
+msgid "Fields are empty. Please add fields and try again."
+msgstr "Os campos estão vazios. Por favor adicione campos e tente de novo."
+
+#: public/editor-build/282-wp/texts.php:599
+msgid "Fields are empty"
+msgstr "Os campos estão vazios"
+
+#: public/editor-build/282-wp/texts.php:577
+msgid "Facebook Group"
+msgstr "Grupo do Facebook"
+
+#: public/editor-build/282-wp/texts.php:573
+msgid "FORM FIELDS"
+msgstr "CAMPOS DO FORMULÁRIO"
+
+#: public/editor-build/282-wp/texts.php:572
+msgid "FONT VARIATION"
+msgstr "VARIAÇÃO DO TIPO DE LETRA"
+
+#: public/editor-build/282-wp/texts.php:570
+msgid "FIELDS"
+msgstr "CAMPOS"
+
+#: public/editor-build/282-wp/texts.php:546
+msgid "Established a stable internet connection"
+msgstr "Estabelecida uma ligação estável à internet"
+
+#: public/editor-build/282-wp/texts.php:532
+msgid "Encryption"
+msgstr "Encriptação"
+
+#: public/editor-build/282-wp/texts.php:517
+msgid "Email confirmation to join the list"
+msgstr "Confirmação de email para juntar-se à lista"
+
+#: public/editor-build/282-wp/texts.php:516
+msgid "Email To"
+msgstr "Email para"
+
+#: public/editor-build/282-wp/texts.php:505
+msgid "Edit"
+msgstr "Editar"
+
+#: public/editor-build/282-wp/texts.php:504
+msgid "EOT File"
+msgstr "Ficheiro EOT"
+
+#: public/editor-build/282-wp/texts.php:500
+msgid "Duplicate Account"
+msgstr "Duplicar conta"
+
+#: public/editor-build/282-wp/texts.php:487
+msgid "Done"
+msgstr "Concluído"
+
+#: public/editor-build/282-wp/texts.php:477
+msgid "Disconnect"
+msgstr "Desligar"
+
+#: public/editor-build/282-wp/texts.php:462
+msgid "Deselected the “Verify the origin of reCAPTCHA solutions” checkbox within your Google account."
+msgstr "Desseleccione a caixa \"Verificar a origem de soluções reCAPTCHA\" com a sua conta Google."
+
+#: public/editor-build/282-wp/texts.php:443
+msgid "DELETE"
+msgstr "ELIMINAR"
+
+#: public/editor-build/282-wp/texts.php:424
+msgid "Create a new list"
+msgstr "Criar um nova lista"
+
+#: public/editor-build/282-wp/texts.php:421
+msgid "Create"
+msgstr "Criar"
+
+#: public/editor-build/282-wp/texts.php:393
+msgid "Continue"
+msgstr "Continuar"
+
+#: public/editor-build/282-wp/texts.php:384
+msgid "Connect a new account"
+msgstr "Ligar uma nova conta"
+
+#: public/editor-build/282-wp/texts.php:383
+msgid "Connect"
+msgstr "Ligar"
+
+#: public/editor-build/282-wp/texts.php:792
+msgid "It's a sample"
+msgstr "É um exemplo"
+
+#: public/editor-build/282-wp/texts.php:498
+msgid "Drawer Position"
+msgstr "Posição da gaveta"
+
+#: public/editor-build/282-wp/texts.php:1716
+msgid "in your WordPress admin"
+msgstr "na administração do seu WordPress"
+
+#: public/editor-build/282-wp/texts.php:1282
+msgid "Select a Menu"
+msgstr "Seleccione um menu"
+
+#: public/editor-build/282-wp/texts.php:860
+msgid "Make it Hamburger"
+msgstr "Tornar em hamburger"
+
+#: public/editor-build/282-wp/texts.php:484
+msgid "Dividers"
+msgstr "Divisórias"
+
+#: public/editor-build/282-wp/texts.php:861
+msgid "Make it Nofollow"
+msgstr "Tornar em Nofollow"
+
+#: public/editor-build/282-wp/texts.php:1525
+msgid "Toggle Menu"
+msgstr "Menu de alternar"
+
+#: public/editor-build/282-wp/texts.php:1045
+msgid "Page Template"
+msgstr "Modelo de página"
+
+#: public/editor-build/282-wp/texts.php:1556
+msgid "Type to search"
+msgstr "Digite para pesquisar"
+
+#: public/editor-build/282-wp/texts.php:444
+msgid "Dark"
+msgstr "Escuro"
+
+#: public/editor-build/282-wp/texts.php:1229
+msgid "Right"
+msgstr "Direita"
+
+#: public/editor-build/282-wp/texts.php:665
+msgid "Global Blocks"
+msgstr "Blocos globais"
+
+#: public/editor-build/282-wp/texts.php:993
+msgid "Nothing here yet, make a global popup first."
+msgstr "Ainda não há nada aqui. Crie primeiro um popup global."
+
+#: public/editor-build/282-wp/texts.php:996
+msgid "Nothing here yet, save a popup first."
+msgstr "Ainda não há nada aqui. Guarde um popup primeiro."
+
+#: public/editor-build/282-wp/texts.php:751
+msgid "Import This Layout"
+msgstr "Importar este layout"
+
+#: public/editor-build/282-wp/texts.php:578
+msgid "Facebook Page"
+msgstr "Página do Facebook"
+
+#: public/editor-build/282-wp/texts.php:576
+msgid "Facebook Embed"
+msgstr "Incorporação do Facebook"
+
+#: public/editor-build/282-wp/texts.php:575
+msgid "Facebook Button"
+msgstr "Botão do Facebook"
+
+#: public/editor-build/282-wp/texts.php:1326
+msgid "Show Friend's Faces"
+msgstr "Mostrar caras dos amigos"
+
+#: public/editor-build/282-wp/texts.php:707
+msgid "Hide Cover Photo"
+msgstr "Esconder imagem de capa"
+
+#: public/editor-build/282-wp/texts.php:1610
+msgid "Use Small Header"
+msgstr "Usar cabeçalho pequeno"
+
+#: public/editor-build/282-wp/texts.php:902
+msgid "Messages"
+msgstr "Mensagens"
+
+#: public/editor-build/282-wp/texts.php:554
+msgid "Events"
+msgstr "Eventos"
+
+#: editor/editor/editor.php:2051 public/editor-build/282-wp/texts.php:1510
+msgid "Timeline"
+msgstr "Cronologia"
+
+#: public/editor-build/282-wp/texts.php:650
+msgid "Full Screen"
+msgstr "Ecrã completo"
+
+#: public/editor-build/282-wp/texts.php:758
+msgid "Include Full Post"
+msgstr "Incluir conteúdo completo"
+
+#: public/editor-build/282-wp/texts.php:438
+msgid "Custom Page"
+msgstr "Página personalizada"
+
+#: public/editor-build/282-wp/texts.php:430
+msgid "Current Page"
+msgstr "Página actual"
+
+#: public/editor-build/282-wp/texts.php:1470
+msgid "Target URL"
+msgstr "URL do destino"
+
+#: public/editor-build/282-wp/texts.php:1325
+msgid "Show Button Counter"
+msgstr "Mostrar contador de botões"
+
+#: public/editor-build/282-wp/texts.php:760
+msgid "Include Share Button"
+msgstr "Incluir botão de partilha"
+
+#: public/editor-build/282-wp/texts.php:1170
+msgid "Recommend"
+msgstr "Recomendado"
+
+#: public/editor-build/282-wp/texts.php:826
+msgid "Like"
+msgstr "Gostar"
+
+#: public/editor-build/282-wp/texts.php:980
+msgid "No matches found"
+msgstr "Nenhuma correspondência encontrada"
+
+#: public/editor-build/282-wp/texts.php:1414
+msgid "Static"
+msgstr "Estática"
+
+#: public/editor-build/282-wp/texts.php:1553
+msgid "Type"
+msgstr "Tipo"
+
+#: public/editor-build/282-wp/texts.php:695
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: editor/editor/editor.php:2039 editor/editor/editor.php:2120
+#: public/editor-build/282-wp/texts.php:653
+msgid "Gallery"
+msgstr "Galeria"
+
+#: public/editor-build/282-wp/texts.php:1020
+msgid "Open in Lightbox"
+msgstr "Abrir em lightbox"
+
+#: public/editor-build/282-wp/texts.php:1204
+msgid "Reverse Columns"
+msgstr "Inverter colunas"
+
+#: public/editor-build/282-wp/texts.php:1306
+msgid "Shadow"
+msgstr "Sombra"
+
+#: editor/editor/editor.php:1973 public/editor-build/282-wp/texts.php:503
+msgid "Dynamic Content"
+msgstr "Conteúdo dinâmico"
+
+#: public/editor-build/282-wp/texts.php:1159
+msgid "Radial"
+msgstr "Radial"
+
+#: public/editor-build/282-wp/texts.php:831
+msgid "Linear"
+msgstr "Linear"
+
+#: public/editor-build/282-wp/texts.php:671
+msgid "Gradient"
+msgstr "Gradiente"
+
+#: public/editor-build/282-wp/texts.php:1375
+msgid "Solid"
+msgstr "Sólido"
+
+#: public/editor-build/282-wp/texts.php:1416
+msgid "Sticky"
+msgstr "Fixo"
+
+#: public/editor-build/282-wp/texts.php:723
+msgid "Hover Transition"
+msgstr "Transição ao passar com o rato"
+
+#: public/editor-build/282-wp/texts.php:436
+msgid "Custom CSS"
+msgstr "CSS personalizado"
+
+#: public/editor-build/282-wp/texts.php:530
+msgid "Enable on Tablet"
+msgstr "Activar em tablet"
+
+#: public/editor-build/282-wp/texts.php:475
+msgid "Disable on Tablet"
+msgstr "Desactivar em tablet"
+
+#: editor/editor/editor.php:2079 public/editor-build/282-wp/texts.php:592
+msgid "Featured Image"
+msgstr "Imagem de destaque"
+
+#: editor/editor/editor.php:2049 public/editor-build/282-wp/texts.php:1459
+msgid "Table"
+msgstr "Tabela"
+
+#: public/editor-build/282-wp/texts.php:1062
+msgid "Paste Styles"
+msgstr "Colar estilos"
+
+#: public/editor-build/282-wp/texts.php:1060
+msgid "Paste"
+msgstr "Colar"
+
+#: public/editor-build/282-wp/texts.php:401
+msgid "Copy"
+msgstr "Copiar"
+
+#: public/editor-build/282-wp/texts.php:1050
+msgid "Pagination"
+msgstr "Paginação"
+
+#: public/editor-build/282-wp/texts.php:1728
+msgid "layout"
+msgstr "layout"
+
+#: public/editor-build/282-wp/texts.php:1729
+msgid "layouts"
+msgstr "layouts"
+
+#: public/editor-build/282-wp/texts.php:1237
+msgid "Rows"
+msgstr "Linhas"
+
+#: public/editor-build/282-wp/texts.php:1186
+msgid "Remember me"
+msgstr "Manter sessão"
+
+#: public/editor-build/282-wp/texts.php:1037
+msgid "Outset"
+msgstr "Exterior"
+
+#: public/editor-build/282-wp/texts.php:782
+msgid "Inset"
+msgstr "Interior"
+
+#: admin/dashboard-widget.php:94
+msgid "%1$s failed to extract the latest news. Please contact our %2$ssupport%3$s."
+msgstr "O %1$s falhou ao extrair as notícias recentes. Por favor contacte o nosso %2$ssupporte%3$s."
+
+#: import/importer.php:142
+msgid "Failed to import category %s"
+msgstr "Falhou ao importar a categoria %s"
+
+#: import/importer.php:184
+msgid "Failed to import post tag %s"
+msgstr "Falhou ao importar a etiqueta de artigo %s"
+
+#: import/importer.php:236
+msgid "Failed to import %s %s"
+msgstr "Falhou ao importar %s %s"
+
+#: import/importer.php:326
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "Falhou ao importar &#8220;%s&#8221;: Tipo de conteúdo inválido %s"
+
+#: import/importer.php:423
+msgid "Failed to import %s \"%s\". Error: %s"
+msgstr "Falhou ao importar %s \"%s\". Erro: %s"
+
+#: import/importer.php:459
+msgid "Failed to import %s %s. Error: %s"
+msgstr "Falhou ao importar %s %s. Erro: %s"
+
+#: import/importer.php:601
+msgid "Menu item skipped due to missing menu slug."
+msgstr "Item de menu ignorado devido à falta da slug do menu."
+
+#: import/importer.php:607
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Item de menu ignorado devido a slug de menu inválida: %s"
+
+#: import/importer.php:678
+msgid "Invalid file type"
+msgstr "Tipo de ficheiro inválido"
+
+#: import/importer.php:719
+msgid "The uploaded file could not be moved"
+msgstr "Não foi possível mover o ficheiro carregado"
+
+#: import/main.php:34 import/main.php:35
+msgid "Starter Templates"
+msgstr "Biblioteca de modelos"
+
+#: import/main.php:48
+msgid "Live Preview"
+msgstr "Pré-visualizar"
+
+#: import/main.php:49
+msgid "Install"
+msgstr "Instalar"
+
+#: import/main.php:51
+msgid "Pro"
+msgstr "Pro"
+
+#: import/main.php:56
+msgid "Bad news, your starter template was not installed. Something went wrong and we couldn’t do it. Please contact us."
+msgstr "Algo correu mal, não foi possível instalar o seu modelo da biblioteca. Por favor contacte-nos."
+
+#: import/main.php:57
+msgid "Ok"
+msgstr "Ok"
+
+#: import/main.php:58
+msgid "Template Successfully Installed"
+msgstr "Modelo instalado com sucesso"
+
+#: import/main.php:60
+msgid "Thank You!"
+msgstr "Obrigado!"
+
+#: import/main.php:61
+msgid "Installing Starter Template"
+msgstr "A instalar modelo da biblioteca"
+
+#: import/main.php:62
+msgid "Please don’t close this window until the installation is finished. This might take up to a couple of minutes (five min, usually less)."
+msgstr "Por favor não feche esta janela até a instalação estar concluída. Isto poderá demorar um pouco, geralmente menos de 5 minutos."
+
+#: import/main.php:63
+msgid "Keep existing content"
+msgstr "Manter conteúdos existentes"
+
+#: import/main.php:64
+msgid "Choose this option if you want to keep your current content. If you are using %s, some of the global options might overlap."
+msgstr "Escolha esta opção se quiser manter os seus conteúdos actuais. Se estiver a utilizar o %s, algumas das opções globais podem sobrepor-se."
+
+#: import/main.php:65
+msgid "Install Template"
+msgstr "Instalar modelo"
+
+#: import/main.php:66
+msgid "Delete existing content"
+msgstr "Eliminar conteúdos existentes"
+
+#: import/main.php:67
+msgid "Choose this option if you want to start fresh and delete your current content. A backup is advisable, there is no turning back from this."
+msgstr "Escolha esta opção se quiser começar de novo e eliminar os seus conteúdos actuais. É aconselhável fazer uma cópia de segurança, não será possível voltar atrás."
+
+#: import/main.php:68
+msgid "Deletes your current content"
+msgstr "Elimina os seus conteúdos actuais"
+
+#: import/main.php:91
+msgid "Invalid demo id. Please contact our support."
+msgstr "O ID da demonstração é inválido. Por favor contacte o nosso suporte."
+
+#: import/main.php:103
+msgid "Template imported successfully."
+msgstr "Modelo importado com sucesso."
+
+#: import/parser.php:51
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr "Detalhes mostrados acima. O importador vai tentar de novo com um processador diferente..."
+
+#: import/parsers/regex.php:95 import/parsers/simplexml.php:38
+#: import/parsers/simplexml.php:43 import/parsers/xml.php:69
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "Este não parece ser um ficheiro WXR, número da versão do WXR em falta/inválido"
+
+#: import/parsers/simplexml.php:26 import/parsers/simplexml.php:34
+msgid "There was an error when reading this WXR file"
+msgstr "Ocorreu um erro ao ler este ficheiro WXR"
+
+#: public/editor-build/282-wp/texts.php:364
+msgid "Collaborate"
+msgstr "Colaborar"
+
+#: public/editor-build/282-wp/texts.php:165
+msgid "All fields marked with an asterisk ( * ) must be mapped."
+msgstr "Todos os campos marcados com asterísco (*) têm de ser mapeados."
+
+#: public/editor-build/282-wp/texts.php:199
+msgid "Archives"
+msgstr "Arquivo"
+
+#: admin/views/settings/general.php:43
+msgid "Enable JSON uploads"
+msgstr "Activar carregamento de JSON"
+
+#: admin/views/settings/general.php:27
+msgid "Enable SVG uploads"
+msgstr "Activar carregamento de SVG"
+
+#: editor/editor/editor.php:2077 import/main.php:52
+#: public/editor-build/282-wp/texts.php:1272
+msgid "Search"
+msgstr "Pesquisar"
+
+#: import/main.php:50
+msgid "Free"
+msgstr "Grátis"
+
+#: public/editor-build/282-wp/texts.php:366
+msgid "Collapsible"
+msgstr "Colapsável"
+
+#: public/editor-build/282-wp/texts.php:358
+msgid "Close Popup"
+msgstr "Fechar popup"
+
+#: public/editor-build/282-wp/texts.php:353
+msgid "Click Outside to Close"
+msgstr "Clique fora para fechar"
+
+#: public/editor-build/282-wp/texts.php:352
+msgid "Clear Layout"
+msgstr "Limpar layout"
+
+#: public/editor-build/282-wp/texts.php:351
+msgid "Clear"
+msgstr "Limpar"
+
+#: public/editor-build/282-wp/texts.php:350
+msgid "Classic"
+msgstr "Clássico"
+
+#: public/editor-build/282-wp/texts.php:345
+msgid "Checkbox"
+msgstr "Caixa de selecção"
+
+#: public/editor-build/282-wp/texts.php:344
+msgid "Check your email address"
+msgstr "Consulte o seu endereço de email"
+
+#: public/editor-build/282-wp/texts.php:337
+msgid "Cc"
+msgstr "CC"
+
+#: public/editor-build/282-wp/texts.php:334
+msgid "Categories Tags"
+msgstr "Etiquetas de categorias"
+
+#: public/editor-build/282-wp/texts.php:333
+msgid "Categories Pagination"
+msgstr "Paginação das categorias"
+
+#: public/editor-build/282-wp/texts.php:329
+msgid "Cart Settings"
+msgstr "Definições do carrinho"
+
+#: public/editor-build/282-wp/texts.php:327
+msgid "Cart Items"
+msgstr "Itens do carrinho"
+
+#: public/editor-build/282-wp/texts.php:315
+msgid "CSS ID"
+msgstr "ID de CSS"
+
+#: public/editor-build/282-wp/texts.php:312
+msgid "CMS"
+msgstr "CMS"
+
+#: public/editor-build/282-wp/texts.php:306
+msgid "Buttons"
+msgstr "Botões"
+
+#: public/editor-build/282-wp/texts.php:298
+msgid "Button Size"
+msgstr "Tamanho do botão"
+
+#: public/editor-build/282-wp/texts.php:294
+msgid "Business Hour"
+msgstr "Horário de funcionamento"
+
+#: public/editor-build/282-wp/texts.php:293
+msgid "Business"
+msgstr "Negócio"
+
+#: public/editor-build/282-wp/texts.php:288
+msgid "Bubble"
+msgstr "Bolha"
+
+#: public/editor-build/282-wp/texts.php:287
+msgid "Bub. Bg"
+msgstr "Fundo da bolha"
+
+#: public/editor-build/282-wp/texts.php:286
+msgid "Bub."
+msgstr "Bolha"
+
+#: public/editor-build/282-wp/texts.php:285
+msgid "Btn Color"
+msgstr "Cor do botão"
+
+#: public/editor-build/282-wp/texts.php:284
+msgid "Btn Bg"
+msgstr "Fundo do botão"
+
+#: public/editor-build/282-wp/texts.php:281
+msgid "Branding"
+msgstr "Identidade"
+
+#: public/editor-build/282-wp/texts.php:273
+msgid "Bottom"
+msgstr "Fundo"
+
+#: public/editor-build/282-wp/texts.php:267
+msgid "Block will be synchronized"
+msgstr "O bloco será sincronizado"
+
+#: public/editor-build/282-wp/texts.php:266
+msgid "Block is synchronized"
+msgstr "O bloco está sincronizado"
+
+#: public/editor-build/282-wp/texts.php:265
+msgid "Block conditions are available only in PRO"
+msgstr "As condições dos blocos apenas estão disponíveis no PRO"
+
+#: public/editor-build/282-wp/texts.php:264
+msgid "Block Name"
+msgstr "Nome do bloco"
+
+#: public/editor-build/282-wp/texts.php:261
+msgid "Black"
+msgstr "Preto"
+
+#: public/editor-build/282-wp/texts.php:257
+msgid "Bg Star"
+msgstr "Estrela do fundo"
+
+#: public/editor-build/282-wp/texts.php:254
+msgid "Between"
+msgstr "Entre"
+
+#: public/editor-build/282-wp/texts.php:253
+msgid "Bcc"
+msgstr "BCC"
+
+#: public/editor-build/282-wp/texts.php:236
+msgid "Back to Stories"
+msgstr "Voltar às histórias"
+
+#: public/editor-build/282-wp/texts.php:235
+msgid "Back to Login"
+msgstr "Voltar ao início de sessão"
+
+#: public/editor-build/282-wp/texts.php:229
+msgid "Avatar"
+msgstr "Avatar"
+
+#: public/editor-build/282-wp/texts.php:226
+msgid "Automotive"
+msgstr "Automóvel"
+
+#: editor/editor/editor.php:2014 public/editor-build/282-wp/texts.php:217
+msgid "Audio"
+msgstr "Áudio"
+
+#: editor/editor/editor.php:2141 public/editor-build/282-wp/texts.php:216
+msgid "Attributes"
+msgstr "Atributos"
+
+#: public/editor-build/282-wp/texts.php:211
+msgid "Aside"
+msgstr "Aparte"
+
+#: public/editor-build/282-wp/texts.php:208
+msgid "Article"
+msgstr "Artigo"
+
+#: public/editor-build/282-wp/texts.php:185
+msgid "Alt Title"
+msgstr "Texto alternativo"
+
+#: public/editor-build/282-wp/texts.php:183
+msgid "Allowed File Types"
+msgstr "Tipos de ficheiro permitidos"
+
+#: import/main.php:47 public/editor-build/282-wp/texts.php:159
+msgid "All"
+msgstr "Todos"
+
+#: public/editor-build/282-wp/texts.php:158
+msgid "Aligned Right"
+msgstr "Alinhado à direita"
+
+#: public/editor-build/282-wp/texts.php:157
+msgid "Aligned Left"
+msgstr "Alinhado à esquerda"
+
+#: public/editor-build/282-wp/texts.php:146
+msgid "Additionals"
+msgstr "Adicionais"
+
+#: public/editor-build/282-wp/texts.php:137
+msgid "Add new trigger condition"
+msgstr "Adicionar nova condição de accionador"
+
+#: public/editor-build/282-wp/texts.php:134
+msgid "Add new display condition"
+msgstr "Adicionar nova condição de apresentação"
+
+#: public/editor-build/282-wp/texts.php:131
+msgid "Add To Cart"
+msgstr "Adicionar ao carrinho"
+
+#: public/editor-build/282-wp/texts.php:129
+msgid "Add Shopify Elements"
+msgstr "Adicionar elementos do Shopify"
+
+#: public/editor-build/282-wp/texts.php:113
+msgid "Activate Tab"
+msgstr "Activar separador"
+
+#: public/editor-build/282-wp/texts.php:112
+msgid "Action"
+msgstr "Acção"
+
+#: public/editor-build/282-wp/texts.php:109
+msgid "Accordion Tags"
+msgstr "Etiquetas do acordeão"
+
+#: public/editor-build/282-wp/texts.php:108
+msgid "Accordion Items"
+msgstr "Itens de acordeão"
+
+#: public/editor-build/282-wp/texts.php:105
+msgid "Access your Library in any WP install by connecting your Account"
+msgstr "Aceda à sua biblioteca em qualquer instalação WordPress, ligando a sua conta"
+
+#: public/editor-build/282-wp/texts.php:65
+msgid "? (%s)"
+msgstr "? (%s)"
+
+#: public/editor-build/282-wp/texts.php:8
+msgid "%s Selected"
+msgstr "%s seleccionados"
+
+#: maintenance-mode.php:117
+msgid "Edit Page"
+msgstr "Editar página"
+
+#: maintenance-mode.php:110
+msgid "Maintenance Mode ON"
+msgstr "Modo de manutenção ACTIVO"
+
+#: editor/screenshot/manager.php:43 editor/screenshot/manager.php:60
+msgid "Invalid uid string"
+msgstr "O UID da string é inválido"
+
+#: editor.php:641
+msgid "Original"
+msgstr "Original"
+
+#: content/providers/free-provider.php:186
+msgid "Please set a valid product"
+msgstr "Defina um produto válido"
+
+#: content/providers/free-provider.php:141
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] "%s comentário"
+msgstr[1] "%s comentários"
+
+#: brizy.php:92
+msgid "%1$s failed to start. Please contact the support <a href=\"%s\">here</a>."
+msgstr "Falhou ao iniciar %1$s. Por favor contacte o suporte <a href=\"%s\">aqui</a>."
+
+#: system-checks.php:37
+msgid "%1$s requires PHP version 5.6+, you currently running PHP %2$s. <b>%3$s IS NOT RUNNING.</b>"
+msgstr "%1$s requer o PHP 5.6 ou superior. De momento está a utilizar o PHP %2$s. <b>O %3$s NÃO ESTÁ A FUNCIONAR.</b>"
+
+#: admin/views/settings/maintenance.php:66
+msgid "Whitelisted IP Addresses"
+msgstr "Endereços de IP autorizados"
+
+#: admin/views/settings/maintenance.php:60
+msgid "You have no pages. Please %s create %s one."
+msgstr "Não tem nenhuma página. Por favor %scrie%s uma."
+
+#: admin/views/settings/maintenance.php:54
+msgid "Select a page"
+msgstr "Seleccione uma página"
+
+#: admin/views/settings/maintenance.php:49
+msgid "Choose a Page"
+msgstr "Escolha uma página"
+
+#: admin/views/membership/checklist.php:12
+#: admin/views/settings/maintenance.php:33
+#: public/editor-build/282-wp/texts.php:1230
+msgid "Roles"
+msgstr "Papéis"
+
+#: admin/views/settings/maintenance.php:22
+msgid "Who Can Access"
+msgstr "Quem pode aceder"
+
+#: admin/views/settings/maintenance.php:16
+msgid "Maintenance"
+msgstr "Manutenção"
+
+#: admin/views/settings/maintenance.php:15
+msgid "Coming Soon"
+msgstr "Em breve"
+
+#: admin/views/settings/maintenance.php:14
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: admin/views/settings/maintenance.php:10
+msgid "Choose Mode"
+msgstr "Escolha o modo"
+
+#: admin/views/notice.php:14
+msgid "Dismiss this notice"
+msgstr "Ignorar este aviso"
+
+#: admin/views/dashboard-posts.php:4
+msgid "Recently Edited"
+msgstr "Editado recentemente"
+
+#: admin/views/dashboard-news.php:10
+msgid "New"
+msgstr "Novo"
+
+#: admin/views/dashboard-news.php:4
+msgid "News & Updates"
+msgstr "Notícias e actualizações"
+
+#: admin/templates.php:845 admin/templates.php:865
+msgid "Invalid data version."
+msgstr "A versão dos dados é inválida."
+
+#: admin/templates.php:838
+msgid "Unable to get the rule validator for this post type."
+msgstr "Não é possível obter o validador de regras para este tipo de conteúdo."
+
+#: admin/templates.php:250 public/editor-build/282-wp/texts.php:480
+msgid "Display Conditions"
+msgstr "Condições de apresentação"
+
+#: admin/templates.php:222
+msgid "templates"
+msgstr "modelos"
+
+#: admin/templates.php:213
+msgid "No Templates found in Trash."
+msgstr "Nenhum modelo encontrado no lixo."
+
+#: admin/templates.php:212
+msgid "No Templates found."
+msgstr "Nenhum modelo encontrado."
+
+#: admin/templates.php:211
+msgid "Parent Templates:"
+msgstr "Modelos superiores:"
+
+#: admin/templates.php:210
+msgid "Search Templates"
+msgstr "Pesquisar modelos"
+
+#: admin/templates.php:209
+msgid "Templates"
+msgstr "Modelos"
+
+#: admin/templates.php:179 admin/templates.php:208
+msgid "View Template"
+msgstr "Ver modelo"
+
+#: admin/templates.php:207
+msgid "Edit Template"
+msgstr "Editar modelo"
+
+#: admin/templates.php:206
+msgid "New Template"
+msgstr "Novo modelo"
+
+#: admin/templates.php:205
+msgid "Add New Template"
+msgstr "Adicionar novo modelo"
+
+#: admin/templates.php:203
+msgctxt "add new on admin bar"
+msgid "Template"
+msgstr "Modelo"
+
+#: admin/templates.php:202
+msgctxt "admin menu"
+msgid "Templates"
+msgstr "Modelos"
+
+#: admin/templates.php:201
+msgctxt "post type singular name"
+msgid "Template"
+msgstr "Modelo"
+
+#: admin/templates.php:200
+msgctxt "post type general name"
+msgid "Templates"
+msgstr "Modelos"
+
+#: admin/templates.php:126
+msgid "Product Archive"
+msgstr "Arquivo de produtos"
+
+#: admin/templates.php:119
+msgid "Single"
+msgstr "Conteúdo"
+
+#: admin/stories/main.php:60 public/editor-build/282-wp/texts.php:1739
+msgid "stories"
+msgstr "histórias"
+
+#: admin/stories/main.php:52
+msgid "No Stories found in Trash."
+msgstr "Nenhuma história encontrada no lixo."
+
+#: admin/stories/main.php:51
+msgid "No Stories found."
+msgstr "Nenhuma história encontrada."
+
+#: admin/stories/main.php:50
+msgid "Parent Stories:"
+msgstr "Histórias superiores:"
+
+#: admin/stories/main.php:49
+msgid "Search Stories"
+msgstr "Pesquisar histórias"
+
+#: admin/stories/main.php:48 public/editor-build/282-wp/texts.php:1420
+msgid "Stories"
+msgstr "Histórias"
+
+#: admin/stories/main.php:47 admin/stories/main.php:117
+msgid "View Story"
+msgstr "Ver história"
+
+#: admin/stories/main.php:46
+msgid "Edit Story"
+msgstr "Editar história"
+
+#: admin/stories/main.php:45
+msgid "New Story"
+msgstr "Nova história"
+
+#: admin/stories/main.php:43 admin/stories/main.php:44
+msgid "Add New Story"
+msgstr "Adicionar nova história"
+
+#: admin/stories/main.php:42
+msgctxt "add new on admin bar"
+msgid "Story"
+msgstr "História"
+
+#: admin/stories/main.php:41
+msgctxt "admin menu"
+msgid "Stories"
+msgstr "Histórias"
+
+#: admin/stories/main.php:40
+msgctxt "post type singular name"
+msgid "Story"
+msgstr "História"
+
+#: admin/stories/main.php:39
+msgctxt "post type general name"
+msgid "Stories"
+msgstr "Histórias"
+
+#: admin/settings.php:183
+msgid "Maintenance Mode"
+msgstr "Modo de manutenção"
+
+#: admin/settings.php:177
+msgid "Role Manager"
+msgstr "Gestor de papéis"
+
+#: admin/settings.php:171
+msgid "General"
+msgstr "Geral"
+
+#: admin/settings.php:142
+msgid "Get Help"
+msgstr "Obter ajuda"
+
+#: admin/rules/api.php:560
+msgid "Any child of"
+msgstr "Qualquer dependente de"
+
+#: admin/rules/api.php:544 public/editor-build/282-wp/texts.php:1397
+msgid "Specific"
+msgstr "Específico"
+
+#: admin/rules/api.php:481
+msgid "From any child of"
+msgstr "De qualquer dependente de"
+
+#: admin/rules/api.php:463
+msgid "From"
+msgstr "De"
+
+#: admin/popups/main.php:116
+msgid "Popup attributes:"
+msgstr "Atributos do popup:"
+
+#: admin/popups/main.php:115
+msgid "No Popups found in Trash."
+msgstr "Nenhum popup encontrado no lixo."
+
+#: admin/popups/main.php:114
+msgid "No Popups found."
+msgstr "Nenhum popup encontrado."
+
+#: admin/popups/main.php:113
+msgid "Parent Popups:"
+msgstr "Popups superiores:"
+
+#: admin/popups/main.php:112
+msgid "Search Popups"
+msgstr "Pesquisar popups"
+
+#: admin/popups/main.php:110
+msgid "View Popup"
+msgstr "Ver popup"
+
+#: admin/popups/main.php:109
+msgid "Edit Popup"
+msgstr "Editar popup"
+
+#: admin/popups/main.php:108
+msgid "New Popup"
+msgstr "Novo popup"
+
+#: admin/popups/main.php:107
+msgid "Add New Popup"
+msgstr "Adicionar novo popup"
+
+#: admin/popups/main.php:105
+msgctxt "add new on admin bar"
+msgid "Popup"
+msgstr "Popup"
+
+#: admin/popups/main.php:104
+msgctxt "admin menu"
+msgid "Popups"
+msgstr "Popups"
+
+#: admin/popups/main.php:103
+msgctxt "post type singular name"
+msgid "Popup"
+msgstr "Popup"
+
+#: admin/popups/main.php:102
+msgctxt "post type general name"
+msgid "Popups"
+msgstr "Popups"
+
+#: admin/settings.php:315
+msgid "Full Access"
+msgstr "Acesso completo"
+
+#: admin/membership/membership.php:89
+msgid "View Page As %s"
+msgstr "Ver página como %s"
+
+#: admin/membership/membership.php:79
+msgid "View Page By Roles"
+msgstr "Ver página por papéis"
+
+#: admin/membership/membership.php:72 admin/views/settings/maintenance.php:26
+msgid "Logged In"
+msgstr "Com sessão iniciada"
+
+#: admin/main.php:312
+msgid "Skip & Deactivate"
+msgstr "Ignorar e desactivar"
+
+#: admin/main.php:311
+msgid "Submit & Deactivate"
+msgstr "Submeter e desactivar"
+
+#: admin/form-entries.php:345
+msgid "No Leads found in Trash."
+msgstr "Nenhum lead encontrado no lixo."
+
+#: admin/form-entries.php:344
+msgid "No Leads found."
+msgstr "Nenhum lead encontrado."
+
+#: admin/form-entries.php:343
+msgid "Parent Leads:"
+msgstr "Leads superiores:"
+
+#: admin/form-entries.php:342
+msgid "Search Leads"
+msgstr "Pesquisar leads"
+
+#: admin/form-entries.php:340
+msgid "View Lead"
+msgstr "Ver lead"
+
+#: admin/form-entries.php:339
+msgid "Edit Lead"
+msgstr "Editar lead"
+
+#: admin/form-entries.php:338
+msgid "New Lead"
+msgstr "Novo lead"
+
+#: admin/form-entries.php:337
+msgid "Add New Lead"
+msgstr "Adicionar novo lead"
+
+#: admin/form-entries.php:335
+msgctxt "add new on admin bar"
+msgid "Lead"
+msgstr "Lead"
+
+#: admin/form-entries.php:334
+msgctxt "admin menu"
+msgid "Leads"
+msgstr "Leads"
+
+#: admin/form-entries.php:333
+msgctxt "post type singular name"
+msgid "Lead"
+msgstr "Lead"
+
+#: admin/form-entries.php:332
+msgctxt "post type general name"
+msgid "Leads"
+msgstr "Leads"
+
+#: admin/form-entries.php:200
+msgid "Export to .csv"
+msgstr "Exportar para .csv"
+
+#: admin/form-entries.php:143
+msgid "Disable"
+msgstr "Desactivar"
+
+#: admin/form-entries.php:61
+msgid "Leads details"
+msgstr "Detalhes do lead"
+
+#: admin/feedback.php:151
+msgid "If you have a moment, please share why you are deactivating Brizy:"
+msgstr "Se puder, diga-nos porque está a desactivar o Brizy:"
+
+#: admin/feedback.php:147
+msgid "Quick Feedback"
+msgstr "Feedback rápido"
+
+#: admin/feedback.php:138
+msgid "Please share the reason"
+msgstr "Por favor, diga-nos qual o motivo"
+
+#: admin/feedback.php:137 public/editor-build/282-wp/texts.php:1031
+msgid "Other"
+msgstr "Outros"
+
+#: admin/feedback.php:134
+msgid "Wait! Don't deactivate Brizy. You have to activate both Brizy and Brizy Pro in order for the plugin to work."
+msgstr "Não desactive o Brizy. O Brizy e o Brizy Pro têm de estar ambos activos para o plugin funcionar."
+
+#: admin/feedback.php:132
+msgid "I have Brizy Pro"
+msgstr "Tenho o Brizy Pro"
+
+#: admin/feedback.php:128
+msgid "It's a temporary deactivation"
+msgstr "É uma desactivação temporária"
+
+#: admin/feedback.php:124
+msgid "I couldn't get the plugin to work"
+msgstr "Não consegui que o plugin funcionasse"
+
+#: admin/feedback.php:121
+msgid "Please share which plugin"
+msgstr "Por favor, diga-nos qual é o plugin"
+
+#: admin/feedback.php:120
+msgid "I found a better plugin"
+msgstr "Encontrei um plugin melhor"
+
+#: admin/feedback.php:116
+msgid "I no longer need the plugin"
+msgstr "Já não preciso do plugin"
+
+#: admin/feedback.php:49
+msgid "I already did"
+msgstr "Já o fiz"
+
+#: admin/feedback.php:45
+msgid "Nope, maybe later"
+msgstr "Não, talvez mais tarde"
+
+#: admin/feedback.php:41
+msgid "Ok, you deserve it"
+msgstr "Ok, é merecido"
+
+#: admin/feedback.php:37
+msgid "Could you please do us a BIG favor and give it a 5-star rating on WordPress? This would boost our motivation and help other users make a comfortable decision while choosing the Brizy plugin."
+msgstr "Será que pode fazer-nos um GRANDE favor e classificar o plugin Brizy com 5 estrelas no directório do WordPress? Isto aumenta a nossa motivação e ajuda outros utilizadores a sentirem mais segurança ao escolher o Brizy."
+
+#: admin/feedback.php:35
+msgid "Hello! Seems like you are using Brizy to build your website - Thanks a lot!"
+msgstr "Olá! Parece que está a usar o Brizy para criar o seu site, muito obrigado!"
+
+#: admin/dashboard-widget.php:38
+msgid "%s Overview"
+msgstr "Visão geral de %s"
+
+#: editor/block-screenshot-api.php:83 editor/screenshot/manager.php:40
+msgid "Invalid image content"
+msgstr "O conteúdo da imagem é inválido"
+
+#: editor/block-screenshot-api.php:69
+msgid "Bad request"
+msgstr "Erro no pedido"
+
+#: admin/blocks/main.php:108 admin/blocks/main.php:130
+msgid "global block."
+msgstr "bloco global."
+
+#: admin/templates.php:282
+msgid "Unable to show the rule box."
+msgstr "Não é possível mostrar a caixa das regras."
+
+#: admin/views/dashboard.php:23
+msgid "Go PRO"
+msgstr "Obter PRO"
+
+#: admin/views/dashboard.php:17 public/editor-build/282-wp/texts.php:703
+msgid "Help"
+msgstr "Ajuda"
+
+#: admin/views/dashboard.php:12
+msgid "Blog"
+msgstr "Blog"
+
+#: admin/views/dashboard-news.php:20
+msgid "No News"
+msgstr "Sem notícias"
+
+#: admin/main.php:435 admin/views/button.php:25 admin/views/button.php:44
+#: compatibilities/gutenberg.php:94 compatibilities/gutenberg.php:108
+msgid "Edit with %s"
+msgstr "Editar com o %s"
+
+#: admin/main.php:252 admin/settings.php:159 import/main.php:54
+msgid "Go Pro"
+msgstr "Obter Pro"
+
+#: admin/form-entries.php:120 admin/form-entries.php:341
+#: admin/form-entries.php:353
+msgid "Leads"
+msgstr "Leads"
+
+#: admin/fonts/main.php:105
+msgid "font"
+msgstr "tipo de letra"
+
+#: admin/dashboard-widget.php:76
+msgid "There is no body in the remote server response."
+msgstr "Não foi encontrado nenhum corpo na resposta do servidor remoto."
+
+#: admin/views/button.php:19 compatibilities/gutenberg.php:86
+msgid "Back to WordPress Editor"
+msgstr "Voltar para o editor do WordPress"
+
+#: import/main.php:55 public/editor-build/282-wp/texts.php:1377
+#: public/editor-client/build/texts.php:59
+msgid "Something went wrong"
+msgstr "Algo correu mal"
+
+#: public/editor-build/282-wp/texts.php:320
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: public/editor-build/282-wp/texts.php:313
+msgid "CREATE LIST"
+msgstr "CRIAR LISTA"
+
+#: editor/editor/editor.php:2086 public/editor-build/282-wp/texts.php:282
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+#: public/editor-build/282-wp/texts.php:255
+msgid "Bg"
+msgstr "Fundo"
+
+#: public/editor-build/282-wp/texts.php:231
+msgid "Back"
+msgstr "Voltar"
+
+#: public/editor-build/282-wp/texts.php:218
+msgid "Authentication"
+msgstr "Autenticação"
+
+#: public/editor-build/282-wp/texts.php:164
+msgid "All fields marked with an asterisk ( * ) must be completed."
+msgstr "Todos os campos marcados com asterísco (*) são obrigatórios."
+
+#: public/editor-build/282-wp/texts.php:163
+msgid "All fields cannot be empty"
+msgstr "Todos os campos têm de ser preenchidos"
+
+#: public/editor-build/282-wp/texts.php:135
+msgid "Add new font variation"
+msgstr "Adicionar nova variação de tipo de letra"
+
+#: public/editor-build/282-wp/texts.php:127
+msgid "Add New Font"
+msgstr "Adicionar novo tipo de letra"
+
+#: public/editor-build/282-wp/texts.php:125
+msgid "Add New Block / Layout"
+msgstr "Adicionar novo bloco/layout"
+
+#: public/editor-build/282-wp/texts.php:122
+msgid "Add Font"
+msgstr "Adicionar tipo de letra"
+
+#: public/editor-build/282-wp/texts.php:114
+msgid "Active"
+msgstr "Activo"
+
+#: public/editor-build/282-wp/texts.php:111
+msgid "Accounts are empty. Please connect a new account and try again."
+msgstr "As contas estão vazias. Por favor ligue uma nova conta e tente de novo."
+
+#: public/editor-build/282-wp/texts.php:67
+msgid "ADD GOOGLE FONT"
+msgstr "ADICIONAR GOOGLE FONT"
+
+#: public/editor-build/282-wp/texts.php:66
+msgid "ADD FONT VARIATION"
+msgstr "ADICIONAR VARIAÇÃO DE TIPO DE LETRA"
+
+#: public/editor-build/282-wp/texts.php:28
+msgid "+ 6:00 (Nur-Sultan)"
+msgstr "+ 6:00 (Nur-Sultan)"
+
+#: public/editor-build/282-wp/texts.php:103
+msgid "APPS"
+msgstr "APLICAÇÕES"
+
+#: public/editor-build/282-wp/texts.php:201
+msgid "Arrangement"
+msgstr "Apresentação"
+
+#: editor/editor/editor.php:1925 public/editor-build/282-wp/texts.php:268
+msgid "Blocks"
+msgstr "Blocos"
+
+#: public/editor-build/282-wp/texts.php:234
+msgid "Back to Layouts"
+msgstr "Voltar aos layouts"
+
+#: public/editor-build/282-wp/texts.php:321
+msgid "Captions"
+msgstr "Legendas para surdos"
+
+#: public/editor-build/282-wp/texts.php:227
+msgid "Autoplay"
+msgstr "Reprodução automática"
+
+#: public/editor-build/282-wp/texts.php:376
+msgid "Comment"
+msgstr "Comentário"
+
+#: public/editor-build/282-wp/texts.php:356
+msgid "Close"
+msgstr "Fechar"
+
+#: admin/popups/main.php:111 admin/popups/main.php:125
+#: public/editor-build/282-wp/texts.php:1084
+msgid "Popups"
+msgstr "Popups"
+
+#: public/editor-build/282-wp/texts.php:369
+msgid "Color"
+msgstr "Cor"
+
+#: editor/editor/editor.php:2041 public/editor-build/282-wp/texts.php:323
+msgid "Carousel"
+msgstr "Carrossel"
+
+#: public/editor-build/282-wp/texts.php:207
+msgid "Arrows Spacing"
+msgstr "Espaçamento das setas"
+
+#: admin/templates.php:120 editor/editor/editor.php:2095
+#: public/editor-build/282-wp/texts.php:198
+msgid "Archive"
+msgstr "Arquivo"
+
+#: admin/layouts/main.php:43
+msgid "Layout."
+msgstr "Layout."
+
+#: editor.php:314
+msgid " Template"
+msgstr " Modelo"
+
+#: admin/blocks/main.php:100
+msgctxt "post type general name"
+msgid "Global blocks"
+msgstr "Blocos globais"
+
+#: admin/blocks/main.php:122
+msgctxt "brizy"
+msgid "Saved blocks"
+msgstr "Blocos guardados"
+
+#: admin/fonts/main.php:97
+msgctxt "post type general name"
+msgid "Fonts"
+msgstr "Tipos de letra"
+
+#: admin/layouts/main.php:35
+msgctxt "post type general name"
+msgid "Layouts"
+msgstr "Layouts"
+
+#: public/editor-build/282-wp/texts.php:225
+msgid "AutoPlay"
+msgstr "Reprodução automática"
+
+#: editor/zip/archiver.php:197
+msgid "Unsupported zip file version"
+msgstr "A versão do ficheiro zip não é suportada"
+
+#: editor/zip/archiver.php:192
+msgid "Unsupported object found in zip file"
+msgstr "Foi encontrado um objecto não suportado no ficheiro zip"
+
+#: editor/zip/archiver.php:136
+msgid "Unable to find the archive."
+msgstr "Não é possível encontrar o arquivo."
+
+#: editor/zip/archiver.php:75
+msgid "Failed to create archive."
+msgstr "Falhou ao criar ficheiro de arquivo."
+
+#: editor/zip/archiver.php:37
+msgid "Please install/enable php zip extension. Contact your hosting company for more info and help."
+msgstr "Por favor instale/active a extensão zip do PHP. Contacte o seu serviço de alojamento para mais informações e ajuda."
+
+#: editor/rest-extend.php:27
+msgid "Brizy attached media"
+msgstr "Item multimédia anexado do Brizy"
+
+#: editor/project.php:96
+msgid "Brizy Project."
+msgstr "Projecto do Brizy."
+
+#: editor/auto-save-aware.php:42
+msgid "There is nothing to save. The autosave and the post content are the same."
+msgstr "Não há nada para guardar. A cópia automática e o conteúdo são idênticos."
+
+#: admin/templates.php:188
+msgid "Preview Template"
+msgstr "Pré-visualizar modelo"
+
+#: admin/templates.php:173
+msgid "Template draft updated."
+msgstr "Rascunho do modelo actualizado."
+
+#: admin/templates.php:169
+msgid "Template scheduled for: <strong>%1$s</strong>."
+msgstr "Modelo agendado para: <strong>%1$s</strong>."
+
+#: admin/templates.php:167
+msgid "Template submitted."
+msgstr "Modelo submetido."
+
+#: admin/templates.php:166
+msgid "Template saved."
+msgstr "Modelo guardado."
+
+#: admin/templates.php:165
+msgid "Template published."
+msgstr "Modelo publicado."
+
+#: admin/templates.php:162
+msgid "Template restored to revision from %s"
+msgstr "Modelo reposto para a revisão de %s"
+
+#: admin/templates.php:156 admin/templates.php:159
+msgid "Template updated."
+msgstr "Modelo actualizado."
+
+#: admin/stories/main.php:126
+msgid "Preview Story"
+msgstr "Pré-visualizar história"
+
+#: admin/stories/main.php:111
+msgid "Story draft updated."
+msgstr "Rascunho da história actualizado."
+
+#: admin/stories/main.php:107
+msgid "Story scheduled for: <strong>%1$s</strong>."
+msgstr "História agendada para: <strong>%1$s</strong>."
+
+#: admin/stories/main.php:105
+msgid "Story submitted."
+msgstr "História submetida."
+
+#: admin/stories/main.php:104
+msgid "Story saved."
+msgstr "História guardada."
+
+#: admin/stories/main.php:103
+msgid "Story published."
+msgstr "História publicada."
+
+#: admin/stories/main.php:100
+msgid "Story restored to revision from %s"
+msgstr "História reposta para a revisão de %s"
+
+#: admin/stories/main.php:94 admin/stories/main.php:97
+msgid "Story updated."
+msgstr "História actualizada."
+
+#: admin/settings.php:312
+msgid "No Access"
+msgstr "Sem acesso"
+
+#: admin/main.php:88
+msgid "Edit or Update Image"
+msgstr "Editar ou actualizar imagem"
+
+#: admin/layouts/api.php:82
+msgid "There are no layouts to be archived"
+msgstr "Não há layouts para arquivar"
+
+#: admin/cloud/cron.php:56
+msgid "Once in 5 minutes"
+msgstr "Uma vez a cada 5 minutos"
+
+#: admin/blocks/api.php:190
+msgid "Invalid zip file provided"
+msgstr "O ficheiro zip fornecido é inválido"
+
+#: admin/blocks/api.php:155
+msgid "Invalid block file"
+msgstr "O ficheiro do bloco é inválido"
+
+#: admin/stories/main.php:96 admin/templates.php:158
+msgid "Custom field deleted."
+msgstr "Campo personalizado eliminado."
+
+#: admin/stories/main.php:95 admin/templates.php:157
+msgid "Custom field updated."
+msgstr "Campo personalizado actualizado."
+
+#. translators: Publish box date format, see http://php.net/date
+#: admin/stories/main.php:109 admin/templates.php:171
+msgid "M j, Y @ G:i"
+msgstr "j M, Y @ G:i"
+
+#: public/editor-build/282-wp/texts.php:361
+msgid "Cloud"
+msgstr "Nuvem"
+
+#: public/editor-build/282-wp/texts.php:1734
+msgid "or"
+msgstr "ou"
+
+#: public/editor-build/282-wp/texts.php:1733
+msgid "open an issue"
+msgstr "reportar um erro"
+
+#: public/editor-build/282-wp/texts.php:1682
+msgid "You can"
+msgstr "Pode"
+
+#: public/editor-build/282-wp/texts.php:188
+msgid "An error happened while trying to display this element"
+msgstr "Ocorreu um erro ao tentar mostrar este elemento"
+
+#: public/editor-build/282-wp/texts.php:537
+msgid "Enter Search Keyword"
+msgstr "Insira uma palavra-chave de pesquisa"
+
+#: import/main.php:53 public/editor-build/282-wp/texts.php:160
+msgid "All Categories"
+msgstr "Todas as categorias"
+
+#: public/editor-build/282-wp/texts.php:1255
+msgid "Save"
+msgstr "Guardar"
+
+#: public/editor-build/282-wp/texts.php:859
+msgid "Make it Global"
+msgstr "Tornar global"
+
+#: public/editor-build/282-wp/texts.php:263
+msgid "Block"
+msgstr "Bloco"
+
+#: public/editor-build/282-wp/texts.php:610
+msgid "Filter By"
+msgstr "Filtrar por"
+
+#: public/editor-build/282-wp/texts.php:901
+msgid "Message sent"
+msgstr "Mensagem enviada"
+
+#: public/editor-build/282-wp/texts.php:543
+msgid "Error"
+msgstr "Erro"
+
+#: public/editor-build/282-wp/texts.php:1259
+msgid "Saved"
+msgstr "Guardados"
+
+#: editor/editor/editor.php:912 editor/editor/editor.php:919
+#: public/editor-build/282-wp/texts.php:377
+msgid "Comment Count"
+msgstr "Número de comentários"
+
+#: public/editor-build/282-wp/texts.php:1054
+msgid "Parent"
+msgstr "Superior"
+
+#: public/editor-build/282-wp/texts.php:946
+msgid "Modified"
+msgstr "Modificado"
+
+#: public/editor-build/282-wp/texts.php:908
+msgid "Meta Value"
+msgstr "Valor meta"
+
+#: public/editor-build/282-wp/texts.php:907
+msgid "Meta Key"
+msgstr "Chave meta"
+
+#: public/editor-build/282-wp/texts.php:770
+msgid "Inherit"
+msgstr "Herdar"
+
+#: public/editor-build/282-wp/texts.php:224
+msgid "Auto-Draft"
+msgstr "Rascunho automático"
+
+#: public/editor-build/282-wp/texts.php:1538
+msgid "Trash"
+msgstr "Lixo"
+
+#: public/editor-build/282-wp/texts.php:1116
+msgid "Private"
+msgstr "Privado"
+
+#: public/editor-build/282-wp/texts.php:1064
+msgid "Pending"
+msgstr "Pendente"
+
+#: public/editor-build/282-wp/texts.php:496
+msgid "Draft"
+msgstr "Rascunho"
+
+#: public/editor-build/282-wp/texts.php:652
+msgid "Future"
+msgstr "Futuro"
+
+#: public/editor-build/282-wp/texts.php:1415
+msgid "Status"
+msgstr "Estado"
+
+#: public/editor-build/282-wp/texts.php:557
+msgid "Exclude"
+msgstr "Excluir"
+
+#: public/editor-build/282-wp/texts.php:757
+msgid "Include"
+msgstr "Incluir"
+
+#: public/editor-build/282-wp/texts.php:219
+msgid "Author"
+msgstr "Autor"
+
+#: public/editor-build/282-wp/texts.php:335
+msgid "Category"
+msgstr "Categoria"
+
+#: public/editor-build/282-wp/texts.php:1087
+msgid "Post"
+msgstr "Conteúdo"
+
+#: public/editor-build/282-wp/texts.php:1094
+msgid "Post Type"
+msgstr "Tipo de conteúdo"
+
+#: public/editor-build/282-wp/texts.php:1651
+msgid "Weight"
+msgstr "Peso"
+
+#: public/editor-build/282-wp/texts.php:729
+msgid "ID"
+msgstr "ID"
+
+#: editor/editor/editor.php:911 editor/editor/editor.php:918
+#: public/editor-build/282-wp/texts.php:1161
+msgid "Random"
+msgstr "Aleatório"
+
+#: public/editor-build/282-wp/texts.php:897
+msgid "Menu Order"
+msgstr "Ordem no menu"
+
+#: public/editor-build/282-wp/texts.php:1081
+msgid "Popularity"
+msgstr "Popularidade"
+
+#: editor/editor/editor.php:2044 editor/editor/editor.php:2137
+#: public/editor-build/282-wp/texts.php:1163
+msgid "Rating"
+msgstr "Classificação"
+
+#: editor/editor/editor.php:909 editor/editor/editor.php:916
+#: editor/editor/editor.php:2082 public/editor-build/282-wp/texts.php:1519
+msgid "Title"
+msgstr "Título"
+
+#: public/editor-build/282-wp/texts.php:609
+msgid "Filter"
+msgstr "Filtro"
+
+#: public/editor-build/282-wp/texts.php:1027
+msgid "Order Tracking"
+msgstr "Rastreio de encomendas"
+
+#: public/editor-build/282-wp/texts.php:964
+msgid "My Account"
+msgstr "A minha conta"
+
+#: public/editor-build/282-wp/texts.php:346
+msgid "Checkout"
+msgstr "Finalizar compra"
+
+#: editor/editor/editor.php:2102 public/editor-build/282-wp/texts.php:325
+msgid "Cart"
+msgstr "Carrinho"
+
+#: public/editor-build/282-wp/texts.php:1044
+msgid "Page"
+msgstr "Página"
+
+#: public/editor-build/282-wp/texts.php:415
+msgid "Count"
+msgstr "Número"
+
+#: public/editor-build/282-wp/texts.php:461
+msgid "Description"
+msgstr "Descrição"
+
+#: public/editor-build/282-wp/texts.php:1364
+msgid "Slug"
+msgstr "Slug"
+
+#: public/editor-build/282-wp/texts.php:966
+msgid "Name"
+msgstr "Nome"
+
+#: public/editor-build/282-wp/texts.php:1026
+msgid "Order By"
+msgstr "Ordenar por"
+
+#: public/editor-build/282-wp/texts.php:460
+msgid "Desc"
+msgstr "Desc"
+
+#: public/editor-build/282-wp/texts.php:210
+msgid "Asc"
+msgstr "Asc"
+
+#: public/editor-build/282-wp/texts.php:1025
+msgid "Order"
+msgstr "Ordem"
+
+#: public/editor-build/282-wp/texts.php:332
+msgid "Categories Count"
+msgstr "Número de categorias"
+
+#: public/editor-build/282-wp/texts.php:375
+msgid "Columns"
+msgstr "Colunas"
+
+#: public/editor-build/282-wp/texts.php:816
+msgid "Layout"
+msgstr "Layout"
+
+#: public/editor-build/282-wp/texts.php:1141
+msgid "Products Count"
+msgstr "Número de produtos"
+
+#: public/editor-build/282-wp/texts.php:1123
+msgid "Product ID"
+msgstr "ID do produto"
+
+#: public/editor-build/282-wp/texts.php:1157
+msgid "Query"
+msgstr "Consulta"
+
+#: public/editor-build/282-wp/texts.php:636
+msgid "Footer"
+msgstr "Rodapé"
+
+#: public/editor-build/282-wp/texts.php:1073
+msgid "Play"
+msgstr "Reproduzir"
+
+#: public/editor-build/282-wp/texts.php:419
+msgid "Cover"
+msgstr "Capa"
+
+#: public/editor-build/282-wp/texts.php:396
+msgid "Controls"
+msgstr "Controlos"
+
+#: public/editor-build/282-wp/texts.php:1165
+msgid "Ratio"
+msgstr "Rácio"
+
+#: public/editor-build/282-wp/texts.php:1389
+msgid "SoundCloud Link"
+msgstr "Ligação do SoundCloud"
+
+#: public/editor-build/282-wp/texts.php:1388
+msgid "SoundCloud"
+msgstr "SoundCloud"
+
+#: public/editor-build/282-wp/texts.php:250
+msgid "Bar"
+msgstr "Barra"
+
+#: public/editor-build/282-wp/texts.php:1066
+msgid "Percentage"
+msgstr "Percentagem"
+
+#: public/editor-build/282-wp/texts.php:726
+msgid "Hue"
+msgstr "Tonalidade"
+
+#: public/editor-build/282-wp/texts.php:1424
+msgid "Style"
+msgstr "Estilo"
+
+#: public/editor-build/282-wp/texts.php:1278
+msgid "Select"
+msgstr "Selecção"
+
+#: public/editor-build/282-wp/texts.php:1051
+msgid "Paragraph"
+msgstr "Parágrafo"
+
+#: public/editor-build/282-wp/texts.php:1004
+msgid "Number"
+msgstr "Número"
+
+#: public/editor-build/282-wp/texts.php:511
+msgid "Email"
+msgstr "Email"
+
+#: public/editor-build/282-wp/texts.php:1198
+msgid "Required"
+msgstr "Obrigatório"
+
+#: public/editor-build/282-wp/texts.php:669
+msgid "Go to"
+msgstr "Ir para"
+
+#: public/editor-build/282-wp/texts.php:1171
+msgid "Redirect"
+msgstr "Redirecionar"
+
+#: public/editor-build/282-wp/texts.php:900
+msgid "Message not sent"
+msgstr "Mensagem não enviada"
+
+#: public/editor-build/282-wp/texts.php:1443
+msgid "Success"
+msgstr "Sucesso"
+
+#: public/editor-build/282-wp/texts.php:899
+msgid "Message"
+msgstr "Mensagem"
+
+#: public/editor-build/282-wp/texts.php:805
+msgid "Label"
+msgstr "Legenda"
+
+#: public/editor-build/282-wp/texts.php:597
+msgid "Field Type"
+msgstr "Tipo de campo"
+
+#: public/editor-build/282-wp/texts.php:596
+msgid "Field"
+msgstr "Campo"
+
+#: public/editor-build/282-wp/texts.php:533
+msgid "End"
+msgstr "Fim"
+
+#: public/editor-build/282-wp/texts.php:1413
+msgid "Start"
+msgstr "Início"
+
+#: public/editor-build/282-wp/texts.php:1239
+msgid "Russian"
+msgstr "Russo"
+
+#: public/editor-build/282-wp/texts.php:502
+msgid "Dutch"
+msgstr "Holandês"
+
+#: public/editor-build/282-wp/texts.php:793
+msgid "Italian"
+msgstr "Italiano"
+
+#: public/editor-build/282-wp/texts.php:641
+msgid "French"
+msgstr "Francês"
+
+#: public/editor-build/282-wp/texts.php:1394
+msgid "Spanish"
+msgstr "Espanhol"
+
+#: public/editor-build/282-wp/texts.php:536
+msgid "English"
+msgstr "Inglês"
+
+#: public/editor-build/282-wp/texts.php:661
+msgid "German"
+msgstr "Alemão"
+
+#: public/editor-build/282-wp/texts.php:809
+msgid "Language"
+msgstr "Idioma"
+
+#: public/editor-build/282-wp/texts.php:13
+msgid "+ 12:00 (Auckland)"
+msgstr "+ 12:00 (Auckland)"
+
+#: public/editor-build/282-wp/texts.php:12
+msgid "+ 11:00 (Ponape)"
+msgstr "+ 11:00 (Ponape)"
+
+#: public/editor-build/282-wp/texts.php:9
+msgid "+ 10:00 (Sydney, Melbourne)"
+msgstr "+ 10:00 (Sidney, Melbourne)"
+
+#: public/editor-build/282-wp/texts.php:36
+msgid "+ 9:00 (Tokyo, Seoul)"
+msgstr "+ 9:00 (Tóquio, Seul)"
+
+#: public/editor-build/282-wp/texts.php:33
+msgid "+ 8:00 (Singapore, Beijing)"
+msgstr "+ 8:00 (Singapura, Pequim)"
+
+#: public/editor-build/282-wp/texts.php:31
+msgid "+ 7:00 (Bangkok, Jakarta)"
+msgstr "+ 7:00 (Bangkok, Jakarta)"
+
+#: public/editor-build/282-wp/texts.php:24
+msgid "+ 5:00 (Yekaterinburg)"
+msgstr "+ 5:00 (Yekaterinburg)"
+
+#: public/editor-build/282-wp/texts.php:22
+msgid "+ 4:00 (Dubai, Baku)"
+msgstr "+ 4:00 (Dubai, Baku)"
+
+#: public/editor-build/282-wp/texts.php:20
+msgid "+ 3:00 (Moscow, Baghdad)"
+msgstr "+ 3:00 (Moscovo, Bagdade)"
+
+#: public/editor-build/282-wp/texts.php:18
+msgid "+ 2:00 (Athens, Istanbul)"
+msgstr "+ 2:00 (Atenas, Istanbul)"
+
+#: public/editor-build/282-wp/texts.php:16
+msgid "+ 1:00 (Berlin, Paris)"
+msgstr "+ 1:00 (Berlin, Paris)"
+
+#: public/editor-build/282-wp/texts.php:63
+msgid "00:00 (London, Dublin)"
+msgstr "00:00 (Londres, Dublin)"
+
+#: public/editor-build/282-wp/texts.php:42
+msgid "- 1:00 (Cape Verde)"
+msgstr "- 1:00 (Cabo Verde)"
+
+#: public/editor-build/282-wp/texts.php:43
+msgid "- 2:00 (Noronha)"
+msgstr "- 2:00 (Noronha)"
+
+#: public/editor-build/282-wp/texts.php:45
+msgid "- 3:00 (Brasilia, Santiago)"
+msgstr "- 3:00 (Brasilia, Santiago)"
+
+#: public/editor-build/282-wp/texts.php:48
+msgid "- 4:00 (Halifax, Manaus)"
+msgstr "- 4:00 (Halifax, Manaus)"
+
+#: public/editor-build/282-wp/texts.php:51
+msgid "- 5:00 (New York, Miami)"
+msgstr "- 5:00 (Nova Iorque, Miami)"
+
+#: public/editor-build/282-wp/texts.php:52
+msgid "- 6:00 (Chicago, Dallas)"
+msgstr "- 6:00 (Chicago, Dallas)"
+
+#: public/editor-build/282-wp/texts.php:53
+msgid "- 7:00 (Denver, Phoenix)"
+msgstr "- 7:00 (Denver, Phoenix)"
+
+#: public/editor-build/282-wp/texts.php:54
+msgid "- 8:00 (Los Angeles)"
+msgstr "- 8:00 (Los Angeles)"
+
+#: public/editor-build/282-wp/texts.php:55
+msgid "- 9:00 (Anchorage)"
+msgstr "- 9:00 (Anchorage)"
+
+#: public/editor-build/282-wp/texts.php:38
+msgid "- 10:00 (Honolulu, Papeete)"
+msgstr "- 10:00 (Honolulu, Papeete)"
+
+#: public/editor-build/282-wp/texts.php:40
+msgid "- 11:00 (Niue)"
+msgstr "- 11:00 (Niue)"
+
+#: public/editor-build/282-wp/texts.php:1509
+msgid "Time Zone"
+msgstr "Fuso horário"
+
+#: public/editor-build/282-wp/texts.php:931
+msgid "Minutes"
+msgstr "Minutos"
+
+#: public/editor-build/282-wp/texts.php:718
+msgid "Hour"
+msgstr "Hora"
+
+#: admin/form-entries.php:62 editor/editor/editor.php:910
+#: editor/editor/editor.php:917 public/editor-build/282-wp/texts.php:447
+msgid "Date"
+msgstr "Data"
+
+#: public/editor-build/282-wp/texts.php:721
+msgid "Hover"
+msgstr "Ao passar com o rato"
+
+#: public/editor-build/282-wp/texts.php:987
+msgid "Normal"
+msgstr "Normal"
+
+#: public/editor-build/282-wp/texts.php:1393
+msgid "Spacing"
+msgstr "Espaçamento"
+
+#: public/editor-build/282-wp/texts.php:606
+msgid "Fill"
+msgstr "Preenchimento"
+
+#: public/editor-build/282-wp/texts.php:402
+msgid "Corner"
+msgstr "Cantos"
+
+#: public/editor-build/282-wp/texts.php:867
+msgid "Margin"
+msgstr "Margem"
+
+#: public/editor-build/282-wp/texts.php:1043
+msgid "Padding"
+msgstr "Espaçamento"
+
+#: public/editor-build/282-wp/texts.php:1019
+msgid "Open In New Tab"
+msgstr "Abrir num novo separador"
+
+#: public/editor-build/282-wp/texts.php:835
+msgid "Link to"
+msgstr "Ligar a"
+
+#: public/editor-build/282-wp/texts.php:832
+msgid "Link"
+msgstr "Ligação"
+
+#: public/editor-build/282-wp/texts.php:506
+msgid "Editable Text"
+msgstr "Texto editável"
+
+#: public/editor-build/282-wp/texts.php:687
+msgid "H6"
+msgstr "H6"
+
+#: public/editor-build/282-wp/texts.php:686
+msgid "H5"
+msgstr "H5"
+
+#: public/editor-build/282-wp/texts.php:685
+msgid "H4"
+msgstr "H4"
+
+#: public/editor-build/282-wp/texts.php:684
+msgid "H3"
+msgstr "H3"
+
+#: public/editor-build/282-wp/texts.php:683
+msgid "H2"
+msgstr "H2"
+
+#: public/editor-build/282-wp/texts.php:682
+msgid "H1"
+msgstr "H1"
+
+#: public/editor-build/282-wp/texts.php:1041
+msgid "P"
+msgstr "P"
+
+#: public/editor-build/282-wp/texts.php:689
+msgid "HTML Tag"
+msgstr "Elemento HTML"
+
+#: public/editor-build/282-wp/texts.php:658
+msgid "Gap Below"
+msgstr "Intervalo inferior"
+
+#: public/editor-build/282-wp/texts.php:657
+msgid "Gap Above"
+msgstr "Intervalo superior"
+
+#: public/editor-build/282-wp/texts.php:794
+msgid "Italic"
+msgstr "Itálico"
+
+#: public/editor-build/282-wp/texts.php:271
+msgid "Bold"
+msgstr "Negrito"
+
+#: public/editor-build/282-wp/texts.php:837
+msgid "List"
+msgstr "Lista"
+
+#: public/editor-build/282-wp/texts.php:1350
+msgid "Size"
+msgstr "Tamanho"
+
+#: public/editor-build/282-wp/texts.php:1557
+msgid "Typography"
+msgstr "Tipografia"
+
+#: public/editor-build/282-wp/texts.php:1086
+msgid "Position"
+msgstr "Posição"
+
+#: public/editor-build/282-wp/texts.php:155
+msgid "Align"
+msgstr "Alinhamento"
+
+#: editor/editor/editor.php:2112 public/editor-build/282-wp/texts.php:388
+msgid "Content"
+msgstr "Conteúdo"
+
+#: public/editor-build/282-wp/texts.php:798
+msgid "JackInTheBox"
+msgstr "JackInTheBox"
+
+#: public/editor-build/282-wp/texts.php:625
+msgid "Flip"
+msgstr "Flip"
+
+#: public/editor-build/282-wp/texts.php:799
+msgid "Jello"
+msgstr "Jello"
+
+#: public/editor-build/282-wp/texts.php:1668
+msgid "Wobble"
+msgstr "Wobble"
+
+#: public/editor-build/282-wp/texts.php:1465
+msgid "Tada"
+msgstr "Tada"
+
+#: public/editor-build/282-wp/texts.php:1447
+msgid "Swing"
+msgstr "Swing"
+
+#: public/editor-build/282-wp/texts.php:1307
+msgid "Shake"
+msgstr "Shake"
+
+#: public/editor-build/282-wp/texts.php:1151
+msgid "Pulse"
+msgstr "Pulse"
+
+#: public/editor-build/282-wp/texts.php:624
+msgid "Flash"
+msgstr "Flash"
+
+#: public/editor-build/282-wp/texts.php:277
+msgid "Bounce"
+msgstr "Bounce"
+
+#: public/editor-build/282-wp/texts.php:458
+msgid "Delay"
+msgstr "Atraso"
+
+#: public/editor-build/282-wp/texts.php:501
+msgid "Duration"
+msgstr "Duração"
+
+#: public/editor-build/282-wp/texts.php:192
+msgid "Animation"
+msgstr "Animação"
+
+#: public/editor-build/282-wp/texts.php:459
+msgid "Delete"
+msgstr "Eliminar"
+
+#: public/editor-build/282-wp/texts.php:499
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: public/editor-build/282-wp/texts.php:272
+msgid "Border"
+msgstr "Borda"
+
+#: public/editor-build/282-wp/texts.php:1039
+msgid "Overlay"
+msgstr "Sobreposição"
+
+#: public/editor-build/282-wp/texts.php:373
+msgid "Colors"
+msgstr "Cores"
+
+#: public/editor-build/282-wp/texts.php:1700
+msgid "Zoom"
+msgstr "Zoom"
+
+#: public/editor-build/282-wp/texts.php:538
+msgid "Enter address"
+msgstr "Insira o endereço"
+
+#: public/editor-build/282-wp/texts.php:147
+msgid "Address"
+msgstr "Endereço"
+
+#: public/editor-build/282-wp/texts.php:851
+msgid "Loop"
+msgstr "Loop"
+
+#: public/editor-build/282-wp/texts.php:1560
+msgid "URL"
+msgstr "URL"
+
+#: public/editor-build/282-wp/texts.php:191
+msgid "Animated"
+msgstr "Animado"
+
+#: public/editor-build/282-wp/texts.php:621
+msgid "Fixed"
+msgstr "Fixo"
+
+#: public/editor-build/282-wp/texts.php:1052
+msgid "Parallax"
+msgstr "Parallax"
+
+#: public/editor-build/282-wp/texts.php:256
+msgid "Bg Size"
+msgstr "Tamanho do fundo"
+
+#: public/editor-build/282-wp/texts.php:237
+msgid "Background"
+msgstr "Fundo"
+
+#: public/editor-build/282-wp/texts.php:126
+msgid "Add New Column"
+msgstr "Adicionar nova coluna"
+
+#: public/editor-build/282-wp/texts.php:1703
+msgid "component"
+msgstr "componente"
+
+#: public/editor-build/282-wp/texts.php:411
+msgid "Could not find"
+msgstr "Não foi possível encontrar"
+
+#: public/editor-build/282-wp/texts.php:934
+msgid "Missing Element"
+msgstr "Elemento em falta"
+
+#: public/editor-build/282-wp/texts.php:647
+msgid "Full"
+msgstr "Total"
+
+#: admin/views/settings/maintenance.php:27
+#: public/editor-build/282-wp/texts.php:434
+msgid "Custom"
+msgstr "Personalizado"
+
+#: public/editor-build/282-wp/texts.php:221
+msgid "Auto"
+msgstr "Automático"
+
+#: public/editor-build/282-wp/texts.php:280
+msgid "Boxed"
+msgstr "Em caixa"
+
+#: public/editor-build/282-wp/texts.php:702
+msgid "Height"
+msgstr "Altura"
+
+#: public/editor-build/282-wp/texts.php:1662
+msgid "Width"
+msgstr "Largura"
+
+#: public/editor-build/282-wp/texts.php:648
+msgid "Full Height"
+msgstr "Altura total"
+
+#: public/editor-build/282-wp/texts.php:1036
+msgid "Outline"
+msgstr "Contorno"
+
+#: public/editor-build/282-wp/texts.php:1235
+msgid "Round"
+msgstr "Redondas"
+
+#: public/editor-build/282-wp/texts.php:1467
+msgid "Tail"
+msgstr "Cauda"
+
+#: public/editor-build/282-wp/texts.php:701
+msgid "Heavy"
+msgstr "Grossas"
+
+#: public/editor-build/282-wp/texts.php:1490
+msgid "Thin"
+msgstr "Finas"
+
+#: public/editor-build/282-wp/texts.php:206
+msgid "Arrows"
+msgstr "Setas"
+
+#: public/editor-build/282-wp/texts.php:1408
+msgid "Square"
+msgstr "Quadrado"
+
+#: public/editor-build/282-wp/texts.php:470
+msgid "Diamond"
+msgstr "Diamante"
+
+#: public/editor-build/282-wp/texts.php:349
+msgid "Circle"
+msgstr "Círculo"
+
+#: public/editor-build/282-wp/texts.php:489
+msgid "Dots"
+msgstr "Pontos"
+
+#: public/editor-build/282-wp/texts.php:971
+msgid "Navigation"
+msgstr "Navegação"
+
+#: public/editor-build/282-wp/texts.php:1404
+msgid "Speed"
+msgstr "Velocidade"
+
+#: public/editor-build/282-wp/texts.php:862
+msgid "Make it a Slider"
+msgstr "Tornar num slider"
+
+#: public/editor-build/282-wp/texts.php:1362
+msgid "Slider"
+msgstr "Slider"
+
+#: public/editor-build/282-wp/texts.php:314
+msgid "CSS Class"
+msgstr "Classe CSS"
+
+#: public/editor-build/282-wp/texts.php:1699
+msgid "Z-index"
+msgstr "Z-index"
+
+#: public/editor-build/282-wp/texts.php:529
+msgid "Enable on Mobile"
+msgstr "Activar em mobile"
+
+#: public/editor-build/282-wp/texts.php:474
+msgid "Disable on Mobile"
+msgstr "Desactivar em mobile"
+
+#: public/editor-build/282-wp/texts.php:1340
+msgid "Show on Desktop"
+msgstr "Mostrar em desktop"
+
+#: public/editor-build/282-wp/texts.php:149
+msgid "Advanced"
+msgstr "Avançado"
+
+#: public/editor-build/282-wp/texts.php:950
+msgid "More Settings"
+msgstr "Mais definições"
+
+#: public/editor-build/282-wp/texts.php:1149
+msgid "Publish"
+msgstr "Publicar"
+
+#: public/editor-build/282-wp/texts.php:1586
+msgid "Update"
+msgstr "Actualizar"
+
+#: public/editor-build/282-wp/texts.php:949
+msgid "More"
+msgstr "Mais"
+
+#: public/editor-build/282-wp/texts.php:943
+msgid "Mobile"
+msgstr "Mobile"
+
+#: public/editor-build/282-wp/texts.php:465
+msgid "Desktop"
+msgstr "Desktop"
+
+#: public/editor-build/282-wp/texts.php:945
+msgid "Mobile view"
+msgstr "Vista mobile"
+
+#: public/editor-build/282-wp/texts.php:973
+msgid "New Style #%s"
+msgstr "Novo estilo #%s"
+
+#: admin/form-entries.php:336 admin/popups/main.php:106 admin/templates.php:204
+#: public/editor-build/282-wp/texts.php:124
+msgid "Add New"
+msgstr "Adicionar novo"
+
+#: public/editor-build/282-wp/texts.php:136
+msgid "Add new option"
+msgstr "Adicionar nova opção"
+
+#: public/editor-build/282-wp/texts.php:1426
+msgid "Styling"
+msgstr "Estilos"
+
+#: public/editor-build/282-wp/texts.php:497
+msgid "Drag to reorder"
+msgstr "Arraste para reordenar"
+
+#: editor/editor/editor.php:1939 public/editor-build/282-wp/texts.php:1190
+msgid "Reorder Blocks"
+msgstr "Reordenar blocos"
+
+#: editor/editor/editor.php:2090 public/editor-build/282-wp/texts.php:1346
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: editor/editor/editor.php:2089 public/editor-build/282-wp/texts.php:1097
+msgid "Posts"
+msgstr "Conteúdos"
+
+#: editor/editor/editor.php:2038 public/editor-build/282-wp/texts.php:895
+msgid "Menu"
+msgstr "Menu"
+
+#: editor/editor/editor.php:2092 public/editor-build/282-wp/texts.php:1319
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: editor/editor/editor.php:2099 public/editor-build/282-wp/texts.php:1140
+msgid "Products"
+msgstr "Produtos"
+
+#: admin/templates.php:125 public/editor-build/282-wp/texts.php:1117
+msgid "Product"
+msgstr "Produto"
+
+#: editor/editor/editor.php:2108 public/editor-build/282-wp/texts.php:1049
+msgid "Pages"
+msgstr "Páginas"
+
+#: editor/editor/editor.php:2104 public/editor-build/282-wp/texts.php:331
+msgid "Categories"
+msgstr "Categorias"
+
+#: editor/editor/editor.php:2124 public/editor-build/282-wp/texts.php:139
+msgid "Add to cart"
+msgstr "Adicionar ao carrinho"
+
+#: public/editor-build/282-wp/texts.php:374
+msgid "Column"
+msgstr "Coluna"
+
+#: public/editor-build/282-wp/texts.php:1236
+msgid "Row"
+msgstr "Linha"
+
+#: editor/editor/editor.php:2035 public/editor-build/282-wp/texts.php:107
+msgid "Accordion"
+msgstr "Acordeão"
+
+#: editor/editor/editor.php:2031 public/editor-build/282-wp/texts.php:1146
+msgid "Progress"
+msgstr "Progresso"
+
+#: editor/editor/editor.php:2029 public/editor-build/282-wp/texts.php:1464
+msgid "Tabs"
+msgstr "Separadores"
+
+#: editor/editor/editor.php:2026 public/editor-build/282-wp/texts.php:416
+msgid "Countdown"
+msgstr "Contagem decrescente"
+
+#: editor/editor/editor.php:2024 public/editor-build/282-wp/texts.php:417
+msgid "Counter"
+msgstr "Contador"
+
+#: editor/editor/editor.php:2021 public/editor-build/282-wp/texts.php:731
+msgid "Icon Box"
+msgstr "Caixa de ícone"
+
+#: public/editor-build/282-wp/texts.php:638
+msgid "Form"
+msgstr "Formulário"
+
+#: editor/editor/editor.php:2019 public/editor-build/282-wp/texts.php:520
+msgid "Embed"
+msgstr "Incorporação"
+
+#: editor/editor/editor.php:2018 public/editor-build/282-wp/texts.php:864
+msgid "Map"
+msgstr "Mapa"
+
+#: editor/editor/editor.php:2017 public/editor-build/282-wp/texts.php:829
+msgid "Line"
+msgstr "Linha"
+
+#: editor/editor/editor.php:2016 public/editor-build/282-wp/texts.php:1392
+msgid "Spacer"
+msgstr "Espaçador"
+
+#: editor/editor/editor.php:2015 public/editor-build/282-wp/texts.php:1633
+msgid "Video"
+msgstr "Vídeo"
+
+#: editor/editor/editor.php:2013 public/editor-build/282-wp/texts.php:744
+msgid "Image"
+msgstr "Imagem"
+
+#: editor/editor/editor.php:2012 public/editor-build/282-wp/texts.php:730
+msgid "Icon"
+msgstr "Ícone"
+
+#: editor/editor/editor.php:2011 public/editor-build/282-wp/texts.php:296
+msgid "Button"
+msgstr "Botão"
+
+#: editor/editor/editor.php:2010 public/editor-build/282-wp/texts.php:1474
+msgid "Text"
+msgstr "Texto"
+
+#: public/editor-build/282-wp/texts.php:121
+msgid "Add Elements"
+msgstr "Adicionar elementos"
+
+#: public/editor-build/282-wp/texts.php:1107
+msgid "Press the button to add blocks"
+msgstr "Prima o botão para adicionar blocos"
+
+#: public/editor-build/282-wp/texts.php:132
+msgid "Add a new block"
+msgstr "Adicionar novo bloco"
+
+#: public/editor-build/282-wp/texts.php:1449
+msgid "Switch to desktop to add blocks"
+msgstr "Mude para desktop para adicionar blocos"
+
+#: public/editor-build/282-wp/texts.php:1251
+msgid "SWITCH TO DESKTOP"
+msgstr "MUDAR PARA DESKTOP"
+
+#: public/editor-build/282-wp/texts.php:1105
+msgid "Press the button above to add blocks"
+msgstr "Prima o botão acima para adicionar blocos"
+
+#: public/editor-build/282-wp/texts.php:1248
+msgid "START BUILDING YOUR PAGE"
+msgstr "COMECE A CRIAR A SUA PÁGINA"
+
+#: public/editor-build/282-wp/texts.php:1063
+msgid "Paste your HTML code here..."
+msgstr "Cole o seu código HTML aqui..."
+
+#: public/editor-build/282-wp/texts.php:986
+#: public/editor-client/build/texts.php:58
+msgid "None"
+msgstr "Nenhum"
+
+#: public/editor-build/282-wp/texts.php:1124
+msgid "Product ID or SKU"
+msgstr "ID ou REF do produto"
+
+#. Author of the plugin
+#: brizy.php
+msgid "Brizy.io"
+msgstr "Brizy.io"
+
+#. Description of the plugin
+#: brizy.php
+msgid "A free drag & drop front-end page builder to help you create WordPress pages lightning fast. It's easy with Brizy."
+msgstr "Um construtor de páginas gratuito através de arrastar e largar que facilita a criação rápida de páginas em WordPress. É fácil com o Brizy."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: brizy.php
+msgid "https://brizy.io/"
+msgstr "https://brizy.io/"
+
+#. Plugin Name of the plugin
+#: brizy.php
+msgid "Brizy"
+msgstr "Brizy"
+
+#: public/editor-build/282-wp/texts.php:668
+msgid "Go Back"
+msgstr "Voltar"
+
+#: public/editor-build/282-wp/texts.php:1108
+msgid "Preview"
+msgstr "Pré-visualizar"
+
+#: admin/membership/membership.php:64 editor/post.php:655
+#: public/editor-build/282-wp/texts.php:451
+msgid "Default"
+msgstr "Padrão"
+
+#: admin/views/settings/general.php:62 admin/views/settings/maintenance.php:76
+#: admin/views/settings/roles.php:26
+msgid "Save Changes"
+msgstr "Guardar alterações"
+
+#: admin/main.php:491
+msgid "Auto Draft"
+msgstr "Rascunho automático"
+
+#: admin/main.php:244 admin/settings.php:109 admin/settings.php:110
+#: public/editor-build/282-wp/texts.php:1305
+msgid "Settings"
+msgstr "Definições"

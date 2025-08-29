@@ -1,0 +1,607 @@
+# Translation of WP-Syntex - Polylang Pro in Swedish
+# This file is distributed under the same license as the WP-Syntex - Polylang Pro package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-03-17 19:42:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-rc.1\n"
+"Language: sv_SE\n"
+"Project-Id-Version: WP-Syntex - Polylang Pro\n"
+
+#: modules/rest/rest-filtered-object.php:101
+msgid "Limit results to a specific language. By default, results are not filtered by language."
+msgstr "Begränsa resultaten till ett visst språk. Som standard filtreras inte resultaten efter språk."
+
+#: modules/rest/rest-api.php:147
+msgid "Scope under which the request is made; determines fields present in response."
+msgstr "Omfång som begäran görs under; avgör vilka fält som visas i svaret."
+
+#. translators: %1$s is the service's name, %2$s is a list of language names
+#. (and their locale).
+#: modules/machine-translation/Settings/views/view-inner-notices-row.php:15
+msgid "The following language is not available in %1$s: %2$s."
+msgid_plural "The following languages are not available in %1$s: %2$s."
+msgstr[0] "Följande språk är inte tillgängligt hos %1$s: %2$s."
+msgstr[1] "Följande språk är inte tillgängliga hos %1$s: %2$s."
+
+#. translators: %s is a list of language names.
+#: modules/machine-translation/Settings/views/view-deepl-formality-row.php:60
+msgid "Note: informal tone will always be used for %s language."
+msgid_plural "Note: informal tone will always be used for %s languages."
+msgstr[0] "Obs: för språket %s används alltid informellt språk"
+msgstr[1] "Obs: för språken %s används alltid informellt språk"
+
+#. translators: %s is a list of language names.
+#: modules/machine-translation/Settings/views/view-deepl-formality-row.php:46
+msgid "Note: formal tone will always be used for %s language."
+msgid_plural "Note: formal tone will always be used for %s languages."
+msgstr[0] "Obs: för språket %s används alltid formellt språk"
+msgstr[1] "Obs: för språken %s används alltid formellt språk"
+
+#: modules/machine-translation/Settings/views/view-deepl-formality-row.php:36
+msgid "Sets whether the translated text should lean on formal or informal language. Automatic fallback on the default formality if not available for the targeted language."
+msgstr "Anger om översättningen ska använda mer eller mindre formellt språk. Som reserv används standardnivån för formalitet om önskad nivå inte är tillgänglig för målspråket."
+
+#: modules/machine-translation/Settings/views/view-deepl-formality-row.php:22
+msgid "Prefer informal"
+msgstr "Föredra informell"
+
+#: modules/machine-translation/Settings/views/view-deepl-formality-row.php:21
+msgid "Prefer formal"
+msgstr "Föredra formell"
+
+#: modules/machine-translation/Settings/views/view-deepl-formality-row.php:20
+msgctxt "Language formality"
+msgid "Default"
+msgstr "Standard"
+
+#: modules/machine-translation/Settings/views/view-deepl-formality-row.php:15
+msgid "Formality"
+msgstr "Formalitetsnivå"
+
+#: modules/machine-translation/Settings/views/view-characters-consumption-row.php:13
+msgid "Data used"
+msgstr "Använd datamängd"
+
+#. translators: %1$s is a language name, %2$s is a language locale.
+#: modules/machine-translation/Settings/Deepl.php:462
+msgctxt "Language label"
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: modules/machine-translation/Settings/Deepl.php:362
+msgid "API key"
+msgstr "API-nyckel"
+
+#: modules/machine-translation/Settings/Deepl.php:360
+msgid "Your API key is valid."
+msgstr "Din API-nyckel är giltig."
+
+#. translators: %1$s is an opening link tag leading to the service's status
+#. page, %2$s is a closing link tag.
+#: modules/machine-translation/Settings/Deepl.php:355
+msgid "You can look at %1$sthe DeepL Pro/Free API's status%2$s."
+msgstr "Kontrollera %1$sstatusen för DeepL Pro-/Free-API%2$s."
+
+#. translators: %1$s is an opening link tag leading to the service's account
+#. page, %2$s is a closing link tag.
+#: modules/machine-translation/Settings/Deepl.php:349
+msgid "%1$sVerify your API key at the bottom of your DeepL account page%2$s."
+msgstr "%1$sKontrollera din API-nyckel längst ned på din kontosida hos DeepL%2$s."
+
+#. translators: %1$s is an opening link tag leading to account creation, %2$s
+#. is an opening link tag leading to the account page, %3$s is a closing link
+#. tag.
+#: modules/machine-translation/Settings/Deepl.php:341
+msgid "%1$sCreate your account on DeepL%3$s, then %2$sfind your API key at the bottom of your account page%3$s."
+msgstr "%1$sRegistrera ett konto hos DeepL%3$s och %2$shämta sedan din API-nyckel längst ned på din kontosida%3$s."
+
+#. translators: %s is a service name.
+#: modules/machine-translation/Settings/Deepl.php:337
+msgid "Check connection to %s"
+msgstr "Kontrollera förbindelsen med %s"
+
+#. translators: %1$s is a formatted count number, %2$s is a formatted limit
+#. number.
+#: modules/machine-translation/Settings/Deepl.php:210
+msgid "%1$s / %2$s translated character."
+msgid_plural "%1$s / %2$s translated characters."
+msgstr[0] "%1$s/%2$s översatt tecken."
+msgstr[1] "%1$s/%2$s översatta tecken."
+
+#. translators: %s is a formatted count number.
+#: modules/machine-translation/Settings/Deepl.php:186
+msgid "%s translated character."
+msgid_plural "%s translated characters."
+msgstr[0] "%s översatt tecken."
+msgstr[1] "%s översatta tecken."
+
+#. translators: %s is an error message.
+#: modules/machine-translation/Settings/Deepl.php:171
+msgid "Error while retrieving the data: %s."
+msgstr "Fel vid hämtning av data: %s."
+
+#: modules/machine-translation/Settings/Deepl.php:120
+msgid "Please fill in the API key field."
+msgstr "Fyll i fältet för API-nyckeln."
+
+#. translators: %1$s is a type of content, post or term, %2$s is a numeric ID.
+#: modules/machine-translation/Processor.php:130
+msgid "%1$s with ID %2$d could not be translated."
+msgstr "%1$s med ID %2$d kunde inte översättas."
+
+#. translators: %s is an HTTP status code
+#: modules/machine-translation/Clients/Deepl.php:305
+msgid "The DeepL server sent an unexpected status code %d."
+msgstr "DeepL-servern svarade med en oväntad statuskod %d."
+
+#: modules/machine-translation/Clients/Deepl.php:302
+msgid "DeepL service unavailable."
+msgstr "DeepL-tjänsten inte tillgänglig."
+
+#: modules/machine-translation/Clients/Deepl.php:298
+msgid "Too many requests, DeepL servers are currently experiencing high load."
+msgstr "För många förfrågningar, Servrarna för DeepL har just nu hög belastning."
+
+#: modules/machine-translation/Clients/Deepl.php:296
+msgid "Bad request."
+msgstr "Felaktig förfrågan."
+
+#: modules/machine-translation/Clients/Deepl.php:294
+msgid "The DeepL server cannot be reached."
+msgstr "Det går inte att nå servern för DeepL."
+
+#: modules/machine-translation/Clients/Deepl.php:292
+msgid "The DeepL quota for this billing period has been exceeded."
+msgstr "Kvoten hos DeepL för aktuell faktureringsperiod har överskridits."
+
+#: modules/machine-translation/Clients/Deepl.php:290
+msgid "Authentication failure. Please check your DeepL authentication key."
+msgstr "Autentiseringsfel. Kontrollera din autentiseringsnyckel för DeepL."
+
+#: modules/machine-translation/Clients/Deepl.php:213
+#: modules/machine-translation/Clients/Deepl.php:267
+msgid "No translations have been returned by DeepL."
+msgstr "Inga översättningar har erhållits från DeepL."
+
+#. translators: %1$s is a language name, %2$s is a language locale.
+#: modules/machine-translation/Clients/Deepl.php:178
+msgid "%1$s (%2$s) is not available as source language with DeepL."
+msgstr "%1$s (%2$s) är inte tillgängligt som källspråk med DeepL."
+
+#. translators: %1$s is a language name, %2$s is a language locale.
+#: modules/machine-translation/Clients/Deepl.php:151
+msgid "%1$s (%2$s) is not available as target language with DeepL."
+msgstr "%1$s (%2$s) är inte tillgängligt som målspråk med DeepL."
+
+#: modules/machine-translation/Clients/Deepl.php:79
+msgid "The DeepL response is incomplete."
+msgstr "Svaret från DeepL är ofullständigt."
+
+#. translators: %s is the name of the machine translation service.
+#: modules/machine-translation/Button.php:50 js/build/sidebar.js:1688
+msgid "Deactivate %s machine translation"
+msgstr "Inaktivera maskinöversättning med %s"
+
+#. translators: %s is the name of the machine translation service.
+#: modules/machine-translation/Button.php:45 js/build/sidebar.js:1690
+msgid "Activate %s machine translation"
+msgstr "Aktivera maskinöversättning med %s"
+
+#: modules/machine-translation/Action.php:168
+msgid "Unable to retrieve the translation."
+msgstr "Det gick inte att hämta översättningen."
+
+#. translators: %s is a list of versions.
+#: modules/import-export/xliff/xliff-import.php:192
+msgid "The xliff version is not supported."
+msgstr "Denna version av xliff stöds inte."
+
+#: modules/import-export/import/import-action.php:287
+msgid "Upload failed."
+msgstr "Uppladdningen misslyckades."
+
+#: modules/import-export/import/import-action.php:269
+msgid "Error: Please select a file to upload."
+msgstr "Fel: välj fil att ladda upp."
+
+#. translators: placeholders are URLs
+#: modules/import-export/import/import-action.php:194
+msgid "Error: The site targeted in the imported file does not match the current site. Found: %1$s. Expected: %2$s."
+msgstr "Fel: Målwebbplatsen för den importerade filen matchar inte denna webbplats. Hittat: %1$s. Förväntat: %2$s."
+
+#: modules/import-export/export/view-export-file-format.php:15
+msgid "File format"
+msgstr "Filformat"
+
+#: modules/import-export/export/export-strings-action.php:136
+msgid "Error: Please select a target language."
+msgstr "Fel: välj ett målspråk."
+
+#: modules/import-export/export/export-strings-action.php:68
+msgid "Sorry, some data is missing from the form submission."
+msgstr "Vissa uppgifter i formuläret saknas."
+
+#: modules/import-export/export/export-download.php:95
+msgid "Error: Upload directory must be writable. Please contact your host provider."
+msgstr "Fel: katalogen dit uppladdning görs måste vara skrivbar. Kontakta webbhotellet."
+
+#: modules/import-export/export/export-download.php:88
+msgid "Error: ZipArchive is required to download multiple files. Please contact your host provider."
+msgstr "Fel: för nedladdning av flera filer krävs ZipArchive. Kontakta ditt webbhotell."
+
+#: modules/import-export/export/export-data-from-strings.php:60
+msgid "Error: No strings found."
+msgstr "Fel: inga strängar hittades."
+
+#: modules/import-export/export/export-data-from-strings.php:44
+msgid "Error: Default language not defined."
+msgstr "Fel: inget standardspråk är angivet."
+
+#: modules/import-export/export/export-bulk-option.php:133
+#: modules/import-export/export/export-strings-action.php:145
+msgid "Error: invalid target languages."
+msgstr "Fel: ogiltiga målspråk."
+
+#: modules/import-export/export/export-bulk-option.php:166
+msgid "The posts are already in the target language. Please select a different language for the translation."
+msgstr "Inläggen finns redan på målspråket. Välj ett annat språk för översättningen."
+
+#: modules/import-export/export/export-bulk-option.php:161
+msgid "The posts selected for translation have no language."
+msgstr "Inläggen som markerats för översättning saknar språkangivelse."
+
+#: modules/import-export/export/export-bulk-option.php:150
+msgid "The posts selected for translation could not be found."
+msgstr "Inläggen som markerats för översättning hittades inte."
+
+#: modules/sync-post/sync-post.php:48
+msgid "Synchronize translations in selected languages with the original items"
+msgstr "Synkronisera översättningarna på de valda språken med ursprungsobjekten"
+
+#: modules/import-export/import/view-tab-import-translations.php:29
+msgid "Publish"
+msgstr "Publicera"
+
+#: modules/import-export/import/view-tab-import-translations.php:28
+msgid "Draft"
+msgstr "Utkast"
+
+#: modules/import-export/import/view-tab-import-translations.php:26
+msgid "Select the status of the imported posts"
+msgstr "Välj status för de importerade inläggen"
+
+#. translators: %d is a number of terms translations
+#: modules/import-export/import/import-terms.php:98
+msgid "%d term translation updated."
+msgid_plural "%d terms translations updated."
+msgstr[0] "%d termöversättning uppdaterad."
+msgstr[1] "%d termöversättningar uppdaterade."
+
+#. translators: %s is the post IDs
+#: modules/import-export/import/import-posts.php:162
+msgid "Warning: a matching source wasn't found for post ID: %s"
+msgid_plural "Warning: matching sources weren't found for post IDs: %s"
+msgstr[0] "Varning: Matchande ursprungspost hittades inte för följande ID: %s"
+msgstr[1] "Varning: Matchande ursprungsposter hittades inte för följande ID:n: %s"
+
+#. translators: %d is a number of posts translations
+#: modules/import-export/import/import-posts.php:137
+msgid "%d post translation updated."
+msgid_plural "%d posts translations updated."
+msgstr[0] "%d inläggsöversättning uppdaterad."
+msgstr[1] "%d inläggsöversättningar uppdaterade."
+
+#. translators: %s is the plugin's name.
+#: modules/import-export/import/import-action.php:217
+msgid "Error: The imported file has not been generated by %s."
+msgstr "Fel: Den importerade filen är inte genererad av %s."
+
+#: modules/import-export/import-export.php:134
+msgid "Import translations"
+msgstr "Importera översättningar"
+
+#. translators: %s is a list of post titles.
+#: modules/import-export/export/export-bulk-option.php:291
+msgctxt "ambiguous posts list"
+msgid "- %s."
+msgstr "– %s."
+
+#: modules/import-export/export/export-bulk-option.php:283
+msgid "Ambiguous choice of contents to export. Please do not select contents that are translations of each other."
+msgstr "Oklart val av innehåll för export. Välj inte innehåll som utgör olika översättningar av samma innehåll."
+
+#. translators: %s is a post title.
+#: modules/import-export/export/export-bulk-option.php:278
+msgctxt "quoted post title"
+msgid "\"%s\""
+msgstr "”%s”"
+
+#: modules/import-export/export/export-bulk-option.php:35
+msgid "Export selected content into a file"
+msgstr "Exportera markerat innehåll till en fil"
+
+#: modules/import-export/import/view-tab-import-translations.php:21
+msgid "Upload a translation file"
+msgstr "Ladda upp en översättningsfil"
+
+#: modules/block-editor/navigation-language-switcher-block.php:208
+msgid "Language switcher submenu."
+msgstr "Undermeny för språkval."
+
+#. translators: %s is a suite of comma separate file formats, for example: PO,
+#. XLIFF
+#: modules/import-export/file-format/file-format-factory.php:148
+msgid "Error: Wrong file format. The supported file formats are: %s."
+msgstr "Fel: Felaktigt filformat. Följande filformat stöds: %s."
+
+#: modules/import-export/xliff/xliff-import.php:73
+msgid "An error occurred during the import, please make sure your file is correctly formatted."
+msgstr "Ett fel inträffade under importen, se till att filen har korrekt format."
+
+#: modules/import-export/xliff/xliff-import.php:57
+msgid "Something went wrong during the file import."
+msgstr "Något blev fel under filimporten."
+
+#: modules/import-export/xliff/xliff-format.php:45
+#: modules/import-export/xliff/xliff-import.php:49
+msgid "Your PHP installation appears to be missing the libxml extension which is required by the importer."
+msgstr "Din installation av PHP verkar saknar utökningen libxml, som används av importfunktionen."
+
+#: modules/translate-slugs/settings-translate-slugs.php:31
+msgid "The module is automatically deactivated when using plain permalinks."
+msgstr "Modulen inaktiveras automatiskt om du använder vanliga permalänkar."
+
+#: modules/share-slug/settings-share-slug.php:35
+msgid "The module is automatically deactivated when using plain permalinks or when the language is set from the content in the URL modifications."
+msgstr "Modulen inaktiveras automatiskt om du använder vanliga permalänkar eller om språket anges från innehållet i ändringarna av URL:en."
+
+#: modules/locale-fallback/view-locale-fallback.php:13
+msgid "Locale fallback"
+msgstr "Språkversion i reserv"
+
+#: modules/locale-fallback/view-locale-fallback.php:15
+msgid "WordPress locale to use if a translation file is not available in the main locale."
+msgstr "WordPress språkversion att använda om ingen översättningsfil finns tillgänglig för den huvudsakliga språkversionen."
+
+#: modules/block-editor/navigation-language-switcher-block.php:139
+#: js/build/blocks.js:1256
+msgid "Language switcher settings"
+msgstr "Inställningar för språkväljaren"
+
+#: modules/import-export/import-export.php:126
+msgid "Export string translations"
+msgstr "Exportera översättning av textsträngar"
+
+#: modules/import-export/export/view-tab-export-strings.php:65
+msgid "Download"
+msgstr "Ladda ned"
+
+#: modules/import-export/export/view-tab-export-strings.php:45
+msgid "Export all groups"
+msgstr "Exportera alla grupper"
+
+#: modules/import-export/export/view-tab-export-strings.php:42
+msgid "Filter group"
+msgstr "Filtrera efter grupp"
+
+#: modules/bulk-translate/view-bulk-translate.php:21
+#: modules/import-export/export/view-tab-export-strings.php:26
+msgid "Target languages"
+msgstr "Målspråk"
+
+#: modules/import-export/export/export-download.php:103
+#: modules/import-export/export/export-download.php:121
+msgid "Error: Impossible to create a Zip file."
+msgstr "Fel: Det går inte att skapa någon zip-fil."
+
+#: modules/bulk-translate/bulk-translate.php:210
+msgid "Error: No target language has been selected. Please make sure to select at least one target language."
+msgstr "Fel : Inget målspråk har valts. Se till att välja minst ett målspråk."
+
+#: modules/bulk-translate/bulk-translate.php:200
+msgid "No item has been selected. Please make sure to select at least one item to be translated."
+msgstr "Inget objekt har markerats. Se till att välja minst ett objekt som ska översättas."
+
+#: integrations/acf/acf-sync-metas.php:80
+msgid "Synchronize"
+msgstr "Synkronisera"
+
+#: integrations/acf/acf-sync-metas.php:79
+msgid "Copy once"
+msgstr "Kopiera en gång"
+
+#: integrations/acf/acf-sync-metas.php:78
+msgid "Ignore"
+msgstr "Ignorera"
+
+#: modules/import-export/po/po-import.php:54
+msgid "Error: Invalid file."
+msgstr "Fel: Ogiltig fil."
+
+#. translators: %s is a file format, for example PO
+#: modules/import-export/file-format/file-format-factory.php:145
+msgid "Error: Wrong file format. The only supported file format is %s."
+msgstr "Fel: Felaktigt filformat. Det enda filformat som stöds är: %s."
+
+#: modules/import-export/import/view-tab-import-translations.php:33
+msgid "Upload"
+msgstr "Ladda upp"
+
+#: modules/import-export/import/import-action.php:250
+msgid "Error: You are trying to import a file in a language which doesn't exist on your site."
+msgstr "Fel: Du försöker importera en fil på ett språk som inte finns på din webbplats."
+
+#: modules/import-export/import/import-action.php:243
+msgid "Error: No target languages have been provided in the imported file."
+msgstr "Fel: Inget målspråk har angetts i den importerade filen."
+
+#. translators: %d is a number of strings translations
+#: modules/import-export/import/import-strings.php:119
+msgid "%d string translation updated."
+msgid_plural "%d string translations updated."
+msgstr[0] "Översättning av %d sträng har uppdaterats."
+msgstr[1] "Översättning av %d strängar har uppdaterats."
+
+#: modules/active-languages/active-languages.php:111
+msgid "Activate"
+msgstr "Aktivera"
+
+#: modules/block-editor/language-switcher-block.php:57
+msgid "Choose a language"
+msgstr "Välj ett språk"
+
+#: modules/active-languages/active-languages.php:119
+msgid "Deactivate"
+msgstr "Inaktivera"
+
+#: integrations/acf/acf-sync-metas.php:56
+#: modules/rest/rest-translated-object.php:83 js/build/sidebar.js:3449
+msgid "Translations"
+msgstr "Översättningar"
+
+#: modules/metabox-button/metabox-button.php:198 js/build/sidebar.js:2005
+msgid "You are about to overwrite an existing translation. Are you sure you want to proceed?"
+msgstr "Du är på väg att skriva över en befintlig översättning. Vill du fortsätta?"
+
+#: modules/rest/rest-translated-object.php:68 js/build/sidebar.js:1295
+#: js/build/sidebar.js:3727 js/build/sidebar.js:3730
+msgid "Language"
+msgstr "Språk"
+
+#: modules/xdata/xdata-session-manager.php:63
+msgid "An error has occurred."
+msgstr "Ett fel har inträffat."
+
+#: modules/translate-slugs/translate-slugs-model.php:512
+msgid "URL slugs"
+msgstr "URL-sluggar"
+
+#: modules/sync-post/sync-post-rest.php:53
+msgid "Synchronizations"
+msgstr "Synkroniseringar"
+
+#: modules/sync-post/sync-post-button.php:41 js/build/sidebar.js:1989
+msgid "Don't synchronize this post"
+msgstr "Synkronisera inte detta inlägg"
+
+#: modules/sync-post/sync-post-button.php:40 js/build/sidebar.js:1989
+#: js/build/sidebar.js:2003
+msgid "Synchronize this post"
+msgstr "Synkronisera detta inlägg"
+
+#: modules/rest/rest-post.php:186
+msgid "Translations table"
+msgstr "Översättningstabell"
+
+#: modules/rest/rest-api.php:157
+msgid "Add this post's translation to results."
+msgstr "Lägg till översättningen av detta inlägg i resultatet."
+
+#: modules/rest/rest-api.php:153
+msgid "Limit results to those matching a string."
+msgstr "Begränsa resultaten till sådana som matchar en sträng."
+
+#: modules/rest/rest-api.php:141
+msgid "Limit results to items in a language."
+msgstr "Begränsa resultatet till objekt på ett språk."
+
+#: modules/rest/rest-api.php:135
+msgid "Limit results to untranslated items in a language."
+msgstr "Begränsa resultatet till objekt som inte är översatta till ett språk."
+
+#: modules/rest/rest-api.php:129
+msgid "Limit results to items of an object type."
+msgstr "Begränsa resultat till objekt av en viss objektstyp."
+
+#: modules/media/settings-advanced-media.php:50
+msgid "Automatically duplicate media in all languages when uploading a new file."
+msgstr "Duplicera automatiskt media till alla språk vid uppladdning av ny fil."
+
+#: modules/media/settings-advanced-media.php:33
+msgid "Activate languages and translations for media. Provides options for multilingual media management."
+msgstr "Aktivera språk och översättningar för media. Innehåller inställningar för hantering av media på flera språk."
+
+#: modules/media/settings-advanced-media.php:32
+msgid "Media"
+msgstr "Media"
+
+#: modules/duplicate/duplicate.php:33
+msgid "Deactivate content duplication"
+msgstr "Inaktivera duplicering av innehåll"
+
+#: modules/duplicate/duplicate.php:32
+msgid "Activate content duplication"
+msgstr "Aktivera duplicering av innehåll"
+
+#: modules/bulk-translate/view-bulk-translate.php:51
+msgid "Submit"
+msgstr "Skicka"
+
+#: modules/bulk-translate/view-bulk-translate.php:50 js/build/sidebar.js:1819
+#: js/build/sidebar.js:3279
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: modules/media/admin-advanced-media.php:48 modules/sync-post/sync-post.php:58
+msgid "Copy original items to selected languages"
+msgstr "Kopiera originalobjekten till de valda språken"
+
+#: modules/bulk-translate/view-bulk-translate.php:36
+msgid "Action"
+msgstr "Åtgärd"
+
+#: modules/bulk-translate/view-bulk-translate.php:17
+msgid "Bulk translate"
+msgstr "Översättning i bulk"
+
+#. translators: %d is a number of posts
+#: modules/bulk-translate/bulk-translate-option.php:204
+msgid "To avoid overwriting content, %d translation was not created."
+msgid_plural "To avoid overwriting content, %d translations were not created."
+msgstr[0] "%d översättning skapades inte för att inget innehåll skulle skrivas över."
+msgstr[1] "%d översättningar skapades inte för att inget innehåll skulle skrivas över."
+
+#. translators: %d is a number of posts
+#: modules/bulk-translate/bulk-translate-option.php:192
+msgid "%d translation created."
+msgid_plural "%d translations created."
+msgstr[0] "%d översättning har skapats."
+msgstr[1] "%d översättningar har skapats."
+
+#: integrations/acf/acf-sync-metas.php:99
+#: modules/bulk-translate/bulk-translate.php:256
+msgid "Translate"
+msgstr "Översätt"
+
+#: modules/active-languages/active-languages.php:117
+msgid "Deactivate this language"
+msgstr "Inaktivera detta språk"
+
+#: modules/active-languages/active-languages.php:109
+msgid "Activate this language"
+msgstr "Aktivera detta språk"
+
+#. Author of the plugin
+#: polylang.php
+msgid "WP SYNTEX"
+msgstr "WP SYNTEX"
+
+#. Description of the plugin
+#: polylang.php
+msgid "Adds multilingual capability to WordPress"
+msgstr "Lägger till flerspråkighet i WordPress"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: polylang.php
+msgid "https://polylang.pro"
+msgstr "https://polylang.pro"
+
+#. Plugin Name of the plugin
+#: polylang.php
+msgid "Polylang Pro"
+msgstr "Polylang Pro"

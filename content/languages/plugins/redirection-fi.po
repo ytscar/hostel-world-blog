@@ -1,0 +1,2547 @@
+# Translation of Plugins - Redirection - Stable (latest release) in Finnish
+# This file is distributed under the same license as the Plugins - Redirection - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-05-08 10:19:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fi\n"
+"Project-Id-Version: Plugins - Redirection - Stable (latest release)\n"
+
+#: redirection-strings.php:750 redirection.js:2
+msgid "REST API 404"
+msgstr "REST API 404"
+
+#: redirection-strings.php:746 redirection.js:2
+msgid "Your REST API appears to be cached and this will cause problems. Please exclude your REST API from your caching system."
+msgstr "REST API on välimuistissa, mikä voi aiheuttaa ongelmia. Poista se välimuistista."
+
+#: redirection-strings.php:738 redirection.js:2
+msgid "Your REST API is showing a deprecated PHP error. Please fix this error."
+msgstr "REST API näyttää vanhentuneen PHP-virheen. Korjaa tämä virhe."
+
+#: redirection-strings.php:732 redirection.js:2
+msgid "Your server configuration is blocking access to the REST API."
+msgstr "Palvelimesi asetukset estävät pääsyn REST API:iin."
+
+#: redirection-strings.php:730 redirection.js:2
+msgid "Can you access your {{api}}REST API{{/api}} without it redirecting?."
+msgstr "Toimiiko {{api}}REST API{{/api}} ilman uudelleenohjausta?"
+
+#: redirection-strings.php:729 redirection.js:2
+msgid "You will will need to fix this on your site. Redirection is not causing the error."
+msgstr "Sinun on korjattava tämä sivustollasi. Tämä lisäosa ei aiheuta virhettä."
+
+#: redirection-strings.php:719 redirection.js:2
+msgid "Add Permalink"
+msgstr "Lisää kestolinkki"
+
+#: redirection-strings.php:718 redirection.js:2
+msgid "No migrated permalinks"
+msgstr "Ei siirrettyjä kestolinkkejä"
+
+#: redirection-strings.php:717 redirection.js:2
+msgid "Permalinks"
+msgstr "Kestolinkit"
+
+#: redirection-strings.php:716 redirection.js:2
+msgid "Note: this is in beta and will only migrate posts. Certain permalinks will not work. If yours does not work then you will need to wait until it is out of beta."
+msgstr "Huomio: tämä on betavaiheessa ja siirtää vain artikkeleja. Tietyt kestolinkit eivät toimi. Jos omasi ei toimi, odota kunnes se on poistunut betavaiheesta."
+
+#: redirection-strings.php:715 redirection.js:2
+msgid "Enter old permalinks structures to automatically migrate them to your current one."
+msgstr "Syötä vanhat kestolinkkirakenteet siirtääksesi ne automaattisesti nykyiseen."
+
+#: redirection-strings.php:714 redirection.js:2
+msgid "Permalink Migration"
+msgstr "Kestolinkkien siirto"
+
+#: redirection-strings.php:681 redirection.js:2
+msgid "(beta) Enable caching of redirects via WordPress object cache. Can improve performance. Requires an object cache."
+msgstr "(beta) Ota uudelleenohjausten välimuistitus käyttöön WordPressin objektivälimuistin kautta. Tämä voi parantaa suorituskykyä. Vaatii objektivälimuistin."
+
+#: redirection-strings.php:678 redirection.js:2
+msgid "HTTP Cache Header"
+msgstr "HTTP-välimuistin otsake"
+
+#: redirection-strings.php:651 redirection.js:2
+msgid "Decide how Redirection updates itself, if needed."
+msgstr "Määritä, miten Redirection päivittää itsensä tarvittaessa."
+
+#: redirection-strings.php:650 redirection.js:2
+msgid "Data Upgrade"
+msgstr "Tietojen päivitys"
+
+#: redirection-strings.php:642 redirection.js:2
+msgid "Advanced"
+msgstr "Edistyneet asetukset"
+
+#: redirection-strings.php:641 redirection.js:2
+msgid "Automatically upgrade on admin pages"
+msgstr "Päivitä automaattisesti hallintapaneelista"
+
+#: redirection-strings.php:640 redirection.js:2
+msgid "Upgrade manually when prompted"
+msgstr "Päivitä manuaalisesti pyydettäessä"
+
+#: redirection-strings.php:606 redirection.js:2
+msgid "Nothing to display."
+msgstr "Ei näytettävää."
+
+#: redirection-strings.php:599 redirection.js:2
+msgid "%1d of %1d selected. {{all}}Clear All.{{/all}}"
+msgstr "%1d / %1d valittu. {{all}}Tyhjennä valinta.{{/all}}"
+
+#: redirection-strings.php:598 redirection.js:2
+msgid "%1d of %1d selected. {{all}}Select All.{{/all}}"
+msgstr "%1d / %1d valittu. {{all}}Valitse kaikki.{{/all}}"
+
+#: redirection-strings.php:526 redirection.js:2
+msgid "Sometimes your browser can cache a URL, making it hard to know if it's working as expected. Use this service from {{link}}redirect.li{{/link}} to get accurate results."
+msgstr "Selaimesi tallentaa URL-osoitteita välimuistiin, mikä voi vaikeuttaa toiminnan tarkistamista. Käytä {{link}}redirect.li{{/link}}-palvelua nähdäksesi tarkat tulokset."
+
+#: redirection-strings.php:362 redirection-strings.php:423 redirection.js:2
+msgid "Search exact URL"
+msgstr "Etsi tarkkaa URL-osoitetta"
+
+#: redirection-strings.php:286 redirection.js:2
+msgid "Version %s installed! Please read the {{url}}release notes{{/url}} for details."
+msgstr "Versio %s asennettu! Lue {{url}}julkaisutiedot{{/url}} saadaksesi lisätietoa."
+
+#: redirection-strings.php:223 redirection.js:2
+msgid "Manual Setup"
+msgstr "Manuaalinen asennus"
+
+#: redirection-strings.php:188 redirection.js:2
+msgid "Importing failed."
+msgstr "Tuonti epäonnistui."
+
+#: redirection-strings.php:187 redirection.js:2
+msgid "Import finished."
+msgstr "Tuonti valmis."
+
+#: redirection-strings.php:178 redirection.js:2
+msgid "Ready to begin! 🎉"
+msgstr "Valmis aloittamaan! 🎉"
+
+#: redirection-strings.php:177 redirection.js:2
+msgid "Please take a moment to consult the {{support}}support site{{/support}} for information about how to use Redirection."
+msgstr "Käy hetki tutustumassa {{support}}tukisivustoon{{/support}} saadaksesi tietoa Redirection-lisäosan käytöstä."
+
+#: redirection-strings.php:176 redirection.js:2
+msgid "Redirection is now installed!"
+msgstr "Redirection on nyt asennettu!"
+
+#: redirection-strings.php:175 redirection.js:2
+msgid "Installation Complete"
+msgstr "Asennus valmis"
+
+#: redirection-strings.php:160 redirection.js:2
+msgid "The Redirection database does not appear to exist. Have you run the above SQL?"
+msgstr "Redirection-lisäosan tietokantaa ei näytä olevan olemassa. Oletko suorittanut yllä olevan SQL-kyselyn?"
+
+#: redirection-strings.php:120 redirection.js:2
+msgid "Wildcards are not supported. You need to use a {{link}}regular expression{{/link}}."
+msgstr "Jokerimerkit (wildcards) eivät ole tuettuja. Sinun on käytettävä {{link}}säännöllistä lauseketta{{/link}}."
+
+#: redirection-strings.php:119 redirection.js:2
+msgid "To match {{code}}?{{/code}} you need to escape it with {{code}}\\?{{/code}}"
+msgstr "Jotta {{code}}?{{/code}} vastaisi oikein, sinun täytyy lisätä siihen pakomerkki: {{code}}\\?{{/code}}"
+
+#: redirection-strings.php:118 redirection.js:2
+msgid "The caret {{code}}^{{/code}} should be at the start. For example: {{code}}%(example)s{{/code}}"
+msgstr "Merkki {{code}}^{{/code}} tulee olla alussa. Esimerkiksi: {{code}}%(example)s{{/code}}"
+
+#: redirection-strings.php:116 redirection.js:2
+msgid "Please add migrated permalinks to the Site page under the \"Permalink Migration\" section."
+msgstr "Lisää siirretyt kestolinkit sivustolle \"Kestolinkin siirto\" -osiossa."
+
+#: redirection-strings.php:92 redirection-strings.php:658 redirection.js:2
+msgid "Exact match in any order"
+msgstr "Tarkka osuma missä tahansa järjestyksessä"
+
+#: redirection-strings.php:46 redirection.js:2
+msgid "Something went wrong obtaining this information. It may work in the future."
+msgstr "Tietojen hakemisessa tapahtui virhe. Kokeile myöhemmin uudelleen."
+
+#: redirection-strings.php:44 redirection.js:2
+msgid "View full redirect.li results."
+msgstr "Näytä kaikki redirect.li tulokset."
+
+#: redirection-strings.php:43 redirection.js:2
+msgid "If your browser is behaving differently then you should clear your browser cache."
+msgstr "Jos selaimesi toimii odottamattomasti, tyhjennä selaimen välimuisti."
+
+#: redirection-strings.php:42 redirection.js:2
+msgid "If this is not expected then this {{support}}support page{{/support}} may help."
+msgstr "Jos tämä ei ole odotettua, {{support}}tukisivu{{/support}} voi auttaa."
+
+#: redirection-strings.php:41 redirection.js:2
+msgid "Unable to check that URL. It may not be valid or accessible."
+msgstr "URL-osoitteen tarkistaminen epäonnistui. Se ei välttämättä ole kelvollinen tai saavutettavissa."
+
+#: redirection-strings.php:40 redirection.js:2
+msgid "Page was loaded."
+msgstr "Sivu ladattiin."
+
+#: redirection-strings.php:39 redirection.js:2
+msgid "Redirected by an unknown agent. {{support}}What does this mean?{{/support}}."
+msgstr "Uudelleenohjattu tuntemattoman agentin toimesta. {{support}}Mitä tämä tarkoittaa?{{/support}}."
+
+#: redirection-strings.php:38 redirection.js:2
+msgid "Redirected by %1s. {{support}}What does this mean?{{/support}}."
+msgstr "Uudelleenohjattu %1s toimesta. {{support}}Mitä tämä tarkoittaa?{{/support}}."
+
+#: redirection-strings.php:36 redirection.js:2
+msgid "Matches your redirect"
+msgstr "Vastaa uudelleenohjaustasi"
+
+#: redirection-strings.php:35 redirection-strings.php:37 redirection.js:2
+msgid "Redirected by Redirection."
+msgstr "Uudelleenohjattu Redirection-lisäosan toimesta."
+
+#: redirection-strings.php:34 redirection.js:2
+msgid "An error page was returned. This is unlikely to be a problem with Redirection. {{support}}What does this mean?{{/support}}."
+msgstr "Palautui virhesivu. Tämä ei todennäköisesti johdu Redirection-lisäosasta. {{support}}Mitä tämä tarkoittaa?{{/support}}."
+
+#: redirection-strings.php:33 redirection.js:2
+msgid "Something is wrong with the server. This is not a problem with Redirection and you will need to resolve the error yourself."
+msgstr "Jokin on vialla palvelimella. Tämä ei johdu Redirection-lisäosasta, sinun on ratkaistava virhe itse."
+
+#: redirection-strings.php:32
+msgid "An unknown errorm"
+msgstr "Tuntematon virhe"
+
+#: redirection-strings.php:5 redirection.js:2
+msgid "Are you sure want to delete all %d matching items?"
+msgstr "Haluatko varmasti poistaa kaikki %d vastaavaa kohdetta?"
+
+#: models/fixer.php:91
+msgid "Too many regular expressions may impact site performance"
+msgstr "Runsas määrä säännöllisiä lausekkeita voi heikentää sivuston suorituskykyä"
+
+#: models/fixer.php:89
+msgid "Regular Expressions"
+msgstr "Säännölliset lausekkeet"
+
+#: redirection-strings.php:758 redirection.js:2
+msgid "Your admin pages are being cached. Clear this cache and try again. There may be multiple caches involved."
+msgstr "Hallintapaneelin sivut ovat välimuistissa. Tyhjennä välimuisti ja yritä uudelleen. Sivustolla voi olla useita välimuisteja."
+
+#: redirection-strings.php:755 redirection.js:2
+msgid "This is usually fixed by doing one of the following:"
+msgstr "Tämä korjataan yleensä jollakin seuraavista tavoista:"
+
+#: redirection-strings.php:754 redirection.js:2
+msgid "You are using an old or cached session"
+msgstr "Käytät vanhentunutta tai välimuistissa olevaa istuntoa"
+
+#: redirection-strings.php:749 redirection.js:2
+msgid "Please review your data and try again."
+msgstr "Tarkista tiedot ja yritä uudelleen."
+
+#: redirection-strings.php:748 redirection.js:2
+msgid "There was a problem making a request to your site. This could indicate you provided data that did not match requirements, or that the plugin sent a bad request."
+msgstr "Pyyntö sivustolle epäonnistui. Tämä voi tarkoittaa, että antamasi tiedot eivät vastanneet vaatimuksia tai lisäosa lähetti virheellisen pyynnön."
+
+#: redirection-strings.php:747 redirection.js:2
+msgid "Bad data"
+msgstr "Virheelliset tiedot"
+
+#: redirection-strings.php:742 redirection.js:2
+msgid "WordPress returned an unexpected message. This could be a PHP error from another plugin, or data inserted by your theme."
+msgstr "WordPress palautti odottamattoman virheilmoituksen. Tämä voi johtua toisen lisäosan PHP-virheestä tai teemastasi."
+
+#: redirection-strings.php:741 redirection.js:2
+msgid "Your WordPress REST API has been disabled. You will need to enable it to continue."
+msgstr "WordPressin REST API on poistettu käytöstä. Sinun on otettava se käyttöön jatkaaksesi."
+
+#: redirection-strings.php:737 redirection.js:2
+msgid "An unknown error occurred."
+msgstr "Tapahtui tuntematon virhe."
+
+#: redirection-strings.php:735 redirection.js:2
+msgid "Your REST API is being redirected. Please remove the redirection for the API."
+msgstr "REST-rajapinta uudelleenohjataan. Poista uudelleenohjaus REST-rajapinnalta."
+
+#: redirection-strings.php:733 redirection.js:2
+msgid "A security plugin or firewall is blocking access. You will need to whitelist the REST API."
+msgstr "Tietoturvalisäosa tai palomuuri estää pääsyn. Sinun on lisättävä REST-rajapinta sallittujen listalle."
+
+#: redirection-strings.php:731 redirection.js:2
+msgid "Check your {{link}}Site Health{{/link}} and fix any issues."
+msgstr "Tarkista {{link}}Sivuston eheys{{/link}} ja korjaa mahdolliset ongelmat."
+
+#: redirection-strings.php:728 redirection.js:2
+msgid "Your WordPress REST API is returning a 404 page. This is almost certainly an external plugin or server configuration issue."
+msgstr "WordPressin REST-rajapinta palauttaa 404-sivun. Tämä johtuu todennäköisesti toisesta lisäosasta tai palvelimen asetuksista."
+
+#: redirection-strings.php:724 redirection.js:2
+msgid "Debug Information"
+msgstr "Vianmääritystiedot"
+
+#: redirection-strings.php:723 redirection.js:2
+msgid "Show debug"
+msgstr "Näytä vianmääritys"
+
+#: redirection-strings.php:548 redirection.js:2
+msgid "View Data"
+msgstr "Näytä tiedot"
+
+#: redirection-strings.php:636 redirection.js:2
+msgid "Redirection stores no user identifiable information other than what is configured above. It is your responsibility to ensure your site meets any applicable {{link}}privacy requirements{{/link}}."
+msgstr "Redirection-lisäosa ei tallenna mitään henkilökohtaisesti tunnistettavia tietoja lukuun ottamatta yllä määritettyjä asetuksia. Vastuullasi on varmistaa, että sivustosi noudattaa mahdollisia {{link}}tietosuojavaatimuksia{{/link}}."
+
+#: redirection-strings.php:635 redirection.js:2
+msgid "Capture HTTP header information with logs (except cookies). It may include user information, and could increase your log size."
+msgstr "Tallenna HTTP-otsaketiedot lokeihin (paitsi evästeet). Tämä voi sisältää käyttäjätietoja ja kasvattaa lokin kokoa."
+
+#: redirection-strings.php:634 redirection.js:2
+msgid "Track redirect hits and date of last access. Contains no user information."
+msgstr "Seuraa uudelleenohjausten osumia ja viimeisimpiä osumapäivämääriä. Ei sisällä käyttäjätietoja."
+
+#: redirection-strings.php:633 redirection.js:2
+msgid "Log \"external\" redirects - those not from Redirection. This can increase your log size and contains no user information."
+msgstr "Kirjaa lokiin \"ulkoiset\" uudelleenohjaukset – ne, jotka eivät ole peräisin Redirection-lisäosasta. Tämä voi kasvattaa lokitiedoston kokoa eikä sisällä käyttäjätietoja."
+
+#: redirection-strings.php:632 redirection.js:2
+msgid "Logging"
+msgstr "Lokitus"
+
+#: redirection-strings.php:631 redirection.js:2
+msgid "(IP logging level)"
+msgstr "(IP-lokituksen taso)"
+
+#: redirection-strings.php:429 redirection.js:2
+msgid "Are you sure you want to delete the selected items?"
+msgstr "Haluatko varmasti poistaa valitut kohteet?"
+
+#: redirection-strings.php:378 redirection.js:2
+msgid "View Redirect"
+msgstr "Katso uudelleenohjaus"
+
+#: redirection-strings.php:376 redirection.js:2
+msgid "RSS"
+msgstr "RSS"
+
+#: redirection-strings.php:370 redirection-strings.php:400 redirection.js:2
+msgid "Group by user agent"
+msgstr "Ryhmittele käyttäjäagentin mukaan"
+
+#: redirection-strings.php:367 redirection-strings.php:427 redirection.js:2
+msgid "Search domain"
+msgstr "Etsi domainia"
+
+#: redirection-strings.php:335 redirection-strings.php:355
+#: redirection-strings.php:373 redirection.js:2
+msgid "Redirect By"
+msgstr "Ohjauksen tekijä"
+
+#: redirection-strings.php:332 redirection-strings.php:353
+#: redirection-strings.php:387 redirection-strings.php:414 redirection.js:2
+msgid "Domain"
+msgstr "Domain"
+
+#: redirection-strings.php:331 redirection-strings.php:352
+#: redirection-strings.php:372 redirection-strings.php:386
+#: redirection-strings.php:413 redirection-strings.php:420 redirection.js:2
+msgid "Method"
+msgstr "Menetelmä"
+
+#: redirection-strings.php:260 redirection.js:2
+msgid "If that did not help then {{strong}}create an issue{{/strong}} or send it in an {{strong}}email{{/strong}}."
+msgstr "Jos se ei auttanut, {{strong}}ilmoita ongelmasta{{/strong}} tai lähetä se {{strong}}sähköpostitse{{/strong}}."
+
+#: redirection-strings.php:259 redirection.js:2
+msgid "Please check the {{link}}support site{{/link}} before proceeding further."
+msgstr "Tarkista {{link}}tukisivusto{{/link}} ennen kuin jatkat."
+
+#: redirection-strings.php:153 redirection.js:2
+msgid "Something went wrong when installing Redirection."
+msgstr "Jokin meni pieleen Redirection-lisäosan asennuksessa."
+
+#: redirection-strings.php:128 redirection.js:2
+msgid "Redirect Source"
+msgstr "Uudelleenohjauksen lähde"
+
+#: redirection-strings.php:127 redirection.js:2
+msgid "Request Headers"
+msgstr "Pyynnön otsakkeet"
+
+#: redirection-strings.php:95 redirection.js:2
+msgid "Exclude from logs"
+msgstr "Jätä pois lokeista"
+
+#: redirection-strings.php:722 redirection.js:2
+msgid "Relocate to domain"
+msgstr "Siirrä domainille"
+
+#: redirection-strings.php:721 redirection.js:2
+msgid "Want to redirect the entire site? Enter a domain to redirect everything, except WordPress login and admin. Enabling this option will disable any site aliases or canonical settings."
+msgstr "Haluatko uudelleenohjata koko sivuston? Anna domain, jos haluat uudelleenohjata kaiken paitsi WordPress-kirjautumisen ja -hallinnan. Tämän vaihtoehdon käyttöönotto poistaa käytöstä kaikki sivuston aliakset tai kanoniset asetukset."
+
+#: redirection-strings.php:720 redirection.js:2
+msgid "Relocate Site"
+msgstr "Siirrä sivusto"
+
+#: redirection-strings.php:707 redirection.js:2
+msgid "Add CORS Presets"
+msgstr "Lisää CORS-esiasetuksia"
+
+#: redirection-strings.php:706 redirection.js:2
+msgid "Add Security Presets"
+msgstr "Lisää suojausasetuksia"
+
+#: redirection-strings.php:705 redirection.js:2
+msgid "Add Header"
+msgstr "Lisää otsake"
+
+#: redirection-strings.php:700 redirection.js:2
+msgid "You should update your site URL to match your canonical settings: {{code}}%(current)s{{/code}} ⇒ {{code}}%(site)s{{/code}}"
+msgstr "Sivustosi URL-osoite tulisi päivittää vastaamaan kanonisia asetuksiasi: {{code}}%(current)s{{/code}} ⇒ {{code}}%(site)s{{/code}}"
+
+#: redirection-strings.php:699 redirection.js:2
+msgid "Preferred domain"
+msgstr "Ensisijainen domain"
+
+#: redirection-strings.php:698 redirection.js:2
+msgid "{{strong}}Warning{{/strong}}: ensure your HTTPS is working before forcing a redirect."
+msgstr "{{strong}}Varoitus{{/strong}}: varmista, että HTTPS toimii ennen kuin pakotat uudelleenohjauksen."
+
+#: redirection-strings.php:697 redirection.js:2
+msgid "Force a redirect from HTTP to HTTPS - {{code}}%(site)s{{/code}} ⇒ {{code}}%(siteHTTPS)s{{/code}}"
+msgstr "Pakota uudelleenohjaus  HTTP:stä HTTPS:ään - {{code}}%(site)s{{/code}} ⇒ {{code}}%(siteHTTPS)s{{/code}}"
+
+#: redirection-strings.php:696 redirection.js:2
+msgid "Canonical Settings"
+msgstr "Kanoniset asetukset"
+
+#: redirection-strings.php:695 redirection.js:2
+msgid "Add www to domain - {{code}}%(site)s{{/code}} ⇒ {{code}}%(siteWWW)s{{/code}}"
+msgstr "Lisää www domainiin - {{code}}%(site)s{{/code}} ⇒ {{code}}%(siteWWW)s{{/code}}"
+
+#: redirection-strings.php:694 redirection.js:2
+msgid "Remove www from domain - {{code}}%(siteWWW)s{{/code}} ⇒ {{code}}%(site)s{{/code}}"
+msgstr "Poista www domainista - {{code}}%(siteWWW)s{{/code}} ⇒ {{code}}%(site)s{{/code}}"
+
+#: redirection-strings.php:693 redirection.js:2
+msgid "Don't set a preferred domain - {{code}}%(site)s{{/code}}"
+msgstr "Älä aseta ensisijaista domainia - {{code}}%(site)s{{/code}}"
+
+#: redirection-strings.php:692 redirection.js:2
+msgid "Add Alias"
+msgstr "Lisää alias"
+
+#: redirection-strings.php:691 redirection.js:2
+msgid "No aliases"
+msgstr "Ei aliaksia"
+
+#: redirection-strings.php:690 redirection.js:2
+msgid "Alias"
+msgstr "Alias"
+
+#: redirection-strings.php:689 redirection.js:2
+msgid "Aliased Domain"
+msgstr "Alias-domain"
+
+#: redirection-strings.php:688 redirection.js:2
+msgid "You will need to configure your system (DNS and server) to pass requests for these domains to this WordPress install."
+msgstr "Järjestelmäsi (DNS ja palvelin) pitää ohjata näiden verkkotunnusten liikenne tähän WordPress-sivustoon."
+
+#: redirection-strings.php:687 redirection.js:2
+msgid "A site alias is another domain that you want to be redirected to this site. For example, an old domain, or a subdomain. This will redirect all URLs, including WordPress login and admin."
+msgstr "Sivuston alias on toinen domain, jonka haluat ohjata tälle sivustolle. Esimerkiksi vanha domain tai alidomain. Tämä ohjaa kaikki URL-osoitteet, mukaan lukien WordPressin kirjautumis- ja hallintasivut."
+
+#: redirection-strings.php:686 redirection.js:2
+msgid "Site Aliases"
+msgstr "Sivuston aliakset"
+
+#: redirection-strings.php:524 redirection.js:2
+msgid "The companion plugin Search Regex allows you to search and replace data on your site. It also supports Redirection, and is handy if you want to bulk update a lot of redirects."
+msgstr "Search Regex -lisäosalla voit etsiä ja korvata sisältöä sivustoltasi. Se toimii yhteen Redirection-lisäosan kanssa ja on hyödyllinen, jos haluat päivittää useita uudelleenohjauksia kerralla."
+
+#: redirection-strings.php:523 redirection.js:2
+msgid "Need to search and replace?"
+msgstr "Haluatko etsiä ja korvata sisältöä?"
+
+#: redirection-strings.php:512 redirection.js:2
+msgid "Options on this page can cause problems if used incorrectly. You can {{link}}temporarily disable them{{/link}} to make changes."
+msgstr "Tämän sivun asetukset voivat aiheuttaa ongelmia, jos niitä käytetään väärin. Voit {{link}}ottaa ne väliaikaisesti pois käytöstä{{/link}} tehdäksesi muutoksia."
+
+#: redirection-strings.php:186 redirection.js:2
+msgid "Please wait, importing."
+msgstr "Odota hetki, tuodaan tietoja."
+
+#: redirection-strings.php:174 redirection-strings.php:183
+#: redirection-strings.php:190 redirection-strings.php:202 redirection.js:2
+msgid "Continue"
+msgstr "Jatka"
+
+#: redirection-strings.php:182 redirection.js:2
+msgid "The following plugins have been detected."
+msgstr "Seuraavat lisäosat havaittiin."
+
+#: redirection-strings.php:181 redirection.js:2
+msgid "WordPress automatically creates redirects when you change a post URL. Importing these into Redirection will allow you to manage and monitor them."
+msgstr "WordPress luo automaattisesti uudelleenohjauksia, kun muutat artikkelin URL-osoitetta. Näiden tuominen Redirection-lisäosaan mahdollistaa niiden hallinnan ja seurannan."
+
+#: redirection-strings.php:180 redirection.js:2
+msgid "Importing existing redirects from WordPress or other plugins is a good way to get started with Redirection. Check each set of redirects you wish to import."
+msgstr "Uudelleenohjausten tuonti WordPressistä tai muista lisäosista on hyvä tapa aloittaa Redirectionin käyttö. Valitse tuotavat uudelleenohjaukset erikseen."
+
+#: redirection-strings.php:179 redirection-strings.php:185 redirection.js:2
+msgid "Import Existing Redirects"
+msgstr "Tuo uudelleenohjauksia"
+
+#: redirection-strings.php:213 redirection.js:2
+msgid "That's all there is to it - you are now redirecting! Note that the above is just an example."
+msgstr "Siinä kaikki - nyt voit tehdä uudelleenohjauksia! Huomaa, että yllä oleva on vain esimerkki."
+
+#: redirection-strings.php:121 redirection.js:2
+msgid "If you want to redirect everything please use a site relocation or alias from the Site page."
+msgstr "Jos haluat uudelleenohjata koko sivuston, käytä Siirrä sivusto -toimintoa tai aliasta."
+
+#: redirection-strings.php:761 redirection.js:2
+msgid "Value"
+msgstr "Arvo"
+
+#: redirection-strings.php:760 redirection.js:2
+msgid "Values"
+msgstr "Arvot"
+
+#: redirection-strings.php:759 redirection.js:2
+msgid "All"
+msgstr "Kaikki"
+
+#: redirection-strings.php:713 redirection.js:2
+msgid "Note that some HTTP headers are set by your server and cannot be changed."
+msgstr "Huomaa, että jotkin HTTP-otsakkeet ovat palvelimesi asettamia, eikä niitä voi muuttaa."
+
+#: redirection-strings.php:712 redirection.js:2
+msgid "No headers"
+msgstr "Ei otsakkeita"
+
+#: redirection-strings.php:711 redirection.js:2
+msgid "Header"
+msgstr "Otsake"
+
+#: redirection-strings.php:710 redirection.js:2
+msgid "Location"
+msgstr "Sijainti"
+
+#: redirection-strings.php:709 redirection.js:2
+msgid "Site headers are added across your site, including redirects. Redirect headers are only added to redirects."
+msgstr "Sivuston otsakkeet lisätään koko sivustollesi, myös uudelleenohjauksiin. Uudelleenohjausotsakkeet lisätään vain uudelleenohjauksiin."
+
+#: redirection-strings.php:708 redirection.js:2
+msgid "HTTP Headers"
+msgstr "HTTP-otsakkeet"
+
+#: redirection-strings.php:704 redirection.js:2
+msgid "Custom Header"
+msgstr "Mukautettu otsake"
+
+#: redirection-strings.php:703 redirection.js:2
+msgid "General"
+msgstr "Yleinen"
+
+#: redirection-strings.php:702 redirection.js:2
+msgid "Redirect"
+msgstr "Uudelleenohjaa"
+
+#: redirection-strings.php:126 redirection.js:2
+msgid "Some servers may be configured to serve file resources directly, preventing a redirect occurring."
+msgstr "Jotkut palvelimet voidaan määrittää tarjoamaan tiedostoresursseja suoraan, mikä estää uudelleenohjauksen."
+
+#: redirection-strings.php:270 redirection-strings.php:279
+#: redirection-strings.php:701 redirection.js:2
+msgid "Site"
+msgstr "Sivusto"
+
+#: redirection-strings.php:744 redirection.js:2
+msgid "Unable to make request due to browser security. This is typically because your WordPress and Site URL settings are inconsistent, or the request was blocked by your site CORS policy."
+msgstr "Pyyntöä ei voitu tehdä selaimen suojausten vuoksi. Tämä johtuu yleensä siitä, että WordPressin ja sivuston URL-asetukset ovat ristiriidassa tai että sivustosi CORS-käytäntö esti pyynnön."
+
+#: redirection-strings.php:685 redirection.js:2
+msgid "Ignore & Pass Query"
+msgstr "Ohita ja välitä kysely"
+
+#: redirection-strings.php:684 redirection.js:2
+msgid "Ignore Query"
+msgstr "Ohita kysely"
+
+#: redirection-strings.php:683 redirection.js:2
+msgid "Exact Query"
+msgstr "Tarkka kysely"
+
+#: redirection-strings.php:503 redirection.js:2
+msgid "Search title"
+msgstr "Hae otsikkoa"
+
+#: redirection-strings.php:500 redirection.js:2
+msgid "Not accessed in last year"
+msgstr "Ei käytetty viimeisen vuoden aikana"
+
+#: redirection-strings.php:499 redirection.js:2
+msgid "Not accessed in last month"
+msgstr "Ei käytetty viimeisen kuukauden aikana"
+
+#: redirection-strings.php:498 redirection.js:2
+msgid "Never accessed"
+msgstr "Ei koskaan käytetty"
+
+#: redirection-strings.php:497 redirection.js:2
+msgid "Last Accessed"
+msgstr "Viimeksi käytetty"
+
+#: redirection-strings.php:421 redirection-strings.php:496 redirection.js:2
+msgid "HTTP Status Code"
+msgstr "HTTP-statuskoodi"
+
+#: redirection-strings.php:493 redirection.js:2
+msgid "Plain"
+msgstr "Tavallinen"
+
+#: redirection-strings.php:491 redirection.js:2
+msgid "URL match"
+msgstr "URL-osoitteen osuma"
+
+#: redirection-strings.php:472 redirection.js:2
+msgid "Source"
+msgstr "Lähde"
+
+#: redirection-strings.php:463 redirection.js:2
+msgid "Code"
+msgstr "Koodi"
+
+#: redirection-strings.php:462 redirection-strings.php:483
+#: redirection-strings.php:495 redirection.js:2
+msgid "Action Type"
+msgstr "Toimintotyyppi"
+
+#: redirection-strings.php:461 redirection-strings.php:478
+#: redirection-strings.php:494 redirection.js:2
+msgid "Match Type"
+msgstr "Osumatyyppi"
+
+#: redirection-strings.php:366 redirection-strings.php:502 redirection.js:2
+msgid "Search target URL"
+msgstr "Hae kohde-URL-osoitetta"
+
+#: redirection-strings.php:365 redirection-strings.php:426 redirection.js:2
+msgid "Search IP"
+msgstr "Hae IP-osoitetta"
+
+#: redirection-strings.php:364 redirection-strings.php:425 redirection.js:2
+msgid "Search user agent"
+msgstr "Hae käyttäjäagenttia"
+
+#: redirection-strings.php:363 redirection-strings.php:424 redirection.js:2
+msgid "Search referrer"
+msgstr "Haun viittaaja"
+
+#: redirection-strings.php:361 redirection-strings.php:422
+#: redirection-strings.php:501 redirection.js:2
+msgid "Search URL"
+msgstr "Hae URL-osoite"
+
+#: redirection-strings.php:613 redirection.js:2
+msgid "Filter on: %(type)s"
+msgstr "Suodata: %(type)s"
+
+#: redirection-strings.php:233 redirection-strings.php:490 redirection.js:2
+msgid "Disabled"
+msgstr "Pois käytöstä"
+
+#: redirection-strings.php:232 redirection-strings.php:489 redirection.js:2
+msgid "Enabled"
+msgstr "Käytössä"
+
+#: redirection-strings.php:229 redirection-strings.php:343
+#: redirection-strings.php:404 redirection-strings.php:486 redirection.js:2
+msgid "Compact Display"
+msgstr "Kompakti esitys"
+
+#: redirection-strings.php:228 redirection-strings.php:342
+#: redirection-strings.php:403 redirection-strings.php:485 redirection.js:2
+msgid "Standard Display"
+msgstr "Vakioesitys"
+
+#: redirection-strings.php:226 redirection-strings.php:231
+#: redirection-strings.php:235 redirection-strings.php:459
+#: redirection-strings.php:482 redirection-strings.php:488 redirection.js:2
+msgid "Status"
+msgstr "Tila"
+
+#: redirection-strings.php:19 redirection.js:2
+msgid "Pre-defined"
+msgstr "Ennalta määritetty"
+
+#: redirection-strings.php:18 redirection.js:2
+msgid "Custom Display"
+msgstr "Mukautettu esitys"
+
+#: redirection-strings.php:230 redirection-strings.php:344
+#: redirection-strings.php:405 redirection-strings.php:487 redirection.js:2
+msgid "Display All"
+msgstr "Näytä kaikki"
+
+#: redirection-strings.php:125 redirection.js:2
+msgid "Your URL appears to contain a domain inside the path: {{code}}%(relative)s{{/code}}. Did you mean to use {{code}}%(absolute)s{{/code}} instead?"
+msgstr "Verkko-osoitteesi näyttää sisältävän verkkotunnuksen polun sisällä: {{code}}%(relative)s{{/code}}. Tarkoititko kenties käyttää muotoa {{code}}%(absolute)s{{/code}}?"
+
+#: redirection-strings.php:585 redirection.js:2
+msgid "Comma separated list of languages to match against (i.e. da, en-GB)"
+msgstr "Pilkuilla erotettu lista kielistä, joihin verrataan (esim. da, en-GB)"
+
+#: redirection-strings.php:584 redirection.js:2
+msgid "Language"
+msgstr "Kieli"
+
+#: redirection-strings.php:87 redirection.js:2
+msgid "504 - Gateway Timeout"
+msgstr "504 - Gateway aikakatkaisu"
+
+#: redirection-strings.php:86 redirection.js:2
+msgid "503 - Service Unavailable"
+msgstr "503 - Palvelu ei ole saatavilla"
+
+#: redirection-strings.php:85 redirection.js:2
+msgid "502 - Bad Gateway"
+msgstr "501 - Not implemented"
+
+#: redirection-strings.php:84 redirection.js:2
+msgid "501 - Not implemented"
+msgstr "501 - Not implemented"
+
+#: redirection-strings.php:83 redirection.js:2
+msgid "500 - Internal Server Error"
+msgstr "500 - Internal Server Error"
+
+#: redirection-strings.php:82 redirection.js:2
+msgid "451 - Unavailable For Legal Reasons"
+msgstr "451 - Unavailable For Legal Reasons"
+
+#: matches/language.php:17 redirection-strings.php:64 redirection.js:2
+msgid "URL and language"
+msgstr "URL-osoite ja kieli"
+
+#: redirection-strings.php:757 redirection.js:2
+msgid "Log out, clear your browser cache, and log in again - your browser has cached an old session."
+msgstr "Kirjaudu ulos, tyhjennä selaimen välimuisti, ja kirjaudu sisään uudelleen - selaimesi on tallentanut vanhan istunnon välimuistin."
+
+#: redirection-strings.php:756 redirection.js:2
+msgid "Reload the page - your current session is old."
+msgstr "Lataa sivu uudelleen - nykyinen istuntosi on vanhentunut."
+
+#: redirection-strings.php:647 redirection.js:2
+msgid "Unable to save .htaccess file"
+msgstr "Ei voida tallentaa .htaccess-tiedostoa"
+
+#: redirection-strings.php:646 redirection.js:2
+msgid "Redirects added to an Apache group can be saved to an {{code}}.htaccess{{/code}} file by adding the full path here. For reference, your WordPress is installed to {{code}}%(installed)s{{/code}}."
+msgstr "Apache-ryhmään lisätyt uudelleenohjaukset voidaan tallentaa {{code}}.htaccess{{/code}}-tiedostoon lisäämällä koko polku tähän. Viitteenä: WordPress on asennettu sijaintiin {{code}}%(installed)s{{/code}}."
+
+#: redirection-strings.php:124 redirection.js:2
+msgid "Your target URL contains the invalid character {{code}}%(invalid)s{{/code}}"
+msgstr "Kohde-URL-osoitteesi sisältää kelvottoman merkin {{code}}%(invalid)s{{/code}}"
+
+#: redirection-strings.php:268 redirection.js:2
+msgid "If you are using WordPress 5.2 or newer then look at your {{link}}Site Health{{/link}} and resolve any issues."
+msgstr "Jos käytät WordPress 5.2:ta tai uudempaa, katso {{link}}Sivuston eheys{{/link}} ja ratkaise ongelmat."
+
+#: redirection-strings.php:163 redirection.js:2
+msgid "If you do not complete the manual install you will be returned here."
+msgstr "Jos et suorita manuaalista asennusta loppuun, sinut palautetaan tänne."
+
+#: redirection-strings.php:158 redirection.js:2
+msgid "Click \"Finished! 🎉\" when finished."
+msgstr "Klikkaa \"Valmis! 🎉\" kun on valmista."
+
+#: redirection-strings.php:157 redirection.js:2
+msgid "If your site needs special database permissions, or you would rather do it yourself, you can manually run the following SQL."
+msgstr "Jos sivustosi tarvitsee erityisiä tietokantaoikeuksia tai haluat tehdä tämän itse, voit suorittaa seuraavan SQL-komennon manuaalisesti."
+
+#: redirection-strings.php:156 redirection.js:2
+msgid "Manual Install"
+msgstr "Manuaalinen asennus"
+
+#: database/database-status.php:160
+msgid "Insufficient database permissions detected. Please give your database user appropriate permissions."
+msgstr "Tietokantaoikeudet ovat riittämättömät. Anna tietokantakäyttäjälle tarvittavat oikeudet."
+
+#: redirection-strings.php:538 redirection.js:2
+msgid "This information is provided for debugging purposes. Be careful making any changes."
+msgstr "Nämä tiedot on tarkoitettu testaustilaa varten. Ole varovainen tehdessäsi muutoksia."
+
+#: redirection-strings.php:537 redirection.js:2
+msgid "Plugin Debug"
+msgstr "Lisäosan testaus"
+
+#: redirection-strings.php:535 redirection.js:2
+msgid "Redirection communicates with WordPress through the WordPress REST API. This is a standard part of WordPress, and you will experience problems if you cannot use it."
+msgstr "Redirection kommunikoi WordPressin kanssa WordPress REST-rajapinnan kautta. Tämä on WordPressin vakio-osa, ja voit kohdata ongelmia, jos sitä ei voida käyttää."
+
+#: redirection-strings.php:517 redirection.js:2
+msgid "IP Headers"
+msgstr "IP-otsakkeet"
+
+#: redirection-strings.php:515 redirection.js:2
+msgid "Do not change unless advised to do so!"
+msgstr "Älä muuta, ellei sinua neuvota tekemään niin!"
+
+#: redirection-strings.php:514 redirection.js:2
+msgid "Database version"
+msgstr "Tietokannan versio"
+
+#: redirection-strings.php:316 redirection.js:2
+msgid "Complete data (JSON)"
+msgstr "Täydelliset tiedot (JSON)"
+
+#: redirection-strings.php:311 redirection.js:2
+msgid "Export to CSV, Apache .htaccess, Nginx, or Redirection JSON. The JSON format contains full information, and other formats contain partial information appropriate to the format."
+msgstr "Vie CSV-, Apache-, .htaccess-, Nginx- tai Redirection JSON-muotoon. JSON-muoto sisältää täydelliset tiedot, ja muut sisältävät osittaisia ​​tietoja, jotka sopivat muotoon."
+
+#: redirection-strings.php:309 redirection.js:2
+msgid "CSV does not include all information, and everything is imported/exported as \"URL only\" matches. Use the JSON format for a full set of data."
+msgstr "CSV ei sisällä kaikkia tietoja, ja kaikki tuodaan/viedään \"vain verkko-osoitteen\" osumina. Käytä JSON-muotoa saadaksesi täydelliset tiedot."
+
+#: redirection-strings.php:307 redirection.js:2
+msgid "All imports will be appended to the current database - nothing is merged."
+msgstr "Tuodut tiedot lisätään tietokantaan sellaisenaan – niitä ei yhdistetä automaattisesti."
+
+#: redirection-strings.php:246 redirection-strings.php:612 redirection.js:2
+msgid "Note that you will need to set the Apache module path in your Redirection options."
+msgstr "Huomioi, että sinun on asetettava Apache-moduulin polku Redirection-asetuksissa."
+
+#: redirection-strings.php:155 redirection.js:2
+msgid "I need support!"
+msgstr "Tarvitsen tukea!"
+
+#: redirection-strings.php:172 redirection.js:2
+msgid "You will need at least one working REST API to continue."
+msgstr "Tarvitset ainakin yhden toimivan REST-rajapinnan jatkaaksesi."
+
+#: redirection-strings.php:140 redirection.js:2
+msgid "Check Again"
+msgstr "Tarkasta uudelleen"
+
+#: redirection-strings.php:139
+msgid "Testing - %s$"
+msgstr "Testataan - %s$"
+
+#: redirection-strings.php:138 redirection.js:2
+msgid "Show Problems"
+msgstr "Näytä ongelmat"
+
+#: redirection-strings.php:137 redirection.js:2
+msgid "Summary"
+msgstr "Yhteenveto"
+
+#: redirection-strings.php:136 redirection.js:2
+msgid "Your REST API is not working and the plugin will not be able to continue until this is fixed."
+msgstr "REST-rajapintasi ei toimi, eikä lisäosa voi jatkaa toimintaansa ennen kuin ongelma on ratkaistu."
+
+#: redirection-strings.php:135 redirection.js:2
+msgid "There are some problems connecting to your REST API. It is not necessary to fix these problems and the plugin is able to work."
+msgstr "REST-rajapintaan yhdistettäessä havaittiin joitakin ongelmia. Ongelmien korjaaminen ei kuitenkaan ole välttämätöntä, ja lisäosa toimii edelleen."
+
+#: redirection-strings.php:134 redirection.js:2
+msgid "Unavailable"
+msgstr "Ei saatavilla"
+
+#: redirection-strings.php:133 redirection.js:2
+msgid "Working but some issues"
+msgstr "Toimii, mutta joitakin ongelmia"
+
+#: redirection-strings.php:131 redirection.js:2
+msgid "Hide"
+msgstr "Piilota"
+
+#: redirection-strings.php:130 redirection.js:2
+msgid "Show Full"
+msgstr "Näytä kokonaan"
+
+#: redirection-strings.php:129 redirection.js:2
+msgid "Working!"
+msgstr "Toimii!"
+
+#: redirection-strings.php:123 redirection.js:2
+msgid "Your target URL should be an absolute URL like {{code}}https://domain.com/%(url)s{{/code}} or start with a slash {{code}}/%(url)s{{/code}}."
+msgstr "Kohde-URL-osoitteen tulisi olla absoluuttinen URL-osoite, kuten {{code}}https://domain.com/%(url)s{{/code}}, tai alkaa kauttaviivalla {{code}}/%(url)s{{/code}}."
+
+#: redirection-strings.php:122 redirection.js:2
+msgid "Your source is the same as a target and this will create a loop. Leave a target blank if you do not want to take action."
+msgstr "Lähde-URL on sama kuin kohde-URL, mikä johtaa uudelleenohjaussilmukkaan. Jätä kohde-URL tyhjäksi, jos et halua tehdä mitään."
+
+#: redirection-strings.php:109 redirection.js:2
+msgid "The target URL you want to redirect, or auto-complete on post name or permalink."
+msgstr "Kohde-URL, johon haluat ohjata tai täydennä automaattisesti artikkelin nimellä tai linkillä."
+
+#: redirection-strings.php:263 redirection.js:2
+msgid "Include these details in your report along with a description of what you were doing and a screenshot."
+msgstr "Liitä nämä lisätiedot raporttiisi sekä kuvaus tekemästäsi toimenpiteestä ja ruutukaappaus."
+
+#: redirection-strings.php:261 redirection.js:2
+msgid "Create An Issue"
+msgstr "Luo tiketti"
+
+#: redirection-strings.php:264 redirection.js:2
+msgid "What do I do next?"
+msgstr "Mitä seuraavaksi?"
+
+#: redirection-strings.php:743 redirection.js:2
+msgid "Possible cause"
+msgstr "Mahdollinen syy"
+
+#: redirection-strings.php:739 redirection.js:2
+msgid "This could be a security plugin, or your server is out of memory or has an external error. Please check your server error log"
+msgstr "Ongelma voi johtua tietoturvalisäosasta, palvelimen muistiongelmasta tai muusta virheestä. Tarkista palvelimen virheloki."
+
+#: redirection-strings.php:726 redirection.js:2
+msgid "Your REST API is probably being blocked by a security plugin. Please disable this, or configure it to allow REST API requests."
+msgstr "REST-rajapintasi estetään todennäköisesti suojauslisäosan toimesta. Poista lisäosa käytöstä tai määritä se hyväksymään REST-rajapintapyynnöt."
+
+#: redirection-strings.php:727 redirection-strings.php:734
+#: redirection-strings.php:740 redirection-strings.php:745 redirection.js:2
+msgid "Read this REST API guide for more information."
+msgstr "Lue tämä REST-rajapintaopas saadaksesi lisätietoa."
+
+#: redirection-strings.php:108 redirection.js:2
+msgid "URL options / Regex"
+msgstr "URL-asetukset / Regex"
+
+#: redirection-strings.php:323 redirection.js:2
+msgid "Export 404"
+msgstr "Vie 404"
+
+#: redirection-strings.php:322 redirection.js:2
+msgid "Export redirect"
+msgstr "Vie uudelleenohjaus"
+
+#: redirection-strings.php:675 redirection.js:2
+msgid "Pass - as ignore, but also copies the query parameters to the target"
+msgstr "Välitys - ohittaa, mutta kopioi kyselyparametrit kohteeseen"
+
+#: redirection-strings.php:674 redirection.js:2
+msgid "Ignore - as exact, but ignores any query parameters not in your source"
+msgstr "Ohitus - kuin tarkka, mutta jättää huomioimatta kaikki kyselyparametrit, jotka puuttuvat lähtöosoitteesta"
+
+#: redirection-strings.php:673 redirection.js:2
+msgid "Exact - matches the query parameters exactly defined in your source, in any order"
+msgstr "Tarkka – vastaa tarkasti lähteessäsi määriteltyjä kyselyparametreja missä tahansa järjestyksessä"
+
+#: redirection-strings.php:671 redirection.js:2
+msgid "Default query matching"
+msgstr "Kyselyparametrien käsittelytapa oletuksena"
+
+#: redirection-strings.php:670 redirection.js:2
+msgid "Ignore trailing slashes (i.e. {{code}}/exciting-post/{{/code}} will match {{code}}/exciting-post{{/code}})"
+msgstr "Ohita perässä olevat kauttaviivat (eli {{code}}/esimerkki/{{/code}} vastaa {{code}}/esimerkki{{/code}})"
+
+#: redirection-strings.php:669 redirection.js:2
+msgid "Case insensitive matches (i.e. {{code}}/Exciting-Post{{/code}} will match {{code}}/exciting-post{{/code}})"
+msgstr "Vapaan kirjainkoon osumat (esim. {{code}}/Uusi-Artikkeli{{/code}} vastaa {{code}}/uusi-artikkeli{{/code}})"
+
+#: redirection-strings.php:668 redirection-strings.php:672 redirection.js:2
+msgid "Applies to all redirections unless you configure them otherwise."
+msgstr "Koskee kaikkia uudelleenohjauksia, ellei niitä ole määritetty toisin."
+
+#: redirection-strings.php:667 redirection.js:2
+msgid "Default URL settings"
+msgstr "URL-oletusasetukset"
+
+#: redirection-strings.php:660 redirection.js:2
+msgid "Ignore and pass all query parameters"
+msgstr "Ohita ja välitä kaikki URL-parametrit"
+
+#: redirection-strings.php:659 redirection.js:2
+msgid "Ignore all query parameters"
+msgstr "Ohita kaikki URL-parametrit"
+
+#: redirection-strings.php:91 redirection.js:2
+msgid "Exact match"
+msgstr "Tarkka osuma"
+
+#: redirection-strings.php:168 redirection.js:2
+msgid "Caching software (e.g Cloudflare)"
+msgstr "Välimuistiohjelmisto (esim. Cloudflare)"
+
+#: redirection-strings.php:166 redirection.js:2
+msgid "A security plugin (e.g Wordfence)"
+msgstr "Suojauslisäosa (esim. Wordfence)"
+
+#: redirection-strings.php:473 redirection.js:2
+msgid "URL options"
+msgstr "URL-osoitteen asetukset"
+
+#: redirection-strings.php:104 redirection-strings.php:474 redirection.js:2
+msgid "Query Parameters"
+msgstr "Kyselyparametrit"
+
+#: redirection-strings.php:94 redirection.js:2
+msgid "Ignore & pass parameters to the target"
+msgstr "Ohita ja välitä kaikki kyselyparametrit kohteeseen"
+
+#: redirection-strings.php:93 redirection.js:2
+msgid "Ignore all parameters"
+msgstr "Jätä parametrit huomiotta"
+
+#: redirection-strings.php:90 redirection.js:2
+msgid "Ignore Case"
+msgstr "Jätä kirjainkoko huomiotta"
+
+#: redirection-strings.php:89 redirection.js:2
+msgid "Ignore Slash"
+msgstr "Jätä kauttaviiva huomiotta"
+
+#: redirection-strings.php:639 redirection.js:2
+msgid "Relative REST API"
+msgstr "Suhteellinen REST-rajapinta"
+
+#: redirection-strings.php:638 redirection.js:2
+msgid "Raw REST API"
+msgstr "Raaka REST-rajapinta"
+
+#: redirection-strings.php:637 redirection.js:2
+msgid "Default REST API"
+msgstr "Oletus REST-rajapinta"
+
+#: redirection-strings.php:212 redirection.js:2
+msgid "(Example) The target URL is the new URL"
+msgstr "(Esimerkki) Kohteen verkko-osoite on uusi verkko-osoite"
+
+#: redirection-strings.php:210 redirection.js:2
+msgid "(Example) The source URL is your old or original URL"
+msgstr "(Esimerkki) Lähteen verkko-osoite on vanha tai alkuperäinen verkko-osoite"
+
+#. translators: 1: server PHP version. 2: required PHP version.
+#: redirection.php:38
+msgid "Disabled! Detected PHP %1$s, need PHP %2$s+"
+msgstr "Poistettu käytöstä! Havaittu PHP %1$s, vaatii vähintään PHP %2$s+"
+
+#. translators: 1: URL to plugin page, 2: current version, 3: target version
+#: redirection-admin.php:101
+msgid "Redirection's database needs to be updated - <a href=\"%1$1s\">click to update</a>."
+msgstr "Redirection-tietokanta on päivitettävä - <a href=\"%1$1s\">päivitä napsauttamalla</a>."
+
+#: redirection-strings.php:173 redirection.js:2
+msgid "Finish Setup"
+msgstr "Viimeistele asennus"
+
+#: redirection-strings.php:189 redirection.js:2
+msgid "Retry"
+msgstr "Yritä uudelleen"
+
+#: redirection-strings.php:171 redirection.js:2
+msgid "You have different URLs configured on your WordPress Settings > General page, which is usually an indication of a misconfiguration, and it can cause problems with the REST API. Please review your settings."
+msgstr "WordPressin Asetukset > Yleinen -sivulla on määritetty eri URL-osoitteet, mikä viittaa yleensä virheelliseen asetukseen ja voi aiheuttaa ongelmia REST API:n kanssa. Tarkista asetukset."
+
+#: redirection-strings.php:170 redirection.js:2
+msgid "If you do experience a problem then please consult your plugin documentation, or try contacting your host support. This is generally {{link}}not a problem caused by Redirection{{/link}}."
+msgstr "Ongelmatilanteissa tutustu lisäosan dokumentaatioon tai ota yhteyttä palveluntarjoajasi tukeen. Tämä ei yleensä ole {{link}}Redirection-lisäosan aiheuttama ongelma{{/link}}."
+
+#: redirection-strings.php:169 redirection.js:2
+msgid "Some other plugin that blocks the REST API"
+msgstr "Jokin muu lisäosa, joka estää REST-rajapinnan"
+
+#: redirection-strings.php:167 redirection.js:2
+msgid "A server firewall or other server configuration (e.g OVH)"
+msgstr "Palvelimen palomuuri tai muu palvelinkonfiguraatio (esim. OVH)"
+
+#: redirection-strings.php:165 redirection.js:2
+msgid "Redirection uses the {{link}}WordPress REST API{{/link}} to communicate with WordPress. This is enabled and working by default. Sometimes the REST API is blocked by:"
+msgstr "Redirection-lisäosa käyttää {{link}}WordPress REST-rajapintaa{{/link}} yhteyksiin WordPressin kanssa. Tämä ominaisuus toimii ja on käytössä oletuksena. Joissain tapauksissa REST-rajapinnan toiminnan estää:"
+
+#: redirection-strings.php:162 redirection-strings.php:184
+#: redirection-strings.php:203 redirection.js:2
+msgid "Go back"
+msgstr "Takaisin"
+
+#: redirection-strings.php:200 redirection.js:2
+msgid "Storing the IP address allows you to perform additional log actions. Note that you will need to adhere to local laws regarding the collection of data (for example GDPR)."
+msgstr "IP-osoitteen tallentaminen mahdollistaa lisäkirjaustoimintojen käytön. Huomioi, että sinun tulee noudattaa paikallista lainsäädäntöä tiedonkeruussa (esimerkiksi GDPR-asetusta)."
+
+#: redirection-strings.php:199 redirection.js:2
+msgid "Store IP information for redirects and 404 errors."
+msgstr "Tallenna IP-tiedot uudelleenohjauksista sekä 404-virheistä."
+
+#: redirection-strings.php:197 redirection.js:2
+msgid "Storing logs for redirects and 404s will allow you to see what is happening on your site. This will increase your database storage requirements."
+msgstr "Uudelleenohjausten ja 404-virheiden lokien tallentaminen antaa sinulle mahdollisuuden nähdä, mitä sivustollasi tapahtuu. Tämä lisää tietokannan tallennustarpeita."
+
+#: redirection-strings.php:196 redirection.js:2
+msgid "Keep a log of all redirects and 404 errors."
+msgstr "Pidä lokia kaikista uudelleenohjauksista ja 404-virheistä."
+
+#: redirection-strings.php:195 redirection-strings.php:198
+#: redirection-strings.php:201 redirection.js:2
+msgid "{{link}}Read more about this.{{/link}}"
+msgstr "{{link}}Lue lisää tästä.{{/link}}"
+
+#: redirection-strings.php:194 redirection.js:2
+msgid "If you change the permalink in a post or page then Redirection can automatically create a redirect for you."
+msgstr "Jos muutat kestolinkkiä artikkelissa tai sivulla, Redirection voi luoda uudelleenohjauksen automaattisesti puolestasi."
+
+#: redirection-strings.php:193 redirection.js:2
+msgid "Monitor permalink changes in WordPress posts and pages"
+msgstr "Seuraa kestolinkkien muutoksia WordPressin artikkeleissa ja sivuilla."
+
+#: redirection-strings.php:192 redirection.js:2
+msgid "These are some options you may want to enable now. They can be changed at any time."
+msgstr "Tässä on joitakin asetuksia, jotka voit ottaa käyttöön nyt. Niitä voidaan muuttaa milloin tahansa."
+
+#: redirection-strings.php:191 redirection.js:2
+msgid "Basic Setup"
+msgstr "Perusasennus"
+
+#: redirection-strings.php:222 redirection.js:2
+msgid "Start Setup"
+msgstr "Aloita asennus"
+
+#: redirection-strings.php:221 redirection.js:2
+msgid "First you will be asked a few questions, and then Redirection will set up your database."
+msgstr "Ensin sinulta kysytään muutama kysymys, ja sen jälkeen Redirection asentaa tietokannan."
+
+#: redirection-strings.php:220 redirection.js:2
+msgid "What's next?"
+msgstr "Mitä seuraavaksi?"
+
+#: redirection-strings.php:219 redirection.js:2
+msgid "Check a URL is being redirected"
+msgstr "Tarkista, että URL-osoite uudelleenohjataan"
+
+#: redirection-strings.php:218 redirection.js:2
+msgid "More powerful URL matching, including {{regular}}regular expressions{{/regular}}, and {{other}}other conditions{{/other}}"
+msgstr "Tehokkaampi URL-osoitteiden haku, mukaan lukien {{regular}}säännölliset lausekkeet{{/regular}} ja {{other}}muut ehdot{{/other}}"
+
+#: redirection-strings.php:217 redirection.js:2
+msgid "{{link}}Import{{/link}} from .htaccess, CSV, and a variety of other plugins"
+msgstr "{{link}}Tuo{{/link}} .htaccess-tiedostosta, CSV:stä ja useista muista lisäosista"
+
+#: redirection-strings.php:216 redirection.js:2
+msgid "{{link}}Monitor 404 errors{{/link}}, get detailed information about the visitor, and fix any problems"
+msgstr "{{link}}Seuraa 404-virheitä{{/link}}, hanki yksityiskohtaisia ​​tietoja vierailijasta ja korjaa mahdolliset ongelmat"
+
+#: redirection-strings.php:215 redirection.js:2
+msgid "Some features you may find useful are"
+msgstr "Ominaisuuksia joita saatat pitää hyödyllisinä"
+
+#: redirection-strings.php:214 redirection.js:2
+msgid "Full documentation can be found on the {{link}}Redirection website.{{/link}}"
+msgstr "Dokumentaatio saatavilla {{link}}Redirection-lisäosan virallisilta sivuilta.{{/link}}"
+
+#: redirection-strings.php:208 redirection.js:2
+msgid "A simple redirect involves setting a {{strong}}source URL{{/strong}} (the old URL) and a {{strong}}target URL{{/strong}} (the new URL). Here's an example:"
+msgstr "Yksinkertainen uudelleenohjaus edellyttää {{strong}}lähteen URL-osoitteen{{/strong}} (vanha URL-osoite) ja {{strong}}kohteen URL-osoitteen{{/strong}} (uusi URL-osoite) määrittämistä. Tässä on esimerkki:"
+
+#: redirection-strings.php:207 redirection.js:2
+msgid "How do I use this plugin?"
+msgstr "Kuinka käytän tätä lisäosaa?"
+
+#: redirection-strings.php:206 redirection.js:2
+msgid "Redirection is designed to be used on sites with a few redirects to sites with thousands of redirects."
+msgstr "Redirection on suunniteltu käytettäväksi sivustoissa, joissa on muutamista uudelleenohjauksista aina tuhansiin ohjauksiin."
+
+#: redirection-strings.php:205 redirection.js:2
+msgid "Thank you for installing and using Redirection v%(version)s. This plugin will allow you to manage 301 redirections, keep track of 404 errors, and improve your site, with no knowledge of Apache or Nginx needed."
+msgstr "Kiitos, että asensit ja käytät Redirection-versiota %(version)s. Tämän lisäosan avulla voit hallinnoida 301-uudelleenohjauksia, seurata 404-virheitä ja parantaa sivustoasi ilman Apache- tai Nginx-osaamista."
+
+#: redirection-strings.php:204 redirection.js:2
+msgid "Welcome to Redirection 🚀🎉"
+msgstr "Tervetuloa Redirection-lisäosaan 🚀🎉"
+
+#: redirection-strings.php:117 redirection.js:2
+msgid "To prevent a greedy regular expression you can use {{code}}^{{/code}} to anchor it to the start of the URL. For example: {{code}}%(example)s{{/code}}"
+msgstr "Voit estää ahneen säännöllisen lausekkeen ankkuroimalla sen URL-osoitteen alkuun koodilla {{code}}^{{/code}}. Esimerkki: {{code}}%(example)s{{/code}}"
+
+#: redirection-strings.php:115 redirection.js:2
+msgid "Remember to enable the \"regex\" option if this is a regular expression."
+msgstr "Muista ottaa \"regex\"-asetus käyttöön, jos kyseessä on säännöllinen lauseke."
+
+#: redirection-strings.php:114 redirection.js:2
+msgid "The source URL should probably start with a {{code}}/{{/code}}"
+msgstr "Lähdeosoitteen pitäisi varmaankin alkaa merkillä {{code}}/{{/code}}"
+
+#: redirection-strings.php:113 redirection.js:2
+msgid "This will be converted to a server redirect for the domain {{code}}%(server)s{{/code}}."
+msgstr "Tämä muunnetaan palvelimen uudelleenohjaukseksi domainille {{code}}%(server)s{{/code}}."
+
+#: redirection-strings.php:112 redirection.js:2
+msgid "Anchor values are not sent to the server and cannot be redirected."
+msgstr "Ankkuriarvoja (esim. #hinnasto) ei lähetetä palvelimelle, eikä niitä voi ohjata uudelleen."
+
+#: redirection-strings.php:161 redirection.js:2
+msgid "Finished! 🎉"
+msgstr "Valmis! 🎉"
+
+#: redirection-strings.php:17
+msgid "Progress: %(complete)d$"
+msgstr "Edistyminen: %(complete)d$"
+
+#: redirection-strings.php:15 redirection.js:2
+msgid "Leaving before the process has completed may cause problems."
+msgstr "Poistuminen ennen prosessin valmistumista saattaa aiheuttaa ongelmia."
+
+#: redirection-strings.php:14 redirection.js:2
+msgid "Setting up Redirection"
+msgstr "Asennetaan Redirection"
+
+#: redirection-strings.php:13 redirection.js:2
+msgid "Upgrading Redirection"
+msgstr "Päivitetään Redirection"
+
+#: redirection-strings.php:16 redirection.js:2
+msgid "Please remain on this page until complete."
+msgstr "Ole hyvä ja pysy tällä sivulla kunnes on valmista."
+
+#: redirection-strings.php:12 redirection.js:2
+msgid "If you want to {{support}}ask for support{{/support}} please include these details:"
+msgstr "Mikäli haluat {{support}}kysyä apua{{/support}} ole hyvä ja sisällytä nämä tiedot:"
+
+#: redirection-strings.php:11 redirection.js:2
+msgid "Stop upgrade"
+msgstr "Pysäytä päivitys"
+
+#: redirection-strings.php:10 redirection.js:2
+msgid "Skip this stage"
+msgstr "Ohita tämä vaihe"
+
+#: redirection-strings.php:7 redirection-strings.php:9 redirection.js:2
+msgid "Try again"
+msgstr "Yritä uudelleen"
+
+#: redirection-strings.php:6 redirection-strings.php:8
+#: redirection-strings.php:159 redirection.js:2
+msgid "Database problem"
+msgstr "Tietokantaongelma"
+
+#: redirection-admin.php:550
+msgid "Please enable JavaScript"
+msgstr "Ota JavaScript käyttöön"
+
+#: redirection-admin.php:202
+msgid "Please upgrade your database"
+msgstr "Päivitä tietokanta"
+
+#: redirection-admin.php:193 redirection.js:2
+msgid "Upgrade Database"
+msgstr "Päivitä tietokanta"
+
+#. translators: 1: URL to plugin page
+#: redirection-admin.php:98
+msgid "Please complete your <a href=\"%s\">Redirection setup</a> to activate the plugin."
+msgstr "Viimeistele <a href=\"%s\">Redirection-asetukset</a> aktivoidaksesi lisäosan."
+
+#. translators: version number
+#: api/api-plugin.php:119
+msgid "Your database does not need updating to %s."
+msgstr "Tietokantaasi ei tarvitse päivittää versioon %s."
+
+#. translators: 1: table name
+#: database/schema/latest.php:103
+msgid "Table \"%s\" is missing"
+msgstr "Taulu \"%s\" puuttuu"
+
+#. translators: displayed when installing the plugin
+#: database/schema/latest.php:12
+msgid "Create basic data"
+msgstr "Luo perustiedot"
+
+#. translators: displayed when installing the plugin
+#: database/schema/latest.php:10
+msgid "Install Redirection tables"
+msgstr "Asenna Redirection-taulut"
+
+#. translators: 1: Site URL, 2: Home URL
+#: models/fixer.php:115
+msgid "Site and home URL are inconsistent. Please correct from your Settings > General page: %1$1s is not %2$2s"
+msgstr "Sivuston ja etusivun URL-osoite ovat epäjohdonmukaisia. Korjaa Asetukset > Yleiset -sivulta: %1$1s ei ole %2$2s"
+
+#: redirection-strings.php:588 redirection.js:2
+msgid "Please do not try and redirect all your 404s - this is not a good thing to do."
+msgstr "Älä yritä uudelleenohjata kaikkia 404-sivuja - tämä ei ole hyvä idea."
+
+#: redirection-strings.php:587 redirection.js:2
+msgid "Only the 404 page type is currently supported."
+msgstr "Tällä hetkellä vain 404-sivutyyppiä tuetaan."
+
+#: redirection-strings.php:586 redirection.js:2
+msgid "Page Type"
+msgstr "Sivutyyppi"
+
+#: redirection-strings.php:583 redirection.js:2
+msgid "Enter IP addresses (one per line)"
+msgstr "Kirjoita IP-osoitteet (yksi per rivi)"
+
+#: redirection-strings.php:111 redirection.js:2
+msgid "Describe the purpose of this redirect (optional)"
+msgstr "Kuvaile tämän uudelleenohjauksen tarkoitusta (valinnainen)"
+
+#: redirection-strings.php:81 redirection.js:2
+msgid "418 - I'm a teapot"
+msgstr "418 - I'm a teapot"
+
+#: redirection-strings.php:78 redirection.js:2
+msgid "403 - Forbidden"
+msgstr "403 - Forbidden"
+
+#: redirection-strings.php:76 redirection.js:2
+msgid "400 - Bad Request"
+msgstr "400 - Bad Request"
+
+#: redirection-strings.php:73 redirection.js:2
+msgid "304 - Not Modified"
+msgstr "304 - Not Modified"
+
+#: redirection-strings.php:72 redirection.js:2
+msgid "303 - See Other"
+msgstr "303 - See Other"
+
+#: actions/nothing.php:17 redirection-strings.php:69 redirection.js:2
+msgid "Do nothing (ignore)"
+msgstr "Älä tee mitään (jätä huomiotta)"
+
+#: redirection-strings.php:556 redirection-strings.php:560 redirection.js:2
+msgid "Target URL when not matched (empty to ignore)"
+msgstr "Kohde-URL-osoite, kun sitä ei löydy (tyhjä ohittaa)"
+
+#: redirection-strings.php:554 redirection-strings.php:558 redirection.js:2
+msgid "Target URL when matched (empty to ignore)"
+msgstr "Kohde-URL-osoite, kun se täsmää (tyhjä ohittaa)"
+
+#: redirection-strings.php:436 redirection.js:2
+msgid "Show All"
+msgstr "Näytä kaikki"
+
+#: redirection-strings.php:433 redirection.js:2
+msgid "Delete logs for these entries"
+msgstr "Poista näiden merkintöjen lokit"
+
+#: redirection-strings.php:432 redirection.js:2
+msgid "Delete logs for this entry"
+msgstr "Poista tämän merkinnän lokit"
+
+#: redirection-strings.php:431 redirection.js:2
+msgid "Delete Log Entries"
+msgstr "Poista lokimerkinnät"
+
+#: redirection-strings.php:371 redirection-strings.php:401 redirection.js:2
+msgid "Group by IP"
+msgstr "Ryhmitä IP:n mukaan"
+
+#: redirection-strings.php:369 redirection-strings.php:399 redirection.js:2
+msgid "Group by URL"
+msgstr "Ryhmitä URL-osoitteen mukaan"
+
+#: redirection-strings.php:368 redirection-strings.php:398 redirection.js:2
+msgid "No grouping"
+msgstr "Ei ryhmittelyä"
+
+#: redirection-strings.php:397 redirection-strings.php:438 redirection.js:2
+msgid "Ignore URL"
+msgstr "Ohita URL"
+
+#: redirection-strings.php:395 redirection-strings.php:437 redirection.js:2
+msgid "Block IP"
+msgstr "Estä IP-osoite"
+
+#: redirection-strings.php:394 redirection-strings.php:396 redirection.js:2
+msgid "Redirect All"
+msgstr "Uudelleenohjaa kaikki"
+
+#: redirection-strings.php:325 redirection-strings.php:327
+#: redirection-strings.php:329 redirection-strings.php:346
+#: redirection-strings.php:348 redirection-strings.php:350
+#: redirection-strings.php:380 redirection-strings.php:382
+#: redirection-strings.php:384 redirection-strings.php:407
+#: redirection-strings.php:409 redirection-strings.php:411 redirection.js:2
+msgid "Count"
+msgstr "Määrä"
+
+#: matches/page.php:17 redirection-strings.php:63 redirection.js:2
+msgid "URL and WordPress page type"
+msgstr "URL-osoite ja WordPressin sivutyyppi"
+
+#: matches/ip.php:17 redirection-strings.php:59 redirection.js:2
+msgid "URL and IP"
+msgstr "URL-osoite ja IP"
+
+#: redirection-strings.php:533 redirection.js:2
+msgid "Problem"
+msgstr "Ongelma"
+
+#: redirection-strings.php:132 redirection-strings.php:532 redirection.js:2
+msgid "Good"
+msgstr "Hyvä"
+
+#: redirection-strings.php:529 redirection.js:2
+msgid "Check"
+msgstr "Tarkista"
+
+#: redirection-strings.php:511 redirection.js:2
+msgid "Check Redirect"
+msgstr "Tarkista uudelleenohjaus"
+
+#: redirection-strings.php:47 redirection.js:2
+msgid "Check redirect for: {{code}}%s{{/code}}"
+msgstr "Tarkista uudelleenohjaus: {{code}}%s{{/code}}"
+
+#: redirection-strings.php:45 redirection.js:2
+msgid "Error"
+msgstr "Virhe"
+
+#: redirection-strings.php:528 redirection.js:2
+msgid "Enter full URL, including http:// or https://"
+msgstr "Kirjoita koko URL-osoite mukaan lukien http:// tai https://"
+
+#: redirection-strings.php:525 redirection.js:2
+msgid "Redirect Tester"
+msgstr "Uudelleenohjauksen testaaja"
+
+#: redirection-strings.php:359 redirection-strings.php:476 redirection.js:2
+msgid "Target"
+msgstr "Kohde"
+
+#: redirection-strings.php:595 redirection.js:2
+msgid "Enter server URL to match against"
+msgstr "Anna palvelimen verkko-osoite, jota haluat verrata"
+
+#: redirection-strings.php:594 redirection.js:2
+msgid "Server"
+msgstr "Palvelin"
+
+#: redirection-strings.php:593 redirection.js:2
+msgid "Enter role or capability value"
+msgstr "Anna roolin tai käyttöoikeuden arvo"
+
+#: redirection-strings.php:592 redirection.js:2
+msgid "Role"
+msgstr "Rooli"
+
+#: redirection-strings.php:590 redirection.js:2
+msgid "Match against this browser referrer text"
+msgstr "Vastaa tätä selaimen viittaustekstiä (referrer)"
+
+#: redirection-strings.php:563 redirection.js:2
+msgid "Match against this browser user agent"
+msgstr "Vertaa tämän selaimen käyttäjäagenttia"
+
+#: redirection-strings.php:107 redirection.js:2
+msgid "The relative URL you want to redirect from"
+msgstr "Relatiivinen URL-osoite, josta haluat uudelleenohjata"
+
+#: redirection-strings.php:285 redirection.js:2
+msgid "Add New"
+msgstr "Lisää uusi"
+
+#: matches/user-role.php:17 redirection-strings.php:55 redirection.js:2
+msgid "URL and role/capability"
+msgstr "URL-osoite ja rooli/oikeus"
+
+#: matches/server.php:17 redirection-strings.php:60 redirection.js:2
+msgid "URL and server"
+msgstr "URL ja palvelin"
+
+#: models/fixer.php:119
+msgid "Site and home protocol"
+msgstr "Sivusto- ja kotiprotokolla"
+
+#: models/fixer.php:112
+msgid "Site and home are consistent"
+msgstr "Sivusto ja koti ovat johdonmukaisia"
+
+#: redirection-strings.php:581 redirection.js:2
+msgid "Note it is your responsibility to pass HTTP headers to PHP. Please contact your hosting provider for support about this."
+msgstr "Huomioi, että HTTP-otsakkeiden välittäminen PHP:lle on vastuullasi. Tarvittaessa ota yhteyttä hosting-palveluntarjoajaasi saadaksesi tukea."
+
+#: redirection-strings.php:579 redirection.js:2
+msgid "Accept Language"
+msgstr "Hyväksy kieli"
+
+#: redirection-strings.php:577 redirection.js:2
+msgid "Header value"
+msgstr "Otsakkeen arvo"
+
+#: redirection-strings.php:576 redirection.js:2
+msgid "Header name"
+msgstr "Otsakkeen nimi"
+
+#: redirection-strings.php:575 redirection.js:2
+msgid "HTTP Header"
+msgstr "HTTP-otsake"
+
+#: redirection-strings.php:574 redirection.js:2
+msgid "WordPress filter name"
+msgstr "WordPressin suodattimen nimi"
+
+#: redirection-strings.php:573 redirection.js:2
+msgid "Filter Name"
+msgstr "Suodattimen nimi"
+
+#: redirection-strings.php:571 redirection.js:2
+msgid "Cookie value"
+msgstr "Evästeen arvo"
+
+#: redirection-strings.php:570 redirection.js:2
+msgid "Cookie name"
+msgstr "Evästeen nimi"
+
+#: redirection-strings.php:569 redirection.js:2
+msgid "Cookie"
+msgstr "Eväste"
+
+#: redirection-strings.php:255 redirection.js:2
+msgid "clearing your cache."
+msgstr "tyhjennetään välimuistiasi."
+
+#: redirection-strings.php:254 redirection.js:2
+msgid "If you are using a caching system such as Cloudflare then please read this: "
+msgstr "Jos käytät välimuistijärjestelmää, kuten Cloudflarea, ole hyvä ja lue tämä: "
+
+#: matches/http-header.php:31 redirection-strings.php:61 redirection.js:2
+msgid "URL and HTTP header"
+msgstr "URL-osoite ja HTTP-otsake"
+
+#: matches/custom-filter.php:17 redirection-strings.php:62 redirection.js:2
+msgid "URL and custom filter"
+msgstr "URL-osoite ja mukautettu suodatin"
+
+#: matches/cookie.php:10 redirection-strings.php:58 redirection.js:2
+msgid "URL and cookie"
+msgstr "URL-osoite ja eväste"
+
+#: redirection-strings.php:543 redirection.js:2
+msgid "404 deleted"
+msgstr "404 poistettu"
+
+#: redirection-strings.php:164 redirection-strings.php:648 redirection.js:2
+msgid "REST API"
+msgstr "REST API"
+
+#: redirection-strings.php:649 redirection.js:2
+msgid "How Redirection uses the REST API - don't change unless necessary"
+msgstr "Kuinka Redirection käyttää REST-rajapintaa - muuta vain jos välttämätöntä"
+
+#: redirection-strings.php:265 redirection.js:2
+msgid "Take a look at the {{link}}plugin status{{/link}}. It may be able to identify and \"magic fix\" the problem."
+msgstr "Katso {{link}}lisäosan tila{{/link}}. Se saattaa pystyä tunnistamaan ja korjaamaan automaattisesti ongelman."
+
+#: redirection-strings.php:266 redirection.js:2
+msgid "{{link}}Caching software{{/link}}, in particular Cloudflare, can cache the wrong thing. Try clearing all your caches."
+msgstr "{{link}}Välimuistiohjelmistot{{/link}}, erityisesti Cloudflare, voivat tallentaa välimuistiin väärän asian. Yritä tyhjentää kaikki välimuistit."
+
+#: redirection-strings.php:267 redirection.js:2
+msgid "{{link}}Please temporarily disable other plugins!{{/link}} This fixes so many problems."
+msgstr "{{link}}Poista muut lisäosat väliaikaisesti käytöstä!{{/link}} Tämä korjaa niin monet ongelmat."
+
+#: redirection-admin.php:529
+msgid "Please see the <a href=\"https://redirection.me/support/problems/\">list of common problems</a>."
+msgstr "Katso <a href=\"https://redirection.me/support/problems/\">yleisten ongelmien lista</a>."
+
+#: redirection-admin.php:523
+msgid "Unable to load Redirection ☹️"
+msgstr "Redirecton-lisäosaa ei voitu ladata ☹️"
+
+#: redirection-strings.php:534 redirection.js:2
+msgid "WordPress REST API"
+msgstr "WordPress REST-rajapinta"
+
+#: redirection-strings.php:144 redirection.js:2
+msgid "Useragent Error"
+msgstr "Käyttäjäagentin virhe"
+
+#: redirection-strings.php:146 redirection.js:2
+msgid "Unknown Useragent"
+msgstr "Tuntematon selainagentti"
+
+#: redirection-strings.php:147 redirection.js:2
+msgid "Device"
+msgstr "Laite"
+
+#: redirection-strings.php:148 redirection.js:2
+msgid "Operating System"
+msgstr "Käyttöjärjestelmä"
+
+#: redirection-strings.php:149 redirection.js:2
+msgid "Browser"
+msgstr "Selain"
+
+#: redirection-strings.php:150 redirection.js:2
+msgid "Engine"
+msgstr "Moottori"
+
+#: redirection-strings.php:151 redirection.js:2
+msgid "Useragent"
+msgstr "Selainagentti"
+
+#: redirection-strings.php:152 redirection.js:2
+msgid "Agent"
+msgstr "Agent"
+
+#: redirection-strings.php:622 redirection.js:2
+msgid "No IP logging"
+msgstr "Ei IP-kirjausta"
+
+#: redirection-strings.php:623 redirection.js:2
+msgid "Full IP logging"
+msgstr "Täysi IP-kirjaus"
+
+#: redirection-strings.php:624 redirection.js:2
+msgid "Anonymize IP (mask last part)"
+msgstr "Anonymisoi IP (piilota viimeinen osa)"
+
+#: redirection-strings.php:652 redirection.js:2
+msgid "Monitor changes to %(type)s"
+msgstr "Tarkkaile %(type)s muutoksia"
+
+#: redirection-strings.php:630 redirection.js:2
+msgid "IP Logging"
+msgstr "IP:n tallennus"
+
+#: redirection-strings.php:549
+msgid "Geo Info"
+msgstr "Geotiedot"
+
+#: redirection-strings.php:550 redirection.js:2
+msgid "Agent Info"
+msgstr "Käyttäjäagentin tiedot"
+
+#: redirection-strings.php:551 redirection.js:2
+msgid "Filter by IP"
+msgstr "Suodata IP:n mukaan"
+
+#: redirection-strings.php:21 redirection.js:2
+msgid "Geo IP Error"
+msgstr "Geo IP virhe"
+
+#: redirection-strings.php:22 redirection-strings.php:145 redirection.js:2
+msgid "Something went wrong obtaining this information"
+msgstr "Jokin meni vikaan, kun tätä tietoa haettiin"
+
+#: redirection-strings.php:24 redirection.js:2
+msgid "This is an IP from a private network. This means it is located inside a home or business network and no more information can be displayed."
+msgstr "Tämä on yksityisen verkon IP-osoite. Tämä tarkoittaa, että se sijaitsee koti- tai yritysverkon sisällä, eikä enempää tietoja voida näyttää."
+
+#: redirection-strings.php:26 redirection.js:2
+msgid "No details are known for this address."
+msgstr "Tästä osoitteesta ei ole saatavilla tarkempia tietoja."
+
+#: redirection-strings.php:23 redirection-strings.php:25
+#: redirection-strings.php:27 redirection.js:2
+msgid "Geo IP"
+msgstr "Geo IP"
+
+#: redirection-strings.php:28 redirection.js:2
+msgid "City"
+msgstr "Kaupunki"
+
+#: redirection-strings.php:29 redirection.js:2
+msgid "Area"
+msgstr "Alue"
+
+#: redirection-strings.php:30 redirection.js:2
+msgid "Timezone"
+msgstr "Aikavyöhyke"
+
+#: redirection-strings.php:31 redirection.js:2
+msgid "Geo Location"
+msgstr "Sijaintitieto"
+
+#: redirection-strings.php:49 redirection.js:2
+msgid "Powered by {{link}}redirect.li{{/link}}"
+msgstr "{{link}}redirect.li{{/link}}:n tukemana"
+
+#: redirection-settings.php:21
+msgid "Trash"
+msgstr "Roskakori"
+
+#: redirection-admin.php:528
+msgid "Please note that Redirection requires the WordPress REST API to be enabled. If you have disabled this then you won't be able to use Redirection"
+msgstr "Huomioi, että Redirection edellyttää WordPress REST API:n olevan käytössä. Jos se on poistettu käytöstä, Redirectionia ei voi käyttää."
+
+#. translators: URL
+#: redirection-admin.php:408
+msgid "You can find full documentation about using Redirection on the <a href=\"%s\" target=\"_blank\">redirection.me</a> support site."
+msgstr "Dokumentaatio Redirectionin käytöstä löytyy <a href=\"%s\" target=\"_blank\">redirection.me</a>-tukisivustolta."
+
+#. Plugin URI of the plugin
+#: redirection.php
+msgid "https://redirection.me/"
+msgstr "https://redirection.me/"
+
+#: redirection-strings.php:519 redirection.js:2
+msgid "Full documentation for Redirection can be found at {{site}}https://redirection.me{{/site}}. If you have a problem please check the {{faq}}FAQ{{/faq}} first."
+msgstr "Dokumentaatio Redirectionin käytöstä löytyy osoitteesta {{site}}https://redirection.me{{/site}}. Ongelmatilanteissa tarkista ensin {{faq}}UKK{{/faq}}."
+
+#: redirection-strings.php:520 redirection.js:2
+msgid "If you want to report a bug please read the {{report}}Reporting Bugs{{/report}} guide."
+msgstr "Jos haluat ilmoittaa virheestä, lue {{report}}Virheiden ilmoittaminen{{/report}} -opas."
+
+#: redirection-strings.php:522 redirection.js:2
+msgid "If you want to submit information that you don't want in a public repository then send it directly via {{email}}email{{/email}} - include as much information as you can!"
+msgstr "Jos haluat lähettää tietoja, joita et halua julkiseen repositorioon, lähetä ne suoraan {{email}}sähköpostitse{{/email}} – liitä mukaan mahdollisimman paljon tietoa!"
+
+#: redirection-strings.php:661 redirection.js:2
+msgid "Never cache"
+msgstr "Älä koskaan välimuistita"
+
+#: redirection-strings.php:662 redirection.js:2
+msgid "An hour"
+msgstr "Tunti"
+
+#: redirection-strings.php:680 redirection.js:2
+msgid "Redirect Caching"
+msgstr "Uudelleenohjausten välimuistitus"
+
+#: redirection-strings.php:679 redirection.js:2
+msgid "How long to cache redirected 301 URLs (via \"Expires\" HTTP header)"
+msgstr "Kuinka kauan 301-uudelleenohjattuja osoitteita säilytetään välimuistissa (\"Expires\" HTTP-otsakkeen kautta)"
+
+#: redirection-strings.php:303 redirection.js:2
+msgid "Are you sure you want to import from %s?"
+msgstr "Haluatko varmasti tuoda kohteesta %s?"
+
+#: redirection-strings.php:304 redirection.js:2
+msgid "Plugin Importers"
+msgstr "Lisäosien tuontityökalu"
+
+#: redirection-strings.php:305 redirection.js:2
+msgid "The following redirect plugins were detected on your site and can be imported from."
+msgstr "Seuraavat uudelleenohjauslisäosat havaittiin sivustoltasi, ja niiden asetukset voidaan tuoda."
+
+#: redirection-strings.php:288
+msgid "total = "
+msgstr "yhteensä = "
+
+#: redirection-strings.php:289 redirection.js:2
+msgid "Import from %s"
+msgstr "Tuo kohteesta %s"
+
+#. translators: 1: Expected WordPress version, 2: Actual WordPress version
+#: redirection-admin.php:511
+msgid "Redirection requires WordPress v%1$1s, you are using v%2$2s - please update your WordPress"
+msgstr "Redirection vaatii WordPressin v%1$1s, käytät v%2$2s - päivitä WordPress"
+
+#: models/importer.php:332
+msgid "Default WordPress \"old slugs\""
+msgstr "WordPressin oletusarvoiset \"vanhat polkutunnukset\""
+
+#: redirection-strings.php:657 redirection.js:2
+msgid "Create associated redirect (added to end of URL)"
+msgstr "Luo liittyvä uudelleenohjaus (lisätty URL-osoitteen loppuun)"
+
+#: redirection-admin.php:531
+msgid "<code>Redirectioni10n</code> is not defined. This usually means another plugin is blocking Redirection from loading. Please disable all plugins and try again."
+msgstr "<code>Redirectioni10n</code> ei ole määritetty. Tämä tarkoittaa yleensä sitä, että toinen lisäosa estää uudelleenohjausta latautumasta. Poista kaikki lisäosat käytöstä ja yritä uudelleen."
+
+#: redirection-strings.php:530 redirection.js:2
+msgid "If the magic button doesn't work then you should read the error and see if you can fix it manually, otherwise follow the 'Need help' section below."
+msgstr "Jos taikapainike ei toimi, lue virhe ja katso, voiko sen korjata manuaalisesti. Muussa tapauksessa noudata alla olevaa \"Tarvitsen apua\" -osiota."
+
+#: redirection-strings.php:531 redirection.js:2
+msgid "⚡️ Magic fix ⚡️"
+msgstr "⚡️ Maaginen korjaus ⚡️"
+
+#: redirection-strings.php:536 redirection.js:2
+msgid "Plugin Status"
+msgstr "Lisäosan tila"
+
+#: redirection-strings.php:20 redirection-strings.php:564
+#: redirection-strings.php:578 redirection.js:2
+msgid "Custom"
+msgstr "Mukautettu"
+
+#: redirection-strings.php:565 redirection.js:2
+msgid "Mobile"
+msgstr "Mobiili"
+
+#: redirection-strings.php:566 redirection.js:2
+msgid "Feed Readers"
+msgstr "Syötteen lukijat"
+
+#: redirection-strings.php:567 redirection.js:2
+msgid "Libraries"
+msgstr "Kirjastot"
+
+#: redirection-strings.php:654 redirection.js:2
+msgid "URL Monitor Changes"
+msgstr "Monitoroidut URL-muutokset"
+
+#: redirection-strings.php:655 redirection.js:2
+msgid "Save changes to this group"
+msgstr "Tallenna ryhmän muutokset"
+
+#: redirection-strings.php:656 redirection.js:2
+msgid "For example \"/amp\""
+msgstr "Esimerkiksi \"/amp\""
+
+#: redirection-strings.php:653 redirection.js:2
+msgid "URL Monitor"
+msgstr "URL-monitori"
+
+#: redirection-strings.php:736 redirection.js:2
+msgid "Your server has rejected the request for being too big. You will need to reconfigure it to continue."
+msgstr "Palvelimesi on hylännyt pyynnön koska se on liian suuri. Sinun täytyy uudelleenkonfiguroida se jatkaaksesi."
+
+#: redirection-admin.php:526
+msgid "Also check if your browser is able to load <code>redirection.js</code>:"
+msgstr "Tarkista myös, että selaimesi on pystynyt lataamaan <code>redirection.js</code>:"
+
+#: redirection-admin.php:525 redirection-strings.php:257 redirection.js:2
+msgid "If you are using a page caching plugin or service (CloudFlare, OVH, etc) then you can also try clearing that cache."
+msgstr "Jos käytössä on välimuistilisäosia tai -palveluja (kuten CloudFlare, OVH jne.), voidaan myös yrittää tyhjentää kyseinen välimuisti."
+
+#: redirection-admin.php:514
+msgid "Unable to load Redirection"
+msgstr "Redirection-lisäosaa ei voitu ladata."
+
+#: models/fixer.php:80
+msgid "Post monitor group is valid"
+msgstr "Artikkelien monitoriryhmä on kelvollinen"
+
+#: models/fixer.php:80
+msgid "Post monitor group is invalid"
+msgstr "Artikkelien monitoriryhmä on virheellinen"
+
+#: models/fixer.php:78
+msgid "Post monitor group"
+msgstr "Artikkelien monitoriryhmä"
+
+#: models/fixer.php:74
+msgid "All redirects have a valid group"
+msgstr "Kaikilla uudelleenohjauksilla on kelvolliset ryhmät"
+
+#: models/fixer.php:74
+msgid "Redirects with invalid groups detected"
+msgstr "Havaittu uudelleenohjauksia virheellisillä ryhmillä"
+
+#: models/fixer.php:72
+msgid "Valid redirect group"
+msgstr "Kelvollinen uudelleenohjausryhmä"
+
+#: models/fixer.php:68
+msgid "Valid groups detected"
+msgstr "Kelvollisia ryhmiä löydetty"
+
+#: models/fixer.php:68
+msgid "No valid groups, so you will not be able to create any redirects"
+msgstr "Ei kelvollisia ryhmiä, joten uudelleenohjauksia ei voida luoda"
+
+#: models/fixer.php:66
+msgid "Valid groups"
+msgstr "Kelvolliset ryhmät"
+
+#: models/fixer.php:63
+msgid "Database tables"
+msgstr "Tietokantataulut"
+
+#: models/fixer.php:104
+msgid "The following tables are missing:"
+msgstr "Seuraavat taulut puuttuvat:"
+
+#: models/fixer.php:104
+msgid "All tables present"
+msgstr "Kaikki taulut löydetty"
+
+#: redirection-strings.php:252 redirection.js:2
+msgid "Cached Redirection detected"
+msgstr "Välimuistissa oleva uudelleenohjaus löydetty"
+
+#: redirection-strings.php:253 redirection.js:2
+msgid "Please clear your browser cache and reload this page."
+msgstr "Tyhjennä selaimen välimuisti ja lataa tämä sivu uudelleen."
+
+#: redirection-strings.php:725 redirection.js:2
+msgid "WordPress did not return a response. This could mean an error occurred or that the request was blocked. Please check your server error_log."
+msgstr "WordPress ei palauttanut vastausta. Tämä voi tarkoittaa, että tapahtui virhe tai että pyyntö estettiin. Tarkista palvelimesi virhelokit."
+
+#: redirection-admin.php:530
+msgid "If you think Redirection is at fault then create an issue."
+msgstr "Jos uskot Redirection-lisäosassa olevan vika luo tiketti."
+
+#: redirection-admin.php:524
+msgid "This may be caused by another plugin - look at your browser's error console for more details."
+msgstr "Tämä voi johtua toisesta lisäosasta – katso lisätietoja selaimesi virhekonsolista."
+
+#: redirection-admin.php:546
+msgid "Loading, please wait..."
+msgstr "Ladataan, odota…"
+
+#: redirection-strings.php:308 redirection.js:2
+msgid "{{strong}}CSV file format{{/strong}}: {{code}}source URL, target URL{{/code}} - and can be optionally followed with {{code}}regex, http code{{/code}} ({{code}}regex{{/code}} - 0 for no, 1 for yes)."
+msgstr "{{strong}}CSV-tiedostomuoto{{/strong}}: {{code}}lähteen verkko-osoite, kohteen verkko-osoite{{/code}} - ja sitä voidaan haluttaessa seurata {{code}}regex, http-koodilla{{/code}} ({{code}}regex{{/code}} - 0 ei, 1 kyllä)."
+
+#: redirection-strings.php:256 redirection.js:2
+msgid "Redirection is not working. Try clearing your browser cache and reloading this page."
+msgstr "Redirection-lisäosa ei toimi. Yritä pyyhkiä selaimen välimuisti ja ladata tämä sivu uudelleen."
+
+#: redirection-strings.php:258 redirection.js:2
+msgid "If that doesn't help, open your browser's error console and create a {{link}}new issue{{/link}} with the details."
+msgstr "Jos tämä ei auta, avaa selaimesi virhekonsoli ja luo {{link}}uusi tiketti{{/link}}."
+
+#: redirection-admin.php:534
+msgid "Create Issue"
+msgstr "Luo tiketti"
+
+#: redirection-strings.php:262 redirection.js:2
+msgid "Email"
+msgstr "Sähköposti"
+
+#: redirection-strings.php:518 redirection.js:2
+msgid "Need help?"
+msgstr "Tarvitsetko apua?"
+
+#: redirection-strings.php:521 redirection.js:2
+msgid "Please note that any support is provide on as-time-is-available basis and is not guaranteed. I do not provide paid support."
+msgstr "Huomaa, että tukea tarjotaan sen mukaan, kun se on saatavilla, eikä sitä taata. En tarjoa maksettua tukea."
+
+#: redirection-strings.php:465 redirection.js:2
+msgid "Pos"
+msgstr "Sija"
+
+#: redirection-strings.php:80 redirection.js:2
+msgid "410 - Gone"
+msgstr "410 - Gone"
+
+#: redirection-strings.php:103 redirection-strings.php:479 redirection.js:2
+msgid "Position"
+msgstr "Sijainti"
+
+#: redirection-strings.php:677 redirection.js:2
+msgid "Used to auto-generate a URL if no URL is given. Use the special tags {{code}}$dec${{/code}} or {{code}}$hex${{/code}} to insert a unique ID instead"
+msgstr "Käytetään verkko-osoitteen automaattiseen luomiseen, jos verkko-osoitetta ei ole annettu. Käytä avainsanoja {{code}}$dec${{/code}} tai {{code}}$hex${{/code}} yksilöllisen tunnisteen luomiseen"
+
+#: redirection-strings.php:448
+msgid "I'd like to support some more."
+msgstr "Haluaisin tukea lisää."
+
+#: redirection-strings.php:451
+msgid "Support 💰"
+msgstr "Tue 💰"
+
+#: redirection-strings.php:290 redirection.js:2
+msgid "Import to group"
+msgstr "Tuo ryhmään"
+
+#: redirection-strings.php:291 redirection.js:2
+msgid "Import a CSV, .htaccess, or JSON file."
+msgstr "Tuo CSV-, .htaccess- tai JSON-tiedosto."
+
+#: redirection-strings.php:292 redirection.js:2
+msgid "Click 'Add File' or drag and drop here."
+msgstr "Napsauta 'Lisää tiedosto' tai vedä ja pudota tähän."
+
+#: redirection-strings.php:293 redirection-strings.php:545 redirection.js:2
+msgid "Add File"
+msgstr "Lisää tiedosto"
+
+#: redirection-strings.php:294 redirection.js:2
+msgid "File selected"
+msgstr "Tiedosto valittu"
+
+#: redirection-strings.php:297 redirection.js:2
+msgid "Importing"
+msgstr "Tuodaan"
+
+#: redirection-strings.php:298 redirection.js:2
+msgid "Finished importing"
+msgstr "Tuonti valmis"
+
+#: redirection-strings.php:299 redirection.js:2
+msgid "Total redirects imported:"
+msgstr "Uudelleenohjauksia tuotu yhteensä:"
+
+#: redirection-strings.php:300 redirection.js:2
+msgid "Double-check the file is the correct format!"
+msgstr "Tarkista, että tiedosto on oikeassa muodossa!"
+
+#: redirection-strings.php:287 redirection-strings.php:301 redirection.js:2
+msgid "OK"
+msgstr "OK"
+
+#: redirection-strings.php:100 redirection-strings.php:302 redirection.js:2
+msgid "Close"
+msgstr "Sulje"
+
+#: redirection-strings.php:310 redirection.js:2
+msgid "Export"
+msgstr "Vie"
+
+#: redirection-strings.php:312 redirection.js:2
+msgid "Everything"
+msgstr "Kaikki"
+
+#: redirection-strings.php:313 redirection.js:2
+msgid "WordPress redirects"
+msgstr "WordPressin uudelleenohjaukset"
+
+#: redirection-strings.php:314 redirection.js:2
+msgid "Apache redirects"
+msgstr "Apachen uudelleenohjaukset"
+
+#: redirection-strings.php:315 redirection.js:2
+msgid "Nginx redirects"
+msgstr "Nginx:n uudelleenohjaukset"
+
+#: redirection-strings.php:317 redirection.js:2
+msgid "CSV"
+msgstr "CSV"
+
+#: redirection-strings.php:318 redirection-strings.php:645 redirection.js:2
+msgid "Apache .htaccess"
+msgstr "Apachen .htaccess"
+
+#: redirection-strings.php:319 redirection.js:2
+msgid "Nginx rewrite rules"
+msgstr "Nginxin uudelleenkirjoitussäännöt"
+
+#: redirection-strings.php:320 redirection.js:2
+msgid "View"
+msgstr "Näytä"
+
+#: redirection-strings.php:272 redirection-strings.php:282 redirection.js:2
+msgid "Import/Export"
+msgstr "Tuo/Vie"
+
+#: redirection-strings.php:273 redirection-strings.php:625 redirection.js:2
+msgid "Logs"
+msgstr "Lokit"
+
+#: redirection-strings.php:274 redirection.js:2
+msgid "404 errors"
+msgstr "404-virheet"
+
+#: redirection-strings.php:539 redirection.js:2
+msgid "Redirection saved"
+msgstr "Uudelleenohjaus tallennettu"
+
+#: redirection-strings.php:540 redirection.js:2
+msgid "Log deleted"
+msgstr "Loki poistettu"
+
+#: redirection-strings.php:541 redirection.js:2
+msgid "Settings saved"
+msgstr "Asetukset tallennettu"
+
+#: redirection-strings.php:542 redirection.js:2
+msgid "Group saved"
+msgstr "Ryhmä tallennettu"
+
+#: redirection-strings.php:4 redirection-strings.php:430 redirection.js:2
+msgid "Are you sure you want to delete this item?"
+msgid_plural "Are you sure you want to delete the %d selected items?"
+msgstr[0] "Haluatko varmasti poistaa tämän kohteen?"
+msgstr[1] "Haluatko varmasti poistaa %d valittua kohdetta?"
+
+#: redirection-strings.php:682 redirection.js:2
+msgid "pass"
+msgstr "välitä"
+
+#: redirection-strings.php:506 redirection.js:2
+msgid "All groups"
+msgstr "Kaikki ryhmät"
+
+#: redirection-strings.php:70 redirection.js:2
+msgid "301 - Moved Permanently"
+msgstr "301 - Moved Permanently"
+
+#: redirection-strings.php:71 redirection.js:2
+msgid "302 - Found"
+msgstr "302 - Found"
+
+#: redirection-strings.php:74 redirection.js:2
+msgid "307 - Temporary Redirect"
+msgstr "307 - Temporary Redirect"
+
+#: redirection-strings.php:75 redirection.js:2
+msgid "308 - Permanent Redirect"
+msgstr "308 - Permanent Redirect"
+
+#: redirection-strings.php:77 redirection.js:2
+msgid "401 - Unauthorized"
+msgstr "401 - Unauthorized"
+
+#: redirection-strings.php:79 redirection.js:2
+msgid "404 - Not Found"
+msgstr "404 - Not Found"
+
+#: redirection-strings.php:110 redirection-strings.php:475 redirection.js:2
+msgid "Title"
+msgstr "Otsikko"
+
+#: redirection-strings.php:96 redirection.js:2
+msgid "When matched"
+msgstr "Kun yhdistetään"
+
+#: redirection-strings.php:52 redirection.js:2
+msgid "with HTTP code"
+msgstr "sisältäen HTTP-koodin"
+
+#: redirection-strings.php:101 redirection.js:2
+msgid "Show advanced options"
+msgstr "Näytä edistyneet asetukset"
+
+#: redirection-strings.php:557 redirection.js:2
+msgid "Matched Target"
+msgstr "Yhdistetty kohde"
+
+#: redirection-strings.php:559 redirection.js:2
+msgid "Unmatched Target"
+msgstr "Kohdentamaton kohde"
+
+#: redirection-strings.php:50 redirection-strings.php:51
+msgid "Saving..."
+msgstr "Tallennetaan..."
+
+#: redirection-strings.php:544 redirection.js:2
+msgid "View notice"
+msgstr "Näytä ilmoitus"
+
+#: redirection-strings.php:751 redirection-strings.php:752
+#: redirection-strings.php:753 redirection.js:2
+msgid "Something went wrong 🙁"
+msgstr "Jotain meni vikaan 🙁"
+
+#. translators: maximum number of log entries
+#: redirection-admin.php:268
+msgid "Log entries (%d max)"
+msgstr "Lokimerkinnät (enintään %d)"
+
+#: redirection-strings.php:141 redirection.js:2
+msgid "Bulk Actions"
+msgstr "Massatoiminnot"
+
+#: redirection-strings.php:142 redirection-strings.php:143 redirection.js:2
+msgid "Apply"
+msgstr "Käytä"
+
+#: redirection-strings.php:600 redirection.js:2
+msgid "First page"
+msgstr "Ensimmäinen sivu"
+
+#: redirection-strings.php:601 redirection.js:2
+msgid "Prev page"
+msgstr "Edellinen sivu"
+
+#: redirection-strings.php:602 redirection.js:2
+msgid "Current Page"
+msgstr "Tämä sivu"
+
+#: redirection-strings.php:603
+msgid "of %(page)s"
+msgstr "/ %(page)s"
+
+#: redirection-strings.php:604 redirection.js:2
+msgid "Next page"
+msgstr "Seuraava sivu"
+
+#: redirection-strings.php:605 redirection.js:2
+msgid "Last page"
+msgstr "Viimeinen sivu"
+
+#: redirection-strings.php:597 redirection.js:2
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s kohde"
+msgstr[1] "%s kohdetta"
+
+#: redirection-strings.php:596 redirection.js:2
+msgid "Select All"
+msgstr "Valitse kaikki"
+
+#: redirection-strings.php:607 redirection.js:2
+msgid "Sorry, something went wrong loading the data - please try again"
+msgstr "Valitettavasti jotain meni pieleen tietojen lataamisessa - yritä uudelleen"
+
+#: redirection-strings.php:454
+msgid "Thanks for subscribing! {{a}}Click here{{/a}} if you need to return to your subscription."
+msgstr "Kiitos tilauksesta! {{a}}Klikkaa tästä{{/a}}, jos sinun on palattava tilaukseesi."
+
+#: redirection-strings.php:453 redirection-strings.php:455
+msgid "Newsletter"
+msgstr "Uutiskirje"
+
+#: redirection-strings.php:456
+msgid "Want to keep up to date with changes to Redirection?"
+msgstr "Haluatko pysyä ajan tasalla Redirection-lisäosaa koskevista muutoksista?"
+
+#: redirection-strings.php:457
+msgid "Sign up for the tiny Redirection newsletter - a low volume newsletter about new features and changes to the plugin. Ideal if you want to test beta changes before release."
+msgstr "Tilaa pieni Redirection-uutiskirje – harvoin lähetettävä uutiskirje uusista ominaisuuksista ja laajennuksen muutoksista. Ihanteellinen, jos haluat testata betamuutoksia ennen julkaisua."
+
+#: redirection-strings.php:458
+msgid "Your email address:"
+msgstr "Sähköpostiosoitteesi:"
+
+#: redirection-strings.php:447
+msgid "You've supported this plugin - thank you!"
+msgstr "Olet tukenut tätä lisäosaa - kiitos!"
+
+#: redirection-strings.php:450
+msgid "You get useful software and I get to carry on making it better."
+msgstr "Saat hyödyllisen ohjelmiston ja saan jatkaa sen kehittämistä."
+
+#: redirection-strings.php:621 redirection-strings.php:665 redirection.js:2
+msgid "Forever"
+msgstr "Ikuisesti"
+
+#: redirection-strings.php:439 redirection.js:2
+msgid "Delete the plugin - are you sure?"
+msgstr "Poista lisäosa - oletko varma?"
+
+#: redirection-strings.php:440 redirection.js:2
+msgid "Deleting the plugin will remove all your redirections, logs, and settings. Do this if you want to remove the plugin for good, or if you want to reset the plugin."
+msgstr "Lisäosan poistaminen poistaa kaikki uudelleenohjaukset, lokit ja asetuksesi. Tee tämä, jos haluat poistaa laajennuksen lopullisesti tai jos haluat nollata laajennuksen."
+
+#: redirection-strings.php:441 redirection.js:2
+msgid "Once deleted your redirections will stop working. If they appear to continue working then please clear your browser cache."
+msgstr "Kun uudelleenohjaukset on poistettu ne lakkaavat toimimasta. Jos ne näyttävät edelleen toimivan, tyhjennä selaimen välimuisti."
+
+#: redirection-strings.php:442 redirection.js:2
+msgid "Yes! Delete the plugin"
+msgstr "Kyllä! Poista lisäosa"
+
+#: redirection-strings.php:443 redirection.js:2
+msgid "No! Don't delete the plugin"
+msgstr "Ei! Älä poista lisäosaa"
+
+#. Author of the plugin
+#: redirection.php
+msgid "John Godley"
+msgstr "John Godley"
+
+#. Description of the plugin
+#: redirection.php
+msgid "Manage all your 301 redirects and monitor 404 errors"
+msgstr "Hallitse 301-uudelleenohjauksia ja seuraa 404-virheitä"
+
+#: redirection-strings.php:449
+msgid "Redirection is free to use - life is wonderful and lovely! It has required a great deal of time and effort to develop and you can help support this development by {{strong}}making a small donation{{/strong}}."
+msgstr "Redirection-lisäosan käyttö on ilmaista - elämä on ihanaa ja ihmeellistä! Lisäosan kehittäminen on kuitenkin vaatinut paljon aikaa ja vaivaa. Jos koet, että Redirection on hyödyllinen, voit tukea sen kehitystä {{strong}}tekemällä pienen lahjoituksen{{/strong}}."
+
+#: redirection-admin.php:409
+msgid "Redirection Support"
+msgstr "Redirection-tuki"
+
+#: redirection-strings.php:276 redirection-strings.php:284 redirection.js:2
+msgid "Support"
+msgstr "Tuki"
+
+#: redirection-strings.php:281 redirection.js:2
+msgid "404s"
+msgstr "404:t"
+
+#: redirection-strings.php:280 redirection.js:2
+msgid "Log"
+msgstr "Loki"
+
+#: redirection-strings.php:445 redirection.js:2
+msgid "Selecting this option will delete all redirections, all logs, and any options associated with the Redirection plugin.  Make sure this is what you want to do."
+msgstr "Valitsemalla tämän poistat kaikki uudelleenohjaukset, lokit ja kaikki asetukset, jotka liittyvät Redirection-lisäosaan. Varmista, haluatko varmasti tehdä sen."
+
+#: redirection-strings.php:444 redirection.js:2
+msgid "Delete Redirection"
+msgstr "Poista Redirection-lisäosa"
+
+#: redirection-strings.php:295 redirection-strings.php:546 redirection.js:2
+msgid "Upload"
+msgstr "Siirrä palvelimelle"
+
+#: redirection-strings.php:306 redirection.js:2
+msgid "Import"
+msgstr "Tuonti"
+
+#: redirection-strings.php:513 redirection-strings.php:615 redirection.js:2
+msgid "Update"
+msgstr "Päivitä"
+
+#: redirection-strings.php:676 redirection.js:2
+msgid "Auto-generate URL"
+msgstr "Luo URL automaattisesti"
+
+#: redirection-strings.php:644 redirection.js:2
+msgid "A unique token allowing feed readers access to Redirection log RSS (leave blank to auto-generate)"
+msgstr "Uniikki merkkijono (token), jonka avulla RSS-lukijat pääsevät Redirection-lokiin (jätä tyhjäksi, jos haluat että se luodaan automaattisesti)"
+
+#: redirection-strings.php:643 redirection.js:2
+msgid "RSS Token"
+msgstr "RSS Token"
+
+#: redirection-strings.php:628 redirection.js:2
+msgid "404 Logs"
+msgstr "404-lokit"
+
+#: redirection-strings.php:627 redirection-strings.php:629 redirection.js:2
+msgid "(time to keep logs for)"
+msgstr "(aika lokien säilyttämiseen)"
+
+#: redirection-strings.php:626 redirection.js:2
+msgid "Redirect Logs"
+msgstr "Uudelleenohjausloki"
+
+#: redirection-strings.php:614
+msgid "I'm a nice person and I have helped support the author of this plugin"
+msgstr "Olen kiva typpi ja olen auttanut tukemalla lisäosan kehittäjää"
+
+#: redirection-strings.php:452
+msgid "Plugin Support"
+msgstr "Lisäosan tuki"
+
+#: redirection-strings.php:275 redirection-strings.php:283 redirection.js:2
+msgid "Options"
+msgstr "Asetukset"
+
+#: redirection-strings.php:620 redirection.js:2
+msgid "Two months"
+msgstr "Kaksi kuukautta"
+
+#: redirection-strings.php:619 redirection.js:2
+msgid "A month"
+msgstr "Kuukausi"
+
+#: redirection-strings.php:618 redirection-strings.php:664 redirection.js:2
+msgid "A week"
+msgstr "Viikko"
+
+#: redirection-strings.php:617 redirection-strings.php:663 redirection.js:2
+msgid "A day"
+msgstr "Päivä"
+
+#: redirection-strings.php:616 redirection.js:2
+msgid "No logs"
+msgstr "Ei lokeja"
+
+#: redirection-strings.php:244 redirection.js:2
+msgid "Use groups to organise your redirects. Groups are assigned to a module, which affects how the redirects in that group work. If you are unsure then stick to the WordPress module."
+msgstr "Käytä ryhmiä uudelleenohjauksien järjestelyyn. Ryhmät on liitetty moduuliin, mikä vaikuttaa siihen, miten uudelleenohjaukset kyseisessä ryhmässä toimivat. Jos olet epävarma, pysy WordPress-moduulissa."
+
+#: redirection-strings.php:243 redirection.js:2
+msgid "Add Group"
+msgstr "Lisää Ryhmä"
+
+#: redirection-strings.php:242 redirection.js:2
+msgid "Search"
+msgstr "Haku"
+
+#: redirection-strings.php:271 redirection-strings.php:278 redirection.js:2
+msgid "Groups"
+msgstr "Ryhmät"
+
+#: redirection-strings.php:98 redirection-strings.php:516
+#: redirection-strings.php:610 redirection.js:2
+msgid "Save"
+msgstr "Tallenna"
+
+#: redirection-strings.php:97 redirection-strings.php:341
+#: redirection-strings.php:402 redirection-strings.php:464
+#: redirection-strings.php:484 redirection.js:2
+msgid "Group"
+msgstr "Ryhmä"
+
+#: redirection-strings.php:492 redirection.js:2
+msgid "Regular Expression"
+msgstr "Säännöllinen lauseke (regex)"
+
+#: redirection-strings.php:102 redirection.js:2
+msgid "Match"
+msgstr "Vertaa"
+
+#: redirection-strings.php:504 redirection.js:2
+msgid "Add new redirection"
+msgstr "Lisää uusi uudelleenohjaus"
+
+#: redirection-strings.php:99 redirection-strings.php:296
+#: redirection-strings.php:547 redirection-strings.php:611 redirection.js:2
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: redirection-strings.php:321 redirection.js:2
+msgid "Download"
+msgstr "Lataa"
+
+#. Plugin Name of the plugin
+#: redirection.php redirection-strings.php:154 redirection-strings.php:375
+#: redirection-strings.php:552 redirection.js:2
+msgid "Redirection"
+msgstr "Redirection"
+
+#: redirection-admin.php:196
+msgid "Settings"
+msgstr "Asetukset"
+
+#: redirection-strings.php:374 redirection.js:2
+msgid "WordPress"
+msgstr "WordPress"
+
+#: actions/error.php:59 redirection-strings.php:68 redirection.js:2
+msgid "Error (404)"
+msgstr "Virhe (404)"
+
+#: actions/pass.php:75 redirection-strings.php:67 redirection.js:2
+msgid "Pass-through"
+msgstr "Läpikulku"
+
+#: actions/random.php:48 redirection-strings.php:66 redirection.js:2
+msgid "Redirect to random post"
+msgstr "Uudelleenohjaus satunnaiseen artikkeliin"
+
+#: actions/url.php:53 redirection-strings.php:65 redirection.js:2
+msgid "Redirect to URL"
+msgstr "Uudelleenohjaa osoitteeseen"
+
+#: redirection-strings.php:326 redirection-strings.php:339
+#: redirection-strings.php:349 redirection-strings.php:360
+#: redirection-strings.php:383 redirection-strings.php:392
+#: redirection-strings.php:410 redirection-strings.php:419
+#: redirection-strings.php:582 redirection.js:2
+msgid "IP"
+msgstr "IP"
+
+#: redirection-strings.php:105 redirection-strings.php:106
+#: redirection-strings.php:209 redirection-strings.php:324
+#: redirection-strings.php:333 redirection-strings.php:379
+#: redirection-strings.php:388 redirection.js:2
+msgid "Source URL"
+msgstr "Lähde-URL"
+
+#: redirection-strings.php:330 redirection-strings.php:351
+#: redirection-strings.php:385 redirection-strings.php:412 redirection.js:2
+msgid "Date"
+msgstr "Päiväys"
+
+#: redirection-strings.php:428 redirection-strings.php:435
+#: redirection-strings.php:505 redirection.js:2
+msgid "Add Redirect"
+msgstr "Lisää uudelleenohjaus"
+
+#: redirection-strings.php:249 redirection.js:2
+msgid "View Redirects"
+msgstr "Näytä uudelleenohjaukset"
+
+#: redirection-strings.php:225 redirection-strings.php:234
+#: redirection-strings.php:238 redirection-strings.php:609 redirection.js:2
+msgid "Module"
+msgstr "Moduuli"
+
+#: redirection-strings.php:227 redirection-strings.php:237
+#: redirection-strings.php:277 redirection.js:2
+msgid "Redirects"
+msgstr "Uudelleenohjaukset"
+
+#: redirection-strings.php:224 redirection-strings.php:236
+#: redirection-strings.php:245 redirection-strings.php:608 redirection.js:2
+msgid "Name"
+msgstr "Nimi"
+
+#: redirection-strings.php:48 redirection.js:2
+msgid "Filters"
+msgstr "Suodattimet"
+
+#: redirection-strings.php:471 redirection.js:2
+msgid "Reset hits"
+msgstr "Nollaa osumat"
+
+#: redirection-strings.php:240 redirection-strings.php:251
+#: redirection-strings.php:469 redirection-strings.php:510 redirection.js:2
+msgid "Enable"
+msgstr "Käytä"
+
+#: redirection-strings.php:241 redirection-strings.php:250
+#: redirection-strings.php:470 redirection-strings.php:509 redirection.js:2
+msgid "Disable"
+msgstr "Poista käytöstä"
+
+#: redirection-strings.php:239 redirection-strings.php:248
+#: redirection-strings.php:340 redirection-strings.php:377
+#: redirection-strings.php:393 redirection-strings.php:434
+#: redirection-strings.php:446 redirection-strings.php:468
+#: redirection-strings.php:508 redirection.js:2
+msgid "Delete"
+msgstr "Poista"
+
+#: redirection-strings.php:247 redirection-strings.php:507 redirection.js:2
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: redirection-strings.php:467 redirection-strings.php:481 redirection.js:2
+msgid "Last Access"
+msgstr "Käytetty viimeksi"
+
+#: redirection-strings.php:466 redirection-strings.php:480 redirection.js:2
+msgid "Hits"
+msgstr "Osumat"
+
+#: redirection-strings.php:345 redirection-strings.php:354
+#: redirection-strings.php:406 redirection-strings.php:415
+#: redirection-strings.php:460 redirection-strings.php:527
+#: redirection-strings.php:666 redirection.js:2
+msgid "URL"
+msgstr "URL"
+
+#: database/schema/latest.php:143
+msgid "Modified Posts"
+msgstr "Muokatut artikkelit"
+
+#: database/schema/latest.php:138 models/group.php:237
+#: redirection-strings.php:269 redirection.js:2
+msgid "Redirections"
+msgstr "Uudelleenohjaukset"
+
+#: redirection-strings.php:328 redirection-strings.php:338
+#: redirection-strings.php:347 redirection-strings.php:358
+#: redirection-strings.php:381 redirection-strings.php:391
+#: redirection-strings.php:408 redirection-strings.php:418
+#: redirection-strings.php:562 redirection.js:2
+msgid "User Agent"
+msgstr "Selain"
+
+#: matches/user-agent.php:24 redirection-strings.php:57 redirection.js:2
+msgid "URL and user agent"
+msgstr "URL ja user agent"
+
+#: redirection-strings.php:211 redirection-strings.php:334
+#: redirection-strings.php:561 redirection.js:2
+msgid "Target URL"
+msgstr "Kohde-URL"
+
+#: matches/url.php:15 redirection-strings.php:53 redirection.js:2
+msgid "URL only"
+msgstr "Vain URL"
+
+#: redirection-strings.php:336 redirection-strings.php:356
+#: redirection-strings.php:389 redirection-strings.php:416
+#: redirection-strings.php:477 redirection.js:2
+msgid "HTTP code"
+msgstr "HTTP-koodi"
+
+#: redirection-strings.php:88 redirection-strings.php:568
+#: redirection-strings.php:572 redirection-strings.php:580
+#: redirection-strings.php:591 redirection.js:2
+msgid "Regex"
+msgstr "Regex"
+
+#: redirection-strings.php:337 redirection-strings.php:357
+#: redirection-strings.php:390 redirection-strings.php:417
+#: redirection-strings.php:589 redirection.js:2
+msgid "Referrer"
+msgstr "Referrer"
+
+#: matches/referrer.php:24 redirection-strings.php:56 redirection.js:2
+msgid "URL and referrer"
+msgstr "URL-osoite ja referrer"
+
+#: redirection-strings.php:555 redirection.js:2
+msgid "Logged Out"
+msgstr "Kirjautumaton"
+
+#: redirection-strings.php:553 redirection.js:2
+msgid "Logged In"
+msgstr "Kirjautunut"
+
+#: matches/login.php:22 redirection-strings.php:54 redirection.js:2
+msgid "URL and login status"
+msgstr "URL-osoite ja kirjautumistila"
