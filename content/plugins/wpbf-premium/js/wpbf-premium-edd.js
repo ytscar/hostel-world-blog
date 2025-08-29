@@ -1,0 +1,1 @@
+"use strict";!function(n){var e=n(".wpbf-navigation").data("sub-menu-animation-duration");n(document).on({mouseenter:function(){n(this).find(".wpbf-edd-sub-menu").stop().fadeIn(e)},mouseleave:function(){n(this).find(".wpbf-edd-sub-menu").stop().fadeOut(e)}},".wpbf-edd-menu-item.menu-item-has-children")}(jQuery);

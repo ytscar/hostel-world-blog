@@ -1,0 +1,907 @@
+/* CSS Variables */
+
+// Will later be removed. Only here to maintain update compatibility
+:root {
+	// Colors
+	--base-color: #{$base-color-val};
+	--base-color-alt: #{$base-color-alt-val};
+
+	--brand-color: #{$brand-color-val};
+	--brand-color-alt: #{$brand-color-alt-val};
+
+	--accent-color: #{$accent-color-val};
+	--accent-color-alt: #{$accent-color-alt-val};
+}
+
+/* Navigation */
+
+// Transparent header
+.wpbf-navigation-transparent {
+	position: absolute;
+	background: transparent;
+	.wpbf-menu-stacked-advanced-wrapper {
+		background: transparent;
+	}
+	.wpbf-mobile-nav-wrapper {
+		background: transparent;
+	}
+}
+
+// Sticky header
+.wpbf-navigation-active {
+	background-color: $base-color-alt;
+	.wpbf-menu-stacked-advanced-wrapper {
+		background: #fff;
+	}
+}
+
+.wpbf-navigation-active .wpbf-nav-wrapper {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.wpbf-navigation-animate {
+	@include transition(all 0.3s);
+}
+
+.wpbf-navigation-shrink .wpbf-nav-wrapper {
+	@include transition(all 0.5s);
+}
+
+/* Stacked advanced */
+.wpbf-menu-stacked-advanced-wrapper {
+	padding-top: $padding;
+	padding-bottom: $padding;
+	background: #fff;
+	.wpbf-container {
+		align-items: center;
+		@include flex();
+	}
+	.wpbf-3-4 {
+		text-align: right;
+		*:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+// Alignment modifier (center)
+.wpbf-menu-stacked-advanced.menu-align-center {
+	.wpbf-1-4 {
+		text-align: center;
+		width: 100%;
+	}
+	.wpbf-3-4 {
+		display: none;
+	}
+	.wpbf-menu {
+		@include flex();
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+// Alignment modifier (right)
+.wpbf-menu-stacked-advanced.menu-align-right {
+	.wpbf-1-4 {
+		order: 2;
+		text-align: right;
+	}
+	.wpbf-3-4 {
+		order: 1;
+		text-align: left;
+	}
+	.wpbf-menu {
+		float: right;
+	}
+}
+
+/* Sub menu */
+
+// Sub menu animation (down)
+.wpbf-sub-menu-animation-down {
+	> .menu-item-has-children {
+		> .sub-menu {
+			margin-top: -10px;
+			opacity: 0;
+		}
+	}
+}
+
+// Sub menu animation (up)
+.wpbf-sub-menu-animation-up {
+	> .menu-item-has-children {
+		> .sub-menu {
+			margin-top: 10px;
+			opacity: 0;
+		}
+	}
+}
+
+// Sub menu animation (zoom in)
+.wpbf-sub-menu-animation-zoom-in {
+	> .menu-item-has-children {
+		> .sub-menu {
+			opacity: 0;
+			@include scale(0.95);
+		}
+	}
+}
+
+// Sub menu animation (zoom out)
+.wpbf-sub-menu-animation-zoom-out {
+	> .menu-item-has-children {
+		> .sub-menu {
+			opacity: 0;
+			@include scale(1.05);
+		}
+	}
+}
+
+/* Mega menu */
+
+// Defaults
+.wpbf-mega-menu {
+	// Mega menu container
+	> .sub-menu {
+		padding: $padding 0;
+	}
+
+	// Rows
+	> .sub-menu > .menu-item {
+		position: relative;
+		padding: 0 $padding;
+		float: left;
+
+		// All links
+		a {
+			padding: 0;
+			margin-bottom: $margin-small;
+		}
+
+		// Headlines
+		a[href="#"] {
+			color: $brand-color;
+			font-weight: 700;
+			margin-bottom: $margin;
+			cursor: default;
+			display: inline-block;
+		}
+
+		// Hide sub menu icons
+		a .wpbf-icon,
+		a .wpbff {
+			display: none;
+		}
+
+		// Remove bottom margin from very last element in column
+		> .sub-menu > .menu-item:last-child *:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	// Descriptions
+	.wpbf-menu-description {
+		margin-bottom: $margin-small;
+		p {
+			margin-bottom: $margin-small;
+			font-weight: 400;
+			font-size: $small-fontsize;
+		}
+		img {
+			width: 100%;
+			height: auto;
+			margin-bottom: $margin-small;
+		}
+	}
+}
+
+// Columns
+.wpbf-mega-menu.wpbf-mega-menu-6 > .sub-menu {
+	> .menu-item {
+		width: 16.6666%;
+	}
+}
+.wpbf-mega-menu.wpbf-mega-menu-5 > .sub-menu {
+	> .menu-item {
+		width: 20%;
+	}
+}
+.wpbf-mega-menu.wpbf-mega-menu-4 > .sub-menu {
+	> .menu-item {
+		width: 25%;
+	}
+}
+.wpbf-mega-menu.wpbf-mega-menu-3 > .sub-menu {
+	> .menu-item {
+		width: 33.3333%;
+	}
+}
+.wpbf-mega-menu.wpbf-mega-menu-2 > .sub-menu {
+	> .menu-item {
+		width: 50%;
+	}
+}
+.wpbf-mega-menu.wpbf-mega-menu-1 > .sub-menu {
+	> .menu-item {
+		width: 100%;
+	}
+}
+
+// Variations - Container width (default)
+.wpbf-mega-menu-container-width {
+	> .sub-menu {
+		left: 0;
+		width: 100%;
+	}
+}
+
+// Variations - Full width
+.wpbf-mega-menu-full-width {
+	> .sub-menu {
+		left: 0;
+		width: 100%;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 50%;
+			margin-left: -50vw;
+			width: 100vw;
+			background-color: inherit;
+			@include box-shadow(0px 0px 10px 0px rgba(#000, 0.15));
+			z-index: 0;
+		}
+	}
+}
+
+.wpbf-sub-menu > .menu-item-has-children.wpbf-mega-menu-full-width {
+	> .sub-menu {
+		box-shadow: none;
+	}
+}
+
+// Vartiations - Custom width
+.wpbf-mega-menu-custom-width {
+	position: relative;
+}
+
+// Mega menu custom width's sub-menu alignment: center
+.wpbf-sub-menu-align-center .wpbf-mega-menu-custom-width {
+	> .sub-menu {
+		left: 50%;
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+	}
+}
+
+// Mega menu custom width's sub-menu alignment: right
+.wpbf-sub-menu-align-right .wpbf-mega-menu-custom-width {
+	> .sub-menu {
+		right: 0;
+	}
+}
+
+// Hide mega menu from off-canvas menu
+.wpbf-menu-off-canvas {
+	.wpbf-mega-menu {
+		display: none;
+	}
+}
+
+/* Mobile menu */
+
+// Mobile mega menu
+.wpbf-mobile-mega-menu {
+	.sub-menu .sub-menu {
+		display: block;
+	}
+	.menu-item {
+		border-width: 0;
+	}
+	.sub-menu .menu-item {
+		.wpbf-submenu-toggle {
+			display: none;
+		}
+		a[href="#"] {
+			color: $brand-color;
+			font-weight: 700;
+			cursor: default;
+		}
+		a[href="#"]:after {
+			display: none;
+		}
+	}
+}
+
+// Hamburger Left
+// .wpbf-mobile-menu-hamburger-left {
+// 	.wpbf-mobile-nav-wrapper {
+// 		@include flex();
+// 		align-items: center;
+// 		justify-content: space-between;
+// 		width: 100%;
+// 	}
+// 	.wpbf-menu-toggle-container {
+// 		@include flex();
+// 		justify-content: flex-end;
+// 		align-items: center;
+// 		flex-direction: row-reverse;
+// 	}
+// 	.wpbf-mobile-logo-container {
+// 		text-align: right;
+// 	}
+// 	.wpbf-mobile-nav-item {
+// 		margin: 0 0 0 15px;
+// 	}
+// 	.wpbf-mobile-menu-toggle {
+// 		margin: 0;
+// 	}
+// }
+
+// Off canvas
+.wpbf-mobile-menu-off-canvas {
+	.wpbf-mobile-menu-container {
+		display: block;
+		position: fixed;
+		top: 0;
+		z-index: 777;
+		width: 320px;
+		right: -320px;
+		height: 100%;
+		padding-top: 60px;
+		@include transition(right 0.6s cubic-bezier(0, 0.085, 0, 0.99));
+	}
+	.wpbf-mobile-menu-container.active {
+		right: 0;
+	}
+	.wpbf-close {
+		position: absolute;
+		left: 0;
+		top: 0;
+		padding: $padding;
+		cursor: pointer;
+		@include transition(opacity 0.2s);
+	}
+	.wpbf-close:hover {
+		opacity: 0.5;
+	}
+}
+
+.wpbf-mobile-menu-overlay {
+	position: fixed;
+	width: 100%;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	opacity: 0;
+	background: rgba(#000, 0.5);
+	display: none;
+}
+
+/* Off canvas */
+
+.wpbf-menu-toggle {
+	font-size: 18px;
+}
+
+.wpbf-menu-off-canvas {
+	background: #fff;
+	z-index: 777;
+	width: 400px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	padding: $padding;
+	.wpbf-menu {
+		a {
+			padding: $padding-small 0;
+		}
+	}
+	.wpbf-menu .menu-item-has-children {
+		position: relative;
+		.wpbf-submenu-toggle {
+			position: absolute;
+			top: 0;
+			right: 0;
+			padding: $padding-small 0;
+			cursor: pointer;
+		}
+		.sub-menu {
+			display: none;
+			a {
+				padding: $padding-small 0 $padding-small $padding-small;
+			}
+		}
+	}
+	.wpbf-close {
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: $padding;
+		cursor: pointer;
+		@include transition(opacity 0.2s);
+	}
+	.wpbf-close:hover {
+		opacity: 0.5;
+	}
+}
+
+// Off canvas right
+.wpbf-menu-off-canvas-right {
+	@include transition(right 0.6s cubic-bezier(0, 0.085, 0, 0.99));
+	right: -400px;
+}
+
+.wpbf-menu-off-canvas-right.active {
+	right: 0;
+}
+
+// Push menu right
+.wpbf-push-menu-right {
+	left: 0;
+	position: relative;
+	overflow-x: hidden;
+	@include transition(left 0.6s cubic-bezier(0, 0.085, 0, 0.99));
+	.wpbf-navigation-active {
+		@include transition(left 0.6s cubic-bezier(0, 0.085, 0, 0.99));
+	}
+}
+
+.wpbf-push-menu-right.active {
+	left: -400px;
+	.wpbf-navigation-active {
+		left: -400px !important;
+	}
+}
+
+// Off canvas left
+.wpbf-menu-off-canvas-left {
+	@include transition(left 0.6s cubic-bezier(0, 0.085, 0, 0.99));
+	left: -400px;
+}
+
+.wpbf-menu-off-canvas-left.active {
+	left: 0;
+}
+
+// Push menu left
+.wpbf-push-menu-left {
+	left: 0;
+	position: relative;
+	overflow-x: hidden;
+	@include transition(left 0.6s cubic-bezier(0, 0.085, 0, 0.99));
+	.wpbf-navigation-active {
+		@include transition(left 0.6s cubic-bezier(0, 0.085, 0, 0.99));
+	}
+}
+
+.wpbf-push-menu-left.active {
+	left: 400px;
+	.wpbf-navigation-active {
+		left: 400px !important;
+	}
+}
+
+// Off canvas overlay
+.wpbf-menu-overlay {
+	z-index: 667; // 1px higher than sticky navigation.
+	position: fixed;
+	width: 100%;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	opacity: 0;
+	background: rgba(#000, 0.5);
+	display: none;
+}
+
+/* Full screen */
+.wpbf-menu-full-screen {
+	background: #fff;
+	display: none;
+	z-index: 777;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: $padding;
+	.wpbf-menu {
+		text-align: center;
+		@include center-align();
+	}
+	// Close icon
+	.wpbf-close {
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: $padding;
+		cursor: pointer;
+		@include transition(opacity 0.2s);
+	}
+	.wpbf-close:hover {
+		opacity: 0.5;
+	}
+	.wpbf-menu > .menu-item > a {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.wpbf-menu > .menu-item-has-children > a:after {
+		display: none;
+	}
+}
+
+/* Navigation hover effects */
+
+ul[class*="wpbf-menu-effect-"] > .menu-item > a {
+	position: relative;
+	z-index: 1;
+}
+
+// Underlined
+.wpbf-menu-effect-underlined > .menu-item > a:after {
+	content: "" !important;
+	height: 2px;
+	display: block;
+	background-color: $accent-color;
+	@include transition(all 0.3s);
+}
+
+// Underlined fade
+.wpbf-menu-effect-underlined.wpbf-menu-animation-fade > .menu-item > a:after {
+	width: 100%;
+	margin: 0;
+	opacity: 0;
+}
+
+// Underlined fade hover
+.wpbf-menu-effect-underlined.wpbf-menu-animation-fade
+	.menu-item
+	> a:hover:after {
+	opacity: 1;
+}
+
+// Underlined slide
+.wpbf-menu-effect-underlined.wpbf-menu-animation-slide > .menu-item > a:after {
+	width: 0;
+	margin: 0 auto;
+}
+
+// Underlined slide align left
+.wpbf-menu-effect-underlined.wpbf-menu-align-left > .menu-item > a:after {
+	margin: 0;
+}
+
+// Underlined slide align right
+.wpbf-menu-effect-underlined.wpbf-menu-align-right > .menu-item > a:after {
+	margin: 0;
+	float: right;
+}
+
+// Underlined slide align hover
+.wpbf-menu-effect-underlined.wpbf-menu-animation-slide
+	> .menu-item
+	> a:hover:after {
+	width: 100%;
+}
+
+// Underlined grow
+.wpbf-menu-effect-underlined.wpbf-menu-animation-grow > .menu-item > a:after {
+	@include scale(0.85);
+	width: 100%;
+	margin: 0;
+	opacity: 0;
+}
+
+// Underlined grow hover
+.wpbf-menu-effect-underlined.wpbf-menu-animation-grow
+	.menu-item
+	> a:hover:after {
+	@include scale(1);
+	opacity: 1;
+}
+
+// Underlined current menu item
+.wpbf-menu-effect-underlined > .current-menu-item > a:after {
+	width: 100% !important;
+	opacity: 1 !important;
+	-moz-transform: scale(1) !important;
+	-ms-transform: scale(1) !important;
+	-o-transform: scale(1) !important;
+	-webkit-transform: scale(1) !important;
+}
+
+// Boxed
+.wpbf-menu-effect-boxed > .menu-item > a {
+	margin: 0 3px;
+}
+
+.wpbf-menu-effect-boxed > .menu-item > a:before {
+	content: "" !important;
+	z-index: -1;
+	@include transition(all 0.3s);
+	background-color: $base-color;
+	height: 100%;
+	top: 0;
+	position: absolute;
+}
+
+// Boxed fade
+.wpbf-menu-effect-boxed.wpbf-menu-animation-fade > .menu-item > a:before {
+	left: 0;
+	opacity: 0;
+	width: 100%;
+}
+
+// Boxed fade hover
+.wpbf-menu-effect-boxed.wpbf-menu-animation-fade .menu-item > a:hover:before {
+	opacity: 1;
+}
+
+// Boxed slide
+.wpbf-menu-effect-boxed.wpbf-menu-animation-slide > .menu-item > a:before {
+	left: 50%;
+	width: 0;
+}
+
+// Boxed slide align left
+.wpbf-menu-effect-boxed.wpbf-menu-align-left > .menu-item > a:before {
+	left: 0;
+}
+
+// Boxed slide align right
+.wpbf-menu-effect-boxed.wpbf-menu-align-right > .menu-item > a:before {
+	right: 0;
+	left: auto;
+}
+
+// Boxed slide align center
+.wpbf-menu-effect-boxed.wpbf-menu-align-center .menu-item > a:hover:before {
+	left: 0;
+}
+
+// Boxed slide hover
+.wpbf-menu-effect-boxed.wpbf-menu-animation-slide .menu-item > a:hover:before {
+	width: 100%;
+}
+
+// Boxed grow
+.wpbf-menu-effect-boxed.wpbf-menu-animation-grow > .menu-item > a:before {
+	width: 100%;
+	left: 0;
+	opacity: 0;
+	@include scale(0.85);
+}
+
+// Boxed grow hover
+.wpbf-menu-effect-boxed.wpbf-menu-animation-grow .menu-item > a:hover:before {
+	opacity: 1;
+	@include scale(1);
+}
+
+// Boxed current menu item
+.wpbf-menu-effect-boxed > .current-menu-item > a:before {
+	opacity: 1 !important;
+	width: 100% !important;
+	left: 0 !important;
+	-moz-transform: scale(1) !important;
+	-ms-transform: scale(1) !important;
+	-o-transform: scale(1) !important;
+	-webkit-transform: scale(1) !important;
+}
+
+// Modern
+.wpbf-menu-effect-modern > .menu-item > a:after {
+	content: "" !important;
+	z-index: -1;
+	@include transition(all 0.3s);
+	height: 15px;
+	position: absolute;
+	margin-left: -5px;
+	bottom: 10px;
+	width: 0;
+	display: block;
+	background: $base-color;
+}
+
+// Modern hover
+.wpbf-menu-effect-modern > .menu-item > a:hover:after {
+	width: -moz-calc(100% - 30px);
+	width: -webkit-calc(100% - 30px);
+	width: -o-calc(100% - 30px);
+	width: calc(100% - 30px);
+}
+
+// Modern current menu item
+.wpbf-menu-effect-modern > .current-menu-item > a:after {
+	width: -moz-calc(100% - 30px);
+	width: -webkit-calc(100% - 30px);
+	width: -o-calc(100% - 30px);
+	width: calc(100% - 30px);
+}
+
+/**
+ * WooCommerce - Cart menu item dropdown.
+ *
+ * This is here because even with the Woo styles disabled, this is present on every page.
+ */
+
+// Outside the main navigation, display as inline-block.
+div.wpbf-woo-menu-item {
+	display: inline-block;
+}
+
+// Cart menu item - support tab navigation.
+.wpbf-sub-menu-focus > .wpbf-woo-sub-menu {
+	display: block !important;
+	opacity: 1 !important;
+}
+
+// Cart menu item.
+.wpbf-woo-menu-item {
+	position: relative; // needed/applied as this can live outside the main navigation.
+	a:after {
+		display: none;
+	}
+	.wpbf-woo-menu-item-label {
+		margin-right: 5px;
+	}
+	.wpbf-woo-menu-item-separator {
+		margin: 0 5px;
+	}
+	.wpbf-woo-sub-menu {
+		// Default sub-menu styles.
+		// This sub menu item is styled individually
+		// as it can live outside the main navigation.
+		position: absolute;
+		display: none;
+		z-index: 999;
+		background: #fff;
+		@include box-shadow(0px 0px 10px 0px rgba(#000, 0.15));
+
+		font-size: $small-fontsize;
+		padding: 0;
+		left: auto;
+		right: 0;
+		width: 340px;
+		text-align: right;
+		// Fix for WooCommerce menu item shortcode.
+		li {
+			list-style: none;
+		}
+	}
+	// .wpbf-woo-sub-menu:before {
+	// 	content: "\f10a";
+	// 	font-family: "page-builder-framework";
+	// 	position: absolute;
+	// 	right: 14px;
+	// 	top: -14px;
+	// 	line-height: 1;
+	// 	font-size: 32px;
+	// 	color: #fff;
+
+	// 	speak: none;
+	// 	font-style: normal;
+	// 	font-weight: normal;
+	// 	font-variant: normal;
+	// 	text-transform: none;
+	// 	-webkit-font-smoothing: antialiased;
+	// 	-moz-osx-font-smoothing: grayscale;
+	// }
+	.wpbf-woo-sub-menu-table-wrap {
+		padding: $padding-small $padding 0 $padding;
+	}
+	.wpbf-table {
+		text-align: left;
+		border: none;
+		margin-bottom: 0;
+		th {
+			background: transparent;
+		}
+		td,
+		th {
+			padding: 8px 0;
+			border: none;
+		}
+		tr {
+			border-bottom: 1px solid $base-color-alt;
+		}
+		th:nth-child(2),
+		td:nth-child(2) {
+			text-align: right;
+		}
+		a {
+			padding: 0 !important;
+		}
+	}
+	.wpbf-woo-sub-menu-product-wrap {
+		display: flex;
+		align-items: center;
+	}
+	.wpbf-woo-sub-menu-remove {
+		margin-right: $margin-small;
+	}
+	.wpbf-woo-sub-menu-image-wrap {
+		flex-grow: 0;
+		flex-shrink: 0;
+		flex-basis: 54px;
+		margin-right: $margin-small;
+	}
+	.wpbf-woo-sub-menu-button-wrap,
+	.wpbf-woo-sub-menu-summary-wrap {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
+	.wpbf-woo-sub-menu-summary-wrap {
+		padding: $padding-small $padding;
+		> div:first-child {
+			font-weight: 700;
+		}
+	}
+	.wpbf-button {
+		padding: $padding !important;
+		flex: 1 0 0;
+		color: $brand-color-alt;
+		border: none;
+		border-radius: 0;
+	}
+	.wpbf-button-primary {
+		color: #fff;
+	}
+	.wpbf-button-primary:hover {
+		color: #fff;
+	}
+}
+
+/* Call to action button */
+.wpbf-navigation .wpbf-menu .wpbf-cta-menu-item a,
+.wpbf-mobile-menu .wpbf-cta-menu-item a {
+	background: $accent-color;
+	color: #fff;
+}
+
+.wpbf-navigation .wpbf-menu .wpbf-cta-menu-item a:hover,
+.wpbf-mobile-menu .wpbf-cta-menu-item a:hover {
+	color: #fff;
+	background: $accent-color-alt;
+}
+
+.wpbf-navigation .wpbf-menu .wpbf-cta-menu-item.current-menu-item a {
+	color: #fff !important;
+}
+
+.wpbf-menu .wpbf-cta-menu-item a:after,
+.wpbf-menu .wpbf-cta-menu-item a:before {
+	display: none !important;
+}
+
+/* Vertical Left */
+// .wpbf-vertical-navigation-wrapper {
+// 	display: flex;
+// 	flex-wrap: wrap;
+// 	justify-content: space-between;
+// }
+
+// .wpbf-vertical-navigation-wrapper #header {
+// 	width: 20%;
+// 	align-itemx: stretch;
+// }
+
+// .wpbf-vertical-navigation-wrapper .wpbf-navigation {
+// 	height: 100%;
+// }
+
+// .wpbf-vertical-navigation-wrapper #content {
+// 	width: 80%;
+// }
+
+// .wpbf-menu-vertical {
+// 	padding: $padding;
+// 	height: 100%;
+// }

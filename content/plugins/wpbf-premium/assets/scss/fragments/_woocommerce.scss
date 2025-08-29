@@ -1,0 +1,267 @@
+/* Loop */
+
+/* Animation keyframes */
+@-webkit-keyframes loadingSpinAround {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+@keyframes loadingSpinAround {
+	from {
+		transform: rotate(0);
+	}
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+// Image flip
+.wpbf-woo-has-gallery .wp-post-image-secondary {
+	position: absolute;
+	top: 0; left: 0;
+	opacity: 0;
+	@include center-align($position: absolute);
+	object-fit: cover;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+ul.products li.wpbf-woo-has-gallery .wp-post-image {
+	@include transition(opacity .5s);
+}
+
+ul.products li.wpbf-woo-has-gallery .wpbf-woo-loop-thumbnail-wrapper:hover .wp-post-image {
+	opacity: 0;
+}
+
+ul.products li.wpbf-woo-has-gallery .wpbf-woo-loop-thumbnail-wrapper:hover .wp-post-image-secondary {
+	opacity: 1;
+}
+
+/* Quick view */
+
+// Quick view button
+.wpbf-woo-quick-view {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	right: 10px;
+	background: rgba(#000,.7);
+	color: #fff;
+	opacity: 0;
+	@include transition(opacity 0.2s);
+	text-align: center;
+	line-height: 1;
+	padding: $padding-small;
+	font-size: $small-fontsize;
+}
+
+.wpbf-woo-quick-view:hover {
+	color: #fff;
+}
+
+.wpbf-woo-loop-thumbnail-wrapper:hover .wpbf-woo-quick-view {
+	opacity: 1;
+}
+
+.single_add_to_cart_button.is-loading,
+.wpbf-woo-quick-view.is-loading {
+	color: transparent !important;
+	pointer-events: none;
+}
+
+.single_add_to_cart_button.is-loading::after,
+.wpbf-woo-quick-view.is-loading::after {
+	content: "";
+	position: absolute;
+	width: 1em;
+	display: block;
+	height: 1em;
+	border: 2px solid #dbdbdb;
+	/* border: 2px solid #814676; */
+	border-color: transparent transparent #fff #fff !important;
+	/* border-color: transparent transparent #9B5C8F #9B5C8F !important; */
+	border-radius: 290486px;
+	-webkit-animation: loadingSpinAround 0.5s infinite linear;
+	animation: loadingSpinAround 0.5s infinite linear;
+}
+
+// Add to cart button inside modal.
+.product button.single_add_to_cart_button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+// Quick view modal
+.wpbf-woo-quick-view-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(#000,.8);
+	z-index: 999;
+	.wpbf-close {
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 60px;
+		line-height: 60px;
+		width: 60px;
+		text-align: center;
+		cursor: pointer;
+		opacity: .8;
+		color: #fff;
+		@include transition(opacity 0.2s);
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+.wpbf-woo-quick-view-modal-main {
+	width: 100%;
+	height: 100%;
+}
+
+.wpbf-woo-quick-view-modal-content {
+	z-index: 9999;
+	width: 900px;
+	max-width: 75%;
+	max-height: 75%;
+	overflow: auto;
+	@include center-align();
+	background: #fff;
+
+	div.product {
+		div.images {
+			margin-bottom: 0;
+		}
+		div.summary {
+			margin-bottom: 0;
+			padding: $padding-medium;
+		}
+		figure {
+			margin-bottom: 0;
+		}
+	}
+
+	.product.product-type-grouped {
+		div.summary {
+			padding: $padding-medium / 2;
+		}
+	}
+}
+
+.wpbf-woo-menu-item-popup-overlay {
+	position: fixed;
+	background: rgba(#000,.2);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 444;
+	display: none;
+}
+
+// Since we're using WooCommerce' block function, let's remove the default preloader.
+.wpbf-woo-sub-menu .blockUI.blockOverlay::before {
+	background: none;
+}
+
+.wpbf-woo-quick-view .blockUI.blockOverlay::before {
+	background: none;
+}
+
+.single_add_to_cart_button.button.alt .blockUI.blockOverlay::before{
+	background: none;
+}
+
+/* Distraction free checkout */
+.wpbf-distraction-free {
+	text-align: center;
+}
+
+/* Off canvas sidebar */
+.wpbf-woo-off-canvas-sidebar-button {
+	cursor: pointer;
+	margin: 0 $margin $margin 0;
+	padding: $padding-small $padding;
+	background: $accent-color;
+	color: #fff;
+	vertical-align: middle;
+	display: inline-block;
+	+ .woocommerce-result-count {
+		float: none;
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+
+.wpbf-woo-off-canvas-sidebar,
+.wpbf-woo-off-canvas-sidebar-overlay {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+}
+
+.wpbf-woo-off-canvas-sidebar {
+	width: 300px;
+	background: #fff;
+	z-index: 999;
+	padding: 30px;
+	left: -300px;
+	overflow-y: auto;
+	@include transition(left 0.5s cubic-bezier(0.000, 0.085, 0.000, 0.990));
+	&.active {
+		left: 0;
+	}
+	.wpbf-close {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 40px;
+		width: 40px;
+		line-height: 40px;
+		text-align: center;
+		cursor: pointer;
+		@include transition(opacity .2s);
+		&:hover {
+			opacity: .8;
+		}
+	}
+	.widget {
+		margin-bottom: 30px;
+	}
+}
+
+.wpbf-woo-off-canvas-sidebar-overlay {
+	width: 100%;
+	background: rgba(#000,.2);
+	z-index: 888;
+	display: none;
+}
+
+/* Admin bar */
+.woocommerce.admin-bar {
+	.wpbf-woo-quick-view-modal .wpbf-close,
+	.wpbf-woo-off-canvas-sidebar {
+		top: 32px;
+	}
+}
+
+/* Infinite scroll */
+.wpbf-woo-infinite-scroll-loader {
+	width: 100%;
+	text-align: center;
+}

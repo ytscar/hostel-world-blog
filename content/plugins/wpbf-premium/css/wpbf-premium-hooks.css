@@ -1,0 +1,64 @@
+#wpbf_hooks_location .inside,
+#wpbf_hooks_display_rules .inside,
+#wpbf_hooks_is_logged_in .inside {
+	padding: 0;
+	margin: 0;
+}
+
+.wpbf-table {
+	margin: 0;
+}
+
+.wpbf-table .wpbf-th {
+	background: #f9f9f9;
+	padding: 20px 10px;
+	border-bottom: 1px solid #eee;
+}
+
+.wpbf-table .wpbf-td {
+	border-bottom: 1px solid #eee;
+	border-left: 1px solid #eee;
+}
+
+.wpbf-table .wpbf-td select,
+.wpbf-table .wpbf-td input:not([type="checkbox"]) {
+	width: 100%;
+}
+
+.wpbf-table .rule-wrapper:before,
+.wpbf-table .rule-wrapper:after {
+	content: "";
+	display: table;
+}
+
+.wpbf-table .rule-wrapper:after {
+	clear: both;
+}
+
+.wpbf-field.is-half {
+	width: 43%;
+}
+
+.wpbf-table .rule-wrapper .parent-rule-select,
+.wpbf-table .rule-wrapper .child-rule-select {
+	float: left;
+	width: 43%;
+	padding-right: 2%;
+	padding-bottom: 10px;
+}
+
+.wpbf-table .rule-wrapper .rule-remove {
+	float: left;
+	width: 10%;
+	text-align: center;
+}
+
+.wpbf-table .rule-wrapper .rule-remove .remove-rule {
+	cursor: pointer;
+	color: #aaa;
+	padding-top: 6px;
+}
+
+.wpbf-table .rule-wrapper .rule-remove .remove-rule:hover {
+	color: tomato;
+}
