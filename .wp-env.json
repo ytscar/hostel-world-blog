@@ -1,0 +1,13 @@
+{
+	"plugins": ["."],
+	"phpVersion": "8.2",
+	"port": 8274,
+	"testsPort": 8275,
+	"config": {
+		"WP_SITEURL": "http://hostel-world-blog.localhost",
+		"WP_HOME": "http://hostel-world-blog.localhost"
+	},
+  "mappings": {
+    "wp-content": "./content"
+  }
+}
