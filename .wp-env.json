@@ -9,6 +9,7 @@
 	},
   "mappings": {
     "wp-content": "./content",
+    "wp-config.php": "./config.php",
     "hostelworldblog.sql": "./hostelworldblog.sql"
   }
 }
