@@ -2,6 +2,10 @@
 
 Base repo & plugin for fixing bugs and resolving issues in the blog website.
 
+<img width="1236" height="715" alt="Screenshot 2025-08-29 at 2 31 36 PM" src="https://github.com/user-attachments/assets/3b126f7f-3954-4930-882a-b4f592df1420" />
+
+---
+
 > <span style="color:red">**PRE-REQUISITES:**</span>
 >
 > As a first step, you should have Composer, Yarn & Docker installed on your computer.
