@@ -33,7 +33,7 @@ msgid "Base repo & plugin for fixing bugs and resolving issues in the blog websi
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "https://github.com/hostelworld/hostel-world-blog"
+msgid "https://github.com/ytscar/hostel-world-blog"
 msgstr ""
 
 #. Author of the plugin/theme
